@@ -1,0 +1,196 @@
+#ex2 WHERE
+
+%load_ext sql
+%sql mysql://studentuser:studentpw@mysqlserver/dognitiondb
+%sql USE dognitiondb
+
+%%sql
+SELECT user_guid, free_start_user
+FROM users
+WHERE free_start_user=1
+LIMIT 10;
+
+SELECT dog_guid
+FROM dogs
+WHERE dna_tested=1;
+
+#state是NC或NY
+SELECT *
+FROM users
+WHERE state in ("NC","NY");
+
+SELECT dog_guid,updated_at
+FROM complete_tests
+WHERE updated_at < '2015-10-15';
+
+SELECT user_guid
+FROM users
+WHERE state IS NOT NULL;
+
+DESCRIBE reviews;
+SELECT dog_guid,subcategory_name,test_name
+FROM reviews
+WHERE YEAR(created_at) = "2014"
+LIMIT 10;
+
+#breed包含词terrier
+DESCRIBE dogs;
+SELECT user_guid
+FROM dogs
+WHERE gender="female" AND breed LIKE ("%terrier%")
+
+DESCRIBE complete_tests;
+SELECT dog_guid,test_name,subcategory_name,created_at
+FROM complete_tests
+WHERE YEAR(created_at) = "2014" AND MONTH(created_at)="10"
+LIMIT 100;
+
+#函数DAYNAME DAY
+
+#AS 修改列名
+SELECT start_time AS "exam start time"
+FROM exam_answers
+LIMIT 10;
+
+#
+SELECT DISTINCT breed
+FROM dogs;
+
+SELECT DISTINCT state, city
+FROM users;
+
+#order by 排序 默认升序
+SELECT DISTINCT breed
+FROM dogs 
+ORDER BY breed DESC/ASC 
+LIMIT 100;
+
+SELECT DISTINCT user_guid, state, membership_type
+FROM users
+WHERE country="US"
+ORDER BY state ASC, membership_type ASC
+
+
+#输出txt
+breed_list = %sql SELECT DISTINCT breed FROM dogs ORDER BY breed;
+breed_list.csv('breed_list.csv')
+
+
+#DISTINCT
+SELECT DISTINCT breed,
+REPLACE(breed,'-','') AS breed_fixed
+FROM dogs
+ORDER BY breed_fixed
+
+
+#TRIM
+SELECT DISTINCT breed, TRIM(LEADING '-' FROM breed) AS breed_fixed
+FROM dogs
+ORDER BY breed_fixed
+LIMIT 100;
+
+##---------------Lesson 6:Teradata Viewpoint------------------##
+Database ua_dillards;
+
+HELP TABLE deptinfo;
+
+HELP COLUMN ;
+
+SHOW table deptinfo; #每个字段的要求
+
+SELECT TOP 100 *
+FROM deptinfo;
+
+SELECT str.state, str.city, sku.dept, SUM(t.amt) AS Total_Sales
+
+FROM strinfo str, skuinfo sku, trnsact t
+
+WHERE t.store=str.store AND t.sku = sku.sku
+
+GROUP BY str.state, str.city, sku.dept
+
+
+SELECT TOP 10 *
+ FROM strinfo
+ ORDER BY city DESC
+
+#随机选10行
+SELECT *
+ FROM strinfo 
+ SAMPLE 10
+
+
+#随机选10%
+SELECT *
+ FROM strinfo
+ SAMPLE .10
+
+#distinct和top不能一起用
+#只接受单引号
+#<>表示不等（mysql还可以!=)
+
+
+##---------------MySQL_Ex4:Summarizing Data------------------##
+###1.COUNT
+SELECT COUNT(breed)
+FROM dogs
+
+SELECT COUNT(DISTINCT breed)
+  FROM dogs
+
+#When a column is included in the parentheses, null values are automatically ignored.
+SELECT COUNT(DISTINCT Dog_Guid)
+  FROM complete_tests
+
+#计算行数
+SELECT COUNT(*)
+FROM dogs;
+
+SELECT COUNT(exclude)
+FROM dogs;
+#后者的结果比前者少很多，是因为，当列名放在count函数中时，null 值被忽略了。而星号情况，null值会记入总数。
+
+#计数exclude列有多少null值
+SELECT SUM(ISNULL(exclude))
+FROM dogs
+
+
+###2.AVG MIN MAX
+SELECT test_name, 
+AVG(rating) AS AVG_Rating, 
+MIN(rating) AS MIN_Rating, 
+MAX(rating) AS MAX_Rating
+FROM reviews
+WHERE test_name="Eye Contact Game";
+
+
+###3.timestampdiff
+#单位分钟，若时长小于1min，输出0
+SELECT TIMESTAMPDIFF(MINUTE,start_time,end_time) as Duration
+FROM exam_answers
+LIMIT 100
+
+#新计算的列，不是原表的列，需要多次引用
+SELECT COUNT(TIMESTAMPDIFF(MINUTE,start_time,end_time))
+FROM exam_answers
+WHERE TIMESTAMPDIFF(MINUTE,start_time,end_time)<0
+
+
+##---------MySQL_Ex5:Breaking Summaries into Groups--------------##
+#The GROUP BY clause comes after the WHERE clause, but before ORDER BY or LIMIT
+SELECT test_name, AVG(rating) AS AVG_Rating
+FROM reviews
+GROUP BY test_name
+ #注意：group by的列必须包含在SELECT中（testname）
+
+
+SELECT test_name, MONTH(created_at) AS Month, COUNT(created_at) AS Num_Completed_Tests
+FROM complete_tests
+GROUP BY Month;
+#有时候alias（Month）不被识别，那么就重新写一遍 MONTH（created_at)
+
+SELECT test_name, MONTH(created_at) AS Month, COUNT(created_at) AS Num_Completed_Tests
+FROM complete_tests
+GROUP BY test_name, Month
+ORDER BY test_name ASC, Month ASC;
+

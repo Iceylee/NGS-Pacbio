@@ -1,0 +1,998 @@
+Registry Loaded. Number of ToolContracts:181 FileTypes:66 ChunkOperators:24 Pipelines:62
+**** Pipeline Summary ****
+id            : pbsmrtpipe.pipelines.sa3_ds_isoseq
+version       : 0.2.0
+name          : Iso-Seq
+Tags       : mapping,ccs,isoseq
+Description:
+ Main Iso-Seq pipeline, starting from subreads.
+
+**** Entry points (1) ****
+$entry:eid_subread
+
+**** Bindings (31) ****
+                             pbtranscript.tasks.create_chunks:0 -> pbtranscript.tasks.cluster_bins:0
+                             pbtranscript.tasks.create_chunks:2 -> pbtranscript.tasks.ice_polish_cluster_bins:0
+                                             $entry:eid_subread -> pbcoretools.tasks.filterdataset:0
+                                              pbccs.tasks.ccs:0 -> pbtranscript.tasks.cluster_bins:1
+                             pbtranscript.tasks.create_chunks:2 -> pbtranscript.tasks.gather_polished_isoforms_in_each_bin:0
+                                  pbtranscript.tasks.classify:3 -> pbreports.tasks.isoseq_classify:1
+    pbtranscript.tasks.gather_ice_partial_cluster_bins_pickle:0 -> pbtranscript.tasks.ice_polish_cluster_bins:1
+                              pbtranscript.tasks.cluster_bins:0 -> pbtranscript.tasks.ice_partial_cluster_bins:1
+                                              pbccs.tasks.ccs:0 -> pbtranscript.tasks.ice_partial_cluster_bins:2
+                                             $entry:eid_subread -> pbtranscript.tasks.ice_polish_cluster_bins:2
+                             pbtranscript.tasks.create_chunks:0 -> pbtranscript.tasks.combine_cluster_bins:0
+                                              pbccs.tasks.ccs:0 -> pbtranscript.tasks.classify:0
+                             pbtranscript.tasks.separate_flnc:0 -> pbtranscript.tasks.create_chunks:0
+                      pbtranscript.tasks.combine_cluster_bins:4 -> pbreports.tasks.isoseq_cluster:2
+                      pbtranscript.tasks.combine_cluster_bins:0 -> pbreports.tasks.isoseq_cluster:0
+                                              pbccs.tasks.ccs:0 -> pbreports.tasks.ccs_report:0
+                                              pbccs.tasks.ccs:0 -> pbcoretools.tasks.bam2fastq_ccs:0
+                      pbtranscript.tasks.combine_cluster_bins:1 -> pbreports.tasks.isoseq_cluster:1
+                             pbtranscript.tasks.create_chunks:0 -> pbtranscript.tasks.ice_cleanup:0
+                                  pbtranscript.tasks.classify:2 -> pbtranscript.tasks.create_chunks:1
+                  pbtranscript.tasks.ice_partial_cluster_bins:0 -> pbtranscript.tasks.gather_ice_partial_cluster_bins_pickle:1
+                                  pbtranscript.tasks.classify:1 -> pbtranscript.tasks.separate_flnc:0
+                      pbtranscript.tasks.combine_cluster_bins:6 -> pbreports.tasks.isoseq_cluster:3
+                                              pbccs.tasks.ccs:0 -> pbcoretools.tasks.bam2fasta_ccs:0
+                             pbtranscript.tasks.create_chunks:1 -> pbtranscript.tasks.ice_partial_cluster_bins:0
+      pbtranscript.tasks.gather_polished_isoforms_in_each_bin:0 -> pbtranscript.tasks.ice_cleanup:1
+                   pbtranscript.tasks.ice_polish_cluster_bins:0 -> pbtranscript.tasks.gather_polished_isoforms_in_each_bin:1
+                             pbtranscript.tasks.create_chunks:1 -> pbtranscript.tasks.gather_ice_partial_cluster_bins_pickle:0
+                                  pbtranscript.tasks.classify:1 -> pbreports.tasks.isoseq_classify:0
+                              pbcoretools.tasks.filterdataset:0 -> pbccs.tasks.ccs:0
+      pbtranscript.tasks.gather_polished_isoforms_in_each_bin:0 -> pbtranscript.tasks.combine_cluster_bins:1
+Number of Options 159
+   Option #1 Id : pbcoretools.task_options.read_length
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum subread length
+    Description : Minimum length of subreads
+
+   Option #2 Id : pbcoretools.task_options.other_filters
+        Type Id : string
+        Default :
+   Display Name : Filters to add to the DataSet
+    Description : A comma separated list of other filters to add to the DataSet
+
+   Option #3 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+   Option #4 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+   Option #5 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+   Option #6 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+   Option #7 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+   Option #8 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+   Option #9 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+  Option #10 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+  Option #11 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+  Option #12 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+  Option #13 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+  Option #14 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+  Option #15 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+  Option #16 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+  Option #17 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Accuracy of polished isoforms
+    Description : Minimum Acuuracy of polished isoforms
+
+  Option #18 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end.
+
+  Option #19 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end.
+
+  Option #20 Id : pbtranscript.task_options.primer_sequences
+        Type Id : string
+        Default :
+   Display Name : Customer Primer Sequences
+    Description : Customer primer sequences.
+
+  Option #21 Id : pbtranscript.task_options.min_seq_len
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Sequence Length
+    Description : Minimum sequence length to output (default: 50)
+
+  Option #22 Id : pbtranscript.task_options.require_polya
+        Type Id : boolean
+        Default : True
+   Display Name : Require polyA
+    Description : FL requires polyA tail (default: turned on)
+
+  Option #23 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+  Option #24 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+  Option #25 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+  Option #26 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+  Option #27 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+  Option #28 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+  Option #29 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+  Option #30 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+  Option #31 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+  Option #32 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+  Option #33 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+  Option #34 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+  Option #35 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+  Option #36 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+  Option #37 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+  Option #38 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+  Option #39 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+  Option #40 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
+
+  Option #41 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+  Option #42 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+  Option #43 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+  Option #44 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+  Option #45 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+  Option #46 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+  Option #47 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+  Option #48 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+  Option #49 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+  Option #50 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+  Option #51 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+  Option #52 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+  Option #53 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+  Option #54 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+  Option #55 Id : pbtranscript.task_options.primer_sequences
+        Type Id : string
+        Default :
+   Display Name : Customer Primer Sequences
+    Description : Customer primer sequences.
+
+  Option #56 Id : pbtranscript.task_options.min_seq_len
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Sequence Length
+    Description : Minimum sequence length to output (default: 50)
+
+  Option #57 Id : pbtranscript.task_options.require_polya
+        Type Id : boolean
+        Default : True
+   Display Name : Require polyA
+    Description : FL requires polyA tail (default: turned on)
+
+  Option #58 Id : pbtranscript.task_options.bin_size_kb
+        Type Id : integer
+        Default : 1
+   Display Name : Bin by read length in KB
+    Description : Bin size by kb (default: 1)
+
+  Option #59 Id : pbtranscript.task_options.bin_manual
+        Type Id : string
+        Default : []
+   Display Name : Bin by read length manually
+    Description : Bin manual (ex: (1,2,3,5)), overwrites bin_size_kb (default: [])
+
+  Option #60 Id : pbtranscript.task_options.bin_by_primer
+        Type Id : boolean
+        Default : False
+   Display Name : Bin by primer
+    Description : Instead of binning by size, bin by primer (overwrites --bin_size_kb and --bin_manual) (default: False)
+
+  Option #61 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+  Option #62 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+  Option #63 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+  Option #64 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
+
+  Option #65 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+  Option #66 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+  Option #67 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+  Option #68 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
+
+  Option #69 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+  Option #70 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+  Option #71 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+  Option #72 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+  Option #73 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+  Option #74 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+  Option #75 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+  Option #76 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+  Option #77 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+  Option #78 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+  Option #79 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+  Option #80 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+  Option #81 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+  Option #82 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+  Option #83 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+  Option #84 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+  Option #85 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+  Option #86 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+  Option #87 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+  Option #88 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+  Option #89 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+  Option #90 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+  Option #91 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+  Option #92 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+  Option #93 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+  Option #94 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+  Option #95 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+  Option #96 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+  Option #97 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+  Option #98 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+  Option #99 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+ Option #100 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
+
+ Option #101 Id : pbtranscript.task_options.primer_sequences
+        Type Id : string
+        Default :
+   Display Name : Customer Primer Sequences
+    Description : Customer primer sequences.
+
+ Option #102 Id : pbtranscript.task_options.min_seq_len
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Sequence Length
+    Description : Minimum sequence length to output (default: 50)
+
+ Option #103 Id : pbtranscript.task_options.require_polya
+        Type Id : boolean
+        Default : True
+   Display Name : Require polyA
+    Description : FL requires polyA tail (default: turned on)
+
+ Option #104 Id : pbtranscript.task_options.primer_sequences
+        Type Id : string
+        Default :
+   Display Name : Customer Primer Sequences
+    Description : Customer primer sequences.
+
+ Option #105 Id : pbtranscript.task_options.min_seq_len
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Sequence Length
+    Description : Minimum sequence length to output (default: 50)
+
+ Option #106 Id : pbtranscript.task_options.require_polya
+        Type Id : boolean
+        Default : True
+   Display Name : Require polyA
+    Description : FL requires polyA tail (default: turned on)
+
+ Option #107 Id : pbtranscript.task_options.bin_size_kb
+        Type Id : integer
+        Default : 1
+   Display Name : Bin by read length in KB
+    Description : Bin size by kb (default: 1)
+
+ Option #108 Id : pbtranscript.task_options.bin_manual
+        Type Id : string
+        Default : []
+   Display Name : Bin by read length manually
+    Description : Bin manual (ex: (1,2,3,5)), overwrites bin_size_kb (default: [])
+
+ Option #109 Id : pbtranscript.task_options.bin_by_primer
+        Type Id : boolean
+        Default : False
+   Display Name : Bin by primer
+    Description : Instead of binning by size, bin by primer (overwrites --bin_size_kb and --bin_manual) (default: False)
+
+ Option #110 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+ Option #111 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+ Option #112 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+ Option #113 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
+
+ Option #114 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+ Option #115 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+ Option #116 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+ Option #117 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+ Option #118 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+ Option #119 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+ Option #120 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+ Option #121 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+ Option #122 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+ Option #123 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+ Option #124 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+ Option #125 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+ Option #126 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+ Option #127 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+ Option #128 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Accuracy of polished isoforms
+    Description : Minimum Acuuracy of polished isoforms
+
+ Option #129 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end.
+
+ Option #130 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end.
+
+ Option #131 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Accuracy of polished isoforms
+    Description : Minimum Acuuracy of polished isoforms
+
+ Option #132 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end.
+
+ Option #133 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end.
+
+ Option #134 Id : pbtranscript.task_options.primer_sequences
+        Type Id : string
+        Default :
+   Display Name : Customer Primer Sequences
+    Description : Customer primer sequences.
+
+ Option #135 Id : pbtranscript.task_options.min_seq_len
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Sequence Length
+    Description : Minimum sequence length to output (default: 50)
+
+ Option #136 Id : pbtranscript.task_options.require_polya
+        Type Id : boolean
+        Default : True
+   Display Name : Require polyA
+    Description : FL requires polyA tail (default: turned on)
+
+ Option #137 Id : pbcoretools.task_options.read_length
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum subread length
+    Description : Minimum length of subreads
+
+ Option #138 Id : pbcoretools.task_options.other_filters
+        Type Id : string
+        Default :
+   Display Name : Filters to add to the DataSet
+    Description : A comma separated list of other filters to add to the DataSet
+
+ Option #139 Id : pbccs.task_options.by_strand
+        Type Id : boolean
+        Default : False
+   Display Name : By Strand CCS
+    Description : Generate a consensus for each strand.
+
+ Option #140 Id : pbccs.task_options.max_drop_fraction
+        Type Id : float
+        Default : 0.8
+   Display Name : Maximum Dropped Fraction
+    Description : Maximum fraction of subreads that can be dropped before giving up.
+
+ Option #141 Id : pbccs.task_options.max_length
+        Type Id : integer
+        Default : 15000
+   Display Name : Maximum Subread Length
+    Description : Maximum length of subreads to use for generating CCS.
+
+ Option #142 Id : pbccs.task_options.min_length
+        Type Id : integer
+        Default : 50
+   Display Name : Minimum Subread Length
+    Description : Minimum length of subreads to use for generating CCS.
+
+ Option #143 Id : pbccs.task_options.min_passes
+        Type Id : integer
+        Default : 0
+   Display Name : Minimum Number of Passes
+    Description : Minimum number of subreads required to generate CCS.
+
+ Option #144 Id : pbccs.task_options.min_predicted_accuracy
+        Type Id : float
+        Default : 0.8
+   Display Name : Minimum Predicted Accuracy
+    Description : Minimum predicted accuracy in [0, 1].
+
+ Option #145 Id : pbccs.task_options.min_read_score
+        Type Id : float
+        Default : 0.65
+   Display Name : Minimal Read Score
+    Description : Minimum read score of input subreads.
+
+ Option #146 Id : pbccs.task_options.min_snr
+        Type Id : float
+        Default : 3.75
+   Display Name : Minimum SNR
+    Description : Minimum SNR of input subreads.
+
+ Option #147 Id : pbccs.task_options.min_zscore
+        Type Id : float
+        Default : -9999
+   Display Name : Minimum Z Score
+    Description : Minimum z-score to use a subread. NaN disables this filter.
+
+ Option #148 Id : pbccs.task_options.model_path
+        Type Id : string
+        Default :
+   Display Name : Model(s) Path
+    Description : Path to a model file or directory containing model files.
+
+ Option #149 Id : pbccs.task_options.model_spec
+        Type Id : string
+        Default :
+   Display Name : Model Override
+    Description : Name of chemistry or model to use, overriding default selection.
+
+ Option #150 Id : pbccs.task_options.polish
+        Type Id : boolean
+        Default : False
+   Display Name : Polish CCS
+    Description : Emit high-accuracy CCS sequences polished using the Arrow algorithm
+
+ Option #151 Id : pbccs.task_options.report_file
+        Type Id : string
+        Default : ccs_report.txt
+   Display Name : Report File Output
+    Description : Where to write the results report.
+
+ Option #152 Id : pbccs.task_options.rich_qvs
+        Type Id : boolean
+        Default : False
+   Display Name : Emit individual QVs
+    Description : Emit dq, iq, and sq "rich" quality tracks.
+
+ Option #153 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Accuracy of polished isoforms
+    Description : Minimum Acuuracy of polished isoforms
+
+ Option #154 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end.
+
+ Option #155 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end.
+
+ Option #156 Id : pbtranscript.task_options.hq_quiver_min_accuracy
+        Type Id : float
+        Default : 0.99
+   Display Name : Minimum Quiver|Arrow Accuracy
+    Description : Minimum allowed quiver accuracy to classify an isoform as hiqh-quality (default: 0.99)
+
+ Option #157 Id : pbtranscript.task_options.qv_trim_5p
+        Type Id : integer
+        Default : 100
+   Display Name : Trim QVs 5'
+    Description : Ignore QV of n bases in the 5' end (default 100).
+
+ Option #158 Id : pbtranscript.task_options.qv_trim_3p
+        Type Id : integer
+        Default : 30
+   Display Name : Trim QVs 3'
+    Description : Ignore QV of n bases in the 3' end (default 30).
+
+ Option #159 Id : pbtranscript.task_options.sample_name
+        Type Id : string
+        Default :
+   Display Name : sample Name
+    Description : Sample Name
