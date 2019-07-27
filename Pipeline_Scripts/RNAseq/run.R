@@ -19,7 +19,7 @@ have_replicates <- args[5]
 
 #directories <- list.files(output_path)
 
-scriptPath="/data1/script/deseq2+GO+KEGG/Rpipe/"
+scriptPath="/Users/Icey/Documents/GitHub/NGS-Pacbio-bk/Pipeline_Scripts/RNAseq/"
 #scriptPath="/Users/Icey/Documents/GitHub/R/deseq2-ver2/"
 script1 = paste(scriptPath,"1deseq2-cor-heatmap.R",sep="")
 script2_1 = paste(scriptPath,"2.1deseq2-volcano.R",sep="")

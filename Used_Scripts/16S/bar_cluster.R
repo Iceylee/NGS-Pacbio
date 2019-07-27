@@ -2,16 +2,16 @@
 library("phyloseq")
 library("ggplot2")
 library("dplyr")
-library(cowplot)
-library(dendextend)
-library(ggdendro)
-require(gdata)
+library("cowplot")
+library("dendextend")
+library("ggdendro")
+require("gdata")
 
 theme_set(theme_light())
 
-############################
-#0. Data
-############################
+
+# 0. Data====================================
+
 data("GlobalPatterns")
 physeq = GlobalPatterns
 
@@ -43,10 +43,8 @@ require(dplyr)
 physeq3 = physeq3 %>%
   arrange(Sample)
 
+# 1. ggplot dendrogram====================================
 
-############################
-#1. ggplot dendrogram
-############################
 dend <- dend %>%
   set("branches_lwd", 0.7) %>%
   set("labels_cex", 0.6) %>%
@@ -56,9 +54,8 @@ ggd1 <- as.ggdend(dend)
 p1 <- ggplot(ggd1, horiz = TRUE, labels = FALSE) + 
   theme(panel.border = element_blank())
 
-############################
-#2. 根据sample 类型分配颜色 （自动按sample类型个数来分配颜色
-############################
+
+#2. 自动按sample类型个数分配颜色====================================
 
 n_smp_types <- length(unique(physeq3$SampleType))
 
@@ -74,9 +71,9 @@ col_branch <- as.character(col_branch) #cha格式ggplot才会识别为颜色
 
 
 
-############################
-#3. Plot stack bar
-############################
+
+# 3. Plot stack bar====================================
+
 plot_colors <- c(
   "#CBD588", "#5F7FC7", "orange","#DA5724", "#508578", "#CD9BCD",
   "#AD6F3B", "#673770","#D14285", "#652926", "#C84248", 
@@ -88,9 +85,9 @@ p2 <- ggplot(physeq3, aes_string(fill=Plot_Rank, y="Abundance", x="Sample")) +
   scale_fill_manual(values = plot_colors) +
   theme(axis.title.y = element_blank(),axis.text.y = element_text(colour = as.character(col_branch)))
 
-############################
-#4. Combine
-############################
+
+# 4. Combine====================================
+
 # scale调整p1和p2相对高度，使每一个sample对应上 
 p <- plot_grid(p1, p2, scale = c(1.05,1),align = "h",rel_widths = c(1.3,5))
 ggsave(paste(Plot_Rank,"_cluster.pdf",sep=""),p, width=10, height=7, units="in")
