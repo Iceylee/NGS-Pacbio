@@ -1,0 +1,200 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ncurses 5.9*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/readline-6.2-0",
+  "features": "",
+  "files": [
+    "include/readline/chardefs.h",
+    "include/readline/history.h",
+    "include/readline/keymaps.h",
+    "include/readline/readline.h",
+    "include/readline/rlconf.h",
+    "include/readline/rlstdc.h",
+    "include/readline/rltypedefs.h",
+    "include/readline/tilde.h",
+    "lib/libhistory.a",
+    "lib/libhistory.so",
+    "lib/libhistory.so.6",
+    "lib/libhistory.so.6.2",
+    "lib/libreadline.a",
+    "lib/libreadline.so",
+    "lib/libreadline.so.6",
+    "lib/libreadline.so.6.2",
+    "share/info/dir",
+    "share/info/history.info",
+    "share/info/readline.info",
+    "share/info/rluserman.info",
+    "share/man/man3/history.3",
+    "share/man/man3/readline.3",
+    "share/readline/excallback.c",
+    "share/readline/fileman.c",
+    "share/readline/histexamp.c",
+    "share/readline/manexamp.c",
+    "share/readline/rl-fgets.c",
+    "share/readline/rl.c",
+    "share/readline/rlcat.c",
+    "share/readline/rlevent.c",
+    "share/readline/rlptytest.c",
+    "share/readline/rltest.c",
+    "share/readline/rlversion.c"
+  ],
+  "fn": "readline-6.2-0.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/readline-6.2-0",
+    "type": 1
+  },
+  "md5": "c97d7e19a7b229c0838cb66fa3bf8f7c",
+  "name": "readline",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/readline-6.2-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/readline/chardefs.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/history.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/keymaps.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/readline.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/rlconf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/rlstdc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/rltypedefs.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/readline/tilde.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libhistory.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libhistory.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libhistory.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libhistory.so.6.2",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libreadline.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libreadline.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libreadline.so.6",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libreadline.so.6.2",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/dir",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/history.info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/readline.info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/rluserman.info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/history.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/readline.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/excallback.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/fileman.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/histexamp.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/manexamp.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rl-fgets.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rl.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rlcat.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rlevent.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rlptytest.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rltest.c",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/readline/rlversion.c",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 730387,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/readline-6.2-0.tar.bz2",
+  "version": "6.2"
+}

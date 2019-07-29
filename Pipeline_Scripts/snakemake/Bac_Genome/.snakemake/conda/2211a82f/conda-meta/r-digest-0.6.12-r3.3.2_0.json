@@ -1,0 +1,169 @@
+{
+  "arch": "x86_64",
+  "build": "r3.3.2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc",
+    "r-base 3.3.2*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-digest-0.6.12-r3.3.2_0",
+  "features": "",
+  "files": [
+    "lib/R/library/digest/DESCRIPTION",
+    "lib/R/library/digest/GPL-2",
+    "lib/R/library/digest/INDEX",
+    "lib/R/library/digest/Meta/Rd.rds",
+    "lib/R/library/digest/Meta/hsearch.rds",
+    "lib/R/library/digest/Meta/links.rds",
+    "lib/R/library/digest/Meta/nsInfo.rds",
+    "lib/R/library/digest/Meta/package.rds",
+    "lib/R/library/digest/Meta/vignette.rds",
+    "lib/R/library/digest/NAMESPACE",
+    "lib/R/library/digest/R/digest",
+    "lib/R/library/digest/R/digest.rdb",
+    "lib/R/library/digest/R/digest.rdx",
+    "lib/R/library/digest/doc/index.html",
+    "lib/R/library/digest/doc/sha1.R",
+    "lib/R/library/digest/doc/sha1.Rmd",
+    "lib/R/library/digest/doc/sha1.html",
+    "lib/R/library/digest/help/AnIndex",
+    "lib/R/library/digest/help/aliases.rds",
+    "lib/R/library/digest/help/digest.rdb",
+    "lib/R/library/digest/help/digest.rdx",
+    "lib/R/library/digest/help/paths.rds",
+    "lib/R/library/digest/html/00Index.html",
+    "lib/R/library/digest/html/R.css",
+    "lib/R/library/digest/include/pmurhashAPI.h",
+    "lib/R/library/digest/libs/digest.so"
+  ],
+  "fn": "r-digest-0.6.12-r3.3.2_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-digest-0.6.12-r3.3.2_0",
+    "type": 1
+  },
+  "md5": "29000d9fedd5bc15450169cc99aa4bdc",
+  "name": "r-digest",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-digest-0.6.12-r3.3.2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/digest/DESCRIPTION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/GPL-2",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/INDEX",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/Rd.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/hsearch.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/links.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/nsInfo.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/package.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/Meta/vignette.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/NAMESPACE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/R/digest",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/R/digest.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/R/digest.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/doc/index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/doc/sha1.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/doc/sha1.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/doc/sha1.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/help/AnIndex",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/help/aliases.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/help/digest.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/help/digest.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/help/paths.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/html/00Index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/html/R.css",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/include/pmurhashAPI.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/digest/libs/digest.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/recipe_1496524902581/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256_in_prefix": "f19435367dc7ba2c008c39956b435e88f8a8d2210865e93878aef5067cd5c648"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 120555,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/r-digest-0.6.12-r3.3.2_0.tar.bz2",
+  "version": "0.6.12"
+}

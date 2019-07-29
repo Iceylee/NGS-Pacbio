@@ -1,0 +1,127 @@
+Building DAG of jobs...
+Creating conda environment envs/deseq2.yaml...
+Downloading remote packages.
+Environment for envs/deseq2.yaml created (location: .snakemake/conda/411e3bc9)
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	6	hisat2
+	6	htseq
+	6	trimming
+	24
+
+Job 21: --- Trimming.
+
+Finished job 21.
+1 of 24 steps (4%) done
+
+Job 19: --- Trimming.
+
+Finished job 19.
+2 of 24 steps (8%) done
+
+Job 20: --- Trimming.
+
+Finished job 20.
+3 of 24 steps (12%) done
+
+Job 23: --- Trimming.
+
+Finished job 23.
+4 of 24 steps (17%) done
+
+Job 22: --- Trimming.
+
+Finished job 22.
+5 of 24 steps (21%) done
+
+Job 18: --- Trimming.
+
+Finished job 18.
+6 of 24 steps (25%) done
+
+Job 15: --- Hisat2 Mapping.---
+
+Finished job 15.
+7 of 24 steps (29%) done
+
+Job 9: ---htseq count---
+
+Finished job 9.
+8 of 24 steps (33%) done
+
+Job 13: --- Hisat2 Mapping.---
+
+Finished job 13.
+9 of 24 steps (38%) done
+
+Job 7: ---htseq count---
+
+Finished job 7.
+10 of 24 steps (42%) done
+
+Job 14: --- Hisat2 Mapping.---
+
+Finished job 14.
+11 of 24 steps (46%) done
+
+Job 8: ---htseq count---
+
+Finished job 8.
+12 of 24 steps (50%) done
+
+Job 17: --- Hisat2 Mapping.---
+
+Finished job 17.
+13 of 24 steps (54%) done
+
+Job 11: ---htseq count---
+
+Finished job 11.
+14 of 24 steps (58%) done
+
+Job 16: --- Hisat2 Mapping.---
+
+Finished job 16.
+15 of 24 steps (62%) done
+
+Job 10: ---htseq count---
+
+Finished job 10.
+16 of 24 steps (67%) done
+
+Job 12: --- Hisat2 Mapping.---
+
+Finished job 12.
+17 of 24 steps (71%) done
+
+Job 6: ---htseq count---
+
+Finished job 6.
+18 of 24 steps (75%) done
+
+rule count_matrix:
+    input: outData/htseq/HBR_1_CountNum.txt, outData/htseq/HBR_2_CountNum.txt, outData/htseq/HBR_3_CountNum.txt, outData/htseq/UHR_1_CountNum.txt, outData/htseq/UHR_2_CountNum.txt, outData/htseq/UHR_3_CountNum.txt
+    output: outData/counts/all.csv
+    jobid: 5
+
+    Error in rule count_matrix:
+        jobid: 5
+        output: outData/counts/all.csv
+
+RuleException:
+CalledProcessError in line 9 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk:
+Command ' set -euo pipefail;  /data1/software/miniconda2/envs/py3/bin/python /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/scripts/.snakemake.1tlp_umk.count-matrix.py ' returned non-zero exit status 1.
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk", line 9, in __rule_count_matrix
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-19T142703.217765.snakemake.log

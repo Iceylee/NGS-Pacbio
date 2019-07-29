@@ -1,0 +1,27 @@
+
+        seqkit fx2tab -l -g -n -i -H rawData/assembly.fasta |cut -f 1,4|sed '1 d'|sort -V -k1,1 > outData/circos/data//temp1
+        awk 'FNR==NR{i=i+1;a[i]=$1;next}{i=FNR;split($1,x,"_");print "chr - "$1" "x[2]" 0 "$2" "a[i]}' color.txt outData/circos/data//temp1> outData/circos/data//karyotype.txt
+        
+        GC_percent=`cat outData/prodigal/genome.gff|sed -n 3p|grep -E "gc_cont=[0-9]+\.[0-9]+" -o|grep -E -o "[0-9]+\.[0-9]+"`
+        GC=`echo "$GC_percent * 0.0100"|bc`
+
+        python scripts/GCcalc.py -f rawData/assembly.fasta -w 10000 -s 10000 >outData/circos/data//gc_content_skew.txt
+        cat outData/circos/data//gc_content_skew.txt|awk -v var="$GC" '{FS=OFS="	"}{print $1,$2,$3,$4-var}'>outData/circos/data//gc_count.txt
+        cat outData/circos/data//gc_content_skew.txt|awk '{FS=OFS="	"}{print $1,$2,$3,$5}'>outData/circos/data//gc_skew.txt
+
+        cat outData/prodigal/genome.gff |awk '$7=="+"&&FNR>1{FS=OFS="	";print $1,$4,$5}' >outData/circos/data//sensegene.gff
+        cat outData/prodigal/genome.gff |awk '$7=="-"&&FNR>1{FS=OFS="	";print $1,$4,$5}' >outData/circos/data//antigene.gff
+
+
+        awk 'NR==FNR{i=i+1;a[i]=$1;next}{num=int(rand()*7)+1;print $1,$2,$3,"fill_color="a[num]"_a2"}' scripts/color2.list outData/circos/data//sensegene.gff >outData/circos/data//sensegene_color.gff
+        awk 'NR==FNR{i=i+1;a[i]=$1;next}{num=int(rand()*7)+8;print $1,$2,$3,"fill_color="a[num]"_a2"}' scripts/color2.list outData/circos/data//antigene.gff >outData/circos/data//antigene_color.gff
+
+        cat outData/rRNA/rRNA.gff|grep -v "Sequence"|cut -f 1,4,5 >outData/circos/data//rRNA_plot.gff
+        cat outData/tRNA/tRNA.gff|grep -v "Sequence"|cut -f 1,4,5 >outData/circos/data//tRNA_plot.gff
+        cat outData/sRNA/sRNA.gff|grep -v "Sequence"|cut -f 1,4,5 >outData/circos/data//sRNA_plot.gff
+
+        cat outData/prophage/prophage.txt|sed '1d'|cut -f 3,4,5 > outData/circos/data//Prophage_plot.txt
+        cat outData/crispr2/Crisprs.txt|sed '1d'|cut -f 2,6,7 > outData/circos/data//CRISPR_plot.txt
+        cat outData/island/islands.txt|sed '1d'|cut -f 1,3,4 > outData/circos/data//GIs_plot.txt
+
+  

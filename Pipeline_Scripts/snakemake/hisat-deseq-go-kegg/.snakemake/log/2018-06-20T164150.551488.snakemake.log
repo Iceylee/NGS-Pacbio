@@ -1,0 +1,392 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	6	fastqc
+	6	fastqc_clean
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	6	hisat2
+	6	htseq
+	2	mergelist
+	6	sam_sort
+	6	stringtie
+	2	stringtie_merge
+	6	trimming
+	54
+
+Job 32: --- Quality check of raw outData with Fastqc.
+
+Finished job 32.
+1 of 54 steps (2%) done
+
+Job 49: --- Trimming.
+
+Finished job 49.
+2 of 54 steps (4%) done
+
+Job 18: --- Quality check of raw outData with Fastqc.
+
+Finished job 18.
+3 of 54 steps (6%) done
+
+Job 42: --- Trimming.
+
+Finished job 42.
+4 of 54 steps (7%) done
+
+Job 10: --- Quality check of raw outData with Fastqc.
+
+Finished job 10.
+5 of 54 steps (9%) done
+
+Job 50: --- Trimming.
+
+Finished job 50.
+6 of 54 steps (11%) done
+
+Job 31: --- Quality check of raw outData with Fastqc.
+
+Finished job 31.
+7 of 54 steps (13%) done
+
+Job 48: --- Trimming.
+
+Finished job 48.
+8 of 54 steps (15%) done
+
+Job 34: --- Quality check of raw outData with Fastqc.
+
+Finished job 34.
+9 of 54 steps (17%) done
+
+Job 41: --- Trimming.
+
+Finished job 41.
+10 of 54 steps (19%) done
+
+Job 5: --- Quality check of raw outData with Fastqc.
+
+Finished job 5.
+11 of 54 steps (20%) done
+
+Job 46: --- Trimming.
+
+Finished job 46.
+12 of 54 steps (22%) done
+
+Job 29: --- Quality check of clean outData with Fastqc.
+
+Finished job 29.
+13 of 54 steps (24%) done
+
+Job 37: --- Hisat2 Mapping.---
+
+Finished job 37.
+14 of 54 steps (26%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_1.sam
+    output: outData/sorted_bam/UHR_1_sorted.bam
+    jobid: 3
+    wildcards: sample=UHR_1
+
+Finished job 3.
+15 of 54 steps (28%) done
+
+Job 14: ---htseq count---
+
+Finished job 14.
+16 of 54 steps (30%) done
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_1_sorted.bam
+    output: outData/stringtie/UHR_1.gtf
+    jobid: 16
+    wildcards: sample=UHR_1
+
+Finished job 16.
+17 of 54 steps (31%) done
+
+Job 12: --- Quality check of clean outData with Fastqc.
+
+Finished job 12.
+18 of 54 steps (33%) done
+
+Job 40: --- Hisat2 Mapping.---
+
+Finished job 40.
+19 of 54 steps (35%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_3.sam
+    output: outData/sorted_bam/UHR_3_sorted.bam
+    jobid: 9
+    wildcards: sample=UHR_3
+
+Finished job 9.
+20 of 54 steps (37%) done
+
+Job 24: ---htseq count---
+
+Finished job 24.
+21 of 54 steps (39%) done
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_3_sorted.bam
+    output: outData/stringtie/UHR_3.gtf
+    jobid: 19
+    wildcards: sample=UHR_3
+
+Finished job 19.
+22 of 54 steps (41%) done
+
+Job 30: --- Quality check of clean outData with Fastqc.
+
+Finished job 30.
+23 of 54 steps (43%) done
+
+Job 43: --- Hisat2 Mapping.---
+
+Finished job 43.
+24 of 54 steps (44%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_2.sam
+    output: outData/sorted_bam/UHR_2_sorted.bam
+    jobid: 15
+    wildcards: sample=UHR_2
+
+Finished job 15.
+25 of 54 steps (46%) done
+
+Job 13: ---htseq count---
+
+Finished job 13.
+26 of 54 steps (48%) done
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_2_sorted.bam
+    output: outData/stringtie/UHR_2.gtf
+    jobid: 27
+    wildcards: sample=UHR_2
+
+Finished job 27.
+27 of 54 steps (50%) done
+
+Job 47: --- Hisat2 Mapping.---
+
+Finished job 47.
+28 of 54 steps (52%) done
+
+Job 33: ---htseq count---
+
+Finished job 33.
+29 of 54 steps (54%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_2.sam
+    output: outData/sorted_bam/HBR_2_sorted.bam
+    jobid: 25
+    wildcards: sample=HBR_2
+
+Finished job 25.
+30 of 54 steps (56%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_2_sorted.bam
+    output: outData/stringtie/HBR_2.gtf
+    jobid: 2
+    wildcards: sample=HBR_2
+
+Finished job 2.
+31 of 54 steps (57%) done
+
+Job 26: --- Quality check of clean outData with Fastqc.
+
+Finished job 26.
+32 of 54 steps (59%) done
+
+Job 11: --- Quality check of clean outData with Fastqc.
+
+Finished job 11.
+33 of 54 steps (61%) done
+
+Job 39: --- Hisat2 Mapping.---
+
+Finished job 39.
+34 of 54 steps (63%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_3.sam
+    output: outData/sorted_bam/HBR_3_sorted.bam
+    jobid: 7
+    wildcards: sample=HBR_3
+
+Finished job 7.
+35 of 54 steps (65%) done
+
+Job 35: ---htseq count---
+
+Finished job 35.
+36 of 54 steps (67%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_3_sorted.bam
+    output: outData/stringtie/HBR_3.gtf
+    jobid: 8
+    wildcards: sample=HBR_3
+
+Finished job 8.
+37 of 54 steps (69%) done
+
+Job 23: --- Quality check of clean outData with Fastqc.
+
+Finished job 23.
+38 of 54 steps (70%) done
+
+Job 36: --- Hisat2 Mapping.---
+
+Finished job 36.
+39 of 54 steps (72%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_1.sam
+    output: outData/sorted_bam/HBR_1_sorted.bam
+    jobid: 1
+    wildcards: sample=HBR_1
+
+Finished job 1.
+40 of 54 steps (74%) done
+
+Job 6: ---htseq count---
+
+Finished job 6.
+41 of 54 steps (76%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_1_sorted.bam
+    output: outData/stringtie/HBR_1.gtf
+    jobid: 28
+    wildcards: sample=HBR_1
+
+Finished job 28.
+42 of 54 steps (78%) done
+
+rule mergelist:
+    input: outData/stringtie/HBR_1.gtf, outData/stringtie/HBR_2.gtf, outData/stringtie/HBR_3.gtf, outData/stringtie/UHR_1.gtf, outData/stringtie/UHR_2.gtf, outData/stringtie/UHR_3.gtf
+    output: outData/stringtie/mergelist_HBR.txt
+    jobid: 53
+    wildcards: condition=HBR
+
+Finished job 53.
+43 of 54 steps (80%) done
+
+rule mergelist:
+    input: outData/stringtie/HBR_1.gtf, outData/stringtie/HBR_2.gtf, outData/stringtie/HBR_3.gtf, outData/stringtie/UHR_1.gtf, outData/stringtie/UHR_2.gtf, outData/stringtie/UHR_3.gtf
+    output: outData/stringtie/mergelist_UHR.txt
+    jobid: 51
+    wildcards: condition=UHR
+
+Finished job 51.
+44 of 54 steps (81%) done
+
+rule count_matrix:
+    input: outData/htseq/HBR_1_CountNum.txt, outData/htseq/HBR_2_CountNum.txt, outData/htseq/HBR_3_CountNum.txt, outData/htseq/UHR_1_CountNum.txt, outData/htseq/UHR_2_CountNum.txt, outData/htseq/UHR_3_CountNum.txt
+    output: outData/counts/all.csv
+    jobid: 52
+
+Finished job 52.
+45 of 54 steps (83%) done
+
+rule deseq2_init:
+    input: outData/counts/all.csv, colData.csv
+    output: outData/deseq2/all.rds, outData/deseq2/norm_count.matrix.txt
+    log: logs/deseq2/init.log
+    jobid: 44
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 44.
+46 of 54 steps (85%) done
+
+rule heatmap_plot:
+    input: colData.csv, outData/deseq2/all.rds
+    output: outData/deseq2/heatmap.pdf
+    log: logs/deseq2/heatmap_plot.log
+    jobid: 21
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 21.
+47 of 54 steps (87%) done
+
+rule deseq2:
+    input: outData/deseq2/all.rds
+    output: outData/deseq2/treated-vs-untreated_all_genes_exprData.txt, outData/deseq2/treated-vs-untreated_sig_genes_exprData.txt, outData/deseq2/treated-vs-untreated_volcano_plot.pdf
+    log: logs/deseq2/treated-vs-untreated.diffexp.log
+    jobid: 22
+    wildcards: contrast=treated-vs-untreated
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 22.
+48 of 54 steps (89%) done
+
+rule heatmap_cor_plot:
+    input: colData.csv, outData/deseq2/norm_count.matrix.txt
+    output: outData/deseq2/heatmap_cor.pdf
+    log: logs/deseq2/heatmap_cor_plot.log
+    jobid: 17
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 17.
+49 of 54 steps (91%) done
+
+rule stringtie_merge:
+    input: outData/stringtie/mergelist_HBR.txt
+    output: outData/as/merge_HBR.gtf
+    jobid: 45
+    wildcards: condition=HBR
+
+Finished job 45.
+50 of 54 steps (93%) done
+
+rule as:
+    input: outData/as/merge_HBR.gtf
+    output: outData/as/HBR_event_count.txt
+    jobid: 20
+    wildcards: condition=HBR
+
+Finished job 20.
+51 of 54 steps (94%) done
+
+rule stringtie_merge:
+    input: outData/stringtie/mergelist_UHR.txt
+    output: outData/as/merge_UHR.gtf
+    jobid: 38
+    wildcards: condition=UHR
+
+Finished job 38.
+52 of 54 steps (96%) done
+
+rule as:
+    input: outData/as/merge_UHR.gtf
+    output: outData/as/UHR_event_count.txt
+    jobid: 4
+    wildcards: condition=UHR
+
+Finished job 4.
+53 of 54 steps (98%) done
+
+localrule all:
+    input: outData/fastqc_clean/HBR_1_clean_R1_fastqc.zip, outData/fastqc/HBR_1_R1_fastqc.zip, outData/htseq/HBR_1_CountNum.txt, outData/sorted_bam/HBR_1_sorted.bam, outData/stringtie/HBR_1.gtf, outData/fastqc_clean/HBR_2_clean_R1_fastqc.zip, outData/fastqc/HBR_2_R1_fastqc.zip, outData/htseq/HBR_2_CountNum.txt, outData/sorted_bam/HBR_2_sorted.bam, outData/stringtie/HBR_2.gtf, outData/fastqc_clean/HBR_3_clean_R1_fastqc.zip, outData/fastqc/HBR_3_R1_fastqc.zip, outData/htseq/HBR_3_CountNum.txt, outData/sorted_bam/HBR_3_sorted.bam, outData/stringtie/HBR_3.gtf, outData/fastqc_clean/UHR_1_clean_R1_fastqc.zip, outData/fastqc/UHR_1_R1_fastqc.zip, outData/htseq/UHR_1_CountNum.txt, outData/sorted_bam/UHR_1_sorted.bam, outData/stringtie/UHR_1.gtf, outData/fastqc_clean/UHR_2_clean_R1_fastqc.zip, outData/fastqc/UHR_2_R1_fastqc.zip, outData/htseq/UHR_2_CountNum.txt, outData/sorted_bam/UHR_2_sorted.bam, outData/stringtie/UHR_2.gtf, outData/fastqc_clean/UHR_3_clean_R1_fastqc.zip, outData/fastqc/UHR_3_R1_fastqc.zip, outData/htseq/UHR_3_CountNum.txt, outData/sorted_bam/UHR_3_sorted.bam, outData/stringtie/UHR_3.gtf, outData/deseq2/heatmap_cor.pdf, outData/deseq2/heatmap.pdf, outData/deseq2/treated-vs-untreated_volcano_plot.pdf, outData/as/UHR_event_count.txt, outData/as/HBR_event_count.txt
+    jobid: 0
+
+Finished job 0.
+54 of 54 steps (100%) done
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T164150.551488.snakemake.log

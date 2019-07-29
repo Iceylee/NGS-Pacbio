@@ -1,0 +1,12 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pango
+Description: Internationalized text handling
+Version: 1.40.14
+Requires: glib-2.0 gobject-2.0
+Libs: -L${libdir} -lpango-1.0
+Libs.private: -lm
+Cflags: -I${includedir}/pango-1.0

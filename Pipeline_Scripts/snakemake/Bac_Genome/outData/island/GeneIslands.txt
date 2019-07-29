@@ -1,0 +1,8 @@
+#Sequence	Source	Feature	Gene_Start	Gene_End	Score	Strand	Gene_ID	Island_Start	Island_End	Island_Length
+unitig_0	Dimob	Gene	47538	49283	.	-	ID=1_52;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.488;conf=99.99;score=236.21;cscore=220.52;sscore=15.69;rscore=6.93;uscore=5.75;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	50008	50286	.	-	ID=1_53;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.387;conf=77.95;score=5.49;cscore=1.27;sscore=4.22;rscore=-1.35;uscore=0.91;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	50311	50724	.	-	ID=1_54;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.430;conf=68.75;score=3.43;cscore=3.28;sscore=0.14;rscore=-2.86;uscore=-1.90;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	50717	51130	.	-	ID=1_55;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.374;conf=99.59;score=23.86;cscore=8.05;sscore=15.81;rscore=6.93;uscore=5.22;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	51283	52281	.	-	ID=1_56;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=11-12bp;gc_cont=0.515;conf=100.00;score=61.00;cscore=45.45;sscore=15.55;rscore=13.24;uscore=-0.69;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	52395	52826	.	+	ID=1_57;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.384;conf=100.00;score=46.84;cscore=20.26;sscore=26.58;rscore=14.43;uscore=8.50;tscore=3.65;	47538	53209	5672
+unitig_0	Dimob	Gene	52847	53209	.	-	ID=1_58;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.405;conf=99.95;score=32.78;cscore=10.84;sscore=21.94;rscore=16.85;uscore=2.09;tscore=3.65;	47538	53209	5672

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+InputFunctionException in line 4 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/fastqc_trim.smk:
+AttributeError: 'Wildcards' object has no attribute 'unit'
+Wildcards:
+sample=HBR_2

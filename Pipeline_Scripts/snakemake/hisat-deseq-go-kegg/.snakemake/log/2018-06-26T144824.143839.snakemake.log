@@ -1,0 +1,75 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	2	mergelist
+	2	stringtie_merge
+	12
+
+rule count_matrix:
+    input: outData/htseq/WR180001S_CountNum.txt, outData/htseq/WR180004S_CountNum.txt, outData/htseq/WR180002S_CountNum.txt, outData/htseq/WR180005S_CountNum.txt, outData/htseq/WR180003S_CountNum.txt, outData/htseq/WR180006S_CountNum.txt
+    output: outData/counts/all.csv
+    jobid: 52
+
+Finished job 52.
+1 of 12 steps (8%) done
+
+rule deseq2_init:
+    input: outData/counts/all.csv, colData.csv
+    output: outData/deseq2/all.rds, outData/deseq2/norm_count.matrix.txt
+    log: logs/deseq2/init.log
+    jobid: 46
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 46.
+2 of 12 steps (17%) done
+
+rule heatmap_plot:
+    input: colData.csv, outData/deseq2/all.rds
+    output: outData/deseq2/heatmap.png
+    log: logs/deseq2/heatmap_plot.log
+    jobid: 29
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 29.
+3 of 12 steps (25%) done
+
+rule deseq2:
+    input: outData/deseq2/all.rds
+    output: outData/deseq2/treated-vs-untreated_all_genes_exprData.txt, outData/deseq2/treated-vs-untreated_sig_genes_exprData.txt, outData/deseq2/treated-vs-untreated_volcano_plot.png
+    log: logs/deseq2/treated-vs-untreated.diffexp.log
+    jobid: 33
+    wildcards: contrast=treated-vs-untreated
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 33.
+4 of 12 steps (33%) done
+
+rule heatmap_cor_plot:
+    input: colData.csv, outData/deseq2/norm_count.matrix.txt
+    output: outData/deseq2/heatmap_cor.png
+    log: logs/deseq2/heatmap_cor_plot.log
+    jobid: 17
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 17.
+5 of 12 steps (42%) done
+
+rule mergelist:
+    input: colData.csv
+    output: outData/stringtie/mergelist_EV.txt
+    jobid: 51
+    wildcards: condition=EV
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-26T144824.143839.snakemake.log

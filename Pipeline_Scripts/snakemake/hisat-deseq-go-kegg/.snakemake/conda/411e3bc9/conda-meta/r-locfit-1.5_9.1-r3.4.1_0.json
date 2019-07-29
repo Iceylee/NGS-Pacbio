@@ -1,0 +1,424 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc",
+    "r-base 3.4.1*",
+    "r-lattice"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-locfit-1.5_9.1-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/locfit/DESCRIPTION",
+    "lib/R/library/locfit/INDEX",
+    "lib/R/library/locfit/Meta/Rd.rds",
+    "lib/R/library/locfit/Meta/data.rds",
+    "lib/R/library/locfit/Meta/features.rds",
+    "lib/R/library/locfit/Meta/hsearch.rds",
+    "lib/R/library/locfit/Meta/links.rds",
+    "lib/R/library/locfit/Meta/nsInfo.rds",
+    "lib/R/library/locfit/Meta/package.rds",
+    "lib/R/library/locfit/NAMESPACE",
+    "lib/R/library/locfit/NEWS",
+    "lib/R/library/locfit/R/locfit",
+    "lib/R/library/locfit/R/locfit.rdb",
+    "lib/R/library/locfit/R/locfit.rdx",
+    "lib/R/library/locfit/data/ais.rda",
+    "lib/R/library/locfit/data/bad.rda",
+    "lib/R/library/locfit/data/border.rda",
+    "lib/R/library/locfit/data/chemdiab.tab.gz",
+    "lib/R/library/locfit/data/claw54.rda",
+    "lib/R/library/locfit/data/cldem.tab.gz",
+    "lib/R/library/locfit/data/cltest.rda",
+    "lib/R/library/locfit/data/cltrain.rda",
+    "lib/R/library/locfit/data/co2.rda",
+    "lib/R/library/locfit/data/diab.tab.gz",
+    "lib/R/library/locfit/data/ethanol.rda",
+    "lib/R/library/locfit/data/geyser.rda",
+    "lib/R/library/locfit/data/geyser.round.tab.gz",
+    "lib/R/library/locfit/data/heart.rda",
+    "lib/R/library/locfit/data/insect.tab.gz",
+    "lib/R/library/locfit/data/iris.rda",
+    "lib/R/library/locfit/data/kangaroo.rda",
+    "lib/R/library/locfit/data/livmet.rda",
+    "lib/R/library/locfit/data/mcyc.tab.gz",
+    "lib/R/library/locfit/data/mine.rda",
+    "lib/R/library/locfit/data/mmsamp.tab.gz",
+    "lib/R/library/locfit/data/morths.rda",
+    "lib/R/library/locfit/data/penny.tab.gz",
+    "lib/R/library/locfit/data/spencer.rda",
+    "lib/R/library/locfit/data/stamp.rda",
+    "lib/R/library/locfit/data/trimod.tab.gz",
+    "lib/R/library/locfit/help/AnIndex",
+    "lib/R/library/locfit/help/aliases.rds",
+    "lib/R/library/locfit/help/locfit.rdb",
+    "lib/R/library/locfit/help/locfit.rdx",
+    "lib/R/library/locfit/help/paths.rds",
+    "lib/R/library/locfit/html/00Index.html",
+    "lib/R/library/locfit/html/R.css",
+    "lib/R/library/locfit/libs/locfit.so"
+  ],
+  "fn": "r-locfit-1.5_9.1-r3.4.1_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-locfit-1.5_9.1-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "0f8382199477f5d195a4624dac28cdf8",
+  "name": "r-locfit",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-locfit-1.5_9.1-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/locfit/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c9d03ad5fbada499488f33cd25c139ca35acc3e3e65a1487f9b514e0583c8ff2",
+        "sha256_in_prefix": "c9d03ad5fbada499488f33cd25c139ca35acc3e3e65a1487f9b514e0583c8ff2",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "lib/R/library/locfit/INDEX",
+        "path_type": "hardlink",
+        "sha256": "7e2b8746e95d7147ed5f876ac185c2b6a9bf3d3542e5e2f8db7ed67f47d96796",
+        "sha256_in_prefix": "7e2b8746e95d7147ed5f876ac185c2b6a9bf3d3542e5e2f8db7ed67f47d96796",
+        "size_in_bytes": 6751
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5e6ed409d08ef2729da5e8e82bdca98d4f194fc6dc4403f5450d0be99b1bab0a",
+        "sha256_in_prefix": "5e6ed409d08ef2729da5e8e82bdca98d4f194fc6dc4403f5450d0be99b1bab0a",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "6bbc6e1804701b15e2f651ca720fe1871b09c2087f36b8ff4a4ee28d623c4f50",
+        "sha256_in_prefix": "6bbc6e1804701b15e2f651ca720fe1871b09c2087f36b8ff4a4ee28d623c4f50",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "fe19a48782b4d5cfeba3d397c90a6bab1640cacd3d4f2e362bb950c046419be9",
+        "sha256_in_prefix": "fe19a48782b4d5cfeba3d397c90a6bab1640cacd3d4f2e362bb950c046419be9",
+        "size_in_bytes": 2929
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6c77f398986f69b50137236cd8305465eda32ff7f709c2e6d667de354b13e539",
+        "sha256_in_prefix": "6c77f398986f69b50137236cd8305465eda32ff7f709c2e6d667de354b13e539",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "84894f2baba83b8455f6a2ec5bcc936dd063d0015530d17134156fedd579e0fc",
+        "sha256_in_prefix": "84894f2baba83b8455f6a2ec5bcc936dd063d0015530d17134156fedd579e0fc",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/R/library/locfit/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e667dbc36aa7a87d42acb9927d765c2e61955207b5458b0f43f0868f4a45bfe1",
+        "sha256_in_prefix": "e667dbc36aa7a87d42acb9927d765c2e61955207b5458b0f43f0868f4a45bfe1",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "lib/R/library/locfit/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ed38e58eb2920cd6a9859a98581767074b1e20395e7c72d0a8b8079fac180883",
+        "sha256_in_prefix": "ed38e58eb2920cd6a9859a98581767074b1e20395e7c72d0a8b8079fac180883",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "lib/R/library/locfit/NEWS",
+        "path_type": "hardlink",
+        "sha256": "78ec9fc5061c8d755e2ca94063dd828b744123dc41b7ee5b85d603dde820c5e0",
+        "sha256_in_prefix": "78ec9fc5061c8d755e2ca94063dd828b744123dc41b7ee5b85d603dde820c5e0",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "lib/R/library/locfit/R/locfit",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/locfit/R/locfit.rdb",
+        "path_type": "hardlink",
+        "sha256": "f504b5993aa6bc238c74d3994bcf22cd2820217da11429f3d7e5734b9293b9dc",
+        "sha256_in_prefix": "f504b5993aa6bc238c74d3994bcf22cd2820217da11429f3d7e5734b9293b9dc",
+        "size_in_bytes": 40690
+      },
+      {
+        "_path": "lib/R/library/locfit/R/locfit.rdx",
+        "path_type": "hardlink",
+        "sha256": "cf006af009fda180327c43fed02ea32e911c67cf07a1c923bc8349a79bd86346",
+        "sha256_in_prefix": "cf006af009fda180327c43fed02ea32e911c67cf07a1c923bc8349a79bd86346",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/R/library/locfit/data/ais.rda",
+        "path_type": "hardlink",
+        "sha256": "159838fdcf446306428f91bec3ed466b7fa9ca262943b8ef56c1ce5aae1425cc",
+        "sha256_in_prefix": "159838fdcf446306428f91bec3ed466b7fa9ca262943b8ef56c1ce5aae1425cc",
+        "size_in_bytes": 5958
+      },
+      {
+        "_path": "lib/R/library/locfit/data/bad.rda",
+        "path_type": "hardlink",
+        "sha256": "cda5f0c32bb0f24b683c6707fc4fab1229f05cd25708ddd6a0a0164d862857b5",
+        "sha256_in_prefix": "cda5f0c32bb0f24b683c6707fc4fab1229f05cd25708ddd6a0a0164d862857b5",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "lib/R/library/locfit/data/border.rda",
+        "path_type": "hardlink",
+        "sha256": "57872ef745be6c3d76c83238ab44bb2d2d0a139ca1811506d7872c95eb2c997d",
+        "sha256_in_prefix": "57872ef745be6c3d76c83238ab44bb2d2d0a139ca1811506d7872c95eb2c997d",
+        "size_in_bytes": 2632
+      },
+      {
+        "_path": "lib/R/library/locfit/data/chemdiab.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "105bec088d6ad7523b47b8f3394976aced94b2dc149ca06c08e9d21256df090d",
+        "sha256_in_prefix": "105bec088d6ad7523b47b8f3394976aced94b2dc149ca06c08e9d21256df090d",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "lib/R/library/locfit/data/claw54.rda",
+        "path_type": "hardlink",
+        "sha256": "e1ada9824cbe66f5ac1967f2b2dcfc0283f413e582c3702d2ceae8984178be73",
+        "sha256_in_prefix": "e1ada9824cbe66f5ac1967f2b2dcfc0283f413e582c3702d2ceae8984178be73",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/R/library/locfit/data/cldem.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "135f018bb82fabdb9cd25de2741694ba3582cd88ddef9d7f0b28a1932d94e60a",
+        "sha256_in_prefix": "135f018bb82fabdb9cd25de2741694ba3582cd88ddef9d7f0b28a1932d94e60a",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/locfit/data/cltest.rda",
+        "path_type": "hardlink",
+        "sha256": "7c1ca963e9586da7a84905f736748fc02ee4b0dab278f92389f76dd687ba92bd",
+        "sha256_in_prefix": "7c1ca963e9586da7a84905f736748fc02ee4b0dab278f92389f76dd687ba92bd",
+        "size_in_bytes": 3884
+      },
+      {
+        "_path": "lib/R/library/locfit/data/cltrain.rda",
+        "path_type": "hardlink",
+        "sha256": "1c9f2bdb8b4fa08f6e0b591bcfb29b3940a868a75ef89d0880a67b953dd08840",
+        "sha256_in_prefix": "1c9f2bdb8b4fa08f6e0b591bcfb29b3940a868a75ef89d0880a67b953dd08840",
+        "size_in_bytes": 3881
+      },
+      {
+        "_path": "lib/R/library/locfit/data/co2.rda",
+        "path_type": "hardlink",
+        "sha256": "0195065dcc75fcc01854c760cb99ed48fc2b012280e80ba981ae60d2097c05ef",
+        "sha256_in_prefix": "0195065dcc75fcc01854c760cb99ed48fc2b012280e80ba981ae60d2097c05ef",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "lib/R/library/locfit/data/diab.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "a9d4b41726f2e8b430cbd9f21d4f0b8be643e84f09e2a38d19d30857bf381976",
+        "sha256_in_prefix": "a9d4b41726f2e8b430cbd9f21d4f0b8be643e84f09e2a38d19d30857bf381976",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/R/library/locfit/data/ethanol.rda",
+        "path_type": "hardlink",
+        "sha256": "5b415719d696d47c1049897fc061b10223c820acd440db5f7273302d18d996e3",
+        "sha256_in_prefix": "5b415719d696d47c1049897fc061b10223c820acd440db5f7273302d18d996e3",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "lib/R/library/locfit/data/geyser.rda",
+        "path_type": "hardlink",
+        "sha256": "00edc7946a243ecea3d9b223a7f8f96f4bb48799be2fe46c3ee639f8ee7fb155",
+        "sha256_in_prefix": "00edc7946a243ecea3d9b223a7f8f96f4bb48799be2fe46c3ee639f8ee7fb155",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "lib/R/library/locfit/data/geyser.round.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "4c694b8085bec8020601836bb4ccb644aad1916f63b95eaab4da6e9589cfb74c",
+        "sha256_in_prefix": "4c694b8085bec8020601836bb4ccb644aad1916f63b95eaab4da6e9589cfb74c",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/locfit/data/heart.rda",
+        "path_type": "hardlink",
+        "sha256": "080ebcbcf30285d8fa3d8f1acf86b0f41b1bc34453d9f40568fc1af29f85b958",
+        "sha256_in_prefix": "080ebcbcf30285d8fa3d8f1acf86b0f41b1bc34453d9f40568fc1af29f85b958",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/R/library/locfit/data/insect.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "a6bd94d72c41e700ebbeb56d82be854aab3c115859c037c10812d0fa9ce61782",
+        "sha256_in_prefix": "a6bd94d72c41e700ebbeb56d82be854aab3c115859c037c10812d0fa9ce61782",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/R/library/locfit/data/iris.rda",
+        "path_type": "hardlink",
+        "sha256": "393dec620f7bf1dd8b496ebfdf292493177001b2e576d4c47849b0c70f389c1e",
+        "sha256_in_prefix": "393dec620f7bf1dd8b496ebfdf292493177001b2e576d4c47849b0c70f389c1e",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/R/library/locfit/data/kangaroo.rda",
+        "path_type": "hardlink",
+        "sha256": "069278c9f4a13941d7df83ba0c69f593ba6a1bad985e23a84e97180fd97aa9a4",
+        "sha256_in_prefix": "069278c9f4a13941d7df83ba0c69f593ba6a1bad985e23a84e97180fd97aa9a4",
+        "size_in_bytes": 4405
+      },
+      {
+        "_path": "lib/R/library/locfit/data/livmet.rda",
+        "path_type": "hardlink",
+        "sha256": "1dd65ee6e10b26c079c4b22ab3cf56184efd02e24872c49ae6265b20d82ab0a5",
+        "sha256_in_prefix": "1dd65ee6e10b26c079c4b22ab3cf56184efd02e24872c49ae6265b20d82ab0a5",
+        "size_in_bytes": 6936
+      },
+      {
+        "_path": "lib/R/library/locfit/data/mcyc.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "29e0fb925e64375623d87aae749b0464a588741d33eca2b2dbf38c1b85442364",
+        "sha256_in_prefix": "29e0fb925e64375623d87aae749b0464a588741d33eca2b2dbf38c1b85442364",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "lib/R/library/locfit/data/mine.rda",
+        "path_type": "hardlink",
+        "sha256": "1b4342978c8b2809be015ef5de2890fcf9d19b220352a9769a77c38b1a36591a",
+        "sha256_in_prefix": "1b4342978c8b2809be015ef5de2890fcf9d19b220352a9769a77c38b1a36591a",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "lib/R/library/locfit/data/mmsamp.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "d8a68fe532cac9c40b37c8565534fe1be235247523da599fa5f5df33976e0af8",
+        "sha256_in_prefix": "d8a68fe532cac9c40b37c8565534fe1be235247523da599fa5f5df33976e0af8",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "lib/R/library/locfit/data/morths.rda",
+        "path_type": "hardlink",
+        "sha256": "a01a9a0d1e5f3e9418518763d07f88afe62b67963d16515468669ee26cde329c",
+        "sha256_in_prefix": "a01a9a0d1e5f3e9418518763d07f88afe62b67963d16515468669ee26cde329c",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "lib/R/library/locfit/data/penny.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "6aea3af67f1b0ffb2ca6650a7e9f843173f24293a4d1d58d09cc463a825dc0df",
+        "sha256_in_prefix": "6aea3af67f1b0ffb2ca6650a7e9f843173f24293a4d1d58d09cc463a825dc0df",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/locfit/data/spencer.rda",
+        "path_type": "hardlink",
+        "sha256": "ca7b0bfc4d964e297dbf4d4a38f07e0f67a51c68ebc07a647e502843b1f25307",
+        "sha256_in_prefix": "ca7b0bfc4d964e297dbf4d4a38f07e0f67a51c68ebc07a647e502843b1f25307",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/R/library/locfit/data/stamp.rda",
+        "path_type": "hardlink",
+        "sha256": "85bc2d2b1dfd347f2e3147d1388290c023df524c7e379fb575220a796eab99a9",
+        "sha256_in_prefix": "85bc2d2b1dfd347f2e3147d1388290c023df524c7e379fb575220a796eab99a9",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "lib/R/library/locfit/data/trimod.tab.gz",
+        "path_type": "hardlink",
+        "sha256": "44b57c19ae80639c05c5991a01d21004edbc5eed2c71e7606364556d41aad475",
+        "sha256_in_prefix": "44b57c19ae80639c05c5991a01d21004edbc5eed2c71e7606364556d41aad475",
+        "size_in_bytes": 2575
+      },
+      {
+        "_path": "lib/R/library/locfit/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "47958240bbb42b538e755fc7f95f49585a7770711f9c046ca7e52569febba7d2",
+        "sha256_in_prefix": "47958240bbb42b538e755fc7f95f49585a7770711f9c046ca7e52569febba7d2",
+        "size_in_bytes": 1996
+      },
+      {
+        "_path": "lib/R/library/locfit/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "52a36175f1120b2849cd65f5b6ad576d879a9eaec0501d0b444feb5ec1d19ce8",
+        "sha256_in_prefix": "52a36175f1120b2849cd65f5b6ad576d879a9eaec0501d0b444feb5ec1d19ce8",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/locfit/help/locfit.rdb",
+        "path_type": "hardlink",
+        "sha256": "9a2ed35660d702a94f600ca109235d243548fa67ef111f901e977ab0a64dd26d",
+        "sha256_in_prefix": "9a2ed35660d702a94f600ca109235d243548fa67ef111f901e977ab0a64dd26d",
+        "size_in_bytes": 208233
+      },
+      {
+        "_path": "lib/R/library/locfit/help/locfit.rdx",
+        "path_type": "hardlink",
+        "sha256": "44782af96dccdb36017c0e29e2748fc3bc95313d889fced7232cbeb305b07c89",
+        "sha256_in_prefix": "44782af96dccdb36017c0e29e2748fc3bc95313d889fced7232cbeb305b07c89",
+        "size_in_bytes": 2172
+      },
+      {
+        "_path": "lib/R/library/locfit/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "badcb1c3eec1dd913f7fe73261639bb4cd594e36718e7b2f47fafd6e6b684c10",
+        "sha256_in_prefix": "badcb1c3eec1dd913f7fe73261639bb4cd594e36718e7b2f47fafd6e6b684c10",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "lib/R/library/locfit/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "065a0657fa4d63ace3273c757a1c52a9419ffd483f517ed2a51edee4dfc26ff1",
+        "sha256_in_prefix": "065a0657fa4d63ace3273c757a1c52a9419ffd483f517ed2a51edee4dfc26ff1",
+        "size_in_bytes": 15574
+      },
+      {
+        "_path": "lib/R/library/locfit/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/locfit/libs/locfit.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-locfit_1503575640899/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "0e3e191dc9ef1530f648194d531537ab97fb78466be241aed4828fa72752557c",
+        "sha256_in_prefix": "2fe4437706b7206e42268e6709c2b8ab6b4c2c6221d57e491f5f073bc5599409",
+        "size_in_bytes": 354425
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-locfit=1.5_9.1",
+  "size": 443097,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-locfit-1.5_9.1-r3.4.1_0.tar.bz2",
+  "version": "1.5_9.1"
+}

@@ -1,0 +1,76 @@
+from snakemake.utils import R,validate, min_version
+import sys
+import pandas as pd
+##### set minimum snakemake version #####
+min_version("5.1.2")
+
+"""
+Author: Icey
+Date: 2018/6/26 
+Run: snakemake   -s Snakefile   
+Latest modification: 
+  - snp
+  - kegg&go
+"""
+
+##-----------------------------------------------##
+## load config and sample sheets 
+##-----------------------------------------------##
+
+configfile: "config.yaml"
+#validate(config, schema="schemas/config.schema.yaml")
+
+samples = pd.read_csv(config["diffexp"]["colData"]).set_index("sample", drop=False)
+#validate(samples, schema="schemas/samples.schema.yaml")
+
+units = pd.read_table(config["units"], dtype=str).set_index(["sample"], drop=False)
+#units.index = units.index.set_levels([i.astype(str) for i in units.index.levels])  # enforce str in index
+#validate(units, schema="schemas/units.schema.yaml")
+
+
+
+##-----------------------------------------------##
+## A set of functions
+##-----------------------------------------------##
+
+def message(mes):
+  sys.stderr.write("|--- " + mes + "\n")
+
+##-----------------------------------------------##
+## Working directory                             ##
+##-----------------------------------------------##
+
+message("The current working directory is " + config["workdir"])
+
+
+##--------------------------------------------------------------------------------------##
+## target rules
+##--------------------------------------------------------------------------------------##
+SAMPLES, = glob_wildcards("rawData/reads/{sample}_R1.fastq.gz")
+
+rule all:
+    input:expand(["outData/fastqc_clean/{sample}_clean_R1_fastqc.zip","outData/fastqc/{sample}_R1_fastqc.zip","outData/htseq/{sample}_CountNum.txt","outData/sorted_bam/{sample}_sorted.bam","outData/stringtie/{sample}.gtf","outData/snp/{sample}.samtools.vcf"],sample=SAMPLES),
+          "outData/deseq2/heatmap_cor.png",
+          "outData/deseq2/heatmap.png",
+          expand("outData/deseq2/{contrast}_volcano_plot.png",contrast=config["diffexp"]["contrasts"]),
+          expand(["outData/as/{condition}_event_count.txt","outData/snp/{condition}_merge.vcf","outData/snp/Annotation/{condition}.SnpEff.html"],condition=config["condition"])
+##### setup singularity #####
+
+# this container defines the underlying OS for each job when using the workflow
+# with --use-conda --use-singularity
+singularity: "docker://continuumio/miniconda3"
+
+
+##### setup report #####
+
+report: "report/workflow.rst"
+
+
+##### load rules #####
+
+include: "rules/fastqc_trim.smk"
+include: "rules/hisat_htseq.smk"
+include: "rules/diffexp.smk"
+include: "rules/stringtie_as.smk"
+#include: "rules/go_kegg.smk"
+include: "rules/snp.smk"

@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	3
+
+rule as:
+    input: outData/as/merge_UHR.gtf
+    output: outData/as/UHR_event_count.txt
+    jobid: 33
+    wildcards: condition=UHR
+
+    Error in rule as:
+        jobid: 33
+        output: outData/as/UHR_event_count.txt
+
+RuleException:
+CalledProcessError in line 34 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Command ' set -euo pipefail;  
+                 /data1/software/astalavista-4.0/bin/astalavista -t asta --threads 10 -i outData/as/merge_UHR.gtf
+                 gunzip outData/as/merge_UHR_sorted.gtf_astalavista.gtf.gz
+                 awk -f scripts/as.awk outData/as/merged_UHR_sorted.gtf_astalavista.gtf > outData/as/UHR_event_count.txt ' returned non-zero exit status 2.
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk", line 34, in __rule_as
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Removing output files of failed job as since they might be corrupted:
+outData/as/UHR_event_count.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T160240.500839.snakemake.log

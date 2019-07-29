@@ -1,0 +1,610 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "freetype 2.8.1",
+    "icu 58.*",
+    "libiconv 1.15",
+    "libpng >=1.6.32,<1.6.35",
+    "libxml2 2.9.*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/fontconfig-2.12.6-0",
+  "features": "",
+  "files": [
+    "bin/fc-cache",
+    "bin/fc-cat",
+    "bin/fc-list",
+    "bin/fc-match",
+    "bin/fc-pattern",
+    "bin/fc-query",
+    "bin/fc-scan",
+    "bin/fc-validate",
+    "etc/fonts/conf.d/10-hinting-slight.conf",
+    "etc/fonts/conf.d/10-scale-bitmap-fonts.conf",
+    "etc/fonts/conf.d/20-unhint-small-vera.conf",
+    "etc/fonts/conf.d/30-metric-aliases.conf",
+    "etc/fonts/conf.d/40-nonlatin.conf",
+    "etc/fonts/conf.d/45-generic.conf",
+    "etc/fonts/conf.d/45-latin.conf",
+    "etc/fonts/conf.d/49-sansserif.conf",
+    "etc/fonts/conf.d/50-user.conf",
+    "etc/fonts/conf.d/51-local.conf",
+    "etc/fonts/conf.d/60-generic.conf",
+    "etc/fonts/conf.d/60-latin.conf",
+    "etc/fonts/conf.d/65-fonts-persian.conf",
+    "etc/fonts/conf.d/65-nonlatin.conf",
+    "etc/fonts/conf.d/69-unifont.conf",
+    "etc/fonts/conf.d/80-delicious.conf",
+    "etc/fonts/conf.d/90-synthetic.conf",
+    "etc/fonts/conf.d/README",
+    "etc/fonts/fonts.conf",
+    "include/fontconfig/fcfreetype.h",
+    "include/fontconfig/fcprivate.h",
+    "include/fontconfig/fontconfig.h",
+    "lib/libfontconfig.a",
+    "lib/libfontconfig.la",
+    "lib/libfontconfig.so",
+    "lib/libfontconfig.so.1",
+    "lib/libfontconfig.so.1.10.1",
+    "lib/pkgconfig/fontconfig.pc",
+    "share/fontconfig/conf.avail/10-autohint.conf",
+    "share/fontconfig/conf.avail/10-hinting-full.conf",
+    "share/fontconfig/conf.avail/10-hinting-medium.conf",
+    "share/fontconfig/conf.avail/10-hinting-none.conf",
+    "share/fontconfig/conf.avail/10-hinting-slight.conf",
+    "share/fontconfig/conf.avail/10-no-sub-pixel.conf",
+    "share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf",
+    "share/fontconfig/conf.avail/10-sub-pixel-bgr.conf",
+    "share/fontconfig/conf.avail/10-sub-pixel-rgb.conf",
+    "share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf",
+    "share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf",
+    "share/fontconfig/conf.avail/10-unhinted.conf",
+    "share/fontconfig/conf.avail/11-lcdfilter-default.conf",
+    "share/fontconfig/conf.avail/11-lcdfilter-legacy.conf",
+    "share/fontconfig/conf.avail/11-lcdfilter-light.conf",
+    "share/fontconfig/conf.avail/20-unhint-small-vera.conf",
+    "share/fontconfig/conf.avail/25-unhint-nonlatin.conf",
+    "share/fontconfig/conf.avail/30-metric-aliases.conf",
+    "share/fontconfig/conf.avail/40-nonlatin.conf",
+    "share/fontconfig/conf.avail/45-generic.conf",
+    "share/fontconfig/conf.avail/45-latin.conf",
+    "share/fontconfig/conf.avail/49-sansserif.conf",
+    "share/fontconfig/conf.avail/50-user.conf",
+    "share/fontconfig/conf.avail/51-local.conf",
+    "share/fontconfig/conf.avail/60-generic.conf",
+    "share/fontconfig/conf.avail/60-latin.conf",
+    "share/fontconfig/conf.avail/65-fonts-persian.conf",
+    "share/fontconfig/conf.avail/65-khmer.conf",
+    "share/fontconfig/conf.avail/65-nonlatin.conf",
+    "share/fontconfig/conf.avail/69-unifont.conf",
+    "share/fontconfig/conf.avail/70-no-bitmaps.conf",
+    "share/fontconfig/conf.avail/70-yes-bitmaps.conf",
+    "share/fontconfig/conf.avail/80-delicious.conf",
+    "share/fontconfig/conf.avail/90-synthetic.conf",
+    "share/xml/fontconfig/fonts.dtd",
+    "var/cache/fontconfig/.leave"
+  ],
+  "fn": "fontconfig-2.12.6-0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/fontconfig-2.12.6-0",
+    "type": 1
+  },
+  "md5": "7d64c8976aeec41c346d5e956e2ed821",
+  "name": "fontconfig",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/fontconfig-2.12.6-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/fc-cache",
+        "path_type": "hardlink",
+        "sha256": "b94af92bbcf12b8ccabab3c3749c7ea55172d517a0ba6c30aef3d9b44c8122bd",
+        "sha256_in_prefix": "b94af92bbcf12b8ccabab3c3749c7ea55172d517a0ba6c30aef3d9b44c8122bd",
+        "size_in_bytes": 31878
+      },
+      {
+        "_path": "bin/fc-cat",
+        "path_type": "hardlink",
+        "sha256": "2bb52796c13f9bb6fc2eab26a0aa68d19d039e992e3fc86e165c2b6c717a4723",
+        "sha256_in_prefix": "2bb52796c13f9bb6fc2eab26a0aa68d19d039e992e3fc86e165c2b6c717a4723",
+        "size_in_bytes": 31705
+      },
+      {
+        "_path": "bin/fc-list",
+        "path_type": "hardlink",
+        "sha256": "f710cc0f8edea799a8a98880e36b6b86c5dee3b524c63123090a312aedfe6b53",
+        "sha256_in_prefix": "f710cc0f8edea799a8a98880e36b6b86c5dee3b524c63123090a312aedfe6b53",
+        "size_in_bytes": 20014
+      },
+      {
+        "_path": "bin/fc-match",
+        "path_type": "hardlink",
+        "sha256": "4bd79643e98f902873ce78ae7a4b79e5874fd01c00b447b12b3f384a9684ee06",
+        "sha256_in_prefix": "4bd79643e98f902873ce78ae7a4b79e5874fd01c00b447b12b3f384a9684ee06",
+        "size_in_bytes": 23079
+      },
+      {
+        "_path": "bin/fc-pattern",
+        "path_type": "hardlink",
+        "sha256": "52d15cd3426a5a423b2a42e3851075254ef13ad00a1376dc089dc512ef931b21",
+        "sha256_in_prefix": "52d15cd3426a5a423b2a42e3851075254ef13ad00a1376dc089dc512ef931b21",
+        "size_in_bytes": 19627
+      },
+      {
+        "_path": "bin/fc-query",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/fontconfig_1511612423159/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "68aea54874a0a230b8fb09873e27310c7832e54886c10867ed804e59e1172258",
+        "sha256_in_prefix": "eb39cfa9243fe93f484797f249d49657269a61896459fb21a1568a0e89ad99c4",
+        "size_in_bytes": 26695
+      },
+      {
+        "_path": "bin/fc-scan",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/fontconfig_1511612423159/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "ace6979d61773416b5c92494e11c07cecb2fa8ffb3d1f944aaa1f26c4e7bf2f7",
+        "sha256_in_prefix": "f6b3bb6f6432a942f8c8aab881621518a5d38f951f50724231b63d92b9ca90a8",
+        "size_in_bytes": 20231
+      },
+      {
+        "_path": "bin/fc-validate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/fontconfig_1511612423159/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "b925b7f340aa234fb01e969173a48693240a7dcdb928fcc9847ed826b6ae48d6",
+        "sha256_in_prefix": "4816080a1a159afde0703846e8caa795e11dcb058337a3b455aaf440de062547",
+        "size_in_bytes": 28599
+      },
+      {
+        "_path": "etc/fonts/conf.d/10-hinting-slight.conf",
+        "path_type": "softlink",
+        "sha256": "d395fa14104722405dfcc73cdfb6d9367e2d2e9ae12f0adc94e7399e30e6492c",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "etc/fonts/conf.d/10-scale-bitmap-fonts.conf",
+        "path_type": "softlink",
+        "sha256": "4cf7aa43a43a90445816f275e34992f3563db4468ef588874440d61546485702",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "etc/fonts/conf.d/20-unhint-small-vera.conf",
+        "path_type": "softlink",
+        "sha256": "855e1f86a70170982cda0e796e407173c81e4033537ccb6fa899f638a324ef60",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "etc/fonts/conf.d/30-metric-aliases.conf",
+        "path_type": "softlink",
+        "sha256": "4f08946bb08167b2837c713e2b7e66d0aa1b9901fd8d98a29b03f1105e520391",
+        "size_in_bytes": 13013
+      },
+      {
+        "_path": "etc/fonts/conf.d/40-nonlatin.conf",
+        "path_type": "softlink",
+        "sha256": "96883a4ec25fe27cc7e608e34a2b0928c6572263c60fdd1a4d10c7cac4a04683",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "etc/fonts/conf.d/45-generic.conf",
+        "path_type": "softlink",
+        "sha256": "750c9bafc1682df607f4aa40bf4e758a9d462dffe8a738ae54bbf4dadc89e76f",
+        "size_in_bytes": 3248
+      },
+      {
+        "_path": "etc/fonts/conf.d/45-latin.conf",
+        "path_type": "softlink",
+        "sha256": "db1c9e4bfb8fadce6f3fcd0d88e38c14373a30208793ca82d5a48f98dc79357d",
+        "size_in_bytes": 6362
+      },
+      {
+        "_path": "etc/fonts/conf.d/49-sansserif.conf",
+        "path_type": "softlink",
+        "sha256": "ac32c6de350ff1c7945c31bf55eb89aa00c2198f65c92f89479f552dbce82090",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "etc/fonts/conf.d/50-user.conf",
+        "path_type": "softlink",
+        "sha256": "572980e97c21390386bda4d49da677fd99afbede5b2f63e4ea50d47696a8f8b4",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "etc/fonts/conf.d/51-local.conf",
+        "path_type": "softlink",
+        "sha256": "cff7fa2a5fec9dc6e4b96df901a5763b02f7da3bd1636f62b261f71ec06dcc71",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "etc/fonts/conf.d/60-generic.conf",
+        "path_type": "softlink",
+        "sha256": "e6643c4af1a1ea2fdfec66ae2a32e0facac7d1a88b3c7ebe2556c1708821feaa",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "etc/fonts/conf.d/60-latin.conf",
+        "path_type": "softlink",
+        "sha256": "c51546897d82c04f6f8b9cf8df51e2018a671e6492bcb92ef289a629e724ced2",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "etc/fonts/conf.d/65-fonts-persian.conf",
+        "path_type": "softlink",
+        "sha256": "e02d797787df6b54e81d77aa8e8a75bcd59b866802fb43b06105d66376efd30d",
+        "size_in_bytes": 10118
+      },
+      {
+        "_path": "etc/fonts/conf.d/65-nonlatin.conf",
+        "path_type": "softlink",
+        "sha256": "330597211ff23441d38cf937d4ec83dc2a2d0b600fe660fb8ad4722710b6c582",
+        "size_in_bytes": 7931
+      },
+      {
+        "_path": "etc/fonts/conf.d/69-unifont.conf",
+        "path_type": "softlink",
+        "sha256": "7d001e8289d1af7a0f095b3c5646347a68c6586b989312ffa3059f92213678e5",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "etc/fonts/conf.d/80-delicious.conf",
+        "path_type": "softlink",
+        "sha256": "046da4371f65c236aafc73ed33a924c61e55ff49dad9d9a51e79f519882d7fbd",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "etc/fonts/conf.d/90-synthetic.conf",
+        "path_type": "softlink",
+        "sha256": "bbea65e32cef73fcb80efa1b32fc54e31c31477d808a8b206682f1ab06baa523",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "etc/fonts/conf.d/README",
+        "path_type": "hardlink",
+        "sha256": "f15acc29263815e7e04144a4b125e826a50557cdfb44dfc20cea5dcd869c6ea1",
+        "sha256_in_prefix": "f15acc29263815e7e04144a4b125e826a50557cdfb44dfc20cea5dcd869c6ea1",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "etc/fonts/fonts.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "91254b0bdd6f9a8ba75220d716cdc2c273a0997c857f6f42eb9d034edfc86851",
+        "sha256_in_prefix": "411770a69a5750f7ca3fdb0d78154ac5a459110d029e5c496974c8440570788d",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "include/fontconfig/fcfreetype.h",
+        "path_type": "hardlink",
+        "sha256": "4da2b4c0fca8a18bfbdb89895b228818231dace2e091707a5e52e9f0d5e36c0a",
+        "sha256_in_prefix": "4da2b4c0fca8a18bfbdb89895b228818231dace2e091707a5e52e9f0d5e36c0a",
+        "size_in_bytes": 1951
+      },
+      {
+        "_path": "include/fontconfig/fcprivate.h",
+        "path_type": "hardlink",
+        "sha256": "12cc300f8f2bb6cf17982dbbeb8a36d9c999f35c21eb530ed4d0055c276b7941",
+        "sha256_in_prefix": "12cc300f8f2bb6cf17982dbbeb8a36d9c999f35c21eb530ed4d0055c276b7941",
+        "size_in_bytes": 4245
+      },
+      {
+        "_path": "include/fontconfig/fontconfig.h",
+        "path_type": "hardlink",
+        "sha256": "ae017754098969b019306f238e675f9d684a660ef6d93df1837abbaa186a9052",
+        "sha256_in_prefix": "ae017754098969b019306f238e675f9d684a660ef6d93df1837abbaa186a9052",
+        "size_in_bytes": 26440
+      },
+      {
+        "_path": "lib/libfontconfig.a",
+        "path_type": "hardlink",
+        "sha256": "bb8b5b7d8d51aaa1557a8f357984bb2277f3dac6afc0942986c6b5a767be22b8",
+        "sha256_in_prefix": "bb8b5b7d8d51aaa1557a8f357984bb2277f3dac6afc0942986c6b5a767be22b8",
+        "size_in_bytes": 1797944
+      },
+      {
+        "_path": "lib/libfontconfig.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "032157b500695d9f410874d4074fb22f66d12a25b7ad4ac4da9e1229806c7a9f",
+        "sha256_in_prefix": "1ffaee02548311a38fd0225dc0d5bed79d1374df64b402157a2ebe268a3e93b5",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "lib/libfontconfig.so",
+        "path_type": "softlink",
+        "sha256": "ffe092d032e4d1658f5b34cc8a9f177d0f4168c850dee698a0b668d6945e3390",
+        "size_in_bytes": 1003394
+      },
+      {
+        "_path": "lib/libfontconfig.so.1",
+        "path_type": "softlink",
+        "sha256": "ffe092d032e4d1658f5b34cc8a9f177d0f4168c850dee698a0b668d6945e3390",
+        "size_in_bytes": 1003394
+      },
+      {
+        "_path": "lib/libfontconfig.so.1.10.1",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/fontconfig_1511612423159/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "ffe092d032e4d1658f5b34cc8a9f177d0f4168c850dee698a0b668d6945e3390",
+        "sha256_in_prefix": "d720f378e827ba4a726e953474a3fd8453cad1a9b1b5d005fbfc7387a83766cb",
+        "size_in_bytes": 1003394
+      },
+      {
+        "_path": "lib/pkgconfig/fontconfig.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "3441ab8b009b7fbbd79ac2de7948f3aed7b418ee9339c4def8b5d40d050f971d",
+        "sha256_in_prefix": "0508ee5ef0223da93c8d199174eb039bd71c934df8818b4e56fbc3f0e22afcc5",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-autohint.conf",
+        "path_type": "hardlink",
+        "sha256": "5f79232f982775c907effd74a6ba88e6d0b475d7250b09dbd6c79a1773e9f538",
+        "sha256_in_prefix": "5f79232f982775c907effd74a6ba88e6d0b475d7250b09dbd6c79a1773e9f538",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-hinting-full.conf",
+        "path_type": "hardlink",
+        "sha256": "ce5b798a740beaf94d1ff314cb8fcf7b9702a2efe09a39fd74355a2ee114ef45",
+        "sha256_in_prefix": "ce5b798a740beaf94d1ff314cb8fcf7b9702a2efe09a39fd74355a2ee114ef45",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-hinting-medium.conf",
+        "path_type": "hardlink",
+        "sha256": "514fa52b814dfe6354d0f43bdaaf15b48c685e6b32ff19cbe4d1bba79d0005a6",
+        "sha256_in_prefix": "514fa52b814dfe6354d0f43bdaaf15b48c685e6b32ff19cbe4d1bba79d0005a6",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-hinting-none.conf",
+        "path_type": "hardlink",
+        "sha256": "8b2886b17a7389e08e5d317259e5d2422ab7589cfbad7ce6f774451ce9b26086",
+        "sha256_in_prefix": "8b2886b17a7389e08e5d317259e5d2422ab7589cfbad7ce6f774451ce9b26086",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-hinting-slight.conf",
+        "path_type": "hardlink",
+        "sha256": "d395fa14104722405dfcc73cdfb6d9367e2d2e9ae12f0adc94e7399e30e6492c",
+        "sha256_in_prefix": "d395fa14104722405dfcc73cdfb6d9367e2d2e9ae12f0adc94e7399e30e6492c",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-no-sub-pixel.conf",
+        "path_type": "hardlink",
+        "sha256": "fe272ccacb603dafc7ceb024c4b069dca46868f41f78cf55be04096823779fe1",
+        "sha256_in_prefix": "fe272ccacb603dafc7ceb024c4b069dca46868f41f78cf55be04096823779fe1",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf",
+        "path_type": "hardlink",
+        "sha256": "4cf7aa43a43a90445816f275e34992f3563db4468ef588874440d61546485702",
+        "sha256_in_prefix": "4cf7aa43a43a90445816f275e34992f3563db4468ef588874440d61546485702",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-sub-pixel-bgr.conf",
+        "path_type": "hardlink",
+        "sha256": "574b79a82ac0158e0c5407b402ee7d60f7a36573fcb86e4329f49c0a2c1a4d08",
+        "sha256_in_prefix": "574b79a82ac0158e0c5407b402ee7d60f7a36573fcb86e4329f49c0a2c1a4d08",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-sub-pixel-rgb.conf",
+        "path_type": "hardlink",
+        "sha256": "887b818221c78cd2dd33a74dbd66a58eb6d27f92856c1f4de9e5e022423049b1",
+        "sha256_in_prefix": "887b818221c78cd2dd33a74dbd66a58eb6d27f92856c1f4de9e5e022423049b1",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf",
+        "path_type": "hardlink",
+        "sha256": "b4276fe30bee98ea873a600976a18eca082a668c5328fbbeda411b297a146ed8",
+        "sha256_in_prefix": "b4276fe30bee98ea873a600976a18eca082a668c5328fbbeda411b297a146ed8",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf",
+        "path_type": "hardlink",
+        "sha256": "e3eeadca58a724ef4b6014b053ca095930034417fda0c00710205c1222ae6c46",
+        "sha256_in_prefix": "e3eeadca58a724ef4b6014b053ca095930034417fda0c00710205c1222ae6c46",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/10-unhinted.conf",
+        "path_type": "hardlink",
+        "sha256": "435cf7b099864fa44f26fac1c968faf13daf264c3535ef5ddd3b8c1d9adf400c",
+        "sha256_in_prefix": "435cf7b099864fa44f26fac1c968faf13daf264c3535ef5ddd3b8c1d9adf400c",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/11-lcdfilter-default.conf",
+        "path_type": "hardlink",
+        "sha256": "527335fcf49b233c9eb0b5b5f646e9754c05bd652f8a7a8adbd75b6330a4b4da",
+        "sha256_in_prefix": "527335fcf49b233c9eb0b5b5f646e9754c05bd652f8a7a8adbd75b6330a4b4da",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/11-lcdfilter-legacy.conf",
+        "path_type": "hardlink",
+        "sha256": "26c93e9eb9b34336bac5c4be4cb21ac0db4a700ca7c857e22de447fbc8c2a64f",
+        "sha256_in_prefix": "26c93e9eb9b34336bac5c4be4cb21ac0db4a700ca7c857e22de447fbc8c2a64f",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/11-lcdfilter-light.conf",
+        "path_type": "hardlink",
+        "sha256": "175c4081589bdd68130e6de07734c28353ff45610d38e462058926668aa51cf7",
+        "sha256_in_prefix": "175c4081589bdd68130e6de07734c28353ff45610d38e462058926668aa51cf7",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/20-unhint-small-vera.conf",
+        "path_type": "hardlink",
+        "sha256": "855e1f86a70170982cda0e796e407173c81e4033537ccb6fa899f638a324ef60",
+        "sha256_in_prefix": "855e1f86a70170982cda0e796e407173c81e4033537ccb6fa899f638a324ef60",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/25-unhint-nonlatin.conf",
+        "path_type": "hardlink",
+        "sha256": "d074be03d0613eb6aa4037c97fc48234e8340a36262f528e09583e65031cc1fc",
+        "sha256_in_prefix": "d074be03d0613eb6aa4037c97fc48234e8340a36262f528e09583e65031cc1fc",
+        "size_in_bytes": 3256
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/30-metric-aliases.conf",
+        "path_type": "hardlink",
+        "sha256": "4f08946bb08167b2837c713e2b7e66d0aa1b9901fd8d98a29b03f1105e520391",
+        "sha256_in_prefix": "4f08946bb08167b2837c713e2b7e66d0aa1b9901fd8d98a29b03f1105e520391",
+        "size_in_bytes": 13013
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/40-nonlatin.conf",
+        "path_type": "hardlink",
+        "sha256": "96883a4ec25fe27cc7e608e34a2b0928c6572263c60fdd1a4d10c7cac4a04683",
+        "sha256_in_prefix": "96883a4ec25fe27cc7e608e34a2b0928c6572263c60fdd1a4d10c7cac4a04683",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/45-generic.conf",
+        "path_type": "hardlink",
+        "sha256": "750c9bafc1682df607f4aa40bf4e758a9d462dffe8a738ae54bbf4dadc89e76f",
+        "sha256_in_prefix": "750c9bafc1682df607f4aa40bf4e758a9d462dffe8a738ae54bbf4dadc89e76f",
+        "size_in_bytes": 3248
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/45-latin.conf",
+        "path_type": "hardlink",
+        "sha256": "db1c9e4bfb8fadce6f3fcd0d88e38c14373a30208793ca82d5a48f98dc79357d",
+        "sha256_in_prefix": "db1c9e4bfb8fadce6f3fcd0d88e38c14373a30208793ca82d5a48f98dc79357d",
+        "size_in_bytes": 6362
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/49-sansserif.conf",
+        "path_type": "hardlink",
+        "sha256": "ac32c6de350ff1c7945c31bf55eb89aa00c2198f65c92f89479f552dbce82090",
+        "sha256_in_prefix": "ac32c6de350ff1c7945c31bf55eb89aa00c2198f65c92f89479f552dbce82090",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/50-user.conf",
+        "path_type": "hardlink",
+        "sha256": "572980e97c21390386bda4d49da677fd99afbede5b2f63e4ea50d47696a8f8b4",
+        "sha256_in_prefix": "572980e97c21390386bda4d49da677fd99afbede5b2f63e4ea50d47696a8f8b4",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/51-local.conf",
+        "path_type": "hardlink",
+        "sha256": "cff7fa2a5fec9dc6e4b96df901a5763b02f7da3bd1636f62b261f71ec06dcc71",
+        "sha256_in_prefix": "cff7fa2a5fec9dc6e4b96df901a5763b02f7da3bd1636f62b261f71ec06dcc71",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/60-generic.conf",
+        "path_type": "hardlink",
+        "sha256": "e6643c4af1a1ea2fdfec66ae2a32e0facac7d1a88b3c7ebe2556c1708821feaa",
+        "sha256_in_prefix": "e6643c4af1a1ea2fdfec66ae2a32e0facac7d1a88b3c7ebe2556c1708821feaa",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/60-latin.conf",
+        "path_type": "hardlink",
+        "sha256": "c51546897d82c04f6f8b9cf8df51e2018a671e6492bcb92ef289a629e724ced2",
+        "sha256_in_prefix": "c51546897d82c04f6f8b9cf8df51e2018a671e6492bcb92ef289a629e724ced2",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/65-fonts-persian.conf",
+        "path_type": "hardlink",
+        "sha256": "e02d797787df6b54e81d77aa8e8a75bcd59b866802fb43b06105d66376efd30d",
+        "sha256_in_prefix": "e02d797787df6b54e81d77aa8e8a75bcd59b866802fb43b06105d66376efd30d",
+        "size_in_bytes": 10118
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/65-khmer.conf",
+        "path_type": "hardlink",
+        "sha256": "5ae948cfe76dd9c08002f86cbfabb6adcf9ceeeb0b2e0082857558614b77ec8b",
+        "sha256_in_prefix": "5ae948cfe76dd9c08002f86cbfabb6adcf9ceeeb0b2e0082857558614b77ec8b",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/65-nonlatin.conf",
+        "path_type": "hardlink",
+        "sha256": "330597211ff23441d38cf937d4ec83dc2a2d0b600fe660fb8ad4722710b6c582",
+        "sha256_in_prefix": "330597211ff23441d38cf937d4ec83dc2a2d0b600fe660fb8ad4722710b6c582",
+        "size_in_bytes": 7931
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/69-unifont.conf",
+        "path_type": "hardlink",
+        "sha256": "7d001e8289d1af7a0f095b3c5646347a68c6586b989312ffa3059f92213678e5",
+        "sha256_in_prefix": "7d001e8289d1af7a0f095b3c5646347a68c6586b989312ffa3059f92213678e5",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/70-no-bitmaps.conf",
+        "path_type": "hardlink",
+        "sha256": "b1d755a293433dd7d15120eb8aa79ac89db3ee91c0aa674dff53768802a35aa8",
+        "sha256_in_prefix": "b1d755a293433dd7d15120eb8aa79ac89db3ee91c0aa674dff53768802a35aa8",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/70-yes-bitmaps.conf",
+        "path_type": "hardlink",
+        "sha256": "56735ceefd2ef4eb359ff0f21df9ae25fd1542b73ac51cd0dbedce694430732f",
+        "sha256_in_prefix": "56735ceefd2ef4eb359ff0f21df9ae25fd1542b73ac51cd0dbedce694430732f",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/80-delicious.conf",
+        "path_type": "hardlink",
+        "sha256": "046da4371f65c236aafc73ed33a924c61e55ff49dad9d9a51e79f519882d7fbd",
+        "sha256_in_prefix": "046da4371f65c236aafc73ed33a924c61e55ff49dad9d9a51e79f519882d7fbd",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "share/fontconfig/conf.avail/90-synthetic.conf",
+        "path_type": "hardlink",
+        "sha256": "bbea65e32cef73fcb80efa1b32fc54e31c31477d808a8b206682f1ab06baa523",
+        "sha256_in_prefix": "bbea65e32cef73fcb80efa1b32fc54e31c31477d808a8b206682f1ab06baa523",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "share/xml/fontconfig/fonts.dtd",
+        "path_type": "hardlink",
+        "sha256": "26cac5f99498345c19e7d53aa3b9ab531a57bd0cef0b8e6b9dc0e4e2116ffb3b",
+        "sha256_in_prefix": "26cac5f99498345c19e7d53aa3b9ab531a57bd0cef0b8e6b9dc0e4e2116ffb3b",
+        "size_in_bytes": 7250
+      },
+      {
+        "_path": "var/cache/fontconfig/.leave",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 965821,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fontconfig-2.12.6-0.tar.bz2",
+  "version": "2.12.6"
+}

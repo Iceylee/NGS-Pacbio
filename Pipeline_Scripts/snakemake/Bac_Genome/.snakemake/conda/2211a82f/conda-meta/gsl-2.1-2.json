@@ -1,0 +1,1310 @@
+{
+  "arch": "x86_64",
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/gsl-2.1-2",
+  "features": "",
+  "files": [
+    "bin/gsl-config",
+    "bin/gsl-histogram",
+    "bin/gsl-randist",
+    "include/gsl/gsl_blas.h",
+    "include/gsl/gsl_blas_types.h",
+    "include/gsl/gsl_block.h",
+    "include/gsl/gsl_block_char.h",
+    "include/gsl/gsl_block_complex_double.h",
+    "include/gsl/gsl_block_complex_float.h",
+    "include/gsl/gsl_block_complex_long_double.h",
+    "include/gsl/gsl_block_double.h",
+    "include/gsl/gsl_block_float.h",
+    "include/gsl/gsl_block_int.h",
+    "include/gsl/gsl_block_long.h",
+    "include/gsl/gsl_block_long_double.h",
+    "include/gsl/gsl_block_short.h",
+    "include/gsl/gsl_block_uchar.h",
+    "include/gsl/gsl_block_uint.h",
+    "include/gsl/gsl_block_ulong.h",
+    "include/gsl/gsl_block_ushort.h",
+    "include/gsl/gsl_bspline.h",
+    "include/gsl/gsl_cblas.h",
+    "include/gsl/gsl_cdf.h",
+    "include/gsl/gsl_chebyshev.h",
+    "include/gsl/gsl_check_range.h",
+    "include/gsl/gsl_combination.h",
+    "include/gsl/gsl_complex.h",
+    "include/gsl/gsl_complex_math.h",
+    "include/gsl/gsl_const.h",
+    "include/gsl/gsl_const_cgs.h",
+    "include/gsl/gsl_const_cgsm.h",
+    "include/gsl/gsl_const_mks.h",
+    "include/gsl/gsl_const_mksa.h",
+    "include/gsl/gsl_const_num.h",
+    "include/gsl/gsl_deriv.h",
+    "include/gsl/gsl_dft_complex.h",
+    "include/gsl/gsl_dft_complex_float.h",
+    "include/gsl/gsl_dht.h",
+    "include/gsl/gsl_diff.h",
+    "include/gsl/gsl_eigen.h",
+    "include/gsl/gsl_errno.h",
+    "include/gsl/gsl_fft.h",
+    "include/gsl/gsl_fft_complex.h",
+    "include/gsl/gsl_fft_complex_float.h",
+    "include/gsl/gsl_fft_halfcomplex.h",
+    "include/gsl/gsl_fft_halfcomplex_float.h",
+    "include/gsl/gsl_fft_real.h",
+    "include/gsl/gsl_fft_real_float.h",
+    "include/gsl/gsl_fit.h",
+    "include/gsl/gsl_heapsort.h",
+    "include/gsl/gsl_histogram.h",
+    "include/gsl/gsl_histogram2d.h",
+    "include/gsl/gsl_ieee_utils.h",
+    "include/gsl/gsl_inline.h",
+    "include/gsl/gsl_integration.h",
+    "include/gsl/gsl_interp.h",
+    "include/gsl/gsl_interp2d.h",
+    "include/gsl/gsl_linalg.h",
+    "include/gsl/gsl_machine.h",
+    "include/gsl/gsl_math.h",
+    "include/gsl/gsl_matrix.h",
+    "include/gsl/gsl_matrix_char.h",
+    "include/gsl/gsl_matrix_complex_double.h",
+    "include/gsl/gsl_matrix_complex_float.h",
+    "include/gsl/gsl_matrix_complex_long_double.h",
+    "include/gsl/gsl_matrix_double.h",
+    "include/gsl/gsl_matrix_float.h",
+    "include/gsl/gsl_matrix_int.h",
+    "include/gsl/gsl_matrix_long.h",
+    "include/gsl/gsl_matrix_long_double.h",
+    "include/gsl/gsl_matrix_short.h",
+    "include/gsl/gsl_matrix_uchar.h",
+    "include/gsl/gsl_matrix_uint.h",
+    "include/gsl/gsl_matrix_ulong.h",
+    "include/gsl/gsl_matrix_ushort.h",
+    "include/gsl/gsl_message.h",
+    "include/gsl/gsl_min.h",
+    "include/gsl/gsl_minmax.h",
+    "include/gsl/gsl_mode.h",
+    "include/gsl/gsl_monte.h",
+    "include/gsl/gsl_monte_miser.h",
+    "include/gsl/gsl_monte_plain.h",
+    "include/gsl/gsl_monte_vegas.h",
+    "include/gsl/gsl_multifit.h",
+    "include/gsl/gsl_multifit_nlin.h",
+    "include/gsl/gsl_multilarge.h",
+    "include/gsl/gsl_multimin.h",
+    "include/gsl/gsl_multiroots.h",
+    "include/gsl/gsl_multiset.h",
+    "include/gsl/gsl_nan.h",
+    "include/gsl/gsl_ntuple.h",
+    "include/gsl/gsl_odeiv.h",
+    "include/gsl/gsl_odeiv2.h",
+    "include/gsl/gsl_permutation.h",
+    "include/gsl/gsl_permute.h",
+    "include/gsl/gsl_permute_char.h",
+    "include/gsl/gsl_permute_complex_double.h",
+    "include/gsl/gsl_permute_complex_float.h",
+    "include/gsl/gsl_permute_complex_long_double.h",
+    "include/gsl/gsl_permute_double.h",
+    "include/gsl/gsl_permute_float.h",
+    "include/gsl/gsl_permute_int.h",
+    "include/gsl/gsl_permute_long.h",
+    "include/gsl/gsl_permute_long_double.h",
+    "include/gsl/gsl_permute_short.h",
+    "include/gsl/gsl_permute_uchar.h",
+    "include/gsl/gsl_permute_uint.h",
+    "include/gsl/gsl_permute_ulong.h",
+    "include/gsl/gsl_permute_ushort.h",
+    "include/gsl/gsl_permute_vector.h",
+    "include/gsl/gsl_permute_vector_char.h",
+    "include/gsl/gsl_permute_vector_complex_double.h",
+    "include/gsl/gsl_permute_vector_complex_float.h",
+    "include/gsl/gsl_permute_vector_complex_long_double.h",
+    "include/gsl/gsl_permute_vector_double.h",
+    "include/gsl/gsl_permute_vector_float.h",
+    "include/gsl/gsl_permute_vector_int.h",
+    "include/gsl/gsl_permute_vector_long.h",
+    "include/gsl/gsl_permute_vector_long_double.h",
+    "include/gsl/gsl_permute_vector_short.h",
+    "include/gsl/gsl_permute_vector_uchar.h",
+    "include/gsl/gsl_permute_vector_uint.h",
+    "include/gsl/gsl_permute_vector_ulong.h",
+    "include/gsl/gsl_permute_vector_ushort.h",
+    "include/gsl/gsl_poly.h",
+    "include/gsl/gsl_pow_int.h",
+    "include/gsl/gsl_precision.h",
+    "include/gsl/gsl_qrng.h",
+    "include/gsl/gsl_randist.h",
+    "include/gsl/gsl_rng.h",
+    "include/gsl/gsl_roots.h",
+    "include/gsl/gsl_rstat.h",
+    "include/gsl/gsl_sf.h",
+    "include/gsl/gsl_sf_airy.h",
+    "include/gsl/gsl_sf_bessel.h",
+    "include/gsl/gsl_sf_clausen.h",
+    "include/gsl/gsl_sf_coulomb.h",
+    "include/gsl/gsl_sf_coupling.h",
+    "include/gsl/gsl_sf_dawson.h",
+    "include/gsl/gsl_sf_debye.h",
+    "include/gsl/gsl_sf_dilog.h",
+    "include/gsl/gsl_sf_elementary.h",
+    "include/gsl/gsl_sf_ellint.h",
+    "include/gsl/gsl_sf_elljac.h",
+    "include/gsl/gsl_sf_erf.h",
+    "include/gsl/gsl_sf_exp.h",
+    "include/gsl/gsl_sf_expint.h",
+    "include/gsl/gsl_sf_fermi_dirac.h",
+    "include/gsl/gsl_sf_gamma.h",
+    "include/gsl/gsl_sf_gegenbauer.h",
+    "include/gsl/gsl_sf_hyperg.h",
+    "include/gsl/gsl_sf_laguerre.h",
+    "include/gsl/gsl_sf_lambert.h",
+    "include/gsl/gsl_sf_legendre.h",
+    "include/gsl/gsl_sf_log.h",
+    "include/gsl/gsl_sf_mathieu.h",
+    "include/gsl/gsl_sf_pow_int.h",
+    "include/gsl/gsl_sf_psi.h",
+    "include/gsl/gsl_sf_result.h",
+    "include/gsl/gsl_sf_synchrotron.h",
+    "include/gsl/gsl_sf_transport.h",
+    "include/gsl/gsl_sf_trig.h",
+    "include/gsl/gsl_sf_zeta.h",
+    "include/gsl/gsl_siman.h",
+    "include/gsl/gsl_sort.h",
+    "include/gsl/gsl_sort_char.h",
+    "include/gsl/gsl_sort_double.h",
+    "include/gsl/gsl_sort_float.h",
+    "include/gsl/gsl_sort_int.h",
+    "include/gsl/gsl_sort_long.h",
+    "include/gsl/gsl_sort_long_double.h",
+    "include/gsl/gsl_sort_short.h",
+    "include/gsl/gsl_sort_uchar.h",
+    "include/gsl/gsl_sort_uint.h",
+    "include/gsl/gsl_sort_ulong.h",
+    "include/gsl/gsl_sort_ushort.h",
+    "include/gsl/gsl_sort_vector.h",
+    "include/gsl/gsl_sort_vector_char.h",
+    "include/gsl/gsl_sort_vector_double.h",
+    "include/gsl/gsl_sort_vector_float.h",
+    "include/gsl/gsl_sort_vector_int.h",
+    "include/gsl/gsl_sort_vector_long.h",
+    "include/gsl/gsl_sort_vector_long_double.h",
+    "include/gsl/gsl_sort_vector_short.h",
+    "include/gsl/gsl_sort_vector_uchar.h",
+    "include/gsl/gsl_sort_vector_uint.h",
+    "include/gsl/gsl_sort_vector_ulong.h",
+    "include/gsl/gsl_sort_vector_ushort.h",
+    "include/gsl/gsl_spblas.h",
+    "include/gsl/gsl_specfunc.h",
+    "include/gsl/gsl_splinalg.h",
+    "include/gsl/gsl_spline.h",
+    "include/gsl/gsl_spline2d.h",
+    "include/gsl/gsl_spmatrix.h",
+    "include/gsl/gsl_statistics.h",
+    "include/gsl/gsl_statistics_char.h",
+    "include/gsl/gsl_statistics_double.h",
+    "include/gsl/gsl_statistics_float.h",
+    "include/gsl/gsl_statistics_int.h",
+    "include/gsl/gsl_statistics_long.h",
+    "include/gsl/gsl_statistics_long_double.h",
+    "include/gsl/gsl_statistics_short.h",
+    "include/gsl/gsl_statistics_uchar.h",
+    "include/gsl/gsl_statistics_uint.h",
+    "include/gsl/gsl_statistics_ulong.h",
+    "include/gsl/gsl_statistics_ushort.h",
+    "include/gsl/gsl_sum.h",
+    "include/gsl/gsl_sys.h",
+    "include/gsl/gsl_test.h",
+    "include/gsl/gsl_types.h",
+    "include/gsl/gsl_vector.h",
+    "include/gsl/gsl_vector_char.h",
+    "include/gsl/gsl_vector_complex.h",
+    "include/gsl/gsl_vector_complex_double.h",
+    "include/gsl/gsl_vector_complex_float.h",
+    "include/gsl/gsl_vector_complex_long_double.h",
+    "include/gsl/gsl_vector_double.h",
+    "include/gsl/gsl_vector_float.h",
+    "include/gsl/gsl_vector_int.h",
+    "include/gsl/gsl_vector_long.h",
+    "include/gsl/gsl_vector_long_double.h",
+    "include/gsl/gsl_vector_short.h",
+    "include/gsl/gsl_vector_uchar.h",
+    "include/gsl/gsl_vector_uint.h",
+    "include/gsl/gsl_vector_ulong.h",
+    "include/gsl/gsl_vector_ushort.h",
+    "include/gsl/gsl_version.h",
+    "include/gsl/gsl_wavelet.h",
+    "include/gsl/gsl_wavelet2d.h",
+    "lib/libgsl.a",
+    "lib/libgsl.la",
+    "lib/libgsl.so",
+    "lib/libgsl.so.19",
+    "lib/libgsl.so.19.0.0",
+    "lib/libgslcblas.a",
+    "lib/libgslcblas.la",
+    "lib/libgslcblas.so",
+    "lib/libgslcblas.so.0",
+    "lib/libgslcblas.so.0.0.0",
+    "lib/pkgconfig/gsl.pc",
+    "share/aclocal/gsl.m4",
+    "share/info/dir",
+    "share/info/gsl-ref.info",
+    "share/info/gsl-ref.info-1",
+    "share/info/gsl-ref.info-2",
+    "share/info/gsl-ref.info-3",
+    "share/info/gsl-ref.info-4",
+    "share/info/gsl-ref.info-5",
+    "share/info/gsl-ref.info-6",
+    "share/man/man1/gsl-config.1",
+    "share/man/man1/gsl-histogram.1",
+    "share/man/man1/gsl-randist.1",
+    "share/man/man3/gsl.3"
+  ],
+  "fn": "gsl-2.1-2.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/gsl-2.1-2",
+    "type": 1
+  },
+  "md5": "20c677dbe2eb4f27b1de7efd65dd7875",
+  "name": "gsl",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/gsl-2.1-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gsl-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "88df92d5cef721fe117c1fb8bcecaad8e14f9e57103cc6a7f3ea728ba3823556"
+      },
+      {
+        "_path": "bin/gsl-histogram",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/gsl-randist",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_blas.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_blas_types.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_complex_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_complex_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_block_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_bspline.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_cblas.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_cdf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_chebyshev.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_check_range.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_combination.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_complex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_complex_math.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const_cgs.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const_cgsm.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const_mks.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const_mksa.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_const_num.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_deriv.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_dft_complex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_dft_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_dht.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_diff.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_eigen.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_errno.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_complex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_halfcomplex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_halfcomplex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_real.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fft_real_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_fit.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_heapsort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_histogram.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_histogram2d.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_ieee_utils.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_inline.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_integration.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_interp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_interp2d.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_linalg.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_machine.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_math.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_complex_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_complex_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_matrix_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_message.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_min.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_minmax.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_mode.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_monte.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_monte_miser.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_monte_plain.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_monte_vegas.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multifit.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multifit_nlin.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multilarge.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multimin.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multiroots.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_multiset.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_nan.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_ntuple.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_odeiv.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_odeiv2.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permutation.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_complex_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_complex_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_complex_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_complex_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_permute_vector_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_poly.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_pow_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_precision.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_qrng.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_randist.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_rng.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_roots.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_rstat.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_airy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_bessel.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_clausen.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_coulomb.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_coupling.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_dawson.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_debye.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_dilog.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_elementary.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_ellint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_elljac.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_erf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_exp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_expint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_fermi_dirac.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_gamma.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_gegenbauer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_hyperg.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_laguerre.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_lambert.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_legendre.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_log.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_mathieu.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_pow_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_psi.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_result.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_synchrotron.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_transport.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_trig.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sf_zeta.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_siman.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sort_vector_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_spblas.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_specfunc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_splinalg.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_spline.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_spline2d.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_spmatrix.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_statistics_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sum.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_sys.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_test.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_types.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_char.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_complex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_complex_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_complex_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_complex_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_float.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_int.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_long.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_long_double.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_short.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_uchar.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_uint.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_ulong.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_vector_ushort.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_version.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_wavelet.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/gsl/gsl_wavelet2d.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgsl.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgsl.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "5c973243f4aff6839521ea1c2b9c6fce648e552025a4a4fe4fbcc5aedf2cafbf"
+      },
+      {
+        "_path": "lib/libgsl.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgsl.so.19",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgsl.so.19.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgslcblas.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgslcblas.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4cfd0ca694ceb436ff983a858ef860c77a84d7ce1efd0bb5d93edde6eb3a033c"
+      },
+      {
+        "_path": "lib/libgslcblas.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgslcblas.so.0",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgslcblas.so.0.0.0",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/pkgconfig/gsl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "cb9c4c7ad492f2d779dba7256629a35db77a714d4aa11bef86486c55761cf71a"
+      },
+      {
+        "_path": "share/aclocal/gsl.m4",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/dir",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-2",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-4",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-5",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/gsl-ref.info-6",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gsl-config.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gsl-histogram.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gsl-randist.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/gsl.3",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 7629266,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gsl-2.1-2.tar.bz2",
+  "version": "2.1"
+}

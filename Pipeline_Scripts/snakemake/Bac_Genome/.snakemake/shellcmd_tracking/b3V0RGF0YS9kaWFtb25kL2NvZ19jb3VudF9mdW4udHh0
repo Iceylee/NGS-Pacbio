@@ -1,0 +1,4 @@
+
+        bash scripts/cog.sh /data1/COGDatabase/cog2003-2014.csv /data1/COGDatabase/cognames2003-2014.tab /data1/COGDatabase/fun2003-2014.tab outData/diamond/cog.anno.out outData/diamond/cog_count_fun.txt outData/diamond/
+
+  

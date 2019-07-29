@@ -1,0 +1,213 @@
+{
+  "arch": "x86_64",
+  "build": "r3.3.2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.3.2*",
+    "r-digest",
+    "r-gtable >=0.1.1",
+    "r-lazyeval",
+    "r-mass",
+    "r-plyr >=1.7.1",
+    "r-reshape2",
+    "r-scales >=0.4.1",
+    "r-tibble"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-ggplot2-2.2.1-r3.3.2_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ggplot2/CITATION",
+    "lib/R/library/ggplot2/DESCRIPTION",
+    "lib/R/library/ggplot2/INDEX",
+    "lib/R/library/ggplot2/LICENSE",
+    "lib/R/library/ggplot2/Meta/Rd.rds",
+    "lib/R/library/ggplot2/Meta/data.rds",
+    "lib/R/library/ggplot2/Meta/hsearch.rds",
+    "lib/R/library/ggplot2/Meta/links.rds",
+    "lib/R/library/ggplot2/Meta/nsInfo.rds",
+    "lib/R/library/ggplot2/Meta/package.rds",
+    "lib/R/library/ggplot2/Meta/vignette.rds",
+    "lib/R/library/ggplot2/NAMESPACE",
+    "lib/R/library/ggplot2/NEWS.md",
+    "lib/R/library/ggplot2/R/ggplot2",
+    "lib/R/library/ggplot2/R/ggplot2.rdb",
+    "lib/R/library/ggplot2/R/ggplot2.rdx",
+    "lib/R/library/ggplot2/data/Rdata.rdb",
+    "lib/R/library/ggplot2/data/Rdata.rds",
+    "lib/R/library/ggplot2/data/Rdata.rdx",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.R",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.Rmd",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.html",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.R",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.Rmd",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.html",
+    "lib/R/library/ggplot2/doc/index.html",
+    "lib/R/library/ggplot2/help/AnIndex",
+    "lib/R/library/ggplot2/help/aliases.rds",
+    "lib/R/library/ggplot2/help/ggplot2.rdb",
+    "lib/R/library/ggplot2/help/ggplot2.rdx",
+    "lib/R/library/ggplot2/help/macros/aesthetics.Rd",
+    "lib/R/library/ggplot2/help/paths.rds",
+    "lib/R/library/ggplot2/html/00Index.html",
+    "lib/R/library/ggplot2/html/R.css"
+  ],
+  "fn": "r-ggplot2-2.2.1-r3.3.2_0.tar.bz2",
+  "license": "GPLv2",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-ggplot2-2.2.1-r3.3.2_0",
+    "type": 1
+  },
+  "md5": "5c8c0bec53c5822647776def23275b8b",
+  "name": "r-ggplot2",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-ggplot2-2.2.1-r3.3.2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ggplot2/CITATION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/DESCRIPTION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/INDEX",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/LICENSE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/Rd.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/data.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/hsearch.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/links.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/nsInfo.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/package.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/vignette.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/NAMESPACE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/NEWS.md",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/AnIndex",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/aliases.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/ggplot2.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/ggplot2.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/macros/aesthetics.Rd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/paths.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/html/00Index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/ggplot2/html/R.css",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-ggplot2",
+  "size": 2815534,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/r-ggplot2-2.2.1-r3.3.2_0.tar.bz2",
+  "version": "2.2.1"
+}

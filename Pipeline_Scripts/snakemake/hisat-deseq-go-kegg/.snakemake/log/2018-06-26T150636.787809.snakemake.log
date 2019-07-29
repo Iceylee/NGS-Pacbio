@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	2	mergelist
+	2	stringtie_merge
+	7
+
+rule mergelist:
+    input: colData.csv
+    output: outData/stringtie/mergelist_EV.txt
+    jobid: 52
+    wildcards: condition=EV
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-26T150636.787809.snakemake.log

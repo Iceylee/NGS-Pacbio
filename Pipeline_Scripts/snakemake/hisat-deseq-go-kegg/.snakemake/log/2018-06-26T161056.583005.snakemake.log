@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	6
+
+rule count_matrix:
+    input: outData/htseq/WR180001S_CountNum.txt, outData/htseq/WR180004S_CountNum.txt, outData/htseq/WR180002S_CountNum.txt, outData/htseq/WR180005S_CountNum.txt, outData/htseq/WR180003S_CountNum.txt, outData/htseq/WR180006S_CountNum.txt
+    output: outData/counts/all.csv
+    jobid: 51
+
+    Error in rule count_matrix:
+        jobid: 51
+        output: outData/counts/all.csv
+
+RuleException:
+WorkflowError in line 9 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk:
+URLError: <urlopen error [Errno 2] No such file or directory: '/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/scripts/count-matrix.py'>
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk", line 9, in __rule_count_matrix
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-26T161056.583005.snakemake.log

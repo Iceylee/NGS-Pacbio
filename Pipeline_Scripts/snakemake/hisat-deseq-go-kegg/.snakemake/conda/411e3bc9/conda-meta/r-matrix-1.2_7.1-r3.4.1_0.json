@@ -1,0 +1,662 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*",
+    "r-lattice"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-matrix-1.2_7.1-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/Matrix/Copyrights",
+    "lib/R/library/Matrix/DESCRIPTION",
+    "lib/R/library/Matrix/Doxyfile",
+    "lib/R/library/Matrix/INDEX",
+    "lib/R/library/Matrix/LICENCE",
+    "lib/R/library/Matrix/Meta/Rd.rds",
+    "lib/R/library/Matrix/Meta/data.rds",
+    "lib/R/library/Matrix/Meta/features.rds",
+    "lib/R/library/Matrix/Meta/hsearch.rds",
+    "lib/R/library/Matrix/Meta/links.rds",
+    "lib/R/library/Matrix/Meta/nsInfo.rds",
+    "lib/R/library/Matrix/Meta/package.rds",
+    "lib/R/library/Matrix/Meta/vignette.rds",
+    "lib/R/library/Matrix/NAMESPACE",
+    "lib/R/library/Matrix/NEWS.Rd",
+    "lib/R/library/Matrix/R/Matrix",
+    "lib/R/library/Matrix/R/Matrix.rdb",
+    "lib/R/library/Matrix/R/Matrix.rdx",
+    "lib/R/library/Matrix/data/CAex.R",
+    "lib/R/library/Matrix/data/KNex.R",
+    "lib/R/library/Matrix/data/USCounties.R",
+    "lib/R/library/Matrix/doc/Announce.txt",
+    "lib/R/library/Matrix/doc/Comparisons.R",
+    "lib/R/library/Matrix/doc/Comparisons.Rnw",
+    "lib/R/library/Matrix/doc/Comparisons.pdf",
+    "lib/R/library/Matrix/doc/Design-issues.R",
+    "lib/R/library/Matrix/doc/Design-issues.Rnw",
+    "lib/R/library/Matrix/doc/Design-issues.pdf",
+    "lib/R/library/Matrix/doc/Intro2Matrix.R",
+    "lib/R/library/Matrix/doc/Intro2Matrix.Rnw",
+    "lib/R/library/Matrix/doc/Intro2Matrix.pdf",
+    "lib/R/library/Matrix/doc/Introduction.R",
+    "lib/R/library/Matrix/doc/Introduction.Rnw",
+    "lib/R/library/Matrix/doc/Introduction.pdf",
+    "lib/R/library/Matrix/doc/SuiteSparse/AMD.txt",
+    "lib/R/library/Matrix/doc/SuiteSparse/CHOLMOD.txt",
+    "lib/R/library/Matrix/doc/SuiteSparse/COLAMD.txt",
+    "lib/R/library/Matrix/doc/SuiteSparse/SPQR.txt",
+    "lib/R/library/Matrix/doc/SuiteSparse/SuiteSparse_config.txt",
+    "lib/R/library/Matrix/doc/SuiteSparse/UserGuides.txt",
+    "lib/R/library/Matrix/doc/index.html",
+    "lib/R/library/Matrix/doc/sparseModels.R",
+    "lib/R/library/Matrix/doc/sparseModels.Rnw",
+    "lib/R/library/Matrix/doc/sparseModels.pdf",
+    "lib/R/library/Matrix/external/CAex_slots.rda",
+    "lib/R/library/Matrix/external/KNex_slots.rda",
+    "lib/R/library/Matrix/external/USCounties_slots.rda",
+    "lib/R/library/Matrix/external/lund_a.mtx",
+    "lib/R/library/Matrix/external/lund_a.rsa",
+    "lib/R/library/Matrix/external/pores_1.mtx",
+    "lib/R/library/Matrix/external/symA.rda",
+    "lib/R/library/Matrix/external/symW.rda",
+    "lib/R/library/Matrix/external/test3comp.rda",
+    "lib/R/library/Matrix/external/utm300.rua",
+    "lib/R/library/Matrix/external/wrong.mtx",
+    "lib/R/library/Matrix/help/AnIndex",
+    "lib/R/library/Matrix/help/Matrix.rdb",
+    "lib/R/library/Matrix/help/Matrix.rdx",
+    "lib/R/library/Matrix/help/aliases.rds",
+    "lib/R/library/Matrix/help/paths.rds",
+    "lib/R/library/Matrix/html/00Index.html",
+    "lib/R/library/Matrix/html/R.css",
+    "lib/R/library/Matrix/include/Matrix.h",
+    "lib/R/library/Matrix/include/Matrix_stubs.c",
+    "lib/R/library/Matrix/include/cholmod.h",
+    "lib/R/library/Matrix/libs/Matrix.so",
+    "lib/R/library/Matrix/po/de/LC_MESSAGES/Matrix.mo",
+    "lib/R/library/Matrix/po/de/LC_MESSAGES/R-Matrix.mo",
+    "lib/R/library/Matrix/po/en@quot/LC_MESSAGES/Matrix.mo",
+    "lib/R/library/Matrix/po/en@quot/LC_MESSAGES/R-Matrix.mo",
+    "lib/R/library/Matrix/po/fr/LC_MESSAGES/Matrix.mo",
+    "lib/R/library/Matrix/po/fr/LC_MESSAGES/R-Matrix.mo",
+    "lib/R/library/Matrix/po/ko/LC_MESSAGES/R-Matrix.mo",
+    "lib/R/library/Matrix/po/pl/LC_MESSAGES/Matrix.mo",
+    "lib/R/library/Matrix/po/pl/LC_MESSAGES/R-Matrix.mo",
+    "lib/R/library/Matrix/test-tools-1.R",
+    "lib/R/library/Matrix/test-tools-Matrix.R",
+    "lib/R/library/Matrix/test-tools.R"
+  ],
+  "fn": "r-matrix-1.2_7.1-r3.4.1_0.tar.bz2",
+  "license": "GPL-2.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-matrix-1.2_7.1-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "778db1c77ff0b7991061a3256cb69471",
+  "name": "r-matrix",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-matrix-1.2_7.1-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/Matrix/Copyrights",
+        "path_type": "hardlink",
+        "sha256": "ddb7d4c6208a8943b084c964a770e2dca65f3201d7b2c9f2bb6b7156d314137d",
+        "sha256_in_prefix": "ddb7d4c6208a8943b084c964a770e2dca65f3201d7b2c9f2bb6b7156d314137d",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "lib/R/library/Matrix/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "84d465e998dc7b2a67b33c865eb394f777379bba0aef6766fe5a3922aff52c9b",
+        "sha256_in_prefix": "84d465e998dc7b2a67b33c865eb394f777379bba0aef6766fe5a3922aff52c9b",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "lib/R/library/Matrix/Doxyfile",
+        "path_type": "hardlink",
+        "sha256": "d8219ca209af877faf55e0930697c497dc9eebbdbdabec9c5afede572cf53e82",
+        "sha256_in_prefix": "d8219ca209af877faf55e0930697c497dc9eebbdbdabec9c5afede572cf53e82",
+        "size_in_bytes": 104640
+      },
+      {
+        "_path": "lib/R/library/Matrix/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b84a2e93d7924523f527eb338df34ccbcd96ba5ff5ee421dbaf69741afe1f50f",
+        "sha256_in_prefix": "b84a2e93d7924523f527eb338df34ccbcd96ba5ff5ee421dbaf69741afe1f50f",
+        "size_in_bytes": 9242
+      },
+      {
+        "_path": "lib/R/library/Matrix/LICENCE",
+        "path_type": "hardlink",
+        "sha256": "a726d1f4d135600e10fea514b2fd8c956365397581c85710878c51dc75e0988b",
+        "sha256_in_prefix": "a726d1f4d135600e10fea514b2fd8c956365397581c85710878c51dc75e0988b",
+        "size_in_bytes": 36449
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "682d092b855dc399ca1beb20041214e6b1bb73746813ae4b7496b800f3b2089d",
+        "sha256_in_prefix": "682d092b855dc399ca1beb20041214e6b1bb73746813ae4b7496b800f3b2089d",
+        "size_in_bytes": 14812
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "f77d227d3e9bdaf0a2f4d94ed4bc2f7929fe424b0c20696fbf3e32b5d911f944",
+        "sha256_in_prefix": "f77d227d3e9bdaf0a2f4d94ed4bc2f7929fe424b0c20696fbf3e32b5d911f944",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5dffc51d4fee47401eff721e8cbe4b271cf72615a7800c35a2e9436fe994f144",
+        "sha256_in_prefix": "5dffc51d4fee47401eff721e8cbe4b271cf72615a7800c35a2e9436fe994f144",
+        "size_in_bytes": 15399
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d90e6d532441dd52350680137af139face22eea931002ba9be387c478f0651e3",
+        "sha256_in_prefix": "d90e6d532441dd52350680137af139face22eea931002ba9be387c478f0651e3",
+        "size_in_bytes": 12470
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "7c51c76ab0669f852e04cf9947af8523c60197e12ddf1b302dad5c99730b3a32",
+        "sha256_in_prefix": "7c51c76ab0669f852e04cf9947af8523c60197e12ddf1b302dad5c99730b3a32",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "68f8d4890c398d5c5c71a313231f39db191c8324183c28759923adbc04464d9c",
+        "sha256_in_prefix": "68f8d4890c398d5c5c71a313231f39db191c8324183c28759923adbc04464d9c",
+        "size_in_bytes": 1043
+      },
+      {
+        "_path": "lib/R/library/Matrix/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "c47c25690218e8e1af2afab01b411db192a83f73e7223ae42cf227c5f1ef8ff2",
+        "sha256_in_prefix": "c47c25690218e8e1af2afab01b411db192a83f73e7223ae42cf227c5f1ef8ff2",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/R/library/Matrix/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "217408c024a9b2ebff8252e573282e87fe296ad87c52e454b0c6d83a1a2b1e82",
+        "sha256_in_prefix": "217408c024a9b2ebff8252e573282e87fe296ad87c52e454b0c6d83a1a2b1e82",
+        "size_in_bytes": 8516
+      },
+      {
+        "_path": "lib/R/library/Matrix/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "7d39bdcd89e89a8b672133ac3304c1a8202f9f08a89be0d2229e8e70815d7669",
+        "sha256_in_prefix": "7d39bdcd89e89a8b672133ac3304c1a8202f9f08a89be0d2229e8e70815d7669",
+        "size_in_bytes": 22397
+      },
+      {
+        "_path": "lib/R/library/Matrix/R/Matrix",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/Matrix/R/Matrix.rdb",
+        "path_type": "hardlink",
+        "sha256": "c3d18d93b7af223c238101b67e532458466b5fbd75d829914ca05851774a4a4e",
+        "sha256_in_prefix": "c3d18d93b7af223c238101b67e532458466b5fbd75d829914ca05851774a4a4e",
+        "size_in_bytes": 1012602
+      },
+      {
+        "_path": "lib/R/library/Matrix/R/Matrix.rdx",
+        "path_type": "hardlink",
+        "sha256": "7b57b0dfaaeac9c9d02337f3813f2266bd76f9bbea77ab12b196bfa8ef9c6a3b",
+        "sha256_in_prefix": "7b57b0dfaaeac9c9d02337f3813f2266bd76f9bbea77ab12b196bfa8ef9c6a3b",
+        "size_in_bytes": 12214
+      },
+      {
+        "_path": "lib/R/library/Matrix/data/CAex.R",
+        "path_type": "hardlink",
+        "sha256": "3d6d3b3cb50769b3cecea636f413f4de349751544cee3f92496d2f45845f5a8f",
+        "sha256_in_prefix": "3d6d3b3cb50769b3cecea636f413f4de349751544cee3f92496d2f45845f5a8f",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "lib/R/library/Matrix/data/KNex.R",
+        "path_type": "hardlink",
+        "sha256": "dd67bcce7c50a8f75c7f6eea886db53d7713456596f45c142f1b8d0761aca9c6",
+        "sha256_in_prefix": "dd67bcce7c50a8f75c7f6eea886db53d7713456596f45c142f1b8d0761aca9c6",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/R/library/Matrix/data/USCounties.R",
+        "path_type": "hardlink",
+        "sha256": "39abc63bf545d147f701772d6b94c01b29028efc70a30a3c05ada40f2fb60f14",
+        "sha256_in_prefix": "39abc63bf545d147f701772d6b94c01b29028efc70a30a3c05ada40f2fb60f14",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Announce.txt",
+        "path_type": "hardlink",
+        "sha256": "400d57c646ed88b587cc190086a14e51e8ba273311ddae03885496830608b873",
+        "sha256_in_prefix": "400d57c646ed88b587cc190086a14e51e8ba273311ddae03885496830608b873",
+        "size_in_bytes": 3795
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Comparisons.R",
+        "path_type": "hardlink",
+        "sha256": "4140e1a5240f21d1bc222c018b6735b85f3f1bd84ad5c06754a3d9537ac5d203",
+        "sha256_in_prefix": "4140e1a5240f21d1bc222c018b6735b85f3f1bd84ad5c06754a3d9537ac5d203",
+        "size_in_bytes": 5153
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Comparisons.Rnw",
+        "path_type": "hardlink",
+        "sha256": "e3edc467ace46b374d9f75fabee3d8e77f02449a2228699a2012f57cb9f03b6c",
+        "sha256_in_prefix": "e3edc467ace46b374d9f75fabee3d8e77f02449a2228699a2012f57cb9f03b6c",
+        "size_in_bytes": 9026
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Comparisons.pdf",
+        "path_type": "hardlink",
+        "sha256": "ed25ad68f4fb70d2c78df512e7367c74f7b7b38b5d31572b8a0141f09afc1d78",
+        "sha256_in_prefix": "ed25ad68f4fb70d2c78df512e7367c74f7b7b38b5d31572b8a0141f09afc1d78",
+        "size_in_bytes": 76352
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Design-issues.R",
+        "path_type": "hardlink",
+        "sha256": "9e134f9942d203c33a33251fd60803cb09dedd0ea5487af835caa354057d6eee",
+        "sha256_in_prefix": "9e134f9942d203c33a33251fd60803cb09dedd0ea5487af835caa354057d6eee",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Design-issues.Rnw",
+        "path_type": "hardlink",
+        "sha256": "b974a4c978632a75f6df3c0dde12d2d3354ab016da8d21d7189a97be67fb35cd",
+        "sha256_in_prefix": "b974a4c978632a75f6df3c0dde12d2d3354ab016da8d21d7189a97be67fb35cd",
+        "size_in_bytes": 5594
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Design-issues.pdf",
+        "path_type": "hardlink",
+        "sha256": "8108dc0d106e38c7d7481848617b6ec69d84c578157e2d8b6bf953baf1d1e483",
+        "sha256_in_prefix": "8108dc0d106e38c7d7481848617b6ec69d84c578157e2d8b6bf953baf1d1e483",
+        "size_in_bytes": 60300
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Intro2Matrix.R",
+        "path_type": "hardlink",
+        "sha256": "f109ad4edaf5c03fb251c03f3a5709054365dfa82d08a6b82e3fd1471c91772d",
+        "sha256_in_prefix": "f109ad4edaf5c03fb251c03f3a5709054365dfa82d08a6b82e3fd1471c91772d",
+        "size_in_bytes": 2515
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Intro2Matrix.Rnw",
+        "path_type": "hardlink",
+        "sha256": "8a7a71ff2d31c5bc6a68942d4bc80a9ef99926a43fea87ff4a11339e552ef8c5",
+        "sha256_in_prefix": "8a7a71ff2d31c5bc6a68942d4bc80a9ef99926a43fea87ff4a11339e552ef8c5",
+        "size_in_bytes": 18778
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Intro2Matrix.pdf",
+        "path_type": "hardlink",
+        "sha256": "89e2708364b87758129837c6166afeaaa10842d6cb7b55c20f55658af027f4bb",
+        "sha256_in_prefix": "89e2708364b87758129837c6166afeaaa10842d6cb7b55c20f55658af027f4bb",
+        "size_in_bytes": 129296
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Introduction.R",
+        "path_type": "hardlink",
+        "sha256": "58f0cd4185958c9da3c6a0c76711c77b77a1749cb55e746d13150973936872e4",
+        "sha256_in_prefix": "58f0cd4185958c9da3c6a0c76711c77b77a1749cb55e746d13150973936872e4",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Introduction.Rnw",
+        "path_type": "hardlink",
+        "sha256": "947c93e5d5331590ee84f585db4e9f773b300fdbd29c4426debf8edef9c7d51e",
+        "sha256_in_prefix": "947c93e5d5331590ee84f585db4e9f773b300fdbd29c4426debf8edef9c7d51e",
+        "size_in_bytes": 8028
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/Introduction.pdf",
+        "path_type": "hardlink",
+        "sha256": "8320c4609146123a654705252a5c0209c56566daa70a8342d0b24bd139a2e5d5",
+        "sha256_in_prefix": "8320c4609146123a654705252a5c0209c56566daa70a8342d0b24bd139a2e5d5",
+        "size_in_bytes": 70651
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/AMD.txt",
+        "path_type": "hardlink",
+        "sha256": "980c1be3212ef9182289da796f45b231dd18d7d40428dfb3a6c62a2fdd7c6354",
+        "sha256_in_prefix": "980c1be3212ef9182289da796f45b231dd18d7d40428dfb3a6c62a2fdd7c6354",
+        "size_in_bytes": 8897
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/CHOLMOD.txt",
+        "path_type": "hardlink",
+        "sha256": "eac3357ac25caab420f9f877adbc59af59a1366a2b11d193be5807a2bef88f2c",
+        "sha256_in_prefix": "eac3357ac25caab420f9f877adbc59af59a1366a2b11d193be5807a2bef88f2c",
+        "size_in_bytes": 4113
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/COLAMD.txt",
+        "path_type": "hardlink",
+        "sha256": "ef669ed21b0325b0ff592473367f9757d809f7798a1c4fe46d0cfc83945b9dd5",
+        "sha256_in_prefix": "ef669ed21b0325b0ff592473367f9757d809f7798a1c4fe46d0cfc83945b9dd5",
+        "size_in_bytes": 4987
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/SPQR.txt",
+        "path_type": "hardlink",
+        "sha256": "d3989d55bf8a99271d3f2b0d148651f7e5e8ae62d5e6b02a8d24ea0725ebf04b",
+        "sha256_in_prefix": "d3989d55bf8a99271d3f2b0d148651f7e5e8ae62d5e6b02a8d24ea0725ebf04b",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/SuiteSparse_config.txt",
+        "path_type": "hardlink",
+        "sha256": "3393b88fdebc4afd206c1dd0a736ca56ab076fdabf0085a3329ed4fb75dadd56",
+        "sha256_in_prefix": "3393b88fdebc4afd206c1dd0a736ca56ab076fdabf0085a3329ed4fb75dadd56",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/SuiteSparse/UserGuides.txt",
+        "path_type": "hardlink",
+        "sha256": "cdf209bf28e279b9e50a70d7e14eba63a6a90dddda526d196c001f4572f20c4d",
+        "sha256_in_prefix": "cdf209bf28e279b9e50a70d7e14eba63a6a90dddda526d196c001f4572f20c4d",
+        "size_in_bytes": 735
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "1682fcaa38a1bd5dfc920b20ee89a3453541a1969db83eeefa74c100015e4a22",
+        "sha256_in_prefix": "1682fcaa38a1bd5dfc920b20ee89a3453541a1969db83eeefa74c100015e4a22",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/sparseModels.R",
+        "path_type": "hardlink",
+        "sha256": "2064f64177490183bd6b41d31b9ef972bb4b4b7ff9e359a85b1a5af780dcfa8d",
+        "sha256_in_prefix": "2064f64177490183bd6b41d31b9ef972bb4b4b7ff9e359a85b1a5af780dcfa8d",
+        "size_in_bytes": 5236
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/sparseModels.Rnw",
+        "path_type": "hardlink",
+        "sha256": "8ba62bcdd0c6fcdf26494b6dfa625efbce7bf7486d23fb24cbe038787f53f3ff",
+        "sha256_in_prefix": "8ba62bcdd0c6fcdf26494b6dfa625efbce7bf7486d23fb24cbe038787f53f3ff",
+        "size_in_bytes": 10882
+      },
+      {
+        "_path": "lib/R/library/Matrix/doc/sparseModels.pdf",
+        "path_type": "hardlink",
+        "sha256": "b502c6a5668cb9b8aa89711ac67d06c6b1b5fc3d6ef3e5fa88f7bb876cfe4fb9",
+        "sha256_in_prefix": "b502c6a5668cb9b8aa89711ac67d06c6b1b5fc3d6ef3e5fa88f7bb876cfe4fb9",
+        "size_in_bytes": 99036
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/CAex_slots.rda",
+        "path_type": "hardlink",
+        "sha256": "2b0bcc6d941f00aefd4255dc94aad3d5ceca2e623a5c9edbce6eacd81ab32bc0",
+        "sha256_in_prefix": "2b0bcc6d941f00aefd4255dc94aad3d5ceca2e623a5c9edbce6eacd81ab32bc0",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/KNex_slots.rda",
+        "path_type": "hardlink",
+        "sha256": "8058eeaf6eaf8ed15c218ff091b1714b53371fdd258684a9975ef9a6c99987e3",
+        "sha256_in_prefix": "8058eeaf6eaf8ed15c218ff091b1714b53371fdd258684a9975ef9a6c99987e3",
+        "size_in_bytes": 56448
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/USCounties_slots.rda",
+        "path_type": "hardlink",
+        "sha256": "7f92b99fed73723937efa16b59d29507454601823fc300bae82fd4bd7dfc3f59",
+        "sha256_in_prefix": "7f92b99fed73723937efa16b59d29507454601823fc300bae82fd4bd7dfc3f59",
+        "size_in_bytes": 30347
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/lund_a.mtx",
+        "path_type": "hardlink",
+        "sha256": "9d9cc6b77f0e3057317009c5e06d658e40a137a3d551ff298654d26eccce8c25",
+        "sha256_in_prefix": "9d9cc6b77f0e3057317009c5e06d658e40a137a3d551ff298654d26eccce8c25",
+        "size_in_bytes": 35821
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/lund_a.rsa",
+        "path_type": "hardlink",
+        "sha256": "909c8777663b2ee70fd87f62224e9253df8e4292d50173e5e79b9515ba0d3cef",
+        "sha256_in_prefix": "909c8777663b2ee70fd87f62224e9253df8e4292d50173e5e79b9515ba0d3cef",
+        "size_in_bytes": 28836
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/pores_1.mtx",
+        "path_type": "hardlink",
+        "sha256": "06cdf9fcc9c9dd25d8232e64400feadb6c087437299a991decb4fd17b6077a85",
+        "sha256_in_prefix": "06cdf9fcc9c9dd25d8232e64400feadb6c087437299a991decb4fd17b6077a85",
+        "size_in_bytes": 4810
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/symA.rda",
+        "path_type": "hardlink",
+        "sha256": "e4111f2a9d7bd755ffb3f6333787cf5eeaa2759abed8532a0438ea4e9f48298f",
+        "sha256_in_prefix": "e4111f2a9d7bd755ffb3f6333787cf5eeaa2759abed8532a0438ea4e9f48298f",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/symW.rda",
+        "path_type": "hardlink",
+        "sha256": "668aa7719b6051dfe41279baa24f2326819ca2b411f7e3bf0f3788e2db9c224e",
+        "sha256_in_prefix": "668aa7719b6051dfe41279baa24f2326819ca2b411f7e3bf0f3788e2db9c224e",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/test3comp.rda",
+        "path_type": "hardlink",
+        "sha256": "7fc2b567152210be003abdfaaf294498c755e46b48c7679d7d223c571a1a8cb7",
+        "sha256_in_prefix": "7fc2b567152210be003abdfaaf294498c755e46b48c7679d7d223c571a1a8cb7",
+        "size_in_bytes": 4497
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/utm300.rua",
+        "path_type": "hardlink",
+        "sha256": "e0a8078e87e49b42e8ad705a739b40186de5931ad3a6b41a0b57dfd5edc0ef29",
+        "sha256_in_prefix": "e0a8078e87e49b42e8ad705a739b40186de5931ad3a6b41a0b57dfd5edc0ef29",
+        "size_in_bytes": 84829
+      },
+      {
+        "_path": "lib/R/library/Matrix/external/wrong.mtx",
+        "path_type": "hardlink",
+        "sha256": "a509fde2422e416caa85ee4a1a0bdb9bfbf2f7e0dc1f3b15bce89ab26c83a46e",
+        "sha256_in_prefix": "a509fde2422e416caa85ee4a1a0bdb9bfbf2f7e0dc1f3b15bce89ab26c83a46e",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/R/library/Matrix/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "029deb19de08142da7a6f5919aa6eb972abfb1077d9dd9c9946ef88bc67b4f4e",
+        "sha256_in_prefix": "029deb19de08142da7a6f5919aa6eb972abfb1077d9dd9c9946ef88bc67b4f4e",
+        "size_in_bytes": 103700
+      },
+      {
+        "_path": "lib/R/library/Matrix/help/Matrix.rdb",
+        "path_type": "hardlink",
+        "sha256": "f4d91b5f145cd4e9975e782efbec7b6fcbd45ee652ae46b7de0fad89c8b485ad",
+        "sha256_in_prefix": "f4d91b5f145cd4e9975e782efbec7b6fcbd45ee652ae46b7de0fad89c8b485ad",
+        "size_in_bytes": 581707
+      },
+      {
+        "_path": "lib/R/library/Matrix/help/Matrix.rdx",
+        "path_type": "hardlink",
+        "sha256": "90936a9837931a32a0784d10ea170cbdb316d45a331e8cd68c83aaf16c9eb049",
+        "sha256_in_prefix": "90936a9837931a32a0784d10ea170cbdb316d45a331e8cd68c83aaf16c9eb049",
+        "size_in_bytes": 2593
+      },
+      {
+        "_path": "lib/R/library/Matrix/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "2b0afce53eef0b3444f35b3655c75d64a995082f91bb500efe68f6f37a3d2a50",
+        "sha256_in_prefix": "2b0afce53eef0b3444f35b3655c75d64a995082f91bb500efe68f6f37a3d2a50",
+        "size_in_bytes": 13229
+      },
+      {
+        "_path": "lib/R/library/Matrix/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "fe7f31b74b1ce9ca22c2f6ad27038c65317431a7a3d115562e024064d475d47e",
+        "sha256_in_prefix": "fe7f31b74b1ce9ca22c2f6ad27038c65317431a7a3d115562e024064d475d47e",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/R/library/Matrix/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "1d792cde46a1072718d99befe99facfa4a60c7dc88b2128bc9da6f8e1e09a9df",
+        "sha256_in_prefix": "1d792cde46a1072718d99befe99facfa4a60c7dc88b2128bc9da6f8e1e09a9df",
+        "size_in_bytes": 89159
+      },
+      {
+        "_path": "lib/R/library/Matrix/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/Matrix/include/Matrix.h",
+        "path_type": "hardlink",
+        "sha256": "7e7538f2cf2fd50607b7a2eee210520e7c3c53971caa4cd1745be724131bf2fc",
+        "sha256_in_prefix": "7e7538f2cf2fd50607b7a2eee210520e7c3c53971caa4cd1745be724131bf2fc",
+        "size_in_bytes": 4489
+      },
+      {
+        "_path": "lib/R/library/Matrix/include/Matrix_stubs.c",
+        "path_type": "hardlink",
+        "sha256": "c4a769b30ac955426aeba59ad07055df5c532211211a690a85a641c3cb045a14",
+        "sha256_in_prefix": "c4a769b30ac955426aeba59ad07055df5c532211211a690a85a641c3cb045a14",
+        "size_in_bytes": 20404
+      },
+      {
+        "_path": "lib/R/library/Matrix/include/cholmod.h",
+        "path_type": "hardlink",
+        "sha256": "4628f654400264e6b346a3bee87e3dccc1a6c343c1e58ae46c557ba43a8b2ae0",
+        "sha256_in_prefix": "4628f654400264e6b346a3bee87e3dccc1a6c343c1e58ae46c557ba43a8b2ae0",
+        "size_in_bytes": 48120
+      },
+      {
+        "_path": "lib/R/library/Matrix/libs/Matrix.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-matrix_1503163414781/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "7705fae23ffe604121b4c92f5ad3814fcc68901eb7842056db0c3a13934ee570",
+        "sha256_in_prefix": "00f01974682f61cca21d70c241af721b95dfad92fdaa11cda6e508aad9c7d71b",
+        "size_in_bytes": 1269743
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/de/LC_MESSAGES/Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "25e93e988b1c77ac2c648e83162225e19092674814ededf65049074b45200be4",
+        "sha256_in_prefix": "25e93e988b1c77ac2c648e83162225e19092674814ededf65049074b45200be4",
+        "size_in_bytes": 25796
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/de/LC_MESSAGES/R-Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "d86eccadc224ba5e79d81700acf267955e7c1d1025f39a50fb65eae95535d5d2",
+        "sha256_in_prefix": "d86eccadc224ba5e79d81700acf267955e7c1d1025f39a50fb65eae95535d5d2",
+        "size_in_bytes": 28066
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/en@quot/LC_MESSAGES/Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "397328c24a6439890fbe65ca1a0e36f8314193ef6e351ff499613fe3d391c715",
+        "sha256_in_prefix": "397328c24a6439890fbe65ca1a0e36f8314193ef6e351ff499613fe3d391c715",
+        "size_in_bytes": 25646
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/en@quot/LC_MESSAGES/R-Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "ea88a2496734d471a1de0fd60636419b3e92a59d2022cb27f54789378edb767b",
+        "sha256_in_prefix": "ea88a2496734d471a1de0fd60636419b3e92a59d2022cb27f54789378edb767b",
+        "size_in_bytes": 27777
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/fr/LC_MESSAGES/Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "069108c2e0fb2a098a03e410d89958540f29975020c6c3ff59d893992f5d6706",
+        "sha256_in_prefix": "069108c2e0fb2a098a03e410d89958540f29975020c6c3ff59d893992f5d6706",
+        "size_in_bytes": 25270
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/fr/LC_MESSAGES/R-Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "fb2fa1a696f1b007f93b1759871ac073a20bbbb6491211299548d84aca519298",
+        "sha256_in_prefix": "fb2fa1a696f1b007f93b1759871ac073a20bbbb6491211299548d84aca519298",
+        "size_in_bytes": 28114
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/ko/LC_MESSAGES/R-Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "e67d2f4c982b34262b4e0f0c6a67ae8bfd25de37e528fb8b1a623aff67756ef6",
+        "sha256_in_prefix": "e67d2f4c982b34262b4e0f0c6a67ae8bfd25de37e528fb8b1a623aff67756ef6",
+        "size_in_bytes": 33527
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/pl/LC_MESSAGES/Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "93bdaa709ffdf50bb78f76c3dea2a10899f0f7bc71497208971d25d3cde80c3c",
+        "sha256_in_prefix": "93bdaa709ffdf50bb78f76c3dea2a10899f0f7bc71497208971d25d3cde80c3c",
+        "size_in_bytes": 25877
+      },
+      {
+        "_path": "lib/R/library/Matrix/po/pl/LC_MESSAGES/R-Matrix.mo",
+        "path_type": "hardlink",
+        "sha256": "370b426867b1e82489484b69a1425229f0a34ceff5b8cabde31ce60645f9184e",
+        "sha256_in_prefix": "370b426867b1e82489484b69a1425229f0a34ceff5b8cabde31ce60645f9184e",
+        "size_in_bytes": 28292
+      },
+      {
+        "_path": "lib/R/library/Matrix/test-tools-1.R",
+        "path_type": "hardlink",
+        "sha256": "b210e75ec05c476944f29b794671d5f47a092d52ef9fea6a0e3235e592bcf1a8",
+        "sha256_in_prefix": "b210e75ec05c476944f29b794671d5f47a092d52ef9fea6a0e3235e592bcf1a8",
+        "size_in_bytes": 14370
+      },
+      {
+        "_path": "lib/R/library/Matrix/test-tools-Matrix.R",
+        "path_type": "hardlink",
+        "sha256": "3237a6737e5ceeab626836ce5d14e7c0d73c52f3296ff5870064c62149935aed",
+        "sha256_in_prefix": "3237a6737e5ceeab626836ce5d14e7c0d73c52f3296ff5870064c62149935aed",
+        "size_in_bytes": 24640
+      },
+      {
+        "_path": "lib/R/library/Matrix/test-tools.R",
+        "path_type": "hardlink",
+        "sha256": "88040f2d732570828ec9cf119f346d99d724b4c070b70b49cfacea5491210bdc",
+        "sha256_in_prefix": "88040f2d732570828ec9cf119f346d99d724b4c070b70b49cfacea5491210bdc",
+        "size_in_bytes": 591
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-matrix=1.2_7.1",
+  "size": 2489061,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-matrix-1.2_7.1-r3.4.1_0.tar.bz2",
+  "version": "1.2_7.1"
+}

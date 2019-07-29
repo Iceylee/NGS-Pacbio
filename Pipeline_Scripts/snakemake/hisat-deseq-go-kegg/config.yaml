@@ -1,0 +1,38 @@
+# path or URL to sample sheet (TSV format, columns: sample, condition, ...)
+#samples: samples.tsv
+# path or URL to sequencing unit sheet (TSV format, columns: sample, unit, fq1, fq2)
+# Units are technical replicates (e.g. lanes, or resequencing of the same biological
+# sample).
+units: units.tsv
+
+condition: 
+  - NC
+  - EV
+
+# working directory
+workdir: "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg"
+
+
+threads: 10
+
+ref:
+  # the hisat index
+  index: "rawData/index/22"
+  # gtf file with transcripts
+  gtf: "rawData/refs/22.gtf"
+  # reference genome
+  fasta: "rawData/refs/22.fa"
+
+
+diffexp:
+  # contrasts for the deseq2 results method
+  contrasts:
+    treated-vs-untreated:
+      - NC
+      - EV
+  colData: "colData.csv"
+
+params:
+  star: ""
+  cutadapt-se: ""
+  cutadapt-pe: ""

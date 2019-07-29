@@ -1,0 +1,189 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/pcre-8.39-0",
+  "features": "",
+  "files": [
+    "bin/pcre-config",
+    "bin/pcregrep",
+    "bin/pcretest",
+    "include/pcre.h",
+    "include/pcre_scanner.h",
+    "include/pcre_stringpiece.h",
+    "include/pcrecpp.h",
+    "include/pcrecpparg.h",
+    "include/pcreposix.h",
+    "lib/libpcre.a",
+    "lib/libpcre.la",
+    "lib/libpcre.so",
+    "lib/libpcre.so.1",
+    "lib/libpcre.so.1.2.7",
+    "lib/libpcrecpp.a",
+    "lib/libpcrecpp.la",
+    "lib/libpcrecpp.so",
+    "lib/libpcrecpp.so.0",
+    "lib/libpcrecpp.so.0.0.1",
+    "lib/libpcreposix.a",
+    "lib/libpcreposix.la",
+    "lib/libpcreposix.so",
+    "lib/libpcreposix.so.0",
+    "lib/libpcreposix.so.0.0.4",
+    "lib/pkgconfig/libpcre.pc",
+    "lib/pkgconfig/libpcrecpp.pc",
+    "lib/pkgconfig/libpcreposix.pc"
+  ],
+  "fn": "pcre-8.39-0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/pcre-8.39-0",
+    "type": 1
+  },
+  "md5": "a37052b32e5c56af655248de7c53edab",
+  "name": "pcre",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/pcre-8.39-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pcre-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f36c38f328e88823af80dd564b2169a82215b0fd575492fb69181a43ba46153f"
+      },
+      {
+        "_path": "bin/pcregrep",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/pcretest",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcre.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcre_scanner.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcre_stringpiece.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcrecpp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcrecpparg.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/pcreposix.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcre.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcre.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "84c462402133961ade1342b80646c3efb1c994f896b9b29b4002edffd83020ff"
+      },
+      {
+        "_path": "lib/libpcre.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcre.so.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcre.so.1.2.7",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcrecpp.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcrecpp.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9298b58f7406443f5bed95474e3e92f63984a19751a984922bbd147bd2c6dba1"
+      },
+      {
+        "_path": "lib/libpcrecpp.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcrecpp.so.0",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcrecpp.so.0.0.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcreposix.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpcreposix.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bf7b9b5a181228c6da25b0d00dc4ff797d71a892994ff66bac61d463fa8190e3"
+      },
+      {
+        "_path": "lib/libpcreposix.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcreposix.so.0",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libpcreposix.so.0.0.4",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/pkgconfig/libpcre.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "38afda28b910e630a6cd53654778f62c7bc40968aa68946fba62c2fb0ba612ff"
+      },
+      {
+        "_path": "lib/pkgconfig/libpcrecpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3a4660d69d27016e462bd0f1e0e662e4dd679572a25b49c0a6ba39b72823f7db"
+      },
+      {
+        "_path": "lib/pkgconfig/libpcreposix.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "93f72dc57aeed294bf4fc3af6d1096571f75f740d9d7015fd125ba59d732979a"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 742096,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pcre-8.39-0.tar.bz2",
+  "version": "8.39"
+}

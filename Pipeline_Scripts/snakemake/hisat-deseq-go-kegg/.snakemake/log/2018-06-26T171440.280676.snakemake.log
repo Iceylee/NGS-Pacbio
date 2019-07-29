@@ -1,0 +1,4 @@
+TypeError in line 15 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/snp.smk:
+threads() missing 1 required positional argument: 'threads'
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 76, in <module>
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/snp.smk", line 15, in <module>

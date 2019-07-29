@@ -1,0 +1,1107 @@
+GO:0005886	848	cellular_component	plasma membrane
+GO:0005737	559	cellular_component	cytoplasm
+GO:0000166	354	molecular_function	nucleotide binding
+GO:0003824	258	molecular_function	catalytic activity
+GO:0003677	241	molecular_function	DNA binding
+GO:0016491	112	molecular_function	oxidoreductase activity
+GO:0003723	99	molecular_function	RNA binding
+GO:0005515	96	molecular_function	protein binding
+GO:0016787	81	molecular_function	hydrolase activity
+GO:0005524	70	molecular_function	ATP binding
+GO:0016020	68	cellular_component	membrane
+GO:0000160	51	biological_process	phosphorelay signal transduction system
+GO:0005215	51	molecular_function	transporter activity
+GO:0016740	44	molecular_function	transferase activity
+GO:0003735	42	molecular_function	structural constituent of ribosome
+GO:0006508	37	biological_process	proteolysis
+GO:0008152	35	biological_process	metabolic process
+GO:0008168	34	molecular_function	methyltransferase activity
+GO:0003676	33	molecular_function	nucleic acid binding
+GO:0006629	33	biological_process	lipid metabolic process
+GO:0090305	33	biological_process	nucleic acid phosphodiester bond hydrolysis
+GO:0006810	32	biological_process	transport
+GO:0005576	31	cellular_component	extracellular region
+GO:0030435	31	biological_process	sporulation resulting in formation of a cellular spore
+GO:0005622	30	cellular_component	intracellular
+GO:0016021	29	cellular_component	integral component of membrane
+GO:0000105	28	biological_process	histidine biosynthetic process
+GO:0005887	28	cellular_component	integral component of plasma membrane
+GO:0000287	27	molecular_function	magnesium ion binding
+GO:0003700	27	molecular_function	DNA binding transcription factor activity
+GO:0005829	27	cellular_component	cytosol
+GO:0008652	27	biological_process	cellular amino acid biosynthetic process
+GO:0042802	26	molecular_function	identical protein binding
+GO:0000049	25	molecular_function	tRNA binding
+GO:0004518	25	molecular_function	nuclease activity
+GO:0009252	23	biological_process	peptidoglycan biosynthetic process
+GO:0005739	21	cellular_component	mitochondrion
+GO:0005975	21	biological_process	carbohydrate metabolic process
+GO:0000976	19	molecular_function	transcription regulatory region sequence-specific DNA binding
+GO:0005840	19	cellular_component	ribosome
+GO:0016829	18	molecular_function	lyase activity
+GO:0006096	17	biological_process	glycolytic process
+GO:0004129	16	molecular_function	cytochrome-c oxidase activity
+GO:0006099	16	biological_process	tricarboxylic acid cycle
+GO:0009234	16	biological_process	menaquinone biosynthetic process
+GO:0000162	15	biological_process	tryptophan biosynthetic process
+GO:0003333	15	biological_process	amino acid transmembrane transport
+GO:0006189	15	biological_process	'de novo' IMP biosynthetic process
+GO:0055085	15	biological_process	transmembrane transport
+GO:0000155	14	molecular_function	phosphorelay sensor kinase activity
+GO:0009229	14	biological_process	thiamine diphosphate biosynthetic process
+GO:0010124	14	biological_process	phenylacetate catabolic process
+GO:0004177	13	molecular_function	aminopeptidase activity
+GO:0004252	13	molecular_function	serine-type endopeptidase activity
+GO:0005506	13	molecular_function	iron ion binding
+GO:0008080	13	molecular_function	N-acetyltransferase activity
+GO:0009236	13	biological_process	cobalamin biosynthetic process
+GO:0016853	13	molecular_function	isomerase activity
+GO:0046872	13	molecular_function	metal ion binding
+GO:0003887	12	molecular_function	DNA-directed DNA polymerase activity
+GO:0004673	12	molecular_function	protein histidine kinase activity
+GO:0022900	12	biological_process	electron transport chain
+GO:0031160	12	cellular_component	spore wall
+GO:0034219	12	biological_process	carbohydrate transmembrane transport
+GO:0098869	12	biological_process	cellular oxidant detoxification
+GO:0004180	11	molecular_function	carboxypeptidase activity
+GO:0006094	11	biological_process	gluconeogenesis
+GO:0006355	11	biological_process	regulation of transcription, DNA-templated
+GO:0006633	11	biological_process	fatty acid biosynthetic process
+GO:0006812	11	biological_process	cation transport
+GO:0008270	11	molecular_function	zinc ion binding
+GO:0008299	11	biological_process	isoprenoid biosynthetic process
+GO:0003755	10	molecular_function	peptidyl-prolyl cis-trans isomerase activity
+GO:0005525	10	molecular_function	GTP binding
+GO:0006526	10	biological_process	arginine biosynthetic process
+GO:0006782	10	biological_process	protoporphyrinogen IX biosynthetic process
+GO:0008033	10	biological_process	tRNA processing
+GO:0008658	10	molecular_function	penicillin binding
+GO:0016311	10	biological_process	dephosphorylation
+GO:1902600	10	biological_process	hydrogen ion transmembrane transport
+GO:0003899	9	molecular_function	DNA-directed 5'-3' RNA polymerase activity
+GO:0003924	9	molecular_function	GTPase activity
+GO:0003995	9	molecular_function	acyl-CoA dehydrogenase activity
+GO:0004784	9	molecular_function	superoxide dismutase activity
+GO:0005618	9	cellular_component	cell wall
+GO:0006635	9	biological_process	fatty acid beta-oxidation
+GO:0007049	9	biological_process	cell cycle
+GO:0009435	9	biological_process	NAD biosynthetic process
+GO:0042601	9	cellular_component	endospore-forming forespore
+GO:0071897	9	biological_process	DNA biosynthetic process
+GO:0098655	9	biological_process	cation transmembrane transport
+GO:0003989	8	molecular_function	acetyl-CoA carboxylase activity
+GO:0006281	8	biological_process	DNA repair
+GO:0008616	8	biological_process	queuosine biosynthetic process
+GO:0008982	8	molecular_function	protein-N(PI)-phosphohistidine-sugar phosphotransferase activity
+GO:0009055	8	molecular_function	electron transfer activity
+GO:0009231	8	biological_process	riboflavin biosynthetic process
+GO:0009507	8	cellular_component	chloroplast
+GO:0009847	8	biological_process	spore germination
+GO:0019509	8	biological_process	L-methionine salvage from methylthioadenosine
+GO:0042597	8	cellular_component	periplasmic space
+GO:0004222	7	molecular_function	metalloendopeptidase activity
+GO:0004316	7	molecular_function	3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity
+GO:0004497	7	molecular_function	monooxygenase activity
+GO:0004601	7	molecular_function	peroxidase activity
+GO:0004721	7	molecular_function	phosphoprotein phosphatase activity
+GO:0004791	7	molecular_function	thioredoxin-disulfide reductase activity
+GO:0005634	7	cellular_component	nucleus
+GO:0006260	7	biological_process	DNA replication
+GO:0006779	7	biological_process	porphyrin-containing compound biosynthetic process
+GO:0008137	7	molecular_function	NADH dehydrogenase (ubiquinone) activity
+GO:0008360	7	biological_process	regulation of cell shape
+GO:0009088	7	biological_process	threonine biosynthetic process
+GO:0009423	7	biological_process	chorismate biosynthetic process
+GO:0016682	7	molecular_function	oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor
+GO:0016765	7	molecular_function	transferase activity, transferring alkyl or aryl (other than methyl) groups
+GO:0030288	7	cellular_component	outer membrane-bounded periplasmic space
+GO:0032508	7	biological_process	DNA duplex unwinding
+GO:0055114	7	biological_process	oxidation-reduction process
+GO:0000286	6	molecular_function	alanine dehydrogenase activity
+GO:0001522	6	biological_process	pseudouridine synthesis
+GO:0001676	6	biological_process	long-chain fatty acid metabolic process
+GO:0002949	6	biological_process	tRNA threonylcarbamoyladenosine modification
+GO:0003746	6	molecular_function	translation elongation factor activity
+GO:0003857	6	molecular_function	3-hydroxyacyl-CoA dehydrogenase activity
+GO:0003941	6	molecular_function	L-serine ammonia-lyase activity
+GO:0004061	6	molecular_function	arylformamidase activity
+GO:0004072	6	molecular_function	aspartate kinase activity
+GO:0004124	6	molecular_function	cysteine synthase activity
+GO:0004467	6	molecular_function	long-chain fatty acid-CoA ligase activity
+GO:0004494	6	molecular_function	methylmalonyl-CoA mutase activity
+GO:0004519	6	molecular_function	endonuclease activity
+GO:0004833	6	molecular_function	tryptophan 2,3-dioxygenase activity
+GO:0005315	6	molecular_function	inorganic phosphate transmembrane transporter activity
+GO:0006351	6	biological_process	transcription, DNA-templated
+GO:0006450	6	biological_process	regulation of translational fidelity
+GO:0008483	6	molecular_function	transaminase activity
+GO:0008745	6	molecular_function	N-acetylmuramoyl-L-alanine amidase activity
+GO:0009089	6	biological_process	lysine biosynthetic process via diaminopimelate
+GO:0009097	6	biological_process	isoleucine biosynthetic process
+GO:0009228	6	biological_process	thiamine biosynthetic process
+GO:0009405	6	biological_process	pathogenesis
+GO:0019288	6	biological_process	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
+GO:0044205	6	biological_process	'de novo' UMP biosynthetic process
+GO:0099132	6	biological_process	ATP hydrolysis coupled cation transmembrane transport
+GO:0003690	5	molecular_function	double-stranded DNA binding
+GO:0003951	5	molecular_function	NAD+ kinase activity
+GO:0004096	5	molecular_function	catalase activity
+GO:0004190	5	molecular_function	aspartic-type endopeptidase activity
+GO:0004359	5	molecular_function	glutaminase activity
+GO:0005623	5	cellular_component	cell
+GO:0006164	5	biological_process	purine nucleotide biosynthetic process
+GO:0006364	5	biological_process	rRNA processing
+GO:0006468	5	biological_process	protein phosphorylation
+GO:0006520	5	biological_process	cellular amino acid metabolic process
+GO:0009002	5	molecular_function	serine-type D-Ala-D-Ala carboxypeptidase activity
+GO:0009295	5	cellular_component	nucleoid
+GO:0009432	5	biological_process	SOS response
+GO:0016757	5	molecular_function	transferase activity, transferring glycosyl groups
+GO:0016887	5	molecular_function	ATPase activity
+GO:0019239	5	molecular_function	deaminase activity
+GO:0019289	5	biological_process	rhizobactin 1021 biosynthetic process
+GO:0031071	5	molecular_function	cysteine desulfurase activity
+GO:0099133	5	biological_process	ATP hydrolysis coupled anion transmembrane transport
+GO:0000413	4	biological_process	protein peptidyl-prolyl isomerization
+GO:0000455	4	biological_process	enzyme-directed rRNA pseudouridine synthesis
+GO:0001072	4	molecular_function	transcription antitermination factor activity, RNA binding
+GO:0003861	4	molecular_function	3-isopropylmalate dehydratase activity
+GO:0003910	4	molecular_function	DNA ligase (ATP) activity
+GO:0003962	4	molecular_function	cystathionine gamma-synthase activity
+GO:0003984	4	molecular_function	acetolactate synthase activity
+GO:0004066	4	molecular_function	asparagine synthase (glutamine-hydrolyzing) activity
+GO:0004143	4	molecular_function	diacylglycerol kinase activity
+GO:0004148	4	molecular_function	dihydrolipoyl dehydrogenase activity
+GO:0004175	4	molecular_function	endopeptidase activity
+GO:0004176	4	molecular_function	ATP-dependent peptidase activity
+GO:0004300	4	molecular_function	enoyl-CoA hydratase activity
+GO:0004326	4	molecular_function	tetrahydrofolylpolyglutamate synthase activity
+GO:0004340	4	molecular_function	glucokinase activity
+GO:0004412	4	molecular_function	homoserine dehydrogenase activity
+GO:0004553	4	molecular_function	hydrolase activity, hydrolyzing O-glycosyl compounds
+GO:0004616	4	molecular_function	phosphogluconate dehydrogenase (decarboxylating) activity
+GO:0004642	4	molecular_function	phosphoribosylformylglycinamidine synthase activity
+GO:0004748	4	molecular_function	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor
+GO:0005385	4	molecular_function	zinc ion transmembrane transporter activity
+GO:0005507	4	molecular_function	copper ion binding
+GO:0006071	4	biological_process	glycerol metabolic process
+GO:0006097	4	biological_process	glyoxylate cycle
+GO:0006098	4	biological_process	pentose-phosphate shunt
+GO:0006119	4	biological_process	oxidative phosphorylation
+GO:0006221	4	biological_process	pyrimidine nucleotide biosynthetic process
+GO:0006412	4	biological_process	translation
+GO:0006569	4	biological_process	tryptophan catabolic process
+GO:0006644	4	biological_process	phospholipid metabolic process
+GO:0006784	4	biological_process	heme a biosynthetic process
+GO:0008444	4	molecular_function	CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase activity
+GO:0008726	4	molecular_function	alkanesulfonate monooxygenase activity
+GO:0008955	4	molecular_function	peptidoglycan glycosyltransferase activity
+GO:0009098	4	biological_process	leucine biosynthetic process
+GO:0009279	4	cellular_component	cell outer membrane
+GO:0009401	4	biological_process	phosphoenolpyruvate-dependent sugar phosphotransferase system
+GO:0015807	4	biological_process	L-amino acid transport
+GO:0015937	4	biological_process	coenzyme A biosynthetic process
+GO:0015940	4	biological_process	pantothenate biosynthetic process
+GO:0015986	4	biological_process	ATP synthesis coupled proton transport
+GO:0016209	4	molecular_function	antioxidant activity
+GO:0019430	4	biological_process	removal of superoxide radicals
+GO:0019441	4	biological_process	tryptophan catabolic process to kynurenine
+GO:0019475	4	biological_process	L-lysine catabolic process to acetate
+GO:0019556	4	biological_process	histidine catabolic process to glutamate and formamide
+GO:0019563	4	biological_process	glycerol catabolic process
+GO:0019605	4	biological_process	butyrate metabolic process
+GO:0042763	4	cellular_component	intracellular immature spore
+GO:0042952	4	biological_process	beta-ketoadipate pathway
+GO:0043190	4	cellular_component	ATP-binding cassette (ABC) transporter complex
+GO:0043937	4	biological_process	regulation of sporulation
+GO:0045227	4	biological_process	capsule polysaccharide biosynthetic process
+GO:0045892	4	biological_process	negative regulation of transcription, DNA-templated
+GO:0046654	4	biological_process	tetrahydrofolate biosynthetic process
+GO:0046835	4	biological_process	carbohydrate phosphorylation
+GO:0046939	4	biological_process	nucleotide phosphorylation
+GO:0047324	4	molecular_function	phosphoenolpyruvate-glycerone phosphotransferase activity
+GO:0051920	4	molecular_function	peroxiredoxin activity
+GO:0055129	4	biological_process	L-proline biosynthetic process
+GO:2001295	4	biological_process	malonyl-CoA biosynthetic process
+GO:0001510	3	biological_process	RNA methylation
+GO:0003674	3	molecular_function	molecular_function
+GO:0003684	3	molecular_function	damaged DNA binding
+GO:0003743	3	molecular_function	translation initiation factor activity
+GO:0003863	3	molecular_function	3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring) activity
+GO:0003942	3	molecular_function	N-acetyl-gamma-glutamyl-phosphate reductase activity
+GO:0003952	3	molecular_function	NAD+ synthase (glutamine-hydrolyzing) activity
+GO:0003954	3	molecular_function	NADH dehydrogenase activity
+GO:0003955	3	molecular_function	NAD(P)H dehydrogenase (quinone) activity
+GO:0003961	3	molecular_function	O-acetylhomoserine aminocarboxypropyltransferase activity
+GO:0003988	3	molecular_function	acetyl-CoA C-acyltransferase activity
+GO:0003994	3	molecular_function	aconitate hydratase activity
+GO:0004013	3	molecular_function	adenosylhomocysteinase activity
+GO:0004022	3	molecular_function	alcohol dehydrogenase (NAD) activity
+GO:0004067	3	molecular_function	asparaginase activity
+GO:0004088	3	molecular_function	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+GO:0004156	3	molecular_function	dihydropteroate synthase activity
+GO:0004170	3	molecular_function	dUTP diphosphatase activity
+GO:0004181	3	molecular_function	metallocarboxypeptidase activity
+GO:0004318	3	molecular_function	enoyl-[acyl-carrier-protein] reductase (NADH) activity
+GO:0004325	3	molecular_function	ferrochelatase activity
+GO:0004365	3	molecular_function	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+GO:0004370	3	molecular_function	glycerol kinase activity
+GO:0004371	3	molecular_function	glycerone kinase activity
+GO:0004427	3	molecular_function	inorganic diphosphatase activity
+GO:0004536	3	molecular_function	deoxyribonuclease activity
+GO:0004672	3	molecular_function	protein kinase activity
+GO:0004674	3	molecular_function	protein serine/threonine kinase activity
+GO:0004725	3	molecular_function	protein tyrosine phosphatase activity
+GO:0004739	3	molecular_function	pyruvate dehydrogenase (acetyl-transferring) activity
+GO:0004797	3	molecular_function	thymidine kinase activity
+GO:0004806	3	molecular_function	triglyceride lipase activity
+GO:0004845	3	molecular_function	uracil phosphoribosyltransferase activity
+GO:0004970	3	molecular_function	ionotropic glutamate receptor activity
+GO:0005355	3	molecular_function	glucose transmembrane transporter activity
+GO:0005730	3	cellular_component	nucleolus
+GO:0006266	3	biological_process	DNA ligation
+GO:0006464	3	biological_process	cellular protein modification process
+GO:0006541	3	biological_process	glutamine metabolic process
+GO:0006571	3	biological_process	tyrosine biosynthetic process
+GO:0006865	3	biological_process	amino acid transport
+GO:0006869	3	biological_process	lipid transport
+GO:0006979	3	biological_process	response to oxidative stress
+GO:0008289	3	molecular_function	lipid binding
+GO:0008531	3	molecular_function	riboflavin kinase activity
+GO:0008691	3	molecular_function	3-hydroxybutyryl-CoA dehydrogenase activity
+GO:0009103	3	biological_process	lipopolysaccharide biosynthetic process
+GO:0009116	3	biological_process	nucleoside metabolic process
+GO:0009243	3	biological_process	O antigen biosynthetic process
+GO:0009246	3	biological_process	enterobacterial common antigen biosynthetic process
+GO:0015197	3	molecular_function	peptide transporter activity
+GO:0015749	3	biological_process	monosaccharide transport
+GO:0016310	3	biological_process	phosphorylation
+GO:0016614	3	molecular_function	oxidoreductase activity, acting on CH-OH group of donors
+GO:0016874	3	molecular_function	ligase activity
+GO:0018580	3	molecular_function	nitronate monooxygenase activity
+GO:0019285	3	biological_process	glycine betaine biosynthetic process from choline
+GO:0019344	3	biological_process	cysteine biosynthetic process
+GO:0030420	3	biological_process	establishment of competence for transformation
+GO:0030428	3	cellular_component	cell septum
+GO:0031167	3	biological_process	rRNA methylation
+GO:0032259	3	biological_process	methylation
+GO:0034194	3	biological_process	D-galactonate catabolic process
+GO:0035235	3	biological_process	ionotropic glutamate receptor signaling pathway
+GO:0042286	3	molecular_function	glutamate-1-semialdehyde 2,1-aminomutase activity
+GO:0043956	3	molecular_function	3-hydroxypropionyl-CoA dehydratase activity
+GO:0050845	3	biological_process	teichuronic acid biosynthetic process
+GO:0071281	3	biological_process	cellular response to iron ion
+GO:0102955	3	molecular_function	S-adenosylmethionine:2-demethylmenaquinol-7 methyltransferase activity
+GO:1903874	3	biological_process	ferrous iron transmembrane transport
+GO:0000034	2	molecular_function	adenine deaminase activity
+GO:0000050	2	biological_process	urea cycle
+GO:0000150	2	molecular_function	recombinase activity
+GO:0000154	2	biological_process	rRNA modification
+GO:0000270	2	biological_process	peptidoglycan metabolic process
+GO:0000271	2	biological_process	polysaccharide biosynthetic process
+GO:0000408	2	cellular_component	EKC/KEOPS complex
+GO:0000774	2	molecular_function	adenyl-nucleotide exchange factor activity
+GO:0000902	2	biological_process	cell morphogenesis
+GO:0000906	2	molecular_function	6,7-dimethyl-8-ribityllumazine synthase activity
+GO:0001047	2	molecular_function	core promoter binding
+GO:0001680	2	biological_process	tRNA 3'-terminal CCA addition
+GO:0002100	2	biological_process	tRNA wobble adenosine to inosine editing
+GO:0003697	2	molecular_function	single-stranded DNA binding
+GO:0003747	2	molecular_function	translation release factor activity
+GO:0003796	2	molecular_function	lysozyme activity
+GO:0003848	2	molecular_function	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity
+GO:0003856	2	molecular_function	3-dehydroquinate synthase activity
+GO:0003868	2	molecular_function	4-hydroxyphenylpyruvate dioxygenase activity
+GO:0003872	2	molecular_function	6-phosphofructokinase activity
+GO:0003883	2	molecular_function	CTP synthase activity
+GO:0003906	2	molecular_function	DNA-(apurinic or apyrimidinic site) lyase activity
+GO:0003908	2	molecular_function	methylated-DNA-[protein]-cysteine S-methyltransferase activity
+GO:0003917	2	molecular_function	DNA topoisomerase type I activity
+GO:0003918	2	molecular_function	DNA topoisomerase type II (ATP-hydrolyzing) activity
+GO:0003922	2	molecular_function	GMP synthase (glutamine-hydrolyzing) activity
+GO:0003934	2	molecular_function	GTP cyclohydrolase I activity
+GO:0003935	2	molecular_function	GTP cyclohydrolase II activity
+GO:0003977	2	molecular_function	UDP-N-acetylglucosamine diphosphorylase activity
+GO:0003987	2	molecular_function	acetate-CoA ligase activity
+GO:0003991	2	molecular_function	acetylglutamate kinase activity
+GO:0003992	2	molecular_function	N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity
+GO:0003999	2	molecular_function	adenine phosphoribosyltransferase activity
+GO:0004014	2	molecular_function	adenosylmethionine decarboxylase activity
+GO:0004016	2	molecular_function	adenylate cyclase activity
+GO:0004017	2	molecular_function	adenylate kinase activity
+GO:0004018	2	molecular_function	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity
+GO:0004019	2	molecular_function	adenylosuccinate synthase activity
+GO:0004029	2	molecular_function	aldehyde dehydrogenase (NAD) activity
+GO:0004030	2	molecular_function	aldehyde dehydrogenase [NAD(P)+] activity
+GO:0004044	2	molecular_function	amidophosphoribosyltransferase activity
+GO:0004045	2	molecular_function	aminoacyl-tRNA hydrolase activity
+GO:0004047	2	molecular_function	aminomethyltransferase activity
+GO:0004053	2	molecular_function	arginase activity
+GO:0004055	2	molecular_function	argininosuccinate synthase activity
+GO:0004068	2	molecular_function	aspartate 1-decarboxylase activity
+GO:0004070	2	molecular_function	aspartate carbamoyltransferase activity
+GO:0004077	2	molecular_function	biotin-[acetyl-CoA-carboxylase] ligase activity
+GO:0004089	2	molecular_function	carbonate dehydratase activity
+GO:0004107	2	molecular_function	chorismate synthase activity
+GO:0004113	2	molecular_function	2',3'-cyclic-nucleotide 3'-phosphodiesterase activity
+GO:0004122	2	molecular_function	cystathionine beta-synthase activity
+GO:0004123	2	molecular_function	cystathionine gamma-lyase activity
+GO:0004140	2	molecular_function	dephospho-CoA kinase activity
+GO:0004150	2	molecular_function	dihydroneopterin aldolase activity
+GO:0004151	2	molecular_function	dihydroorotase activity
+GO:0004324	2	molecular_function	ferredoxin-NADP+ reductase activity
+GO:0004333	2	molecular_function	fumarate hydratase activity
+GO:0004342	2	molecular_function	glucosamine-6-phosphate deaminase activity
+GO:0004345	2	molecular_function	glucose-6-phosphate dehydrogenase activity
+GO:0004347	2	molecular_function	glucose-6-phosphate isomerase activity
+GO:0004350	2	molecular_function	glutamate-5-semialdehyde dehydrogenase activity
+GO:0004352	2	molecular_function	glutamate dehydrogenase (NAD+) activity
+GO:0004360	2	molecular_function	glutamine-fructose-6-phosphate transaminase (isomerizing) activity
+GO:0004367	2	molecular_function	glycerol-3-phosphate dehydrogenase [NAD+] activity
+GO:0004368	2	molecular_function	glycerol-3-phosphate dehydrogenase activity
+GO:0004375	2	molecular_function	glycine dehydrogenase (decarboxylating) activity
+GO:0004385	2	molecular_function	guanylate kinase activity
+GO:0004413	2	molecular_function	homoserine kinase activity
+GO:0004417	2	molecular_function	hydroxyethylthiazole kinase activity
+GO:0004418	2	molecular_function	hydroxymethylbilane synthase activity
+GO:0004419	2	molecular_function	hydroxymethylglutaryl-CoA lyase activity
+GO:0004422	2	molecular_function	hypoxanthine phosphoribosyltransferase activity
+GO:0004449	2	molecular_function	isocitrate dehydrogenase (NAD+) activity
+GO:0004455	2	molecular_function	ketol-acid reductoisomerase activity
+GO:0004470	2	molecular_function	malic enzyme activity
+GO:0004471	2	molecular_function	malate dehydrogenase (decarboxylating) (NAD+) activity
+GO:0004478	2	molecular_function	methionine adenosyltransferase activity
+GO:0004489	2	molecular_function	methylenetetrahydrofolate reductase (NAD(P)H) activity
+GO:0004491	2	molecular_function	methylmalonate-semialdehyde dehydrogenase (acylating) activity
+GO:0004493	2	molecular_function	methylmalonyl-CoA epimerase activity
+GO:0004514	2	molecular_function	nicotinate-nucleotide diphosphorylase (carboxylating) activity
+GO:0004523	2	molecular_function	RNA-DNA hybrid ribonuclease activity
+GO:0004525	2	molecular_function	ribonuclease III activity
+GO:0004550	2	molecular_function	nucleoside diphosphate kinase activity
+GO:0004585	2	molecular_function	ornithine carbamoyltransferase activity
+GO:0004588	2	molecular_function	orotate phosphoribosyltransferase activity
+GO:0004590	2	molecular_function	orotidine-5'-phosphate decarboxylase activity
+GO:0004594	2	molecular_function	pantothenate kinase activity
+GO:0004605	2	molecular_function	phosphatidate cytidylyltransferase activity
+GO:0004609	2	molecular_function	phosphatidylserine decarboxylase activity
+GO:0004617	2	molecular_function	phosphoglycerate dehydrogenase activity
+GO:0004618	2	molecular_function	phosphoglycerate kinase activity
+GO:0004622	2	molecular_function	lysophospholipase activity
+GO:0004639	2	molecular_function	phosphoribosylaminoimidazolesuccinocarboxamide synthase activity
+GO:0004641	2	molecular_function	phosphoribosylformylglycinamidine cyclo-ligase activity
+GO:0004644	2	molecular_function	phosphoribosylglycinamide formyltransferase activity
+GO:0004657	2	molecular_function	proline dehydrogenase activity
+GO:0004659	2	molecular_function	prenyltransferase activity
+GO:0004664	2	molecular_function	prephenate dehydratase activity
+GO:0004719	2	molecular_function	protein-L-isoaspartate (D-aspartate) O-methyltransferase activity
+GO:0004729	2	molecular_function	oxygen-dependent protoporphyrinogen oxidase activity
+GO:0004731	2	molecular_function	purine-nucleoside phosphorylase activity
+GO:0004735	2	molecular_function	pyrroline-5-carboxylate reductase activity
+GO:0004742	2	molecular_function	dihydrolipoyllysine-residue acetyltransferase activity
+GO:0004747	2	molecular_function	ribokinase activity
+GO:0004750	2	molecular_function	ribulose-phosphate 3-epimerase activity
+GO:0004764	2	molecular_function	shikimate 3-dehydrogenase (NADP+) activity
+GO:0004766	2	molecular_function	spermidine synthase activity
+GO:0004775	2	molecular_function	succinate-CoA ligase (ADP-forming) activity
+GO:0004777	2	molecular_function	succinate-semialdehyde dehydrogenase (NAD+) activity
+GO:0004788	2	molecular_function	thiamine diphosphokinase activity
+GO:0004789	2	molecular_function	thiamine-phosphate diphosphorylase activity
+GO:0004794	2	molecular_function	L-threonine ammonia-lyase activity
+GO:0004795	2	molecular_function	threonine synthase activity
+GO:0004798	2	molecular_function	thymidylate kinase activity
+GO:0004820	2	molecular_function	glycine-tRNA ligase activity
+GO:0004821	2	molecular_function	histidine-tRNA ligase activity
+GO:0004826	2	molecular_function	phenylalanine-tRNA ligase activity
+GO:0004827	2	molecular_function	proline-tRNA ligase activity
+GO:0004829	2	molecular_function	threonine-tRNA ligase activity
+GO:0004834	2	molecular_function	tryptophan synthase activity
+GO:0004844	2	molecular_function	uracil DNA N-glycosylase activity
+GO:0004849	2	molecular_function	uridine kinase activity
+GO:0004851	2	molecular_function	uroporphyrin-III C-methyltransferase activity
+GO:0004853	2	molecular_function	uroporphyrinogen decarboxylase activity
+GO:0004856	2	molecular_function	xylulokinase activity
+GO:0005283	2	molecular_function	sodium:amino acid symporter activity
+GO:0005304	2	molecular_function	L-valine transmembrane transporter activity
+GO:0005344	2	molecular_function	oxygen carrier activity
+GO:0005758	2	cellular_component	mitochondrial intermembrane space
+GO:0005759	2	cellular_component	mitochondrial matrix
+GO:0005777	2	cellular_component	peroxisome
+GO:0006006	2	biological_process	glucose metabolic process
+GO:0006012	2	biological_process	galactose metabolic process
+GO:0006015	2	biological_process	5-phosphoribose 1-diphosphate biosynthetic process
+GO:0006020	2	biological_process	inositol metabolic process
+GO:0006048	2	biological_process	UDP-N-acetylglucosamine biosynthetic process
+GO:0006069	2	biological_process	ethanol oxidation
+GO:0006226	2	biological_process	dUMP biosynthetic process
+GO:0006261	2	biological_process	DNA-dependent DNA replication
+GO:0006268	2	biological_process	DNA unwinding involved in DNA replication
+GO:0006352	2	biological_process	DNA-templated transcription, initiation
+GO:0006400	2	biological_process	tRNA modification
+GO:0006457	2	biological_process	protein folding
+GO:0006470	2	biological_process	protein dephosphorylation
+GO:0006479	2	biological_process	protein methylation
+GO:0006525	2	biological_process	arginine metabolic process
+GO:0006559	2	biological_process	L-phenylalanine catabolic process
+GO:0006596	2	biological_process	polyamine biosynthetic process
+GO:0006650	2	biological_process	glycerophospholipid metabolic process
+GO:0006655	2	biological_process	phosphatidylglycerol biosynthetic process
+GO:0006662	2	biological_process	glycerol ether metabolic process
+GO:0006790	2	biological_process	sulfur compound metabolic process
+GO:0006807	2	biological_process	nitrogen compound metabolic process
+GO:0006814	2	biological_process	sodium ion transport
+GO:0006855	2	biological_process	drug transmembrane transport
+GO:0006886	2	biological_process	intracellular protein transport
+GO:0006974	2	biological_process	cellular response to DNA damage stimulus
+GO:0008113	2	molecular_function	peptide-methionine (S)-S-oxide reductase activity
+GO:0008134	2	molecular_function	transcription factor binding
+GO:0008176	2	molecular_function	tRNA (guanine-N7-)-methyltransferase activity
+GO:0008177	2	molecular_function	succinate dehydrogenase (ubiquinone) activity
+GO:0008238	2	molecular_function	exopeptidase activity
+GO:0008295	2	biological_process	spermidine biosynthetic process
+GO:0008495	2	molecular_function	protoheme IX farnesyltransferase activity
+GO:0008673	2	molecular_function	2-dehydro-3-deoxygluconokinase activity
+GO:0008674	2	molecular_function	2-dehydro-3-deoxy-6-phosphogalactonate aldolase activity
+GO:0008677	2	molecular_function	2-dehydropantoate 2-reductase activity
+GO:0008685	2	molecular_function	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity
+GO:0008703	2	molecular_function	5-amino-6-(5-phosphoribosylamino)uracil reductase activity
+GO:0008716	2	molecular_function	D-alanine-D-alanine ligase activity
+GO:0008760	2	molecular_function	UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity
+GO:0008800	2	molecular_function	beta-lactamase activity
+GO:0008811	2	molecular_function	chloramphenicol O-acetyltransferase activity
+GO:0008839	2	molecular_function	4-hydroxy-tetrahydrodipicolinate reductase
+GO:0008855	2	molecular_function	exodeoxyribonuclease VII activity
+GO:0008869	2	molecular_function	galactonate dehydratase activity
+GO:0008881	2	molecular_function	glutamate racemase activity
+GO:0008883	2	molecular_function	glutamyl-tRNA reductase activity
+GO:0008887	2	molecular_function	glycerate kinase activity
+GO:0008939	2	molecular_function	nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase activity
+GO:0008941	2	molecular_function	nitric oxide dioxygenase activity
+GO:0008963	2	molecular_function	phospho-N-acetylmuramoyl-pentapeptide-transferase activity
+GO:0008972	2	molecular_function	phosphomethylpyrimidine kinase activity
+GO:0008999	2	molecular_function	ribosomal-protein-alanine N-acetyltransferase activity
+GO:0009007	2	molecular_function	site-specific DNA-methyltransferase (adenine-specific) activity
+GO:0009030	2	molecular_function	thiamine-phosphate kinase activity
+GO:0009094	2	biological_process	L-phenylalanine biosynthetic process
+GO:0009102	2	biological_process	biotin biosynthetic process
+GO:0009117	2	biological_process	nucleotide metabolic process
+GO:0009143	2	biological_process	nucleoside triphosphate catabolic process
+GO:0009247	2	biological_process	glycolipid biosynthetic process
+GO:0009249	2	biological_process	protein lipoylation
+GO:0009267	2	biological_process	cellular response to starvation
+GO:0009306	2	biological_process	protein secretion
+GO:0009399	2	biological_process	nitrogen fixation
+GO:0009636	2	biological_process	response to toxic substance
+GO:0009813	2	biological_process	flavonoid biosynthetic process
+GO:0010133	2	biological_process	proline catabolic process to glutamate
+GO:0010181	2	molecular_function	FMN binding
+GO:0010468	2	biological_process	regulation of gene expression
+GO:0015035	2	molecular_function	protein disulfide oxidoreductase activity
+GO:0015078	2	molecular_function	hydrogen ion transmembrane transporter activity
+GO:0015081	2	molecular_function	sodium ion transmembrane transporter activity
+GO:0015128	2	molecular_function	gluconate transmembrane transporter activity
+GO:0015293	2	molecular_function	symporter activity
+GO:0015297	2	molecular_function	antiporter activity
+GO:0015415	2	molecular_function	ATPase-coupled phosphate ion transmembrane transporter activity
+GO:0015671	2	biological_process	oxygen transport
+GO:0016117	2	biological_process	carotenoid biosynthetic process
+GO:0016153	2	molecular_function	urocanate hydratase activity
+GO:0016226	2	biological_process	iron-sulfur cluster assembly
+GO:0016301	2	molecular_function	kinase activity
+GO:0016429	2	molecular_function	tRNA (adenine-N1-)-methyltransferase activity
+GO:0016651	2	molecular_function	oxidoreductase activity, acting on NAD(P)H
+GO:0016661	2	molecular_function	oxidoreductase activity, acting on other nitrogenous compounds as donors
+GO:0016773	2	molecular_function	phosphotransferase activity, alcohol group as acceptor
+GO:0016788	2	molecular_function	hydrolase activity, acting on ester bonds
+GO:0016813	2	molecular_function	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines
+GO:0016998	2	biological_process	cell wall macromolecule catabolic process
+GO:0017004	2	biological_process	cytochrome complex assembly
+GO:0018189	2	biological_process	pyrroloquinoline quinone biosynthetic process
+GO:0019262	2	biological_process	N-acetylneuraminate catabolic process
+GO:0019290	2	biological_process	siderophore biosynthetic process
+GO:0019303	2	biological_process	D-ribose catabolic process
+GO:0019477	2	biological_process	L-lysine catabolic process
+GO:0019646	2	biological_process	aerobic electron transport chain
+GO:0019647	2	biological_process	formaldehyde assimilation via ribulose monophosphate cycle
+GO:0022857	2	molecular_function	transmembrane transporter activity
+GO:0030060	2	molecular_function	L-malate dehydrogenase activity
+GO:0030145	2	molecular_function	manganese ion binding
+GO:0030170	2	molecular_function	pyridoxal phosphate binding
+GO:0030430	2	cellular_component	host cell cytoplasm
+GO:0030436	2	biological_process	asexual sporulation
+GO:0031460	2	biological_process	glycine betaine transport
+GO:0032775	2	biological_process	DNA methylation on adenine
+GO:0033812	2	molecular_function	3-oxoadipyl-CoA thiolase activity
+GO:0034040	2	molecular_function	lipid-transporting ATPase activity
+GO:0035335	2	biological_process	peptidyl-tyrosine dephosphorylation
+GO:0035595	2	molecular_function	N-acetylglucosaminylinositol deacetylase activity
+GO:0035999	2	biological_process	tetrahydrofolate interconversion
+GO:0036422	2	molecular_function	heptaprenyl diphosphate synthase activity
+GO:0042586	2	molecular_function	peptide deformylase activity
+GO:0042823	2	biological_process	pyridoxal phosphate biosynthetic process
+GO:0042853	2	biological_process	L-alanine catabolic process
+GO:0043590	2	cellular_component	bacterial nucleoid
+GO:0043822	2	molecular_function	ribonuclease M5 activity
+GO:0044206	2	biological_process	UMP salvage
+GO:0044208	2	biological_process	'de novo' AMP biosynthetic process
+GO:0044209	2	biological_process	AMP salvage
+GO:0044210	2	biological_process	'de novo' CTP biosynthetic process
+GO:0045881	2	biological_process	positive regulation of sporulation resulting in formation of a cellular spore
+GO:0046177	2	biological_process	D-gluconate catabolic process
+GO:0046729	2	cellular_component	viral procapsid
+GO:0047462	2	molecular_function	phenylalanine racemase (ATP-hydrolyzing) activity
+GO:0047480	2	molecular_function	UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity
+GO:0047553	2	molecular_function	2-oxoglutarate synthase activity
+GO:0047569	2	molecular_function	3-oxoadipate CoA-transferase activity
+GO:0047702	2	molecular_function	beta-lysine 5,6-aminomutase activity
+GO:0047949	2	molecular_function	glutarate-semialdehyde dehydrogenase activity
+GO:0048034	2	biological_process	heme O biosynthetic process
+GO:0048037	2	molecular_function	cofactor binding
+GO:0050081	2	molecular_function	maltose-6'-phosphate glucosidase activity
+GO:0050112	2	molecular_function	inositol 2-dehydrogenase activity
+GO:0050511	2	molecular_function	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity
+GO:0050518	2	molecular_function	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity
+GO:0050790	2	biological_process	regulation of catalytic activity
+GO:0051536	2	molecular_function	iron-sulfur cluster binding
+GO:0052689	2	molecular_function	carboxylic ester hydrolase activity
+GO:0052873	2	molecular_function	FMN reductase (NADPH) activity
+GO:0070590	2	biological_process	spore wall biogenesis
+GO:0070814	2	biological_process	hydrogen sulfide biosynthetic process
+GO:0070981	2	biological_process	L-asparagine biosynthetic process
+GO:0071949	2	molecular_function	FAD binding
+GO:0080019	2	molecular_function	fatty-acyl-CoA reductase (alcohol-forming) activity
+GO:0090502	2	biological_process	RNA phosphodiester bond hydrolysis, endonucleolytic
+GO:0102497	2	molecular_function	scyllo-inositol dehydrogenase (NADP+) activity
+GO:1903826	2	biological_process	arginine transmembrane transport
+GO:0000015	1	cellular_component	phosphopyruvate hydratase complex
+GO:0000103	1	biological_process	sulfate assimilation
+GO:0000139	1	cellular_component	Golgi membrane
+GO:0000272	1	biological_process	polysaccharide catabolic process
+GO:0000302	1	biological_process	response to reactive oxygen species
+GO:0000310	1	molecular_function	xanthine phosphoribosyltransferase activity
+GO:0000453	1	biological_process	enzyme-directed rRNA 2'-O-methylation
+GO:0000731	1	biological_process	DNA synthesis involved in DNA repair
+GO:0000984	1	molecular_function	bacterial-type RNA polymerase regulatory region sequence-specific DNA binding
+GO:0000986	1	molecular_function	bacterial-type proximal promoter sequence-specific DNA binding
+GO:0001702	1	biological_process	gastrulation with mouth forming second
+GO:0001716	1	molecular_function	L-amino-acid oxidase activity
+GO:0002094	1	molecular_function	polyprenyltransferase activity
+GO:0002098	1	biological_process	tRNA wobble uridine modification
+GO:0002161	1	molecular_function	aminoacyl-tRNA editing activity
+GO:0002943	1	biological_process	tRNA dihydrouridine synthesis
+GO:0003678	1	molecular_function	DNA helicase activity
+GO:0003688	1	molecular_function	DNA replication origin binding
+GO:0003725	1	molecular_function	double-stranded RNA binding
+GO:0003729	1	molecular_function	mRNA binding
+GO:0003826	1	molecular_function	alpha-ketoacid dehydrogenase activity
+GO:0003841	1	molecular_function	1-acylglycerol-3-phosphate O-acyltransferase activity
+GO:0003849	1	molecular_function	3-deoxy-7-phosphoheptulonate synthase activity
+GO:0003852	1	molecular_function	2-isopropylmalate synthase activity
+GO:0003855	1	molecular_function	3-dehydroquinate dehydratase activity
+GO:0003858	1	molecular_function	3-hydroxybutyrate dehydrogenase activity
+GO:0003862	1	molecular_function	3-isopropylmalate dehydrogenase activity
+GO:0003864	1	molecular_function	3-methyl-2-oxobutanoate hydroxymethyltransferase activity
+GO:0003866	1	molecular_function	3-phosphoshikimate 1-carboxyvinyltransferase activity
+GO:0003879	1	molecular_function	ATP phosphoribosyltransferase activity
+GO:0003882	1	molecular_function	CDP-diacylglycerol-serine O-phosphatidyltransferase activity
+GO:0003905	1	molecular_function	alkylbase DNA N-glycosylase activity
+GO:0003911	1	molecular_function	DNA ligase (NAD+) activity
+GO:0003919	1	molecular_function	FMN adenylyltransferase activity
+GO:0003937	1	molecular_function	IMP cyclohydrolase activity
+GO:0003938	1	molecular_function	IMP dehydrogenase activity
+GO:0003949	1	molecular_function	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity
+GO:0003959	1	molecular_function	NADPH dehydrogenase activity
+GO:0003964	1	molecular_function	RNA-directed DNA polymerase activity
+GO:0003978	1	molecular_function	UDP-glucose 4-epimerase activity
+GO:0003985	1	molecular_function	acetyl-CoA C-acetyltransferase activity
+GO:0003996	1	molecular_function	acyl-CoA ligase activity
+GO:0004004	1	molecular_function	ATP-dependent RNA helicase activity
+GO:0004024	1	molecular_function	alcohol dehydrogenase activity, zinc-dependent
+GO:0004034	1	molecular_function	aldose 1-epimerase activity
+GO:0004035	1	molecular_function	alkaline phosphatase activity
+GO:0004040	1	molecular_function	amidase activity
+GO:0004042	1	molecular_function	acetyl-CoA:L-glutamate N-acetyltransferase activity
+GO:0004048	1	molecular_function	anthranilate phosphoribosyltransferase activity
+GO:0004049	1	molecular_function	anthranilate synthase activity
+GO:0004056	1	molecular_function	argininosuccinate lyase activity
+GO:0004069	1	molecular_function	L-aspartate:2-oxoglutarate aminotransferase activity
+GO:0004073	1	molecular_function	aspartate-semialdehyde dehydrogenase activity
+GO:0004076	1	molecular_function	biotin synthase activity
+GO:0004084	1	molecular_function	branched-chain-amino-acid transaminase activity
+GO:0004104	1	molecular_function	cholinesterase activity
+GO:0004106	1	molecular_function	chorismate mutase activity
+GO:0004121	1	molecular_function	cystathionine beta-lyase activity
+GO:0004126	1	molecular_function	cytidine deaminase activity
+GO:0004127	1	molecular_function	cytidylate kinase activity
+GO:0004139	1	molecular_function	deoxyribose-phosphate aldolase activity
+GO:0004145	1	molecular_function	diamine N-acetyltransferase activity
+GO:0004152	1	molecular_function	dihydroorotate dehydrogenase activity
+GO:0004160	1	molecular_function	dihydroxy-acid dehydratase activity
+GO:0004298	1	molecular_function	threonine-type endopeptidase activity
+GO:0004313	1	molecular_function	[acyl-carrier-protein] S-acetyltransferase activity
+GO:0004314	1	molecular_function	[acyl-carrier-protein] S-malonyltransferase activity
+GO:0004332	1	molecular_function	fructose-bisphosphate aldolase activity
+GO:0004337	1	molecular_function	geranyltranstransferase activity
+GO:0004349	1	molecular_function	glutamate 5-kinase activity
+GO:0004353	1	molecular_function	glutamate dehydrogenase [NAD(P)+] activity
+GO:0004356	1	molecular_function	glutamate-ammonia ligase activity
+GO:0004358	1	molecular_function	glutamate N-acetyltransferase activity
+GO:0004372	1	molecular_function	glycine hydroxymethyltransferase activity
+GO:0004397	1	molecular_function	histidine ammonia-lyase activity
+GO:0004399	1	molecular_function	histidinol dehydrogenase activity
+GO:0004400	1	molecular_function	histidinol-phosphate transaminase activity
+GO:0004411	1	molecular_function	homogentisate 1,2-dioxygenase activity
+GO:0004414	1	molecular_function	homoserine O-acetyltransferase activity
+GO:0004424	1	molecular_function	imidazoleglycerol-phosphate dehydratase activity
+GO:0004425	1	molecular_function	indole-3-glycerol-phosphate synthase activity
+GO:0004450	1	molecular_function	isocitrate dehydrogenase (NADP+) activity
+GO:0004451	1	molecular_function	isocitrate lyase activity
+GO:0004452	1	molecular_function	isopentenyl-diphosphate delta-isomerase activity
+GO:0004459	1	molecular_function	L-lactate dehydrogenase activity
+GO:0004463	1	molecular_function	leukotriene-A4 hydrolase activity
+GO:0004474	1	molecular_function	malate synthase activity
+GO:0004477	1	molecular_function	methenyltetrahydrofolate cyclohydrolase activity
+GO:0004479	1	molecular_function	methionyl-tRNA formyltransferase activity
+GO:0004515	1	molecular_function	nicotinate-nucleotide adenylyltransferase activity
+GO:0004521	1	molecular_function	endoribonuclease activity
+GO:0004526	1	molecular_function	ribonuclease P activity
+GO:0004534	1	molecular_function	5'-3' exoribonuclease activity
+GO:0004540	1	molecular_function	ribonuclease activity
+GO:0004563	1	molecular_function	beta-N-acetylhexosaminidase activity
+GO:0004587	1	molecular_function	ornithine-oxo-acid transaminase activity
+GO:0004592	1	molecular_function	pantoate-beta-alanine ligase activity
+GO:0004595	1	molecular_function	pantetheine-phosphate adenylyltransferase activity
+GO:0004596	1	molecular_function	peptide alpha-N-acetyltransferase activity
+GO:0004602	1	molecular_function	glutathione peroxidase activity
+GO:0004604	1	molecular_function	phosphoadenylyl-sulfate reductase (thioredoxin) activity
+GO:0004611	1	molecular_function	phosphoenolpyruvate carboxykinase activity
+GO:0004612	1	molecular_function	phosphoenolpyruvate carboxykinase (ATP) activity
+GO:0004632	1	molecular_function	phosphopantothenate--cysteine ligase activity
+GO:0004634	1	molecular_function	phosphopyruvate hydratase activity
+GO:0004635	1	molecular_function	phosphoribosyl-AMP cyclohydrolase activity
+GO:0004637	1	molecular_function	phosphoribosylamine-glycine ligase activity
+GO:0004640	1	molecular_function	phosphoribosylanthranilate isomerase activity
+GO:0004645	1	molecular_function	phosphorylase activity
+GO:0004647	1	molecular_function	phosphoserine phosphatase activity
+GO:0004654	1	molecular_function	polyribonucleotide nucleotidyltransferase activity
+GO:0004655	1	molecular_function	porphobilinogen synthase activity
+GO:0004658	1	molecular_function	propionyl-CoA carboxylase activity
+GO:0004665	1	molecular_function	prephenate dehydrogenase (NADP+) activity
+GO:0004671	1	molecular_function	protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity
+GO:0004736	1	molecular_function	pyruvate carboxylase activity
+GO:0004743	1	molecular_function	pyruvate kinase activity
+GO:0004746	1	molecular_function	riboflavin synthase activity
+GO:0004749	1	molecular_function	ribose phosphate diphosphokinase activity
+GO:0004751	1	molecular_function	ribose-5-phosphate isomerase activity
+GO:0004760	1	molecular_function	serine-pyruvate transaminase activity
+GO:0004765	1	molecular_function	shikimate kinase activity
+GO:0004781	1	molecular_function	sulfate adenylyltransferase (ATP) activity
+GO:0004787	1	molecular_function	thiamine-pyrophosphatase activity
+GO:0004801	1	molecular_function	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase activity
+GO:0004802	1	molecular_function	transketolase activity
+GO:0004807	1	molecular_function	triose-phosphate isomerase activity
+GO:0004813	1	molecular_function	alanine-tRNA ligase activity
+GO:0004814	1	molecular_function	arginine-tRNA ligase activity
+GO:0004816	1	molecular_function	asparagine-tRNA ligase activity
+GO:0004817	1	molecular_function	cysteine-tRNA ligase activity
+GO:0004818	1	molecular_function	glutamate-tRNA ligase activity
+GO:0004822	1	molecular_function	isoleucine-tRNA ligase activity
+GO:0004823	1	molecular_function	leucine-tRNA ligase activity
+GO:0004824	1	molecular_function	lysine-tRNA ligase activity
+GO:0004825	1	molecular_function	methionine-tRNA ligase activity
+GO:0004828	1	molecular_function	serine-tRNA ligase activity
+GO:0004830	1	molecular_function	tryptophan-tRNA ligase activity
+GO:0004831	1	molecular_function	tyrosine-tRNA ligase activity
+GO:0004832	1	molecular_function	valine-tRNA ligase activity
+GO:0005198	1	molecular_function	structural molecule activity
+GO:0005337	1	molecular_function	nucleoside transmembrane transporter activity
+GO:0005388	1	molecular_function	calcium-transporting ATPase activity
+GO:0005654	1	cellular_component	nucleoplasm
+GO:0005741	1	cellular_component	mitochondrial outer membrane
+GO:0005743	1	cellular_component	mitochondrial inner membrane
+GO:0005768	1	cellular_component	endosome
+GO:0005783	1	cellular_component	endoplasmic reticulum
+GO:0005794	1	cellular_component	Golgi apparatus
+GO:0005856	1	cellular_component	cytoskeleton
+GO:0005960	1	cellular_component	glycine cleavage complex
+GO:0005996	1	biological_process	monosaccharide metabolic process
+GO:0006044	1	biological_process	N-acetylglucosamine metabolic process
+GO:0006085	1	biological_process	acetyl-CoA biosynthetic process
+GO:0006089	1	biological_process	lactate metabolic process
+GO:0006120	1	biological_process	mitochondrial electron transport, NADH to ubiquinone
+GO:0006139	1	biological_process	nucleobase-containing compound metabolic process
+GO:0006177	1	biological_process	GMP biosynthetic process
+GO:0006203	1	biological_process	dGTP catabolic process
+GO:0006213	1	biological_process	pyrimidine nucleoside metabolic process
+GO:0006229	1	biological_process	dUTP biosynthetic process
+GO:0006231	1	biological_process	dTMP biosynthetic process
+GO:0006278	1	biological_process	RNA-dependent DNA biosynthetic process
+GO:0006282	1	biological_process	regulation of DNA repair
+GO:0006302	1	biological_process	double-strand break repair
+GO:0006308	1	biological_process	DNA catabolic process
+GO:0006310	1	biological_process	DNA recombination
+GO:0006388	1	biological_process	tRNA splicing, via endonucleolytic cleavage and ligation
+GO:0006397	1	biological_process	mRNA processing
+GO:0006413	1	biological_process	translational initiation
+GO:0006414	1	biological_process	translational elongation
+GO:0006458	1	biological_process	'de novo' protein folding
+GO:0006469	1	biological_process	negative regulation of protein kinase activity
+GO:0006474	1	biological_process	N-terminal protein amino acid acetylation
+GO:0006476	1	biological_process	protein deacetylation
+GO:0006535	1	biological_process	cysteine biosynthetic process from serine
+GO:0006542	1	biological_process	glutamine biosynthetic process
+GO:0006545	1	biological_process	glycine biosynthetic process
+GO:0006547	1	biological_process	histidine metabolic process
+GO:0006552	1	biological_process	leucine catabolic process
+GO:0006556	1	biological_process	S-adenosylmethionine biosynthetic process
+GO:0006557	1	biological_process	S-adenosylmethioninamine biosynthetic process
+GO:0006564	1	biological_process	L-serine biosynthetic process
+GO:0006566	1	biological_process	threonine metabolic process
+GO:0006631	1	biological_process	fatty acid metabolic process
+GO:0006646	1	biological_process	phosphatidylethanolamine biosynthetic process
+GO:0006744	1	biological_process	ubiquinone biosynthetic process
+GO:0006747	1	biological_process	FAD biosynthetic process
+GO:0006751	1	biological_process	glutathione catabolic process
+GO:0006761	1	biological_process	dihydrofolate biosynthetic process
+GO:0006801	1	biological_process	superoxide metabolic process
+GO:0006813	1	biological_process	potassium ion transport
+GO:0006817	1	biological_process	phosphate ion transport
+GO:0006835	1	biological_process	dicarboxylic acid transport
+GO:0006879	1	biological_process	cellular iron ion homeostasis
+GO:0006970	1	biological_process	response to osmotic stress
+GO:0007059	1	biological_process	chromosome segregation
+GO:0007155	1	biological_process	cell adhesion
+GO:0007275	1	biological_process	multicellular organism development
+GO:0007368	1	biological_process	determination of left/right symmetry
+GO:0007517	1	biological_process	muscle organ development
+GO:0008127	1	molecular_function	quercetin 2,3-dioxygenase activity
+GO:0008171	1	molecular_function	O-methyltransferase activity
+GO:0008233	1	molecular_function	peptidase activity
+GO:0008253	1	molecular_function	5'-nucleotidase activity
+GO:0008327	1	molecular_function	methyl-CpG binding
+GO:0008356	1	biological_process	asymmetric cell division
+GO:0008375	1	molecular_function	acetylglucosaminyltransferase activity
+GO:0008379	1	molecular_function	thioredoxin peroxidase activity
+GO:0008381	1	molecular_function	mechanically-gated ion channel activity
+GO:0008422	1	molecular_function	beta-glucosidase activity
+GO:0008428	1	molecular_function	ribonuclease inhibitor activity
+GO:0008441	1	molecular_function	3'(2'),5'-bisphosphate nucleotidase activity
+GO:0008448	1	molecular_function	N-acetylglucosamine-6-phosphate deacetylase activity
+GO:0008478	1	molecular_function	pyridoxal kinase activity
+GO:0008479	1	molecular_function	queuine tRNA-ribosyltransferase activity
+GO:0008551	1	molecular_function	cadmium-exporting ATPase activity
+GO:0008610	1	biological_process	lipid biosynthetic process
+GO:0008641	1	molecular_function	ubiquitin-like modifier activating enzyme activity
+GO:0008654	1	biological_process	phospholipid biosynthetic process
+GO:0008660	1	molecular_function	1-aminocyclopropane-1-carboxylate deaminase activity
+GO:0008661	1	molecular_function	1-deoxy-D-xylulose-5-phosphate synthase activity
+GO:0008662	1	molecular_function	1-phosphofructokinase activity
+GO:0008663	1	molecular_function	2',3'-cyclic-nucleotide 2'-phosphodiesterase activity
+GO:0008675	1	molecular_function	2-dehydro-3-deoxy-phosphogluconate aldolase activity
+GO:0008705	1	molecular_function	methionine synthase activity
+GO:0008706	1	molecular_function	6-phospho-beta-glucosidase activity
+GO:0008728	1	molecular_function	GTP diphosphokinase activity
+GO:0008733	1	molecular_function	L-arabinose isomerase activity
+GO:0008734	1	molecular_function	L-aspartate oxidase activity
+GO:0008752	1	molecular_function	FMN reductase activity
+GO:0008756	1	molecular_function	o-succinylbenzoate-CoA ligase activity
+GO:0008761	1	molecular_function	UDP-N-acetylglucosamine 2-epimerase activity
+GO:0008763	1	molecular_function	UDP-N-acetylmuramate-L-alanine ligase activity
+GO:0008764	1	molecular_function	UDP-N-acetylmuramoylalanine-D-glutamate ligase activity
+GO:0008765	1	molecular_function	UDP-N-acetylmuramoylalanyl-D-glutamate-2,6-diaminopimelate ligase activity
+GO:0008776	1	molecular_function	acetate kinase activity
+GO:0008782	1	molecular_function	adenosylhomocysteine nucleosidase activity
+GO:0008783	1	molecular_function	agmatinase activity
+GO:0008784	1	molecular_function	alanine racemase activity
+GO:0008788	1	molecular_function	alpha,alpha-phosphotrehalase activity
+GO:0008792	1	molecular_function	arginine decarboxylase activity
+GO:0008795	1	molecular_function	NAD+ synthase activity
+GO:0008802	1	molecular_function	betaine-aldehyde dehydrogenase activity
+GO:0008808	1	molecular_function	cardiolipin synthase activity
+GO:0008817	1	molecular_function	cob(I)yrinic acid a,c-diamide adenosyltransferase activity
+GO:0008818	1	molecular_function	cobalamin 5'-phosphate synthase activity
+GO:0008820	1	molecular_function	cobinamide phosphate guanylyltransferase activity
+GO:0008821	1	molecular_function	crossover junction endodeoxyribonuclease activity
+GO:0008829	1	molecular_function	dCTP deaminase activity
+GO:0008833	1	molecular_function	deoxyribonuclease IV (phage-T4-induced) activity
+GO:0008836	1	molecular_function	diaminopimelate decarboxylase activity
+GO:0008837	1	molecular_function	diaminopimelate epimerase activity
+GO:0008840	1	molecular_function	4-hydroxy-tetrahydrodipicolinate synthase
+GO:0008859	1	molecular_function	exoribonuclease II activity
+GO:0008864	1	molecular_function	formyltetrahydrofolate deformylase activity
+GO:0008880	1	molecular_function	glucuronate isomerase activity
+GO:0008888	1	molecular_function	glycerol dehydrogenase [NAD+] activity
+GO:0008889	1	molecular_function	glycerophosphodiester phosphodiesterase activity
+GO:0008897	1	molecular_function	holo-[acyl-carrier-protein] synthase activity
+GO:0008902	1	molecular_function	hydroxymethylpyrimidine kinase activity
+GO:0008926	1	molecular_function	mannitol-1-phosphate 5-dehydrogenase activity
+GO:0008948	1	molecular_function	oxaloacetate decarboxylase activity
+GO:0008965	1	molecular_function	phosphoenolpyruvate-protein phosphotransferase activity
+GO:0008966	1	molecular_function	phosphoglucosamine mutase activity
+GO:0008973	1	molecular_function	phosphopentomutase activity
+GO:0008977	1	molecular_function	prephenate dehydrogenase (NAD+) activity
+GO:0008987	1	molecular_function	quinolinate synthetase A activity
+GO:0008989	1	molecular_function	rRNA (guanine-N1-)-methyltransferase activity
+GO:0008990	1	molecular_function	rRNA (guanine-N2-)-methyltransferase activity
+GO:0009001	1	molecular_function	serine O-acetyltransferase activity
+GO:0009022	1	molecular_function	tRNA nucleotidyltransferase activity
+GO:0009035	1	molecular_function	Type I site-specific deoxyribonuclease activity
+GO:0009036	1	molecular_function	Type II site-specific deoxyribonuclease activity
+GO:0009038	1	molecular_function	undecaprenol kinase activity
+GO:0009045	1	molecular_function	xylose isomerase activity
+GO:0009058	1	biological_process	biosynthetic process
+GO:0009060	1	biological_process	aerobic respiration
+GO:0009062	1	biological_process	fatty acid catabolic process
+GO:0009083	1	biological_process	branched-chain amino acid catabolic process
+GO:0009086	1	biological_process	methionine biosynthetic process
+GO:0009108	1	biological_process	coenzyme biosynthetic process
+GO:0009157	1	biological_process	deoxyribonucleoside monophosphate biosynthetic process
+GO:0009166	1	biological_process	nucleotide catabolic process
+GO:0009244	1	biological_process	lipopolysaccharide core region biosynthetic process
+GO:0009254	1	biological_process	peptidoglycan turnover
+GO:0009263	1	biological_process	deoxyribonucleotide biosynthetic process
+GO:0009291	1	biological_process	unidirectional conjugation
+GO:0009294	1	biological_process	DNA mediated transformation
+GO:0009396	1	biological_process	folic acid-containing compound biosynthetic process
+GO:0009398	1	biological_process	FMN biosynthetic process
+GO:0009403	1	biological_process	toxin biosynthetic process
+GO:0009409	1	biological_process	response to cold
+GO:0009450	1	biological_process	gamma-aminobutyric acid catabolic process
+GO:0009451	1	biological_process	RNA modification
+GO:0009535	1	cellular_component	chloroplast thylakoid membrane
+GO:0009536	1	cellular_component	plastid
+GO:0009579	1	cellular_component	thylakoid
+GO:0009611	1	biological_process	response to wounding
+GO:0009699	1	biological_process	phenylpropanoid biosynthetic process
+GO:0009809	1	biological_process	lignin biosynthetic process
+GO:0009898	1	cellular_component	cytoplasmic side of plasma membrane
+GO:0009977	1	molecular_function	proton motive force dependent protein transmembrane transporter activity
+GO:0009982	1	molecular_function	pseudouridine synthase activity
+GO:0010277	1	molecular_function	chlorophyllide a oxygenase [overall] activity
+GO:0010308	1	molecular_function	acireductone dioxygenase (Ni2+-requiring) activity
+GO:0010345	1	biological_process	suberin biosynthetic process
+GO:0015031	1	biological_process	protein transport
+GO:0015137	1	molecular_function	citrate transmembrane transporter activity
+GO:0015144	1	molecular_function	carbohydrate transmembrane transporter activity
+GO:0015171	1	molecular_function	amino acid transmembrane transporter activity
+GO:0015226	1	molecular_function	carnitine transmembrane transporter activity
+GO:0015307	1	molecular_function	drug:proton antiporter activity
+GO:0015321	1	molecular_function	sodium-dependent phosphate transmembrane transporter activity
+GO:0015369	1	molecular_function	calcium:proton antiporter activity
+GO:0015407	1	molecular_function	monosaccharide-transporting ATPase activity
+GO:0015418	1	molecular_function	quaternary-ammonium-compound-transporting ATPase activity
+GO:0015501	1	molecular_function	glutamate:sodium symporter activity
+GO:0015623	1	molecular_function	iron-chelate-transporting ATPase activity
+GO:0015627	1	cellular_component	type II protein secretion system complex
+GO:0015658	1	molecular_function	branched-chain amino acid transmembrane transporter activity
+GO:0015688	1	biological_process	iron chelate transport
+GO:0015755	1	biological_process	fructose transport
+GO:0015797	1	biological_process	mannitol transport
+GO:0015862	1	biological_process	uridine transport
+GO:0015889	1	biological_process	cobalamin transport
+GO:0015969	1	biological_process	guanosine tetraphosphate metabolic process
+GO:0015970	1	biological_process	guanosine tetraphosphate biosynthetic process
+GO:0016024	1	biological_process	CDP-diacylglycerol biosynthetic process
+GO:0016154	1	molecular_function	pyrimidine-nucleoside phosphorylase activity
+GO:0016210	1	molecular_function	naringenin-chalcone synthase activity
+GO:0016413	1	molecular_function	O-acetyltransferase activity
+GO:0016705	1	molecular_function	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+GO:0016747	1	molecular_function	transferase activity, transferring acyl groups other than amino-acyl groups
+GO:0016755	1	molecular_function	transferase activity, transferring amino-acyl groups
+GO:0016758	1	molecular_function	transferase activity, transferring hexosyl groups
+GO:0016779	1	molecular_function	nucleotidyltransferase activity
+GO:0016791	1	molecular_function	phosphatase activity
+GO:0016793	1	molecular_function	triphosphoric monoester hydrolase activity
+GO:0016799	1	molecular_function	hydrolase activity, hydrolyzing N-glycosyl compounds
+GO:0016805	1	molecular_function	dipeptidase activity
+GO:0016810	1	molecular_function	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
+GO:0016818	1	molecular_function	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
+GO:0016831	1	molecular_function	carboxy-lyase activity
+GO:0016835	1	molecular_function	carbon-oxygen lyase activity
+GO:0016866	1	molecular_function	intramolecular transferase activity
+GO:0016884	1	molecular_function	carbon-nitrogen ligase activity, with glutamine as amido-N-donor
+GO:0016891	1	molecular_function	endoribonuclease activity, producing 5'-phosphomonoesters
+GO:0016966	1	molecular_function	nitric oxide reductase activity
+GO:0016987	1	molecular_function	sigma factor activity
+GO:0016992	1	molecular_function	lipoate synthase activity
+GO:0017111	1	molecular_function	nucleoside-triphosphatase activity
+GO:0018153	1	biological_process	isopeptide cross-linking via N6-(L-isoglutamyl)-L-lysine
+GO:0018206	1	biological_process	peptidyl-methionine modification
+GO:0018677	1	molecular_function	pentachlorophenol monooxygenase activity
+GO:0018826	1	molecular_function	methionine gamma-lyase activity
+GO:0019012	1	cellular_component	virion
+GO:0019171	1	molecular_function	3-hydroxyacyl-[acyl-carrier-protein] dehydratase activity
+GO:0019213	1	molecular_function	deacetylase activity
+GO:0019295	1	biological_process	coenzyme M biosynthetic process
+GO:0019310	1	biological_process	inositol catabolic process
+GO:0019318	1	biological_process	hexose metabolic process
+GO:0019333	1	biological_process	denitrification pathway
+GO:0019338	1	biological_process	pentachlorophenol catabolic process
+GO:0019478	1	biological_process	D-amino acid catabolic process
+GO:0019516	1	biological_process	lactate oxidation
+GO:0019569	1	biological_process	L-arabinose catabolic process to xylulose 5-phosphate
+GO:0019746	1	biological_process	hopanoid biosynthetic process
+GO:0019805	1	biological_process	quinolinate biosynthetic process
+GO:0019835	1	biological_process	cytolysis
+GO:0020037	1	molecular_function	heme binding
+GO:0022627	1	cellular_component	cytosolic small ribosomal subunit
+GO:0030018	1	cellular_component	Z disc
+GO:0030153	1	biological_process	bacteriocin immunity
+GO:0030245	1	biological_process	cellulose catabolic process
+GO:0030246	1	molecular_function	carbohydrate binding
+GO:0030429	1	molecular_function	kynureninase activity
+GO:0030488	1	biological_process	tRNA methylation
+GO:0030529	1	cellular_component	intracellular ribonucleoprotein complex
+GO:0030604	1	molecular_function	1-deoxy-D-xylulose-5-phosphate reductoisomerase activity
+GO:0030632	1	biological_process	D-alanine biosynthetic process
+GO:0031419	1	molecular_function	cobalamin binding
+GO:0031969	1	cellular_component	chloroplast membrane
+GO:0032022	1	biological_process	multicellular pellicle formation
+GO:0032264	1	biological_process	IMP salvage
+GO:0032265	1	biological_process	XMP salvage
+GO:0032297	1	biological_process	negative regulation of DNA-dependent DNA replication initiation
+GO:0032993	1	cellular_component	protein-DNA complex
+GO:0033388	1	biological_process	putrescine biosynthetic process from arginine
+GO:0033558	1	molecular_function	protein deacetylase activity
+GO:0033739	1	molecular_function	preQ1 synthase activity
+GO:0033743	1	molecular_function	peptide-methionine (R)-S-oxide reductase activity
+GO:0033817	1	molecular_function	beta-ketoacyl-acyl-carrier-protein synthase II activity
+GO:0033818	1	molecular_function	beta-ketoacyl-acyl-carrier-protein synthase III activity
+GO:0033819	1	molecular_function	lipoyl(octanoyl) transferase activity
+GO:0033862	1	molecular_function	UMP kinase activity
+GO:0033983	1	molecular_function	diaminobutyrate decarboxylase activity
+GO:0034023	1	molecular_function	5-(carboxyamino)imidazole ribonucleotide mutase activity
+GO:0034028	1	molecular_function	5-(carboxyamino)imidazole ribonucleotide synthase activity
+GO:0034220	1	biological_process	ion transmembrane transport
+GO:0034414	1	biological_process	tRNA 3'-trailer cleavage, endonucleolytic
+GO:0034784	1	molecular_function	pivalyl-CoA mutase activity
+GO:0034979	1	molecular_function	NAD-dependent protein deacetylase activity
+GO:0035524	1	biological_process	proline transmembrane transport
+GO:0035598	1	molecular_function	N6-threonylcarbomyladenosine methylthiotransferase activity
+GO:0035873	1	biological_process	lactate transmembrane transport
+GO:0035998	1	biological_process	7,8-dihydroneopterin 3'-triphosphate biosynthetic process
+GO:0036381	1	molecular_function	pyridoxal 5'-phosphate synthase (glutamine hydrolysing) activity
+GO:0042128	1	biological_process	nitrate assimilation
+GO:0042132	1	molecular_function	fructose 1,6-bisphosphate 1-phosphatase activity
+GO:0042173	1	biological_process	regulation of sporulation resulting in formation of a cellular spore
+GO:0042174	1	biological_process	negative regulation of sporulation resulting in formation of a cellular spore
+GO:0042244	1	biological_process	spore wall assembly
+GO:0042274	1	biological_process	ribosomal small subunit biogenesis
+GO:0042277	1	molecular_function	peptide binding
+GO:0042409	1	molecular_function	caffeoyl-CoA O-methyltransferase activity
+GO:0042651	1	cellular_component	thylakoid membrane
+GO:0042781	1	molecular_function	3'-tRNA processing endoribonuclease activity
+GO:0043086	1	biological_process	negative regulation of catalytic activity
+GO:0043107	1	biological_process	type IV pilus-dependent motility
+GO:0043115	1	molecular_function	precorrin-2 dehydrogenase activity
+GO:0043571	1	biological_process	maintenance of CRISPR repeat elements
+GO:0043595	1	cellular_component	endospore cortex
+GO:0043620	1	biological_process	regulation of DNA-templated transcription in response to stress
+GO:0043737	1	molecular_function	deoxyribonuclease V activity
+GO:0043754	1	molecular_function	dihydrolipoyllysine-residue (2-methylpropanoyl)transferase activity
+GO:0043756	1	molecular_function	adenosylcobinamide hydrolase activity
+GO:0043799	1	molecular_function	glycine oxidase activity
+GO:0043817	1	molecular_function	phosphosulfolactate synthase activity
+GO:0043891	1	molecular_function	glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) activity
+GO:0043892	1	molecular_function	methylglyoxal reductase (NADPH-dependent) activity
+GO:0043934	1	biological_process	sporulation
+GO:0043957	1	molecular_function	acryloyl-CoA reductase (NADP+) activity
+GO:0044010	1	biological_process	single-species biofilm formation
+GO:0044237	1	biological_process	cellular metabolic process
+GO:0044238	1	biological_process	primary metabolic process
+GO:0045013	1	biological_process	carbon catabolite repression of transcription
+GO:0045303	1	molecular_function	diaminobutyrate-2-oxoglutarate transaminase activity
+GO:0045454	1	biological_process	cell redox homeostasis
+GO:0045552	1	molecular_function	dihydrokaempferol 4-reductase activity
+GO:0045762	1	biological_process	positive regulation of adenylate cyclase activity
+GO:0046037	1	biological_process	GMP metabolic process
+GO:0046316	1	molecular_function	gluconokinase activity
+GO:0046386	1	biological_process	deoxyribose phosphate catabolic process
+GO:0046437	1	biological_process	D-amino acid biosynthetic process
+GO:0046474	1	biological_process	glycerophospholipid biosynthetic process
+GO:0046509	1	molecular_function	1,2-diacylglycerol 3-beta-galactosyltransferase activity
+GO:0046522	1	molecular_function	S-methyl-5-thioribose kinase activity
+GO:0046523	1	molecular_function	S-methyl-5-thioribose-1-phosphate isomerase activity
+GO:0046570	1	molecular_function	methylthioribulose 1-phosphate dehydratase activity
+GO:0046618	1	biological_process	drug export
+GO:0046677	1	biological_process	response to antibiotic
+GO:0046901	1	biological_process	tetrahydrofolylpolyglutamate biosynthetic process
+GO:0046949	1	biological_process	fatty-acyl-CoA biosynthetic process
+GO:0046982	1	molecular_function	protein heterodimerization activity
+GO:0047004	1	molecular_function	UDP-N-acetylglucosamine 6-dehydrogenase activity
+GO:0047124	1	molecular_function	L-erythro-3,5-diaminohexanoate dehydrogenase activity
+GO:0047151	1	molecular_function	methylenetetrahydrofolate-tRNA-(uracil-5-)-methyltransferase (FADH2-oxidizing) activity
+GO:0047200	1	molecular_function	tetrahydrodipicolinate N-acetyltransferase activity
+GO:0047407	1	molecular_function	ADP-ribosyl-[dinitrogen reductase] hydrolase activity
+GO:0047429	1	molecular_function	nucleoside-triphosphate diphosphatase activity
+GO:0047456	1	molecular_function	2-methylisocitrate dehydratase activity
+GO:0047459	1	molecular_function	3-aminobutyryl-CoA ammonia-lyase activity
+GO:0047475	1	molecular_function	phenylacetate-CoA ligase activity
+GO:0047590	1	molecular_function	5-dehydro-2-deoxygluconokinase activity
+GO:0047727	1	molecular_function	isobutyryl-CoA mutase activity
+GO:0047761	1	molecular_function	butyrate kinase activity
+GO:0047810	1	molecular_function	D-alanine:2-oxoglutarate aminotransferase activity
+GO:0047964	1	molecular_function	glyoxylate reductase activity
+GO:0048307	1	molecular_function	ferredoxin-nitrite reductase activity
+GO:0048472	1	molecular_function	threonine-phosphate decarboxylase activity
+GO:0050049	1	molecular_function	leucine dehydrogenase activity
+GO:0050060	1	molecular_function	long-chain-alcohol dehydrogenase activity
+GO:0050066	1	molecular_function	lysine 2,3-aminomutase activity
+GO:0050114	1	molecular_function	myo-inosose-2 dehydratase activity
+GO:0050118	1	molecular_function	N-acetyldiaminopimelate deacetylase activity
+GO:0050175	1	molecular_function	phenylalanine dehydrogenase activity
+GO:0050176	1	molecular_function	phenylalanine N-acetyltransferase activity
+GO:0050182	1	molecular_function	phosphate butyryltransferase activity
+GO:0050242	1	molecular_function	pyruvate, phosphate dikinase activity
+GO:0050270	1	molecular_function	S-adenosylhomocysteine deaminase activity
+GO:0050343	1	molecular_function	trans-2-enoyl-CoA reductase (NAD+) activity
+GO:0050380	1	molecular_function	undecaprenyl-diphosphatase activity
+GO:0050415	1	molecular_function	formimidoylglutamase activity
+GO:0050421	1	molecular_function	nitrite reductase (NO-forming) activity
+GO:0050480	1	molecular_function	imidazolonepropionase activity
+GO:0050515	1	molecular_function	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity
+GO:0050560	1	molecular_function	aspartate-tRNA(Asn) ligase activity
+GO:0050567	1	molecular_function	glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+GO:0050660	1	molecular_function	flavin adenine dinucleotide binding
+GO:0051073	1	molecular_function	adenosylcobinamide-GDP ribazoletransferase activity
+GO:0051289	1	biological_process	protein homotetramerization
+GO:0051304	1	biological_process	chromosome separation
+GO:0051499	1	molecular_function	D-aminoacyl-tRNA deacylase activity
+GO:0051725	1	biological_process	protein de-ADP-ribosylation
+GO:0052381	1	molecular_function	tRNA dimethylallyltransferase activity
+GO:0052855	1	molecular_function	ADP-dependent NAD(P)H-hydrate dehydratase activity
+GO:0052865	1	biological_process	1-deoxy-D-xylulose 5-phosphate biosynthetic process
+GO:0052906	1	molecular_function	tRNA (guanine(37)-N(1))-methyltransferase activity
+GO:0052908	1	molecular_function	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity
+GO:0055070	1	biological_process	copper ion homeostasis
+GO:0061077	1	biological_process	chaperone-mediated protein folding
+GO:0061605	1	molecular_function	molybdopterin-synthase adenylyltransferase activity
+GO:0061710	1	molecular_function	L-threonylcarbamoyladenylate synthase
+GO:0061711	1	molecular_function	N(6)-L-threonylcarbamoyladenine synthase
+GO:0061712	1	molecular_function	tRNA (N(6)-L-threonylcarbamoyladenosine(37)-C(2))-methylthiotransferase
+GO:0070040	1	molecular_function	rRNA (adenine-C2-)-methyltransferase activity
+GO:0070042	1	molecular_function	rRNA (uridine-N3-)-methyltransferase activity
+GO:0070207	1	biological_process	protein homotrimerization
+GO:0070401	1	molecular_function	NADP+ binding
+GO:0070574	1	biological_process	cadmium ion transmembrane transport
+GO:0070588	1	biological_process	calcium ion transmembrane transport
+GO:0071266	1	biological_process	'de novo' L-methionine biosynthetic process
+GO:0071806	1	biological_process	protein transmembrane transport
+GO:0071934	1	biological_process	thiamine transmembrane transport
+GO:0085027	1	biological_process	entry into host via enzymatic degradation of host anatomical structure
+GO:0090529	1	biological_process	cell septum assembly
+GO:0097056	1	biological_process	selenocysteinyl-tRNA(Sec) biosynthetic process
+GO:0097173	1	biological_process	N-acetylmuramic acid catabolic process
+GO:0097266	1	molecular_function	phenylacetyl-CoA 1,2-epoxidase activity
+GO:0102007	1	molecular_function	acyl-L-homoserine-lactone lactonohydrolase activity
+GO:0102009	1	molecular_function	proline dipeptidase activity
+GO:0102077	1	molecular_function	oleamide hydrolase activity
+GO:0102481	1	molecular_function	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase activity
+GO:0102482	1	molecular_function	5-deoxy-D-glucuronate isomerase activity
+GO:0102559	1	molecular_function	protein-(glutamine-N5) methyltransferase activity
+GO:0102573	1	molecular_function	aminodeoxyfutalosine synthase activity
+GO:0102919	1	molecular_function	5,6-dimethylbenzimidazole synthase activity
+GO:0102965	1	molecular_function	alcohol-forming fatty acyl-CoA reductase activity
+GO:0102978	1	molecular_function	furaneol oxidoreductase activity
+GO:0106004	1	biological_process	tRNA (guanine-N7)-methylation
+GO:1902603	1	biological_process	carnitine transmembrane transport
+GO:1903791	1	biological_process	uracil transmembrane transport

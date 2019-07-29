@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in line 50 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py:
+Missing input files for rule all:
+outData/deseq2/heatmap_cor.pdf
+outData/deseq2/treated-vs-untreated_volcano_plot.pdf
+outData/deseq2/heatmap.pdf

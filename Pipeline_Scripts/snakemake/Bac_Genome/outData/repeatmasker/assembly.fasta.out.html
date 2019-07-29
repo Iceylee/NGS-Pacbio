@@ -1,0 +1,756 @@
+
+<style type="text/css"> 
+
+ .annotSet {  /* Annotation Set - A grouping which spans a complete set of
+                                  linked annotations. */
+   border-right: 1px solid;
+   padding-right: 10px;
+ }
+
+ .bluediv {  /* The style for every other line.  Used to create
+                a report effect */
+    background: url("bluegrad.jpg")top right repeat-y;
+    background-color: #bacdff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ } 
+
+ pre {      /* Required change in pre formatting.  This fixes problems
+               with spacing inside of annotSet div tags */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+ }
+
+ .nound {
+   font-weight:bold;
+   color:navy;
+   text-decoration:none;
+ }
+
+</style>
+
+
+<script language="javascript">
+
+  /** JavaScript to detect text resizing events.  Culled verbatim 
+   ** from Lawrence Carvalho's great article on the subject
+   **/
+
+  /** 
+   *  @fileoverview TextResizeDetector
+   * 
+   *  Detects changes to font sizes when user changes browser settings
+   *  <br>Fires a custom event with the following data:<br><br>
+   * 	iBase  : base font size  	
+   *	iDelta : difference in pixels from previous setting<br>
+   *  	iSize  : size in pixel of text<br>
+   *  
+   *  * @author Lawrence Carvalho carvalho@uk.yahoo-inc.com
+   * @version 1.0
+   */
+
+  /**
+   * @constructor
+   */
+  TextResizeDetector = function() { 
+    var el  = null;
+    var iIntervalDelay  = 200;
+    var iInterval = null;
+    var iCurrSize = -1;
+    var iBase = -1;
+    var aListeners = [];
+    var createControlElement = function() {
+      el = document.createElement('span');
+      el.id='textResizeControl';
+      el.innerHTML='&nbsp;';
+      el.style.position="absolute";
+      el.style.left="-9999px";
+      var elC = document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID);
+      // insert before firstChild
+      if (elC)
+        elC.insertBefore(el,elC.firstChild);
+      iBase = iCurrSize = TextResizeDetector.getSize();
+    };
+
+    function _stopDetector() {
+      window.clearInterval(iInterval);
+      iInterval=null;
+    };
+    function _startDetector() {
+      if (!iInterval) {
+        iInterval = window.setInterval('TextResizeDetector.detect()',
+                                       iIntervalDelay);
+      }
+    };
+ 	
+    function _detect() {
+      var iNewSize = TextResizeDetector.getSize();
+  		
+      if(iNewSize!== iCurrSize) {
+        for (var i=0;i <aListeners.length;i++) {
+          aListnr = aListeners[i];
+          var oArgs = {  iBase: iBase,iDelta:((iCurrSize!=-1) ? iNewSize - iCurrSize + 'px' : "0px"),iSize:iCurrSize = iNewSize};
+          if (!aListnr.obj) {
+            aListnr.fn('textSizeChanged',[oArgs]);
+  	  }
+          else  {
+  	    aListnr.fn.apply(aListnr.obj,['textSizeChanged',[oArgs]]);
+  	  }
+        }
+      }
+      return iCurrSize;
+    };
+
+    var onAvailable = function() {
+      if (!TextResizeDetector.onAvailableCount_i ) {
+        TextResizeDetector.onAvailableCount_i =0;
+      }
+      if (document.getElementById(TextResizeDetector.TARGET_ELEMENT_ID)) {
+        TextResizeDetector.init();
+        if (TextResizeDetector.USER_INIT_FUNC){
+          TextResizeDetector.USER_INIT_FUNC();
+        }
+        TextResizeDetector.onAvailableCount_i = null;
+      }
+      else {
+        if (TextResizeDetector.onAvailableCount_i<600) {
+          TextResizeDetector.onAvailableCount_i++;
+  	setTimeout(onAvailable,200)
+        }
+      }
+    };
+    setTimeout(onAvailable,500);
+
+    return {
+      /*
+       * Initializes the detector
+       * 
+       * @param {String} sId The id of the element in which to 
+       *   create the control element
+       */
+       init: function() {
+         createControlElement();		
+         _startDetector();
+       },
+       /**
+        * Adds listeners to the ontextsizechange event. 
+        * Returns the base font size
+        * 
+        */
+        addEventListener:function(fn,obj,bScope) {
+          aListeners[aListeners.length] = {
+            fn: fn,
+            obj: obj
+          }
+          return iBase;
+        },
+       /**
+        * performs the detection and fires textSizeChanged event
+        * @return the current font size
+        * @type {integer}
+        */
+        detect:function() {
+          return _detect();
+        },
+       /**
+        * Returns the height of the control element
+        * 
+        * @return the current height of control element
+        * @type {integer}
+        */
+        getSize:function() {
+          var iSize;
+          return el.offsetHeight;
+  		 		
+        },
+       /**
+        * Stops the detector
+        */
+        stopDetector:function() {
+          return _stopDetector();
+        },
+       /*
+        * Starts the detector
+        */
+        startDetector:function() {
+          return _startDetector();
+        }
+      }
+  }();
+  
+  TextResizeDetector.TARGET_ELEMENT_ID = 'doc';
+  TextResizeDetector.USER_INIT_FUNC = null;
+
+  // Setup the font-resize listener
+  function init()  
+  {
+     var iBase = TextResizeDetector.addEventListener(onFontResize,null);
+  }
+
+  function onFontResize(e,args) 
+  {
+     adjustRepeatTableWidth();
+  }
+
+  //id of element to check for and insert control
+  TextResizeDetector.TARGET_ELEMENT_ID = 'repeatTable';
+
+  //function to call once TextResizeDetector has init'd
+  TextResizeDetector.USER_INIT_FUNC = init;
+
+
+
+
+  /**
+   ** Our code to handle page specific elements
+   **/
+
+  // Setup the table expansion/collapse handler
+  function toggleDiv(divid){
+    if(document.getElementById(divid).style.display == 'none'){
+      document.getElementById(divid).style.display = 'block';
+    }else{
+      document.getElementById(divid).style.display = 'none';
+    }
+  }
+
+  // Setup the table resize method
+  function adjustRepeatTableWidth() 
+  {
+    var numInsertionLevels = 3;
+    var pixelPaddingPerLevel = 10;
+    var objColHeaderText = document.getElementById("colHeaderText");
+
+    if ( objColHeaderText != null ) 
+    {
+      var newWidth = objColHeaderText.offsetWidth + 
+                     ( pixelPaddingPerLevel * (numInsertionLevels - 1) ) + 30; 
+      document.getElementById("repeatTable").style.width = newWidth + "px";
+    }
+  }
+  
+  function toggleAllHsps() 
+  {
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      toggleDiv( 'hsps'+idx );
+      idx++;
+    }
+    return false;
+  }
+
+  function openAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'block';
+      idx++;
+    }
+    return false;
+  }
+
+  function closeAllHsps(){
+    var idx = 1;
+    while( document.getElementById('hsps'+idx) != null ) {
+      document.getElementById('hsps'+idx).style.display = 'none';
+      idx++;
+    }
+    return false;
+  }
+
+</script>
+
+
+
+<body onload="adjustRepeatTableWidth()">
+
+<a href="javascript:;" onmousedown="closeAllHsps();">[ close all hsps ]</a>
+<a href="javascript:;" onmousedown="openAllHsps();">[ open all hsps ]</a>
+<div id="repeatTable" style="padding-right: 30px;">
+<div class="header" id="colHeaderContainer" style="background-color: #bcc3c8; border-bottom: 2px solid; margin-bottom: 5px;">
+<pre><b id="colHeaderText">
+                                   ----position in query----                                 -position in repeat-
+        <span title="Percent divergence.">  %  </span> <span title="Percent deletion."> %  </span> <span title="Percent insertion."> %  </span>  <span title="Query sequence name/id.">query   </span>                            <span title="Orientation of the repeat c=minus +=plus.">C</span> <span title="Name/ID of repeat.">matching      </span> <span title="Repeat class and family.">repeat        </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">linkage</span>
+<span title="Click on this link to expand/collapse individual annotation details."><u>+</u></span> <span title="Complexity adjusted Smith Waterman score.">score</span> <span title="Percent divergence."> div.</span> <span title="Percent deletion.">del.</span> <span title="Percent insertion.">ins.</span>  <span title="Query sequence name/id.">sequence</span>  <span title="Start of annotation in sequence.  The first base is numbered 1."> begin </span> <span title="End of annotation in sequence.  The first base is numbered 1.">  end  </span> <span title="The number of bases remaining in sequence."> (left)  </span> <span title="Orientation of the repeat c=minus +=plus.">+</span> <span title="Name/ID of repeat.">repeat        </span> <span title="Repeat class and family.">class/family  </span> <span title="Start position or remaining bases in repeat consensus.">begin </span> <span title="End position in repeat consensus."> end  </span> <span title="Start position or remaining bases in repeat consensus.">(left)</span> <span title="Linked repeats are denoted with duplicate IDs and connecting graphic bars.">id/graphic</span></b>
+</pre>
+</div>
+<div class="annotSet">
+<pre> <b>   15   27.1  0.0  0.0  unitig_0     2709    2752 (2592757) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTC)n'>(TTC)n        </a> Simple_repeat       1     44    (0)   1  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   14   13.9  3.1  0.0  unitig_0    26708   26739 (2568770) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     33    (0)   2  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   20.4  3.6  5.5  unitig_0    49279   49334 (2546175) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTCATC)n'>(TTCATC)n     </a> Simple_repeat       1     55    (0)   3  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   11   20.2  2.9  0.0  unitig_0    84422   84455 (2511054) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTCTAT)n'>(TTCTAT)n     </a> Simple_repeat       1     35    (0)   4  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   30.2  0.0  3.5  unitig_0    85894   85953 (2509556) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     58    (0)   5  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   15.5  4.1  6.2  unitig_0    88605   88653 (2506856) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TAATTAA)n'>(TAATTAA)n    </a> Simple_repeat       1     48    (0)   6  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  194   22.9  2.7  6.9  unitig_0    88703   88777 (2506732) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=L3'>L3            </a> LINE/CR1         1461   1532 (2567)   7  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   18.8  2.6  2.6  unitig_0    89652   89689 (2505820) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AATATCA)n'>(AATATCA)n    </a> Simple_repeat       1     38    (0)   8  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  183   30.2  3.2  0.0  unitig_0   122425  122487 (2473022) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB    2161   2225 (1587)   9  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   12.2  8.3  0.0  unitig_0   161671  161706 (2433803) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CCTTTTT)n'>(CCTTTTT)n    </a> Simple_repeat       1     39    (0)  10  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   15   16.6 10.6  0.0  unitig_0   179680  179726 (2415783) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TA)n'>(TA)n         </a> Simple_repeat       1     52    (0)  11  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   14.1  5.1  0.0  unitig_0   186929  186967 (2408542) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CTCAT)n'>(CTCAT)n      </a> Simple_repeat       1     41    (0)  12  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  396   20.3  0.0  0.0  unitig_0   199088  199161 (2396348) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Tyr-TAC'>tRNA-Tyr-TAC  </a> tRNA              (0)     76      3  13  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  189   32.1  0.0  0.0  unitig_0   214371  214426 (2381083) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=L3'>L3            </a> LINE/CR1        (900)   3199   3144  14  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  202   27.9  7.4  2.0  unitig_0   222099  222193 (2373316) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB  (2788)   1024    925  15  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   11   11.2  6.9  0.0  unitig_0   246606  246634 (2348875) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTATA)n'>(TTTATA)n     </a> Simple_repeat       1     31    (0)  16  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  180   18.2  0.0  3.0  unitig_0   287198  287231 (2308278) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=OldhAT1'>OldhAT1       </a> DNA/hAT-Ac      (244)   2604   2572  17  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   14   17.9  0.0  0.0  unitig_0   293187  293218 (2302291) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATAATG)n'>(ATAATG)n     </a> Simple_repeat       1     32    (0)  18  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   19.2  0.0  0.0  unitig_0   315896  315925 (2279584) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CCAAG)n'>(CCAAG)n      </a> Simple_repeat       1     30    (0)  19  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  184    7.1  7.1  0.0  unitig_0   327010  327037 (2268472) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB     322    351 (3461)  20  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  195   10.8  0.0  5.4  unitig_0   327232  327270 (2268239) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=Penelope1_Vert'>Penelope1_Vert</a> LINE/Penelope   (240)    847    811  21  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   16.9  0.0  5.7  unitig_0   334575  334611 (2260898) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATT)n'>(ATT)n        </a> Simple_repeat       1     35    (0)  22  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   28.8  0.0  0.0  unitig_0   342494  342535 (2252974) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTAT)n'>(TTTAT)n      </a> Simple_repeat       1     42    (0)  23  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  231   24.0  1.4  4.2  unitig_0   378822  378895 (2216614) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB    1877   1948 (1864)  24  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   21.6  2.5  2.5  unitig_0   402109  402148 (2193361) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTTA)n'>(TTTTA)n      </a> Simple_repeat       1     40    (0)  25  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   28.9  4.6  1.5  unitig_0   513962  514026 (2081483) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TCT)n'>(TCT)n        </a> Simple_repeat       1     67    (0)  26  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  273   35.4  3.4  0.0  unitig_0   540918  541123 (2054386) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (159)   1710   1498  27  </b></pre>
+<div class="bluediv"><pre> <b>  464   30.4  1.3  3.1  unitig_0   541211  541441 (2054068) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (477)   1392   1166  27  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   16   20.2  2.1  2.1  unitig_0   558127  558173 (2037336) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTTCT)n'>(TTTTCT)n     </a> Simple_repeat       1     47    (0)  28  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   10.1  2.9  2.9  unitig_0   558560  558593 (2036916) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CTT)n'>(CTT)n        </a> Simple_repeat       1     34    (0)  29  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  299   17.5  0.0  0.0  unitig_0   604772  604832 (1990677) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Arg-CGA'>tRNA-Arg-CGA  </a> tRNA              (0)     76     16  30  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  737   29.6  4.2  4.4  unitig_0   605201  605585 (1989924) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA            (516)   4519   4136  31  </b></pre></div>
+<pre> <b>  314   32.7  2.8  8.2  unitig_0   605716  606035 (1989474) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (1120)   3915   3612  31  </b></pre>
+<div class="bluediv"><pre> <b>  235   32.1  3.0  2.4  unitig_0   606952  607120 (1988389) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (3362)   1673   1504  31  </b></pre></div>
+<pre> <b>  375   25.2  0.0  0.0  unitig_0   607273  607371 (1988138) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4620)    415    317  31  </b></pre>
+<div class="bluediv"><pre> <b>  296   24.4  0.0  0.0  unitig_0   607567  607648 (1987861) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4922)    113     32  31  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  319   33.7  3.9  0.5  unitig_0   608322  608527 (1986982) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (159)   1710   1498  32  </b></pre>
+<div class="bluediv"><pre> <b>  501   29.9  1.3  3.1  unitig_0   608615  608845 (1986664) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (477)   1392   1166  32  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12    8.9  4.2  0.0  unitig_0   615638  615661 (1979848) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TATC)n'>(TATC)n       </a> Simple_repeat       1     25    (0)  33  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  226   23.6  0.0  0.0  unitig_0   664788  664842 (1930667) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Gly-GGY'>tRNA-Gly-GGY  </a> tRNA             (13)     61      7  34  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  250   29.6  0.0  0.0  unitig_0   665054  665134 (1930375) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Leu-CTA_'>tRNA-Leu-CTA_ </a> tRNA              (0)     85      5  35  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  320   17.5  0.0  0.0  unitig_0   665305  665361 (1930148) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Lys-AAA'>tRNA-Lys-AAA  </a> tRNA             (12)     64      8  36  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  226   14.5 14.5  0.0  unitig_0   665467  665528 (1929981) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Leu-CTA'>tRNA-Leu-CTA  </a> tRNA              (9)     76      6  37  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  238   20.3  3.4  0.0  unitig_0   665915  665973 (1929536) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Asn-AAC'>tRNA-Asn-AAC  </a> tRNA             (14)     63      3  38  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   14.9  3.3  0.0  unitig_0   673657  673686 (1921823) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GGATTT)n'>(GGATTT)n     </a> Simple_repeat       1     31    (0)  39  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   14   13.2  2.9  2.9  unitig_0   681069  681103 (1914406) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     35    (0)  40  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  326   17.5  0.0  0.0  unitig_0   706440  706496 (1889013) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Lys-AAA'>tRNA-Lys-AAA  </a> tRNA             (12)     64      8  41  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  248   24.7  2.7  0.0  unitig_0   706863  706935 (1888574) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Asn-AAC'>tRNA-Asn-AAC  </a> tRNA              (0)     77      3  42  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  236   23.6  0.0  0.0  unitig_0   706960  707014 (1888495) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Gly-GGY'>tRNA-Gly-GGY  </a> tRNA             (13)     61      7  43  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  326   17.5  0.0  0.0  unitig_0   707117  707173 (1888336) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Lys-AAA'>tRNA-Lys-AAA  </a> tRNA             (12)     64      8  44  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  248   24.7  2.7  0.0  unitig_0   707612  707684 (1887825) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Asn-AAC'>tRNA-Asn-AAC  </a> tRNA              (0)     77      3  45  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  745   30.6  3.1  3.4  unitig_0   708096  708480 (1887029) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA            (516)   4519   4136  46  </b></pre></div>
+<pre> <b>  327   33.8  3.1  7.9  unitig_0   708574  708930 (1886579) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (1083)   3952   3612  46  </b></pre>
+<div class="bluediv"><pre> <b>  230   32.7  3.0  2.4  unitig_0   709847  710015 (1885494) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (3362)   1673   1504  46  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  373   25.2  0.0  0.0  unitig_0   710168  710266 (1885243) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4620)    415    317  47  </b></pre>
+<div class="bluediv"><pre> <b>  290   24.4  0.0  0.0  unitig_0   710462  710543 (1884966) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4922)    113     32  47  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  207   28.6  0.0  0.0  unitig_0   710964  711019 (1884490) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamSINE1'>MamSINE1      </a> SINE/tRNA-RTE   (221)     69     14  48  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  327   35.0  3.4  0.0  unitig_0   711234  711439 (1884070) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (159)   1710   1498  49  </b></pre></div>
+<pre> <b>  514   30.4  1.3  3.1  unitig_0   711527  711757 (1883752) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (477)   1392   1166  49  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  745   30.6  3.1  3.4  unitig_0   713989  714373 (1881136) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA            (516)   4519   4136  50  </b></pre></div>
+<pre> <b>  327   33.8  3.1  7.9  unitig_0   714467  714823 (1880686) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (1083)   3952   3612  50  </b></pre>
+<div class="bluediv"><pre> <b>  240   32.1  3.0  2.4  unitig_0   715740  715908 (1879601) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (3362)   1673   1504  50  </b></pre></div>
+<pre> <b>  373   25.2  0.0  0.0  unitig_0   716061  716159 (1879350) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4620)    415    317  50  </b></pre>
+<div class="bluediv"><pre> <b>  290   24.4  0.0  0.0  unitig_0   716355  716436 (1879073) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4922)    113     32  50  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  327   35.0  3.4  0.0  unitig_0   717917  718122 (1877387) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (159)   1710   1498  51  </b></pre>
+<div class="bluediv"><pre> <b>  514   30.4  1.3  3.1  unitig_0   718210  718440 (1877069) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (477)   1392   1166  51  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  227   23.1  0.0  0.0  unitig_0   815657  815708 (1779801) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Ile-ATT'>tRNA-Ile-ATT  </a> tRNA             (18)     59      8  52  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  230   24.0  0.0  2.0  unitig_0   815739  815789 (1779720) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Met_'>tRNA-Met_     </a> tRNA             (15)     61     12  53  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  745   30.6  3.1  3.4  unitig_0   852757  853141 (1742368) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA            (516)   4519   4136  54  </b></pre>
+<div class="bluediv"><pre> <b>  327   33.8  3.1  7.9  unitig_0   853235  853591 (1741918) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (1083)   3952   3612  54  </b></pre></div>
+<pre> <b>  240   32.1  3.0  2.4  unitig_0   854508  854676 (1740833) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (3362)   1673   1504  54  </b></pre>
+<div class="bluediv"><pre> <b>  373   25.2  0.0  0.0  unitig_0   854829  854927 (1740582) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4620)    415    317  54  </b></pre></div>
+<pre> <b>  290   24.4  0.0  0.0  unitig_0   855123  855204 (1740305) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA           (4922)    113     32  54  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  207   28.6  0.0  0.0  unitig_0   855625  855680 (1739829) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamSINE1'>MamSINE1      </a> SINE/tRNA-RTE   (221)     69     14  55  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  327   35.0  3.4  0.0  unitig_0   855902  856107 (1739402) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (159)   1710   1498  56  </b></pre>
+<div class="bluediv"><pre> <b>  514   30.4  1.3  3.1  unitig_0   856195  856425 (1739084) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA            (477)   1392   1166  56  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   15   18.2  2.1  4.3  unitig_0   872870  872916 (1722593) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATTT)n'>(ATTT)n       </a> Simple_repeat       1     46    (0)  57  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   20.6  0.0  0.0  unitig_0   883473  883511 (1711998) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=G-rich'>G-rich        </a> Low_complexity      1     39    (0)  58  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   14   16.8  0.0  9.1  unitig_0   896016  896063 (1699446) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     44    (0)  59  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  237   19.9  1.1  8.5  unitig_0   897145  897232 (1698277) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Ser-AGY'>tRNA-Ser-AGY  </a> tRNA              (0)     85      4  60  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  245   25.4  0.0  6.3  unitig_0   916909  916992 (1678517) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Ser-TCA_'>tRNA-Ser-TCA_ </a> tRNA              (0)     85      7  61  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   12.6  0.0  3.7  unitig_0   921739  921766 (1673743) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=GA-rich'>GA-rich       </a> Low_complexity      1     27    (0)  62  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   16   16.6  0.0  0.0  unitig_0   924362  924388 (1671121) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     27    (0)  63  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12    9.1  4.2  0.0  unitig_0   966872  966895 (1628614) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CTT)n'>(CTT)n        </a> Simple_repeat       1     25    (0)  64  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   24.2  6.9  0.0  unitig_0  1007075 1007132 (1588377) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GAAGAT)n'>(GAAGAT)n     </a> Simple_repeat       1     62    (0)  65  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  214   24.4  1.3  7.0  unitig_0  1047375 1047449 (1548060) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=X9_LINE'>X9_LINE       </a> LINE/L1           692    762  (174)  66  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  195   35.3  0.0  0.0  unitig_0  1057133 1057200 (1538309) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=L2b'>L2b           </a> LINE/L2          (63)   3312   3245  67  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   18.8  2.6  2.6  unitig_0  1096660 1096697 (1498812) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AGACGA)n'>(AGACGA)n     </a> Simple_repeat       1     38    (0)  68  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   14    4.8  0.0  4.3  unitig_0  1102377 1102400 (1493109) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AAG)n'>(AAG)n        </a> Simple_repeat       1     23    (0)  69  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   26.0  0.0  0.0  unitig_0  1128799 1128839 (1466670) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTGGTG)n'>(TTGGTG)n     </a> Simple_repeat       1     41    (0)  70  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  181   27.4  0.0  7.3  unitig_0  1131677 1131735 (1463774) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB    2372   2426 (1386)  71  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  264   23.4  1.6  0.0  unitig_0  1157388 1157451 (1438058) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Thr-ACA'>tRNA-Thr-ACA  </a> tRNA                5     69    (7)  72  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  200   17.2  0.0  7.3  unitig_0  1160985 1161028 (1434481) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=OldhAT1'>OldhAT1       </a> DNA/hAT-Ac     (1575)   1273   1233  73  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  181   17.6  0.0  5.0  unitig_0  1170107 1170148 (1425361) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=X12_LINE'>X12_LINE      </a> LINE/I-Jockey    (74)    298    259  74  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   22   30.7  1.8  1.2  unitig_0  1170665 1170748 (1424761) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     84    (0)  75  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  187   22.9  6.2  6.2  unitig_0  1171814 1171878 (1423631) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamSINE1'>MamSINE1      </a> SINE/tRNA-RTE       8     72  (218)  76  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   12.2  3.7  0.0  unitig_0  1230498 1230524 (1364985) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTAT)n'>(TTAT)n       </a> Simple_repeat       1     28    (0)  77  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   19.6  3.9  5.9  unitig_0  1255011 1255062 (1340447) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     51    (0)  78  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  301   24.4  0.0  0.0  unitig_0  1403186 1403267 (1192242) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA               32    113 (4922)  79  </b></pre>
+<div class="bluediv"><pre> <b>  390   25.2  0.0  0.0  unitig_0  1403463 1403561 (1191948) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA              317    415 (4620)  79  </b></pre></div>
+<pre> <b>  269   32.1  3.0  2.4  unitig_0  1403714 1403882 (1191627) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             1504   1673 (3362)  79  </b></pre>
+<div class="bluediv"><pre> <b>  391   33.8  3.1  7.9  unitig_0  1404799 1405155 (1190354) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             3612   3952 (1083)  79  </b></pre></div>
+<pre> <b>  832   30.9  3.1  3.3  unitig_0  1405249 1405639 (1189870) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             4136   4525  (510)  79  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  296   18.9  0.0  0.0  unitig_0  1405991 1406063 (1189446) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Arg-CGA'>tRNA-Arg-CGA  </a> tRNA                5     76    (0)  80  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  244   23.6  0.0  0.0  unitig_0  1408154 1408208 (1187301) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Gly-GGY'>tRNA-Gly-GGY  </a> tRNA                7     61   (13)  81  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  232   22.3  0.0  1.3  unitig_0  1408394 1408470 (1187039) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Asp-GAY'>tRNA-Asp-GAY  </a> tRNA                1     77    (0)  82  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  246   14.5 14.5  0.0  unitig_0  1408489 1408550 (1186959) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Leu-CTA'>tRNA-Leu-CTA  </a> tRNA                6     76    (9)  83  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  714   34.8  5.9  1.8  unitig_0  1411807 1412330 (1183179) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA             1166   1710  (159)  84  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  230   28.0  0.0  1.3  unitig_0  1412557 1412632 (1182877) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Ala-GCA'>tRNA-Ala-GCA  </a> tRNA                1     75    (0)  85  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  301   24.4  0.0  0.0  unitig_0  1413083 1413164 (1182345) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA               32    113 (4922)  86  </b></pre></div>
+<pre> <b>  390   25.2  0.0  0.0  unitig_0  1413360 1413458 (1182051) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA              317    415 (4620)  86  </b></pre>
+<div class="bluediv"><pre> <b>  269   32.1  3.0  2.4  unitig_0  1413611 1413779 (1181730) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             1504   1673 (3362)  86  </b></pre></div>
+<pre> <b>  391   33.8  3.1  7.9  unitig_0  1414696 1415052 (1180457) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             3612   3952 (1083)  86  </b></pre>
+<div class="bluediv"><pre> <b>  832   30.9  3.1  3.3  unitig_0  1415146 1415536 (1179973) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             4136   4525  (510)  86  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  379   21.9  0.0  0.0  unitig_0  1416388 1416460 (1179049) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Tyr-TAC'>tRNA-Tyr-TAC  </a> tRNA                4     76    (0)  87  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  299   26.1  0.0  0.0  unitig_0  1416471 1416539 (1178970) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Lys-AAA'>tRNA-Lys-AAA  </a> tRNA                8     76    (0)  88  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  225   22.8  6.8  5.3  unitig_0  1417101 1417174 (1178335) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Cys-TGY'>tRNA-Cys-TGY  </a> tRNA                1     75    (0)  89  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  296   18.9  0.0  0.0  unitig_0  1417283 1417355 (1178154) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Arg-CGA'>tRNA-Arg-CGA  </a> tRNA                5     76    (0)  90  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   17   17.3  0.0  6.2  unitig_0  1427304 1427354 (1168155) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     48    (0)  91  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   24.5  0.0  2.5  unitig_0  1443308 1443348 (1152161) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GTGGCG)n'>(GTGGCG)n     </a> Simple_repeat       1     40    (0)  92  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   11   24.0  2.6  0.0  unitig_0  1453975 1454013 (1141496) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ACAATAC)n'>(ACAATAC)n    </a> Simple_repeat       1     40    (0)  93  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   18.8  2.6  2.6  unitig_0  1484366 1484403 (1111106) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GACGAA)n'>(GACGAA)n     </a> Simple_repeat       1     38    (0)  94  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  183   24.3  4.7  9.8  unitig_0  1563398 1563461 (1032048) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=OldhAT1'>OldhAT1       </a> DNA/hAT-Ac     (1909)    939    879  95  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   17    4.3  0.0  0.0  unitig_0  1573154 1573177 (1022332) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTG)n'>(TTG)n        </a> Simple_repeat       1     24    (0)  96  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   16.4  5.9  0.0  unitig_0  1639583 1639616  (955893) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AATAA)n'>(AATAA)n      </a> Simple_repeat       1     36    (0)  97  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12    5.6  0.0  0.0  unitig_0  1639814 1639832  (955677) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GAA)n'>(GAA)n        </a> Simple_repeat       1     19    (0)  98  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   12.0  3.7  0.0  unitig_0  1680900 1680926  (914583) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     28    (0)  99  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   13.8  1.7  1.7  unitig_0  1694957 1694988  (900521) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     32    (0) 100  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   18.1  2.9 10.9  unitig_0  1729519 1729587  (865922) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     64    (0) 101  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  183   19.5  0.0  2.8  unitig_0  1745868 1745904  (849605) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=L3b'>L3b           </a> LINE/CR1         5053   5088  (144) 102  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  268   23.4  0.2  0.0  unitig_0  1754372 1754436  (841073) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Gly-GGG'>tRNA-Gly-GGG  </a> tRNA                3     68    (7) 103  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  229   15.8 17.5  0.0  unitig_0  1762242 1762298  (833211) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=tRNA-Ser-TCA_'>tRNA-Ser-TCA_ </a> tRNA             (11)     74      8 104  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   11   15.4  8.9  2.1  unitig_0  1765153 1765197  (830312) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AAGTGA)n'>(AAGTGA)n     </a> Simple_repeat       1     48    (0) 105  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   16.9  2.9  2.9  unitig_0  1773802 1773836  (821673) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AAC)n'>(AAC)n        </a> Simple_repeat       1     35    (0) 106  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>  242   11.7  9.4  6.1  unitig_0  1777346 1777409  (818100) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamSINE1'>MamSINE1      </a> SINE/tRNA-RTE      14     79  (211) 107  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   19.9  2.9  0.0  unitig_0  1795532 1795566  (799943) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AT)n'>(AT)n         </a> Simple_repeat       1     36    (0) 108  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   20.3  0.0  7.1  unitig_0  1823548 1823592  (771917) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTTTG)n'>(TTTTTG)n     </a> Simple_repeat       1     42    (0) 109  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   17.8  5.3  0.0  unitig_0  1836455 1836492  (759017) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     40    (0) 110  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   18.9  2.8  0.0  unitig_0  1849209 1849244  (746265) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TGAAGG)n'>(TGAAGG)n     </a> Simple_repeat       1     37    (0) 111  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   15   20.1  0.0  0.0  unitig_0  1854849 1854882  (740627) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GTG)n'>(GTG)n        </a> Simple_repeat       1     34    (0) 112  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   21.8  0.0  6.7  unitig_0  1888191 1888238  (707271) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CGGTGG)n'>(CGGTGG)n     </a> Simple_repeat       1     45    (0) 113  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   25   10.1  1.6  8.5  unitig_0  1937646 1937708  (657801) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GAT)n'>(GAT)n        </a> Simple_repeat       1     59    (0) 114  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   11   13.6  2.8  5.7  unitig_0  1955869 1955904  (639605) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATCCGG)n'>(ATCCGG)n     </a> Simple_repeat       1     35    (0) 115  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13    9.6  5.3  5.3  unitig_0  1957586 1957623  (637886) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AAGTGA)n'>(AAGTGA)n     </a> Simple_repeat       1     38    (0) 116  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   14   15.8  7.1  0.0  unitig_0  1960342 1960383  (635126) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATGCCG)n'>(ATGCCG)n     </a> Simple_repeat       1     45    (0) 117  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  280   24.4  0.0  0.0  unitig_0  1982302 1982383  (613126) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA               32    113 (4922) 118  </b></pre></div>
+<pre> <b>  359   25.2  0.0  0.0  unitig_0  1982579 1982677  (612832) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA              317    415 (4620) 118  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  283   28.5  2.4 10.2  unitig_0  1983915 1984125  (611384) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             3612   3807 (1228) 119  </b></pre></div>
+<pre> <b>  664   30.6  3.1  3.4  unitig_0  1984365 1984749  (610760) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=LSU-rRNA_Hsa'>LSU-rRNA_Hsa  </a> rRNA             4136   4519  (516) 119  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  464   30.4  1.3  3.1  unitig_0  2003820 2004050  (591459) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA             1166   1392  (477) 120  </b></pre></div>
+<pre> <b>  273   35.4  3.4  0.0  unitig_0  2004138 2004343  (591166) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=SSU-rRNA_Hsa'>SSU-rRNA_Hsa  </a> rRNA             1498   1710  (159) 120  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   17.0  5.0  0.0  unitig_0  2004710 2004749  (590760) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=GA-rich'>GA-rich       </a> Low_complexity      1     42    (0) 121  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   15   31.1  0.0  0.0  unitig_0  2011291 2011345  (584164) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GAAGAT)n'>(GAAGAT)n     </a> Simple_repeat       1     55    (0) 122  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   20   28.8  0.0  0.0  unitig_0  2031722 2031784  (563725) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=G-rich'>G-rich        </a> Low_complexity      1     63    (0) 123  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   15.4  0.0  3.3  unitig_0  2033780 2033810  (561699) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATATT)n'>(ATATT)n      </a> Simple_repeat       1     30    (0) 124  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   20.3  6.7  0.0  unitig_0  2071737 2071781  (523728) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GGAACC)n'>(GGAACC)n     </a> Simple_repeat       1     48    (0) 125  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   22.1  0.0  0.0  unitig_0  2111831 2111862  (483647) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     32    (0) 126  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  202   16.6 12.5  3.3  unitig_0  2156058 2156113  (439396) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MamRTE1'>MamRTE1       </a> LINE/RTE-BovB  (1061)   2751   2691 127  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   25.3  2.4  0.0  unitig_0  2181376 2181417  (414092) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTATAA)n'>(TTATAA)n     </a> Simple_repeat       1     43    (0) 128  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   30.3  0.0  3.7  unitig_0  2184538 2184593  (410916) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=GA-rich'>GA-rich       </a> Low_complexity      1     54    (0) 129  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   17   22.0  3.8  0.0  unitig_0  2188314 2188366  (407143) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     55    (0) 130  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   14   19.4  2.3  2.3  unitig_0  2190634 2190676  (404833) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GATGAA)n'>(GATGAA)n     </a> Simple_repeat       1     43    (0) 131  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   16   19.2  0.0  0.0  unitig_0  2191273 2191308  (404201) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATAA)n'>(ATAA)n       </a> Simple_repeat       1     36    (0) 132  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12   14.9  3.7  9.8  unitig_0  2194951 2195004  (400505) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ACAA)n'>(ACAA)n       </a> Simple_repeat       1     51    (0) 133  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   14    7.3  6.9  0.0  unitig_0  2210910 2210938  (384571) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTTTAA)n'>(TTTTAA)n     </a> Simple_repeat       1     31    (0) 134  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   15   25.9  3.1  3.1  unitig_0  2221795 2221858  (373651) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TAA)n'>(TAA)n        </a> Simple_repeat       1     64    (0) 135  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   20.4  4.3  2.1  unitig_0  2239359 2239405  (356104) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AATTAT)n'>(AATTAT)n     </a> Simple_repeat       1     48    (0) 136  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   14   14.1  7.7  0.0  unitig_0  2259098 2259136  (336373) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     42    (0) 137  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   16    3.2  5.6  5.6  unitig_0  2277171 2277206  (318303) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(GGAACCC)n'>(GGAACCC)n    </a> Simple_repeat       1     36    (0) 138  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>  190   22.9  9.5  3.0  unitig_0  2301984 2302046  (293463) C <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=L3'>L3            </a> LINE/CR1       (1432)   2667   2601 139  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   17   10.8  7.5  0.0  unitig_0  2315762 2315801  (279708) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATATA)n'>(ATATA)n      </a> Simple_repeat       1     43    (0) 140  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   21.9  1.9  5.9  unitig_0  2342734 2342786  (252723) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TCAGC)n'>(TCAGC)n      </a> Simple_repeat       1     51    (0) 141  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   15    0.0  3.9  3.9  unitig_0  2376709 2376734  (218775) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(ATCGG)n'>(ATCGG)n      </a> Simple_repeat       1     26    (0) 142  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13    4.0  7.7  0.0  unitig_0  2396805 2396830  (198679) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CATCA)n'>(CATCA)n      </a> Simple_repeat       1     28    (0) 143  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   13   14.4  2.3  7.1  unitig_0  2433045 2433088  (162421) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CTCCAACA)n'>(CTCCAACA)n   </a> Simple_repeat       1     42    (0) 144  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   16   11.0  4.7  4.7  unitig_0  2435460 2435512  (159997) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(AACAA)n'>(AACAA)n      </a> Simple_repeat       1     53    (0) 145  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   12   19.4  0.0  5.4  unitig_0  2437885 2437923  (157586) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=A-rich'>A-rich        </a> Low_complexity      1     37    (0) 146  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   13   12.4  8.6  0.0  unitig_0  2524522 2524556   (70953) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTC)n'>(TTC)n        </a> Simple_repeat       1     38    (0) 147  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   17   12.0  2.6  2.6  unitig_0  2543995 2544032   (51477) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CTCCGC)n'>(CTCCGC)n     </a> Simple_repeat       1     38    (0) 148  </b></pre>
+</div>
+<div class="annotSet">
+<div class="bluediv"><pre> <b>   12    5.0  0.0  4.5  unitig_0  2574612 2574634   (20875) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(CAAA)n'>(CAAA)n       </a> Simple_repeat       1     22    (0) 149  </b></pre></div>
+</div>
+<div class="annotSet">
+<pre> <b>   15   27.1  0.0  0.0  unitig_0  2589828 2589871    (5638) + <a class='nound' href='http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=(TTC)n'>(TTC)n        </a> Simple_repeat       1     44    (0) 150  </b></pre>
+</div>

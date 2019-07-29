@@ -1,0 +1,1496 @@
+Thermoactinomyces_sp.CDF_000002	K03544: clpX, CLPX;ATP-dependent Clp protease ATP-binding subunit ClpX
+Thermoactinomyces_sp.CDF_000003	K01358: clpP, CLPP;ATP-dependent Clp protease, protease subunit
+Thermoactinomyces_sp.CDF_000004	K03545: tig;trigger factor
+Thermoactinomyces_sp.CDF_000005	K00459: ncd2, npd;nitronate monooxygenase
+Thermoactinomyces_sp.CDF_000007	K03688: ubiB, aarF;ubiquinone biosynthesis protein
+Thermoactinomyces_sp.CDF_000008	K00526: E1.17.4.1B, nrdB, nrdF;ribonucleoside-diphosphate reductase beta chain
+Thermoactinomyces_sp.CDF_000012	K00666: K00666;fatty-acyl-CoA synthase
+Thermoactinomyces_sp.CDF_000016	K15553: ssuA;sulfonate transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000017	K04091: ssuD;alkanesulfonate monooxygenase
+Thermoactinomyces_sp.CDF_000018	K15554: ssuC;sulfonate transport system permease protein
+Thermoactinomyces_sp.CDF_000019	K15555: ssuB;sulfonate transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000023	K07659: ompR;two-component system, OmpR family, phosphate regulon response regulator OmpR
+Thermoactinomyces_sp.CDF_000037	K21494: yxxD;antitoxin YxxD
+Thermoactinomyces_sp.CDF_000041	K07095: K07095;uncharacterized protein
+Thermoactinomyces_sp.CDF_000042	K02428: rdgB;XTP/dITP diphosphohydrolase
+Thermoactinomyces_sp.CDF_000043	K00989: rph;ribonuclease PH
+Thermoactinomyces_sp.CDF_000044	K06298: gerM;germination protein M
+Thermoactinomyces_sp.CDF_000045	K01776: murI;glutamate racemase
+Thermoactinomyces_sp.CDF_000047	K00797: speE, SRM;spermidine synthase
+Thermoactinomyces_sp.CDF_000050	K01823: idi, IDI;isopentenyl-diphosphate Delta-isomerase
+Thermoactinomyces_sp.CDF_000056	K00573: E2.1.1.77, pcm;protein-L-isoaspartate(D-aspartate) O-methyltransferase
+Thermoactinomyces_sp.CDF_000059	K02553: rraA, menG;regulator of ribonuclease activity A
+Thermoactinomyces_sp.CDF_000060	K04565: SOD1;superoxide dismutase, Cu-Zn family
+Thermoactinomyces_sp.CDF_000062	K00878: thiM;hydroxyethylthiazole kinase
+Thermoactinomyces_sp.CDF_000066	K06714: rocR;arginine utilization regulatory protein
+Thermoactinomyces_sp.CDF_000067	K00819: rocD, OAT;ornithine--oxo-acid transaminase
+Thermoactinomyces_sp.CDF_000069	K06446: DCAA;acyl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_000070	K16173: acd;glutaryl-CoA dehydrogenase (non-decarboxylating)
+Thermoactinomyces_sp.CDF_000071	K01897: ACSL, fadD;long-chain acyl-CoA synthetase
+Thermoactinomyces_sp.CDF_000072	K02614: paaI;acyl-CoA thioesterase
+Thermoactinomyces_sp.CDF_000073	K00059: fabG;3-oxoacyl-[acyl-carrier protein] reductase
+Thermoactinomyces_sp.CDF_000076	K00249: ACADM, acd;acyl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_000085	K01040: gctB;glutaconate CoA-transferase, subunit B
+Thermoactinomyces_sp.CDF_000086	K01039: gctA;glutaconate CoA-transferase, subunit A
+Thermoactinomyces_sp.CDF_000087	K17462: yrrT;putative AdoMet-dependent methyltransferase
+Thermoactinomyces_sp.CDF_000089	K09935: K09935;uncharacterized protein
+Thermoactinomyces_sp.CDF_000090	K01462: PDF, def;peptide deformylase
+Thermoactinomyces_sp.CDF_000091	K19142: cmr6;CRISPR-associated protein Cmr6
+Thermoactinomyces_sp.CDF_000096	K03790: rimJ;ribosomal-protein-alanine N-acetyltransferase
+Thermoactinomyces_sp.CDF_000097	K07559: kptA;putative RNA 2'-phosphotransferase
+Thermoactinomyces_sp.CDF_000098	K07451: mcrA;5-methylcytosine-specific restriction enzyme A
+Thermoactinomyces_sp.CDF_000100	K00874: kdgK;2-dehydro-3-deoxygluconokinase
+Thermoactinomyces_sp.CDF_000101	K01625: eda;2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase
+Thermoactinomyces_sp.CDF_000102	K01684: dgoD;galactonate dehydratase
+Thermoactinomyces_sp.CDF_000103	K08194: dgoT;MFS transporter, ACS family, D-galactonate transporter
+Thermoactinomyces_sp.CDF_000104	K01007: pps, ppsA;pyruvate, water dikinase
+Thermoactinomyces_sp.CDF_000119	K02232: cobQ, cbiP;adenosylcobyric acid synthase
+Thermoactinomyces_sp.CDF_000121	K08139: HXT;MFS transporter, SP family, sugar:H+ symporter
+Thermoactinomyces_sp.CDF_000122	K01804: araA;L-arabinose isomerase
+Thermoactinomyces_sp.CDF_000123	K03077: araD, ulaF, sgaE, sgbE;L-ribulose-5-phosphate 4-epimerase
+Thermoactinomyces_sp.CDF_000124	K02103: araR;GntR family transcriptional regulator, arabinose operon transcriptional repressor
+Thermoactinomyces_sp.CDF_000125	K02224: cobB-cbiA;cobyrinic acid a,c-diamide synthase
+Thermoactinomyces_sp.CDF_000126	K01881: PARS, proS;prolyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000130	K05982: E3.1.21.7, nfi;deoxyribonuclease V
+Thermoactinomyces_sp.CDF_000132	K13075: ahlD, aiiA, attM, blcC;N-acyl homoserine lactone hydrolase
+Thermoactinomyces_sp.CDF_000133	K00121: frmA, ADH5, adhC;S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase
+Thermoactinomyces_sp.CDF_000134	K00135: gabD;succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_000135	K01994: gerE;LuxR family transcriptional regulator, transcriptional regulator of spore coat protein
+Thermoactinomyces_sp.CDF_000141	K01676: E4.2.1.2A, fumA, fumB;fumarate hydratase, class I
+Thermoactinomyces_sp.CDF_000143	K00240: sdhB, frdB;succinate dehydrogenase / fumarate reductase, iron-sulfur subunit
+Thermoactinomyces_sp.CDF_000144	K00239: sdhA, frdA;succinate dehydrogenase / fumarate reductase, flavoprotein subunit
+Thermoactinomyces_sp.CDF_000145	K00241: sdhC, frdC;succinate dehydrogenase / fumarate reductase, cytochrome b subunit
+Thermoactinomyces_sp.CDF_000146	K00641: metX;homoserine O-acetyltransferase
+Thermoactinomyces_sp.CDF_000147	K15583: oppD;oligopeptide transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000148	K15582: oppC;oligopeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000149	K15581: oppB;oligopeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000150	K00928: lysC;aspartate kinase
+Thermoactinomyces_sp.CDF_000152	K10210: crtP;diapolycopene oxygenase
+Thermoactinomyces_sp.CDF_000155	K03703: uvrC;excinuclease ABC subunit C
+Thermoactinomyces_sp.CDF_000157	K03671: trxA;thioredoxin 1
+Thermoactinomyces_sp.CDF_000158	K03522: fixB, etfA;electron transfer flavoprotein alpha subunit
+Thermoactinomyces_sp.CDF_000159	K03521: fixA, etfB;electron transfer flavoprotein beta subunit
+Thermoactinomyces_sp.CDF_000160	K13770: ysiA, fadR;TetR/AcrR family transcriptional regulator, fatty acid metabolism regulator protein
+Thermoactinomyces_sp.CDF_000161	K01897: ACSL, fadD;long-chain acyl-CoA synthetase
+Thermoactinomyces_sp.CDF_000162	K06408: spoVAF;stage V sporulation protein AF
+Thermoactinomyces_sp.CDF_000168	K01342: aprE;subtilisin
+Thermoactinomyces_sp.CDF_000169	K07456: mutS2;DNA mismatch repair protein MutS2
+Thermoactinomyces_sp.CDF_000170	K01449: cwlJ, sleB;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_000171	K02347: polX, dpx;DNA polymerase (family X)
+Thermoactinomyces_sp.CDF_000173	K09888: zapA;cell division protein ZapA
+Thermoactinomyces_sp.CDF_000174	K01890: FARSB, pheT;phenylalanyl-tRNA synthetase beta chain
+Thermoactinomyces_sp.CDF_000175	K01889: FARSA, pheS;phenylalanyl-tRNA synthetase alpha chain
+Thermoactinomyces_sp.CDF_000177	K03437: spoU;RNA methyltransferase, TrmH family
+Thermoactinomyces_sp.CDF_000178	K03499: trkA, ktrA;trk system potassium uptake protein
+Thermoactinomyces_sp.CDF_000179	K06426: sspI;small acid-soluble spore protein I (minor)
+Thermoactinomyces_sp.CDF_000181	K03611: dsbB;disulfide bond formation protein DsbB
+Thermoactinomyces_sp.CDF_000183	K00941: thiD;hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+Thermoactinomyces_sp.CDF_000184	K00788: thiE;thiamine-phosphate pyrophosphorylase
+Thermoactinomyces_sp.CDF_000188	K00052: leuB, IMDH;3-isopropylmalate dehydrogenase
+Thermoactinomyces_sp.CDF_000189	K01649: leuA, IMS;2-isopropylmalate synthase
+Thermoactinomyces_sp.CDF_000190	K00053: ilvC;ketol-acid reductoisomerase
+Thermoactinomyces_sp.CDF_000191	K01653: E2.2.1.6S, ilvH, ilvN;acetolactate synthase I/III small subunit
+Thermoactinomyces_sp.CDF_000192	K01652: E2.2.1.6L, ilvB, ilvG, ilvI;acetolactate synthase I/II/III large subunit
+Thermoactinomyces_sp.CDF_000193	K01687: ilvD;dihydroxy-acid dehydratase
+Thermoactinomyces_sp.CDF_000195	K02887: RP-L20, MRPL20, rplT;large subunit ribosomal protein L20
+Thermoactinomyces_sp.CDF_000197	K02520: infC, MTIF3;translation initiation factor IF-3
+Thermoactinomyces_sp.CDF_000198	K08976: K08976;putative membrane protein
+Thermoactinomyces_sp.CDF_000199	K01868: TARS, thrS;threonyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000201	K07038: K07038;inner membrane protein
+Thermoactinomyces_sp.CDF_000202	K11784: mqnC;cyclic dehypoxanthinyl futalosine synthase
+Thermoactinomyces_sp.CDF_000204	K03346: dnaB;replication initiation and membrane attachment protein
+Thermoactinomyces_sp.CDF_000205	K07738: nrdR;transcriptional repressor NrdR
+Thermoactinomyces_sp.CDF_000206	K00432: gpx;glutathione peroxidase
+Thermoactinomyces_sp.CDF_000207	K00134: GAPDH, gapA;glyceraldehyde 3-phosphate dehydrogenase
+Thermoactinomyces_sp.CDF_000208	K08309: slt;soluble lytic murein transglycosylase
+Thermoactinomyces_sp.CDF_000209	K00859: coaE;dephospho-CoA kinase
+Thermoactinomyces_sp.CDF_000211	K10563: mutM, fpg;formamidopyrimidine-DNA glycosylase
+Thermoactinomyces_sp.CDF_000212	K02335: polA;DNA polymerase I
+Thermoactinomyces_sp.CDF_000214	K02529: lacI, galR;LacI family transcriptional regulator
+Thermoactinomyces_sp.CDF_000215	K00078: DHDH;dihydrodiol dehydrogenase / D-xylose 1-dehydrogenase (NADP)
+Thermoactinomyces_sp.CDF_000216	K03335: iolE;inosose dehydratase
+Thermoactinomyces_sp.CDF_000217	K03336: iolD;3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing)
+Thermoactinomyces_sp.CDF_000218	K00140: mmsA, iolA, ALDH6A1;malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_000219	K03338: iolC;5-dehydro-2-deoxygluconokinase
+Thermoactinomyces_sp.CDF_000220	K03337: iolB;5-deoxy-glucuronate isomerase
+Thermoactinomyces_sp.CDF_000221	K00010: iolG;myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase
+Thermoactinomyces_sp.CDF_000222	K03307: TC.SSS;solute:Na+ symporter, SSS family
+Thermoactinomyces_sp.CDF_000230	K02036: pstB;phosphate transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000231	K02036: pstB;phosphate transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000232	K02038: pstA;phosphate transport system permease protein
+Thermoactinomyces_sp.CDF_000233	K02037: pstC;phosphate transport system permease protein
+Thermoactinomyces_sp.CDF_000234	K02040: pstS;phosphate transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000235	K07636: phoR;two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR
+Thermoactinomyces_sp.CDF_000236	K07658: phoB1, phoP;two-component system, OmpR family, alkaline phosphatase synthesis response regulator PhoP
+Thermoactinomyces_sp.CDF_000238	K00024: mdh;malate dehydrogenase
+Thermoactinomyces_sp.CDF_000239	K00031: IDH1, IDH2, icd;isocitrate dehydrogenase
+Thermoactinomyces_sp.CDF_000240	K01647: CS, gltA;citrate synthase
+Thermoactinomyces_sp.CDF_000242	K07113: fxsA;UPF0716 protein FxsA
+Thermoactinomyces_sp.CDF_000243	K07107: ybgC;acyl-CoA thioester hydrolase
+Thermoactinomyces_sp.CDF_000244	K00873: PK, pyk;pyruvate kinase
+Thermoactinomyces_sp.CDF_000245	K00850: pfkA, PFK;6-phosphofructokinase 1
+Thermoactinomyces_sp.CDF_000246	K01962: accA;acetyl-CoA carboxylase carboxyl transferase subunit alpha
+Thermoactinomyces_sp.CDF_000247	K01963: accD;acetyl-CoA carboxylase carboxyl transferase subunit beta
+Thermoactinomyces_sp.CDF_000249	K00027: ME2, sfcA, maeA;malate dehydrogenase (oxaloacetate-decarboxylating)
+Thermoactinomyces_sp.CDF_000253	K02337: dnaE;DNA polymerase III subunit alpha
+Thermoactinomyces_sp.CDF_000265	K19224: lytE, cwlF;peptidoglycan DL-endopeptidase LytE
+Thermoactinomyces_sp.CDF_000267	K06415: spoVR;stage V sporulation protein R
+Thermoactinomyces_sp.CDF_000268	K06213: mgtE;magnesium transporter
+Thermoactinomyces_sp.CDF_000269	K08637: CPA4;carboxypeptidase A4
+Thermoactinomyces_sp.CDF_000270	K06295: gerKA;spore germination protein KA
+Thermoactinomyces_sp.CDF_000271	K06311: yndE;spore germination protein
+Thermoactinomyces_sp.CDF_000272	K06312: yndF;spore germination protein
+Thermoactinomyces_sp.CDF_000273	K00344: qor, CRYZ;NADPH2:quinone reductase
+Thermoactinomyces_sp.CDF_000274	K07130: kynB;arylformamidase
+Thermoactinomyces_sp.CDF_000275	K01556: KYNU, kynU;kynureninase
+Thermoactinomyces_sp.CDF_000276	K00453: TDO2, kynA;tryptophan 2,3-dioxygenase
+Thermoactinomyces_sp.CDF_000280	K00158: E1.2.3.3, poxL;pyruvate oxidase
+Thermoactinomyces_sp.CDF_000287	K03897: iucD;lysine N6-hydroxylase
+Thermoactinomyces_sp.CDF_000288	K21992: mbtK;lysine N-acyltransferase
+Thermoactinomyces_sp.CDF_000290	K13745: ddc;L-2,4-diaminobutyrate decarboxylase
+Thermoactinomyces_sp.CDF_000291	K00836: ectB, dat;diaminobutyrate-2-oxoglutarate transaminase
+Thermoactinomyces_sp.CDF_000292	K08153: blt;MFS transporter, DHA1 family, multidrug resistance protein
+Thermoactinomyces_sp.CDF_000293	K00259: ald;alanine dehydrogenase
+Thermoactinomyces_sp.CDF_000294	K09684: pucR;purine catabolism regulatory protein
+Thermoactinomyces_sp.CDF_000295	K02341: holB;DNA polymerase III subunit delta'
+Thermoactinomyces_sp.CDF_000298	K18115: sqhC;sporulenol synthase
+Thermoactinomyces_sp.CDF_000299	K11144: dnaI;primosomal protein DnaI
+Thermoactinomyces_sp.CDF_000305	K07119: K07119;uncharacterized protein
+Thermoactinomyces_sp.CDF_000307	K01992: ABC-2.P;ABC-2 type transport system permease protein
+Thermoactinomyces_sp.CDF_000308	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000309	K00003: E1.1.1.3;homoserine dehydrogenase
+Thermoactinomyces_sp.CDF_000317	K00639: kbl, GCAT;glycine C-acetyltransferase
+Thermoactinomyces_sp.CDF_000319	K03310: TC.AGCS;alanine or glycine:cation symporter, AGCS family
+Thermoactinomyces_sp.CDF_000320	K06153: bacA;undecaprenyl-diphosphatase
+Thermoactinomyces_sp.CDF_000321	K06131: clsA_B;cardiolipin synthase A/B
+Thermoactinomyces_sp.CDF_000323	K16264: czcD, zitB;cobalt-zinc-cadmium efflux system protein
+Thermoactinomyces_sp.CDF_000326	K22278: pdgA;peptidoglycan-N-acetylglucosamine deacetylase
+Thermoactinomyces_sp.CDF_000327	K07260: vanY;zinc D-Ala-D-Ala carboxypeptidase
+Thermoactinomyces_sp.CDF_000329	K03781: katE, CAT, catB, srpA;catalase
+Thermoactinomyces_sp.CDF_000331	K03733: xerC;integrase/recombinase XerC
+Thermoactinomyces_sp.CDF_000332	K07149: K07149;uncharacterized protein
+Thermoactinomyces_sp.CDF_000334	K01222: E3.2.1.86A, celF;6-phospho-beta-glucosidase
+Thermoactinomyces_sp.CDF_000352	K03169: topB;DNA topoisomerase III
+Thermoactinomyces_sp.CDF_000353	K00274: MAO, aofH;monoamine oxidase
+Thermoactinomyces_sp.CDF_000356	K12410: npdA;NAD-dependent deacetylase
+Thermoactinomyces_sp.CDF_000359	K16214: pezT;UDP-N-acetylglucosamine kinase
+Thermoactinomyces_sp.CDF_000361	K06895: lysE, argO;L-lysine exporter family protein LysE/ArgO
+Thermoactinomyces_sp.CDF_000363	K09786: K09786;uncharacterized protein
+Thermoactinomyces_sp.CDF_000364	K07180: prkA;serine protein kinase
+Thermoactinomyces_sp.CDF_000366	K03216: trmL, cspR;tRNA (cytidine/uridine-2'-O-)-methyltransferase
+Thermoactinomyces_sp.CDF_000369	K00567: ogt, MGMT;methylated-DNA-[protein]-cysteine S-methyltransferase
+Thermoactinomyces_sp.CDF_000370	K18979: queG;epoxyqueuosine reductase
+Thermoactinomyces_sp.CDF_000371	K03469: rnhA, RNASEH1;ribonuclease HI
+Thermoactinomyces_sp.CDF_000373	K21929: udg;uracil-DNA glycosylase
+Thermoactinomyces_sp.CDF_000381	K22108: kstR2;TetR/AcrR family transcriptional regulator, cholesterol catabolism regulator
+Thermoactinomyces_sp.CDF_000383	K03800: lplA, lplJ;lipoate---protein ligase
+Thermoactinomyces_sp.CDF_000384	K03654: recQ;ATP-dependent DNA helicase RecQ
+Thermoactinomyces_sp.CDF_000386	K00784: rnz;ribonuclease Z
+Thermoactinomyces_sp.CDF_000389	K22044: ybiO;moderate conductance mechanosensitive channel
+Thermoactinomyces_sp.CDF_000393	K06888: K06888;uncharacterized protein
+Thermoactinomyces_sp.CDF_000399	K00009: mtlD;mannitol-1-phosphate 5-dehydrogenase
+Thermoactinomyces_sp.CDF_000400	K02798: PTS-Mtl-EIIA, mtlA, cmtB;PTS system, mannitol-specific IIA component
+Thermoactinomyces_sp.CDF_000401	K03483: mtlR;mannitol operon transcriptional antiterminator
+Thermoactinomyces_sp.CDF_000402	K02800: PTS-Mtl-EIIC, mtlA, cmtA;PTS system, mannitol-specific IIC component
+Thermoactinomyces_sp.CDF_000403	K01740: metY;O-acetylhomoserine (thiol)-lyase
+Thermoactinomyces_sp.CDF_000406	K05520: pfpI;protease I
+Thermoactinomyces_sp.CDF_000407	K03763: polC;DNA polymerase III subunit alpha, Gram-positive type
+Thermoactinomyces_sp.CDF_000408	K00138: aldB;aldehyde dehydrogenase
+Thermoactinomyces_sp.CDF_000409	K09959: K09959;uncharacterized protein
+Thermoactinomyces_sp.CDF_000414	K09775: K09775;uncharacterized protein
+Thermoactinomyces_sp.CDF_000415	K02016: ABC.FEV.S;iron complex transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000419	K03885: ndh;NADH dehydrogenase
+Thermoactinomyces_sp.CDF_000420	K21567: fnr;ferredoxin/flavodoxin---NADP+ reductase
+Thermoactinomyces_sp.CDF_000422	K13628: iscA;iron-sulfur cluster assembly protein
+Thermoactinomyces_sp.CDF_000424	K18285: mqnE;aminodeoxyfutalosine synthase
+Thermoactinomyces_sp.CDF_000427	K00681: ggt;gamma-glutamyltranspeptidase / glutathione hydrolase
+Thermoactinomyces_sp.CDF_000428	K07282: capA, pgsA;gamma-polyglutamate biosynthesis protein CapA
+Thermoactinomyces_sp.CDF_000429	K07282: capA, pgsA;gamma-polyglutamate biosynthesis protein CapA
+Thermoactinomyces_sp.CDF_000430	K22116: capC, pgsC;gamma-polyglutamate biosynthesis protein CapC
+Thermoactinomyces_sp.CDF_000431	K01932: capB, pgsB;gamma-polyglutamate synthase
+Thermoactinomyces_sp.CDF_000433	K17217: mccB;cystathionine gamma-lyase / homocysteine desulfhydrase
+Thermoactinomyces_sp.CDF_000434	K17216: mccA;cystathionine beta-synthase (O-acetyl-L-serine)
+Thermoactinomyces_sp.CDF_000437	K10823: oppF;oligopeptide transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000438	K15583: oppD;oligopeptide transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000439	K15582: oppC;oligopeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000440	K15581: oppB;oligopeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000441	K15580: oppA, mppA;oligopeptide transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000442	K02035: ABC.PE.S;peptide/nickel transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000446	K00104: glcD;glycolate oxidase
+Thermoactinomyces_sp.CDF_000447	K11473: glcF;glycolate oxidase iron-sulfur subunit
+Thermoactinomyces_sp.CDF_000449	K06331: cotI;spore coat protein I
+Thermoactinomyces_sp.CDF_000450	K00059: fabG;3-oxoacyl-[acyl-carrier protein] reductase
+Thermoactinomyces_sp.CDF_000453	K01101: E3.1.3.41;4-nitrophenyl phosphatase
+Thermoactinomyces_sp.CDF_000455	K09012: sufR;DeoR family transcriptional regulator, suf operon transcriptional repressor
+Thermoactinomyces_sp.CDF_000464	K03644: lipA;lipoyl synthase
+Thermoactinomyces_sp.CDF_000465	K02015: ABC.FEV.P;iron complex transport system permease protein
+Thermoactinomyces_sp.CDF_000466	K02015: ABC.FEV.P;iron complex transport system permease protein
+Thermoactinomyces_sp.CDF_000467	K02016: ABC.FEV.S;iron complex transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000468	K21472: lytH;peptidoglycan LD-endopeptidase LytH
+Thermoactinomyces_sp.CDF_000469	K03294: TC.APA;basic amino acid/polyamine antiporter, APA family
+Thermoactinomyces_sp.CDF_000471	K16239: bsdC;4-hydroxybenzoate decarboxylase subunit C
+Thermoactinomyces_sp.CDF_000472	K12370: dppC;dipeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000473	K12369: dppB;dipeptide transport system permease protein
+Thermoactinomyces_sp.CDF_000474	K12368: dppA;dipeptide transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000475	K02032: ABC.PE.A1;peptide/nickel transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000476	K02031: ABC.PE.A;peptide/nickel transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000477	K00868: pdxK, pdxY;pyridoxine kinase
+Thermoactinomyces_sp.CDF_000481	K03310: TC.AGCS;alanine or glycine:cation symporter, AGCS family
+Thermoactinomyces_sp.CDF_000482	K16168: bpsB, srsB;methyltransferase
+Thermoactinomyces_sp.CDF_000483	K16167: bpsA, srsA, pks11, pks10;alkylresorcinol/alkylpyrone synthase
+Thermoactinomyces_sp.CDF_000486	K19304: mepM;murein DD-endopeptidase
+Thermoactinomyces_sp.CDF_000493	K07284: srtA;sortase A
+Thermoactinomyces_sp.CDF_000495	K11210: fosB;metallothiol transferase
+Thermoactinomyces_sp.CDF_000498	K04719: bluB;5,6-dimethylbenzimidazole synthase
+Thermoactinomyces_sp.CDF_000502	K03704: cspA;cold shock protein (beta-ribbon, CspA family)
+Thermoactinomyces_sp.CDF_000508	K00763: pncB, NAPRT1;nicotinate phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_000509	K01637: E4.1.3.1, aceA;isocitrate lyase
+Thermoactinomyces_sp.CDF_000510	K01638: aceB, glcB;malate synthase
+Thermoactinomyces_sp.CDF_000513	K07058: K07058;membrane protein
+Thermoactinomyces_sp.CDF_000516	K00674: dapD;2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+Thermoactinomyces_sp.CDF_000517	K00818: E2.6.1.11, argD;acetylornithine aminotransferase
+Thermoactinomyces_sp.CDF_000518	K05823: dapL;N-acetyldiaminopimelate deacetylase
+Thermoactinomyces_sp.CDF_000527	K09014: sufB;Fe-S cluster assembly protein SufB
+Thermoactinomyces_sp.CDF_000528	K04488: iscU, nifU;nitrogen fixation protein NifU and related proteins
+Thermoactinomyces_sp.CDF_000529	K11717: sufS;cysteine desulfurase / selenocysteine lyase
+Thermoactinomyces_sp.CDF_000530	K09015: sufD;Fe-S cluster assembly protein SufD
+Thermoactinomyces_sp.CDF_000531	K09013: sufC;Fe-S cluster assembly ATP-binding protein
+Thermoactinomyces_sp.CDF_000539	K08963: mtnA;methylthioribose-1-phosphate isomerase
+Thermoactinomyces_sp.CDF_000540	K00899: mtnK;5-methylthioribose kinase
+Thermoactinomyces_sp.CDF_000541	K08967: mtnD, mtnZ, ADI1;1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase
+Thermoactinomyces_sp.CDF_000542	K08964: mtnB;methylthioribulose-1-phosphate dehydratase
+Thermoactinomyces_sp.CDF_000543	K08966: mtnX;2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase
+Thermoactinomyces_sp.CDF_000544	K08965: mtnW;2,3-diketo-5-methylthiopentyl-1-phosphate enolase
+Thermoactinomyces_sp.CDF_000552	K09825: perR;Fur family transcriptional regulator, peroxide stress response regulator
+Thermoactinomyces_sp.CDF_000554	K10773: NTH;endonuclease III
+Thermoactinomyces_sp.CDF_000556	K03564: BCP, PRXQ, DOT5;peroxiredoxin Q/BCP
+Thermoactinomyces_sp.CDF_000562	K02750: PTS-Glv-EIIC, glvC, malP, aglA;PTS system, alpha-glucoside-specific IIC component
+Thermoactinomyces_sp.CDF_000563	K01232: glvA;maltose-6'-phosphate glucosidase
+Thermoactinomyces_sp.CDF_000564	K03481: glvR;RpiR family transcriptional regulator, glv operon transcriptional regulator
+Thermoactinomyces_sp.CDF_000565	K06377: spo0M;sporulation-control protein
+Thermoactinomyces_sp.CDF_000569	K01845: hemL;glutamate-1-semialdehyde 2,1-aminomutase
+Thermoactinomyces_sp.CDF_000570	K06886: glbN;hemoglobin
+Thermoactinomyces_sp.CDF_000576	K02276: coxC;cytochrome c oxidase subunit III
+Thermoactinomyces_sp.CDF_000577	K02274: coxA;cytochrome c oxidase subunit I
+Thermoactinomyces_sp.CDF_000578	K02275: coxB;cytochrome c oxidase subunit II
+Thermoactinomyces_sp.CDF_000579	K02257: COX10, ctaB, cyoE;heme o synthase
+Thermoactinomyces_sp.CDF_000580	K17752: rsbT;serine/threonine-protein kinase RsbT
+Thermoactinomyces_sp.CDF_000581	K11085: msbA;ATP-binding cassette, subfamily B, bacterial MsbA
+Thermoactinomyces_sp.CDF_000582	K03706: codY;transcriptional pleiotropic repressor
+Thermoactinomyces_sp.CDF_000583	K03100: lepB;signal peptidase I
+Thermoactinomyces_sp.CDF_000585	K00286: proC;pyrroline-5-carboxylate reductase
+Thermoactinomyces_sp.CDF_000589	K03575: mutY;A/G-specific adenine glycosylase
+Thermoactinomyces_sp.CDF_000590	K03575: mutY;A/G-specific adenine glycosylase
+Thermoactinomyces_sp.CDF_000591	K07038: K07038;inner membrane protein
+Thermoactinomyces_sp.CDF_000592	K22044: ybiO;moderate conductance mechanosensitive channel
+Thermoactinomyces_sp.CDF_000594	K01247: alkA;DNA-3-methyladenine glycosylase II
+Thermoactinomyces_sp.CDF_000597	K02013: ABC.FEV.A;iron complex transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000598	K01486: ade;adenine deaminase
+Thermoactinomyces_sp.CDF_000601	K01945: purD;phosphoribosylamine---glycine ligase
+Thermoactinomyces_sp.CDF_000603	K00602: purH;phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase
+Thermoactinomyces_sp.CDF_000604	K11175: purN;phosphoribosylglycinamide formyltransferase 1
+Thermoactinomyces_sp.CDF_000605	K01933: purM;phosphoribosylformylglycinamidine cyclo-ligase
+Thermoactinomyces_sp.CDF_000606	K00764: purF, PPAT;amidophosphoribosyltransferase
+Thermoactinomyces_sp.CDF_000607	K01952: purL, PFAS;phosphoribosylformylglycinamidine synthase
+Thermoactinomyces_sp.CDF_000608	K01952: purL, PFAS;phosphoribosylformylglycinamidine synthase
+Thermoactinomyces_sp.CDF_000609	K01952: purL, PFAS;phosphoribosylformylglycinamidine synthase
+Thermoactinomyces_sp.CDF_000610	K01923: purC;phosphoribosylaminoimidazole-succinocarboxamide synthase
+Thermoactinomyces_sp.CDF_000611	K01756: purB, ADSL;adenylosuccinate lyase
+Thermoactinomyces_sp.CDF_000612	K01589: purK;5-(carboxyamino)imidazole ribonucleotide synthase
+Thermoactinomyces_sp.CDF_000613	K01588: purE;5-(carboxyamino)imidazole ribonucleotide mutase
+Thermoactinomyces_sp.CDF_000617	K06901: pbuG;putative MFS transporter, AGZA family, xanthine/uracil permease
+Thermoactinomyces_sp.CDF_000618	K01951: guaA, GMPS;GMP synthase (glutamine-hydrolysing)
+Thermoactinomyces_sp.CDF_000619	K00354: E1.6.99.1;NADPH2 dehydrogenase
+Thermoactinomyces_sp.CDF_000622	K21487: yobL;toxin YobL
+Thermoactinomyces_sp.CDF_000623	K00865: glxK, garK;glycerate 2-kinase
+Thermoactinomyces_sp.CDF_000624	K03299: TC.GNTP;gluconate:H+ symporter, GntP family
+Thermoactinomyces_sp.CDF_000639	K21489: yokI;toxin YokI
+Thermoactinomyces_sp.CDF_000642	K21489: yokI;toxin YokI
+Thermoactinomyces_sp.CDF_000647	K11928: putP;sodium/proline symporter
+Thermoactinomyces_sp.CDF_000653	K11936: pgaC, icaA;poly-beta-1,6-N-acetyl-D-glucosamine synthase
+Thermoactinomyces_sp.CDF_000654	K08138: xylE;MFS transporter, SP family, xylose:H+ symportor
+Thermoactinomyces_sp.CDF_000655	K01805: xylA;xylose isomerase
+Thermoactinomyces_sp.CDF_000656	K04077: groEL, HSPD1;chaperonin GroEL
+Thermoactinomyces_sp.CDF_000657	K04078: groES, HSPE1;chaperonin GroES
+Thermoactinomyces_sp.CDF_000659	K03118: tatC;sec-independent protein translocase protein TatC
+Thermoactinomyces_sp.CDF_000660	K01926: rex;redox-sensing transcriptional repressor
+Thermoactinomyces_sp.CDF_000661	K01934: MTHFS;5-formyltetrahydrofolate cyclo-ligase
+Thermoactinomyces_sp.CDF_000662	K06158: ABCF3;ATP-binding cassette, subfamily F, member 3
+Thermoactinomyces_sp.CDF_000663	K06350: kipA;antagonist of KipI
+Thermoactinomyces_sp.CDF_000664	K07160: K07160;UPF0271 protein
+Thermoactinomyces_sp.CDF_000665	K06351: kipI;inhibitor of KinA
+Thermoactinomyces_sp.CDF_000666	K01409: KAE1, tsaD, QRI7;N6-L-threonylcarbamoyladenine synthase
+Thermoactinomyces_sp.CDF_000667	K03789: rimI;ribosomal-protein-alanine N-acetyltransferase
+Thermoactinomyces_sp.CDF_000668	K14742: tsaB;tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+Thermoactinomyces_sp.CDF_000669	K06925: tsaE;tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+Thermoactinomyces_sp.CDF_000670	K00946: thiL;thiamine-monophosphate kinase
+Thermoactinomyces_sp.CDF_000672	K06890: K06890;uncharacterized protein
+Thermoactinomyces_sp.CDF_000674	K21029: moeB;molybdopterin-synthase adenylyltransferase
+Thermoactinomyces_sp.CDF_000675	K00020: mmsB, HIBADH;3-hydroxyisobutyrate dehydrogenase
+Thermoactinomyces_sp.CDF_000677	K06959: tex;protein Tex
+Thermoactinomyces_sp.CDF_000682	K00570: pmtA;phosphatidylethanolamine/phosphatidyl-N-methylethanolamine N-methyltransferase
+Thermoactinomyces_sp.CDF_000683	K00262: E1.4.1.4, gdhA;glutamate dehydrogenase (NADP+)
+Thermoactinomyces_sp.CDF_000684	K03090: sigB;RNA polymerase sigma-B factor
+Thermoactinomyces_sp.CDF_000685	K04757: rsbW;serine/threonine-protein kinase RsbW
+Thermoactinomyces_sp.CDF_000686	K04749: rsbV;anti-sigma B factor antagonist
+Thermoactinomyces_sp.CDF_000687	K07315: rsbU_P;phosphoserine phosphatase RsbU/P
+Thermoactinomyces_sp.CDF_000688	K07171: mazF, ndoA, chpA;mRNA interferase MazF
+Thermoactinomyces_sp.CDF_000689	K07723: ndoAI;CopG family transcriptional regulator / antitoxin EndoAI
+Thermoactinomyces_sp.CDF_000690	K01775: alr;alanine racemase
+Thermoactinomyces_sp.CDF_000693	K17759: AIBP, nnrE;NAD(P)H-hydrate epimerase
+Thermoactinomyces_sp.CDF_000694	K00997: acpS;holo-[acyl-carrier protein] synthase
+Thermoactinomyces_sp.CDF_000695	K01992: ABC-2.P;ABC-2 type transport system permease protein
+Thermoactinomyces_sp.CDF_000696	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000699	K11733: lysP;lysine-specific permease
+Thermoactinomyces_sp.CDF_000706	K18231: msrA, vmlR;macrolide transport system ATP-binding/permease protein
+Thermoactinomyces_sp.CDF_000707	K00820: glmS, GFPT;glucosamine---fructose-6-phosphate aminotransferase (isomerizing)
+Thermoactinomyces_sp.CDF_000709	K03431: glmM;phosphoglucosamine mutase
+Thermoactinomyces_sp.CDF_000711	K18672: dacA;diadenylate cyclase
+Thermoactinomyces_sp.CDF_000712	K01476: E3.5.3.1, rocF, arg;arginase
+Thermoactinomyces_sp.CDF_000714	K03648: UNG, UDG;uracil-DNA glycosylase
+Thermoactinomyces_sp.CDF_000716	K07397: yhfA;putative redox protein
+Thermoactinomyces_sp.CDF_000720	K06294: gerD;spore germination protein D
+Thermoactinomyces_sp.CDF_000721	K03593: mrp, NUBPL;ATP-binding protein involved in chromosome partitioning
+Thermoactinomyces_sp.CDF_000722	K01448: amiABC;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_000724	K07238: TC.ZIP, zupT, ZRT3, ZIP2;zinc transporter, ZIP family
+Thermoactinomyces_sp.CDF_000726	K01838: pgmB;beta-phosphoglucomutase
+Thermoactinomyces_sp.CDF_000727	K03781: katE, CAT, catB, srpA;catalase
+Thermoactinomyces_sp.CDF_000731	K02996: RP-S9, MRPS9, rpsI;small subunit ribosomal protein S9
+Thermoactinomyces_sp.CDF_000732	K02871: RP-L13, MRPL13, rplM;large subunit ribosomal protein L13
+Thermoactinomyces_sp.CDF_000733	K06173: truA, PUS1;tRNA pseudouridine38-40 synthase
+Thermoactinomyces_sp.CDF_000734	K16785: ecfT;energy-coupling factor transport system permease protein
+Thermoactinomyces_sp.CDF_000735	K16787: ecfA2;energy-coupling factor transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000736	K16786: ecfA1;energy-coupling factor transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000737	K02879: RP-L17, MRPL17, rplQ;large subunit ribosomal protein L17
+Thermoactinomyces_sp.CDF_000738	K03040: rpoA;DNA-directed RNA polymerase subunit alpha
+Thermoactinomyces_sp.CDF_000739	K02948: RP-S11, MRPS11, rpsK;small subunit ribosomal protein S11
+Thermoactinomyces_sp.CDF_000740	K02952: RP-S13, rpsM;small subunit ribosomal protein S13
+Thermoactinomyces_sp.CDF_000741	K02919: RP-L36, MRPL36, rpmJ;large subunit ribosomal protein L36
+Thermoactinomyces_sp.CDF_000742	K02518: infA;translation initiation factor IF-1
+Thermoactinomyces_sp.CDF_000744	K01265: map;methionyl aminopeptidase
+Thermoactinomyces_sp.CDF_000745	K00939: adk, AK;adenylate kinase
+Thermoactinomyces_sp.CDF_000746	K03076: secY;preprotein translocase subunit SecY
+Thermoactinomyces_sp.CDF_000747	K02876: RP-L15, MRPL15, rplO;large subunit ribosomal protein L15
+Thermoactinomyces_sp.CDF_000748	K02907: RP-L30, MRPL30, rpmD;large subunit ribosomal protein L30
+Thermoactinomyces_sp.CDF_000749	K02988: RP-S5, MRPS5, rpsE;small subunit ribosomal protein S5
+Thermoactinomyces_sp.CDF_000750	K02881: RP-L18, MRPL18, rplR;large subunit ribosomal protein L18
+Thermoactinomyces_sp.CDF_000751	K02933: RP-L6, MRPL6, rplF;large subunit ribosomal protein L6
+Thermoactinomyces_sp.CDF_000752	K02994: RP-S8, rpsH;small subunit ribosomal protein S8
+Thermoactinomyces_sp.CDF_000753	K02954: RP-S14, MRPS14, rpsN;small subunit ribosomal protein S14
+Thermoactinomyces_sp.CDF_000754	K02931: RP-L5, MRPL5, rplE;large subunit ribosomal protein L5
+Thermoactinomyces_sp.CDF_000755	K02895: RP-L24, MRPL24, rplX;large subunit ribosomal protein L24
+Thermoactinomyces_sp.CDF_000756	K02874: RP-L14, MRPL14, rplN;large subunit ribosomal protein L14
+Thermoactinomyces_sp.CDF_000757	K02961: RP-S17, MRPS17, rpsQ;small subunit ribosomal protein S17
+Thermoactinomyces_sp.CDF_000758	K02904: RP-L29, rpmC;large subunit ribosomal protein L29
+Thermoactinomyces_sp.CDF_000759	K02878: RP-L16, MRPL16, rplP;large subunit ribosomal protein L16
+Thermoactinomyces_sp.CDF_000760	K02982: RP-S3, rpsC;small subunit ribosomal protein S3
+Thermoactinomyces_sp.CDF_000761	K02890: RP-L22, MRPL22, rplV;large subunit ribosomal protein L22
+Thermoactinomyces_sp.CDF_000762	K02965: RP-S19, rpsS;small subunit ribosomal protein S19
+Thermoactinomyces_sp.CDF_000763	K02886: RP-L2, MRPL2, rplB;large subunit ribosomal protein L2
+Thermoactinomyces_sp.CDF_000764	K02892: RP-L23, MRPL23, rplW;large subunit ribosomal protein L23
+Thermoactinomyces_sp.CDF_000765	K02926: RP-L4, MRPL4, rplD;large subunit ribosomal protein L4
+Thermoactinomyces_sp.CDF_000766	K02906: RP-L3, MRPL3, rplC;large subunit ribosomal protein L3
+Thermoactinomyces_sp.CDF_000767	K02946: RP-S10, MRPS10, rpsJ;small subunit ribosomal protein S10
+Thermoactinomyces_sp.CDF_000768	K00891: E2.7.1.71, aroK, aroL;shikimate kinase
+Thermoactinomyces_sp.CDF_000769	K03785: aroD;3-dehydroquinate dehydratase I
+Thermoactinomyces_sp.CDF_000770	K02358: tuf, TUFM;elongation factor Tu
+Thermoactinomyces_sp.CDF_000771	K02355: fusA, GFM, EFG;elongation factor G
+Thermoactinomyces_sp.CDF_000772	K02992: RP-S7, MRPS7, rpsG;small subunit ribosomal protein S7
+Thermoactinomyces_sp.CDF_000773	K02950: RP-S12, MRPS12, rpsL;small subunit ribosomal protein S12
+Thermoactinomyces_sp.CDF_000774	K07590: RP-L7A, rplGB;large subunit ribosomal protein L7A
+Thermoactinomyces_sp.CDF_000775	K03046: rpoC;DNA-directed RNA polymerase subunit beta'
+Thermoactinomyces_sp.CDF_000776	K03043: rpoB;DNA-directed RNA polymerase subunit beta
+Thermoactinomyces_sp.CDF_000777	K00564: rsmC;16S rRNA (guanine1207-N2)-methyltransferase
+Thermoactinomyces_sp.CDF_000778	K02935: RP-L7, MRPL12, rplL;large subunit ribosomal protein L7/L12
+Thermoactinomyces_sp.CDF_000779	K02864: RP-L10, MRPL10, rplJ;large subunit ribosomal protein L10
+Thermoactinomyces_sp.CDF_000780	K02863: RP-L1, MRPL1, rplA;large subunit ribosomal protein L1
+Thermoactinomyces_sp.CDF_000781	K02867: RP-L11, MRPL11, rplK;large subunit ribosomal protein L11
+Thermoactinomyces_sp.CDF_000782	K02601: nusG;transcriptional antiterminator NusG
+Thermoactinomyces_sp.CDF_000784	K02913: RP-L33, MRPL33, rpmG;large subunit ribosomal protein L33
+Thermoactinomyces_sp.CDF_000785	K03091: sigH;RNA polymerase sporulation-specific sigma factor
+Thermoactinomyces_sp.CDF_000786	K06962: K06962;uncharacterized protein
+Thermoactinomyces_sp.CDF_000787	K03218: rlmB;23S rRNA (guanosine2251-2'-O)-methyltransferase
+Thermoactinomyces_sp.CDF_000788	K11145: K11145;ribonuclease III family protein
+Thermoactinomyces_sp.CDF_000789	K01883: CARS, cysS;cysteinyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000790	K00640: cysE;serine O-acetyltransferase
+Thermoactinomyces_sp.CDF_000791	K09698: gltX;nondiscriminating glutamyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000792	K01770: ispF;2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+Thermoactinomyces_sp.CDF_000793	K00991: ispD;2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Thermoactinomyces_sp.CDF_000795	K07736: carD;CarD family transcriptional regulator
+Thermoactinomyces_sp.CDF_000797	K17103: CHO1, pssA;CDP-diacylglycerol---serine O-phosphatidyltransferase
+Thermoactinomyces_sp.CDF_000798	K07067: disA;diadenylate cyclase
+Thermoactinomyces_sp.CDF_000799	K04485: radA, sms;DNA repair protein RadA/Sms
+Thermoactinomyces_sp.CDF_000800	K03696: clpC;ATP-dependent Clp protease ATP-binding subunit ClpC
+Thermoactinomyces_sp.CDF_000801	K19405: mcsB;protein arginine kinase
+Thermoactinomyces_sp.CDF_000802	K19411: mcsA;protein arginine kinase activator
+Thermoactinomyces_sp.CDF_000803	K03708: ctsR;transcriptional regulator of stress and heat shock response
+Thermoactinomyces_sp.CDF_000804	K07507: mgtC;putative Mg2+ transporter-C (MgtC) family protein
+Thermoactinomyces_sp.CDF_000806	K07674: narQ;two-component system, NarL family, nitrate/nitrite sensor histidine kinase NarQ
+Thermoactinomyces_sp.CDF_000807	K07685: narP;two-component system, NarL family, nitrate/nitrite response regulator NarP
+Thermoactinomyces_sp.CDF_000814	K06902: UMF1;MFS transporter, UMF1 family
+Thermoactinomyces_sp.CDF_000820	K04567: KARS, lysS;lysyl-tRNA synthetase, class II
+Thermoactinomyces_sp.CDF_000822	K00950: folK;2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase
+Thermoactinomyces_sp.CDF_000823	K01633: folB;7,8-dihydroneopterin aldolase/epimerase/oxygenase
+Thermoactinomyces_sp.CDF_000824	K00796: folP;dihydropteroate synthase
+Thermoactinomyces_sp.CDF_000825	K01738: cysK;cysteine synthase A
+Thermoactinomyces_sp.CDF_000826	K04083: hslO;molecular chaperone Hsp33
+Thermoactinomyces_sp.CDF_000827	K03525: coaX;type III pantothenate kinase
+Thermoactinomyces_sp.CDF_000828	K03798: ftsH, hflB;cell division protease FtsH
+Thermoactinomyces_sp.CDF_000829	K00760: hprT, hpt, HPRT1;hypoxanthine phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_000830	K04075: tilS, mesJ;tRNA(Ile)-lysidine synthase
+Thermoactinomyces_sp.CDF_000831	K06382: spoIIE;stage II sporulation protein E
+Thermoactinomyces_sp.CDF_000838	K02499: yabN;tetrapyrrole methylase family protein / MazG family protein
+Thermoactinomyces_sp.CDF_000839	K03328: TC.PST;polysaccharide transporter, PST family
+Thermoactinomyces_sp.CDF_000840	K04769: spoVT;AbrB family transcriptional regulator, stage V sporulation protein T
+Thermoactinomyces_sp.CDF_000841	K07533: prsA;foldase protein PrsA
+Thermoactinomyces_sp.CDF_000842	K03723: mfd;transcription-repair coupling factor (superfamily II helicase)
+Thermoactinomyces_sp.CDF_000844	K01056: PTH1, pth, spoVC;peptidyl-tRNA hydrolase, PTH1 family
+Thermoactinomyces_sp.CDF_000845	K02897: RP-L25, rplY;large subunit ribosomal protein L25
+Thermoactinomyces_sp.CDF_000846	K00948: PRPS, prsA;ribose-phosphate pyrophosphokinase
+Thermoactinomyces_sp.CDF_000847	K04042: glmU;bifunctional UDP-N-acetylglucosamine pyrophosphorylase / Glucosamine-1-phosphate N-acetyltransferase
+Thermoactinomyces_sp.CDF_000848	K06412: spoVG;stage V sporulation protein G
+Thermoactinomyces_sp.CDF_000849	K09022: ridA, tdcF, RIDA;2-iminobutanoate/2-iminopropanoate deaminase
+Thermoactinomyces_sp.CDF_000850	K09685: purR;purine operon repressor
+Thermoactinomyces_sp.CDF_000851	K00919: ispE;4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+Thermoactinomyces_sp.CDF_000852	K06423: sspF;small acid-soluble spore protein F (minor alpha/beta-type SASP)
+Thermoactinomyces_sp.CDF_000854	K09776: K09776;uncharacterized protein
+Thermoactinomyces_sp.CDF_000855	K02528: ksgA;16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase
+Thermoactinomyces_sp.CDF_000856	K05985: rnmV;ribonuclease M5
+Thermoactinomyces_sp.CDF_000857	K03424: tatD;TatD DNase family protein
+Thermoactinomyces_sp.CDF_000858	K03100: lepB;signal peptidase I
+Thermoactinomyces_sp.CDF_000859	K01874: MARS, metG;methionyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000860	K06915: K06915;uncharacterized protein
+Thermoactinomyces_sp.CDF_000862	K06284: abrB;transcriptional pleiotropic regulator of transition state genes
+Thermoactinomyces_sp.CDF_000863	K02804: PTS-Nag-EIIC, nagE;PTS system, N-acetylglucosamine-specific IIC component
+Thermoactinomyces_sp.CDF_000864	K07056: rsmI;16S rRNA (cytidine1402-2'-O)-methyltransferase
+Thermoactinomyces_sp.CDF_000865	K07461: K07461;putative endonuclease
+Thermoactinomyces_sp.CDF_000868	K00943: tmk, DTYMK;dTMP kinase
+Thermoactinomyces_sp.CDF_000873	K06187: recR;recombination protein RecR
+Thermoactinomyces_sp.CDF_000874	K09747: K09747;uncharacterized protein
+Thermoactinomyces_sp.CDF_000875	K02343: dnaX;DNA polymerase III subunit gamma/tau
+Thermoactinomyces_sp.CDF_000876	K13533: kinE;two-component system, sporulation sensor kinase E
+Thermoactinomyces_sp.CDF_000877	K02779: PTS-Glc-EIIC, ptsG;PTS system, glucose-specific IIC component
+Thermoactinomyces_sp.CDF_000878	K01226: treC;trehalose-6-phosphate hydrolase
+Thermoactinomyces_sp.CDF_000879	K03486: treR2, treR;GntR family transcriptional regulator, trehalose operon transcriptional repressor
+Thermoactinomyces_sp.CDF_000880	K16869: lipL;octanoyl-[GcvH]:protein N-octanoyltransferase
+Thermoactinomyces_sp.CDF_000884	K03543: emrA;membrane fusion protein, multidrug efflux system
+Thermoactinomyces_sp.CDF_000889	K22387: GDPD1_3, GDE4_7;lysophospholipase D
+Thermoactinomyces_sp.CDF_000891	K01785: galM, GALM;aldose 1-epimerase
+Thermoactinomyces_sp.CDF_000892	K03292: TC.GPH;glycoside/pentoside/hexuronide:cation symporter, GPH family
+Thermoactinomyces_sp.CDF_000893	K05349: bglX;beta-glucosidase
+Thermoactinomyces_sp.CDF_000894	K00854: xylB, XYLB;xylulokinase
+Thermoactinomyces_sp.CDF_000896	K02167: betI;TetR/AcrR family transcriptional regulator, transcriptional repressor of bet genes
+Thermoactinomyces_sp.CDF_000898	K21903: cadC, smtB;ArsR family transcriptional regulator, lead/cadmium/zinc/bismuth-responsive transcriptional repressor
+Thermoactinomyces_sp.CDF_000899	K01534: zntA;Cd2+/Zn2+-exporting ATPase
+Thermoactinomyces_sp.CDF_000900	K11476: K11476, gntR;GntR family transcriptional regulator, gluconate operon transcriptional repressor
+Thermoactinomyces_sp.CDF_000901	K00851: E2.7.1.12, gntK, idnK;gluconokinase
+Thermoactinomyces_sp.CDF_000902	K03299: TC.GNTP;gluconate:H+ symporter, GntP family
+Thermoactinomyces_sp.CDF_000903	K00033: PGD, gnd, gntZ;6-phosphogluconate dehydrogenase
+Thermoactinomyces_sp.CDF_000911	K11991: tadA;tRNA(adenine34) deaminase
+Thermoactinomyces_sp.CDF_000912	K02076: zurR, zur;Fur family transcriptional regulator, zinc uptake regulator
+Thermoactinomyces_sp.CDF_000913	K09816: znuB;zinc transport system permease protein
+Thermoactinomyces_sp.CDF_000914	K09817: znuC;zinc transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_000915	K09815: znuA;zinc transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_000917	K01421: yhgE;putative membrane protein
+Thermoactinomyces_sp.CDF_000920	K04047: dps;starvation-inducible DNA-binding protein
+Thermoactinomyces_sp.CDF_000922	K03294: TC.APA;basic amino acid/polyamine antiporter, APA family
+Thermoactinomyces_sp.CDF_000923	K01953: asnB, ASNS;asparagine synthase (glutamine-hydrolysing)
+Thermoactinomyces_sp.CDF_000930	K01875: SARS, serS;seryl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000931	K08681: pdxT, pdx2;5'-phosphate synthase pdxT subunit
+Thermoactinomyces_sp.CDF_000932	K06215: pdxS, pdx1;pyridoxal 5'-phosphate synthase pdxS subunit
+Thermoactinomyces_sp.CDF_000933	K07258: dacC, dacA, dacD;serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6)
+Thermoactinomyces_sp.CDF_000934	K00088: IMPDH, guaB;IMP dehydrogenase
+Thermoactinomyces_sp.CDF_000937	K02469: gyrA;DNA gyrase subunit A
+Thermoactinomyces_sp.CDF_000938	K02470: gyrB;DNA gyrase subunit B
+Thermoactinomyces_sp.CDF_000940	K03629: recF;DNA replication and repair protein RecF
+Thermoactinomyces_sp.CDF_000942	K02338: dnaN;DNA polymerase III subunit beta
+Thermoactinomyces_sp.CDF_000943	K02313: dnaA;chromosomal replication initiator protein
+Thermoactinomyces_sp.CDF_000944	K03536: rnpA;ribonuclease P protein component
+Thermoactinomyces_sp.CDF_000945	K08998: K08998;uncharacterized protein
+Thermoactinomyces_sp.CDF_000946	K03217: yidC, spoIIIJ, OXA1, ccfA;YidC/Oxa1 family membrane protein insertase
+Thermoactinomyces_sp.CDF_000947	K06346: jag;spoIIIJ-associated protein
+Thermoactinomyces_sp.CDF_000948	K03650: mnmE, trmE, MSS1;tRNA modification GTPase
+Thermoactinomyces_sp.CDF_000949	K03495: gidA, mnmG, MTO1;tRNA uridine 5-carboxymethylaminomethyl modification enzyme
+Thermoactinomyces_sp.CDF_000950	K03501: gidB, rsmG;16S rRNA (guanine527-N7)-methyltransferase
+Thermoactinomyces_sp.CDF_000953	K03497: parB, spo0J;chromosome partitioning protein, ParB family
+Thermoactinomyces_sp.CDF_000954	K03496: parA, soj;chromosome partitioning protein
+Thermoactinomyces_sp.CDF_000955	K03497: parB, spo0J;chromosome partitioning protein, ParB family
+Thermoactinomyces_sp.CDF_000958	K06942: ychF;ribosome-binding ATPase
+Thermoactinomyces_sp.CDF_000959	K02990: RP-S6, MRPS6, rpsF;small subunit ribosomal protein S6
+Thermoactinomyces_sp.CDF_000960	K03111: ssb;single-strand DNA-binding protein
+Thermoactinomyces_sp.CDF_000961	K02963: RP-S18, MRPS18, rpsR;small subunit ribosomal protein S18
+Thermoactinomyces_sp.CDF_000965	K02939: RP-L9, MRPL9, rplI;large subunit ribosomal protein L9
+Thermoactinomyces_sp.CDF_000966	K02314: dnaB;replicative DNA helicase
+Thermoactinomyces_sp.CDF_000967	K01939: purA, ADSS;adenylosuccinate synthase
+Thermoactinomyces_sp.CDF_000968	K00783: rlmH;23S rRNA (pseudouridine1915-N3)-methyltransferase
+Thermoactinomyces_sp.CDF_000970	K04771: degP, htrA;serine protease Do
+Thermoactinomyces_sp.CDF_000976	K07652: vicK;two-component system, OmpR family, sensor histidine kinase VicK
+Thermoactinomyces_sp.CDF_000977	K07668: vicR;two-component system, OmpR family, response regulator VicR
+Thermoactinomyces_sp.CDF_000981	K07710: atoS;two-component system, NtrC family, sensor histidine kinase AtoS
+Thermoactinomyces_sp.CDF_000984	K21464: pbpG;penicillin-binding protein 2D
+Thermoactinomyces_sp.CDF_000985	K00797: speE, SRM;spermidine synthase
+Thermoactinomyces_sp.CDF_000986	K01480: speB;agmatinase
+Thermoactinomyces_sp.CDF_000988	K01887: RARS, argS;arginyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_000989	K12132: prkC, stkP;eukaryotic-like serine/threonine-protein kinase
+Thermoactinomyces_sp.CDF_000992	K18012: kdd;L-erythro-3,5-diaminohexanoate dehydrogenase
+Thermoactinomyces_sp.CDF_000993	K01843: kamA;lysine 2,3-aminomutase
+Thermoactinomyces_sp.CDF_000995	K07456: mutS2;DNA mismatch repair protein MutS2
+Thermoactinomyces_sp.CDF_000996	K01844: kamD;beta-lysine 5,6-aminomutase alpha subunit
+Thermoactinomyces_sp.CDF_000997	K18011: kamE;beta-lysine 5,6-aminomutase beta subunit
+Thermoactinomyces_sp.CDF_001002	K07663: creB;two-component system, OmpR family, catabolic regulation response regulator CreB
+Thermoactinomyces_sp.CDF_001003	K02484: K02484;two-component system, OmpR family, sensor kinase
+Thermoactinomyces_sp.CDF_001004	K00626: E2.3.1.9, atoB;acetyl-CoA C-acetyltransferase
+Thermoactinomyces_sp.CDF_001005	K00074: paaH, hbd, fadB, mmgB;3-hydroxybutyryl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_001006	K18244: mmgC;acyl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_001008	K07588: argK;LAO/AO transport system kinase
+Thermoactinomyces_sp.CDF_001010	K11942: icmF;isobutyryl-CoA mutase
+Thermoactinomyces_sp.CDF_001011	K03048: rpoE;DNA-directed RNA polymerase subunit delta
+Thermoactinomyces_sp.CDF_001012	K01937: pyrG, CTPS;CTP synthase
+Thermoactinomyces_sp.CDF_001015	K00077: panE, apbA;2-dehydropantoate 2-reductase
+Thermoactinomyces_sp.CDF_001017	K02490: spo0F;two-component system, response regulator, stage 0 sporulation protein F
+Thermoactinomyces_sp.CDF_001018	K18014: kal;3-aminobutyryl-CoA ammonia-lyase
+Thermoactinomyces_sp.CDF_001019	K18013: kce;3-keto-5-aminohexanoate cleavage enzyme
+Thermoactinomyces_sp.CDF_001020	K01624: FBA, fbaA;fructose-bisphosphate aldolase, class II
+Thermoactinomyces_sp.CDF_001021	K00616: E2.2.1.2, talA, talB;transaldolase
+Thermoactinomyces_sp.CDF_001022	K02446: glpX;fructose-1,6-bisphosphatase II
+Thermoactinomyces_sp.CDF_001023	K03628: rho;transcription termination factor Rho
+Thermoactinomyces_sp.CDF_001024	K06194: nlpD;lipoprotein NlpD
+Thermoactinomyces_sp.CDF_001025	K02909: RP-L31, rpmE;large subunit ribosomal protein L31
+Thermoactinomyces_sp.CDF_001026	K00857: tdk, TK;thymidine kinase
+Thermoactinomyces_sp.CDF_001028	K02835: prfA, MTRF1, MRF1;peptide chain release factor 1
+Thermoactinomyces_sp.CDF_001029	K02493: hemK, prmC, HEMK;release factor glutamine methyltransferase
+Thermoactinomyces_sp.CDF_001030	K06387: spoIIR;stage II sporulation protein R
+Thermoactinomyces_sp.CDF_001032	K07566: tsaC, rimN, SUA5;L-threonylcarbamoyladenylate synthase
+Thermoactinomyces_sp.CDF_001033	K07098: K07098;uncharacterized protein
+Thermoactinomyces_sp.CDF_001035	K20201: ywlE;protein arginine phosphatase
+Thermoactinomyces_sp.CDF_001036	K01808: rpiB;ribose 5-phosphate isomerase B
+Thermoactinomyces_sp.CDF_001038	K00600: glyA, SHMT;glycine hydroxymethyltransferase
+Thermoactinomyces_sp.CDF_001039	K00761: upp, UPRT;uracil phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_001042	K02108: ATPF0A, atpB;F-type H+-transporting ATPase subunit a
+Thermoactinomyces_sp.CDF_001044	K02109: ATPF0B, atpF;F-type H+-transporting ATPase subunit b
+Thermoactinomyces_sp.CDF_001045	K02113: ATPF1D, atpH;F-type H+-transporting ATPase subunit delta
+Thermoactinomyces_sp.CDF_001046	K02111: ATPF1A, atpA;F-type H+-transporting ATPase subunit alpha
+Thermoactinomyces_sp.CDF_001047	K02115: ATPF1G, atpG;F-type H+-transporting ATPase subunit gamma
+Thermoactinomyces_sp.CDF_001048	K02112: ATPF1B, atpD;F-type H+-transporting ATPase subunit beta
+Thermoactinomyces_sp.CDF_001049	K02114: ATPF1E, atpC;F-type H+-transporting ATPase subunit epsilon
+Thermoactinomyces_sp.CDF_001050	K00330: nuoA;NADH-quinone oxidoreductase subunit A
+Thermoactinomyces_sp.CDF_001051	K00331: nuoB;NADH-quinone oxidoreductase subunit B
+Thermoactinomyces_sp.CDF_001052	K00332: nuoC;NADH-quinone oxidoreductase subunit C
+Thermoactinomyces_sp.CDF_001053	K00333: nuoD;NADH-quinone oxidoreductase subunit D
+Thermoactinomyces_sp.CDF_001054	K00337: nuoH;NADH-quinone oxidoreductase subunit H
+Thermoactinomyces_sp.CDF_001055	K00338: nuoI;NADH-quinone oxidoreductase subunit I
+Thermoactinomyces_sp.CDF_001056	K00339: nuoJ;NADH-quinone oxidoreductase subunit J
+Thermoactinomyces_sp.CDF_001057	K00340: nuoK;NADH-quinone oxidoreductase subunit K
+Thermoactinomyces_sp.CDF_001058	K00341: nuoL;NADH-quinone oxidoreductase subunit L
+Thermoactinomyces_sp.CDF_001059	K00342: nuoM;NADH-quinone oxidoreductase subunit M
+Thermoactinomyces_sp.CDF_001060	K00343: nuoN;NADH-quinone oxidoreductase subunit N
+Thermoactinomyces_sp.CDF_001063	K00790: murA;UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+Thermoactinomyces_sp.CDF_001064	K06381: spoIID;stage II sporulation protein D
+Thermoactinomyces_sp.CDF_001065	K03716: splB;spore photoproduct lyase
+Thermoactinomyces_sp.CDF_001066	K06386: spoIIQ;stage II sporulation protein Q
+Thermoactinomyces_sp.CDF_001067	K06283: spoIIID;putative DeoR family transcriptional regulator, stage III sporulation protein D
+Thermoactinomyces_sp.CDF_001069	K08744: CRLS;cardiolipin synthase (CMP-forming)
+Thermoactinomyces_sp.CDF_001070	K00027: ME2, sfcA, maeA;malate dehydrogenase (oxaloacetate-decarboxylating)
+Thermoactinomyces_sp.CDF_001071	K02372: fabZ;3-hydroxyacyl-[acyl-carrier-protein] dehydratase
+Thermoactinomyces_sp.CDF_001076	K13015: wbpA;UDP-N-acetyl-D-glucosamine dehydrogenase
+Thermoactinomyces_sp.CDF_001079	K16705: tuaE;teichuronic acid biosynthesis protein TuaE
+Thermoactinomyces_sp.CDF_001082	K01784: galE, GALE;UDP-glucose 4-epimerase
+Thermoactinomyces_sp.CDF_001085	K02071: metN;D-methionine transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001086	K02072: metI;D-methionine transport system permease protein
+Thermoactinomyces_sp.CDF_001087	K02073: metQ;D-methionine transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001091	K00789: metK;S-adenosylmethionine synthetase
+Thermoactinomyces_sp.CDF_001092	K07692: degU;two-component system, NarL family, response regulator DegU
+Thermoactinomyces_sp.CDF_001094	K02240: comFA;competence protein ComFA
+Thermoactinomyces_sp.CDF_001095	K02242: comFC;competence protein ComFC
+Thermoactinomyces_sp.CDF_001096	K03530: hupB;DNA-binding protein HU-beta
+Thermoactinomyces_sp.CDF_001097	K02030: ABC.PA.S;polar amino acid transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001098	K02029: ABC.PA.P;polar amino acid transport system permease protein
+Thermoactinomyces_sp.CDF_001099	K02028: ABC.PA.A;polar amino acid transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001100	K03704: cspA;cold shock protein (beta-ribbon, CspA family)
+Thermoactinomyces_sp.CDF_001101	K05808: yhbH;putative sigma-54 modulation protein
+Thermoactinomyces_sp.CDF_001102	K01791: wecB;UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing)
+Thermoactinomyces_sp.CDF_001104	K03070: secA;preprotein translocase subunit SecA
+Thermoactinomyces_sp.CDF_001106	K02836: prfB;peptide chain release factor 2
+Thermoactinomyces_sp.CDF_001107	K01715: crt;enoyl-CoA hydratase
+Thermoactinomyces_sp.CDF_001109	K13300: cccA;cytochrome c550
+Thermoactinomyces_sp.CDF_001110	K00145: argC;N-acetyl-gamma-glutamyl-phosphate reductase
+Thermoactinomyces_sp.CDF_001111	K00620: argJ;glutamate N-acetyltransferase / amino-acid N-acetyltransferase
+Thermoactinomyces_sp.CDF_001112	K00930: argB;acetylglutamate kinase
+Thermoactinomyces_sp.CDF_001113	K00821: argD;acetylornithine/N-succinyldiaminopimelate aminotransferase
+Thermoactinomyces_sp.CDF_001114	K00611: OTC, argF, argI;ornithine carbamoyltransferase
+Thermoactinomyces_sp.CDF_001115	K02662: pilM;type IV pilus assembly protein PilM
+Thermoactinomyces_sp.CDF_001122	K01940: argG, ASS1;argininosuccinate synthase
+Thermoactinomyces_sp.CDF_001123	K01755: argH, ASL;argininosuccinate lyase
+Thermoactinomyces_sp.CDF_001124	K09812: ftsE;cell division transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001125	K09811: ftsX;cell division transport system permease protein
+Thermoactinomyces_sp.CDF_001126	K21471: cwlO;peptidoglycan DL-endopeptidase CwlO
+Thermoactinomyces_sp.CDF_001127	K06194: nlpD;lipoprotein NlpD
+Thermoactinomyces_sp.CDF_001128	K19304: mepM;murein DD-endopeptidase
+Thermoactinomyces_sp.CDF_001129	K03797: E3.4.21.102, prc, ctpA;carboxyl-terminal processing protease
+Thermoactinomyces_sp.CDF_001131	K03702: uvrB;excinuclease ABC subunit B
+Thermoactinomyces_sp.CDF_001132	K03701: uvrA;excinuclease ABC subunit A
+Thermoactinomyces_sp.CDF_001138	K07284: srtA;sortase A
+Thermoactinomyces_sp.CDF_001139	K06023: hprK, ptsK;HPr kinase/phosphorylase
+Thermoactinomyces_sp.CDF_001142	K13292: lgt, umpA;phosphatidylglycerol:prolipoprotein diacylglycerol transferase
+Thermoactinomyces_sp.CDF_001143	K06019: ppaX;pyrophosphatase PpaX
+Thermoactinomyces_sp.CDF_001145	K03296: TC.HAE1;hydrophobic/amphiphilic exporter-1 (mainly G- bacteria), HAE1 family
+Thermoactinomyces_sp.CDF_001147	K03806: ampD;N-acetyl-anhydromuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_001149	K00254: DHODH, pyrD;dihydroorotate dehydrogenase
+Thermoactinomyces_sp.CDF_001152	K02428: rdgB;XTP/dITP diphosphohydrolase
+Thermoactinomyces_sp.CDF_001153	K02502: hisZ;ATP phosphoribosyltransferase regulatory subunit
+Thermoactinomyces_sp.CDF_001154	K00765: hisG;ATP phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_001155	K00013: hisD;histidinol dehydrogenase
+Thermoactinomyces_sp.CDF_001156	K01693: hisB;imidazoleglycerol-phosphate dehydratase
+Thermoactinomyces_sp.CDF_001157	K02501: hisH;glutamine amidotransferase
+Thermoactinomyces_sp.CDF_001158	K01814: hisA;phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase
+Thermoactinomyces_sp.CDF_001159	K02500: hisF;cyclase
+Thermoactinomyces_sp.CDF_001160	K11755: hisIE;phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase
+Thermoactinomyces_sp.CDF_001162	K03671: trxA;thioredoxin 1
+Thermoactinomyces_sp.CDF_001163	K00845: glk;glucokinase
+Thermoactinomyces_sp.CDF_001164	K06958: rapZ;RNase adapter protein RapZ
+Thermoactinomyces_sp.CDF_001166	K09762: K09762;uncharacterized protein
+Thermoactinomyces_sp.CDF_001167	K11189: PTS-HPR;phosphocarrier protein
+Thermoactinomyces_sp.CDF_001170	K01358: clpP, CLPP;ATP-dependent Clp protease, protease subunit
+Thermoactinomyces_sp.CDF_001171	K01470: E3.5.2.10;creatinine amidohydrolase
+Thermoactinomyces_sp.CDF_001172	K03092: rpoN;RNA polymerase sigma-54 factor
+Thermoactinomyces_sp.CDF_001173	K05311: cggR;central glycolytic genes regulator
+Thermoactinomyces_sp.CDF_001174	K00134: GAPDH, gapA;glyceraldehyde 3-phosphate dehydrogenase
+Thermoactinomyces_sp.CDF_001175	K00927: PGK, pgk;phosphoglycerate kinase
+Thermoactinomyces_sp.CDF_001176	K01803: TPI, tpiA;triosephosphate isomerase (TIM)
+Thermoactinomyces_sp.CDF_001177	K15633: gpmI;2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+Thermoactinomyces_sp.CDF_001178	K01689: ENO, eno;enolase
+Thermoactinomyces_sp.CDF_001181	K03928: yvaK;carboxylesterase
+Thermoactinomyces_sp.CDF_001182	K12573: rnr, vacB;ribonuclease R
+Thermoactinomyces_sp.CDF_001183	K03664: smpB;SsrA-binding protein
+Thermoactinomyces_sp.CDF_001184	K14326: UPF1, RENT1;regulator of nonsense transcripts 1
+Thermoactinomyces_sp.CDF_001190	K03186: ubiX, bsdB, PAD1;flavin prenyltransferase
+Thermoactinomyces_sp.CDF_001191	K11068: hlyIII;hemolysin III
+Thermoactinomyces_sp.CDF_001195	K02346: dinB;DNA polymerase IV
+Thermoactinomyces_sp.CDF_001197	K00016: LDH, ldh;L-lactate dehydrogenase
+Thermoactinomyces_sp.CDF_001198	K03303: lctP;lactate permease
+Thermoactinomyces_sp.CDF_001201	K02822: PTS-Ula-EIIB, ulaB, sgaB;PTS system, ascorbate-specific IIB component
+Thermoactinomyces_sp.CDF_001202	K03475: PTS-Ula-EIIC, ulaA, sgaT;PTS system, ascorbate-specific IIC component
+Thermoactinomyces_sp.CDF_001205	K03466: ftsK, spoIIIE;DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+Thermoactinomyces_sp.CDF_001214	K06133: LYS5, acpT;4'-phosphopantetheinyl transferase
+Thermoactinomyces_sp.CDF_001218	K14393: actP;cation/acetate symporter
+Thermoactinomyces_sp.CDF_001219	K02351: K02351;putative membrane protein
+Thermoactinomyces_sp.CDF_001227	K11785: mqnD;1,4-dihydroxy-6-naphthoate synthase
+Thermoactinomyces_sp.CDF_001229	K00782: lldG;L-lactate dehydrogenase complex protein LldG
+Thermoactinomyces_sp.CDF_001230	K18929: lldF;L-lactate dehydrogenase complex protein LldF
+Thermoactinomyces_sp.CDF_001231	K18928: lldE;L-lactate dehydrogenase complex protein LldE
+Thermoactinomyces_sp.CDF_001232	K05799: pdhR;GntR family transcriptional regulator, transcriptional repressor for pyruvate dehydrogenase complex
+Thermoactinomyces_sp.CDF_001236	K06607: iolS;myo-inositol catabolism protein IolS
+Thermoactinomyces_sp.CDF_001237	K01761: E4.4.1.11;methionine-gamma-lyase
+Thermoactinomyces_sp.CDF_001238	K03721: tyrR;transcriptional regulator of aroF, aroG, tyrA and aromatic amino acid transport
+Thermoactinomyces_sp.CDF_001239	K02563: murG;UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+Thermoactinomyces_sp.CDF_001240	K02770: PTS-Fru-EIIC, fruA;PTS system, fructose-specific IIC component
+Thermoactinomyces_sp.CDF_001241	K00882: fruK;1-phosphofructokinase
+Thermoactinomyces_sp.CDF_001242	K03436: fruR2, fruR;DeoR family transcriptional regulator, fructose operon transcriptional repressor
+Thermoactinomyces_sp.CDF_001244	K00548: metH, MTR;5-methyltetrahydrofolate--homocysteine methyltransferase
+Thermoactinomyces_sp.CDF_001245	K00547: mmuM, BHMT2;homocysteine S-methyltransferase
+Thermoactinomyces_sp.CDF_001249	K03527: ispH, lytB;4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase
+Thermoactinomyces_sp.CDF_001255	K21935: ablB;beta-lysine N6-acetyltransferase
+Thermoactinomyces_sp.CDF_001256	K01611: speD, AMD1;S-adenosylmethionine decarboxylase
+Thermoactinomyces_sp.CDF_001257	K08483: PTS-EI.PTSI, ptsI;phosphotransferase system, enzyme I, PtsI
+Thermoactinomyces_sp.CDF_001258	K02784: PTS-HPR.PTSH, ptsH;phosphocarrier protein HPr
+Thermoactinomyces_sp.CDF_001259	K02760: PTS-Cel-EIIB, celA, chbB;PTS system, cellobiose-specific IIB component
+Thermoactinomyces_sp.CDF_001261	K01299: E3.4.17.19;carboxypeptidase Taq
+Thermoactinomyces_sp.CDF_001262	K01012: bioB;biotin synthase
+Thermoactinomyces_sp.CDF_001266	K07516: fadN;3-hydroxyacyl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_001267	K00632: fadA, fadI;acetyl-CoA acyltransferase
+Thermoactinomyces_sp.CDF_001273	K03116: tatA;sec-independent protein translocase protein TatA
+Thermoactinomyces_sp.CDF_001275	K06200: cstA;carbon starvation protein
+Thermoactinomyces_sp.CDF_001276	K02435: gatC, GATC;aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C
+Thermoactinomyces_sp.CDF_001277	K02433: gatA, QRSL1;aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A
+Thermoactinomyces_sp.CDF_001278	K02434: gatB, PET112;aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B
+Thermoactinomyces_sp.CDF_001283	K00033: PGD, gnd, gntZ;6-phosphogluconate dehydrogenase
+Thermoactinomyces_sp.CDF_001284	K06901: pbuG;putative MFS transporter, AGZA family, xanthine/uracil permease
+Thermoactinomyces_sp.CDF_001285	K07029: dagK;diacylglycerol kinase (ATP)
+Thermoactinomyces_sp.CDF_001286	K03215: rumA;23S rRNA (uracil1939-C5)-methyltransferase
+Thermoactinomyces_sp.CDF_001287	K06889: K06889;uncharacterized protein
+Thermoactinomyces_sp.CDF_001292	K03387: ahpF;alkyl hydroperoxide reductase subunit F
+Thermoactinomyces_sp.CDF_001293	K03386: PRDX2_4, ahpC;peroxiredoxin (alkyl hydroperoxide reductase subunit C)
+Thermoactinomyces_sp.CDF_001295	K18476: tetR;TetR/AcrR family transcriptional regulator, tetracycline repressor protein
+Thermoactinomyces_sp.CDF_001302	K03427: hsdM;type I restriction enzyme M protein
+Thermoactinomyces_sp.CDF_001303	K01154: hsdS;type I restriction enzyme, S subunit
+Thermoactinomyces_sp.CDF_001304	K01153: hsdR;type I restriction enzyme, R subunit
+Thermoactinomyces_sp.CDF_001305	K07043: K07043;uncharacterized protein
+Thermoactinomyces_sp.CDF_001314	K07271: licD;lipopolysaccharide cholinephosphotransferase
+Thermoactinomyces_sp.CDF_001316	K01077: E3.1.3.1, phoA, phoB;alkaline phosphatase
+Thermoactinomyces_sp.CDF_001319	K02013: ABC.FEV.A;iron complex transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001320	K02016: ABC.FEV.S;iron complex transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001321	K02015: ABC.FEV.P;iron complex transport system permease protein
+Thermoactinomyces_sp.CDF_001322	K02015: ABC.FEV.P;iron complex transport system permease protein
+Thermoactinomyces_sp.CDF_001324	K00285: dadA;D-amino-acid dehydrogenase
+Thermoactinomyces_sp.CDF_001325	K03885: ndh;NADH dehydrogenase
+Thermoactinomyces_sp.CDF_001326	K03088: rpoE;RNA polymerase sigma-70 factor, ECF subfamily
+Thermoactinomyces_sp.CDF_001328	K01448: amiABC;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_001329	K03768: PPIB, ppiB;peptidyl-prolyl cis-trans isomerase B (cyclophilin B)
+Thermoactinomyces_sp.CDF_001333	K08224: ynfM;MFS transporter, YNFM family, putative membrane transport protein
+Thermoactinomyces_sp.CDF_001337	K07094: pcrB;putative glycerol-1-phosphate prenyltransferase
+Thermoactinomyces_sp.CDF_001338	K03657: uvrD, pcrA;DNA helicase II / ATP-dependent DNA helicase PcrA
+Thermoactinomyces_sp.CDF_001339	K01972: E6.5.1.2, ligA, ligB;DNA ligase (NAD+)
+Thermoactinomyces_sp.CDF_001341	K02049: ABC.SN.A;NitT/TauT family transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001342	K02050: ABC.SN.P;NitT/TauT family transport system permease protein
+Thermoactinomyces_sp.CDF_001345	K06180: rluD;23S rRNA pseudouridine1911/1915/1917 synthase
+Thermoactinomyces_sp.CDF_001347	K00059: fabG;3-oxoacyl-[acyl-carrier protein] reductase
+Thermoactinomyces_sp.CDF_001349	K05366: mrcA;penicillin-binding protein 1A
+Thermoactinomyces_sp.CDF_001355	K21600: csoR, ricR;CsoR family transcriptional regulator, copper-sensing transcriptional repressor
+Thermoactinomyces_sp.CDF_001356	K06889: K06889;uncharacterized protein
+Thermoactinomyces_sp.CDF_001357	K02016: ABC.FEV.S;iron complex transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001358	K02015: ABC.FEV.P;iron complex transport system permease protein
+Thermoactinomyces_sp.CDF_001359	K02013: ABC.FEV.A;iron complex transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001360	K00798: MMAB, pduO;cob(I)alamin adenosyltransferase
+Thermoactinomyces_sp.CDF_001361	K00537: ARSC1, arsC;arsenate reductase
+Thermoactinomyces_sp.CDF_001363	K02437: gcvH, GCSH;glycine cleavage system H protein
+Thermoactinomyces_sp.CDF_001365	K00876: udk, UCK;uridine kinase
+Thermoactinomyces_sp.CDF_001366	K01610: E4.1.1.49, pckA;phosphoenolpyruvate carboxykinase (ATP)
+Thermoactinomyces_sp.CDF_001367	K07571: K07571;S1 RNA binding domain protein
+Thermoactinomyces_sp.CDF_001369	K07139: K07139;uncharacterized protein
+Thermoactinomyces_sp.CDF_001371	K06189: corC;magnesium and cobalt transporter
+Thermoactinomyces_sp.CDF_001372	K00161: PDHA, pdhA;pyruvate dehydrogenase E1 component alpha subunit
+Thermoactinomyces_sp.CDF_001373	K00162: PDHB, pdhB;pyruvate dehydrogenase E1 component beta subunit
+Thermoactinomyces_sp.CDF_001374	K00627: DLAT, aceF, pdhC;pyruvate dehydrogenase E2 component (dihydrolipoamide acetyltransferase)
+Thermoactinomyces_sp.CDF_001375	K00382: DLD, lpd, pdhD;dihydrolipoamide dehydrogenase
+Thermoactinomyces_sp.CDF_001377	K12500: tesC;thioesterase III
+Thermoactinomyces_sp.CDF_001379	K09763: K09763;uncharacterized protein
+Thermoactinomyces_sp.CDF_001382	K01712: hutU, UROC1;urocanate hydratase
+Thermoactinomyces_sp.CDF_001383	K01468: hutI, AMDHD1;imidazolonepropionase
+Thermoactinomyces_sp.CDF_001384	K01479: hutG;formiminoglutamase
+Thermoactinomyces_sp.CDF_001385	K11065: tpx;thiol peroxidase, atypical 2-Cys peroxiredoxin
+Thermoactinomyces_sp.CDF_001386	K01975: thpR;RNA 2',3'-cyclic 3'-phosphodiesterase
+Thermoactinomyces_sp.CDF_001387	K03147: thiC;phosphomethylpyrimidine synthase
+Thermoactinomyces_sp.CDF_001391	K01681: ACO, acnA;aconitate hydratase
+Thermoactinomyces_sp.CDF_001393	K22103: glcR;DeoR family transcriptional regulator, carbon catabolite repression regulator
+Thermoactinomyces_sp.CDF_001394	K10026: queE;7-carboxy-7-deazaguanine synthase
+Thermoactinomyces_sp.CDF_001395	K06920: queC;7-cyano-7-deazaguanine synthase
+Thermoactinomyces_sp.CDF_001396	K01737: queD, ptpS, PTS;6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase
+Thermoactinomyces_sp.CDF_001397	K09457: queF;7-cyano-7-deazaguanine reductase
+Thermoactinomyces_sp.CDF_001402	K01895: ACSS, acs;acetyl-CoA synthetase
+Thermoactinomyces_sp.CDF_001403	K03093: sigI;RNA polymerase sigma factor
+Thermoactinomyces_sp.CDF_001406	K07511: ECHS1;enoyl-CoA hydratase
+Thermoactinomyces_sp.CDF_001407	K00270: pdh;phenylalanine dehydrogenase
+Thermoactinomyces_sp.CDF_001408	K00161: PDHA, pdhA;pyruvate dehydrogenase E1 component alpha subunit
+Thermoactinomyces_sp.CDF_001409	K00162: PDHB, pdhB;pyruvate dehydrogenase E1 component beta subunit
+Thermoactinomyces_sp.CDF_001410	K00627: DLAT, aceF, pdhC;pyruvate dehydrogenase E2 component (dihydrolipoamide acetyltransferase)
+Thermoactinomyces_sp.CDF_001411	K00425: cydA;cytochrome d ubiquinol oxidase subunit I
+Thermoactinomyces_sp.CDF_001412	K00426: cydB;cytochrome d ubiquinol oxidase subunit II
+Thermoactinomyces_sp.CDF_001417	K05884: comC;L-2-hydroxycarboxylate dehydrogenase (NAD+)
+Thermoactinomyces_sp.CDF_001421	K00566: mnmA, trmU;tRNA-uridine 2-sulfurtransferase
+Thermoactinomyces_sp.CDF_001422	K03498: trkH, trkG, ktrB;trk system potassium uptake protein
+Thermoactinomyces_sp.CDF_001423	K07114: yfbK;Ca-activated chloride channel homolog
+Thermoactinomyces_sp.CDF_001425	K07220: K07220;uncharacterized protein
+Thermoactinomyces_sp.CDF_001426	K03306: TC.PIT;inorganic phosphate transporter, PiT family
+Thermoactinomyces_sp.CDF_001427	K01439: dapE;succinyl-diaminopimelate desuccinylase
+Thermoactinomyces_sp.CDF_001429	K04487: iscS, NFS1;cysteine desulfurase
+Thermoactinomyces_sp.CDF_001430	K00278: nadB;L-aspartate oxidase
+Thermoactinomyces_sp.CDF_001431	K00767: nadC, QPRT;nicotinate-nucleotide pyrophosphorylase (carboxylating)
+Thermoactinomyces_sp.CDF_001432	K03517: nadA;quinolinate synthase
+Thermoactinomyces_sp.CDF_001436	K04564: SOD2;superoxide dismutase, Fe-Mn family
+Thermoactinomyces_sp.CDF_001437	K01449: cwlJ, sleB;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_001438	K03429: ugtP;processive 1,2-diacylglycerol beta-glucosyltransferase
+Thermoactinomyces_sp.CDF_001440	K00003: E1.1.1.3;homoserine dehydrogenase
+Thermoactinomyces_sp.CDF_001444	K02346: dinB;DNA polymerase IV
+Thermoactinomyces_sp.CDF_001446	K00318: PRODH;proline dehydrogenase
+Thermoactinomyces_sp.CDF_001447	K00294: E1.2.1.88;1-pyrroline-5-carboxylate dehydrogenase
+Thermoactinomyces_sp.CDF_001448	K21405: acoR;sigma-54 dependent transcriptional regulator, acetoin dehydrogenase operon transcriptional activator AcoR
+Thermoactinomyces_sp.CDF_001449	K03300: TC.CITMHS;citrate-Mg2+:H+ or citrate-Ca2+:H+ symporter, CitMHS family
+Thermoactinomyces_sp.CDF_001450	K07088: K07088;uncharacterized protein
+Thermoactinomyces_sp.CDF_001451	K00874: kdgK;2-dehydro-3-deoxygluconokinase
+Thermoactinomyces_sp.CDF_001453	K01625: eda;2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase
+Thermoactinomyces_sp.CDF_001454	K02525: kdgR;LacI family transcriptional regulator, kdg operon repressor
+Thermoactinomyces_sp.CDF_001455	K08093: hxlA;3-hexulose-6-phosphate synthase
+Thermoactinomyces_sp.CDF_001456	K08094: hxlB;6-phospho-3-hexuloisomerase
+Thermoactinomyces_sp.CDF_001457	K00135: gabD;succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_001460	K01449: cwlJ, sleB;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_001461	K06305: gerQ;spore germination protein Q
+Thermoactinomyces_sp.CDF_001464	K00366: nirA;ferredoxin-nitrite reductase
+Thermoactinomyces_sp.CDF_001466	K00390: cysH;phosphoadenosine phosphosulfate reductase
+Thermoactinomyces_sp.CDF_001467	K00958: sat, met3;sulfate adenylyltransferase
+Thermoactinomyces_sp.CDF_001468	K07090: K07090;uncharacterized protein
+Thermoactinomyces_sp.CDF_001469	K04771: degP, htrA;serine protease Do
+Thermoactinomyces_sp.CDF_001470	K03523: bioY;biotin transport system substrate-specific component
+Thermoactinomyces_sp.CDF_001473	K01704: leuD, IPMI-S;3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit
+Thermoactinomyces_sp.CDF_001474	K01703: leuC, IPMI-L;3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit
+Thermoactinomyces_sp.CDF_001475	K00768: E2.4.2.21, cobU, cobT;nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_001476	K04720: cobD;threonine-phosphate decarboxylase
+Thermoactinomyces_sp.CDF_001477	K02231: cobP, cobU;adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase
+Thermoactinomyces_sp.CDF_001478	K02233: E2.7.8.26, cobS, cobV;adenosylcobinamide-GDP ribazoletransferase
+Thermoactinomyces_sp.CDF_001479	K02226: cobC, phpB;alpha-ribazole phosphatase
+Thermoactinomyces_sp.CDF_001480	K02013: ABC.FEV.A;iron complex transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001481	K02227: cbiB, cobD;adenosylcobinamide-phosphate synthase
+Thermoactinomyces_sp.CDF_001483	K06929: K06929;uncharacterized protein
+Thermoactinomyces_sp.CDF_001484	K07107: ybgC;acyl-CoA thioester hydrolase
+Thermoactinomyces_sp.CDF_001493	K00031: IDH1, IDH2, icd;isocitrate dehydrogenase
+Thermoactinomyces_sp.CDF_001494	K01207: nagZ;beta-N-acetylhexosaminidase
+Thermoactinomyces_sp.CDF_001498	K13853: aroG, aroA;3-deoxy-7-phosphoheptulonate synthase / chorismate mutase
+Thermoactinomyces_sp.CDF_001500	K02529: lacI, galR;LacI family transcriptional regulator
+Thermoactinomyces_sp.CDF_001501	K01243: mtnN, mtn, pfs;adenosylhomocysteine nucleosidase
+Thermoactinomyces_sp.CDF_001503	K01895: ACSS, acs;acetyl-CoA synthetase
+Thermoactinomyces_sp.CDF_001504	K03693: pbp1b;penicillin-binding protein 1B
+Thermoactinomyces_sp.CDF_001505	K03693: pbp1b;penicillin-binding protein 1B
+Thermoactinomyces_sp.CDF_001506	K01866: YARS, tyrS;tyrosyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001508	K01007: pps, ppsA;pyruvate, water dikinase
+Thermoactinomyces_sp.CDF_001509	K02986: RP-S4, rpsD;small subunit ribosomal protein S4
+Thermoactinomyces_sp.CDF_001510	K03439: trmB, METTL1;tRNA (guanine-N7-)-methyltransferase
+Thermoactinomyces_sp.CDF_001513	K22305: psp;phosphoserine phosphatase
+Thermoactinomyces_sp.CDF_001516	K00019: E1.1.1.30, bdh;3-hydroxybutyrate dehydrogenase
+Thermoactinomyces_sp.CDF_001520	K02030: ABC.PA.S;polar amino acid transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001521	K02029: ABC.PA.P;polar amino acid transport system permease protein
+Thermoactinomyces_sp.CDF_001522	K02028: ABC.PA.A;polar amino acid transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001523	K08968: msrC;L-methionine (R)-S-oxide reductase
+Thermoactinomyces_sp.CDF_001524	K19689: ampS, pepS, ampT;aminopeptidase
+Thermoactinomyces_sp.CDF_001525	K02777: PTS-Glc-EIIA, crr;PTS system, sugar-specific IIA component
+Thermoactinomyces_sp.CDF_001527	K02614: paaI;acyl-CoA thioesterase
+Thermoactinomyces_sp.CDF_001529	K01425: glsA, GLS;glutaminase
+Thermoactinomyces_sp.CDF_001531	K07300: chaA, CAX;Ca2+:H+ antiporter
+Thermoactinomyces_sp.CDF_001535	K01436: K01436;amidohydrolase
+Thermoactinomyces_sp.CDF_001537	K06405: spoVAC;stage V sporulation protein AC
+Thermoactinomyces_sp.CDF_001538	K06406: spoVAD;stage V sporulation protein AD
+Thermoactinomyces_sp.CDF_001543	K06213: mgtE;magnesium transporter
+Thermoactinomyces_sp.CDF_001547	K10843: ERCC3, XPB;DNA excision repair protein ERCC-3
+Thermoactinomyces_sp.CDF_001551	K08161: mdtG;MFS transporter, DHA1 family, multidrug resistance protein
+Thermoactinomyces_sp.CDF_001554	K03609: minD;septum site-determining protein MinD
+Thermoactinomyces_sp.CDF_001562	K19091: cas6;CRISPR-associated endoribonuclease Cas6
+Thermoactinomyces_sp.CDF_001564	K02614: paaI;acyl-CoA thioesterase
+Thermoactinomyces_sp.CDF_001566	K01912: paaK;phenylacetate-CoA ligase
+Thermoactinomyces_sp.CDF_001567	K00074: paaH, hbd, fadB, mmgB;3-hydroxybutyryl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_001569	K00626: E2.3.1.9, atoB;acetyl-CoA C-acetyltransferase
+Thermoactinomyces_sp.CDF_001570	K02616: paaX;phenylacetic acid degradation operon negative regulatory protein
+Thermoactinomyces_sp.CDF_001571	K02609: paaA;ring-1,2-phenylacetyl-CoA epoxidase subunit PaaA
+Thermoactinomyces_sp.CDF_001572	K02610: paaB;ring-1,2-phenylacetyl-CoA epoxidase subunit PaaB
+Thermoactinomyces_sp.CDF_001573	K02611: paaC;ring-1,2-phenylacetyl-CoA epoxidase subunit PaaC
+Thermoactinomyces_sp.CDF_001574	K02612: paaD;ring-1,2-phenylacetyl-CoA epoxidase subunit PaaD
+Thermoactinomyces_sp.CDF_001575	K00135: gabD;succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_001576	K00459: ncd2, npd;nitronate monooxygenase
+Thermoactinomyces_sp.CDF_001582	K06334: cotJC;spore coat protein JC
+Thermoactinomyces_sp.CDF_001583	K06333: cotJB;spore coat protein JB
+Thermoactinomyces_sp.CDF_001584	K06419: SASP-B, sspB;small acid-soluble spore protein B (major beta-type SASP)
+Thermoactinomyces_sp.CDF_001585	K01895: ACSS, acs;acetyl-CoA synthetase
+Thermoactinomyces_sp.CDF_001589	K05515: mrdA;penicillin-binding protein 2
+Thermoactinomyces_sp.CDF_001591	K01613: psd, PISD;phosphatidylserine decarboxylase
+Thermoactinomyces_sp.CDF_001593	K08222: yqgE;MFS transporter, YQGE family, putative transporter
+Thermoactinomyces_sp.CDF_001594	K00682: GGCT;gamma-glutamylcyclotransferase
+Thermoactinomyces_sp.CDF_001595	K00128: ALDH;aldehyde dehydrogenase (NAD+)
+Thermoactinomyces_sp.CDF_001596	K16044: iolW;scyllo-inositol 2-dehydrogenase (NADP+)
+Thermoactinomyces_sp.CDF_001597	K19176: FAAH2;fatty acid amide hydrolase 2
+Thermoactinomyces_sp.CDF_001598	K00015: gyaR, GOR1;glyoxylate reductase
+Thermoactinomyces_sp.CDF_001599	K03624: greA;transcription elongation factor GreA
+Thermoactinomyces_sp.CDF_001600	K06886: glbN;hemoglobin
+Thermoactinomyces_sp.CDF_001603	K00951: relA;GTP pyrophosphokinase
+Thermoactinomyces_sp.CDF_001604	K07560: dtd, DTD1;D-tyrosyl-tRNA(Tyr) deacylase
+Thermoactinomyces_sp.CDF_001605	K00615: E2.2.1.1, tktA, tktB;transketolase
+Thermoactinomyces_sp.CDF_001607	K01892: HARS, hisS;histidyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001608	K01876: DARS, aspS;aspartyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001609	K05967: K05967;uncharacterized protein
+Thermoactinomyces_sp.CDF_001613	K07478: ycaJ;putative ATPase
+Thermoactinomyces_sp.CDF_001614	K17472: cymR;Rrf2 family transcriptional regulator, cysteine metabolism repressor
+Thermoactinomyces_sp.CDF_001615	K04487: iscS, NFS1;cysteine desulfurase
+Thermoactinomyces_sp.CDF_001617	K03581: recD;exodeoxyribonuclease V alpha subunit
+Thermoactinomyces_sp.CDF_001622	K01872: AARS, alaS;alanyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001624	K07447: ruvX;putative holliday junction resolvase
+Thermoactinomyces_sp.CDF_001627	K07082: K07082;UPF0755 protein
+Thermoactinomyces_sp.CDF_001628	K21468: pbpI;penicillin-binding protein 4B
+Thermoactinomyces_sp.CDF_001631	K05020: opuD, betL;glycine betaine transporter
+Thermoactinomyces_sp.CDF_001633	K01433: purU;formyltetrahydrofolate deformylase
+Thermoactinomyces_sp.CDF_001634	K03455: TC.KEF;monovalent cation:H+ antiporter-2, CPA2 family
+Thermoactinomyces_sp.CDF_001635	K03657: uvrD, pcrA;DNA helicase II / ATP-dependent DNA helicase PcrA
+Thermoactinomyces_sp.CDF_001636	K02529: lacI, galR;LacI family transcriptional regulator
+Thermoactinomyces_sp.CDF_001637	K00852: rbsK, RBKS;ribokinase
+Thermoactinomyces_sp.CDF_001638	K06726: rbsD;D-ribose pyranase
+Thermoactinomyces_sp.CDF_001639	K10441: rbsA;ribose transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_001640	K10440: rbsC;ribose transport system permease protein
+Thermoactinomyces_sp.CDF_001641	K10439: rbsB;ribose transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001642	K00299: ssuE;FMN reductase
+Thermoactinomyces_sp.CDF_001644	K17228: sfnG;dimethylsulfone monooxygenase
+Thermoactinomyces_sp.CDF_001647	K03091: sigH;RNA polymerase sporulation-specific sigma factor
+Thermoactinomyces_sp.CDF_001648	K07126: K07126;uncharacterized protein
+Thermoactinomyces_sp.CDF_001659	K07171: mazF, ndoA, chpA;mRNA interferase MazF
+Thermoactinomyces_sp.CDF_001663	K00425: cydA;cytochrome d ubiquinol oxidase subunit I
+Thermoactinomyces_sp.CDF_001664	K00426: cydB;cytochrome d ubiquinol oxidase subunit II
+Thermoactinomyces_sp.CDF_001665	K16013: cydD;ATP-binding cassette, subfamily C, bacterial CydD
+Thermoactinomyces_sp.CDF_001666	K16012: cydC;ATP-binding cassette, subfamily C, bacterial CydC
+Thermoactinomyces_sp.CDF_001670	K03305: TC.POT;proton-dependent oligopeptide transporter, POT family
+Thermoactinomyces_sp.CDF_001673	K02199: ccmG, dsbE;cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE
+Thermoactinomyces_sp.CDF_001674	K02826: qoxA;cytochrome aa3-600 menaquinol oxidase subunit II
+Thermoactinomyces_sp.CDF_001675	K02827: qoxB;cytochrome aa3-600 menaquinol oxidase subunit I
+Thermoactinomyces_sp.CDF_001676	K02828: qoxC;cytochrome aa3-600 menaquinol oxidase subunit III
+Thermoactinomyces_sp.CDF_001679	K03424: tatD;TatD DNase family protein
+Thermoactinomyces_sp.CDF_001681	K08969: mtnE, mtnV;aminotransferase
+Thermoactinomyces_sp.CDF_001683	K01271: pepQ;Xaa-Pro dipeptidase
+Thermoactinomyces_sp.CDF_001688	K07015: K07015;uncharacterized protein
+Thermoactinomyces_sp.CDF_001689	K06948: yqeH;30S ribosome assembly GTPase
+Thermoactinomyces_sp.CDF_001690	K00014: aroE;shikimate dehydrogenase
+Thermoactinomyces_sp.CDF_001691	K00969: nadD;nicotinate-nucleotide adenylyltransferase
+Thermoactinomyces_sp.CDF_001693	K09710: ybeB;ribosome-associated protein
+Thermoactinomyces_sp.CDF_001695	K01869: LARS, leuS;leucyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001696	K02237: comEA;competence protein ComEA
+Thermoactinomyces_sp.CDF_001698	K01739: metB;cystathionine gamma-synthase
+Thermoactinomyces_sp.CDF_001699	K01760: metC;cystathionine beta-lyase
+Thermoactinomyces_sp.CDF_001700	K01494: dcd;dCTP deaminase
+Thermoactinomyces_sp.CDF_001702	K02238: comEC;competence protein ComEC
+Thermoactinomyces_sp.CDF_001703	K03088: rpoE;RNA polymerase sigma-70 factor, ECF subfamily
+Thermoactinomyces_sp.CDF_001705	K02340: holA;DNA polymerase III subunit delta
+Thermoactinomyces_sp.CDF_001709	K01867: WARS, trpS;tryptophanyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001710	K02968: RP-S20, rpsT;small subunit ribosomal protein S20
+Thermoactinomyces_sp.CDF_001711	K06012: gpr;spore protease
+Thermoactinomyces_sp.CDF_001712	K06385: spoIIP;stage II sporulation protein P
+Thermoactinomyces_sp.CDF_001714	K03596: lepA;GTP-binding protein LepA
+Thermoactinomyces_sp.CDF_001716	K03705: hrcA;heat-inducible transcriptional repressor
+Thermoactinomyces_sp.CDF_001717	K09493: CCT1, TCP1;T-complex protein 1 subunit alpha
+Thermoactinomyces_sp.CDF_001718	K03687: GRPE;molecular chaperone GrpE
+Thermoactinomyces_sp.CDF_001719	K04043: dnaK, HSPA9;molecular chaperone DnaK
+Thermoactinomyces_sp.CDF_001720	K03686: dnaJ;molecular chaperone DnaJ
+Thermoactinomyces_sp.CDF_001721	K02687: prmA;ribosomal protein L11 methyltransferase
+Thermoactinomyces_sp.CDF_001722	K09761: rsmE;16S rRNA (uracil1498-N3)-methyltransferase
+Thermoactinomyces_sp.CDF_001723	K18707: mtaB;threonylcarbamoyladenosine tRNA methylthiotransferase MtaB
+Thermoactinomyces_sp.CDF_001725	K03324: yjbB;phosphate:Na+ symporter
+Thermoactinomyces_sp.CDF_001727	K02503: HINT1, hinT, hit;histidine triad (HIT) family protein
+Thermoactinomyces_sp.CDF_001728	K02970: RP-S21, MRPS21, rpsU;small subunit ribosomal protein S21
+Thermoactinomyces_sp.CDF_001729	K09117: K09117;uncharacterized protein
+Thermoactinomyces_sp.CDF_001730	K07403: nfeD;membrane-bound serine protease (ClpP class)
+Thermoactinomyces_sp.CDF_001733	K06421: sspD;small acid-soluble spore protein D (minor alpha/beta-type SASP)
+Thermoactinomyces_sp.CDF_001735	K06438: yqfD;similar to stage IV sporulation protein
+Thermoactinomyces_sp.CDF_001736	K06217: phoH, phoL;phosphate starvation-inducible protein PhoH and related proteins
+Thermoactinomyces_sp.CDF_001737	K07037: K07037;uncharacterized protein
+Thermoactinomyces_sp.CDF_001738	K07042: ybeY, yqfG;probable rRNA maturation factor
+Thermoactinomyces_sp.CDF_001740	K03595: era, ERAL1;GTPase
+Thermoactinomyces_sp.CDF_001741	K03584: recO;DNA repair protein RecO (recombination protein O)
+Thermoactinomyces_sp.CDF_001742	K01878: glyQ;glycyl-tRNA synthetase alpha chain
+Thermoactinomyces_sp.CDF_001743	K01879: glyS;glycyl-tRNA synthetase beta chain
+Thermoactinomyces_sp.CDF_001746	K09773: ppsR;[pyruvate, water dikinase]-phosphate phosphotransferase / [pyruvate, water dikinase] kinase
+Thermoactinomyces_sp.CDF_001747	K01006: ppdK;pyruvate, orthophosphate dikinase
+Thermoactinomyces_sp.CDF_001748	K02316: dnaG;DNA primase
+Thermoactinomyces_sp.CDF_001749	K03086: rpoD;RNA polymerase primary sigma factor
+Thermoactinomyces_sp.CDF_001751	K00666: K00666;fatty-acyl-CoA synthase
+Thermoactinomyces_sp.CDF_001752	K03817: rimL;ribosomal-protein-serine acetyltransferase
+Thermoactinomyces_sp.CDF_001753	K00457: HPD, hppD;4-hydroxyphenylpyruvate dioxygenase
+Thermoactinomyces_sp.CDF_001755	K06967: trmK;tRNA (adenine22-N1)-methyltransferase
+Thermoactinomyces_sp.CDF_001761	K10810: tenI;thiazole tautomerase (transcriptional regulator TenI)
+Thermoactinomyces_sp.CDF_001762	K03153: thiO;glycine oxidase
+Thermoactinomyces_sp.CDF_001763	K03154: thiS;sulfur carrier protein
+Thermoactinomyces_sp.CDF_001764	K03149: thiG;thiazole synthase
+Thermoactinomyces_sp.CDF_001765	K03588: ftsW, spoVE;cell division protein FtsW
+Thermoactinomyces_sp.CDF_001766	K05837: rodA, mrdB;rod shape determining protein RodA
+Thermoactinomyces_sp.CDF_001769	K06973: K06973;uncharacterized protein
+Thermoactinomyces_sp.CDF_001772	K15580: oppA, mppA;oligopeptide transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_001775	K01673: cynT, can;carbonic anhydrase
+Thermoactinomyces_sp.CDF_001776	K07304: msrA;peptide-methionine (S)-S-oxide reductase
+Thermoactinomyces_sp.CDF_001778	K04487: iscS, NFS1;cysteine desulfurase
+Thermoactinomyces_sp.CDF_001779	K03151: thiI;tRNA uracil 4-sulfurtransferase
+Thermoactinomyces_sp.CDF_001782	K02652: pilB;type IV pilus assembly protein PilB
+Thermoactinomyces_sp.CDF_001783	K02653: pilC;type IV pilus assembly protein PilC
+Thermoactinomyces_sp.CDF_001791	K03526: gcpE, ispG;(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase
+Thermoactinomyces_sp.CDF_001792	K09779: K09779;uncharacterized protein
+Thermoactinomyces_sp.CDF_001793	K07010: K07010;putative glutamine amidotransferase
+Thermoactinomyces_sp.CDF_001800	K07053: E3.1.3.97;3',5'-nucleoside bisphosphate phosphatase
+Thermoactinomyces_sp.CDF_001806	K14645: K14645;serine protease
+Thermoactinomyces_sp.CDF_001807	K05346: deoR;deoxyribonucleoside regulator
+Thermoactinomyces_sp.CDF_001808	K00756: pdp;pyrimidine-nucleoside phosphorylase
+Thermoactinomyces_sp.CDF_001809	K01619: deoC, DERA;deoxyribose-phosphate aldolase
+Thermoactinomyces_sp.CDF_001810	K01489: cdd, CDA;cytidine deaminase
+Thermoactinomyces_sp.CDF_001814	K09760: rmuC;DNA recombination protein RmuC
+Thermoactinomyces_sp.CDF_001816	K19302: bcrC;undecaprenyl-diphosphatase
+Thermoactinomyces_sp.CDF_001821	K01585: speA;arginine decarboxylase
+Thermoactinomyces_sp.CDF_001824	K01255: CARP, pepA;leucyl aminopeptidase
+Thermoactinomyces_sp.CDF_001825	K01126: E3.1.4.46, glpQ, ugpQ;glycerophosphoryl diester phosphodiesterase
+Thermoactinomyces_sp.CDF_001826	K01151: nfo;deoxyribonuclease IV
+Thermoactinomyces_sp.CDF_001833	K06196: ccdA;cytochrome c-type biogenesis protein
+Thermoactinomyces_sp.CDF_001835	K03972: pspE;phage shock protein E
+Thermoactinomyces_sp.CDF_001836	K01738: cysK;cysteine synthase A
+Thermoactinomyces_sp.CDF_001838	K00209: fabV, ter;enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase (NAD+)
+Thermoactinomyces_sp.CDF_001843	K01961: accC;acetyl-CoA carboxylase, biotin carboxylase subunit
+Thermoactinomyces_sp.CDF_001844	K02160: accB, bccP;acetyl-CoA carboxylase biotin carboxyl carrier protein
+Thermoactinomyces_sp.CDF_001845	K01640: E4.1.3.4, HMGCL, hmgL;hydroxymethylglutaryl-CoA lyase
+Thermoactinomyces_sp.CDF_001846	K05607: AUH;methylglutaconyl-CoA hydratase
+Thermoactinomyces_sp.CDF_001848	K00077: panE, apbA;2-dehydropantoate 2-reductase
+Thermoactinomyces_sp.CDF_001850	K22136: bshC;bacillithiol synthase
+Thermoactinomyces_sp.CDF_001851	K01251: E3.3.1.1, ahcY;adenosylhomocysteinase
+Thermoactinomyces_sp.CDF_001852	K03925: mraZ;MraZ protein
+Thermoactinomyces_sp.CDF_001853	K03438: mraW, rsmH;16S rRNA (cytosine1402-N4)-methyltransferase
+Thermoactinomyces_sp.CDF_001855	K03587: ftsI;cell division protein FtsI (penicillin-binding protein 3)
+Thermoactinomyces_sp.CDF_001856	K08384: spoVD;stage V sporulation protein D (sporulation-specific penicillin-binding protein)
+Thermoactinomyces_sp.CDF_001857	K01928: murE;UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+Thermoactinomyces_sp.CDF_001858	K01929: murF;UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+Thermoactinomyces_sp.CDF_001859	K01000: mraY;phospho-N-acetylmuramoyl-pentapeptide-transferase
+Thermoactinomyces_sp.CDF_001860	K01925: murD;UDP-N-acetylmuramoylalanine--D-glutamate ligase
+Thermoactinomyces_sp.CDF_001861	K03588: ftsW, spoVE;cell division protein FtsW
+Thermoactinomyces_sp.CDF_001862	K02563: murG;UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+Thermoactinomyces_sp.CDF_001863	K00075: murB;UDP-N-acetylmuramate dehydrogenase
+Thermoactinomyces_sp.CDF_001864	K00790: murA;UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+Thermoactinomyces_sp.CDF_001865	K03589: ftsQ;cell division protein FtsQ
+Thermoactinomyces_sp.CDF_001866	K03590: ftsA;cell division protein FtsA
+Thermoactinomyces_sp.CDF_001867	K03531: ftsZ;cell division protein FtsZ
+Thermoactinomyces_sp.CDF_001868	K06383: spoIIGA;stage II sporulation protein GA (sporulation sigma-E factor processing peptidase)
+Thermoactinomyces_sp.CDF_001869	K03091: sigH;RNA polymerase sporulation-specific sigma factor
+Thermoactinomyces_sp.CDF_001870	K03091: sigH;RNA polymerase sporulation-specific sigma factor
+Thermoactinomyces_sp.CDF_001872	K05810: yfiH;polyphenol oxidase
+Thermoactinomyces_sp.CDF_001873	K06997: yggS, PROSC;PLP dependent protein
+Thermoactinomyces_sp.CDF_001874	K09772: sepF;cell division inhibitor SepF
+Thermoactinomyces_sp.CDF_001875	K02221: yggT;YggT family protein
+Thermoactinomyces_sp.CDF_001877	K04074: divIVA;cell division initiation protein
+Thermoactinomyces_sp.CDF_001878	K01870: IARS, ileS;isoleucyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_001879	K03293: TC.AAT;amino acid transporter, AAT family
+Thermoactinomyces_sp.CDF_001881	K03101: lspA;signal peptidase II
+Thermoactinomyces_sp.CDF_001882	K06180: rluD;23S rRNA pseudouridine1911/1915/1917 synthase
+Thermoactinomyces_sp.CDF_001883	K02825: pyrR;pyrimidine operon attenuation protein / uracil phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_001884	K02824: pyrP, uraA;uracil permease
+Thermoactinomyces_sp.CDF_001885	K00609: pyrB, PYR2;aspartate carbamoyltransferase catalytic subunit
+Thermoactinomyces_sp.CDF_001886	K01465: URA4, pyrC;dihydroorotase
+Thermoactinomyces_sp.CDF_001887	K01956: carA, CPA1;carbamoyl-phosphate synthase small subunit
+Thermoactinomyces_sp.CDF_001888	K01955: carB, CPA2;carbamoyl-phosphate synthase large subunit
+Thermoactinomyces_sp.CDF_001889	K01591: pyrF;orotidine-5'-phosphate decarboxylase
+Thermoactinomyces_sp.CDF_001890	K00762: pyrE;orotate phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_001892	K01537: E3.6.3.8;Ca2+-transporting ATPase
+Thermoactinomyces_sp.CDF_001893	K01778: dapF;diaminopimelate epimerase
+Thermoactinomyces_sp.CDF_001895	K01810: GPI, pgi;glucose-6-phosphate isomerase
+Thermoactinomyces_sp.CDF_001897	K03294: TC.APA;basic amino acid/polyamine antiporter, APA family
+Thermoactinomyces_sp.CDF_001898	K06409: spoVB;stage V sporulation protein B
+Thermoactinomyces_sp.CDF_001900	K09777: K09777;uncharacterized protein
+Thermoactinomyces_sp.CDF_001901	K00942: E2.7.4.8, gmk;guanylate kinase
+Thermoactinomyces_sp.CDF_001902	K03060: rpoZ;DNA-directed RNA polymerase subunit omega
+Thermoactinomyces_sp.CDF_001904	K13038: coaBC, dfp;phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase
+Thermoactinomyces_sp.CDF_001905	K04066: priA;primosomal protein N' (replication factor Y) (superfamily II helicase)
+Thermoactinomyces_sp.CDF_001906	K01462: PDF, def;peptide deformylase
+Thermoactinomyces_sp.CDF_001907	K00604: MTFMT, fmt;methionyl-tRNA formyltransferase
+Thermoactinomyces_sp.CDF_001908	K03500: rsmB, sun;16S rRNA (cytosine967-C5)-methyltransferase
+Thermoactinomyces_sp.CDF_001909	K06295: gerKA;spore germination protein KA
+Thermoactinomyces_sp.CDF_001910	K06311: yndE;spore germination protein
+Thermoactinomyces_sp.CDF_001911	K06308: yfkR;spore germination protein
+Thermoactinomyces_sp.CDF_001912	K06941: rlmN;23S rRNA (adenine2503-C2)-methyltransferase
+Thermoactinomyces_sp.CDF_001913	K20074: prpC, phpP;PPM family protein phosphatase
+Thermoactinomyces_sp.CDF_001914	K12132: prkC, stkP;eukaryotic-like serine/threonine-protein kinase
+Thermoactinomyces_sp.CDF_001915	K06949: rsgA, engC;ribosome biogenesis GTPase / thiamine phosphate phosphatase
+Thermoactinomyces_sp.CDF_001916	K01783: rpe, RPE;ribulose-phosphate 3-epimerase
+Thermoactinomyces_sp.CDF_001917	K16789: thiT;thiamine transporter
+Thermoactinomyces_sp.CDF_001918	K00949: thiN, TPK1, THI80;thiamine pyrophosphokinase
+Thermoactinomyces_sp.CDF_001920	K02902: RP-L28, MRPL28, rpmB;large subunit ribosomal protein L28
+Thermoactinomyces_sp.CDF_001922	K07030: K07030;uncharacterized protein
+Thermoactinomyces_sp.CDF_001924	K01752: E4.3.1.17, sdaA, sdaB, tdcG;L-serine dehydratase
+Thermoactinomyces_sp.CDF_001925	K01752: E4.3.1.17, sdaA, sdaB, tdcG;L-serine dehydratase
+Thermoactinomyces_sp.CDF_001926	K03655: recG;ATP-dependent DNA helicase RecG
+Thermoactinomyces_sp.CDF_001930	K08316: rsmD;16S rRNA (guanine966-N2)-methyltransferase
+Thermoactinomyces_sp.CDF_001931	K00954: E2.7.7.3A, coaD, kdtB;pantetheine-phosphate adenylyltransferase
+Thermoactinomyces_sp.CDF_001933	K07001: K07001;NTE family protein
+Thermoactinomyces_sp.CDF_001934	K07177: K07177;Lon-like protease
+Thermoactinomyces_sp.CDF_001935	K07040: K07040;uncharacterized protein
+Thermoactinomyces_sp.CDF_001936	K02911: RP-L32, MRPL32, rpmF;large subunit ribosomal protein L32
+Thermoactinomyces_sp.CDF_001938	K03621: plsX;glycerol-3-phosphate acyltransferase PlsX
+Thermoactinomyces_sp.CDF_001939	K00648: fabH;3-oxoacyl-[acyl-carrier-protein] synthase III
+Thermoactinomyces_sp.CDF_001940	K00645: fabD;[acyl-carrier-protein] S-malonyltransferase
+Thermoactinomyces_sp.CDF_001941	K00059: fabG;3-oxoacyl-[acyl-carrier protein] reductase
+Thermoactinomyces_sp.CDF_001942	K02078: acpP;acyl carrier protein
+Thermoactinomyces_sp.CDF_001943	K09458: fabF;3-oxoacyl-[acyl-carrier-protein] synthase II
+Thermoactinomyces_sp.CDF_001944	K03685: rnc, DROSHA, RNT1;ribonuclease III
+Thermoactinomyces_sp.CDF_001948	K03529: smc;chromosome segregation protein
+Thermoactinomyces_sp.CDF_001949	K03110: ftsY;fused signal recognition particle receptor
+Thermoactinomyces_sp.CDF_001950	K09787: K09787;uncharacterized protein
+Thermoactinomyces_sp.CDF_001951	K03106: SRP54, ffh;signal recognition particle subunit SRP54
+Thermoactinomyces_sp.CDF_001952	K02959: RP-S16, MRPS16, rpsP;small subunit ribosomal protein S16
+Thermoactinomyces_sp.CDF_001953	K06960: K06960;uncharacterized protein
+Thermoactinomyces_sp.CDF_001954	K02860: rimM;16S rRNA processing protein RimM
+Thermoactinomyces_sp.CDF_001955	K00554: trmD;tRNA (guanine37-N1)-methyltransferase
+Thermoactinomyces_sp.CDF_001956	K02884: RP-L19, MRPL19, rplS;large subunit ribosomal protein L19
+Thermoactinomyces_sp.CDF_001957	K03100: lepB;signal peptidase I
+Thermoactinomyces_sp.CDF_001958	K14540: rbgA;ribosome biogenesis GTPase A
+Thermoactinomyces_sp.CDF_001959	K03470: rnhB;ribonuclease HII
+Thermoactinomyces_sp.CDF_001960	K07460: yraN;putative endonuclease
+Thermoactinomyces_sp.CDF_001961	K01754: E4.3.1.19, ilvA, tdcB;threonine dehydratase
+Thermoactinomyces_sp.CDF_001963	K07391: comM;magnesium chelatase family protein
+Thermoactinomyces_sp.CDF_001970	K01174: nuc;micrococcal nuclease
+Thermoactinomyces_sp.CDF_001971	K06377: spo0M;sporulation-control protein
+Thermoactinomyces_sp.CDF_001972	K01448: amiABC;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_001973	K11103: dctA;aerobic C4-dicarboxylate transport protein
+Thermoactinomyces_sp.CDF_001976	K01958: PC, pyc;pyruvate carboxylase
+Thermoactinomyces_sp.CDF_001977	K00931: proB;glutamate 5-kinase
+Thermoactinomyces_sp.CDF_001978	K00147: proA;glutamate-5-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_001982	K03429: ugtP;processive 1,2-diacylglycerol beta-glucosyltransferase
+Thermoactinomyces_sp.CDF_001983	K03641: tolB;TolB protein
+Thermoactinomyces_sp.CDF_001986	K03315: nhaC;Na+:H+ antiporter, NhaC family
+Thermoactinomyces_sp.CDF_001994	K01903: sucC;succinyl-CoA synthetase beta subunit
+Thermoactinomyces_sp.CDF_001995	K01902: sucD;succinyl-CoA synthetase alpha subunit
+Thermoactinomyces_sp.CDF_001996	K04096: smf;DNA processing protein
+Thermoactinomyces_sp.CDF_001997	K03168: topA;DNA topoisomerase I
+Thermoactinomyces_sp.CDF_001998	K04094: trmFO, gid;methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase
+Thermoactinomyces_sp.CDF_001999	K01419: hslV, clpQ;ATP-dependent HslUV protease, peptidase subunit HslV
+Thermoactinomyces_sp.CDF_002001	K03667: hslU;ATP-dependent HslUV protease ATP-binding subunit HslU
+Thermoactinomyces_sp.CDF_002002	K02967: RP-S2, MRPS2, rpsB;small subunit ribosomal protein S2
+Thermoactinomyces_sp.CDF_002003	K02357: tsf, TSFM;elongation factor Ts
+Thermoactinomyces_sp.CDF_002004	K09903: pyrH;uridylate kinase
+Thermoactinomyces_sp.CDF_002005	K02838: frr, MRRF, RRF;ribosome recycling factor
+Thermoactinomyces_sp.CDF_002006	K00806: uppS;undecaprenyl diphosphate synthase
+Thermoactinomyces_sp.CDF_002007	K00981: E2.7.7.41, CDS1, CDS2, cdsA;phosphatidate cytidylyltransferase
+Thermoactinomyces_sp.CDF_002008	K00099: dxr;1-deoxy-D-xylulose-5-phosphate reductoisomerase
+Thermoactinomyces_sp.CDF_002009	K11749: rseP;regulator of sigma E protease
+Thermoactinomyces_sp.CDF_002010	K01881: PARS, proS;prolyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_002011	K03778: ldhA;D-lactate dehydrogenase
+Thermoactinomyces_sp.CDF_002013	K01921: ddl;D-alanine-D-alanine ligase
+Thermoactinomyces_sp.CDF_002014	K08641: vanX;zinc D-Ala-D-Ala dipeptidase
+Thermoactinomyces_sp.CDF_002015	K07659: ompR;two-component system, OmpR family, phosphate regulon response regulator OmpR
+Thermoactinomyces_sp.CDF_002018	K02000: proV;glycine betaine/proline transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002019	K02001: proW;glycine betaine/proline transport system permease protein
+Thermoactinomyces_sp.CDF_002020	K02761: PTS-Cel-EIIC, celB, chbC;PTS system, cellobiose-specific IIC component
+Thermoactinomyces_sp.CDF_002021	K02760: PTS-Cel-EIIB, celA, chbB;PTS system, cellobiose-specific IIB component
+Thermoactinomyces_sp.CDF_002022	K02759: PTS-Cel-EIIA, celC, chbA;PTS system, cellobiose-specific IIA component
+Thermoactinomyces_sp.CDF_002023	K09963: K09963;uncharacterized protein
+Thermoactinomyces_sp.CDF_002024	K02443: glpP;glycerol uptake operon antiterminator
+Thermoactinomyces_sp.CDF_002025	K02440: GLPF;glycerol uptake facilitator protein
+Thermoactinomyces_sp.CDF_002026	K00864: glpK, GK;glycerol kinase
+Thermoactinomyces_sp.CDF_002027	K00111: glpA, glpD;glycerol-3-phosphate dehydrogenase
+Thermoactinomyces_sp.CDF_002029	K07305: msrB;peptide-methionine (R)-S-oxide reductase
+Thermoactinomyces_sp.CDF_002030	K08602: pepF, pepB;oligoendopeptidase F
+Thermoactinomyces_sp.CDF_002031	K13993: HSP20;HSP20 family protein
+Thermoactinomyces_sp.CDF_002034	K09748: rimP;ribosome maturation factor RimP
+Thermoactinomyces_sp.CDF_002035	K02600: nusA;N utilization substance protein A
+Thermoactinomyces_sp.CDF_002036	K07742: ylxR;uncharacterized protein
+Thermoactinomyces_sp.CDF_002038	K02519: infB, MTIF2;translation initiation factor IF-2
+Thermoactinomyces_sp.CDF_002040	K02834: rbfA;ribosome-binding factor A
+Thermoactinomyces_sp.CDF_002041	K06881: nrnA;bifunctional oligoribonuclease and PAP phosphatase NrnA
+Thermoactinomyces_sp.CDF_002042	K03177: truB, PUS4, TRUB1;tRNA pseudouridine55 synthase
+Thermoactinomyces_sp.CDF_002043	K11753: ribF;riboflavin kinase / FMN adenylyltransferase
+Thermoactinomyces_sp.CDF_002044	K02956: RP-S15, MRPS15, rpsO;small subunit ribosomal protein S15
+Thermoactinomyces_sp.CDF_002045	K00962: pnp, PNPT1;polyribonucleotide nucleotidyltransferase
+Thermoactinomyces_sp.CDF_002048	K01520: dut, DUT;dUTP pyrophosphatase
+Thermoactinomyces_sp.CDF_002051	K06410: spoVFA;dipicolinate synthase subunit A
+Thermoactinomyces_sp.CDF_002052	K06411: spoVFB;dipicolinate synthase subunit B
+Thermoactinomyces_sp.CDF_002053	K00133: asd;aspartate-semialdehyde dehydrogenase
+Thermoactinomyces_sp.CDF_002054	K00928: lysC;aspartate kinase
+Thermoactinomyces_sp.CDF_002055	K01714: dapA;4-hydroxy-tetrahydrodipicolinate synthase
+Thermoactinomyces_sp.CDF_002057	K12574: rnj;ribonuclease J
+Thermoactinomyces_sp.CDF_002062	K11741: sugE;quaternary ammonium compound-resistance protein SugE
+Thermoactinomyces_sp.CDF_002064	K15655: srfAB, lchAB;surfactin family lipopeptide synthetase B
+Thermoactinomyces_sp.CDF_002066	K05878: dhaK;dihydroxyacetone kinase, N-terminal domain
+Thermoactinomyces_sp.CDF_002067	K05879: dhaL;dihydroxyacetone kinase, C-terminal domain
+Thermoactinomyces_sp.CDF_002071	K03466: ftsK, spoIIIE;DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+Thermoactinomyces_sp.CDF_002074	K00059: fabG;3-oxoacyl-[acyl-carrier protein] reductase
+Thermoactinomyces_sp.CDF_002080	K15539: rodZ;cytoskeleton protein RodZ
+Thermoactinomyces_sp.CDF_002082	K00995: pgsA, PGS1;CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase
+Thermoactinomyces_sp.CDF_002083	K03742: pncC;nicotinamide-nucleotide amidase
+Thermoactinomyces_sp.CDF_002084	K05592: deaD, cshA;ATP-dependent RNA helicase DeaD
+Thermoactinomyces_sp.CDF_002086	K03553: recA;recombination protein RecA
+Thermoactinomyces_sp.CDF_002087	K03565: recX;regulatory protein
+Thermoactinomyces_sp.CDF_002089	K03546: sbcC, rad50;DNA repair protein SbcC/Rad50
+Thermoactinomyces_sp.CDF_002092	K18682: rny;ribonucrease Y
+Thermoactinomyces_sp.CDF_002093	K09769: K09769;uncharacterized protein
+Thermoactinomyces_sp.CDF_002094	K06416: spoVS;stage V sporulation protein S
+Thermoactinomyces_sp.CDF_002095	K01273: DPEP;membrane dipeptidase
+Thermoactinomyces_sp.CDF_002096	K00174: korA, oorA, oforA;2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha
+Thermoactinomyces_sp.CDF_002097	K00175: korB, oorB, oforB;2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta
+Thermoactinomyces_sp.CDF_002099	K03816: xpt;xanthine phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_002100	K06168: miaB;tRNA-2-methylthio-N6-dimethylallyladenosine synthase
+Thermoactinomyces_sp.CDF_002102	K06328: cotE;spore coat protein E
+Thermoactinomyces_sp.CDF_002105	K03555: mutS;DNA mismatch repair protein MutS
+Thermoactinomyces_sp.CDF_002106	K03572: mutL;DNA mismatch repair protein MutL
+Thermoactinomyces_sp.CDF_002108	K00791: miaA, TRIT1;tRNA dimethylallyltransferase
+Thermoactinomyces_sp.CDF_002109	K03666: hfq;host factor-I protein
+Thermoactinomyces_sp.CDF_002110	K06413: spoVK;stage V sporulation protein K
+Thermoactinomyces_sp.CDF_002111	K03665: hflX;GTPase
+Thermoactinomyces_sp.CDF_002113	K09793: K09793;uncharacterized protein
+Thermoactinomyces_sp.CDF_002114	K03713: glnR;MerR family transcriptional regulator, glutamine synthetase repressor
+Thermoactinomyces_sp.CDF_002115	K01915: glnA, GLUL;glutamine synthetase
+Thermoactinomyces_sp.CDF_002118	K02750: PTS-Glv-EIIC, glvC, malP, aglA;PTS system, alpha-glucoside-specific IIC component
+Thermoactinomyces_sp.CDF_002123	K10914: crp;CRP/FNR family transcriptional regulator, cyclic AMP receptor protein
+Thermoactinomyces_sp.CDF_002124	K05916: hmp, YHB1;nitric oxide dioxygenase
+Thermoactinomyces_sp.CDF_002125	K02297: cyoA;cytochrome o ubiquinol oxidase subunit II
+Thermoactinomyces_sp.CDF_002126	K02827: qoxB;cytochrome aa3-600 menaquinol oxidase subunit I
+Thermoactinomyces_sp.CDF_002127	K02299: cyoC;cytochrome o ubiquinol oxidase subunit III
+Thermoactinomyces_sp.CDF_002129	K02257: COX10, ctaB, cyoE;heme o synthase
+Thermoactinomyces_sp.CDF_002134	K00368: nirK;nitrite reductase (NO-forming)
+Thermoactinomyces_sp.CDF_002140	K04561: norB;nitric oxide reductase subunit B
+Thermoactinomyces_sp.CDF_002142	K01599: hemE, UROD;uroporphyrinogen decarboxylase
+Thermoactinomyces_sp.CDF_002143	K01772: hemH, FECH;protoporphyrin/coproporphyrin ferrochelatase
+Thermoactinomyces_sp.CDF_002144	K00231: PPOX, hemY;protoporphyrinogen/coproporphyrinogen III oxidase
+Thermoactinomyces_sp.CDF_002145	K00435: hemQ;Fe-coproporphyrin III decarboxylase
+Thermoactinomyces_sp.CDF_002146	K19271: catA;chloramphenicol O-acetyltransferase type A
+Thermoactinomyces_sp.CDF_002149	K01893: NARS, asnS;asparaginyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_002150	K02086: dnaD;DNA replication protein
+Thermoactinomyces_sp.CDF_002151	K07106: murQ;N-acetylmuramic acid 6-phosphate etherase
+Thermoactinomyces_sp.CDF_002153	K02810: PTS-Scr-EIIC, scrA, sacP, sacX, ptsS;PTS system, sucrose-specific IIC component
+Thermoactinomyces_sp.CDF_002155	K19955: adh2;alcohol dehydrogenase
+Thermoactinomyces_sp.CDF_002156	K03311: TC.LIVCS;branched-chain amino acid:cation transporter, LIVCS family
+Thermoactinomyces_sp.CDF_002157	K01929: murF;UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+Thermoactinomyces_sp.CDF_002161	K06306: yaaH;spore germination protein
+Thermoactinomyces_sp.CDF_002162	K07213: ATOX1, ATX1, copZ, golB;copper chaperone
+Thermoactinomyces_sp.CDF_002163	K17686: copA, ATP7;Cu+-exporting ATPase
+Thermoactinomyces_sp.CDF_002164	K15866: paaG;2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase
+Thermoactinomyces_sp.CDF_002165	K07029: dagK;diacylglycerol kinase (ATP)
+Thermoactinomyces_sp.CDF_002166	K07124: K07124;uncharacterized protein
+Thermoactinomyces_sp.CDF_002168	K01557: FAHD1;acylpyruvate hydrolase
+Thermoactinomyces_sp.CDF_002169	K01046: lip, TGL2;triacylglycerol lipase
+Thermoactinomyces_sp.CDF_002170	K22109: gbsR;HTH-type transcriptional regulator, glycine betaine synthesis regulator
+Thermoactinomyces_sp.CDF_002171	K00130: betB, gbsA;betaine-aldehyde dehydrogenase
+Thermoactinomyces_sp.CDF_002172	K11440: gbsB;choline dehydrogenase
+Thermoactinomyces_sp.CDF_002174	K03784: deoD;purine-nucleoside phosphorylase
+Thermoactinomyces_sp.CDF_002175	K19285: nfrA1;FMN reductase (NADPH)
+Thermoactinomyces_sp.CDF_002179	K07052: K07052;uncharacterized protein
+Thermoactinomyces_sp.CDF_002180	K07220: K07220;uncharacterized protein
+Thermoactinomyces_sp.CDF_002181	K04759: feoB;ferrous iron transport protein B
+Thermoactinomyces_sp.CDF_002182	K04759: feoB;ferrous iron transport protein B
+Thermoactinomyces_sp.CDF_002183	K04758: feoA;ferrous iron transport protein A
+Thermoactinomyces_sp.CDF_002184	K02862: ctaG;putative membrane protein
+Thermoactinomyces_sp.CDF_002185	K12263: cccB;cytochrome c551
+Thermoactinomyces_sp.CDF_002191	K00208: fabI;enoyl-[acyl-carrier protein] reductase I
+Thermoactinomyces_sp.CDF_002210	K04565: SOD1;superoxide dismutase, Cu-Zn family
+Thermoactinomyces_sp.CDF_002212	K06911: K06911;uncharacterized protein
+Thermoactinomyces_sp.CDF_002213	K03809: wrbA;NAD(P)H dehydrogenase (quinone)
+Thermoactinomyces_sp.CDF_002221	K18301: mexL;TetR/AcrR family transcriptional regulator, mexJK operon transcriptional repressor
+Thermoactinomyces_sp.CDF_002223	K03929: pnbA;para-nitrobenzyl esterase
+Thermoactinomyces_sp.CDF_002226	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002230	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002233	K00561: ermC, ermA;23S rRNA (adenine-N6)-dimethyltransferase
+Thermoactinomyces_sp.CDF_002242	K05804: rob;AraC family transcriptional regulator, mar-sox-rob regulon activator
+Thermoactinomyces_sp.CDF_002243	K01953: asnB, ASNS;asparagine synthase (glutamine-hydrolysing)
+Thermoactinomyces_sp.CDF_002253	K01586: lysA;diaminopimelate decarboxylase
+Thermoactinomyces_sp.CDF_002256	K07578: K07578;homologs of the eukaryotic argonaute protein
+Thermoactinomyces_sp.CDF_002265	K01297: ldcA;muramoyltetrapeptide carboxypeptidase
+Thermoactinomyces_sp.CDF_002266	K00675: nhoA;N-hydroxyarylamine O-acetyltransferase
+Thermoactinomyces_sp.CDF_002267	K19745: acuI;acrylyl-CoA reductase (NADPH)
+Thermoactinomyces_sp.CDF_002269	K17836: penP;beta-lactamase class A
+Thermoactinomyces_sp.CDF_002272	K07090: K07090;uncharacterized protein
+Thermoactinomyces_sp.CDF_002277	K03862: vanA;vanillate monooxygenase
+Thermoactinomyces_sp.CDF_002278	K16264: czcD, zitB;cobalt-zinc-cadmium efflux system protein
+Thermoactinomyces_sp.CDF_002279	K00076: hdhA;7-alpha-hydroxysteroid dehydrogenase
+Thermoactinomyces_sp.CDF_002280	K08223: fsr;MFS transporter, FSR family, fosmidomycin resistance protein
+Thermoactinomyces_sp.CDF_002284	K03273: gmhB;D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase
+Thermoactinomyces_sp.CDF_002285	K07146: K07146;UPF0176 protein
+Thermoactinomyces_sp.CDF_002287	K13767: fadB;enoyl-CoA hydratase
+Thermoactinomyces_sp.CDF_002288	K00626: E2.3.1.9, atoB;acetyl-CoA C-acetyltransferase
+Thermoactinomyces_sp.CDF_002289	K14729: FOX2;multifunctional beta-oxidation protein
+Thermoactinomyces_sp.CDF_002290	K01897: ACSL, fadD;long-chain acyl-CoA synthetase
+Thermoactinomyces_sp.CDF_002292	K00249: ACADM, acd;acyl-CoA dehydrogenase
+Thermoactinomyces_sp.CDF_002295	K06901: pbuG;putative MFS transporter, AGZA family, xanthine/uracil permease
+Thermoactinomyces_sp.CDF_002296	K04763: xerD;integrase/recombinase XerD
+Thermoactinomyces_sp.CDF_002297	K01356: lexA;repressor LexA
+Thermoactinomyces_sp.CDF_002298	K00812: aspB;aspartate aminotransferase
+Thermoactinomyces_sp.CDF_002299	K00925: ackA;acetate kinase
+Thermoactinomyces_sp.CDF_002305	K12960: mtaD;5-methylthioadenosine/S-adenosylhomocysteine deaminase
+Thermoactinomyces_sp.CDF_002306	K01971: ligD;bifunctional non-homologous end joining protein LigD
+Thermoactinomyces_sp.CDF_002309	K01971: ligD;bifunctional non-homologous end joining protein LigD
+Thermoactinomyces_sp.CDF_002310	K02564: nagB, GNPDA;glucosamine-6-phosphate deaminase
+Thermoactinomyces_sp.CDF_002311	K01443: nagA, AMDHD2;N-acetylglucosamine-6-phosphate deacetylase
+Thermoactinomyces_sp.CDF_002312	K03449: MFS.CP;MFS transporter, CP family, cyanate transporter
+Thermoactinomyces_sp.CDF_002313	K03294: TC.APA;basic amino acid/polyamine antiporter, APA family
+Thermoactinomyces_sp.CDF_002315	K00526: E1.17.4.1B, nrdB, nrdF;ribonucleoside-diphosphate reductase beta chain
+Thermoactinomyces_sp.CDF_002316	K00525: E1.17.4.1A, nrdA, nrdE;ribonucleoside-diphosphate reductase alpha chain
+Thermoactinomyces_sp.CDF_002317	K07464: cas4;CRISPR-associated exonuclease Cas4
+Thermoactinomyces_sp.CDF_002319	K00384: trxB, TRR;thioredoxin reductase (NADPH)
+Thermoactinomyces_sp.CDF_002321	K06183: rsuA;16S rRNA pseudouridine516 synthase
+Thermoactinomyces_sp.CDF_002322	K03293: TC.AAT;amino acid transporter, AAT family
+Thermoactinomyces_sp.CDF_002326	K07112: K07112;uncharacterized protein
+Thermoactinomyces_sp.CDF_002329	K10979: ku;DNA end-binding protein Ku
+Thermoactinomyces_sp.CDF_002331	K01579: panD;aspartate 1-decarboxylase
+Thermoactinomyces_sp.CDF_002332	K01918: panC;pantoate--beta-alanine ligase
+Thermoactinomyces_sp.CDF_002333	K00606: panB;3-methyl-2-oxobutanoate hydroxymethyltransferase
+Thermoactinomyces_sp.CDF_002334	K11535: nupC;nucleoside transport protein
+Thermoactinomyces_sp.CDF_002342	K03524: birA;BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase
+Thermoactinomyces_sp.CDF_002343	K00974: cca;tRNA nucleotidyltransferase (CCA-adding enzyme)
+Thermoactinomyces_sp.CDF_002344	K00754: bshA;L-malate glycosyltransferase
+Thermoactinomyces_sp.CDF_002345	K01463: bshB1;N-acetylglucosamine malate deacetylase 1
+Thermoactinomyces_sp.CDF_002346	K05396: dcyD;D-cysteine desulfhydrase
+Thermoactinomyces_sp.CDF_002347	K00215: dapB;4-hydroxy-tetrahydrodipicolinate reductase
+Thermoactinomyces_sp.CDF_002350	K01154: hsdS;type I restriction enzyme, S subunit
+Thermoactinomyces_sp.CDF_002351	K03427: hsdM;type I restriction enzyme M protein
+Thermoactinomyces_sp.CDF_002354	K03888: MQCRC, qcrC, bfcC, petD;menaquinol-cytochrome c reductase cytochrome b/c subunit
+Thermoactinomyces_sp.CDF_002355	K03887: MQCRB, qcrB, bfcB, petB;menaquinol-cytochrome c reductase cytochrome b subunit
+Thermoactinomyces_sp.CDF_002356	K03886: MQCRA, qcrA, bfcA, petC;menaquinol-cytochrome c reductase iron-sulfur subunit
+Thermoactinomyces_sp.CDF_002362	K00800: aroA;3-phosphoshikimate 1-carboxyvinyltransferase
+Thermoactinomyces_sp.CDF_002363	K04517: tyrA2;prephenate dehydrogenase
+Thermoactinomyces_sp.CDF_002364	K00817: hisC;histidinol-phosphate aminotransferase
+Thermoactinomyces_sp.CDF_002365	K01695: trpA;tryptophan synthase alpha chain
+Thermoactinomyces_sp.CDF_002366	K01696: trpB;tryptophan synthase beta chain
+Thermoactinomyces_sp.CDF_002367	K01817: trpF;phosphoribosylanthranilate isomerase
+Thermoactinomyces_sp.CDF_002368	K01609: trpC;indole-3-glycerol phosphate synthase
+Thermoactinomyces_sp.CDF_002369	K00766: trpD;anthranilate phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_002370	K01657: trpE;anthranilate synthase component I
+Thermoactinomyces_sp.CDF_002371	K01735: aroB;3-dehydroquinate synthase
+Thermoactinomyces_sp.CDF_002372	K01736: aroC;chorismate synthase
+Thermoactinomyces_sp.CDF_002373	K00940: ndk, NME;nucleoside-diphosphate kinase
+Thermoactinomyces_sp.CDF_002374	K00805: hepST;heptaprenyl diphosphate synthase
+Thermoactinomyces_sp.CDF_002375	K03179: ubiA;4-hydroxybenzoate polyprenyltransferase
+Thermoactinomyces_sp.CDF_002376	K03183: ubiE;demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase
+Thermoactinomyces_sp.CDF_002379	K06285: mtrB;transcription attenuation protein (tryptophan RNA-binding attenuator protein)
+Thermoactinomyces_sp.CDF_002380	K01495: GCH1, folE;GTP cyclohydrolase IA
+Thermoactinomyces_sp.CDF_002381	K03530: hupB;DNA-binding protein HU-beta
+Thermoactinomyces_sp.CDF_002382	K06398: spoIVA;stage IV sporulation protein A
+Thermoactinomyces_sp.CDF_002387	K00057: gpsA;glycerol-3-phosphate dehydrogenase (NAD(P)+)
+Thermoactinomyces_sp.CDF_002388	K08591: plsY;glycerol-3-phosphate acyltransferase PlsY
+Thermoactinomyces_sp.CDF_002389	K03977: engA, der;GTPase
+Thermoactinomyces_sp.CDF_002391	K02945: RP-S1, rpsA;small subunit ribosomal protein S1
+Thermoactinomyces_sp.CDF_002392	K00655: plsC;1-acyl-sn-glycerol-3-phosphate acyltransferase
+Thermoactinomyces_sp.CDF_002393	K00945: cmk;CMP/dCMP kinase
+Thermoactinomyces_sp.CDF_002394	K06313: ypeB;spore germination protein
+Thermoactinomyces_sp.CDF_002395	K01449: cwlJ, sleB;N-acetylmuramoyl-L-alanine amidase
+Thermoactinomyces_sp.CDF_002397	K01424: E3.5.1.1, ansA, ansB;L-asparaginase
+Thermoactinomyces_sp.CDF_002398	K00384: trxB, TRR;thioredoxin reductase (NADPH)
+Thermoactinomyces_sp.CDF_002399	K00260: gudB, rocG;glutamate dehydrogenase
+Thermoactinomyces_sp.CDF_002400	K22135: bshB2;N-acetylglucosamine malate deacetylase 2
+Thermoactinomyces_sp.CDF_002401	K16511: mecA1_2;adapter protein MecA 1/2
+Thermoactinomyces_sp.CDF_002402	K07052: K07052;uncharacterized protein
+Thermoactinomyces_sp.CDF_002403	K05337: fer;ferredoxin
+Thermoactinomyces_sp.CDF_002405	K01507: ppa;inorganic pyrophosphatase
+Thermoactinomyces_sp.CDF_002406	K07979: ytrA;GntR family transcriptional regulator
+Thermoactinomyces_sp.CDF_002408	K03657: uvrD, pcrA;DNA helicase II / ATP-dependent DNA helicase PcrA
+Thermoactinomyces_sp.CDF_002410	K00058: serA, PHGDH;D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase
+Thermoactinomyces_sp.CDF_002411	K16066: ydfG;3-hydroxy acid dehydrogenase / malonic semialdehyde reductase
+Thermoactinomyces_sp.CDF_002412	K07651: resE;two-component system, OmpR family, sensor histidine kinase ResE
+Thermoactinomyces_sp.CDF_002413	K07775: resD;two-component system, OmpR family, response regulator ResD
+Thermoactinomyces_sp.CDF_002415	K07399: resB, ccs1;cytochrome c biogenesis protein
+Thermoactinomyces_sp.CDF_002416	K06178: rluB;23S rRNA pseudouridine2605 synthase
+Thermoactinomyces_sp.CDF_002417	K06374: spmB;spore maturation protein B
+Thermoactinomyces_sp.CDF_002418	K06373: spmA;spore maturation protein A
+Thermoactinomyces_sp.CDF_002419	K07258: dacC, dacA, dacD;serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6)
+Thermoactinomyces_sp.CDF_002422	K02821: PTS-Ula-EIIA, ulaC, sgaA;PTS system, ascorbate-specific IIA component
+Thermoactinomyces_sp.CDF_002423	K06024: scpB;segregation and condensation protein B
+Thermoactinomyces_sp.CDF_002424	K05896: scpA;segregation and condensation protein A
+Thermoactinomyces_sp.CDF_002425	K00794: ribH, RIB4;6,7-dimethyl-8-ribityllumazine synthase
+Thermoactinomyces_sp.CDF_002426	K14652: ribBA;3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II
+Thermoactinomyces_sp.CDF_002427	K00793: ribE, RIB5;riboflavin synthase
+Thermoactinomyces_sp.CDF_002428	K11752: ribD;diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase
+Thermoactinomyces_sp.CDF_002429	K02259: COX15;cytochrome c oxidase assembly protein subunit 15
+Thermoactinomyces_sp.CDF_002430	K06407: spoVAE;stage V sporulation protein AE
+Thermoactinomyces_sp.CDF_002431	K06404: spoVAB;stage V sporulation protein AB
+Thermoactinomyces_sp.CDF_002432	K06403: spoVAA;stage V sporulation protein AA
+Thermoactinomyces_sp.CDF_002433	K03091: sigH;RNA polymerase sporulation-specific sigma factor
+Thermoactinomyces_sp.CDF_002434	K06379: spoIIAB;stage II sporulation protein AB (anti-sigma F factor)
+Thermoactinomyces_sp.CDF_002435	K06378: spoIIAA;stage II sporulation protein AA (anti-sigma F factor antagonist)
+Thermoactinomyces_sp.CDF_002436	K07258: dacC, dacA, dacD;serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6)
+Thermoactinomyces_sp.CDF_002437	K09607: ina;immune inhibitor A
+Thermoactinomyces_sp.CDF_002438	K03783: punA, PNP;purine-nucleoside phosphorylase
+Thermoactinomyces_sp.CDF_002439	K01839: deoB;phosphopentomutase
+Thermoactinomyces_sp.CDF_002441	K00259: ald;alanine dehydrogenase
+Thermoactinomyces_sp.CDF_002442	K03711: fur, zur, furB;Fur family transcriptional regulator, ferric uptake regulator
+Thermoactinomyces_sp.CDF_002443	K06384: spoIIM;stage II sporulation protein M
+Thermoactinomyces_sp.CDF_002446	K01515: nudF;ADP-ribose pyrophosphatase
+Thermoactinomyces_sp.CDF_002452	K01258: pepT;tripeptide aminopeptidase
+Thermoactinomyces_sp.CDF_002453	K01966: PCCB, pccB;propionyl-CoA carboxylase beta chain
+Thermoactinomyces_sp.CDF_002454	K05606: MCEE, epi;methylmalonyl-CoA/ethylmalonyl-CoA epimerase
+Thermoactinomyces_sp.CDF_002455	K01849: E5.4.99.2B, mcmA2;methylmalonyl-CoA mutase, C-terminal domain
+Thermoactinomyces_sp.CDF_002456	K01848: E5.4.99.2A, mcmA1;methylmalonyl-CoA mutase, N-terminal domain
+Thermoactinomyces_sp.CDF_002458	K09699: DBT, bkdB;2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase)
+Thermoactinomyces_sp.CDF_002459	K00167: BCKDHB, bkdA2;2-oxoisovalerate dehydrogenase E1 component beta subunit
+Thermoactinomyces_sp.CDF_002460	K00166: BCKDHA, bkdA1;2-oxoisovalerate dehydrogenase E1 component alpha subunit
+Thermoactinomyces_sp.CDF_002461	K00382: DLD, lpd, pdhD;dihydrolipoamide dehydrogenase
+Thermoactinomyces_sp.CDF_002462	K00929: buk;butyrate kinase
+Thermoactinomyces_sp.CDF_002463	K00263: E1.4.1.9;leucine dehydrogenase
+Thermoactinomyces_sp.CDF_002464	K00634: ptb;phosphate butyryltransferase
+Thermoactinomyces_sp.CDF_002467	K06994: K06994;putative drug exporter of the RND superfamily
+Thermoactinomyces_sp.CDF_002469	K04564: SOD2;superoxide dismutase, Fe-Mn family
+Thermoactinomyces_sp.CDF_002471	K07699: spo0A;two-component system, response regulator, stage 0 sporulation protein A
+Thermoactinomyces_sp.CDF_002473	K11102: gltP, gltT;proton glutamate symport protein
+Thermoactinomyces_sp.CDF_002478	K06399: spoIVB;stage IV sporulation protein B
+Thermoactinomyces_sp.CDF_002479	K03631: recN;DNA repair protein RecN (Recombination protein N)
+Thermoactinomyces_sp.CDF_002480	K03402: argR, ahrC;transcriptional regulator of arginine metabolism
+Thermoactinomyces_sp.CDF_002481	K00858: ppnK, NADK;NAD+ kinase
+Thermoactinomyces_sp.CDF_002483	K06442: tlyA;23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase
+Thermoactinomyces_sp.CDF_002484	K01662: dxs;1-deoxy-D-xylulose-5-phosphate synthase
+Thermoactinomyces_sp.CDF_002485	K13789: GGPS;geranylgeranyl diphosphate synthase, type II
+Thermoactinomyces_sp.CDF_002486	K03602: xseB;exodeoxyribonuclease VII small subunit
+Thermoactinomyces_sp.CDF_002487	K03601: xseA;exodeoxyribonuclease VII large subunit
+Thermoactinomyces_sp.CDF_002488	K01491: folD;methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase
+Thermoactinomyces_sp.CDF_002489	K03625: nusB;N utilization substance protein B
+Thermoactinomyces_sp.CDF_002491	K01961: accC;acetyl-CoA carboxylase, biotin carboxylase subunit
+Thermoactinomyces_sp.CDF_002492	K02160: accB, bccP;acetyl-CoA carboxylase biotin carboxyl carrier protein
+Thermoactinomyces_sp.CDF_002493	K06397: spoIIIAH;stage III sporulation protein AH
+Thermoactinomyces_sp.CDF_002494	K06396: spoIIIAG;stage III sporulation protein AG
+Thermoactinomyces_sp.CDF_002495	K06395: spoIIIAF;stage III sporulation protein AF
+Thermoactinomyces_sp.CDF_002496	K06394: spoIIIAE;stage III sporulation protein AE
+Thermoactinomyces_sp.CDF_002497	K06393: spoIIIAD;stage III sporulation protein AD
+Thermoactinomyces_sp.CDF_002498	K06392: spoIIIAC;stage III sporulation protein AC
+Thermoactinomyces_sp.CDF_002499	K06391: spoIIIAB;stage III sporulation protein AB
+Thermoactinomyces_sp.CDF_002500	K06390: spoIIIAA;stage III sporulation protein AA
+Thermoactinomyces_sp.CDF_002502	K08221: yitG, ymfD, yfmO;MFS transporter, ACDE family, multidrug resistance protein
+Thermoactinomyces_sp.CDF_002503	K08097: comA;phosphosulfolactate synthase
+Thermoactinomyces_sp.CDF_002506	K08152: lmrP;MFS transporter, DHA1 family, multidrug resistance protein B
+Thermoactinomyces_sp.CDF_002509	K02356: efp;elongation factor P
+Thermoactinomyces_sp.CDF_002510	K01262: pepP;Xaa-Pro aminopeptidase
+Thermoactinomyces_sp.CDF_002514	K07001: K07001;NTE family protein
+Thermoactinomyces_sp.CDF_002516	K11811: arsH;arsenical resistance protein ArsH
+Thermoactinomyces_sp.CDF_002518	K01745: hutH, HAL;histidine ammonia-lyase
+Thermoactinomyces_sp.CDF_002519	K07099: K07099;uncharacterized protein
+Thermoactinomyces_sp.CDF_002520	K00525: E1.17.4.1A, nrdA, nrdE;ribonucleoside-diphosphate reductase alpha chain
+Thermoactinomyces_sp.CDF_002521	K00824: dat;D-alanine transaminase
+Thermoactinomyces_sp.CDF_002523	K03800: lplA, lplJ;lipoate---protein ligase
+Thermoactinomyces_sp.CDF_002524	K00091: E1.1.1.219;dihydroflavonol-4-reductase
+Thermoactinomyces_sp.CDF_002525	K20118: PTS-Glc1-EIIC, ptsG, glcA, glcB;PTS system, glucose-specific IIC component
+Thermoactinomyces_sp.CDF_002526	K03480: glcT;transcriptional antiterminator
+Thermoactinomyces_sp.CDF_002527	K03762: proP;MFS transporter, MHS family, proline/betaine transporter
+Thermoactinomyces_sp.CDF_002528	K03762: proP;MFS transporter, MHS family, proline/betaine transporter
+Thermoactinomyces_sp.CDF_002529	K00283: gcvPB;glycine dehydrogenase subunit 2
+Thermoactinomyces_sp.CDF_002530	K00282: gcvPA;glycine dehydrogenase subunit 1
+Thermoactinomyces_sp.CDF_002531	K00605: gcvT, AMT;aminomethyltransferase
+Thermoactinomyces_sp.CDF_002535	K10010: ABC.CYST.A;cystine transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002536	K10009: ABC.CYST.P;cystine transport system permease protein
+Thermoactinomyces_sp.CDF_002537	K07130: kynB;arylformamidase
+Thermoactinomyces_sp.CDF_002538	K00036: G6PD, zwf;glucose-6-phosphate 1-dehydrogenase
+Thermoactinomyces_sp.CDF_002539	K02424: fliY;cystine transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_002541	K01129: dgt;dGTPase
+Thermoactinomyces_sp.CDF_002543	K18890: mdlB, smdB;ATP-binding cassette, subfamily B, multidrug efflux pump
+Thermoactinomyces_sp.CDF_002544	K18889: mdlA, smdA;ATP-binding cassette, subfamily B, multidrug efflux pump
+Thermoactinomyces_sp.CDF_002545	K06207: typA, bipA;GTP-binding protein
+Thermoactinomyces_sp.CDF_002547	K00451: HGD, hmgA;homogentisate 1,2-dioxygenase
+Thermoactinomyces_sp.CDF_002548	K01118: acpD, azoR;FMN-dependent NADH-azoreductase
+Thermoactinomyces_sp.CDF_002550	K01118: acpD, azoR;FMN-dependent NADH-azoreductase
+Thermoactinomyces_sp.CDF_002552	K00759: APRT, apt;adenine phosphoribosyltransferase
+Thermoactinomyces_sp.CDF_002553	K07462: recJ;single-stranded-DNA-specific exonuclease
+Thermoactinomyces_sp.CDF_002554	K03074: secF;preprotein translocase subunit SecF
+Thermoactinomyces_sp.CDF_002555	K03072: secD;preprotein translocase subunit SecD
+Thermoactinomyces_sp.CDF_002557	K06409: spoVB;stage V sporulation protein B
+Thermoactinomyces_sp.CDF_002560	K03210: yajC;preprotein translocase subunit YajC
+Thermoactinomyces_sp.CDF_002561	K00773: tgt, QTRT1;queuine tRNA-ribosyltransferase
+Thermoactinomyces_sp.CDF_002562	K07568: queA;S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+Thermoactinomyces_sp.CDF_002564	K03551: ruvB;holliday junction DNA helicase RuvB
+Thermoactinomyces_sp.CDF_002565	K03550: ruvA;holliday junction DNA helicase RuvA
+Thermoactinomyces_sp.CDF_002566	K01159: ruvC;crossover junction endodeoxyribonuclease RuvC
+Thermoactinomyces_sp.CDF_002569	K01916: nadE;NAD+ synthase
+Thermoactinomyces_sp.CDF_002570	K12251: aguB;N-carbamoylputrescine amidase
+Thermoactinomyces_sp.CDF_002572	K06370: safA;morphogenetic protein associated with SpoVID
+Thermoactinomyces_sp.CDF_002574	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002575	K01992: ABC-2.P;ABC-2 type transport system permease protein
+Thermoactinomyces_sp.CDF_002576	K00826: E2.6.1.42, ilvE;branched-chain amino acid aminotransferase
+Thermoactinomyces_sp.CDF_002577	K04518: pheA2;prephenate dehydratase
+Thermoactinomyces_sp.CDF_002578	K00872: thrB1;homoserine kinase
+Thermoactinomyces_sp.CDF_002579	K01733: thrC;threonine synthase
+Thermoactinomyces_sp.CDF_002580	K06209: pheB;chorismate mutase
+Thermoactinomyces_sp.CDF_002581	K01104: E3.1.3.48;protein-tyrosine phosphatase
+Thermoactinomyces_sp.CDF_002583	K03979: obgE, cgtA;GTPase
+Thermoactinomyces_sp.CDF_002585	K02899: RP-L27, MRPL27, rpmA;large subunit ribosomal protein L27
+Thermoactinomyces_sp.CDF_002586	K07584: ysxB;uncharacterized protein
+Thermoactinomyces_sp.CDF_002587	K02888: RP-L21, MRPL21, rplU;large subunit ribosomal protein L21
+Thermoactinomyces_sp.CDF_002588	K06402: spoIVFB;stage IV sporulation protein FB
+Thermoactinomyces_sp.CDF_002589	K06401: spoIVFA;stage IV sporulation protein FA
+Thermoactinomyces_sp.CDF_002590	K03609: minD;septum site-determining protein MinD
+Thermoactinomyces_sp.CDF_002591	K03610: minC;septum site-determining protein MinC
+Thermoactinomyces_sp.CDF_002594	K03570: mreC;rod shape-determining protein MreC
+Thermoactinomyces_sp.CDF_002595	K03569: mreB;rod shape-determining protein MreB and related proteins
+Thermoactinomyces_sp.CDF_002596	K03630: radC;DNA repair protein RadC
+Thermoactinomyces_sp.CDF_002597	K06287: maf;septum formation protein
+Thermoactinomyces_sp.CDF_002600	K02670: pilU;twitching motility protein PilU
+Thermoactinomyces_sp.CDF_002601	K02669: pilT;twitching motility protein PilT
+Thermoactinomyces_sp.CDF_002602	K01990: ABC-2.A;ABC-2 type transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002603	K01992: ABC-2.P;ABC-2 type transport system permease protein
+Thermoactinomyces_sp.CDF_002604	K07152: SCO1_2;protein SCO1/2
+Thermoactinomyces_sp.CDF_002605	K01924: murC;UDP-N-acetylmuramate--alanine ligase
+Thermoactinomyces_sp.CDF_002606	K11754: folC;dihydrofolate synthase / folylpolyglutamate synthase
+Thermoactinomyces_sp.CDF_002607	K01873: VARS, valS;valyl-tRNA synthetase
+Thermoactinomyces_sp.CDF_002611	K01845: hemL;glutamate-1-semialdehyde 2,1-aminomutase
+Thermoactinomyces_sp.CDF_002612	K01698: hemB, ALAD;porphobilinogen synthase
+Thermoactinomyces_sp.CDF_002613	K13542: cobA-hemD;uroporphyrinogen III methyltransferase / synthase
+Thermoactinomyces_sp.CDF_002614	K01749: hemC, HMBS;hydroxymethylbilane synthase
+Thermoactinomyces_sp.CDF_002615	K02304: MET8;precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+Thermoactinomyces_sp.CDF_002616	K02497: hemX;HemX protein
+Thermoactinomyces_sp.CDF_002617	K02492: hemA;glutamyl-tRNA reductase
+Thermoactinomyces_sp.CDF_002618	K02051: ABC.SN.S;NitT/TauT family transport system substrate-binding protein
+Thermoactinomyces_sp.CDF_002619	K02049: ABC.SN.A;NitT/TauT family transport system ATP-binding protein
+Thermoactinomyces_sp.CDF_002620	K02050: ABC.SN.P;NitT/TauT family transport system permease protein
+Thermoactinomyces_sp.CDF_002622	K01265: map;methionyl aminopeptidase
+Thermoactinomyces_sp.CDF_002623	K01921: ddl;D-alanine-D-alanine ligase
+Thermoactinomyces_sp.CDF_002624	K03978: engB;GTP-binding protein
+Thermoactinomyces_sp.CDF_002625	K01338: lon;ATP-dependent Lon protease
+Thermoactinomyces_sp.CDF_002626	K04076: lonB;ATP-dependent Lon protease
+Thermoactinomyces_sp.CDF_002627	K05363: murM;serine/alanine adding enzyme
+Thermoactinomyces_sp.CDF_002628	K03544: clpX, CLPX;ATP-dependent Clp protease ATP-binding subunit ClpX
+Thermoactinomyces_sp.CDF_002629	K01358: clpP, CLPP;ATP-dependent Clp protease, protease subunit
+Thermoactinomyces_sp.CDF_002630	K03545: tig;trigger factor
+Thermoactinomyces_sp.CDF_002631	K00459: ncd2, npd;nitronate monooxygenase
+Thermoactinomyces_sp.CDF_002633	K03688: ubiB, aarF;ubiquinone biosynthesis protein
+Thermoactinomyces_sp.CDF_002634	K00526: E1.17.4.1B, nrdB, nrdF;ribonucleoside-diphosphate reductase beta chain

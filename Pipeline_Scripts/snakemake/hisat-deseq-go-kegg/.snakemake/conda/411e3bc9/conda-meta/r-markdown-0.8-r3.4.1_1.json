@@ -1,0 +1,376 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*",
+    "r-mime >=0.3",
+    "xorg-libxrender 0.9.10"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-markdown-0.8-r3.4.1_1",
+  "features": "",
+  "files": [
+    "lib/R/library/markdown/COPYING",
+    "lib/R/library/markdown/DESCRIPTION",
+    "lib/R/library/markdown/INDEX",
+    "lib/R/library/markdown/Meta/Rd.rds",
+    "lib/R/library/markdown/Meta/features.rds",
+    "lib/R/library/markdown/Meta/hsearch.rds",
+    "lib/R/library/markdown/Meta/links.rds",
+    "lib/R/library/markdown/Meta/nsInfo.rds",
+    "lib/R/library/markdown/Meta/package.rds",
+    "lib/R/library/markdown/Meta/vignette.rds",
+    "lib/R/library/markdown/NAMESPACE",
+    "lib/R/library/markdown/NEWS",
+    "lib/R/library/markdown/NOTICE",
+    "lib/R/library/markdown/R/markdown",
+    "lib/R/library/markdown/R/markdown.rdb",
+    "lib/R/library/markdown/R/markdown.rdx",
+    "lib/R/library/markdown/doc/index.html",
+    "lib/R/library/markdown/doc/markdown-examples.R",
+    "lib/R/library/markdown/doc/markdown-examples.Rmd",
+    "lib/R/library/markdown/doc/markdown-examples.html",
+    "lib/R/library/markdown/doc/markdown-output.R",
+    "lib/R/library/markdown/doc/markdown-output.Rmd",
+    "lib/R/library/markdown/doc/markdown-output.html",
+    "lib/R/library/markdown/examples/HTMLOptions.R",
+    "lib/R/library/markdown/examples/markdownExtensions.R",
+    "lib/R/library/markdown/help/AnIndex",
+    "lib/R/library/markdown/help/aliases.rds",
+    "lib/R/library/markdown/help/markdown.rdb",
+    "lib/R/library/markdown/help/markdown.rdx",
+    "lib/R/library/markdown/help/paths.rds",
+    "lib/R/library/markdown/html/00Index.html",
+    "lib/R/library/markdown/html/R.css",
+    "lib/R/library/markdown/include/autolink.h",
+    "lib/R/library/markdown/include/buffer.h",
+    "lib/R/library/markdown/include/markdown.h",
+    "lib/R/library/markdown/include/markdown_rstubs.c",
+    "lib/R/library/markdown/include/markdown_rstubs.h",
+    "lib/R/library/markdown/libs/markdown.so",
+    "lib/R/library/markdown/resources/markdown.css",
+    "lib/R/library/markdown/resources/markdown.html",
+    "lib/R/library/markdown/resources/mathjax.html",
+    "lib/R/library/markdown/resources/r_highlight.html"
+  ],
+  "fn": "r-markdown-0.8-r3.4.1_1.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-markdown-0.8-r3.4.1_1",
+    "type": 1
+  },
+  "md5": "a346a94f91555d13c5f702f66dc5837c",
+  "name": "r-markdown",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-markdown-0.8-r3.4.1_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/markdown/COPYING",
+        "path_type": "hardlink",
+        "sha256": "7111675c58420cd4de181cda569e91eccee7c8534d962915731ce1596d730ec2",
+        "sha256_in_prefix": "7111675c58420cd4de181cda569e91eccee7c8534d962915731ce1596d730ec2",
+        "size_in_bytes": 18219
+      },
+      {
+        "_path": "lib/R/library/markdown/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "418b2bffeb1ea189d996438e61c1612c7e7224e8d9384eba990528ba334484a0",
+        "sha256_in_prefix": "418b2bffeb1ea189d996438e61c1612c7e7224e8d9384eba990528ba334484a0",
+        "size_in_bytes": 2117
+      },
+      {
+        "_path": "lib/R/library/markdown/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9d6905493e4a0c6bb863885dc4a8cd11aab653400c8e1427fccca4c3534dad64",
+        "sha256_in_prefix": "9d6905493e4a0c6bb863885dc4a8cd11aab653400c8e1427fccca4c3534dad64",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0305385775c7ffccf264332fb7efdab0833e97d86855877d5739db7a0f27a369",
+        "sha256_in_prefix": "0305385775c7ffccf264332fb7efdab0833e97d86855877d5739db7a0f27a369",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ede1ef9c419ae4c2505ecf68d3ae26bc9ed241f8202689eef1775d71bef5daf3",
+        "sha256_in_prefix": "ede1ef9c419ae4c2505ecf68d3ae26bc9ed241f8202689eef1775d71bef5daf3",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6880453628f9c3d1ce7e99f1f7f9b83895ba82ebe869355de21242ec63e9cf31",
+        "sha256_in_prefix": "6880453628f9c3d1ce7e99f1f7f9b83895ba82ebe869355de21242ec63e9cf31",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4f356c742408fb3338e2b35ac69f45f19eb936651e1dfdfd5feb1b6239dec18c",
+        "sha256_in_prefix": "4f356c742408fb3338e2b35ac69f45f19eb936651e1dfdfd5feb1b6239dec18c",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "febaf34d463891f36caa5e6525a1e42e2764e44ba6c0f2b201d937d71992fd33",
+        "sha256_in_prefix": "febaf34d463891f36caa5e6525a1e42e2764e44ba6c0f2b201d937d71992fd33",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "lib/R/library/markdown/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "e06a2ceb369e723e8ae874d9b661d25615fdd13fd014a215300e368e416f1bb9",
+        "sha256_in_prefix": "e06a2ceb369e723e8ae874d9b661d25615fdd13fd014a215300e368e416f1bb9",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/markdown/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0b65db5791d834755928042d837e3b22549ff0aab4c863d44f531bae139a16fb",
+        "sha256_in_prefix": "0b65db5791d834755928042d837e3b22549ff0aab4c863d44f531bae139a16fb",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "lib/R/library/markdown/NEWS",
+        "path_type": "hardlink",
+        "sha256": "206403e2343c394c2e826cef6c213056a11992a317dead15becb66f9180f61e6",
+        "sha256_in_prefix": "206403e2343c394c2e826cef6c213056a11992a317dead15becb66f9180f61e6",
+        "size_in_bytes": 6561
+      },
+      {
+        "_path": "lib/R/library/markdown/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "f9ef2fcb62191a3cb61cd4fded9cef8f88eca1df9b092e2e15e595133159a70c",
+        "sha256_in_prefix": "f9ef2fcb62191a3cb61cd4fded9cef8f88eca1df9b092e2e15e595133159a70c",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "lib/R/library/markdown/R/markdown",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/markdown/R/markdown.rdb",
+        "path_type": "hardlink",
+        "sha256": "58f2114c846bc1ef8a973f86edaaea435886c74947aae2ddf1fb63a1323cc762",
+        "sha256_in_prefix": "58f2114c846bc1ef8a973f86edaaea435886c74947aae2ddf1fb63a1323cc762",
+        "size_in_bytes": 10058
+      },
+      {
+        "_path": "lib/R/library/markdown/R/markdown.rdx",
+        "path_type": "hardlink",
+        "sha256": "0ee9c2d20f38014af7a93cd1b619316e06a96a72a22d8aab5449ac66a0b3c2dd",
+        "sha256_in_prefix": "0ee9c2d20f38014af7a93cd1b619316e06a96a72a22d8aab5449ac66a0b3c2dd",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "3ef93e864171b3cc30d775ed2edbb1f57381b0f21aa0525fe74e1cc5e7694102",
+        "sha256_in_prefix": "3ef93e864171b3cc30d775ed2edbb1f57381b0f21aa0525fe74e1cc5e7694102",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-examples.R",
+        "path_type": "hardlink",
+        "sha256": "5da2023dcd38dc9d1430659b5f88a3de09c81772ef10166bd7dc52c3924ac198",
+        "sha256_in_prefix": "5da2023dcd38dc9d1430659b5f88a3de09c81772ef10166bd7dc52c3924ac198",
+        "size_in_bytes": 5017
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-examples.Rmd",
+        "path_type": "hardlink",
+        "sha256": "66c743651c4eb3821d37d09a8fb08f02cfb1a6b14da44e10721a8fd87022613a",
+        "sha256_in_prefix": "66c743651c4eb3821d37d09a8fb08f02cfb1a6b14da44e10721a8fd87022613a",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-examples.html",
+        "path_type": "hardlink",
+        "sha256": "5c421c0e08b3c5e9eb03cbc5fc20a3e11deb7515d60db27035a99a08bb0b6298",
+        "sha256_in_prefix": "5c421c0e08b3c5e9eb03cbc5fc20a3e11deb7515d60db27035a99a08bb0b6298",
+        "size_in_bytes": 24921
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-output.R",
+        "path_type": "hardlink",
+        "sha256": "3422cfe2575d530f2df09abee0d9c726908e8a1edc44257d3e5c67ffbac905c2",
+        "sha256_in_prefix": "3422cfe2575d530f2df09abee0d9c726908e8a1edc44257d3e5c67ffbac905c2",
+        "size_in_bytes": 5239
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-output.Rmd",
+        "path_type": "hardlink",
+        "sha256": "e0691a499eae092b35c837bae025cfb48ad38bd0ef524838830539a4def74f1d",
+        "sha256_in_prefix": "e0691a499eae092b35c837bae025cfb48ad38bd0ef524838830539a4def74f1d",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/R/library/markdown/doc/markdown-output.html",
+        "path_type": "hardlink",
+        "sha256": "a3d0055424cd5924b5e41fff322139e619d4bcddea9c2fa583b8871afe703f38",
+        "sha256_in_prefix": "a3d0055424cd5924b5e41fff322139e619d4bcddea9c2fa583b8871afe703f38",
+        "size_in_bytes": 22396
+      },
+      {
+        "_path": "lib/R/library/markdown/examples/HTMLOptions.R",
+        "path_type": "hardlink",
+        "sha256": "ccde10c349d7cda03e4f4a9e458e69adc55d4428ad1a57c395a03a0735127c5d",
+        "sha256_in_prefix": "ccde10c349d7cda03e4f4a9e458e69adc55d4428ad1a57c395a03a0735127c5d",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "lib/R/library/markdown/examples/markdownExtensions.R",
+        "path_type": "hardlink",
+        "sha256": "13f0d1f94292dca61c5c2f3c841eabf8a4a65839e19cdc49b237c81809be3c98",
+        "sha256_in_prefix": "13f0d1f94292dca61c5c2f3c841eabf8a4a65839e19cdc49b237c81809be3c98",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "lib/R/library/markdown/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "37a6cf0f015390cbf9ccbb0f2d0d89f6df728adaf8cbde140346dac37e3a8b35",
+        "sha256_in_prefix": "37a6cf0f015390cbf9ccbb0f2d0d89f6df728adaf8cbde140346dac37e3a8b35",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/markdown/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fcb6aa143ef312186e09492aa8b2b0eb8c453083f82ecbc05e7d65d7867906d9",
+        "sha256_in_prefix": "fcb6aa143ef312186e09492aa8b2b0eb8c453083f82ecbc05e7d65d7867906d9",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/markdown/help/markdown.rdb",
+        "path_type": "hardlink",
+        "sha256": "17ebfe6dd293cae79937a48b1888fb3622f388c7269d1168ec24e928d9260afe",
+        "sha256_in_prefix": "17ebfe6dd293cae79937a48b1888fb3622f388c7269d1168ec24e928d9260afe",
+        "size_in_bytes": 29477
+      },
+      {
+        "_path": "lib/R/library/markdown/help/markdown.rdx",
+        "path_type": "hardlink",
+        "sha256": "7a919dfaaee6da2c2dc612827e9e15cad764d4c4a061bbf8b4862b4ecc66923d",
+        "sha256_in_prefix": "7a919dfaaee6da2c2dc612827e9e15cad764d4c4a061bbf8b4862b4ecc66923d",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "lib/R/library/markdown/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7dd93280ec3f95d6fa099c3a225b77e9119547182ebf15ba07834a9f31a12212",
+        "sha256_in_prefix": "7dd93280ec3f95d6fa099c3a225b77e9119547182ebf15ba07834a9f31a12212",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "lib/R/library/markdown/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "8f25741d49fe35b3cf0b5a4411b211a5dc2caab6584f8fe996d0b130cb1191b0",
+        "sha256_in_prefix": "8f25741d49fe35b3cf0b5a4411b211a5dc2caab6584f8fe996d0b130cb1191b0",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "lib/R/library/markdown/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/markdown/include/autolink.h",
+        "path_type": "hardlink",
+        "sha256": "2fae700f119815a91ce05bce39a16b1f7fb719f6060e943c75d2273afba2ecbd",
+        "sha256_in_prefix": "2fae700f119815a91ce05bce39a16b1f7fb719f6060e943c75d2273afba2ecbd",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/markdown/include/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "95ee267e63bcbcab0efeda1cf6bf2c1930b54ae1d366ccabbce1090602566bd3",
+        "sha256_in_prefix": "95ee267e63bcbcab0efeda1cf6bf2c1930b54ae1d366ccabbce1090602566bd3",
+        "size_in_bytes": 2969
+      },
+      {
+        "_path": "lib/R/library/markdown/include/markdown.h",
+        "path_type": "hardlink",
+        "sha256": "1772167f4fd0cb987d4ed567c958caa2d00b397ee31ff3c563ba74aa47ebc132",
+        "sha256_in_prefix": "1772167f4fd0cb987d4ed567c958caa2d00b397ee31ff3c563ba74aa47ebc132",
+        "size_in_bytes": 4853
+      },
+      {
+        "_path": "lib/R/library/markdown/include/markdown_rstubs.c",
+        "path_type": "hardlink",
+        "sha256": "e662863045a568691446cbf9047c974b98e53b4be257b8649ae2aa0ea98092eb",
+        "sha256_in_prefix": "e662863045a568691446cbf9047c974b98e53b4be257b8649ae2aa0ea98092eb",
+        "size_in_bytes": 7753
+      },
+      {
+        "_path": "lib/R/library/markdown/include/markdown_rstubs.h",
+        "path_type": "hardlink",
+        "sha256": "564dcf746753cf5367661884a22b780c35b52b6e44d79c251119ae7f70418d64",
+        "sha256_in_prefix": "564dcf746753cf5367661884a22b780c35b52b6e44d79c251119ae7f70418d64",
+        "size_in_bytes": 4072
+      },
+      {
+        "_path": "lib/R/library/markdown/libs/markdown.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-markdown_1519425765380/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "db01a25331f087fd268d7e1478ac5f3403dd9a20d637d800eb501e59a019ad4c",
+        "sha256_in_prefix": "607832004558a30d8ea0e4574003973468ff5df75aeac8df106a104dcd9ff1aa",
+        "size_in_bytes": 93718
+      },
+      {
+        "_path": "lib/R/library/markdown/resources/markdown.css",
+        "path_type": "hardlink",
+        "sha256": "97d930a5c22ee46375f27d4cdde66b7fa4ed3f0c8e89e937fd854bb17b1d86bc",
+        "sha256_in_prefix": "97d930a5c22ee46375f27d4cdde66b7fa4ed3f0c8e89e937fd854bb17b1d86bc",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "lib/R/library/markdown/resources/markdown.html",
+        "path_type": "hardlink",
+        "sha256": "0613d3f0b69da04c8838d6ab7210f54ea5c4829df149c1fcc7368bb9357cd48a",
+        "sha256_in_prefix": "0613d3f0b69da04c8838d6ab7210f54ea5c4829df149c1fcc7368bb9357cd48a",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/markdown/resources/mathjax.html",
+        "path_type": "hardlink",
+        "sha256": "6cf2090a8ab1cdc2bb9d1b9083e93bed9135e05bf385afa4d010d328a9bd67c5",
+        "sha256_in_prefix": "6cf2090a8ab1cdc2bb9d1b9083e93bed9135e05bf385afa4d010d328a9bd67c5",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/markdown/resources/r_highlight.html",
+        "path_type": "hardlink",
+        "sha256": "01621e74df68cc1513025bd9737bcaa9fba198d4cc8822aeebd7da90fd75ac16",
+        "sha256_in_prefix": "01621e74df68cc1513025bd9737bcaa9fba198d4cc8822aeebd7da90fd75ac16",
+        "size_in_bytes": 10952
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-markdown=0.8",
+  "size": 113709,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-markdown-0.8-r3.4.1_1.tar.bz2",
+  "version": "0.8"
+}

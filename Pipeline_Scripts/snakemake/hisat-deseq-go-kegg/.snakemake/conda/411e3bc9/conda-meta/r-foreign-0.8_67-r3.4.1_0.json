@@ -1,0 +1,294 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-foreign-0.8_67-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/foreign/COPYRIGHTS",
+    "lib/R/library/foreign/DESCRIPTION",
+    "lib/R/library/foreign/INDEX",
+    "lib/R/library/foreign/Meta/Rd.rds",
+    "lib/R/library/foreign/Meta/features.rds",
+    "lib/R/library/foreign/Meta/hsearch.rds",
+    "lib/R/library/foreign/Meta/links.rds",
+    "lib/R/library/foreign/Meta/nsInfo.rds",
+    "lib/R/library/foreign/Meta/package.rds",
+    "lib/R/library/foreign/NAMESPACE",
+    "lib/R/library/foreign/R/foreign",
+    "lib/R/library/foreign/R/foreign.rdb",
+    "lib/R/library/foreign/R/foreign.rdx",
+    "lib/R/library/foreign/files/HillRace.SYD",
+    "lib/R/library/foreign/files/Iris.syd",
+    "lib/R/library/foreign/files/sids.dbf",
+    "lib/R/library/foreign/help/AnIndex",
+    "lib/R/library/foreign/help/aliases.rds",
+    "lib/R/library/foreign/help/foreign.rdb",
+    "lib/R/library/foreign/help/foreign.rdx",
+    "lib/R/library/foreign/help/paths.rds",
+    "lib/R/library/foreign/html/00Index.html",
+    "lib/R/library/foreign/html/R.css",
+    "lib/R/library/foreign/libs/foreign.so",
+    "lib/R/library/foreign/po/de/LC_MESSAGES/R-foreign.mo",
+    "lib/R/library/foreign/po/de/LC_MESSAGES/foreign.mo",
+    "lib/R/library/foreign/po/en@quot/LC_MESSAGES/R-foreign.mo",
+    "lib/R/library/foreign/po/en@quot/LC_MESSAGES/foreign.mo",
+    "lib/R/library/foreign/po/fr/LC_MESSAGES/R-foreign.mo",
+    "lib/R/library/foreign/po/fr/LC_MESSAGES/foreign.mo",
+    "lib/R/library/foreign/po/pl/LC_MESSAGES/R-foreign.mo",
+    "lib/R/library/foreign/po/pl/LC_MESSAGES/foreign.mo"
+  ],
+  "fn": "r-foreign-0.8_67-r3.4.1_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-foreign-0.8_67-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "af3cd35328cc7515a3a8d6a82ff316e3",
+  "name": "r-foreign",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-foreign-0.8_67-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/foreign/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "3681963d7a04cddb5378393379a89472853587795431e9eae341c8b81a09a7b1",
+        "sha256_in_prefix": "3681963d7a04cddb5378393379a89472853587795431e9eae341c8b81a09a7b1",
+        "size_in_bytes": 2676
+      },
+      {
+        "_path": "lib/R/library/foreign/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "2c713ef47c18cac73b96ce18aad6be6d30810fa8c6e19ecfc1ab1faa22d784e5",
+        "sha256_in_prefix": "2c713ef47c18cac73b96ce18aad6be6d30810fa8c6e19ecfc1ab1faa22d784e5",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "lib/R/library/foreign/INDEX",
+        "path_type": "hardlink",
+        "sha256": "598dbfdba8bfce096c2512a2830566741f0265daccca97cfe4fe6856082bcabc",
+        "sha256_in_prefix": "598dbfdba8bfce096c2512a2830566741f0265daccca97cfe4fe6856082bcabc",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ce9ebf271694a5e58332f064306327ca1d0579384cb42b815fc5a6b1b9ac2f96",
+        "sha256_in_prefix": "ce9ebf271694a5e58332f064306327ca1d0579384cb42b815fc5a6b1b9ac2f96",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c391c66a0ef70906fbf6648e9c4300df7350e55ebe87c43685c6ae4cb6a8df84",
+        "sha256_in_prefix": "c391c66a0ef70906fbf6648e9c4300df7350e55ebe87c43685c6ae4cb6a8df84",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7a8b55d8d17b1d712f7aaba4e9bc87f030431a462991da3ccbdfc9394afc14d5",
+        "sha256_in_prefix": "7a8b55d8d17b1d712f7aaba4e9bc87f030431a462991da3ccbdfc9394afc14d5",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "41bca86708c5821f2e02dc764d681f90316375ae29d42fa1e71b4f5b996b23b5",
+        "sha256_in_prefix": "41bca86708c5821f2e02dc764d681f90316375ae29d42fa1e71b4f5b996b23b5",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/R/library/foreign/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "69ea86b44dc7fa1d9f2755097341652d35ffc15f798f2545566d1c6fb5c973af",
+        "sha256_in_prefix": "69ea86b44dc7fa1d9f2755097341652d35ffc15f798f2545566d1c6fb5c973af",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "lib/R/library/foreign/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "5ae23443073791fd23879055c3df63763a2aac8889f1e71946f619ffd2903ea7",
+        "sha256_in_prefix": "5ae23443073791fd23879055c3df63763a2aac8889f1e71946f619ffd2903ea7",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/R/library/foreign/R/foreign",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/foreign/R/foreign.rdb",
+        "path_type": "hardlink",
+        "sha256": "1875dcd5777597c899325ef5a0220af896385bae5a699e11f56a27d25a9704cd",
+        "sha256_in_prefix": "1875dcd5777597c899325ef5a0220af896385bae5a699e11f56a27d25a9704cd",
+        "size_in_bytes": 85251
+      },
+      {
+        "_path": "lib/R/library/foreign/R/foreign.rdx",
+        "path_type": "hardlink",
+        "sha256": "a4eb97df49e4fce431dfb0128cea3b5be0e87ff42f87b955aa6904680bc280c3",
+        "sha256_in_prefix": "a4eb97df49e4fce431dfb0128cea3b5be0e87ff42f87b955aa6904680bc280c3",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/R/library/foreign/files/HillRace.SYD",
+        "path_type": "hardlink",
+        "sha256": "7892c89663b481277e8d5f19945e49b2188195a9c0cef294f6c94ab85861c8c8",
+        "sha256_in_prefix": "7892c89663b481277e8d5f19945e49b2188195a9c0cef294f6c94ab85861c8c8",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "lib/R/library/foreign/files/Iris.syd",
+        "path_type": "hardlink",
+        "sha256": "7455a3baf37900a997fe0cfc9762e4f493561ca1f68664908856dfb5e66b0dc9",
+        "sha256_in_prefix": "7455a3baf37900a997fe0cfc9762e4f493561ca1f68664908856dfb5e66b0dc9",
+        "size_in_bytes": 6462
+      },
+      {
+        "_path": "lib/R/library/foreign/files/sids.dbf",
+        "path_type": "hardlink",
+        "sha256": "22f28a22e2df2806d148faca86a075b5fa54be37ab8355d02eb43805e1f06e8e",
+        "sha256_in_prefix": "22f28a22e2df2806d148faca86a075b5fa54be37ab8355d02eb43805e1f06e8e",
+        "size_in_bytes": 17282
+      },
+      {
+        "_path": "lib/R/library/foreign/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "de7e4661d704432996631dea5e8f6d1a7256bf1e76394f25619630dec1f7aebd",
+        "sha256_in_prefix": "de7e4661d704432996631dea5e8f6d1a7256bf1e76394f25619630dec1f7aebd",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/R/library/foreign/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4e832dd3554c04f7b0457f1261bb1b2cf57cd990883ad1567f8153dd1d69f502",
+        "sha256_in_prefix": "4e832dd3554c04f7b0457f1261bb1b2cf57cd990883ad1567f8153dd1d69f502",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/R/library/foreign/help/foreign.rdb",
+        "path_type": "hardlink",
+        "sha256": "3fba0295b30ab55a05e3b7bdd03028370764dab2e69c9b85f8fea25e77190f2f",
+        "sha256_in_prefix": "3fba0295b30ab55a05e3b7bdd03028370764dab2e69c9b85f8fea25e77190f2f",
+        "size_in_bytes": 53517
+      },
+      {
+        "_path": "lib/R/library/foreign/help/foreign.rdx",
+        "path_type": "hardlink",
+        "sha256": "f5f8944edc1e82c1369d8099b0b827d52003296765528aefc0d9e68b3b5888da",
+        "sha256_in_prefix": "f5f8944edc1e82c1369d8099b0b827d52003296765528aefc0d9e68b3b5888da",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/R/library/foreign/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7dca2e5269a732a140c195c0c37a48c78e3ca8d60de352739efbb9701f10ab3f",
+        "sha256_in_prefix": "7dca2e5269a732a140c195c0c37a48c78e3ca8d60de352739efbb9701f10ab3f",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/foreign/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f707a79b32b456d67ac730a07b6c435b638169cc4c1f7e013db495c5cd79f82e",
+        "sha256_in_prefix": "f707a79b32b456d67ac730a07b6c435b638169cc4c1f7e013db495c5cd79f82e",
+        "size_in_bytes": 3055
+      },
+      {
+        "_path": "lib/R/library/foreign/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/foreign/libs/foreign.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-foreign_1503237125514/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "f52d230c2dd3fbcaab426a973847df16f47a0e01a8101cfd08b17415372a6ea6",
+        "sha256_in_prefix": "6ec64a150f719869327b610d5f2cbf800c97c0c4518816a060b688161b5f342f",
+        "size_in_bytes": 149725
+      },
+      {
+        "_path": "lib/R/library/foreign/po/de/LC_MESSAGES/R-foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "7bc7c9d97fb427435781a9ba16c9d3f7fdf8679954e2a978ec381777c339e03a",
+        "sha256_in_prefix": "7bc7c9d97fb427435781a9ba16c9d3f7fdf8679954e2a978ec381777c339e03a",
+        "size_in_bytes": 4986
+      },
+      {
+        "_path": "lib/R/library/foreign/po/de/LC_MESSAGES/foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "c816dedfebf79186bdb1a41b3e22573e2c19dfb7acffbeb923fad75b623cbd18",
+        "sha256_in_prefix": "c816dedfebf79186bdb1a41b3e22573e2c19dfb7acffbeb923fad75b623cbd18",
+        "size_in_bytes": 21879
+      },
+      {
+        "_path": "lib/R/library/foreign/po/en@quot/LC_MESSAGES/R-foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "ae4b62ed3760a8d503753ad0c872b9b8022baf03789a95a0729051e18157104c",
+        "sha256_in_prefix": "ae4b62ed3760a8d503753ad0c872b9b8022baf03789a95a0729051e18157104c",
+        "size_in_bytes": 4615
+      },
+      {
+        "_path": "lib/R/library/foreign/po/en@quot/LC_MESSAGES/foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "b4add31a671ef03c968422c4fbce2e485026da18b701a74929a02a1ff0b8c58a",
+        "sha256_in_prefix": "b4add31a671ef03c968422c4fbce2e485026da18b701a74929a02a1ff0b8c58a",
+        "size_in_bytes": 20384
+      },
+      {
+        "_path": "lib/R/library/foreign/po/fr/LC_MESSAGES/R-foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "2e414c2a1deb9cb15805c8819e25af757ef8848b5bd296925517b654a2f39f0b",
+        "sha256_in_prefix": "2e414c2a1deb9cb15805c8819e25af757ef8848b5bd296925517b654a2f39f0b",
+        "size_in_bytes": 5260
+      },
+      {
+        "_path": "lib/R/library/foreign/po/fr/LC_MESSAGES/foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "9bdd31f541feb2f9ae10a9d7b97e768b150d44fe1a2db7a11841645b78ea5611",
+        "sha256_in_prefix": "9bdd31f541feb2f9ae10a9d7b97e768b150d44fe1a2db7a11841645b78ea5611",
+        "size_in_bytes": 23301
+      },
+      {
+        "_path": "lib/R/library/foreign/po/pl/LC_MESSAGES/R-foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "a0103eabf112ccd4be8fd397a9bc4b155e4d5a0a00334862b0236c52c64f243d",
+        "sha256_in_prefix": "a0103eabf112ccd4be8fd397a9bc4b155e4d5a0a00334862b0236c52c64f243d",
+        "size_in_bytes": 5190
+      },
+      {
+        "_path": "lib/R/library/foreign/po/pl/LC_MESSAGES/foreign.mo",
+        "path_type": "hardlink",
+        "sha256": "6205a2587e60785a18f8047f9c41009b26db5ef1a1256c0905003d075f10101a",
+        "sha256_in_prefix": "6205a2587e60785a18f8047f9c41009b26db5ef1a1256c0905003d075f10101a",
+        "size_in_bytes": 22081
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-foreign=0.8_67",
+  "size": 248391,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-foreign-0.8_67-r3.4.1_0.tar.bz2",
+  "version": "0.8_67"
+}

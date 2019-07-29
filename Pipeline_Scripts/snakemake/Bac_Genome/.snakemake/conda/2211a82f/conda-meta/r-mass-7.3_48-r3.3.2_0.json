@@ -1,0 +1,406 @@
+{
+  "arch": "x86_64",
+  "build": "r3.3.2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.3.2*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-mass-7.3_48-r3.3.2_0",
+  "features": "",
+  "files": [
+    "lib/R/library/MASS/CITATION",
+    "lib/R/library/MASS/DESCRIPTION",
+    "lib/R/library/MASS/INDEX",
+    "lib/R/library/MASS/Meta/Rd.rds",
+    "lib/R/library/MASS/Meta/data.rds",
+    "lib/R/library/MASS/Meta/hsearch.rds",
+    "lib/R/library/MASS/Meta/links.rds",
+    "lib/R/library/MASS/Meta/nsInfo.rds",
+    "lib/R/library/MASS/Meta/package.rds",
+    "lib/R/library/MASS/NAMESPACE",
+    "lib/R/library/MASS/NEWS",
+    "lib/R/library/MASS/R/MASS",
+    "lib/R/library/MASS/R/MASS.rdb",
+    "lib/R/library/MASS/R/MASS.rdx",
+    "lib/R/library/MASS/data/Rdata.rdb",
+    "lib/R/library/MASS/data/Rdata.rds",
+    "lib/R/library/MASS/data/Rdata.rdx",
+    "lib/R/library/MASS/help/AnIndex",
+    "lib/R/library/MASS/help/MASS.rdb",
+    "lib/R/library/MASS/help/MASS.rdx",
+    "lib/R/library/MASS/help/aliases.rds",
+    "lib/R/library/MASS/help/paths.rds",
+    "lib/R/library/MASS/html/00Index.html",
+    "lib/R/library/MASS/html/R.css",
+    "lib/R/library/MASS/libs/MASS.so",
+    "lib/R/library/MASS/po/de/LC_MESSAGES/R-MASS.mo",
+    "lib/R/library/MASS/po/en@quot/LC_MESSAGES/R-MASS.mo",
+    "lib/R/library/MASS/po/fr/LC_MESSAGES/R-MASS.mo",
+    "lib/R/library/MASS/po/ko/LC_MESSAGES/R-MASS.mo",
+    "lib/R/library/MASS/po/pl/LC_MESSAGES/R-MASS.mo",
+    "lib/R/library/MASS/scripts/ch01.R",
+    "lib/R/library/MASS/scripts/ch02.R",
+    "lib/R/library/MASS/scripts/ch03.R",
+    "lib/R/library/MASS/scripts/ch04.R",
+    "lib/R/library/MASS/scripts/ch05.R",
+    "lib/R/library/MASS/scripts/ch06.R",
+    "lib/R/library/MASS/scripts/ch07.R",
+    "lib/R/library/MASS/scripts/ch08.R",
+    "lib/R/library/MASS/scripts/ch09.R",
+    "lib/R/library/MASS/scripts/ch10.R",
+    "lib/R/library/MASS/scripts/ch11.R",
+    "lib/R/library/MASS/scripts/ch12.R",
+    "lib/R/library/MASS/scripts/ch13.R",
+    "lib/R/library/MASS/scripts/ch14.R",
+    "lib/R/library/MASS/scripts/ch15.R",
+    "lib/R/library/MASS/scripts/ch16.R"
+  ],
+  "fn": "r-mass-7.3_48-r3.3.2_0.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-mass-7.3_48-r3.3.2_0",
+    "type": 1
+  },
+  "md5": "03e47e9871a41d1ae7e6ca258b9865ed",
+  "name": "r-mass",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-mass-7.3_48-r3.3.2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/MASS/CITATION",
+        "path_type": "hardlink",
+        "sha256": "2ff605dbbe3a7099ff8b0a0cf3460527487b112cc9ec506e24e9b11395a783bf",
+        "sha256_in_prefix": "2ff605dbbe3a7099ff8b0a0cf3460527487b112cc9ec506e24e9b11395a783bf",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "lib/R/library/MASS/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9ef1dface32d4fc0a068b27d002d0d4d21e19f2b7231b793214c93fd73de242d",
+        "sha256_in_prefix": "9ef1dface32d4fc0a068b27d002d0d4d21e19f2b7231b793214c93fd73de242d",
+        "size_in_bytes": 1429
+      },
+      {
+        "_path": "lib/R/library/MASS/INDEX",
+        "path_type": "hardlink",
+        "sha256": "98ee42093171d0e11ed22c2dcb379fc6e8f895d436e5ef94b50ed040756a04ac",
+        "sha256_in_prefix": "98ee42093171d0e11ed22c2dcb379fc6e8f895d436e5ef94b50ed040756a04ac",
+        "size_in_bytes": 10135
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "a813bf4238260df8960f17ba2bb30b1fd6d2dcb0a6479a83bd717071b0489065",
+        "sha256_in_prefix": "a813bf4238260df8960f17ba2bb30b1fd6d2dcb0a6479a83bd717071b0489065",
+        "size_in_bytes": 6435
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "f384f3dddf83712402fa196579e82a148d175a89bf192492b0646f22b51ec163",
+        "sha256_in_prefix": "f384f3dddf83712402fa196579e82a148d175a89bf192492b0646f22b51ec163",
+        "size_in_bytes": 2309
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e49035abdc14ea59d92863ec65a5309c309fa48d7f0a5a5a362d0fe390d976ff",
+        "sha256_in_prefix": "e49035abdc14ea59d92863ec65a5309c309fa48d7f0a5a5a362d0fe390d976ff",
+        "size_in_bytes": 5913
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7347bb1edf28915afa0c90f87d4f79c292cd6b24feaa5dc36d1981afae8f7f53",
+        "sha256_in_prefix": "7347bb1edf28915afa0c90f87d4f79c292cd6b24feaa5dc36d1981afae8f7f53",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8b14ed81e75dbdb5f9203c8b0e8b436aefdf561958abea0f1d1a5eb689320231",
+        "sha256_in_prefix": "8b14ed81e75dbdb5f9203c8b0e8b436aefdf561958abea0f1d1a5eb689320231",
+        "size_in_bytes": 1921
+      },
+      {
+        "_path": "lib/R/library/MASS/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7be29ed54da9dc3f769f6fbdca35c36207f22e71504eda256c674e43df08e1b2",
+        "sha256_in_prefix": "7be29ed54da9dc3f769f6fbdca35c36207f22e71504eda256c674e43df08e1b2",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "lib/R/library/MASS/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f39db7fdb138abecf4152a118e993831b931354d17e0b46729ea3aba0600f7fb",
+        "sha256_in_prefix": "f39db7fdb138abecf4152a118e993831b931354d17e0b46729ea3aba0600f7fb",
+        "size_in_bytes": 6350
+      },
+      {
+        "_path": "lib/R/library/MASS/NEWS",
+        "path_type": "hardlink",
+        "sha256": "49fab3a9279b03387b17e51e3cff39f67b24778ca35e0d3fc0ce490340dbccc4",
+        "sha256_in_prefix": "49fab3a9279b03387b17e51e3cff39f67b24778ca35e0d3fc0ce490340dbccc4",
+        "size_in_bytes": 11060
+      },
+      {
+        "_path": "lib/R/library/MASS/R/MASS",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/MASS/R/MASS.rdb",
+        "path_type": "hardlink",
+        "sha256": "d1d789afa42c6133f3128486a7089ed321b36b5316710ad33a3ef068eef88038",
+        "sha256_in_prefix": "d1d789afa42c6133f3128486a7089ed321b36b5316710ad33a3ef068eef88038",
+        "size_in_bytes": 322535
+      },
+      {
+        "_path": "lib/R/library/MASS/R/MASS.rdx",
+        "path_type": "hardlink",
+        "sha256": "5dae4d49ed09921870e15ade64337c0726b052ce3e5d0eba92dad553a7282fff",
+        "sha256_in_prefix": "5dae4d49ed09921870e15ade64337c0726b052ce3e5d0eba92dad553a7282fff",
+        "size_in_bytes": 2864
+      },
+      {
+        "_path": "lib/R/library/MASS/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "72c8b7ba2bf72b79395da7a9b2f0bd4dc54b6f72b74762c9a417af9a93898ef5",
+        "sha256_in_prefix": "72c8b7ba2bf72b79395da7a9b2f0bd4dc54b6f72b74762c9a417af9a93898ef5",
+        "size_in_bytes": 167664
+      },
+      {
+        "_path": "lib/R/library/MASS/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "9d0487f6a3a2169bc0824bbcd34deca03392306f0196fe28d3a4942d888b14f1",
+        "sha256_in_prefix": "9d0487f6a3a2169bc0824bbcd34deca03392306f0196fe28d3a4942d888b14f1",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/R/library/MASS/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "3e23300f99c7f2de77a92c0a2f6eaa89dd9c88a474df8ab300f180f50eb20d2f",
+        "sha256_in_prefix": "3e23300f99c7f2de77a92c0a2f6eaa89dd9c88a474df8ab300f180f50eb20d2f",
+        "size_in_bytes": 1202
+      },
+      {
+        "_path": "lib/R/library/MASS/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "53b370979f941e1fa2e879a97cf6680a1b054cb729e286759d2307d44febc801",
+        "sha256_in_prefix": "53b370979f941e1fa2e879a97cf6680a1b054cb729e286759d2307d44febc801",
+        "size_in_bytes": 4481
+      },
+      {
+        "_path": "lib/R/library/MASS/help/MASS.rdb",
+        "path_type": "hardlink",
+        "sha256": "29564c55ac86cfbe76f254e62cb810abf337659edeeb217845fa30a5f9c2fc98",
+        "sha256_in_prefix": "29564c55ac86cfbe76f254e62cb810abf337659edeeb217845fa30a5f9c2fc98",
+        "size_in_bytes": 446263
+      },
+      {
+        "_path": "lib/R/library/MASS/help/MASS.rdx",
+        "path_type": "hardlink",
+        "sha256": "529531be050fb2ec0004099cc1e4c7dc9ef34fa3ec1eb776614846478624f6e0",
+        "sha256_in_prefix": "529531be050fb2ec0004099cc1e4c7dc9ef34fa3ec1eb776614846478624f6e0",
+        "size_in_bytes": 3255
+      },
+      {
+        "_path": "lib/R/library/MASS/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "b25777bd355c0e5863d116bc12d3bf180ccf4261a67e9c2fd22003a7559fa311",
+        "sha256_in_prefix": "b25777bd355c0e5863d116bc12d3bf180ccf4261a67e9c2fd22003a7559fa311",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "lib/R/library/MASS/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7780a0973b653beb388e102a1786b000390b226533b0b4294445851f22605e8d",
+        "sha256_in_prefix": "7780a0973b653beb388e102a1786b000390b226533b0b4294445851f22605e8d",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/R/library/MASS/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c98f478e58b136b5ae79aaa8d3ca42a56dc0717168359517a715f10a867b5814",
+        "sha256_in_prefix": "c98f478e58b136b5ae79aaa8d3ca42a56dc0717168359517a715f10a867b5814",
+        "size_in_bytes": 32320
+      },
+      {
+        "_path": "lib/R/library/MASS/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/MASS/libs/MASS.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-mass_1517404567122/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "437fcf35c8b9691afd5db03f8c1ec2c49315bb88d05edd4c5833c073444b8f4a",
+        "sha256_in_prefix": "e864bd0a7439e8b7e3a460b16f67c1750ad7f932ed10fffc94aac2c4a998f5d3",
+        "size_in_bytes": 30053
+      },
+      {
+        "_path": "lib/R/library/MASS/po/de/LC_MESSAGES/R-MASS.mo",
+        "path_type": "hardlink",
+        "sha256": "8acea96866229c13b20146f6d601111c2a896c518f51f3cc08814239d90c17b9",
+        "sha256_in_prefix": "8acea96866229c13b20146f6d601111c2a896c518f51f3cc08814239d90c17b9",
+        "size_in_bytes": 18100
+      },
+      {
+        "_path": "lib/R/library/MASS/po/en@quot/LC_MESSAGES/R-MASS.mo",
+        "path_type": "hardlink",
+        "sha256": "1b7d9f393dc42cc60d0f9ab107b0ebcbaa36958246a667244385cc76fae7aa49",
+        "sha256_in_prefix": "1b7d9f393dc42cc60d0f9ab107b0ebcbaa36958246a667244385cc76fae7aa49",
+        "size_in_bytes": 16950
+      },
+      {
+        "_path": "lib/R/library/MASS/po/fr/LC_MESSAGES/R-MASS.mo",
+        "path_type": "hardlink",
+        "sha256": "ff06a71b2f0b27922279e24ee1a06d250e06ad8ed0930fe6f3a56ec902685e23",
+        "sha256_in_prefix": "ff06a71b2f0b27922279e24ee1a06d250e06ad8ed0930fe6f3a56ec902685e23",
+        "size_in_bytes": 18111
+      },
+      {
+        "_path": "lib/R/library/MASS/po/ko/LC_MESSAGES/R-MASS.mo",
+        "path_type": "hardlink",
+        "sha256": "c488b3ab890469933323dbcdc51389b8033810cdaba95e72d6e57c081fd7ed5e",
+        "sha256_in_prefix": "c488b3ab890469933323dbcdc51389b8033810cdaba95e72d6e57c081fd7ed5e",
+        "size_in_bytes": 12953
+      },
+      {
+        "_path": "lib/R/library/MASS/po/pl/LC_MESSAGES/R-MASS.mo",
+        "path_type": "hardlink",
+        "sha256": "67fcf747152a1b6eca0b374b9453100ae817120d2d0c8929d757819e5557b2e0",
+        "sha256_in_prefix": "67fcf747152a1b6eca0b374b9453100ae817120d2d0c8929d757819e5557b2e0",
+        "size_in_bytes": 18865
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch01.R",
+        "path_type": "hardlink",
+        "sha256": "b37154742f3f777d41f955e53a6dd9f8b1f60760199cdc9221d5b219fb700887",
+        "sha256_in_prefix": "b37154742f3f777d41f955e53a6dd9f8b1f60760199cdc9221d5b219fb700887",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch02.R",
+        "path_type": "hardlink",
+        "sha256": "c7b0089f160e4c29749645ff5cd2afe754ab9235a0ea9f830c2fe89692cb3ef4",
+        "sha256_in_prefix": "c7b0089f160e4c29749645ff5cd2afe754ab9235a0ea9f830c2fe89692cb3ef4",
+        "size_in_bytes": 3883
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch03.R",
+        "path_type": "hardlink",
+        "sha256": "0e7697900115c1583711c8abfee3f2074e014a5873b7cae40a4d76fea48f2bb9",
+        "sha256_in_prefix": "0e7697900115c1583711c8abfee3f2074e014a5873b7cae40a4d76fea48f2bb9",
+        "size_in_bytes": 3807
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch04.R",
+        "path_type": "hardlink",
+        "sha256": "6e1b78144722ae609167692cee2bdd673f88efd1c1040c18ec26fac080c02cdd",
+        "sha256_in_prefix": "6e1b78144722ae609167692cee2bdd673f88efd1c1040c18ec26fac080c02cdd",
+        "size_in_bytes": 8073
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch05.R",
+        "path_type": "hardlink",
+        "sha256": "1ae55678fbe7242de0e98664c54aac22da3125acdf70e3191ea777e69aa92c5a",
+        "sha256_in_prefix": "1ae55678fbe7242de0e98664c54aac22da3125acdf70e3191ea777e69aa92c5a",
+        "size_in_bytes": 7121
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch06.R",
+        "path_type": "hardlink",
+        "sha256": "7a87fa60dfece21cd828d156b94c86e03a841b0445425b6707c607ee1bef258f",
+        "sha256_in_prefix": "7a87fa60dfece21cd828d156b94c86e03a841b0445425b6707c607ee1bef258f",
+        "size_in_bytes": 10868
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch07.R",
+        "path_type": "hardlink",
+        "sha256": "75acb547135861f1b36fa8dfab2ec95040f3ca154e9e829fa90a3d124f868714",
+        "sha256_in_prefix": "75acb547135861f1b36fa8dfab2ec95040f3ca154e9e829fa90a3d124f868714",
+        "size_in_bytes": 5901
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch08.R",
+        "path_type": "hardlink",
+        "sha256": "513b40acf638c934b92e1b1ed957cdce6fb6232fbe0a73eb6d0f1816abdc1039",
+        "sha256_in_prefix": "513b40acf638c934b92e1b1ed957cdce6fb6232fbe0a73eb6d0f1816abdc1039",
+        "size_in_bytes": 14478
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch09.R",
+        "path_type": "hardlink",
+        "sha256": "f031dd9df76eb05e7d9e93b4d328ef1a0196d49cd6dbfbc4490fd2a0b0e7cc76",
+        "sha256_in_prefix": "f031dd9df76eb05e7d9e93b4d328ef1a0196d49cd6dbfbc4490fd2a0b0e7cc76",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch10.R",
+        "path_type": "hardlink",
+        "sha256": "3a92a84241aa401aa803cfe07fc0288104d677eab4c277081b72b9c4680ceb4a",
+        "sha256_in_prefix": "3a92a84241aa401aa803cfe07fc0288104d677eab4c277081b72b9c4680ceb4a",
+        "size_in_bytes": 8950
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch11.R",
+        "path_type": "hardlink",
+        "sha256": "45ec17963a92db44e66e0bf3f184c7ee5538d921e2b83a7e4ae88968f96487ef",
+        "sha256_in_prefix": "45ec17963a92db44e66e0bf3f184c7ee5538d921e2b83a7e4ae88968f96487ef",
+        "size_in_bytes": 7065
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch12.R",
+        "path_type": "hardlink",
+        "sha256": "64f2fa0deb9160e17354ec528d515b6fc89aa1dbdf0815cd929269586cd29279",
+        "sha256_in_prefix": "64f2fa0deb9160e17354ec528d515b6fc89aa1dbdf0815cd929269586cd29279",
+        "size_in_bytes": 14566
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch13.R",
+        "path_type": "hardlink",
+        "sha256": "b97d75e00b822b4fbbc3049b8a72d5cb41362395666db8c6715b0072c99a9cdb",
+        "sha256_in_prefix": "b97d75e00b822b4fbbc3049b8a72d5cb41362395666db8c6715b0072c99a9cdb",
+        "size_in_bytes": 10583
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch14.R",
+        "path_type": "hardlink",
+        "sha256": "72e98d2e088294c2a18879a94b4ed25dcc39a1e22426d747b66196018ba02101",
+        "sha256_in_prefix": "72e98d2e088294c2a18879a94b4ed25dcc39a1e22426d747b66196018ba02101",
+        "size_in_bytes": 7114
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch15.R",
+        "path_type": "hardlink",
+        "sha256": "19868fafcc3dd932d272362d66f6eb6495f9572e6097d8344050f23d603dca0e",
+        "sha256_in_prefix": "19868fafcc3dd932d272362d66f6eb6495f9572e6097d8344050f23d603dca0e",
+        "size_in_bytes": 6196
+      },
+      {
+        "_path": "lib/R/library/MASS/scripts/ch16.R",
+        "path_type": "hardlink",
+        "sha256": "63d9e420cc92958de5272f5d5f39a7e2a5fe0fe45e3a4f62105907281670f847",
+        "sha256_in_prefix": "63d9e420cc92958de5272f5d5f39a7e2a5fe0fe45e3a4f62105907281670f847",
+        "size_in_bytes": 5322
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 1065956,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-mass-7.3_48-r3.3.2_0.tar.bz2",
+  "version": "7.3_48"
+}

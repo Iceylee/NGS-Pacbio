@@ -1,0 +1,11 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+libdir=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/lib
+includedir=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.1
+Libs: -L/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/include

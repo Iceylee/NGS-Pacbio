@@ -1,0 +1,6 @@
+
+           mkdir -p outData/crispr/
+           docker run              -it --rm              -v /home/liyubing/analysis/7_snakemake/Bac_Genome//:/data  icey_casfinder /bin/bash -c 'rm -rf /data/outData/crispr// && source ~/.profile && /opt/CRISPRCasFinder/CRISPRCasFinder.pl -cf CasFinder-2.0.2 -def General -cas -i /data/rawData/assembly.fasta -out /data/outData/crispr/ –keep -so /opt/CRISPRCasFinder/sel392v2.so'
+           cp outData/crispr/TSV/Crisprs_REPORT.tsv outData/crispr2/Crisprs.txt
+
+  

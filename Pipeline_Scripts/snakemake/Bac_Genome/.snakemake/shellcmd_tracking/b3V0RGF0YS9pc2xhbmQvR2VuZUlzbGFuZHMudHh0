@@ -1,0 +1,27 @@
+
+         rm -f outData/island/all.GIs.out
+         
+         for i in `cat rawData/assembly.fasta|grep ">"|cut -c 2-`
+         do
+            cat rawData/assembly.fasta|seqkit grep -p ${i} > outData/island//${i}.fasta
+            cat outData/prodigal/prodigal.gff|grep ${i} > outData/island//${i}.gff
+            python scripts/gff_to_gbk.py outData/island//${i}.gff outData/island//${i}.fasta
+            mv outData/island//${i}.gb outData/island//${i}.gbk
+
+            docker run               -it --rm               -v /home/liyubing/analysis/7_snakemake/Bac_Genome//outData/island//:/data  brinkmanlab/islandpath:1.0.0 /data/${i}.gbk /data/${i}_GIs.txt 
+
+            cat outData/island//${i}_GIs.txt | awk -v contig="$i" 'BEGIN{FS=OFS="	"}{print contig,$0}' >> outData/island/all.GIs.out
+
+         done 
+
+         cat outData/island/all.GIs.out|awk 'BEGIN{FS=OFS="	"}{$2="Genomic Island";print $0}' |sed "1 i Sequence	Feature	Start	End" > outData/island/islands.txt
+
+         # gff提取gene坐标
+         awk 'BEGIN{FS=OFS="	"}
+         NR==FNR&&FNR>1{i++;sequence[i]=$1;start[i]=$3;end[i]=$4;next}
+         {for (i in start) 
+          {if($4>=start[i]&&$5<=end[i]) print sequence[i],"Dimob","Gene",$4,$5,".",$7,$9,start[i],end[i],end[i]-start[i]+1}}' outData/island//islands.txt outData/prodigal/prodigal.gff | awk 'BEGIN {OFS="	"}
+          {print $0}'|sed "1 i #Sequence	Source	Feature	Gene_Start	Gene_End	Score	Strand	Gene_ID	Island_Start	Island_End	Island_Length" > outData/island/GeneIslands.txt
+
+
+  

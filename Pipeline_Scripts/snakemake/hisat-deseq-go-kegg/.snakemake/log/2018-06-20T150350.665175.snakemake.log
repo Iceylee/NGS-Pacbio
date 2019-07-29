@@ -1,0 +1,4 @@
+KeyError in line 23 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+'conditon'
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 73, in <module>
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk", line 23, in <module>

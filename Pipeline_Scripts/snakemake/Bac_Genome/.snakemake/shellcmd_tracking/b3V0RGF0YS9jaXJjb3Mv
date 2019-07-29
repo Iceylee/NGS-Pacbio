@@ -1,0 +1,14 @@
+
+  		if [ TRUE = "TRUE" ]; then
+  			cp -r scripts/one_contig/plot outData/circos//
+  		else
+  			cp -r scripts/multiple_contigs/plot outData/circos//
+
+  			#short chr draw no ticks
+  			sed -i '7ichromosomes=-unitig_0;-unitig_1;-unitig_2;-unitig_3;-unitig_4;-unitig_10;-unitig_12;-unitig_13;-unitig_14;-unitig_16' outData/circos//plot/ticks.conf
+  		fi
+
+  		cd outData/circos/
+        
+  		circos -conf plot/circos.conf 
+  	

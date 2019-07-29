@@ -1,0 +1,1819 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libxml2 2.9.*",
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-xml-3.98_1.6-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/XML/COPYRIGHTS",
+    "lib/R/library/XML/DESCRIPTION",
+    "lib/R/library/XML/INDEX",
+    "lib/R/library/XML/LICENSE",
+    "lib/R/library/XML/Meta/Rd.rds",
+    "lib/R/library/XML/Meta/features.rds",
+    "lib/R/library/XML/Meta/hsearch.rds",
+    "lib/R/library/XML/Meta/links.rds",
+    "lib/R/library/XML/Meta/nsInfo.rds",
+    "lib/R/library/XML/Meta/package.rds",
+    "lib/R/library/XML/NAMESPACE",
+    "lib/R/library/XML/R/XML",
+    "lib/R/library/XML/R/XML.rdb",
+    "lib/R/library/XML/R/XML.rdx",
+    "lib/R/library/XML/exampleData/9003-en.html",
+    "lib/R/library/XML/exampleData/9003.html",
+    "lib/R/library/XML/exampleData/GNUmakefile",
+    "lib/R/library/XML/exampleData/README",
+    "lib/R/library/XML/exampleData/Rref.xml",
+    "lib/R/library/XML/exampleData/Rsource.xml",
+    "lib/R/library/XML/exampleData/SOAPNamespaces.xml",
+    "lib/R/library/XML/exampleData/StatModel.dtd",
+    "lib/R/library/XML/exampleData/TestInvalid.xml",
+    "lib/R/library/XML/exampleData/allNodeTypes.xml",
+    "lib/R/library/XML/exampleData/author.xml",
+    "lib/R/library/XML/exampleData/author.xsd",
+    "lib/R/library/XML/exampleData/author1.xml",
+    "lib/R/library/XML/exampleData/author2.xml",
+    "lib/R/library/XML/exampleData/author2.xsd",
+    "lib/R/library/XML/exampleData/basic.xml",
+    "lib/R/library/XML/exampleData/book.xml",
+    "lib/R/library/XML/exampleData/boxplot.svg",
+    "lib/R/library/XML/exampleData/branch.xml",
+    "lib/R/library/XML/exampleData/catalog.xml",
+    "lib/R/library/XML/exampleData/cdata.xml",
+    "lib/R/library/XML/exampleData/charts.svg",
+    "lib/R/library/XML/exampleData/cleanNamespace.xml",
+    "lib/R/library/XML/exampleData/content.html",
+    "lib/R/library/XML/exampleData/dataframe.xml",
+    "lib/R/library/XML/exampleData/dot.xml",
+    "lib/R/library/XML/exampleData/dtd.zip",
+    "lib/R/library/XML/exampleData/entity.xml",
+    "lib/R/library/XML/exampleData/entity1.xml",
+    "lib/R/library/XML/exampleData/entity2.xml",
+    "lib/R/library/XML/exampleData/entity3.html",
+    "lib/R/library/XML/exampleData/entity4.xml",
+    "lib/R/library/XML/exampleData/entityValue",
+    "lib/R/library/XML/exampleData/eurofxref-hist.xml.gz",
+    "lib/R/library/XML/exampleData/event.xml",
+    "lib/R/library/XML/exampleData/foo.dtd",
+    "lib/R/library/XML/exampleData/functionTemplate.xml",
+    "lib/R/library/XML/exampleData/generalInfo.xml",
+    "lib/R/library/XML/exampleData/gnumeric.xml",
+    "lib/R/library/XML/exampleData/graph.gxl",
+    "lib/R/library/XML/exampleData/iTunes.plist",
+    "lib/R/library/XML/exampleData/include.xml",
+    "lib/R/library/XML/exampleData/job.xml",
+    "lib/R/library/XML/exampleData/kiva_lender.xml",
+    "lib/R/library/XML/exampleData/largeText.xml",
+    "lib/R/library/XML/exampleData/lists.html",
+    "lib/R/library/XML/exampleData/literate.dtd",
+    "lib/R/library/XML/exampleData/literate.xml",
+    "lib/R/library/XML/exampleData/literate.xsl",
+    "lib/R/library/XML/exampleData/literateFunction.xml",
+    "lib/R/library/XML/exampleData/longitudinalData.xml",
+    "lib/R/library/XML/exampleData/malformed.xml",
+    "lib/R/library/XML/exampleData/mathml.dtd",
+    "lib/R/library/XML/exampleData/mathml.xml",
+    "lib/R/library/XML/exampleData/mathmlFuncCall.xml",
+    "lib/R/library/XML/exampleData/mathmlInt.xml",
+    "lib/R/library/XML/exampleData/mathmlMatrix.xml",
+    "lib/R/library/XML/exampleData/mathmlQuadratic.xml",
+    "lib/R/library/XML/exampleData/mathmlRoot.xml",
+    "lib/R/library/XML/exampleData/mathmlScript.xml",
+    "lib/R/library/XML/exampleData/mathmlSet.xml",
+    "lib/R/library/XML/exampleData/mathmlSimple.xml",
+    "lib/R/library/XML/exampleData/mathmlSphere.xml",
+    "lib/R/library/XML/exampleData/mathmlSums.xml",
+    "lib/R/library/XML/exampleData/matrixMult.xml",
+    "lib/R/library/XML/exampleData/mtcars.xml",
+    "lib/R/library/XML/exampleData/namespaceHandlers.xml",
+    "lib/R/library/XML/exampleData/namespaces.xml",
+    "lib/R/library/XML/exampleData/namespaces1.xml",
+    "lib/R/library/XML/exampleData/namespaces2.xml",
+    "lib/R/library/XML/exampleData/nodes.xml",
+    "lib/R/library/XML/exampleData/nodes1.xml",
+    "lib/R/library/XML/exampleData/nodes2.xml",
+    "lib/R/library/XML/exampleData/nodes3.xml",
+    "lib/R/library/XML/exampleData/nsAttrs.xml",
+    "lib/R/library/XML/exampleData/plist.xml",
+    "lib/R/library/XML/exampleData/raw.xml",
+    "lib/R/library/XML/exampleData/redundantNS.xml",
+    "lib/R/library/XML/exampleData/reparent.xml",
+    "lib/R/library/XML/exampleData/rhelp.xsl",
+    "lib/R/library/XML/exampleData/rxinclude.xml",
+    "lib/R/library/XML/exampleData/same.xml",
+    "lib/R/library/XML/exampleData/setInterval.xml",
+    "lib/R/library/XML/exampleData/simple.plist",
+    "lib/R/library/XML/exampleData/simple.xml",
+    "lib/R/library/XML/exampleData/size.xml",
+    "lib/R/library/XML/exampleData/size1.xml",
+    "lib/R/library/XML/exampleData/size2.xml",
+    "lib/R/library/XML/exampleData/size3.xml",
+    "lib/R/library/XML/exampleData/solr.xml",
+    "lib/R/library/XML/exampleData/something.xml",
+    "lib/R/library/XML/exampleData/svg.xml",
+    "lib/R/library/XML/exampleData/symslines.svg",
+    "lib/R/library/XML/exampleData/tagnames.xml",
+    "lib/R/library/XML/exampleData/test.xml",
+    "lib/R/library/XML/exampleData/test1.xml",
+    "lib/R/library/XML/exampleData/tides.xml",
+    "lib/R/library/XML/exampleData/utf.xml",
+    "lib/R/library/XML/exampleData/vars.xml",
+    "lib/R/library/XML/exampleData/writeRS.S",
+    "lib/R/library/XML/exampleData/writeRS.xml",
+    "lib/R/library/XML/exampleData/xinclude/a.xml",
+    "lib/R/library/XML/exampleData/xinclude/b.xml",
+    "lib/R/library/XML/exampleData/xinclude/c.xml",
+    "lib/R/library/XML/exampleData/xinclude/d.xml",
+    "lib/R/library/XML/exampleData/xinclude/e.xml",
+    "lib/R/library/XML/exampleData/xinclude/simple.xml",
+    "lib/R/library/XML/exampleData/xinclude/top.xml",
+    "lib/R/library/XML/exampleData/xpathTest.xml",
+    "lib/R/library/XML/exampleData/xysize.svg",
+    "lib/R/library/XML/exampleData/xyz.svg.gz",
+    "lib/R/library/XML/examples/CIS.R",
+    "lib/R/library/XML/examples/DiGIR.R",
+    "lib/R/library/XML/examples/GNUmakefile",
+    "lib/R/library/XML/examples/HTMLText.R",
+    "lib/R/library/XML/examples/README",
+    "lib/R/library/XML/examples/Rhelp.xml",
+    "lib/R/library/XML/examples/RhelpArchive.xml",
+    "lib/R/library/XML/examples/RhelpInfo.xml",
+    "lib/R/library/XML/examples/SAXEntity.R",
+    "lib/R/library/XML/examples/SSource.dtd",
+    "lib/R/library/XML/examples/author.R",
+    "lib/R/library/XML/examples/bondYields.R",
+    "lib/R/library/XML/examples/bondsTables.R",
+    "lib/R/library/XML/examples/catalog.R",
+    "lib/R/library/XML/examples/connections.R",
+    "lib/R/library/XML/examples/connections1.R",
+    "lib/R/library/XML/examples/createTree.R",
+    "lib/R/library/XML/examples/createTree1.R",
+    "lib/R/library/XML/examples/dataFrameEvent.R",
+    "lib/R/library/XML/examples/docbook.R",
+    "lib/R/library/XML/examples/ecb.R",
+    "lib/R/library/XML/examples/enhancedDataFrame.R",
+    "lib/R/library/XML/examples/event.R",
+    "lib/R/library/XML/examples/event.S",
+    "lib/R/library/XML/examples/eventHandlers.R",
+    "lib/R/library/XML/examples/faq.R",
+    "lib/R/library/XML/examples/filterDataFrameEvent.R",
+    "lib/R/library/XML/examples/foo.html",
+    "lib/R/library/XML/examples/formals.xsl",
+    "lib/R/library/XML/examples/functionIndex.Sxml",
+    "lib/R/library/XML/examples/genericHandlers.R",
+    "lib/R/library/XML/examples/generic_file.xml",
+    "lib/R/library/XML/examples/getElements.S",
+    "lib/R/library/XML/examples/gettingStarted.html",
+    "lib/R/library/XML/examples/gettingStarted.xml",
+    "lib/R/library/XML/examples/gnumericHandler.R",
+    "lib/R/library/XML/examples/hashTree.R",
+    "lib/R/library/XML/examples/iTunes.plist",
+    "lib/R/library/XML/examples/index.html",
+    "lib/R/library/XML/examples/internalNodes.S",
+    "lib/R/library/XML/examples/internalXInclude.xml",
+    "lib/R/library/XML/examples/itunes.R",
+    "lib/R/library/XML/examples/itunes.xml",
+    "lib/R/library/XML/examples/itunes.xsl",
+    "lib/R/library/XML/examples/itunesSax.R",
+    "lib/R/library/XML/examples/itunesSax1.R",
+    "lib/R/library/XML/examples/itunesSax2.R",
+    "lib/R/library/XML/examples/mathml.R",
+    "lib/R/library/XML/examples/mathmlPlot.R",
+    "lib/R/library/XML/examples/metlin.R",
+    "lib/R/library/XML/examples/mexico.R",
+    "lib/R/library/XML/examples/mexico.xml",
+    "lib/R/library/XML/examples/mi1.R",
+    "lib/R/library/XML/examples/modified_itunes_sax.R",
+    "lib/R/library/XML/examples/namespaces.S",
+    "lib/R/library/XML/examples/namespaces1.S",
+    "lib/R/library/XML/examples/newNodes.R",
+    "lib/R/library/XML/examples/oop.S",
+    "lib/R/library/XML/examples/pi.xml",
+    "lib/R/library/XML/examples/pmml.R",
+    "lib/R/library/XML/examples/prompt.xml",
+    "lib/R/library/XML/examples/promptXML.R",
+    "lib/R/library/XML/examples/promptXML.Sxml",
+    "lib/R/library/XML/examples/rcode.xml",
+    "lib/R/library/XML/examples/rcode.xsl",
+    "lib/R/library/XML/examples/redirection.R",
+    "lib/R/library/XML/examples/reorder.xml",
+    "lib/R/library/XML/examples/sbml.xml",
+    "lib/R/library/XML/examples/sbmlSAX.S",
+    "lib/R/library/XML/examples/schema.xsd",
+    "lib/R/library/XML/examples/schemaEg.xml",
+    "lib/R/library/XML/examples/schemas.xml",
+    "lib/R/library/XML/examples/svg.R",
+    "lib/R/library/XML/examples/tags.Sxml",
+    "lib/R/library/XML/examples/trademe_cars.R",
+    "lib/R/library/XML/examples/valueFilterDataFrameEvent.R",
+    "lib/R/library/XML/examples/wordML.R",
+    "lib/R/library/XML/examples/writeExamples.S",
+    "lib/R/library/XML/examples/xml2tex.Sxml",
+    "lib/R/library/XML/examples/xmlSource.R",
+    "lib/R/library/XML/examples/xmlTags.xml",
+    "lib/R/library/XML/examples/xmlTree.R",
+    "lib/R/library/XML/examples/xpath.R",
+    "lib/R/library/XML/examples/xpath.xml",
+    "lib/R/library/XML/examples/yeast_small-01.xml",
+    "lib/R/library/XML/help/AnIndex",
+    "lib/R/library/XML/help/XML.rdb",
+    "lib/R/library/XML/help/XML.rdx",
+    "lib/R/library/XML/help/aliases.rds",
+    "lib/R/library/XML/help/paths.rds",
+    "lib/R/library/XML/html/00Index.html",
+    "lib/R/library/XML/html/R.css",
+    "lib/R/library/XML/libs/XML.so",
+    "lib/R/library/XML/scripts/RSXML.bsh",
+    "lib/R/library/XML/scripts/RSXML.bsh.in",
+    "lib/R/library/XML/scripts/RSXML.csh",
+    "lib/R/library/XML/scripts/RSXML.csh.in"
+  ],
+  "fn": "r-xml-3.98_1.6-r3.4.1_0.tar.bz2",
+  "license": "BSD_2_clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-xml-3.98_1.6-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "aad272b3701aad2e090a11e918772f23",
+  "name": "r-xml",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-xml-3.98_1.6-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/XML/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "262167dcae694b0d47cba11ac9863a9c79369b8622e8c80324a0331177fe00d9",
+        "sha256_in_prefix": "262167dcae694b0d47cba11ac9863a9c79369b8622e8c80324a0331177fe00d9",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/R/library/XML/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "0b6a88be8d2169ef6abec077f4f0c16bd7645ef95f65adb0f634a8151a0fc51a",
+        "sha256_in_prefix": "0b6a88be8d2169ef6abec077f4f0c16bd7645ef95f65adb0f634a8151a0fc51a",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "lib/R/library/XML/INDEX",
+        "path_type": "hardlink",
+        "sha256": "76f128d30e76f0d7aa7076d2a48e4f121d3b87ea5bc0d3da86631b19944575bb",
+        "sha256_in_prefix": "76f128d30e76f0d7aa7076d2a48e4f121d3b87ea5bc0d3da86631b19944575bb",
+        "size_in_bytes": 8043
+      },
+      {
+        "_path": "lib/R/library/XML/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1fa5ac897e2cccfc81d45003d18fe6f7757e140858aba536ea2c24af8533e122",
+        "sha256_in_prefix": "1fa5ac897e2cccfc81d45003d18fe6f7757e140858aba536ea2c24af8533e122",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "c42f1a3c3ecd2ad21f0d74e41443ed52c4cad4bc95c7bc9ec15afa9dbcb23ed4",
+        "sha256_in_prefix": "c42f1a3c3ecd2ad21f0d74e41443ed52c4cad4bc95c7bc9ec15afa9dbcb23ed4",
+        "size_in_bytes": 6387
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "392dd68b61f2e1146da13ece5967058e7ee0c1bcd06b4a331dbc6503ab1943a4",
+        "sha256_in_prefix": "392dd68b61f2e1146da13ece5967058e7ee0c1bcd06b4a331dbc6503ab1943a4",
+        "size_in_bytes": 6392
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ccdce5e13338e992e4b96a6f7c1509e9bc90d27c2be3c8319dae5f3736ff0437",
+        "sha256_in_prefix": "ccdce5e13338e992e4b96a6f7c1509e9bc90d27c2be3c8319dae5f3736ff0437",
+        "size_in_bytes": 3833
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "58f9ff08e915cfec053745de7cdf9cb8c3bec04e47702c9d8f0cecd570a73559",
+        "sha256_in_prefix": "58f9ff08e915cfec053745de7cdf9cb8c3bec04e47702c9d8f0cecd570a73559",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "lib/R/library/XML/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "65c6a72294fab517a2d08fcb28093aad2562a7839af24b4ccadf3e6d0340af34",
+        "sha256_in_prefix": "65c6a72294fab517a2d08fcb28093aad2562a7839af24b4ccadf3e6d0340af34",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/XML/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "dc7df32cfa730fb94323eb2b3169c19f21928dc12e1fe473149157fff2cd79bc",
+        "sha256_in_prefix": "dc7df32cfa730fb94323eb2b3169c19f21928dc12e1fe473149157fff2cd79bc",
+        "size_in_bytes": 10331
+      },
+      {
+        "_path": "lib/R/library/XML/R/XML",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/XML/R/XML.rdb",
+        "path_type": "hardlink",
+        "sha256": "0cb15530de154fbb0dcfc6632acc7c97980fe539d27979fe8c67c2aca000ca46",
+        "sha256_in_prefix": "0cb15530de154fbb0dcfc6632acc7c97980fe539d27979fe8c67c2aca000ca46",
+        "size_in_bytes": 452608
+      },
+      {
+        "_path": "lib/R/library/XML/R/XML.rdx",
+        "path_type": "hardlink",
+        "sha256": "abdf90c3b692499ee4706f392f9617ba3d8eb1466ad9bc70204d28861cb09a7f",
+        "sha256_in_prefix": "abdf90c3b692499ee4706f392f9617ba3d8eb1466ad9bc70204d28861cb09a7f",
+        "size_in_bytes": 9200
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/9003-en.html",
+        "path_type": "hardlink",
+        "sha256": "71ea6d8ae75dcf90ccd75d718f9c29b4b28712e919b0451f22f41eec92023ae3",
+        "sha256_in_prefix": "71ea6d8ae75dcf90ccd75d718f9c29b4b28712e919b0451f22f41eec92023ae3",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/9003.html",
+        "path_type": "hardlink",
+        "sha256": "96c6d73fa92b4a9e660bfef8ddbefa67b8d5318dd031b5ec4bcc02e50d7f559e",
+        "sha256_in_prefix": "96c6d73fa92b4a9e660bfef8ddbefa67b8d5318dd031b5ec4bcc02e50d7f559e",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/GNUmakefile",
+        "path_type": "hardlink",
+        "sha256": "44e776c2605331b8a9a7cda8714962af7cc58e0102d88891dd4387b222a79b3a",
+        "sha256_in_prefix": "44e776c2605331b8a9a7cda8714962af7cc58e0102d88891dd4387b222a79b3a",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/README",
+        "path_type": "hardlink",
+        "sha256": "a94e9b64af1d5154fdf2228b495ebede31cc0f8ed40427adaaf66e6e3fc5aca1",
+        "sha256_in_prefix": "a94e9b64af1d5154fdf2228b495ebede31cc0f8ed40427adaaf66e6e3fc5aca1",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/Rref.xml",
+        "path_type": "hardlink",
+        "sha256": "77e52465e258c8af1d39adf20c086c77e549ccf40818a03d6295919c89d4cf32",
+        "sha256_in_prefix": "77e52465e258c8af1d39adf20c086c77e549ccf40818a03d6295919c89d4cf32",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/Rsource.xml",
+        "path_type": "hardlink",
+        "sha256": "3f486b4a0483332425e9acd33e00a4f874d077c8b35db0724511c1c03cf48149",
+        "sha256_in_prefix": "3f486b4a0483332425e9acd33e00a4f874d077c8b35db0724511c1c03cf48149",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/SOAPNamespaces.xml",
+        "path_type": "hardlink",
+        "sha256": "a741b87795112d49e39818f8069f2b89533cc3a30d034693e93387c9341bb2a2",
+        "sha256_in_prefix": "a741b87795112d49e39818f8069f2b89533cc3a30d034693e93387c9341bb2a2",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/StatModel.dtd",
+        "path_type": "hardlink",
+        "sha256": "cf11105bab76559399c15a16e323fb5b2ab40a44f8f0eee3384c0e7528094835",
+        "sha256_in_prefix": "cf11105bab76559399c15a16e323fb5b2ab40a44f8f0eee3384c0e7528094835",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/TestInvalid.xml",
+        "path_type": "hardlink",
+        "sha256": "fdedc83e64322209e3cd30d1d83e7937096937978af7869e31f5c021a7ce0309",
+        "sha256_in_prefix": "fdedc83e64322209e3cd30d1d83e7937096937978af7869e31f5c021a7ce0309",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/allNodeTypes.xml",
+        "path_type": "hardlink",
+        "sha256": "026bae9ef91f834262f11819060ff620feda9366325965f83d6053aae9ce97c1",
+        "sha256_in_prefix": "026bae9ef91f834262f11819060ff620feda9366325965f83d6053aae9ce97c1",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/author.xml",
+        "path_type": "hardlink",
+        "sha256": "0459dfc85dfe77648b8ef1130473418014d5ebd8e8eb486ae4b963f0f69fa02f",
+        "sha256_in_prefix": "0459dfc85dfe77648b8ef1130473418014d5ebd8e8eb486ae4b963f0f69fa02f",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/author.xsd",
+        "path_type": "hardlink",
+        "sha256": "7a8abb70efd761a16f59215b0a04afcb9fef1155e4401aac8d39fa5195aa2c1f",
+        "sha256_in_prefix": "7a8abb70efd761a16f59215b0a04afcb9fef1155e4401aac8d39fa5195aa2c1f",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/author1.xml",
+        "path_type": "hardlink",
+        "sha256": "e5acf174f66328e32acb01a62f2ac9c2505805bb909e642e7320dcbb5bc84ed9",
+        "sha256_in_prefix": "e5acf174f66328e32acb01a62f2ac9c2505805bb909e642e7320dcbb5bc84ed9",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/author2.xml",
+        "path_type": "hardlink",
+        "sha256": "c988d050709984ba381d5fd9300341b8dca3cd975a15149fc4bde2157fe33f64",
+        "sha256_in_prefix": "c988d050709984ba381d5fd9300341b8dca3cd975a15149fc4bde2157fe33f64",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/author2.xsd",
+        "path_type": "hardlink",
+        "sha256": "1af315d7778034bd1c6cb637e5105f7e98058d26bb8507365f65aec41f5d0aa4",
+        "sha256_in_prefix": "1af315d7778034bd1c6cb637e5105f7e98058d26bb8507365f65aec41f5d0aa4",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/basic.xml",
+        "path_type": "hardlink",
+        "sha256": "3d4c4486d1f02b3b16ef8d048ce23ada93cdac85c39ea562bbbd9e9564d54a3b",
+        "sha256_in_prefix": "3d4c4486d1f02b3b16ef8d048ce23ada93cdac85c39ea562bbbd9e9564d54a3b",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/book.xml",
+        "path_type": "hardlink",
+        "sha256": "34ec23755185f7fb8a0ffa1271b47f853da6be99070f88b25d1a9d72c852337d",
+        "sha256_in_prefix": "34ec23755185f7fb8a0ffa1271b47f853da6be99070f88b25d1a9d72c852337d",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/boxplot.svg",
+        "path_type": "hardlink",
+        "sha256": "a4365a97cf2a208ca442b5df53fb95e72563a4405312eb5b107e7ea31a4465d6",
+        "sha256_in_prefix": "a4365a97cf2a208ca442b5df53fb95e72563a4405312eb5b107e7ea31a4465d6",
+        "size_in_bytes": 22761
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/branch.xml",
+        "path_type": "hardlink",
+        "sha256": "bff8148e0026d9e56e117e80ee76bdd8a3b1ff3aa2584cb81b3b8dbcba816ed8",
+        "sha256_in_prefix": "bff8148e0026d9e56e117e80ee76bdd8a3b1ff3aa2584cb81b3b8dbcba816ed8",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/catalog.xml",
+        "path_type": "hardlink",
+        "sha256": "f06f8d83c9ca47863892ae06931925d460acde5ba98599cd20695a50089aa3a9",
+        "sha256_in_prefix": "f06f8d83c9ca47863892ae06931925d460acde5ba98599cd20695a50089aa3a9",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/cdata.xml",
+        "path_type": "hardlink",
+        "sha256": "6a172dac63078fef8c96ff090dd6ccecc51776457099e99fa82f6bbced2ef43f",
+        "sha256_in_prefix": "6a172dac63078fef8c96ff090dd6ccecc51776457099e99fa82f6bbced2ef43f",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/charts.svg",
+        "path_type": "hardlink",
+        "sha256": "878ce9d93c52a3c7a612c833a539fdfc89d8274354992903f528fd0a319b81e9",
+        "sha256_in_prefix": "878ce9d93c52a3c7a612c833a539fdfc89d8274354992903f528fd0a319b81e9",
+        "size_in_bytes": 60483
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/cleanNamespace.xml",
+        "path_type": "hardlink",
+        "sha256": "2b0ddc4e668639f124c84fe1ca4cbdb6bc4eafc82c6e1c228bd037a3d189331e",
+        "sha256_in_prefix": "2b0ddc4e668639f124c84fe1ca4cbdb6bc4eafc82c6e1c228bd037a3d189331e",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/content.html",
+        "path_type": "hardlink",
+        "sha256": "fd0ac74e23dfb5345e173c9236bcd1b800ccdcbaddd536f6d923cf745531a82f",
+        "sha256_in_prefix": "fd0ac74e23dfb5345e173c9236bcd1b800ccdcbaddd536f6d923cf745531a82f",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/dataframe.xml",
+        "path_type": "hardlink",
+        "sha256": "25817f50f954bc79179dc79b45a24b0a8c1605c9814025c98bbf4aaeac23da5a",
+        "sha256_in_prefix": "25817f50f954bc79179dc79b45a24b0a8c1605c9814025c98bbf4aaeac23da5a",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/dot.xml",
+        "path_type": "hardlink",
+        "sha256": "e774583a0d1cebefcdb16d72ce33d010ed15e92aba14f7bd0c70145e79200412",
+        "sha256_in_prefix": "e774583a0d1cebefcdb16d72ce33d010ed15e92aba14f7bd0c70145e79200412",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/dtd.zip",
+        "path_type": "hardlink",
+        "sha256": "4dae42863eb02f66024054088c360b1d12d03a5d934ff1cdc07f9aca02b3486e",
+        "sha256_in_prefix": "4dae42863eb02f66024054088c360b1d12d03a5d934ff1cdc07f9aca02b3486e",
+        "size_in_bytes": 116765
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entity.xml",
+        "path_type": "hardlink",
+        "sha256": "52a5b10886f2c25176ea722eb30881341b2227057c877f65159200118f05a3f6",
+        "sha256_in_prefix": "52a5b10886f2c25176ea722eb30881341b2227057c877f65159200118f05a3f6",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entity1.xml",
+        "path_type": "hardlink",
+        "sha256": "541cbe74712808c624d123e2cfbffa0b717171827323750755699e4678b05611",
+        "sha256_in_prefix": "541cbe74712808c624d123e2cfbffa0b717171827323750755699e4678b05611",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entity2.xml",
+        "path_type": "hardlink",
+        "sha256": "074b0c8254747d44d47f139b3ee725ffed4f0b9ea85ab044ba2a278d6fc40a90",
+        "sha256_in_prefix": "074b0c8254747d44d47f139b3ee725ffed4f0b9ea85ab044ba2a278d6fc40a90",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entity3.html",
+        "path_type": "hardlink",
+        "sha256": "666f9ca057dadc51c3ff7b5b0215ee04664771757e492ea3f58152c5401bb40b",
+        "sha256_in_prefix": "666f9ca057dadc51c3ff7b5b0215ee04664771757e492ea3f58152c5401bb40b",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entity4.xml",
+        "path_type": "hardlink",
+        "sha256": "204a365aa478eded9c5cc6b2d7717d73672663689143715ffbd9b2b0433f5df6",
+        "sha256_in_prefix": "204a365aa478eded9c5cc6b2d7717d73672663689143715ffbd9b2b0433f5df6",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/entityValue",
+        "path_type": "hardlink",
+        "sha256": "d8fa4b36d0ab438acc616adefd124001a0c4867984618b996db1e84eaf33020a",
+        "sha256_in_prefix": "d8fa4b36d0ab438acc616adefd124001a0c4867984618b996db1e84eaf33020a",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/eurofxref-hist.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "bcf3368a39f7d3813749e44caa4582a8fcf66422261ff572bc9247d756d2b539",
+        "sha256_in_prefix": "bcf3368a39f7d3813749e44caa4582a8fcf66422261ff572bc9247d756d2b539",
+        "size_in_bytes": 216282
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/event.xml",
+        "path_type": "hardlink",
+        "sha256": "a42ac06c19a5b536bdd1c653b979996a3022cf0394edfc26493542651f972a8e",
+        "sha256_in_prefix": "a42ac06c19a5b536bdd1c653b979996a3022cf0394edfc26493542651f972a8e",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/foo.dtd",
+        "path_type": "hardlink",
+        "sha256": "3bcf15d7387e7e8a4f7e81b411a3a7018167b600298061f4f3afc376b14e7325",
+        "sha256_in_prefix": "3bcf15d7387e7e8a4f7e81b411a3a7018167b600298061f4f3afc376b14e7325",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/functionTemplate.xml",
+        "path_type": "hardlink",
+        "sha256": "81df5869240aab760b58c73e3fa14271076883ad122db053079a4f21606f3a47",
+        "sha256_in_prefix": "81df5869240aab760b58c73e3fa14271076883ad122db053079a4f21606f3a47",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/generalInfo.xml",
+        "path_type": "hardlink",
+        "sha256": "f58185e204cf455d03ec5fb62591816f2d99806bff8fd17113ea729d4eea18ac",
+        "sha256_in_prefix": "f58185e204cf455d03ec5fb62591816f2d99806bff8fd17113ea729d4eea18ac",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/gnumeric.xml",
+        "path_type": "hardlink",
+        "sha256": "fecaaecd848133880ecfcf7a32cd986a199982696a4ae0b1f8c9240aab67e7f6",
+        "sha256_in_prefix": "fecaaecd848133880ecfcf7a32cd986a199982696a4ae0b1f8c9240aab67e7f6",
+        "size_in_bytes": 3492
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/graph.gxl",
+        "path_type": "hardlink",
+        "sha256": "5e3f1d764dd37154e244795db970ffdee463566c7fe5effb1b579fccc6adcc61",
+        "sha256_in_prefix": "5e3f1d764dd37154e244795db970ffdee463566c7fe5effb1b579fccc6adcc61",
+        "size_in_bytes": 2224
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/iTunes.plist",
+        "path_type": "hardlink",
+        "sha256": "1d30cd1d5cfaffb08d227155e8d56d14f375843cb5f2ed4f1d51e7269b598f0e",
+        "sha256_in_prefix": "1d30cd1d5cfaffb08d227155e8d56d14f375843cb5f2ed4f1d51e7269b598f0e",
+        "size_in_bytes": 3522
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/include.xml",
+        "path_type": "hardlink",
+        "sha256": "bded633194c18b1312c90137d728e0def19197e15cb87e0e1e69c46733ec9f1f",
+        "sha256_in_prefix": "bded633194c18b1312c90137d728e0def19197e15cb87e0e1e69c46733ec9f1f",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/job.xml",
+        "path_type": "hardlink",
+        "sha256": "2463cb1d078d2b9835f9de75deec794314ba531716b90aa0bf34c9fc8c93a752",
+        "sha256_in_prefix": "2463cb1d078d2b9835f9de75deec794314ba531716b90aa0bf34c9fc8c93a752",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/kiva_lender.xml",
+        "path_type": "hardlink",
+        "sha256": "1bfadebc1f6203a4b044701af7454f8d7bec11dfc8a0ebac051516c29fda0439",
+        "sha256_in_prefix": "1bfadebc1f6203a4b044701af7454f8d7bec11dfc8a0ebac051516c29fda0439",
+        "size_in_bytes": 527485
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/largeText.xml",
+        "path_type": "hardlink",
+        "sha256": "ee0dc2b13b544ab80be3e37ab66bb0e7ebb5ebff1d9566edf7d3c4b138df3504",
+        "sha256_in_prefix": "ee0dc2b13b544ab80be3e37ab66bb0e7ebb5ebff1d9566edf7d3c4b138df3504",
+        "size_in_bytes": 15626
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/lists.html",
+        "path_type": "hardlink",
+        "sha256": "ce18b1743c71bb0841a07711ec9d464a152c77959a52f0178344306b61f726ab",
+        "sha256_in_prefix": "ce18b1743c71bb0841a07711ec9d464a152c77959a52f0178344306b61f726ab",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/literate.dtd",
+        "path_type": "hardlink",
+        "sha256": "0dd587e829dbb610680e18d5a8c3b69ebcdef644e78afa21f4b8f5105cf33328",
+        "sha256_in_prefix": "0dd587e829dbb610680e18d5a8c3b69ebcdef644e78afa21f4b8f5105cf33328",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/literate.xml",
+        "path_type": "hardlink",
+        "sha256": "0b3131c8722c679f6d27bc5f58400b2db9e4bc72f148fa4c931d298f866a4b29",
+        "sha256_in_prefix": "0b3131c8722c679f6d27bc5f58400b2db9e4bc72f148fa4c931d298f866a4b29",
+        "size_in_bytes": 2832
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/literate.xsl",
+        "path_type": "hardlink",
+        "sha256": "c8f31c3df145a6cbc2a4f5e8168f655064b6c789a1d9ccd298caab71a2a6e288",
+        "sha256_in_prefix": "c8f31c3df145a6cbc2a4f5e8168f655064b6c789a1d9ccd298caab71a2a6e288",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/literateFunction.xml",
+        "path_type": "hardlink",
+        "sha256": "ba1b4e0d8b6cb44065afb2909eae9debf1ac42328a9c26fadff9630994ac4436",
+        "sha256_in_prefix": "ba1b4e0d8b6cb44065afb2909eae9debf1ac42328a9c26fadff9630994ac4436",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/longitudinalData.xml",
+        "path_type": "hardlink",
+        "sha256": "ef6a9e74629cbcfd712b969057e5ca519c2568ffbc2bbcda8e09a358af69c4d6",
+        "sha256_in_prefix": "ef6a9e74629cbcfd712b969057e5ca519c2568ffbc2bbcda8e09a358af69c4d6",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/malformed.xml",
+        "path_type": "hardlink",
+        "sha256": "89f8a3ec4048195ff335361c11b0a73f1b8c1d6eb87d8a6d39e743e816a08659",
+        "sha256_in_prefix": "89f8a3ec4048195ff335361c11b0a73f1b8c1d6eb87d8a6d39e743e816a08659",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathml.dtd",
+        "path_type": "hardlink",
+        "sha256": "0bfae54713c7c241150e5eb01cfce22a0c401f321b51a1c045f38b0842293162",
+        "sha256_in_prefix": "0bfae54713c7c241150e5eb01cfce22a0c401f321b51a1c045f38b0842293162",
+        "size_in_bytes": 33509
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathml.xml",
+        "path_type": "hardlink",
+        "sha256": "b7722901d3e03594232c08aabe98784cfc6f619d3b4006616087db1092aa4e8a",
+        "sha256_in_prefix": "b7722901d3e03594232c08aabe98784cfc6f619d3b4006616087db1092aa4e8a",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlFuncCall.xml",
+        "path_type": "hardlink",
+        "sha256": "3011730e68990c59f23190f919c364912d0a7eee209e709402aea5233c449960",
+        "sha256_in_prefix": "3011730e68990c59f23190f919c364912d0a7eee209e709402aea5233c449960",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlInt.xml",
+        "path_type": "hardlink",
+        "sha256": "ccc24e2f6b12a216e4960f1bd06e675fd6bf778fdd45d06c48981fd833b76249",
+        "sha256_in_prefix": "ccc24e2f6b12a216e4960f1bd06e675fd6bf778fdd45d06c48981fd833b76249",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlMatrix.xml",
+        "path_type": "hardlink",
+        "sha256": "9e310558e8b5c903eac675793c7ae53581cbe3be4dd8188ef3fd4519ba7fe2c7",
+        "sha256_in_prefix": "9e310558e8b5c903eac675793c7ae53581cbe3be4dd8188ef3fd4519ba7fe2c7",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlQuadratic.xml",
+        "path_type": "hardlink",
+        "sha256": "177f36a529077ae481c3cffbe15ac5e7eb69faaa0edf95d6729fcbbc161b3b13",
+        "sha256_in_prefix": "177f36a529077ae481c3cffbe15ac5e7eb69faaa0edf95d6729fcbbc161b3b13",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlRoot.xml",
+        "path_type": "hardlink",
+        "sha256": "0f2f5cee1c6ce7f0b5e3c2e100cbfef7bb55f69f4ab1cc943818004967e9f220",
+        "sha256_in_prefix": "0f2f5cee1c6ce7f0b5e3c2e100cbfef7bb55f69f4ab1cc943818004967e9f220",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlScript.xml",
+        "path_type": "hardlink",
+        "sha256": "045c8fccd3194089a094a4819cdba8c440986d411addbad50d946b7d8227a69f",
+        "sha256_in_prefix": "045c8fccd3194089a094a4819cdba8c440986d411addbad50d946b7d8227a69f",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlSet.xml",
+        "path_type": "hardlink",
+        "sha256": "9e459bc9d14b1ccc376262300d672fcaa258200eb252d7538e3e672b8112f093",
+        "sha256_in_prefix": "9e459bc9d14b1ccc376262300d672fcaa258200eb252d7538e3e672b8112f093",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlSimple.xml",
+        "path_type": "hardlink",
+        "sha256": "ce8e53718e807879ec97bd9b51de64b510507bbf0265e64575dd2dbd23ac54ff",
+        "sha256_in_prefix": "ce8e53718e807879ec97bd9b51de64b510507bbf0265e64575dd2dbd23ac54ff",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlSphere.xml",
+        "path_type": "hardlink",
+        "sha256": "2d2229b6a5f7533dbfa359285f6108aaacfda412c1822c8315c38fc4c5c66b3a",
+        "sha256_in_prefix": "2d2229b6a5f7533dbfa359285f6108aaacfda412c1822c8315c38fc4c5c66b3a",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mathmlSums.xml",
+        "path_type": "hardlink",
+        "sha256": "7e6e384c86f6ce65ba2cb79e04800df022c2680e0ce8a882f22aaa59b372b41d",
+        "sha256_in_prefix": "7e6e384c86f6ce65ba2cb79e04800df022c2680e0ce8a882f22aaa59b372b41d",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/matrixMult.xml",
+        "path_type": "hardlink",
+        "sha256": "b7bf035f410f2abace1882f3b3ad3673e1801e383f1a63fe1b027c87847b134e",
+        "sha256_in_prefix": "b7bf035f410f2abace1882f3b3ad3673e1801e383f1a63fe1b027c87847b134e",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/mtcars.xml",
+        "path_type": "hardlink",
+        "sha256": "e01e62f3b37cf0d2b0358887921cd086904771c39d540009c16e46a30c98b124",
+        "sha256_in_prefix": "e01e62f3b37cf0d2b0358887921cd086904771c39d540009c16e46a30c98b124",
+        "size_in_bytes": 3799
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/namespaceHandlers.xml",
+        "path_type": "hardlink",
+        "sha256": "b1497cf7729ee13b081824139b72b9bc44b383023d3b6bd5ab64e0ff522137f6",
+        "sha256_in_prefix": "b1497cf7729ee13b081824139b72b9bc44b383023d3b6bd5ab64e0ff522137f6",
+        "size_in_bytes": 4854
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/namespaces.xml",
+        "path_type": "hardlink",
+        "sha256": "ce09aa8a03f095940056648e296e43896d23125bb04ccd0cba1415a33e9b5c21",
+        "sha256_in_prefix": "ce09aa8a03f095940056648e296e43896d23125bb04ccd0cba1415a33e9b5c21",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/namespaces1.xml",
+        "path_type": "hardlink",
+        "sha256": "5c9c90b25a4185e007da8d8af8a4e796970e3a5e94b5460e890a3b9c7b5f2aa2",
+        "sha256_in_prefix": "5c9c90b25a4185e007da8d8af8a4e796970e3a5e94b5460e890a3b9c7b5f2aa2",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/namespaces2.xml",
+        "path_type": "hardlink",
+        "sha256": "783b63104705255c858e96081bb6bf338c7d5a374b34194bbb47cd4405ffb766",
+        "sha256_in_prefix": "783b63104705255c858e96081bb6bf338c7d5a374b34194bbb47cd4405ffb766",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/nodes.xml",
+        "path_type": "hardlink",
+        "sha256": "9d5db187dd8dd6ebed1693492f518fa20ce3c38b9659f845f1c1bf158015fc14",
+        "sha256_in_prefix": "9d5db187dd8dd6ebed1693492f518fa20ce3c38b9659f845f1c1bf158015fc14",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/nodes1.xml",
+        "path_type": "hardlink",
+        "sha256": "edd37934af847fcf4ce2226a05eae39af18a1cb46048720e88b99f2c686e14ed",
+        "sha256_in_prefix": "edd37934af847fcf4ce2226a05eae39af18a1cb46048720e88b99f2c686e14ed",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/nodes2.xml",
+        "path_type": "hardlink",
+        "sha256": "0140403149712b4594509ce4019e3ddc3e39bdd57a17f3bb55df588b538be698",
+        "sha256_in_prefix": "0140403149712b4594509ce4019e3ddc3e39bdd57a17f3bb55df588b538be698",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/nodes3.xml",
+        "path_type": "hardlink",
+        "sha256": "752483fe35ea3e5cf2f8b3263e906341d7291f96fec127312df0c86b8df44375",
+        "sha256_in_prefix": "752483fe35ea3e5cf2f8b3263e906341d7291f96fec127312df0c86b8df44375",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/nsAttrs.xml",
+        "path_type": "hardlink",
+        "sha256": "7056defb19a5ecf5479fc9e62b3f87ae1ef165a96d60269cfd7fabc82aeca805",
+        "sha256_in_prefix": "7056defb19a5ecf5479fc9e62b3f87ae1ef165a96d60269cfd7fabc82aeca805",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/plist.xml",
+        "path_type": "hardlink",
+        "sha256": "b5411a736a1b90619505670511ee781c4a9cf95d9d5402f2d133ef562783f904",
+        "sha256_in_prefix": "b5411a736a1b90619505670511ee781c4a9cf95d9d5402f2d133ef562783f904",
+        "size_in_bytes": 820
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/raw.xml",
+        "path_type": "hardlink",
+        "sha256": "aa156e75250d6cf6e6c0cbe958a5d6713e0ab24b82d47058d66f11f061092e0c",
+        "sha256_in_prefix": "aa156e75250d6cf6e6c0cbe958a5d6713e0ab24b82d47058d66f11f061092e0c",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/redundantNS.xml",
+        "path_type": "hardlink",
+        "sha256": "35cacb3afd400662864dd24037ba7fa7e45945406a5a6810d1983f98b4b7431c",
+        "sha256_in_prefix": "35cacb3afd400662864dd24037ba7fa7e45945406a5a6810d1983f98b4b7431c",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/reparent.xml",
+        "path_type": "hardlink",
+        "sha256": "1bd0799b1bdfa56d1d7849df3c03e16d0a0edede830a834cb6d2fdcfae0ed774",
+        "sha256_in_prefix": "1bd0799b1bdfa56d1d7849df3c03e16d0a0edede830a834cb6d2fdcfae0ed774",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/rhelp.xsl",
+        "path_type": "hardlink",
+        "sha256": "b36ea282c7b64ac10921082ead41caacf2dca5e6babca110a4d77e7f4ec58009",
+        "sha256_in_prefix": "b36ea282c7b64ac10921082ead41caacf2dca5e6babca110a4d77e7f4ec58009",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/rxinclude.xml",
+        "path_type": "hardlink",
+        "sha256": "e0467b52dabc4ee807d83ed2228f276de274a989cb53f4bf26c36f50e8bb072f",
+        "sha256_in_prefix": "e0467b52dabc4ee807d83ed2228f276de274a989cb53f4bf26c36f50e8bb072f",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/same.xml",
+        "path_type": "hardlink",
+        "sha256": "be4fc3c3e4fe59b53ad5053d377ecc2f8f2f3d2f9cc417a132f9b481352d1cba",
+        "sha256_in_prefix": "be4fc3c3e4fe59b53ad5053d377ecc2f8f2f3d2f9cc417a132f9b481352d1cba",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/setInterval.xml",
+        "path_type": "hardlink",
+        "sha256": "d33526b6897862a424dd63dfdce91311cd71c2a1bfff4a8d96648458241c6389",
+        "sha256_in_prefix": "d33526b6897862a424dd63dfdce91311cd71c2a1bfff4a8d96648458241c6389",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/simple.plist",
+        "path_type": "hardlink",
+        "sha256": "fb508f5aef9239422e78c7273c97a2246436d8cf5acd14cce47d1d823272b98a",
+        "sha256_in_prefix": "fb508f5aef9239422e78c7273c97a2246436d8cf5acd14cce47d1d823272b98a",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/simple.xml",
+        "path_type": "hardlink",
+        "sha256": "e6e063415814ba929317d62be309d5659d664fc4633ae48162820091ffca95f2",
+        "sha256_in_prefix": "e6e063415814ba929317d62be309d5659d664fc4633ae48162820091ffca95f2",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/size.xml",
+        "path_type": "hardlink",
+        "sha256": "051e03d91a79b85a5af4cf4fc1fce1c44845bfab84e519fb2349c7326d4f09da",
+        "sha256_in_prefix": "051e03d91a79b85a5af4cf4fc1fce1c44845bfab84e519fb2349c7326d4f09da",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/size1.xml",
+        "path_type": "hardlink",
+        "sha256": "aee45c83961a13f09b66bb13d59432da94cb6d7027d750df89962fb28fba6c4a",
+        "sha256_in_prefix": "aee45c83961a13f09b66bb13d59432da94cb6d7027d750df89962fb28fba6c4a",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/size2.xml",
+        "path_type": "hardlink",
+        "sha256": "9185f33a5f4ddfeaf8fc64eddcc43fb09178258ebe71f73243f7d5c8bc422e75",
+        "sha256_in_prefix": "9185f33a5f4ddfeaf8fc64eddcc43fb09178258ebe71f73243f7d5c8bc422e75",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/size3.xml",
+        "path_type": "hardlink",
+        "sha256": "eb28ed78d5bd6d5dbf111f8820a2776fa2c6b12b7315ac08abf49a242d10544d",
+        "sha256_in_prefix": "eb28ed78d5bd6d5dbf111f8820a2776fa2c6b12b7315ac08abf49a242d10544d",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/solr.xml",
+        "path_type": "hardlink",
+        "sha256": "5c59167fb5d0157273859c2f20ac242c50cf44158a3d22022679e7dc386543cd",
+        "sha256_in_prefix": "5c59167fb5d0157273859c2f20ac242c50cf44158a3d22022679e7dc386543cd",
+        "size_in_bytes": 5052
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/something.xml",
+        "path_type": "hardlink",
+        "sha256": "72a25c6ab1212fa7b8b95d73ed6a4d8d4d1d88eb6a0ee93ef1e37a04a268510f",
+        "sha256_in_prefix": "72a25c6ab1212fa7b8b95d73ed6a4d8d4d1d88eb6a0ee93ef1e37a04a268510f",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/svg.xml",
+        "path_type": "hardlink",
+        "sha256": "e33a92e652435f10fb366662c1aef3b2519905a0352a29840def317c89ac1c8a",
+        "sha256_in_prefix": "e33a92e652435f10fb366662c1aef3b2519905a0352a29840def317c89ac1c8a",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/symslines.svg",
+        "path_type": "hardlink",
+        "sha256": "a9d7176d823124a48043ae8f4b403c9bc8ce872cfb16c2f2d86c42a3a032c27d",
+        "sha256_in_prefix": "a9d7176d823124a48043ae8f4b403c9bc8ce872cfb16c2f2d86c42a3a032c27d",
+        "size_in_bytes": 76120
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/tagnames.xml",
+        "path_type": "hardlink",
+        "sha256": "116bef15022c99629214a4bc8763face6697ac5abc0d668a1321f16ff9b3ae07",
+        "sha256_in_prefix": "116bef15022c99629214a4bc8763face6697ac5abc0d668a1321f16ff9b3ae07",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/test.xml",
+        "path_type": "hardlink",
+        "sha256": "148922d1a450befd13599e7362bd74fd03d91761564a9a9d5ee542fd43798092",
+        "sha256_in_prefix": "148922d1a450befd13599e7362bd74fd03d91761564a9a9d5ee542fd43798092",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/test1.xml",
+        "path_type": "hardlink",
+        "sha256": "f99865115998e0d46645869bdf8dea357b88e8a4557fe14e2966b637de28d211",
+        "sha256_in_prefix": "f99865115998e0d46645869bdf8dea357b88e8a4557fe14e2966b637de28d211",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/tides.xml",
+        "path_type": "hardlink",
+        "sha256": "b890e4e1405c01d789dac3b8b3c45a5ef1d160398e9907545176468dfb6546cc",
+        "sha256_in_prefix": "b890e4e1405c01d789dac3b8b3c45a5ef1d160398e9907545176468dfb6546cc",
+        "size_in_bytes": 1888
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/utf.xml",
+        "path_type": "hardlink",
+        "sha256": "3fcfe215d69e06252a7b2856a10c5ba824c60a3ab6644ff1dc214e157eab021b",
+        "sha256_in_prefix": "3fcfe215d69e06252a7b2856a10c5ba824c60a3ab6644ff1dc214e157eab021b",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/vars.xml",
+        "path_type": "hardlink",
+        "sha256": "2ef713b7e295915125a41288a28bdbb1d63ea1bf868f6f9e74abe191841421d1",
+        "sha256_in_prefix": "2ef713b7e295915125a41288a28bdbb1d63ea1bf868f6f9e74abe191841421d1",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/writeRS.S",
+        "path_type": "hardlink",
+        "sha256": "5238c4d3a1aaf11c5b849ce8b5903083cc6ad3b44f5eb4dd7b461490fd3a4b08",
+        "sha256_in_prefix": "5238c4d3a1aaf11c5b849ce8b5903083cc6ad3b44f5eb4dd7b461490fd3a4b08",
+        "size_in_bytes": 6937
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/writeRS.xml",
+        "path_type": "hardlink",
+        "sha256": "cb2da5d9e45f4d0bee257d4af6cbe4b42adcc6697e2011d1f23981f3cb3cfec7",
+        "sha256_in_prefix": "cb2da5d9e45f4d0bee257d4af6cbe4b42adcc6697e2011d1f23981f3cb3cfec7",
+        "size_in_bytes": 9541
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/a.xml",
+        "path_type": "hardlink",
+        "sha256": "05783f1d92a77f8db317c9a86482a68816cfcc041092cdadfc96a1a01fddd184",
+        "sha256_in_prefix": "05783f1d92a77f8db317c9a86482a68816cfcc041092cdadfc96a1a01fddd184",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/b.xml",
+        "path_type": "hardlink",
+        "sha256": "6ffaf01f56aa3712a7fd98a01b6b265fe305dec85516bad82809780108f5e69c",
+        "sha256_in_prefix": "6ffaf01f56aa3712a7fd98a01b6b265fe305dec85516bad82809780108f5e69c",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/c.xml",
+        "path_type": "hardlink",
+        "sha256": "b1d1cb35828027d1632b202c249e736bef373d36efd241b526d35d4422f5dbff",
+        "sha256_in_prefix": "b1d1cb35828027d1632b202c249e736bef373d36efd241b526d35d4422f5dbff",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/d.xml",
+        "path_type": "hardlink",
+        "sha256": "e34b33cd341abe8c01d5e8f5402a9cd4c741eefea1de030b390a40a47ba71618",
+        "sha256_in_prefix": "e34b33cd341abe8c01d5e8f5402a9cd4c741eefea1de030b390a40a47ba71618",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/e.xml",
+        "path_type": "hardlink",
+        "sha256": "aba224b1803db9c1c949b67dac7f398d88c055877798735adb6f34468087fb58",
+        "sha256_in_prefix": "aba224b1803db9c1c949b67dac7f398d88c055877798735adb6f34468087fb58",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/simple.xml",
+        "path_type": "hardlink",
+        "sha256": "d23b889210557a40572baf7a1d8054bd84622940a393735c05cbcda564bd588a",
+        "sha256_in_prefix": "d23b889210557a40572baf7a1d8054bd84622940a393735c05cbcda564bd588a",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xinclude/top.xml",
+        "path_type": "hardlink",
+        "sha256": "fb5fb8994dceae241f5ad16617b6bd584445999979d9cf65340e8defb9d3944a",
+        "sha256_in_prefix": "fb5fb8994dceae241f5ad16617b6bd584445999979d9cf65340e8defb9d3944a",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xpathTest.xml",
+        "path_type": "hardlink",
+        "sha256": "68301ca3f21c28e13766015b2dd166dff651eb16491fd0044b39d63bc3e40622",
+        "sha256_in_prefix": "68301ca3f21c28e13766015b2dd166dff651eb16491fd0044b39d63bc3e40622",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xysize.svg",
+        "path_type": "hardlink",
+        "sha256": "220c4ab015e82308c0e648a4d4667046bd4c7f93d51a8a86d1790352e12afbc0",
+        "sha256_in_prefix": "220c4ab015e82308c0e648a4d4667046bd4c7f93d51a8a86d1790352e12afbc0",
+        "size_in_bytes": 9470
+      },
+      {
+        "_path": "lib/R/library/XML/exampleData/xyz.svg.gz",
+        "path_type": "hardlink",
+        "sha256": "0b872fcea54180efd3586de671c06a1f83e739a18c559e8128e77026a192767d",
+        "sha256_in_prefix": "0b872fcea54180efd3586de671c06a1f83e739a18c559e8128e77026a192767d",
+        "size_in_bytes": 96127
+      },
+      {
+        "_path": "lib/R/library/XML/examples/CIS.R",
+        "path_type": "hardlink",
+        "sha256": "7455d4f465f23d5b1138e9391592e56adeefa9eab3a157444aebf44fdfe79bc4",
+        "sha256_in_prefix": "7455d4f465f23d5b1138e9391592e56adeefa9eab3a157444aebf44fdfe79bc4",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "lib/R/library/XML/examples/DiGIR.R",
+        "path_type": "hardlink",
+        "sha256": "04357cf5261b6f8aec449e9e6aa645939606381003627ed5136119e625fa7067",
+        "sha256_in_prefix": "04357cf5261b6f8aec449e9e6aa645939606381003627ed5136119e625fa7067",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "lib/R/library/XML/examples/GNUmakefile",
+        "path_type": "hardlink",
+        "sha256": "d3621b50fd00712c20e2575dd563d1f7d67a301d6dc7ac2efbf424050be67ebd",
+        "sha256_in_prefix": "d3621b50fd00712c20e2575dd563d1f7d67a301d6dc7ac2efbf424050be67ebd",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/XML/examples/HTMLText.R",
+        "path_type": "hardlink",
+        "sha256": "b4be471e8a6a80567e77e95562492e24f69db2218ce8a947b8fa20daa07d0351",
+        "sha256_in_prefix": "b4be471e8a6a80567e77e95562492e24f69db2218ce8a947b8fa20daa07d0351",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "lib/R/library/XML/examples/README",
+        "path_type": "hardlink",
+        "sha256": "db18875e92b8492e14c4b4cbe3f9fc680602c34cba09a4de0484287db4005918",
+        "sha256_in_prefix": "db18875e92b8492e14c4b4cbe3f9fc680602c34cba09a4de0484287db4005918",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/XML/examples/Rhelp.xml",
+        "path_type": "hardlink",
+        "sha256": "e380b4e9293d60debe2820e02a66ae7202eec885c349a35b471ac5134fc329b0",
+        "sha256_in_prefix": "e380b4e9293d60debe2820e02a66ae7202eec885c349a35b471ac5134fc329b0",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/R/library/XML/examples/RhelpArchive.xml",
+        "path_type": "hardlink",
+        "sha256": "a0bc1d5decf61f921332862230bddfdd2f4390121c3f274577000afd7a2fa639",
+        "sha256_in_prefix": "a0bc1d5decf61f921332862230bddfdd2f4390121c3f274577000afd7a2fa639",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "lib/R/library/XML/examples/RhelpInfo.xml",
+        "path_type": "hardlink",
+        "sha256": "f7f355e0a351ae1ec105d37e014b4500e052afdef2961773cd5ca072717d48dc",
+        "sha256_in_prefix": "f7f355e0a351ae1ec105d37e014b4500e052afdef2961773cd5ca072717d48dc",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/XML/examples/SAXEntity.R",
+        "path_type": "hardlink",
+        "sha256": "38bcec03384f5f7353d47b93cd6e5d3d225e8fcd77f063013a9406d0cabbba06",
+        "sha256_in_prefix": "38bcec03384f5f7353d47b93cd6e5d3d225e8fcd77f063013a9406d0cabbba06",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/R/library/XML/examples/SSource.dtd",
+        "path_type": "hardlink",
+        "sha256": "b4341731c53410216fb38a7f94e75f9906187643ec168b5fd34482db59ae900d",
+        "sha256_in_prefix": "b4341731c53410216fb38a7f94e75f9906187643ec168b5fd34482db59ae900d",
+        "size_in_bytes": 1411
+      },
+      {
+        "_path": "lib/R/library/XML/examples/author.R",
+        "path_type": "hardlink",
+        "sha256": "784b2d90154387ddfa5d48582731898259820ba1768ec4bf177692f60e7d6f27",
+        "sha256_in_prefix": "784b2d90154387ddfa5d48582731898259820ba1768ec4bf177692f60e7d6f27",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/R/library/XML/examples/bondYields.R",
+        "path_type": "hardlink",
+        "sha256": "85cd30989bbf9c54b3ea0c1a66e2bad2bdd2a2ef939bfd547769bfc408047232",
+        "sha256_in_prefix": "85cd30989bbf9c54b3ea0c1a66e2bad2bdd2a2ef939bfd547769bfc408047232",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "lib/R/library/XML/examples/bondsTables.R",
+        "path_type": "hardlink",
+        "sha256": "b6397476101d123484f4f6d3325f15b721a7df2bfbdb0740de17af20238c94ac",
+        "sha256_in_prefix": "b6397476101d123484f4f6d3325f15b721a7df2bfbdb0740de17af20238c94ac",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "lib/R/library/XML/examples/catalog.R",
+        "path_type": "hardlink",
+        "sha256": "7b0d233cfa3da416a2281aab08fe617c4f52e25a1d33201f23ea971c666ffb21",
+        "sha256_in_prefix": "7b0d233cfa3da416a2281aab08fe617c4f52e25a1d33201f23ea971c666ffb21",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/R/library/XML/examples/connections.R",
+        "path_type": "hardlink",
+        "sha256": "02fe822c17bb6a50e36ffe65d2cca63bb0f11aaeca1a140e7182e1ee6657b7f8",
+        "sha256_in_prefix": "02fe822c17bb6a50e36ffe65d2cca63bb0f11aaeca1a140e7182e1ee6657b7f8",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/XML/examples/connections1.R",
+        "path_type": "hardlink",
+        "sha256": "b97e67556935123a8131dfe21ef602bbbfc648ec8e440730f873b613f95f7a02",
+        "sha256_in_prefix": "b97e67556935123a8131dfe21ef602bbbfc648ec8e440730f873b613f95f7a02",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/XML/examples/createTree.R",
+        "path_type": "hardlink",
+        "sha256": "c707a3c40050faab8db08db2f201482ffa5a99241c431b781fbc9ee1c6a10b57",
+        "sha256_in_prefix": "c707a3c40050faab8db08db2f201482ffa5a99241c431b781fbc9ee1c6a10b57",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "lib/R/library/XML/examples/createTree1.R",
+        "path_type": "hardlink",
+        "sha256": "a00337bbbfcb56abe13061421af19f7806714bd7aeae99d749dfe9f7c9f02eda",
+        "sha256_in_prefix": "a00337bbbfcb56abe13061421af19f7806714bd7aeae99d749dfe9f7c9f02eda",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/R/library/XML/examples/dataFrameEvent.R",
+        "path_type": "hardlink",
+        "sha256": "86e8169149feebbc7342788e743bbb7122d926d4a93b37a963f9981f08dd5c4d",
+        "sha256_in_prefix": "86e8169149feebbc7342788e743bbb7122d926d4a93b37a963f9981f08dd5c4d",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "lib/R/library/XML/examples/docbook.R",
+        "path_type": "hardlink",
+        "sha256": "7541ec334cf0d3a9d2b1ce6b4d9277824bab4f03133dae3ec016139a367f07e8",
+        "sha256_in_prefix": "7541ec334cf0d3a9d2b1ce6b4d9277824bab4f03133dae3ec016139a367f07e8",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "lib/R/library/XML/examples/ecb.R",
+        "path_type": "hardlink",
+        "sha256": "10dd68ca84535b87f8448126c1c9d6222a28d024b68533450a3e14b1af789598",
+        "sha256_in_prefix": "10dd68ca84535b87f8448126c1c9d6222a28d024b68533450a3e14b1af789598",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "lib/R/library/XML/examples/enhancedDataFrame.R",
+        "path_type": "hardlink",
+        "sha256": "85a6c4045e91222664d033e1ca6d8f8423bf0386570ddd6a5a242ac24efc0bc4",
+        "sha256_in_prefix": "85a6c4045e91222664d033e1ca6d8f8423bf0386570ddd6a5a242ac24efc0bc4",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "lib/R/library/XML/examples/event.R",
+        "path_type": "hardlink",
+        "sha256": "592598a517eaf39be50398e19bfc747d46058a1fcc530bb8dae6022320325c60",
+        "sha256_in_prefix": "592598a517eaf39be50398e19bfc747d46058a1fcc530bb8dae6022320325c60",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/R/library/XML/examples/event.S",
+        "path_type": "hardlink",
+        "sha256": "db5d0f285f706851740a0f1d8ec08f6d363fdd05ff50011b32cde0141daded23",
+        "sha256_in_prefix": "db5d0f285f706851740a0f1d8ec08f6d363fdd05ff50011b32cde0141daded23",
+        "size_in_bytes": 3685
+      },
+      {
+        "_path": "lib/R/library/XML/examples/eventHandlers.R",
+        "path_type": "hardlink",
+        "sha256": "9d66754374fc027ff6416f6e3aa9b58cc4c31d1f91bc7406ecf03d5b90619015",
+        "sha256_in_prefix": "9d66754374fc027ff6416f6e3aa9b58cc4c31d1f91bc7406ecf03d5b90619015",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/R/library/XML/examples/faq.R",
+        "path_type": "hardlink",
+        "sha256": "36ef5ad0460b99bb2f3feeca03219217a33d75f15a58b6e1d68b8aa4debac8d1",
+        "sha256_in_prefix": "36ef5ad0460b99bb2f3feeca03219217a33d75f15a58b6e1d68b8aa4debac8d1",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/R/library/XML/examples/filterDataFrameEvent.R",
+        "path_type": "hardlink",
+        "sha256": "477616196a10c046d190a3dbdd719f7de7427ef5ee6ec3f493f1cba46fb31012",
+        "sha256_in_prefix": "477616196a10c046d190a3dbdd719f7de7427ef5ee6ec3f493f1cba46fb31012",
+        "size_in_bytes": 2786
+      },
+      {
+        "_path": "lib/R/library/XML/examples/foo.html",
+        "path_type": "hardlink",
+        "sha256": "3776b6e12f09b594bfd7855c10b18fc62c6a5e2d88056f53f449667368fd8e88",
+        "sha256_in_prefix": "3776b6e12f09b594bfd7855c10b18fc62c6a5e2d88056f53f449667368fd8e88",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "lib/R/library/XML/examples/formals.xsl",
+        "path_type": "hardlink",
+        "sha256": "1e714eb575f4b048349bb8803f7180f29388461a21c27d5b28d004cecc5ff0f3",
+        "sha256_in_prefix": "1e714eb575f4b048349bb8803f7180f29388461a21c27d5b28d004cecc5ff0f3",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/R/library/XML/examples/functionIndex.Sxml",
+        "path_type": "hardlink",
+        "sha256": "f0181a56bd7579f0efc146c8f249e3d71efa714f5c60fba3326124221845a8b0",
+        "sha256_in_prefix": "f0181a56bd7579f0efc146c8f249e3d71efa714f5c60fba3326124221845a8b0",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/R/library/XML/examples/genericHandlers.R",
+        "path_type": "hardlink",
+        "sha256": "596c73f7438430199400e068849d4ceae9d4cad4310065a4562ed7ef6867910c",
+        "sha256_in_prefix": "596c73f7438430199400e068849d4ceae9d4cad4310065a4562ed7ef6867910c",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "lib/R/library/XML/examples/generic_file.xml",
+        "path_type": "hardlink",
+        "sha256": "7e26cd537c2e731f7aba756b501d074ec918e1bc127161d6142314fe520323f6",
+        "sha256_in_prefix": "7e26cd537c2e731f7aba756b501d074ec918e1bc127161d6142314fe520323f6",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "lib/R/library/XML/examples/getElements.S",
+        "path_type": "hardlink",
+        "sha256": "484069969d127d25e64cd924cbd5f381beffc66599beb8c3d206134eea2a8d00",
+        "sha256_in_prefix": "484069969d127d25e64cd924cbd5f381beffc66599beb8c3d206134eea2a8d00",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/R/library/XML/examples/gettingStarted.html",
+        "path_type": "hardlink",
+        "sha256": "f68eb4a1694d1fd25a949f0a6fc3fb90ab45b993e1d639d0e162290204c3d9c3",
+        "sha256_in_prefix": "f68eb4a1694d1fd25a949f0a6fc3fb90ab45b993e1d639d0e162290204c3d9c3",
+        "size_in_bytes": 14730
+      },
+      {
+        "_path": "lib/R/library/XML/examples/gettingStarted.xml",
+        "path_type": "hardlink",
+        "sha256": "6353e5ca7f5f7df6f27257ad9cd89c27ead1818b0c467cef63e4d3a723f17916",
+        "sha256_in_prefix": "6353e5ca7f5f7df6f27257ad9cd89c27ead1818b0c467cef63e4d3a723f17916",
+        "size_in_bytes": 8139
+      },
+      {
+        "_path": "lib/R/library/XML/examples/gnumericHandler.R",
+        "path_type": "hardlink",
+        "sha256": "a17d45855f81d6bb7a24391982e3b28d600674a3df9c8286e8df39ae366d6f92",
+        "sha256_in_prefix": "a17d45855f81d6bb7a24391982e3b28d600674a3df9c8286e8df39ae366d6f92",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/R/library/XML/examples/hashTree.R",
+        "path_type": "hardlink",
+        "sha256": "85e38a7ecc48f74bc0d806a5744c6c252e8ba26625bf279c7327202899167307",
+        "sha256_in_prefix": "85e38a7ecc48f74bc0d806a5744c6c252e8ba26625bf279c7327202899167307",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/R/library/XML/examples/iTunes.plist",
+        "path_type": "hardlink",
+        "sha256": "cfb4a4119fec9be38ad5bccb9cb262f9b03c6896687032f911472825863983b9",
+        "sha256_in_prefix": "cfb4a4119fec9be38ad5bccb9cb262f9b03c6896687032f911472825863983b9",
+        "size_in_bytes": 6484
+      },
+      {
+        "_path": "lib/R/library/XML/examples/index.html",
+        "path_type": "hardlink",
+        "sha256": "fe0ab15166fb819852f68381d5718b70cf6c339d3c59c95f41d13a6c78c12384",
+        "sha256_in_prefix": "fe0ab15166fb819852f68381d5718b70cf6c339d3c59c95f41d13a6c78c12384",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/R/library/XML/examples/internalNodes.S",
+        "path_type": "hardlink",
+        "sha256": "888b403e57b41cae965a9cd07f9dc2929914081d7603a44344b1273eeacc5d43",
+        "sha256_in_prefix": "888b403e57b41cae965a9cd07f9dc2929914081d7603a44344b1273eeacc5d43",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/R/library/XML/examples/internalXInclude.xml",
+        "path_type": "hardlink",
+        "sha256": "d122f016313e628315a905f199b8cb981dd304c20f75ff4f21fb156995895a50",
+        "sha256_in_prefix": "d122f016313e628315a905f199b8cb981dd304c20f75ff4f21fb156995895a50",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunes.R",
+        "path_type": "hardlink",
+        "sha256": "c99f9aa528e296f787d5ecddba0b075ea586a2576442c5a7f7763a3510b98f79",
+        "sha256_in_prefix": "c99f9aa528e296f787d5ecddba0b075ea586a2576442c5a7f7763a3510b98f79",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunes.xml",
+        "path_type": "hardlink",
+        "sha256": "4ffcdd7d5a6e31623ad9277aef9993ccf78ea56812fb4c7059390ca7776fc5ef",
+        "sha256_in_prefix": "4ffcdd7d5a6e31623ad9277aef9993ccf78ea56812fb4c7059390ca7776fc5ef",
+        "size_in_bytes": 1236276
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunes.xsl",
+        "path_type": "hardlink",
+        "sha256": "e05ff235060520775845b3bc761121841506c5d981b520d73c7bddaa7df938d3",
+        "sha256_in_prefix": "e05ff235060520775845b3bc761121841506c5d981b520d73c7bddaa7df938d3",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunesSax.R",
+        "path_type": "hardlink",
+        "sha256": "d2cf62c7d129f0dd47c6784e8436f339e65e41ac0fba90803ef72e3eae7c722c",
+        "sha256_in_prefix": "d2cf62c7d129f0dd47c6784e8436f339e65e41ac0fba90803ef72e3eae7c722c",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunesSax1.R",
+        "path_type": "hardlink",
+        "sha256": "4de3ec5444dd64a31049bb82998023e00e11e1854f721721aea0be416684608c",
+        "sha256_in_prefix": "4de3ec5444dd64a31049bb82998023e00e11e1854f721721aea0be416684608c",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/R/library/XML/examples/itunesSax2.R",
+        "path_type": "hardlink",
+        "sha256": "272eaa9c77b368681842c45a0f9e8b8abd0ed8d524e29f81776530bbc1205a7f",
+        "sha256_in_prefix": "272eaa9c77b368681842c45a0f9e8b8abd0ed8d524e29f81776530bbc1205a7f",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "lib/R/library/XML/examples/mathml.R",
+        "path_type": "hardlink",
+        "sha256": "c603519750a75a6d08517bf2c5a1c5fb18998685bfe2f350c24f25ff88aff468",
+        "sha256_in_prefix": "c603519750a75a6d08517bf2c5a1c5fb18998685bfe2f350c24f25ff88aff468",
+        "size_in_bytes": 4560
+      },
+      {
+        "_path": "lib/R/library/XML/examples/mathmlPlot.R",
+        "path_type": "hardlink",
+        "sha256": "5b25db6187b02dac0a0b4f77d8e6582c71baa0ced8ac77af73ccf41d0b4b5079",
+        "sha256_in_prefix": "5b25db6187b02dac0a0b4f77d8e6582c71baa0ced8ac77af73ccf41d0b4b5079",
+        "size_in_bytes": 5685
+      },
+      {
+        "_path": "lib/R/library/XML/examples/metlin.R",
+        "path_type": "hardlink",
+        "sha256": "7e66449327cbc960c31aebed2b5c8d118aba537f969597b11d401fd272a55ee3",
+        "sha256_in_prefix": "7e66449327cbc960c31aebed2b5c8d118aba537f969597b11d401fd272a55ee3",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "lib/R/library/XML/examples/mexico.R",
+        "path_type": "hardlink",
+        "sha256": "30582257f6f11920b2811e567b9afa3fbce3509a2acd90846bd38faebff2920d",
+        "sha256_in_prefix": "30582257f6f11920b2811e567b9afa3fbce3509a2acd90846bd38faebff2920d",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/R/library/XML/examples/mexico.xml",
+        "path_type": "hardlink",
+        "sha256": "0ff86678adac3af984affbb67f28688129f2497f92da4df193dfbf5c1a863a99",
+        "sha256_in_prefix": "0ff86678adac3af984affbb67f28688129f2497f92da4df193dfbf5c1a863a99",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "lib/R/library/XML/examples/mi1.R",
+        "path_type": "hardlink",
+        "sha256": "517fb8ec7c0f7d9f824435953624276d7c73a9f89be3149402460498e41b65b6",
+        "sha256_in_prefix": "517fb8ec7c0f7d9f824435953624276d7c73a9f89be3149402460498e41b65b6",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/XML/examples/modified_itunes_sax.R",
+        "path_type": "hardlink",
+        "sha256": "ad54c85dcb32a2f8b4eb5f86b7618860a881721a897a47286b7eb18e465fc19f",
+        "sha256_in_prefix": "ad54c85dcb32a2f8b4eb5f86b7618860a881721a897a47286b7eb18e465fc19f",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/R/library/XML/examples/namespaces.S",
+        "path_type": "hardlink",
+        "sha256": "96678e460d0c2f57d6bd90993756aad59b84d8dc38bded51f6fa8712ab61eb38",
+        "sha256_in_prefix": "96678e460d0c2f57d6bd90993756aad59b84d8dc38bded51f6fa8712ab61eb38",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "lib/R/library/XML/examples/namespaces1.S",
+        "path_type": "hardlink",
+        "sha256": "6836bdb6462b7c3c2f51aa0fa771fd9d33a3fb1a86c8bd41fe6e381c5ceda054",
+        "sha256_in_prefix": "6836bdb6462b7c3c2f51aa0fa771fd9d33a3fb1a86c8bd41fe6e381c5ceda054",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/R/library/XML/examples/newNodes.R",
+        "path_type": "hardlink",
+        "sha256": "43d9ab2cd363b44f7b6f3fc38b8145ad6308c206e26a79e15808c23893381816",
+        "sha256_in_prefix": "43d9ab2cd363b44f7b6f3fc38b8145ad6308c206e26a79e15808c23893381816",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/XML/examples/oop.S",
+        "path_type": "hardlink",
+        "sha256": "3ab7008d1c868c3bda95fdf9e31e94e95acc9d1c674e656ea2eeb903e377f56c",
+        "sha256_in_prefix": "3ab7008d1c868c3bda95fdf9e31e94e95acc9d1c674e656ea2eeb903e377f56c",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "lib/R/library/XML/examples/pi.xml",
+        "path_type": "hardlink",
+        "sha256": "9dd7ee9ead77dda429d6b0def23c6e768a03f9e5bd554fe224d9c63e5eedc7f1",
+        "sha256_in_prefix": "9dd7ee9ead77dda429d6b0def23c6e768a03f9e5bd554fe224d9c63e5eedc7f1",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/R/library/XML/examples/pmml.R",
+        "path_type": "hardlink",
+        "sha256": "c728a04f090938044111af8f041a16ee3dec7866ca8de2c8de72a10c0abb2f03",
+        "sha256_in_prefix": "c728a04f090938044111af8f041a16ee3dec7866ca8de2c8de72a10c0abb2f03",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "lib/R/library/XML/examples/prompt.xml",
+        "path_type": "hardlink",
+        "sha256": "2923d6e7da698eccc7adb5c89a44026faaa07469d3eccd83bd039a5ef2ef842e",
+        "sha256_in_prefix": "2923d6e7da698eccc7adb5c89a44026faaa07469d3eccd83bd039a5ef2ef842e",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "lib/R/library/XML/examples/promptXML.R",
+        "path_type": "hardlink",
+        "sha256": "72cf21fe5a03fe9e3d03cdb461ef2999f424ed5cc8ad69b09533dbaa33843b7b",
+        "sha256_in_prefix": "72cf21fe5a03fe9e3d03cdb461ef2999f424ed5cc8ad69b09533dbaa33843b7b",
+        "size_in_bytes": 2434
+      },
+      {
+        "_path": "lib/R/library/XML/examples/promptXML.Sxml",
+        "path_type": "hardlink",
+        "sha256": "3b59a1e94a3f84b6a45b99c284d7609c23753fdb67621c9997c4e7a74a0d4f07",
+        "sha256_in_prefix": "3b59a1e94a3f84b6a45b99c284d7609c23753fdb67621c9997c4e7a74a0d4f07",
+        "size_in_bytes": 4936
+      },
+      {
+        "_path": "lib/R/library/XML/examples/rcode.xml",
+        "path_type": "hardlink",
+        "sha256": "101504b104708b4fc560dbc66f1e8573558079046ddc0541cb327a1acd5a7d03",
+        "sha256_in_prefix": "101504b104708b4fc560dbc66f1e8573558079046ddc0541cb327a1acd5a7d03",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/XML/examples/rcode.xsl",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/XML/examples/redirection.R",
+        "path_type": "hardlink",
+        "sha256": "30d193af630de18e58bed19cf0a876848f36703490cd8121691586eb19a0b850",
+        "sha256_in_prefix": "30d193af630de18e58bed19cf0a876848f36703490cd8121691586eb19a0b850",
+        "size_in_bytes": 1044
+      },
+      {
+        "_path": "lib/R/library/XML/examples/reorder.xml",
+        "path_type": "hardlink",
+        "sha256": "2d0dc3d062ddcf3f25bd4f12cd3e91dfce38c0cb9755810ee4e9064e8ee4e80e",
+        "sha256_in_prefix": "2d0dc3d062ddcf3f25bd4f12cd3e91dfce38c0cb9755810ee4e9064e8ee4e80e",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/R/library/XML/examples/sbml.xml",
+        "path_type": "hardlink",
+        "sha256": "130589031a65c527fbf1b14d54746b1355f44b41485f9aca6571d39d55c468cb",
+        "sha256_in_prefix": "130589031a65c527fbf1b14d54746b1355f44b41485f9aca6571d39d55c468cb",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "lib/R/library/XML/examples/sbmlSAX.S",
+        "path_type": "hardlink",
+        "sha256": "c8e7ef592cf2728557a2125b8d7f1bb3b6f107b83b14cc69388d89891869775f",
+        "sha256_in_prefix": "c8e7ef592cf2728557a2125b8d7f1bb3b6f107b83b14cc69388d89891869775f",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "lib/R/library/XML/examples/schema.xsd",
+        "path_type": "hardlink",
+        "sha256": "26d10ccc25cb78b4705d269461d1d1f8c0a39b1039a73da536291431b31d6440",
+        "sha256_in_prefix": "26d10ccc25cb78b4705d269461d1d1f8c0a39b1039a73da536291431b31d6440",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/XML/examples/schemaEg.xml",
+        "path_type": "hardlink",
+        "sha256": "efc5d01c183e85c41cc743a0a42d82cde539a919cce043c1150c3fb3852a9e0d",
+        "sha256_in_prefix": "efc5d01c183e85c41cc743a0a42d82cde539a919cce043c1150c3fb3852a9e0d",
+        "size_in_bytes": 323
+      },
+      {
+        "_path": "lib/R/library/XML/examples/schemas.xml",
+        "path_type": "hardlink",
+        "sha256": "5186b5d2f903042aee939fb7933ef73c72dec5f277377c875d9511377e32a9a2",
+        "sha256_in_prefix": "5186b5d2f903042aee939fb7933ef73c72dec5f277377c875d9511377e32a9a2",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/R/library/XML/examples/svg.R",
+        "path_type": "hardlink",
+        "sha256": "2102e8b02c0ca9f69ede2616255653bfa91a6fff9b16babbd598fcc67ff38446",
+        "sha256_in_prefix": "2102e8b02c0ca9f69ede2616255653bfa91a6fff9b16babbd598fcc67ff38446",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "lib/R/library/XML/examples/tags.Sxml",
+        "path_type": "hardlink",
+        "sha256": "ee672330e83ec9a4e79ba2286513f3f5f17127fad9c40a900f0b92693b66b36b",
+        "sha256_in_prefix": "ee672330e83ec9a4e79ba2286513f3f5f17127fad9c40a900f0b92693b66b36b",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "lib/R/library/XML/examples/trademe_cars.R",
+        "path_type": "hardlink",
+        "sha256": "5ebc76712c6556d3cc3c6ef31c002e0a6149d2d5d68b84ebcd0c528a7dfb3adb",
+        "sha256_in_prefix": "5ebc76712c6556d3cc3c6ef31c002e0a6149d2d5d68b84ebcd0c528a7dfb3adb",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "lib/R/library/XML/examples/valueFilterDataFrameEvent.R",
+        "path_type": "hardlink",
+        "sha256": "bc6ce644c17de15dab1739d67c7100b6d18494bf0b2e6adbf5c25256568241eb",
+        "sha256_in_prefix": "bc6ce644c17de15dab1739d67c7100b6d18494bf0b2e6adbf5c25256568241eb",
+        "size_in_bytes": 2516
+      },
+      {
+        "_path": "lib/R/library/XML/examples/wordML.R",
+        "path_type": "hardlink",
+        "sha256": "adbb791f350e66b06d9f253d38aec4530c000b594a37a552bd2e10268230d817",
+        "sha256_in_prefix": "adbb791f350e66b06d9f253d38aec4530c000b594a37a552bd2e10268230d817",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "lib/R/library/XML/examples/writeExamples.S",
+        "path_type": "hardlink",
+        "sha256": "35ec7a4034e7d5c181d35c6fccf694641bb411e33822ec33aa3584cb9397aa82",
+        "sha256_in_prefix": "35ec7a4034e7d5c181d35c6fccf694641bb411e33822ec33aa3584cb9397aa82",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xml2tex.Sxml",
+        "path_type": "hardlink",
+        "sha256": "88f4560548411b64d1513cb9c8f0a4c19b16c43d9639f49d22ad484ada4c989e",
+        "sha256_in_prefix": "88f4560548411b64d1513cb9c8f0a4c19b16c43d9639f49d22ad484ada4c989e",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xmlSource.R",
+        "path_type": "hardlink",
+        "sha256": "deff4e31f8d1f8e804d3c98f2515701fb6a8fbc3d6d196e145c07270ec8902e6",
+        "sha256_in_prefix": "deff4e31f8d1f8e804d3c98f2515701fb6a8fbc3d6d196e145c07270ec8902e6",
+        "size_in_bytes": 6674
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xmlTags.xml",
+        "path_type": "hardlink",
+        "sha256": "d84c64f6979fa1d1d702c57bbc584ad66ae52561ce915ad2374f14355b874957",
+        "sha256_in_prefix": "d84c64f6979fa1d1d702c57bbc584ad66ae52561ce915ad2374f14355b874957",
+        "size_in_bytes": 8268
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xmlTree.R",
+        "path_type": "hardlink",
+        "sha256": "4ade433af037456fc3a52e0060d30dc3717fb72d57ddb1a0ef9ca4711b9408be",
+        "sha256_in_prefix": "4ade433af037456fc3a52e0060d30dc3717fb72d57ddb1a0ef9ca4711b9408be",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xpath.R",
+        "path_type": "hardlink",
+        "sha256": "6359a2355aa0fb66131fab5ef5c0c88e40871a03e43a4eda602c75b846290fbf",
+        "sha256_in_prefix": "6359a2355aa0fb66131fab5ef5c0c88e40871a03e43a4eda602c75b846290fbf",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/R/library/XML/examples/xpath.xml",
+        "path_type": "hardlink",
+        "sha256": "4f0bd2906a887c4c64aceed60240c3d518171b37e5fed72ca068ad6ac66599b1",
+        "sha256_in_prefix": "4f0bd2906a887c4c64aceed60240c3d518171b37e5fed72ca068ad6ac66599b1",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/XML/examples/yeast_small-01.xml",
+        "path_type": "hardlink",
+        "sha256": "4f2553f0686c75779a2d03f33986a34f1cbf3127586e81a9ab2e6a7879637545",
+        "sha256_in_prefix": "4f2553f0686c75779a2d03f33986a34f1cbf3127586e81a9ab2e6a7879637545",
+        "size_in_bytes": 3155106
+      },
+      {
+        "_path": "lib/R/library/XML/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "841cf3f4d48178293cb240dc7ecc753be51779c6edc947b40ac41b48befdd566",
+        "sha256_in_prefix": "841cf3f4d48178293cb240dc7ecc753be51779c6edc947b40ac41b48befdd566",
+        "size_in_bytes": 15200
+      },
+      {
+        "_path": "lib/R/library/XML/help/XML.rdb",
+        "path_type": "hardlink",
+        "sha256": "32282e2812d2ecbcb5fedf87137f4bd1142b28274d8c45a58457850bc3a309b0",
+        "sha256_in_prefix": "32282e2812d2ecbcb5fedf87137f4bd1142b28274d8c45a58457850bc3a309b0",
+        "size_in_bytes": 374266
+      },
+      {
+        "_path": "lib/R/library/XML/help/XML.rdx",
+        "path_type": "hardlink",
+        "sha256": "8fddfcdbabb4f77f6b41ee1ec466e69db1e0957289e0a56c4a4acd0093d3c5fd",
+        "sha256_in_prefix": "8fddfcdbabb4f77f6b41ee1ec466e69db1e0957289e0a56c4a4acd0093d3c5fd",
+        "size_in_bytes": 2316
+      },
+      {
+        "_path": "lib/R/library/XML/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "dec809a6e683fb7fa659b08645ee29b7c828538ca4edd663493bd31889a60d57",
+        "sha256_in_prefix": "dec809a6e683fb7fa659b08645ee29b7c828538ca4edd663493bd31889a60d57",
+        "size_in_bytes": 3595
+      },
+      {
+        "_path": "lib/R/library/XML/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "229e59835bf498eae8631dacc35324140f274656914386294a929f32c5207ae8",
+        "sha256_in_prefix": "229e59835bf498eae8631dacc35324140f274656914386294a929f32c5207ae8",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "lib/R/library/XML/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "87370bd8417fe74bf5abe9d309f2834bb5edda1ecf0e7db50ef79c764c3eaf48",
+        "sha256_in_prefix": "87370bd8417fe74bf5abe9d309f2834bb5edda1ecf0e7db50ef79c764c3eaf48",
+        "size_in_bytes": 51358
+      },
+      {
+        "_path": "lib/R/library/XML/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/XML/libs/XML.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-xml_1503106040812/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d695370e00d3b9e315468faf726b3ae2a89c97358975af3131d8193f262450af",
+        "sha256_in_prefix": "55120a31f44246fd3443cbc664572a857490975c921ef9ce6d99459760b0b407",
+        "size_in_bytes": 170249
+      },
+      {
+        "_path": "lib/R/library/XML/scripts/RSXML.bsh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d8fda58d1987a2ef5463cd70413f728458142bddabc653966dafb585312c474e",
+        "sha256_in_prefix": "3cf982c506f44a18f8f289ca221f09bcb80f436227491e3e733fa5abcaa43e40",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/R/library/XML/scripts/RSXML.bsh.in",
+        "path_type": "hardlink",
+        "sha256": "1eec7bcf442a90548eea6ced8e288eee789974d29b33fb422812a2da066f83b2",
+        "sha256_in_prefix": "1eec7bcf442a90548eea6ced8e288eee789974d29b33fb422812a2da066f83b2",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/XML/scripts/RSXML.csh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "fd4a1de26a18b51441da9682fa870c21389f9bef039dce8d3154c1fd991043b3",
+        "sha256_in_prefix": "9e6d9a89c55a8cbf1b76b6dda64487ee9b80724164e11d18ea5d9849981855a0",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "lib/R/library/XML/scripts/RSXML.csh.in",
+        "path_type": "hardlink",
+        "sha256": "bfb68c1b0860ab85475cec3be40cbaff4dc6dd14793c668f8960983ba18da98e",
+        "sha256_in_prefix": "bfb68c1b0860ab85475cec3be40cbaff4dc6dd14793c668f8960983ba18da98e",
+        "size_in_bytes": 170
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-xml=3.98_1.6",
+  "size": 1753642,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-xml-3.98_1.6-r3.4.1_0.tar.bz2",
+  "version": "3.98_1.6"
+}

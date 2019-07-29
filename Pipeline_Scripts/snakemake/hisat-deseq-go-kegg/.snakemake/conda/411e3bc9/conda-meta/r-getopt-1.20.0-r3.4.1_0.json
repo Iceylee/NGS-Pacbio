@@ -1,0 +1,204 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-getopt-1.20.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/getopt/DESCRIPTION",
+    "lib/R/library/getopt/INDEX",
+    "lib/R/library/getopt/Meta/Rd.rds",
+    "lib/R/library/getopt/Meta/features.rds",
+    "lib/R/library/getopt/Meta/hsearch.rds",
+    "lib/R/library/getopt/Meta/links.rds",
+    "lib/R/library/getopt/Meta/nsInfo.rds",
+    "lib/R/library/getopt/Meta/package.rds",
+    "lib/R/library/getopt/NAMESPACE",
+    "lib/R/library/getopt/NEWS",
+    "lib/R/library/getopt/R/getopt",
+    "lib/R/library/getopt/R/getopt.rdb",
+    "lib/R/library/getopt/R/getopt.rdx",
+    "lib/R/library/getopt/help/AnIndex",
+    "lib/R/library/getopt/help/aliases.rds",
+    "lib/R/library/getopt/help/getopt.rdb",
+    "lib/R/library/getopt/help/getopt.rdx",
+    "lib/R/library/getopt/help/paths.rds",
+    "lib/R/library/getopt/html/00Index.html",
+    "lib/R/library/getopt/html/R.css",
+    "lib/R/library/getopt/tests/test-getopt.R"
+  ],
+  "fn": "r-getopt-1.20.0-r3.4.1_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-getopt-1.20.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "70ac88eddc1470c30f0ea3e526727ac1",
+  "name": "r-getopt",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-getopt-1.20.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/getopt/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a66eeb0ff520b5facc54bc3e79225a21bb644e6582170e83223085f7836d62b1",
+        "sha256_in_prefix": "a66eeb0ff520b5facc54bc3e79225a21bb644e6582170e83223085f7836d62b1",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "lib/R/library/getopt/INDEX",
+        "path_type": "hardlink",
+        "sha256": "5d831c81fd543097df0f63b215f30fd38e30dcc93ca6ae6bc8130039c688fbe7",
+        "sha256_in_prefix": "5d831c81fd543097df0f63b215f30fd38e30dcc93ca6ae6bc8130039c688fbe7",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "97463cfcf821189790f029e57c46047d6b3c72159d4f9cf9a6b326a4a94d92f5",
+        "sha256_in_prefix": "97463cfcf821189790f029e57c46047d6b3c72159d4f9cf9a6b326a4a94d92f5",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c15455648852749e7209e18042885cf15422c6f951e6c00b0881d17715eb1d46",
+        "sha256_in_prefix": "c15455648852749e7209e18042885cf15422c6f951e6c00b0881d17715eb1d46",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "31a2d31588e3b4f09360fcc1dc25ecd2c377318a2c6ccd96e0187894c0385838",
+        "sha256_in_prefix": "31a2d31588e3b4f09360fcc1dc25ecd2c377318a2c6ccd96e0187894c0385838",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a0ccea7b26095aad178ffa945dbcc4d72f66b714f28bd7b947706354379efe8e",
+        "sha256_in_prefix": "a0ccea7b26095aad178ffa945dbcc4d72f66b714f28bd7b947706354379efe8e",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/R/library/getopt/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ab607e875177ae9f5b27ada799acb7d23c9a6541783d77e46cc0150f296b6fbd",
+        "sha256_in_prefix": "ab607e875177ae9f5b27ada799acb7d23c9a6541783d77e46cc0150f296b6fbd",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/R/library/getopt/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "de484dc756213bff497f9075a2d01297433ab91f4831ed0b7617be0c108dd8b2",
+        "sha256_in_prefix": "de484dc756213bff497f9075a2d01297433ab91f4831ed0b7617be0c108dd8b2",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/R/library/getopt/NEWS",
+        "path_type": "hardlink",
+        "sha256": "33945338549b03b97680b72281a74e70aa934fafcb2f3d40f83b6acbdb2fd8d4",
+        "sha256_in_prefix": "33945338549b03b97680b72281a74e70aa934fafcb2f3d40f83b6acbdb2fd8d4",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "lib/R/library/getopt/R/getopt",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/getopt/R/getopt.rdb",
+        "path_type": "hardlink",
+        "sha256": "aaa79adbe2bb96b9012ad8f2f770763ad32c32714e074691726bbd377275d910",
+        "sha256_in_prefix": "aaa79adbe2bb96b9012ad8f2f770763ad32c32714e074691726bbd377275d910",
+        "size_in_bytes": 3768
+      },
+      {
+        "_path": "lib/R/library/getopt/R/getopt.rdx",
+        "path_type": "hardlink",
+        "sha256": "cecf9a4c9582b488140bbd78ac95750037a9ee526e860fb0eee5a9e4122f4662",
+        "sha256_in_prefix": "cecf9a4c9582b488140bbd78ac95750037a9ee526e860fb0eee5a9e4122f4662",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/R/library/getopt/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "686dbbe38fcf3e094912960c84c44386b191282d532f57e221f5589610970ba4",
+        "sha256_in_prefix": "686dbbe38fcf3e094912960c84c44386b191282d532f57e221f5589610970ba4",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/R/library/getopt/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fe98b376e66add1fd28d03fd38dd4c73840815ed92caaa2440224374de173029",
+        "sha256_in_prefix": "fe98b376e66add1fd28d03fd38dd4c73840815ed92caaa2440224374de173029",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/R/library/getopt/help/getopt.rdb",
+        "path_type": "hardlink",
+        "sha256": "c176ec933a55f5dcdb6cbac22650698aa0880c7f835149b1e45b627cb2814612",
+        "sha256_in_prefix": "c176ec933a55f5dcdb6cbac22650698aa0880c7f835149b1e45b627cb2814612",
+        "size_in_bytes": 10978
+      },
+      {
+        "_path": "lib/R/library/getopt/help/getopt.rdx",
+        "path_type": "hardlink",
+        "sha256": "ba3a3b30f2cae3bcbd486f99b416c18c5b5f6fcdc50db5df0f371da93e2ca612",
+        "sha256_in_prefix": "ba3a3b30f2cae3bcbd486f99b416c18c5b5f6fcdc50db5df0f371da93e2ca612",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/getopt/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ac98cc418fb4fcdc45e827b6aa8bf0753c00bdd891aedd70a0d089a31514125d",
+        "sha256_in_prefix": "ac98cc418fb4fcdc45e827b6aa8bf0753c00bdd891aedd70a0d089a31514125d",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/R/library/getopt/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "56545a3c8c2d12790afe23b199ebace2f251c6c571ecc4797c024e8af51b5e8e",
+        "sha256_in_prefix": "56545a3c8c2d12790afe23b199ebace2f251c6c571ecc4797c024e8af51b5e8e",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "lib/R/library/getopt/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/getopt/tests/test-getopt.R",
+        "path_type": "hardlink",
+        "sha256": "a90ee2ad9e84692f8f587596518f89d0eb1a614b76f6aa4fa157c4bdfc0d68da",
+        "sha256_in_prefix": "a90ee2ad9e84692f8f587596518f89d0eb1a614b76f6aa4fa157c4bdfc0d68da",
+        "size_in_bytes": 4568
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-getopt=1.20.0",
+  "size": 27352,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-getopt-1.20.0-r3.4.1_0.tar.bz2",
+  "version": "1.20.0"
+}

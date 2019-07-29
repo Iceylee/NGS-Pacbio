@@ -1,0 +1,13 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ncurses
+major_version=5
+version=5.9.20110404
+
+Name: ncurses
+Description: ncurses 5.9 library
+Version: ${version}
+Requires: tinfo
+Libs: -L${libdir} -lncurses
+Cflags: -I${includedir}

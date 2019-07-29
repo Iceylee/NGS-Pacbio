@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	deseq2
+	1	heatmap_cor_plot
+	3
+
+rule deseq2:
+    input: outData/deseq2/all.rds
+    output: outData/deseq2/treated-vs-untreated_all_genes_exprData.txt, outData/deseq2/treated-vs-untreated_sig_genes_exprData.txt, outData/deseq2/treated-vs-untreated_volcano_plot.pdf
+    log: logs/deseq2/treated-vs-untreated.diffexp.log
+    jobid: 2
+    wildcards: contrast=treated-vs-untreated
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 2.
+1 of 3 steps (33%) done
+
+rule heatmap_cor_plot:
+    input: colData.csv, outData/deseq2/norm_count.matrix.txt
+    output: outData/deseq2/heatmap_cor.pdf
+    log: logs/deseq2/heatmap_cor_plot.log
+    jobid: 1
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 1.
+2 of 3 steps (67%) done
+
+localrule all:
+    input: outData/deseq2/all.rds, outData/deseq2/heatmap_cor.pdf, outData/deseq2/heatmap.pdf, outData/deseq2/treated-vs-untreated_all_genes_exprData.txt
+    jobid: 0
+
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-19T160355.840632.snakemake.log

@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	3
+
+rule as:
+    input: outData/as/merge_UHR.gtf
+    output: outData/as/UHR_event_count.txt
+    jobid: 30
+    wildcards: condition=UHR
+
+RuleException in line 31 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+NameError: The name 'i' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

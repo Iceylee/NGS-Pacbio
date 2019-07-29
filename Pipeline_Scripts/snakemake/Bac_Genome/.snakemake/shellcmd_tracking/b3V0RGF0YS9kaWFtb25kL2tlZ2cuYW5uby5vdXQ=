@@ -1,0 +1,5 @@
+
+
+        bash scripts/kegg.sh rawData/q00000.keg outData/diamond/kegg.anno.out outData/diamond/kegg_count.out     
+
+  

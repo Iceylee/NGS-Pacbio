@@ -1,0 +1,2705 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+PODIGLBH_00001	CDS	1293	clpX_1		COG1219	ATP-dependent Clp protease ATP-binding subunit ClpX
+PODIGLBH_00002	CDS	585	clpP_1	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+PODIGLBH_00003	CDS	1299	tig_1	5.2.1.8	COG0544	Trigger factor
+PODIGLBH_00004	CDS	933		1.13.12.-	COG2070	Putative monooxygenase
+PODIGLBH_00005	CDS	333				hypothetical protein
+PODIGLBH_00006	CDS	1731	ubiB_1	2.7.-.-	COG0661	putative protein kinase UbiB
+PODIGLBH_00007	CDS	897	nrdB_1	1.-.-.-	COG0208	R2-like ligand binding oxidase
+PODIGLBH_00008	CDS	1473	desR		COG2197	Transcriptional regulatory protein DesR
+PODIGLBH_00009	CDS	1155	fadA_1	2.3.1.16	COG0183	3-ketoacyl-CoA thiolase
+PODIGLBH_00010	CDS	1554		6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase FadD13
+PODIGLBH_00011	CDS	1605		6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase
+PODIGLBH_00012	CDS	1647	atoC_1		COG2204	Regulatory protein AtoC
+PODIGLBH_00013	CDS	426	cymR_1			HTH-type transcriptional regulator CymR
+PODIGLBH_00014	CDS	210				hypothetical protein
+PODIGLBH_00015	CDS	945	ssuA			Putative aliphatic sulfonates-binding protein
+PODIGLBH_00016	CDS	1146	ssuD_1	1.14.14.5	COG2141	Alkanesulfonate monooxygenase
+PODIGLBH_00017	CDS	783	ssuC_1		COG0600	Putative aliphatic sulfonates transport permease protein SsuC
+PODIGLBH_00018	CDS	843	ssuB_1	3.6.3.-	COG1116	Aliphatic sulfonates import ATP-binding protein SsuB
+PODIGLBH_00019	CDS	1434	mepA			Multidrug export protein MepA
+PODIGLBH_00020	CDS	219				hypothetical protein
+PODIGLBH_00021	CDS	1326	phoR_1	2.7.13.3	COG0642	Alkaline phosphatase synthesis sensor protein PhoR
+PODIGLBH_00022	CDS	687	walR_1		COG0745	Transcriptional regulatory protein WalR
+PODIGLBH_00023	CDS	246				hypothetical protein
+PODIGLBH_00024	CDS	573				hypothetical protein
+PODIGLBH_00025	CDS	501				hypothetical protein
+PODIGLBH_00026	CDS	570	yyaP		COG0262	putative protein YyaP
+PODIGLBH_00027	CDS	819	rebM_1	2.1.1.164		Demethylrebeccamycin-D-glucose O-methyltransferase
+PODIGLBH_00028	CDS	669	yedK	3.4.-.-	COG2135	Putative SOS response-associated peptidase YedK
+PODIGLBH_00029	CDS	201				hypothetical protein
+PODIGLBH_00030	CDS	648				hypothetical protein
+PODIGLBH_00031	CDS	525				hypothetical protein
+PODIGLBH_00032	CDS	507				hypothetical protein
+PODIGLBH_00033	CDS	462				hypothetical protein
+PODIGLBH_00034	CDS	492	yxxD_1			Antitoxin YxxD
+PODIGLBH_00035	CDS	519				hypothetical protein
+PODIGLBH_00036	CDS	498	yxxD_2			Antitoxin YxxD
+PODIGLBH_00037	CDS	525				hypothetical protein
+PODIGLBH_00038	CDS	411				hypothetical protein
+PODIGLBH_00039	CDS	378				hypothetical protein
+PODIGLBH_00040	tRNA	77				tRNA-Arg(tct)
+PODIGLBH_00041	CDS	504		3.1.4.-		Putative metallophosphoesterase MG207 
+PODIGLBH_00042	CDS	624		3.6.1.66		dITP/XTP pyrophosphatase
+PODIGLBH_00043	CDS	771	rph	2.7.7.56	COG0689	Ribonuclease PH
+PODIGLBH_00044	CDS	1047	gerM		COG5401	Spore germination protein GerM
+PODIGLBH_00045	CDS	822	racE	5.1.1.3	COG0796	Glutamate racemase 1
+PODIGLBH_00046	CDS	450	yusO_1			putative HTH-type transcriptional regulator YusO
+PODIGLBH_00047	CDS	846	speE_1	2.5.1.16	COG0421	Polyamine aminopropyltransferase
+PODIGLBH_00048	CDS	1002				hypothetical protein
+PODIGLBH_00049	CDS	453	yusO_2			putative HTH-type transcriptional regulator YusO
+PODIGLBH_00050	CDS	1044	fni	5.3.3.2	COG1304	Isopentenyl-diphosphate delta-isomerase
+PODIGLBH_00051	CDS	831				hypothetical protein
+PODIGLBH_00052	CDS	1746	bchE	1.21.98.3	COG1032	Anaerobic magnesium-protoporphyrin IX monomethyl ester cyclase
+PODIGLBH_00053	CDS	279				hypothetical protein
+PODIGLBH_00054	CDS	414				hypothetical protein
+PODIGLBH_00055	CDS	414				hypothetical protein
+PODIGLBH_00056	CDS	999	pcm	2.1.1.77	COG2518	Protein-L-isoaspartate O-methyltransferase
+PODIGLBH_00057	CDS	432				hypothetical protein
+PODIGLBH_00058	CDS	363				hypothetical protein
+PODIGLBH_00059	CDS	477	rraA	4.1.3.17	COG0684	Putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase
+PODIGLBH_00060	CDS	591	yojM		COG2032	Superoxide dismutase-like protein YojM
+PODIGLBH_00061	CDS	1005	luxA	1.14.14.3	COG2141	Alkanal monooxygenase alpha chain
+PODIGLBH_00062	CDS	807	thiM	2.7.1.50	COG2145	Hydroxyethylthiazole kinase
+PODIGLBH_00063	CDS	591	menG_1	2.1.1.163	COG2226	Demethylmenaquinone methyltransferase
+PODIGLBH_00064	CDS	846				hypothetical protein
+PODIGLBH_00065	CDS	735				hypothetical protein
+PODIGLBH_00066	CDS	1437	rocR_1		COG3829	Arginine utilization regulatory protein RocR
+PODIGLBH_00067	CDS	1203	rocD	2.6.1.13	COG4992	Ornithine aminotransferase
+PODIGLBH_00068	CDS	1686	atoC_2		COG2204	Regulatory protein AtoC
+PODIGLBH_00069	CDS	1152	mmgC_1	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_00070	CDS	1194	acdA_1	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_00071	CDS	1626	lcfB	6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase
+PODIGLBH_00072	CDS	480	menI_1	3.1.2.28		1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+PODIGLBH_00073	CDS	753	novJ	1.1.1.-		Short-chain reductase protein NovJ
+PODIGLBH_00074	CDS	414	phaJ_1	4.2.1.119	COG2030	(R)-specific enoyl-CoA hydratase
+PODIGLBH_00075	CDS	447				hypothetical protein
+PODIGLBH_00076	CDS	1182	acdA_2	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_00077	CDS	861	fabG_1	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_00078	CDS	426				hypothetical protein
+PODIGLBH_00079	CDS	504				hypothetical protein
+PODIGLBH_00080	CDS	195				hypothetical protein
+PODIGLBH_00081	CDS	1239				putative MFS-type transporter
+PODIGLBH_00082	CDS	381				hypothetical protein
+PODIGLBH_00083	CDS	540				hypothetical protein
+PODIGLBH_00084	CDS	1482				hypothetical protein
+PODIGLBH_00085	CDS	783	catJ	2.8.3.6		3-oxoadipate CoA-transferase subunit B
+PODIGLBH_00086	CDS	921	catI	2.8.3.6		3-oxoadipate CoA-transferase subunit A
+PODIGLBH_00087	CDS	654		2.1.1.-		putative methyltransferase
+PODIGLBH_00088	CDS	435				hypothetical protein
+PODIGLBH_00089	CDS	459	ybiA	3.2.2.-	COG3236	N-glycosidase YbiA
+PODIGLBH_00090	CDS	576	def2	3.5.1.88	COG0242	Peptide deformylase 2
+PODIGLBH_00091	CDS	1152				hypothetical protein
+PODIGLBH_00092	CDS	732				hypothetical protein
+PODIGLBH_00093	CDS	147				hypothetical protein
+PODIGLBH_00094	CDS	372				hypothetical protein
+PODIGLBH_00095	CDS	1521				hypothetical protein
+PODIGLBH_00096	CDS	561	ydaF_1	2.3.1.-	COG1670	Putative ribosomal N-acetyltransferase YdaF
+PODIGLBH_00097	CDS	546	kptA	2.7.1.-		RNA 2'-phosphotransferase
+PODIGLBH_00098	CDS	807				hypothetical protein
+PODIGLBH_00099	CDS	762	kipR		COG1414	HTH-type transcriptional regulator KipR
+PODIGLBH_00100	CDS	954	kdgK_1	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+PODIGLBH_00101	CDS	636	dgoA	4.1.2.21	COG0800	2-dehydro-3-deoxy-6-phosphogalactonate aldolase
+PODIGLBH_00102	CDS	1149	dgoD	4.2.1.6	COG4948	D-galactonate dehydratase
+PODIGLBH_00103	CDS	1338	dgoT			D-galactonate transporter
+PODIGLBH_00104	CDS	2661	ppsA	2.7.9.2		Phosphoenolpyruvate synthase
+PODIGLBH_00105	CDS	513				hypothetical protein
+PODIGLBH_00106	CDS	456				hypothetical protein
+PODIGLBH_00107	CDS	405				hypothetical protein
+PODIGLBH_00108	CDS	525				hypothetical protein
+PODIGLBH_00109	CDS	675				hypothetical protein
+PODIGLBH_00110	CDS	315				hypothetical protein
+PODIGLBH_00111	CDS	258				hypothetical protein
+PODIGLBH_00112	CDS	309				hypothetical protein
+PODIGLBH_00113	CDS	531				hypothetical protein
+PODIGLBH_00114	CDS	357				hypothetical protein
+PODIGLBH_00115	CDS	516				hypothetical protein
+PODIGLBH_00116	CDS	1569				hypothetical protein
+PODIGLBH_00117	CDS	510				hypothetical protein
+PODIGLBH_00118	CDS	522				hypothetical protein
+PODIGLBH_00119	CDS	1509	cobQ			Cobyric acid synthase
+PODIGLBH_00120	CDS	1611	araB	2.7.1.16		Ribulokinase
+PODIGLBH_00121	CDS	1386	xylT			D-xylose transporter
+PODIGLBH_00122	CDS	1425	araA	5.3.1.4		L-arabinose isomerase
+PODIGLBH_00123	CDS	696	araD	5.1.3.4	COG0235	L-ribulose-5-phosphate 4-epimerase AraD
+PODIGLBH_00124	CDS	1098	araR		COG1609	Arabinose metabolism transcriptional repressor
+PODIGLBH_00125	CDS	1398	cbiA	6.3.5.11	COG1797	Cobyrinate a,c-diamide synthase
+PODIGLBH_00126	CDS	1434	proS_1	6.1.1.15	COG0442	Proline--tRNA ligase
+PODIGLBH_00127	CDS	168				hypothetical protein
+PODIGLBH_00128	CDS	756	cpdA_1	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+PODIGLBH_00129	CDS	348				hypothetical protein
+PODIGLBH_00130	CDS	672	nfi	3.1.21.7	COG1515	Endonuclease V
+PODIGLBH_00131	CDS	1395		1.14.14.51		Limonene hydroxylase
+PODIGLBH_00132	CDS	849	aiiB	3.1.1.81		N-acyl homoserine lactonase AiiB
+PODIGLBH_00133	CDS	1125	adhD	1.1.1.1	COG1062	Putative alcohol dehydrogenase D
+PODIGLBH_00134	CDS	1446	davD	1.2.1.20	COG1012	Glutarate-semialdehyde dehydrogenase DavD
+PODIGLBH_00135	CDS	195	gerE		COG2771	Spore germination protein GerE
+PODIGLBH_00136	CDS	1197	pepQ	3.4.13.9	COG0006	Xaa-Pro dipeptidase
+PODIGLBH_00137	CDS	1587				hypothetical protein
+PODIGLBH_00138	CDS	711				hypothetical protein
+PODIGLBH_00139	CDS	318	yodB		COG1733	HTH-type transcriptional regulator YodB
+PODIGLBH_00140	CDS	252				hypothetical protein
+PODIGLBH_00141	CDS	1620	ttdB	4.2.1.32	COG1838	L(+)-tartrate dehydratase subunit beta
+PODIGLBH_00142	CDS	912	ypuA		COG4086	putative protein YpuA
+PODIGLBH_00143	CDS	753	frdB	1.3.5.1	COG0479	Fumarate reductase iron-sulfur subunit
+PODIGLBH_00144	CDS	1761	frdA	1.3.5.4		Fumarate reductase flavoprotein subunit
+PODIGLBH_00145	CDS	651	sdhC		COG2009	Succinate dehydrogenase cytochrome b558 subunit
+PODIGLBH_00146	CDS	1065	metXA	2.3.1.31	COG2021	Homoserine O-acetyltransferase
+PODIGLBH_00147	CDS	1014	oppD_1		COG0444	Oligopeptide transport ATP-binding protein OppD
+PODIGLBH_00148	CDS	924	oppC_1		COG1173	Oligopeptide transport system permease protein OppC
+PODIGLBH_00149	CDS	969	dppB_1		COG0601	Dipeptide transport system permease protein DppB
+PODIGLBH_00150	CDS	1260	lysC_1	2.7.2.4		Aspartokinase
+PODIGLBH_00151	CDS	174	tatAd			Sec-independent protein translocase protein TatAd
+PODIGLBH_00152	CDS	1566	crtD	1.3.99.27		Hydroxyneurosporene desaturase
+PODIGLBH_00153	CDS	762				hypothetical protein
+PODIGLBH_00154	CDS	498				hypothetical protein
+PODIGLBH_00155	CDS	1767	uvrC		COG0322	UvrABC system protein C
+PODIGLBH_00156	CDS	768				hypothetical protein
+PODIGLBH_00157	CDS	324	trxA		COG0526	Thioredoxin
+PODIGLBH_00158	CDS	987	etfA		COG2025	Electron transfer flavoprotein subunit alpha
+PODIGLBH_00159	CDS	780	etfB		COG2086	Electron transfer flavoprotein subunit beta
+PODIGLBH_00160	CDS	585	fadR_1			Fatty acid metabolism regulator protein
+PODIGLBH_00161	CDS	1704	fadD	6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase
+PODIGLBH_00162	CDS	1494	gerBA_1			Spore germination protein B1
+PODIGLBH_00163	CDS	1329				hypothetical protein
+PODIGLBH_00164	CDS	1392	rsmF	2.1.1.-	COG0144	Ribosomal RNA small subunit methyltransferase F
+PODIGLBH_00165	CDS	195				hypothetical protein
+PODIGLBH_00166	CDS	1023				hypothetical protein
+PODIGLBH_00167	CDS	222				hypothetical protein
+PODIGLBH_00168	CDS	1155		3.4.21.66		Thermitase
+PODIGLBH_00169	CDS	2355	mutS2_1	3.1.-.-		Endonuclease MutS2
+PODIGLBH_00170	CDS	1014	sleB_1		COG3409	Spore cortex-lytic enzyme
+PODIGLBH_00171	CDS	1725	polX		COG1387	DNA polymerase/3'-5' exonuclease PolX
+PODIGLBH_00172	CDS	534				hypothetical protein
+PODIGLBH_00173	CDS	249	zapA		COG3027	Cell division protein ZapA
+PODIGLBH_00174	CDS	2418	pheT	6.1.1.20	COG0072	Phenylalanine--tRNA ligase beta subunit
+PODIGLBH_00175	CDS	1002	pheS	6.1.1.20	COG0016	Phenylalanine--tRNA ligase alpha subunit
+PODIGLBH_00176	CDS	210				hypothetical protein
+PODIGLBH_00177	CDS	837		2.1.1.-		Putative TrmH family tRNA/rRNA methyltransferase
+PODIGLBH_00178	CDS	660	ktrA		COG0569	Ktr system potassium uptake protein A
+PODIGLBH_00179	CDS	213	sspI			Small, acid-soluble spore protein I
+PODIGLBH_00180	CDS	174				hypothetical protein
+PODIGLBH_00181	CDS	417	bdbC		COG1495	Disulfide bond formation protein C
+PODIGLBH_00182	CDS	705	bdbD		COG1651	Disulfide bond formation protein D
+PODIGLBH_00183	CDS	810	thiD	2.7.1.49	COG0351	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+PODIGLBH_00184	CDS	636	thiE	2.5.1.3	COG0352	Thiamine-phosphate synthase
+PODIGLBH_00185	CDS	525				hypothetical protein
+PODIGLBH_00186	CDS	681				hypothetical protein
+PODIGLBH_00187	CDS	1230				hypothetical protein
+PODIGLBH_00188	CDS	1110	leuB	1.1.1.85	COG0473	3-isopropylmalate dehydrogenase
+PODIGLBH_00189	CDS	1551	leuA	2.3.3.13	COG0119	2-isopropylmalate synthase
+PODIGLBH_00190	CDS	1005	ilvC	1.1.1.382		Ketol-acid reductoisomerase (NAD(+))
+PODIGLBH_00191	CDS	504	ilvH	2.2.1.6	COG0440	Acetolactate synthase small subunit
+PODIGLBH_00192	CDS	1743	ilvB	2.2.1.6	COG0028	Acetolactate synthase large subunit
+PODIGLBH_00193	CDS	1671	ilvD	4.2.1.9	COG0129	Dihydroxy-acid dehydratase
+PODIGLBH_00194	CDS	414	yusO_3			putative HTH-type transcriptional regulator YusO
+PODIGLBH_00195	CDS	354	rplT		COG0292	50S ribosomal protein L20
+PODIGLBH_00196	CDS	198	rpmI		COG0291	50S ribosomal protein L35
+PODIGLBH_00197	CDS	576	infC			Translation initiation factor IF-3
+PODIGLBH_00198	CDS	549				hypothetical protein
+PODIGLBH_00199	CDS	1908	thrZ	6.1.1.3	COG0441	Threonine--tRNA ligase 2
+PODIGLBH_00200	CDS	885				hypothetical protein
+PODIGLBH_00201	CDS	633	ydjM		COG1988	Inner membrane protein YdjM
+PODIGLBH_00202	CDS	1113	mqnC	1.21.98.1	COG1060	Cyclic dehypoxanthine futalosine synthase
+PODIGLBH_00203	tRNA	90				tRNA-Leu(taa)
+PODIGLBH_00204	tRNA	76				tRNA-Phe(gaa)
+PODIGLBH_00205	CDS	1455	dnaB		COG3611	Replication initiation and membrane attachment protein
+PODIGLBH_00206	CDS	495	nrdR		COG1327	Transcriptional repressor NrdR
+PODIGLBH_00207	CDS	483	bsaA			Glutathione peroxidase BsaA
+PODIGLBH_00208	CDS	1023	gapB	1.2.1.59	COG0057	Glyceraldehyde-3-phosphate dehydrogenase 2
+PODIGLBH_00209	CDS	639	slt	4.2.2.-	COG0741	Soluble lytic murein transglycosylase
+PODIGLBH_00210	CDS	603	coaE	2.7.1.24		Dephospho-CoA kinase
+PODIGLBH_00211	CDS	663	mntP_1			manganese efflux pump MntP
+PODIGLBH_00212	CDS	825	mutM	3.2.2.23	COG0266	Formamidopyrimidine-DNA glycosylase
+PODIGLBH_00213	CDS	2649	polA	2.7.7.7		DNA polymerase I
+PODIGLBH_00214	CDS	174				hypothetical protein
+PODIGLBH_00215	CDS	1011	degA		COG1609	HTH-type transcriptional regulator DegA
+PODIGLBH_00216	CDS	1050	iolG_1	1.1.1.18	COG0673	Myo-inositol 2-dehydrogenase
+PODIGLBH_00217	CDS	900	iolE	4.2.1.44	COG1082	Inosose dehydratase
+PODIGLBH_00218	CDS	1926	iolD	3.7.1.22	COG3962	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase
+PODIGLBH_00219	CDS	1461	iolA	1.2.1.-	COG1012	Malonate-semialdehyde dehydrogenase
+PODIGLBH_00220	CDS	999	iolC	2.7.1.92	COG0524	5-dehydro-2-deoxygluconokinase
+PODIGLBH_00221	CDS	807	iolB	5.3.1.30	COG3718	5-deoxy-glucuronate isomerase
+PODIGLBH_00222	CDS	1017	iolG_2	1.1.1.18	COG0673	Myo-inositol 2-dehydrogenase
+PODIGLBH_00223	CDS	1596	yidK		COG4146	putative symporter YidK
+PODIGLBH_00224	CDS	198				hypothetical protein
+PODIGLBH_00225	CDS	933				hypothetical protein
+PODIGLBH_00226	CDS	285				hypothetical protein
+PODIGLBH_00227	CDS	210				hypothetical protein
+PODIGLBH_00228	CDS	273				hypothetical protein
+PODIGLBH_00229	CDS	1242				hypothetical protein
+PODIGLBH_00230	CDS	123				hypothetical protein
+PODIGLBH_00231	CDS	756	pstB3	3.6.3.27	COG1117	Phosphate import ATP-binding protein PstB 3
+PODIGLBH_00232	CDS	822	pstB	3.6.3.27		Phosphate import ATP-binding protein PstB
+PODIGLBH_00233	CDS	891	pstA		COG0581	Phosphate transport system permease protein PstA
+PODIGLBH_00234	CDS	939	pstC		COG0573	Phosphate transport system permease protein PstC
+PODIGLBH_00235	CDS	903	pstS1		COG0226	Phosphate-binding protein PstS 1
+PODIGLBH_00236	CDS	1743	phoR_2	2.7.13.3	COG0642	Alkaline phosphatase synthesis sensor protein PhoR
+PODIGLBH_00237	CDS	714	phoP_1		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+PODIGLBH_00238	CDS	474	phaJ_2	4.2.1.119	COG2030	(R)-specific enoyl-CoA hydratase
+PODIGLBH_00239	CDS	942	mdh	1.1.1.37	COG0039	Malate dehydrogenase
+PODIGLBH_00240	CDS	1296	icd_1	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP]
+PODIGLBH_00241	CDS	1113	citZ	2.3.3.16	COG0372	Citrate synthase 2
+PODIGLBH_00242	CDS	1149				Sodium-lithium/proton antiporter
+PODIGLBH_00243	CDS	405				hypothetical protein
+PODIGLBH_00244	CDS	429		3.1.-.-	COG0824	Putative esterase
+PODIGLBH_00245	CDS	1755	pyk	2.7.1.40	COG0469	Pyruvate kinase
+PODIGLBH_00246	CDS	960	pfkA	2.7.1.11		ATP-dependent 6-phosphofructokinase
+PODIGLBH_00247	CDS	966	accA	6.4.1.2	COG0825	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha
+PODIGLBH_00248	CDS	858	accD	6.4.1.2	COG0777	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta
+PODIGLBH_00249	CDS	732	lutR_1		COG2186	HTH-type transcriptional regulator LutR
+PODIGLBH_00250	CDS	1239		1.1.1.38		NAD-dependent malic enzyme
+PODIGLBH_00251	CDS	390				hypothetical protein
+PODIGLBH_00252	CDS	459				hypothetical protein
+PODIGLBH_00253	CDS	495	ypjQ_1		COG1267	putative protein YpjQ
+PODIGLBH_00254	CDS	3468	dnaE	2.7.7.7	COG0587	DNA polymerase III subunit alpha
+PODIGLBH_00255	CDS	330	ytrH			Sporulation membrane protein YtrH
+PODIGLBH_00256	CDS	537				hypothetical protein
+PODIGLBH_00257	CDS	315				hypothetical protein
+PODIGLBH_00258	CDS	1311		3.6.1.1		Cobalt-dependent inorganic pyrophosphatase
+PODIGLBH_00259	CDS	267				hypothetical protein
+PODIGLBH_00260	CDS	690				hypothetical protein
+PODIGLBH_00261	CDS	1425	yheD_1			Endospore coat-associated protein YheD
+PODIGLBH_00262	CDS	1101	yheD_2			Endospore coat-associated protein YheD
+PODIGLBH_00263	CDS	1368	yheD_3			Endospore coat-associated protein YheD
+PODIGLBH_00264	CDS	1323	yheD_4			Endospore coat-associated protein YheD
+PODIGLBH_00265	CDS	498				hypothetical protein
+PODIGLBH_00266	CDS	675	ykfC	3.4.14.13	COG0791	Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase
+PODIGLBH_00267	CDS	3672				hypothetical protein
+PODIGLBH_00268	CDS	1404				hypothetical protein
+PODIGLBH_00269	CDS	1353			COG2239	Magnesium transporter MgtE
+PODIGLBH_00270	CDS	1302	cpt	3.4.17.18		Carboxypeptidase T
+PODIGLBH_00271	CDS	1554	gerAA			Spore germination protein A1
+PODIGLBH_00272	CDS	1104	yndE			Spore germination protein YndE
+PODIGLBH_00273	CDS	1176	gerBC_1			Spore germination protein B3
+PODIGLBH_00274	CDS	1005		1.3.1.103		2-haloacrylate reductase
+PODIGLBH_00275	CDS	633	kynB_1	3.5.1.9	COG1878	Kynurenine formamidase
+PODIGLBH_00276	CDS	1284	kynU	3.7.1.3		Kynureninase
+PODIGLBH_00277	CDS	675	kynA_1	1.13.11.11	COG3483	Tryptophan 2,3-dioxygenase
+PODIGLBH_00278	CDS	156	kynA_2	1.13.11.11	COG3483	Tryptophan 2,3-dioxygenase
+PODIGLBH_00279	CDS	492				hypothetical protein
+PODIGLBH_00280	CDS	300				hypothetical protein
+PODIGLBH_00281	CDS	1704	ydaP_1		COG0028	Putative thiamine pyrophosphate-containing protein YdaP
+PODIGLBH_00282	CDS	552	ywqN	1.-.-.-	COG0655	Putative NAD(P)H-dependent FMN-containing oxidoreductase YwqN
+PODIGLBH_00283	CDS	576	ppsE	2.3.1.-	COG3319	Plipastatin synthase subunit E
+PODIGLBH_00284	CDS	483	fadK	6.2.1.-	COG0318	Medium-chain fatty-acid--CoA ligase
+PODIGLBH_00285	CDS	372		6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase FadD13
+PODIGLBH_00286	CDS	264				hypothetical protein
+PODIGLBH_00287	CDS	1782	iucC	6.3.2.39	COG4264	Aerobactin synthase
+PODIGLBH_00288	CDS	1371	iucD	1.14.13.59	COG3486	L-lysine N6-monooxygenase
+PODIGLBH_00289	CDS	588	iucB	2.3.1.102		N(6)-hydroxylysine O-acetyltransferase
+PODIGLBH_00290	CDS	1836	iucA	6.3.2.38	COG4264	N(2)-citryl-N(6)-acetyl-N(6)-hydroxylysine synthase
+PODIGLBH_00291	CDS	1527	ddc	4.1.1.86	COG0076	L-2,4-diaminobutyrate decarboxylase
+PODIGLBH_00292	CDS	1362	dat_1	2.6.1.76	COG0160	Diaminobutyrate--2-oxoglutarate aminotransferase
+PODIGLBH_00293	CDS	1209	tetA_1			Tetracycline resistance protein, class B
+PODIGLBH_00294	CDS	1197	ald_1	1.4.1.1	COG0686	Alanine dehydrogenase
+PODIGLBH_00295	CDS	1659	pucR		COG2508	Purine catabolism regulatory protein
+PODIGLBH_00296	CDS	1029	dnaX_1	2.7.7.7	COG2812	DNA polymerase III subunit gamma/tau
+PODIGLBH_00297	CDS	348				hypothetical protein
+PODIGLBH_00298	CDS	843				DegV domain-containing protein
+PODIGLBH_00299	CDS	1893	sqhC	4.2.1.137	COG1657	Sporulenol synthase
+PODIGLBH_00300	CDS	924	dnaI		COG1484	Primosomal protein DnaI
+PODIGLBH_00301	CDS	1602				hypothetical protein
+PODIGLBH_00302	CDS	486				hypothetical protein
+PODIGLBH_00303	CDS	294				hypothetical protein
+PODIGLBH_00304	CDS	1320				hypothetical protein
+PODIGLBH_00305	CDS	657				hypothetical protein
+PODIGLBH_00306	CDS	1008	yfmJ	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ
+PODIGLBH_00307	CDS	237				hypothetical protein
+PODIGLBH_00308	CDS	774				hypothetical protein
+PODIGLBH_00309	CDS	951	yxlF_1	3.6.3.-	COG1131	putative ABC transporter ATP-binding protein YxlF
+PODIGLBH_00310	CDS	1296	hom_1	1.1.1.3	COG0460	Homoserine dehydrogenase
+PODIGLBH_00311	CDS	831	spo0M_1		COG4326	Sporulation-control protein spo0M
+PODIGLBH_00312	CDS	1338				hypothetical protein
+PODIGLBH_00313	CDS	792	blaR1			Regulatory protein BlaR1
+PODIGLBH_00314	CDS	435	mecI			Methicillin resistance regulatory protein MecI
+PODIGLBH_00315	CDS	1209				hypothetical protein
+PODIGLBH_00316	CDS	759				hypothetical protein
+PODIGLBH_00317	CDS	489				hypothetical protein
+PODIGLBH_00318	CDS	1191		2.3.1.-		Putative pyridoxal phosphate-dependent acyltransferase
+PODIGLBH_00319	CDS	957				putative epimerase/dehydratase
+PODIGLBH_00320	CDS	1383	alsT_1		COG1115	Amino-acid carrier protein AlsT
+PODIGLBH_00321	CDS	840	uppP	3.6.1.27	COG1968	Undecaprenyl-diphosphatase
+PODIGLBH_00322	CDS	1458	clsA	2.7.8.-	COG1502	Major cardiolipin synthase ClsA
+PODIGLBH_00323	CDS	747	yunB			Sporulation protein YunB
+PODIGLBH_00324	CDS	906	czcD_1		COG1230	Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+PODIGLBH_00325	CDS	126				hypothetical protein
+PODIGLBH_00326	CDS	954		2.1.1.-		Putative S-adenosyl-L-methionine-dependent methyltransferase
+PODIGLBH_00327	CDS	801	pgdA_1	3.5.1.104	COG0726	Peptidoglycan-N-acetylglucosamine deacetylase
+PODIGLBH_00328	CDS	747	yodJ	3.4.-.-	COG1876	Putative carboxypeptidase YodJ
+PODIGLBH_00329	CDS	636				hypothetical protein
+PODIGLBH_00330	CDS	1470	katA_1	1.11.1.6	COG0753	Vegetative catalase
+PODIGLBH_00331	CDS	609			COG0586	putative membrane protein
+PODIGLBH_00332	CDS	861	xerC_1		COG4973	Tyrosine recombinase XerC
+PODIGLBH_00333	CDS	603				hypothetical protein
+PODIGLBH_00334	CDS	465	nucB	3.-.-.-		Sporulation-specific extracellular nuclease
+PODIGLBH_00335	CDS	1326	licH	3.2.1.86	COG1486	putative 6-phospho-beta-glucosidase
+PODIGLBH_00336	CDS	285				hypothetical protein
+PODIGLBH_00337	CDS	366				hypothetical protein
+PODIGLBH_00338	CDS	645				hypothetical protein
+PODIGLBH_00339	CDS	732				hypothetical protein
+PODIGLBH_00340	CDS	645				hypothetical protein
+PODIGLBH_00341	CDS	1416				hypothetical protein
+PODIGLBH_00342	CDS	1197				hypothetical protein
+PODIGLBH_00343	CDS	732				hypothetical protein
+PODIGLBH_00344	CDS	729				hypothetical protein
+PODIGLBH_00345	CDS	732				hypothetical protein
+PODIGLBH_00346	CDS	729				hypothetical protein
+PODIGLBH_00347	CDS	642				hypothetical protein
+PODIGLBH_00348	CDS	267				hypothetical protein
+PODIGLBH_00349	CDS	168				hypothetical protein
+PODIGLBH_00350	CDS	732				hypothetical protein
+PODIGLBH_00351	CDS	726				hypothetical protein
+PODIGLBH_00352	CDS	1470				hypothetical protein
+PODIGLBH_00353	CDS	2169	topB	5.99.1.2	COG0550	DNA topoisomerase 3
+PODIGLBH_00354	CDS	1467	rebO	1.4.3.23		Flavin-dependent L-tryptophan oxidase RebO
+PODIGLBH_00355	CDS	270				hypothetical protein
+PODIGLBH_00356	CDS	1362				hypothetical protein
+PODIGLBH_00357	CDS	759	cobB	3.5.1.-	COG0846	NAD-dependent protein deacetylase
+PODIGLBH_00358	CDS	594				hypothetical protein
+PODIGLBH_00359	CDS	534				hypothetical protein
+PODIGLBH_00360	CDS	1170		2.7.1.176		Toxin zeta
+PODIGLBH_00361	CDS	606	mfpA		COG1357	Pentapeptide repeat protein MfpA
+PODIGLBH_00362	CDS	606	argO		COG1279	Arginine exporter protein ArgO
+PODIGLBH_00363	CDS	624	nudC	3.6.1.22		NADH pyrophosphatase
+PODIGLBH_00364	CDS	1191				hypothetical protein
+PODIGLBH_00365	CDS	1896				hypothetical protein
+PODIGLBH_00366	CDS	750	gph_1	3.1.3.18		Phosphoglycolate phosphatase
+PODIGLBH_00367	CDS	465	trmL	2.1.1.207	COG0219	tRNA (cytidine(34)-2'-O)-methyltransferase
+PODIGLBH_00368	CDS	498				hypothetical protein
+PODIGLBH_00369	CDS	606				hypothetical protein
+PODIGLBH_00370	CDS	528	ogt	2.1.1.63	COG0350	Methylated-DNA--protein-cysteine methyltransferase, constitutive
+PODIGLBH_00371	CDS	1149	queG	1.17.99.6	COG1600	Epoxyqueuosine reductase
+PODIGLBH_00372	CDS	432	rnhA	3.1.26.4	COG0328	Ribonuclease H
+PODIGLBH_00373	CDS	1713				hypothetical protein
+PODIGLBH_00374	CDS	597	udg	3.2.2.27	COG1573	Type-4 uracil-DNA glycosylase
+PODIGLBH_00375	CDS	837	yidA	3.1.3.23	COG0561	Sugar phosphatase YidA
+PODIGLBH_00376	CDS	1548	oxyL	1.14.13.232		6-methylpretetramide 4-monooxygenase
+PODIGLBH_00377	CDS	621				hypothetical protein
+PODIGLBH_00378	tRNA	77				tRNA-Pro(tgg)
+PODIGLBH_00379	tRNA	77				tRNA-Pro(tgg)
+PODIGLBH_00380	CDS	210				hypothetical protein
+PODIGLBH_00381	tRNA	86				tRNA-Leu(caa)
+PODIGLBH_00382	CDS	543				hypothetical protein
+PODIGLBH_00383	CDS	1077	hcf136			Ycf48-like protein
+PODIGLBH_00384	CDS	393	flK	3.1.2.29	COG5496	Fluoroacetyl-CoA thioesterase
+PODIGLBH_00385	CDS	606	kstR2_1			HTH-type transcriptional repressor KstR2
+PODIGLBH_00386	CDS	216				hypothetical protein
+PODIGLBH_00387	CDS	990	lplJ	6.3.1.20	COG0095	Lipoate-protein ligase LplJ
+PODIGLBH_00388	CDS	2136	recQ	3.6.4.12	COG0514	ATP-dependent DNA helicase RecQ
+PODIGLBH_00389	CDS	795	cof	3.6.1.-	COG0561	HMP-PP phosphatase
+PODIGLBH_00390	CDS	933	rnz	3.1.26.11	COG1234	Ribonuclease Z
+PODIGLBH_00391	CDS	1692			COG1680	putative protein
+PODIGLBH_00392	CDS	1191	ycaD			putative MFS-type transporter YcaD
+PODIGLBH_00393	CDS	798	ykuT		COG0668	putative MscS family protein YkuT
+PODIGLBH_00394	CDS	216				hypothetical protein
+PODIGLBH_00395	CDS	930	blaSE	3.4.21.19	COG3591	Glutamyl endopeptidase
+PODIGLBH_00396	CDS	366				hypothetical protein
+PODIGLBH_00397	CDS	2085		5.1.3.11		Cellobiose 2-epimerase
+PODIGLBH_00398	CDS	420				hypothetical protein
+PODIGLBH_00399	CDS	960			COG2220	putative protein
+PODIGLBH_00400	CDS	534				hypothetical protein
+PODIGLBH_00401	CDS	348				hypothetical protein
+PODIGLBH_00402	CDS	750				hypothetical protein
+PODIGLBH_00403	CDS	1149	mtlD	1.1.1.17	COG0246	Mannitol-1-phosphate 5-dehydrogenase
+PODIGLBH_00404	CDS	426	mtlF		COG2213	Mannitol-specific phosphotransferase enzyme IIA component
+PODIGLBH_00405	CDS	2124	mtlR_1			Transcriptional regulator MtlR
+PODIGLBH_00406	CDS	1455	mtlA			PTS system mannitol-specific EIICB component
+PODIGLBH_00407	CDS	1359	mgl_1	4.4.1.11	COG0626	L-methionine gamma-lyase
+PODIGLBH_00408	CDS	399				hypothetical protein
+PODIGLBH_00409	CDS	483	ydjZ		COG0398	TVP38/TMEM64 family inner membrane protein YdjZ
+PODIGLBH_00410	CDS	546	yhbO	3.1.2.-	COG0693	Protein/nucleic acid deglycase 2
+PODIGLBH_00411	CDS	4314	polC	2.7.7.7	COG2176	DNA polymerase III PolC-type
+PODIGLBH_00412	CDS	1533	ald1	1.2.1.48		Long-chain-aldehyde dehydrogenase
+PODIGLBH_00413	CDS	342				hypothetical protein
+PODIGLBH_00414	CDS	561				hypothetical protein
+PODIGLBH_00415	CDS	576				hypothetical protein
+PODIGLBH_00416	CDS	318				hypothetical protein
+PODIGLBH_00417	tRNA	90				tRNA-Leu(taa)
+PODIGLBH_00418	tRNA	86				tRNA-Leu(caa)
+PODIGLBH_00419	CDS	243				hypothetical protein
+PODIGLBH_00420	CDS	531				hypothetical protein
+PODIGLBH_00421	CDS	819	btuF_1		COG0614	Vitamin B12-binding protein
+PODIGLBH_00422	CDS	873	dagK_1	2.7.1.107		Diacylglycerol kinase
+PODIGLBH_00423	CDS	261				hypothetical protein
+PODIGLBH_00424	CDS	135				hypothetical protein
+PODIGLBH_00425	CDS	1200		1.6.99.-		NADH dehydrogenase-like protein
+PODIGLBH_00426	CDS	1008	yumC	1.18.1.2	COG0492	Ferredoxin--NADP reductase 2
+PODIGLBH_00427	CDS	264				hypothetical protein
+PODIGLBH_00428	CDS	360	erpA		COG0316	Iron-sulfur cluster insertion protein ErpA
+PODIGLBH_00429	CDS	249				hypothetical protein
+PODIGLBH_00430	CDS	1101	mqnE	2.5.1.120	COG1060	Aminodeoxyfutalosine synthase
+PODIGLBH_00431	CDS	240				hypothetical protein
+PODIGLBH_00432	CDS	570				hypothetical protein
+PODIGLBH_00433	CDS	1641	capD	2.3.2.-		Capsule biosynthesis protein CapD proenzyme
+PODIGLBH_00434	CDS	1170	capA_1			Capsule biosynthesis protein CapA
+PODIGLBH_00435	CDS	1161	capA_2			Capsule biosynthesis protein CapA
+PODIGLBH_00436	CDS	477	capC			Capsule biosynthesis protein CapC
+PODIGLBH_00437	CDS	1269	capB			Capsule biosynthesis protein CapB
+PODIGLBH_00438	CDS	309				hypothetical protein
+PODIGLBH_00439	CDS	1134	mccB	4.4.1.1	COG0626	Cystathionine gamma-lyase
+PODIGLBH_00440	CDS	927	mccA	2.5.1.134	COG0031	O-acetylserine dependent cystathionine beta-synthase
+PODIGLBH_00441	CDS	228	nfuA		COG0316	Fe/S biogenesis protein NfuA
+PODIGLBH_00442	CDS	1272	mntH_1			Divalent metal cation transporter MntH
+PODIGLBH_00443	CDS	1002	oppF_1		COG4608	Oligopeptide transport ATP-binding protein OppF
+PODIGLBH_00444	CDS	1026	oppD_2		COG0444	Oligopeptide transport ATP-binding protein OppD
+PODIGLBH_00445	CDS	933	oppC_2		COG1173	Oligopeptide transport system permease protein OppC
+PODIGLBH_00446	CDS	930	oppB		COG0601	Oligopeptide transport system permease protein OppB
+PODIGLBH_00447	CDS	1629	dppE_1		COG4166	Dipeptide-binding protein DppE
+PODIGLBH_00448	CDS	1650	dppE_2		COG4166	Dipeptide-binding protein DppE
+PODIGLBH_00449	CDS	366				hypothetical protein
+PODIGLBH_00450	CDS	372	pqqD			Coenzyme PQQ synthesis protein D
+PODIGLBH_00451	CDS	1911				hypothetical protein
+PODIGLBH_00452	CDS	1398		1.-.-.-	COG0277	putative FAD-linked oxidoreductase
+PODIGLBH_00453	CDS	1341	lutA_1		COG0247	Lactate utilization protein A
+PODIGLBH_00454	CDS	759				hypothetical protein
+PODIGLBH_00455	CDS	1182	cotI_1			Spore coat protein I
+PODIGLBH_00456	CDS	780	fabG_2	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_00457	CDS	513	ypjQ_2		COG1267	putative protein YpjQ
+PODIGLBH_00458	CDS	966	gloC	3.1.2.6	COG0491	Hydroxyacylglutathione hydrolase GloC
+PODIGLBH_00459	CDS	765	yutF	3.1.3.-	COG0647	Acid sugar phosphatase
+PODIGLBH_00460	CDS	732	rebM_2	2.1.1.164		Demethylrebeccamycin-D-glucose O-methyltransferase
+PODIGLBH_00461	CDS	630				hypothetical protein
+PODIGLBH_00462	CDS	417				hypothetical protein
+PODIGLBH_00463	CDS	237				hypothetical protein
+PODIGLBH_00464	CDS	339				hypothetical protein
+PODIGLBH_00465	CDS	615	racA			Chromosome-anchoring protein RacA
+PODIGLBH_00466	CDS	273				hypothetical protein
+PODIGLBH_00467	CDS	252				hypothetical protein
+PODIGLBH_00468	CDS	294	yutD		COG4470	putative protein YutD
+PODIGLBH_00469	CDS	678				hypothetical protein
+PODIGLBH_00470	CDS	903	lipA	2.8.1.8	COG0320	Lipoyl synthase
+PODIGLBH_00471	CDS	1041	yfhA		COG0609	putative siderophore transport system permease protein YfhA
+PODIGLBH_00472	CDS	1035	yfiZ		COG0609	putative siderophore transport system permease protein YfiZ
+PODIGLBH_00473	CDS	975	yfiY		COG0614	putative siderophore-binding lipoprotein YfiY
+PODIGLBH_00474	CDS	1068	lytH	3.4.-.-	COG0739	L-Ala--D-Glu endopeptidase
+PODIGLBH_00475	CDS	1407	yhdG_1		COG0531	putative amino acid permease YhdG
+PODIGLBH_00476	CDS	252	nrdH		COG0695	Glutaredoxin-like protein NrdH
+PODIGLBH_00477	CDS	1758		4.1.1.61	COG0043	4-hydroxybenzoate decarboxylase subunit C
+PODIGLBH_00478	CDS	915	gsiD		COG1173	Glutathione transport system permease protein GsiD
+PODIGLBH_00479	CDS	1011	dppB_2		COG0601	Dipeptide transport system permease protein DppB
+PODIGLBH_00480	CDS	1608	dppA		COG0747	Periplasmic dipeptide transport protein
+PODIGLBH_00481	CDS	969	oppF_2		COG4608	Oligopeptide transport ATP-binding protein OppF
+PODIGLBH_00482	CDS	993	oppD_3		COG0444	Oligopeptide transport ATP-binding protein OppD
+PODIGLBH_00483	CDS	828	pdxK	2.7.1.35	COG0351	Pyridoxine kinase
+PODIGLBH_00484	CDS	1491	thyX	2.1.1.148	COG1351	Flavin-dependent thymidylate synthase
+PODIGLBH_00485	CDS	336				hypothetical protein
+PODIGLBH_00486	CDS	387				hypothetical protein
+PODIGLBH_00487	CDS	1416	alsT_2		COG1115	Amino-acid carrier protein AlsT
+PODIGLBH_00488	CDS	570				hypothetical protein
+PODIGLBH_00489	CDS	1071	rppA	2.3.1.233		1,3,6,8-tetrahydroxynaphthalene synthase
+PODIGLBH_00490	CDS	303				hypothetical protein
+PODIGLBH_00491	CDS	2619				hypothetical protein
+PODIGLBH_00492	CDS	1122	mepM_1	3.4.24.-	COG0739	Murein DD-endopeptidase MepM
+PODIGLBH_00493	CDS	573				hypothetical protein
+PODIGLBH_00494	CDS	1470				hypothetical protein
+PODIGLBH_00495	CDS	2499				hypothetical protein
+PODIGLBH_00496	CDS	396				hypothetical protein
+PODIGLBH_00497	CDS	255				hypothetical protein
+PODIGLBH_00498	CDS	912				hypothetical protein
+PODIGLBH_00499	CDS	603				hypothetical protein
+PODIGLBH_00500	CDS	945				hypothetical protein
+PODIGLBH_00501	CDS	393	fosB_1	2.5.1.-	COG0346	Metallothiol transferase FosB
+PODIGLBH_00502	CDS	693				hypothetical protein
+PODIGLBH_00503	CDS	255				hypothetical protein
+PODIGLBH_00504	CDS	675	bluB	1.13.11.79	COG0778	5,6-dimethylbenzimidazole synthase
+PODIGLBH_00505	CDS	1155	queE_1	4.3.99.3		7-carboxy-7-deazaguanine synthase
+PODIGLBH_00506	CDS	96				hypothetical protein
+PODIGLBH_00507	CDS	435				hypothetical protein
+PODIGLBH_00508	CDS	210	cspB_1			Cold shock protein CspB
+PODIGLBH_00509	CDS	303				hypothetical protein
+PODIGLBH_00510	CDS	258				hypothetical protein
+PODIGLBH_00511	CDS	1446	yfkN		COG0737	Trifunctional nucleotide phosphoesterase protein YfkN
+PODIGLBH_00512	CDS	873				hypothetical protein
+PODIGLBH_00513	CDS	408				hypothetical protein
+PODIGLBH_00514	CDS	1491	pncB2	6.3.4.21		Nicotinate phosphoribosyltransferase pncB2
+PODIGLBH_00515	CDS	1281	aceA	4.1.3.1	COG2224	Isocitrate lyase
+PODIGLBH_00516	CDS	1587	aceB	2.3.3.9	COG2225	Malate synthase A
+PODIGLBH_00517	CDS	126				hypothetical protein
+PODIGLBH_00518	CDS	1083			COG0628	Putative transport protein
+PODIGLBH_00519	CDS	825				hypothetical protein
+PODIGLBH_00520	CDS	1332	lapB_1			Lipopolysaccharide assembly protein B
+PODIGLBH_00521	CDS	222				hypothetical protein
+PODIGLBH_00522	CDS	708	dapH	2.3.1.89	COG2171	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+PODIGLBH_00523	CDS	1218	argD_1	2.6.1.11	COG4992	Acetylornithine aminotransferase
+PODIGLBH_00524	CDS	1149		3.5.1.47	COG1473	N-acetyldiaminopimelate deacetylase
+PODIGLBH_00525	CDS	306				hypothetical protein
+PODIGLBH_00526	CDS	162				hypothetical protein
+PODIGLBH_00527	CDS	348				hypothetical protein
+PODIGLBH_00528	CDS	372				hypothetical protein
+PODIGLBH_00529	CDS	735				hypothetical protein
+PODIGLBH_00530	CDS	693				hypothetical protein
+PODIGLBH_00531	CDS	591	xerC_2			Tyrosine recombinase XerC
+PODIGLBH_00532	CDS	309				hypothetical protein
+PODIGLBH_00533	CDS	1431				hypothetical protein
+PODIGLBH_00534	CDS	441	sufU	2.-.-.-	COG0822	Zinc-dependent sulfurtransferase SufU
+PODIGLBH_00535	CDS	1221	sufS	2.8.1.7	COG0520	Cysteine desulfurase SufS
+PODIGLBH_00536	CDS	1227				hypothetical protein
+PODIGLBH_00537	CDS	789	sufC		COG0396	Vegetative protein 296
+PODIGLBH_00538	CDS	558				hypothetical protein
+PODIGLBH_00539	CDS	480	ykuL		COG0517	CBS domain-containing protein YkuL
+PODIGLBH_00540	CDS	363				hypothetical protein
+PODIGLBH_00541	CDS	291				hypothetical protein
+PODIGLBH_00542	CDS	861	arnE			4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+PODIGLBH_00543	CDS	381				hypothetical protein
+PODIGLBH_00544	CDS	429	resA_1			Thiol-disulfide oxidoreductase ResA
+PODIGLBH_00545	CDS	1071	mtnA	5.3.1.23	COG0182	Methylthioribose-1-phosphate isomerase
+PODIGLBH_00546	CDS	1224	mtnK	2.7.1.100	COG4857	Methylthioribose kinase
+PODIGLBH_00547	CDS	540	mtnD	1.13.11.54	COG1791	Acireductone dioxygenase
+PODIGLBH_00548	CDS	666	mtnB_1	4.2.1.109	COG0235	Methylthioribulose-1-phosphate dehydratase
+PODIGLBH_00549	CDS	705	mtnX	3.1.3.87	COG4359	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase
+PODIGLBH_00550	CDS	1224	mtnW	5.3.2.5	COG1850	2,3-diketo-5-methylthiopentyl-1-phosphate enolase
+PODIGLBH_00551	CDS	639	yhfK	4.-.-.-	COG0702	putative sugar epimerase YhfK
+PODIGLBH_00552	CDS	606				hypothetical protein
+PODIGLBH_00553	CDS	255				hypothetical protein
+PODIGLBH_00554	CDS	1491	bmr3_1			Multidrug resistance protein 3
+PODIGLBH_00555	CDS	342				hypothetical protein
+PODIGLBH_00556	CDS	459				hypothetical protein
+PODIGLBH_00557	CDS	1410		6.2.1.3	COG1022	Long-chain-fatty-acid--CoA ligase FadD15
+PODIGLBH_00558	CDS	438	perR		COG0735	Peroxide operon regulator
+PODIGLBH_00559	CDS	372				hypothetical protein
+PODIGLBH_00560	CDS	663	nth	4.2.99.18	COG0177	Endonuclease III
+PODIGLBH_00561	CDS	771	cypM	2.1.1.301		Cypemycin N-terminal methyltransferase
+PODIGLBH_00562	CDS	468	bcp	1.11.1.15	COG1225	Putative peroxiredoxin bcp
+PODIGLBH_00563	CDS	225				hypothetical protein
+PODIGLBH_00564	CDS	207				hypothetical protein
+PODIGLBH_00565	CDS	408				hypothetical protein
+PODIGLBH_00566	CDS	318				hypothetical protein
+PODIGLBH_00567	CDS	516	crcB		COG0239	Putative fluoride ion transporter CrcB
+PODIGLBH_00568	CDS	1593	malP_1		COG1263	PTS system maltose-specific EIICB component
+PODIGLBH_00569	CDS	1347	malH_1	3.2.1.122	COG1486	Maltose-6'-phosphate glucosidase MalH
+PODIGLBH_00570	CDS	768	glvR_1		COG1737	HTH-type transcriptional regulator GlvR
+PODIGLBH_00571	CDS	753	spo0M_2		COG4326	Sporulation-control protein spo0M
+PODIGLBH_00572	CDS	582	spo0M_3		COG4326	Sporulation-control protein spo0M
+PODIGLBH_00573	CDS	162				hypothetical protein
+PODIGLBH_00574	CDS	1692				hypothetical protein
+PODIGLBH_00575	CDS	1293	hemL1	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase 1
+PODIGLBH_00576	CDS	399	yjbI		COG2346	Group 2 truncated hemoglobin YjbI
+PODIGLBH_00577	CDS	345				hypothetical protein
+PODIGLBH_00578	CDS	1140	rutD	3.5.1.-		Putative aminoacrylate hydrolase RutD
+PODIGLBH_00579	CDS	219				hypothetical protein
+PODIGLBH_00580	CDS	732				hypothetical protein
+PODIGLBH_00581	CDS	309	caaD_1	1.9.3.1		Cytochrome c oxidase subunit 4B
+PODIGLBH_00582	CDS	615	ctaE	1.9.3.1		Cytochrome c oxidase subunit 3
+PODIGLBH_00583	CDS	1917	ctaD	1.9.3.1		Cytochrome c oxidase subunit 1
+PODIGLBH_00584	CDS	1002	ctaC	1.9.3.1	COG1622	Cytochrome c oxidase subunit 2
+PODIGLBH_00585	CDS	951	ctaB2	2.5.1.-	COG0109	Protoheme IX farnesyltransferase 2
+PODIGLBH_00586	CDS	411	rsbT	2.7.11.1	COG2172	Serine/threonine-protein kinase RsbT
+PODIGLBH_00587	CDS	1782		3.6.3.-		Putative multidrug export ATP-binding/permease protein
+PODIGLBH_00588	CDS	780	codY		COG4465	GTP-sensing transcriptional pleiotropic repressor CodY
+PODIGLBH_00589	CDS	525	sipT_1	3.4.21.89	COG0681	Signal peptidase I T
+PODIGLBH_00590	CDS	339				hypothetical protein
+PODIGLBH_00591	CDS	831	proC	1.5.1.2	COG0345	Pyrroline-5-carboxylate reductase
+PODIGLBH_00592	CDS	444	ypeA	2.3.1.-	COG0456	Acetyltransferase YpeA
+PODIGLBH_00593	CDS	690				hypothetical protein
+PODIGLBH_00594	CDS	1326	vanW_1		COG2720	Vancomycin B-type resistance protein VanW
+PODIGLBH_00595	CDS	690	mutY_1	3.2.2.-	COG1194	Adenine DNA glycosylase
+PODIGLBH_00596	CDS	378	mutY_2	3.2.2.-		Adenine DNA glycosylase
+PODIGLBH_00597	CDS	978	yfhP		COG1988	putative protein YfhP
+PODIGLBH_00598	CDS	933	mscS		COG0668	Small-conductance mechanosensitive channel
+PODIGLBH_00599	CDS	153				hypothetical protein
+PODIGLBH_00600	CDS	900	alkA	3.2.2.21	COG0122	DNA-3-methyladenine glycosylase
+PODIGLBH_00601	CDS	597	yuiC		COG3584	putative protein YuiC
+PODIGLBH_00602	CDS	1350				hypothetical protein
+PODIGLBH_00603	CDS	828	yusV_1		COG1120	putative siderophore transport system ATP-binding protein YusV
+PODIGLBH_00604	CDS	1782	yerA	3.5.4.2	COG1001	Putative adenine deaminase YerA
+PODIGLBH_00605	CDS	198				hypothetical protein
+PODIGLBH_00606	CDS	213				hypothetical protein
+PODIGLBH_00607	CDS	1260	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+PODIGLBH_00608	CDS	273				hypothetical protein
+PODIGLBH_00609	CDS	1551	purH			Bifunctional purine biosynthesis protein PurH
+PODIGLBH_00610	CDS	576	purN	2.1.2.2		Phosphoribosylglycinamide formyltransferase
+PODIGLBH_00611	CDS	1044	purM	6.3.3.1	COG0150	Phosphoribosylformylglycinamidine cyclo-ligase
+PODIGLBH_00612	CDS	1425	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+PODIGLBH_00613	CDS	2283	purL	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase subunit PurL
+PODIGLBH_00614	CDS	684	purQ	6.3.5.3	COG0047	Phosphoribosylformylglycinamidine synthase subunit PurQ
+PODIGLBH_00615	CDS	252	purS	6.3.5.3	COG1828	Phosphoribosylformylglycinamidine synthase subunit PurS
+PODIGLBH_00616	CDS	720	purC	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+PODIGLBH_00617	CDS	1299	purB	4.3.2.2	COG0015	Adenylosuccinate lyase
+PODIGLBH_00618	CDS	1200	purK	6.3.4.18		N5-carboxyaminoimidazole ribonucleotide synthase
+PODIGLBH_00619	CDS	489	purE	5.4.99.18	COG0041	N5-carboxyaminoimidazole ribonucleotide mutase
+PODIGLBH_00620	CDS	534				hypothetical protein
+PODIGLBH_00621	tRNA	77				tRNA-Arg(acg)
+PODIGLBH_00622	CDS	255				hypothetical protein
+PODIGLBH_00623	CDS	1146				hypothetical protein
+PODIGLBH_00624	CDS	1317	pbuG		COG2252	Guanine/hypoxanthine permease PbuG
+PODIGLBH_00625	CDS	1539	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+PODIGLBH_00626	CDS	1023	namA	1.6.99.1	COG1902	NADPH dehydrogenase
+PODIGLBH_00627	CDS	144				hypothetical protein
+PODIGLBH_00628	CDS	342				hypothetical protein
+PODIGLBH_00629	CDS	1335	yobL_1	3.1.-.-		Ribonuclease YobL
+PODIGLBH_00630	CDS	1158	garK	2.7.1.165	COG1929	Glycerate 2-kinase
+PODIGLBH_00631	CDS	1263				hypothetical protein
+PODIGLBH_00632	CDS	471				hypothetical protein
+PODIGLBH_00633	CDS	123	ytcD		COG1733	putative HTH-type transcriptional regulator YtcD
+PODIGLBH_00634	CDS	795	fabG_3	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_00635	CDS	576				hypothetical protein
+PODIGLBH_00636	CDS	528				hypothetical protein
+PODIGLBH_00637	CDS	570				hypothetical protein
+PODIGLBH_00638	CDS	423				hypothetical protein
+PODIGLBH_00639	CDS	636				hypothetical protein
+PODIGLBH_00640	CDS	369				hypothetical protein
+PODIGLBH_00641	CDS	861				hypothetical protein
+PODIGLBH_00642	CDS	654				hypothetical protein
+PODIGLBH_00643	CDS	423				hypothetical protein
+PODIGLBH_00644	CDS	273				hypothetical protein
+PODIGLBH_00645	CDS	114				hypothetical protein
+PODIGLBH_00646	CDS	717	yobL_2	3.1.-.-		Ribonuclease YobL
+PODIGLBH_00647	CDS	486				hypothetical protein
+PODIGLBH_00648	CDS	561				hypothetical protein
+PODIGLBH_00649	CDS	1257	yobL_3	3.1.-.-		Ribonuclease YobL
+PODIGLBH_00650	CDS	270				hypothetical protein
+PODIGLBH_00651	CDS	240				hypothetical protein
+PODIGLBH_00652	CDS	1440	colE7	3.1.-.-		Colicin-E7
+PODIGLBH_00653	CDS	597				hypothetical protein
+PODIGLBH_00654	CDS	1464	putP		COG0591	High-affinity proline transporter PutP
+PODIGLBH_00655	CDS	747	ydaP_2		COG0028	Putative thiamine pyrophosphate-containing protein YdaP
+PODIGLBH_00656	CDS	927	ydaP_3		COG0028	Putative thiamine pyrophosphate-containing protein YdaP
+PODIGLBH_00657	CDS	900	fieF_1		COG0053	Ferrous-iron efflux pump FieF
+PODIGLBH_00658	CDS	960				hypothetical protein
+PODIGLBH_00659	CDS	1023	mepM_2	3.4.24.-	COG0739	Murein DD-endopeptidase MepM
+PODIGLBH_00660	CDS	3657	pgaC	2.4.1.-	COG1215	Poly-beta-1,6-N-acetyl-D-glucosamine synthase
+PODIGLBH_00661	CDS	1497	xylE			D-xylose-proton symporter
+PODIGLBH_00662	CDS	1326	xylA	5.3.1.5		Xylose isomerase
+PODIGLBH_00663	CDS	1641	groL_1			60 kDa chaperonin
+PODIGLBH_00664	CDS	285	groS		COG0234	10 kDa chaperonin
+PODIGLBH_00665	CDS	234				hypothetical protein
+PODIGLBH_00666	CDS	747	tatC2		COG0805	Sec-independent protein translocase protein TatCy
+PODIGLBH_00667	CDS	678	rex		COG2344	Redox-sensing transcriptional repressor Rex
+PODIGLBH_00668	CDS	585	yqgN		COG0212	putative protein YqgN
+PODIGLBH_00669	CDS	1929	ybiT_1		COG0488	putative ABC transporter ATP-binding protein YbiT
+PODIGLBH_00670	CDS	984	kipA		COG1984	KipI antagonist
+PODIGLBH_00671	CDS	783				hypothetical protein
+PODIGLBH_00672	CDS	753	kipI		COG2049	Kinase A inhibitor
+PODIGLBH_00673	CDS	1026	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+PODIGLBH_00674	CDS	498	rimI_1	2.3.1.128	COG0456	Ribosomal-protein-alanine acetyltransferase
+PODIGLBH_00675	CDS	726	tsaB		COG1214	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+PODIGLBH_00676	CDS	468	tsaE		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+PODIGLBH_00677	CDS	999	thiL	2.7.4.16	COG0611	Thiamine-monophosphate kinase
+PODIGLBH_00678	tRNA	74				tRNA-Gly(tcc)
+PODIGLBH_00679	tRNA	77				tRNA-Pro(cgg)
+PODIGLBH_00680	tRNA	87				tRNA-Leu(gag)
+PODIGLBH_00681	tRNA	85				tRNA-Leu(tag)
+PODIGLBH_00682	tRNA	76				tRNA-Lys(ttt)
+PODIGLBH_00683	tRNA	75				tRNA-Gln(ttg)
+PODIGLBH_00684	tRNA	76				tRNA-His(gtg)
+PODIGLBH_00685	tRNA	77				tRNA-Asp(gtc)
+PODIGLBH_00686	tRNA	76				tRNA-Val(tac)
+PODIGLBH_00687	tRNA	77				tRNA-Glu(ttc)
+PODIGLBH_00688	tRNA	94				tRNA-Ser(gct)
+PODIGLBH_00689	tRNA	75				tRNA-Asn(gtt)
+PODIGLBH_00690	CDS	165				hypothetical protein
+PODIGLBH_00691	CDS	705	ybhL		COG0670	Inner membrane protein YbhL
+PODIGLBH_00692	CDS	330				hypothetical protein
+PODIGLBH_00693	CDS	1029	ttuC	2.7.7.80	COG0476	Sulfur carrier protein adenylyltransferase
+PODIGLBH_00694	CDS	903	garR	1.1.1.60	COG2084	2-hydroxy-3-oxopropionate reductase
+PODIGLBH_00695	CDS	135				hypothetical protein
+PODIGLBH_00696	CDS	2142	yhgF		COG2183	Protein YhgF
+PODIGLBH_00697	CDS	264				hypothetical protein
+PODIGLBH_00698	CDS	1008				hypothetical protein
+PODIGLBH_00699	CDS	1359	baeS	2.7.13.3	COG0642	Signal transduction histidine-protein kinase BaeS
+PODIGLBH_00700	CDS	726	srrA_1		COG0745	Transcriptional regulatory protein SrrA
+PODIGLBH_00701	CDS	558	rsmA_1	2.1.1.-		Ribosomal RNA small subunit methyltransferase A
+PODIGLBH_00702	CDS	1281	rocG	1.4.1.2	COG0334	Catabolic NAD-specific glutamate dehydrogenase RocG
+PODIGLBH_00703	CDS	786	sigB		COG1191	RNA polymerase sigma-B factor
+PODIGLBH_00704	CDS	489	rsbW	2.7.11.1	COG2172	Serine-protein kinase RsbW
+PODIGLBH_00705	CDS	336	rsbV		COG1366	Anti-sigma-B factor antagonist
+PODIGLBH_00706	CDS	1062	rsbU	3.1.3.3	COG2208	Phosphoserine phosphatase RsbU
+PODIGLBH_00707	CDS	270	ndoA	3.1.27.-	COG2337	Endoribonuclease EndoA
+PODIGLBH_00708	CDS	273	ndoAI		COG0864	Antitoxin EndoAI
+PODIGLBH_00709	CDS	1209	alr1	5.1.1.1	COG0787	Alanine racemase 1
+PODIGLBH_00710	CDS	417				hypothetical protein
+PODIGLBH_00711	CDS	1077	ydcC		COG2834	Sporulation protein YdcC
+PODIGLBH_00712	CDS	1539	nnr		COG0062	Bifunctional NAD(P)H-hydrate repair enzyme Nnr
+PODIGLBH_00713	CDS	381	acpS	2.7.8.7	COG0736	Holo-[acyl-carrier-protein] synthase
+PODIGLBH_00714	CDS	1098	ybhR		COG0842	putative multidrug ABC transporter permease YbhR
+PODIGLBH_00715	CDS	915	ybhF		COG1131	putative multidrug ABC transporter ATP-binding protein YbhF
+PODIGLBH_00716	CDS	288	isdG	1.14.99.3		Heme oxygenase (staphylobilin-producing)
+PODIGLBH_00717	CDS	471				hypothetical protein
+PODIGLBH_00718	CDS	1395	lysP		COG0833	Lysine-specific permease
+PODIGLBH_00719	CDS	597				hypothetical protein
+PODIGLBH_00720	CDS	525				hypothetical protein
+PODIGLBH_00721	CDS	231				hypothetical protein
+PODIGLBH_00722	CDS	1086	resE_1	2.7.13.3		Sensor histidine kinase ResE
+PODIGLBH_00723	CDS	732	regX3		COG0745	Sensory transduction protein regX3
+PODIGLBH_00724	CDS	1233				hypothetical protein
+PODIGLBH_00725	CDS	1563	ybiT_2		COG0488	putative ABC transporter ATP-binding protein YbiT
+PODIGLBH_00726	CDS	1827	glmS	2.6.1.16	COG0449	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+PODIGLBH_00727	CDS	108				hypothetical protein
+PODIGLBH_00728	CDS	1341	glmM	5.4.2.10	COG1109	Phosphoglucosamine mutase
+PODIGLBH_00729	CDS	1206	cdaR		COG4856	CdaA regulatory protein CdaR
+PODIGLBH_00730	CDS	831	cdaA	2.7.7.85	COG1624	Cyclic di-AMP synthase CdaA
+PODIGLBH_00731	CDS	903	rocF	3.5.3.1		Arginase
+PODIGLBH_00732	tRNA	75				tRNA-Gly(gcc)
+PODIGLBH_00733	tRNA	76				tRNA-Lys(ttt)
+PODIGLBH_00734	tRNA	75				tRNA-Gln(ttg)
+PODIGLBH_00735	tRNA	85				tRNA-Tyr(gta)
+PODIGLBH_00736	tRNA	76				tRNA-Val(tac)
+PODIGLBH_00737	tRNA	77				tRNA-Glu(ttc)
+PODIGLBH_00738	tRNA	75				tRNA-Asn(gtt)
+PODIGLBH_00739	tRNA	74				tRNA-Gly(tcc)
+PODIGLBH_00740	tRNA	75				tRNA-Gly(gcc)
+PODIGLBH_00741	tRNA	76				tRNA-Lys(ttt)
+PODIGLBH_00742	tRNA	75				tRNA-Gln(ttg)
+PODIGLBH_00743	tRNA	85				tRNA-Tyr(gta)
+PODIGLBH_00744	tRNA	76				tRNA-Val(tac)
+PODIGLBH_00745	tRNA	77				tRNA-Glu(ttc)
+PODIGLBH_00746	tRNA	76				tRNA-Thr(ggt)
+PODIGLBH_00747	tRNA	75				tRNA-Asn(gtt)
+PODIGLBH_00748	tRNA	76				tRNA-Ala(tgc)
+PODIGLBH_00749	tRNA	77				tRNA-Ile(gat)
+PODIGLBH_00750	CDS	255				hypothetical protein
+PODIGLBH_00751	CDS	678	ung	3.2.2.27	COG0692	Uracil-DNA glycosylase
+PODIGLBH_00752	CDS	255				hypothetical protein
+PODIGLBH_00753	CDS	423	yhfA		COG1765	Protein YhfA
+PODIGLBH_00754	CDS	618				hypothetical protein
+PODIGLBH_00755	CDS	765	pdaA	3.5.1.-	COG0726	Peptidoglycan-N-acetylmuramic acid deacetylase PdaA
+PODIGLBH_00756	CDS	663				hypothetical protein
+PODIGLBH_00757	CDS	618	gerD			Spore germination protein GerD
+PODIGLBH_00758	CDS	1089	salA		COG0489	Iron-sulfur cluster carrier protein
+PODIGLBH_00759	CDS	732	cwlD	3.5.1.28	COG0860	Germination-specific N-acetylmuramoyl-L-alanine amidase
+PODIGLBH_00760	CDS	525				hypothetical protein
+PODIGLBH_00761	CDS	816	zupT		COG0428	Zinc transporter ZupT
+PODIGLBH_00762	CDS	333	cbbZC	3.1.3.18	COG0546	Phosphoglycolate phosphatase, chromosomal
+PODIGLBH_00763	CDS	375	yqaB	3.1.3.-	COG0637	Fructose-1-phosphate phosphatase YqaB
+PODIGLBH_00764	CDS	1641	katA_2	1.11.1.6	COG0753	Catalase
+PODIGLBH_00765	CDS	288				hypothetical protein
+PODIGLBH_00766	CDS	219				hypothetical protein
+PODIGLBH_00767	CDS	201				hypothetical protein
+PODIGLBH_00768	CDS	393	rpsI		COG0103	30S ribosomal protein S9
+PODIGLBH_00769	CDS	438	rplM		COG0102	50S ribosomal protein L13
+PODIGLBH_00770	CDS	774	truA	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+PODIGLBH_00771	CDS	795	ecfT		COG0619	Energy-coupling factor transporter transmembrane protein EcfT
+PODIGLBH_00772	CDS	864	ecfA2	3.6.3.-	COG1122	Energy-coupling factor transporter ATP-binding protein EcfA2
+PODIGLBH_00773	CDS	840	ecfA1	3.6.3.-	COG1122	Energy-coupling factor transporter ATP-binding protein EcfA1
+PODIGLBH_00774	CDS	390	rplQ			50S ribosomal protein L17
+PODIGLBH_00775	CDS	954	rpoA	2.7.7.6	COG0202	DNA-directed RNA polymerase subunit alpha
+PODIGLBH_00776	CDS	399	rpsK		COG0100	30S ribosomal protein S11
+PODIGLBH_00777	CDS	369	rpsM		COG0099	30S ribosomal protein S13
+PODIGLBH_00778	CDS	114	rpmJ		COG0257	50S ribosomal protein L36
+PODIGLBH_00779	CDS	219	infA		COG0361	Translation initiation factor IF-1
+PODIGLBH_00780	CDS	306				hypothetical protein
+PODIGLBH_00781	CDS	747	map_1	3.4.11.18	COG0024	Methionine aminopeptidase 1
+PODIGLBH_00782	CDS	654	adk	2.7.4.3		Adenylate kinase
+PODIGLBH_00783	CDS	1299	secY			Protein translocase subunit SecY
+PODIGLBH_00784	CDS	441	rplO		COG0200	50S ribosomal protein L15
+PODIGLBH_00785	CDS	189	rpmD			50S ribosomal protein L30
+PODIGLBH_00786	CDS	519	rpsE		COG0098	30S ribosomal protein S5
+PODIGLBH_00787	CDS	369	rplR			50S ribosomal protein L18
+PODIGLBH_00788	CDS	537	rplF			50S ribosomal protein L6
+PODIGLBH_00789	CDS	399	rpsH		COG0096	30S ribosomal protein S8
+PODIGLBH_00790	CDS	186	rpsZ			30S ribosomal protein S14 type Z
+PODIGLBH_00791	CDS	543	rplE			50S ribosomal protein L5
+PODIGLBH_00792	CDS	354	rplX			50S ribosomal protein L24
+PODIGLBH_00793	CDS	369	rplN			50S ribosomal protein L14
+PODIGLBH_00794	CDS	267	rpsQ			30S ribosomal protein S17
+PODIGLBH_00795	CDS	213	rpmC			50S ribosomal protein L29
+PODIGLBH_00796	CDS	426	rplP		COG0197	50S ribosomal protein L16
+PODIGLBH_00797	CDS	663	rpsC		COG0092	30S ribosomal protein S3
+PODIGLBH_00798	CDS	336	rplV		COG0091	50S ribosomal protein L22
+PODIGLBH_00799	CDS	282	rpsS			30S ribosomal protein S19
+PODIGLBH_00800	CDS	834	rplB			50S ribosomal protein L2
+PODIGLBH_00801	CDS	288	rplW		COG0089	50S ribosomal protein L23
+PODIGLBH_00802	CDS	627	rplD			50S ribosomal protein L4
+PODIGLBH_00803	CDS	630	rplC		COG0087	50S ribosomal protein L3
+PODIGLBH_00804	CDS	309	rpsJ		COG0051	30S ribosomal protein S10
+PODIGLBH_00805	CDS	657	aroK	2.7.1.71	COG0703	Shikimate kinase
+PODIGLBH_00806	CDS	783	aroD	4.2.1.10	COG0710	3-dehydroquinate dehydratase
+PODIGLBH_00807	CDS	1188	tuf		COG0050	Elongation factor Tu
+PODIGLBH_00808	CDS	2076	fusA		COG0480	Elongation factor G
+PODIGLBH_00809	CDS	471	rpsG		COG0049	30S ribosomal protein S7
+PODIGLBH_00810	CDS	414	rpsL		COG0048	30S ribosomal protein S12
+PODIGLBH_00811	CDS	255	rplGB		COG1358	Ribosome-associated protein L7Ae-like protein
+PODIGLBH_00812	CDS	3615	rpoC	2.7.7.6	COG0086	DNA-directed RNA polymerase subunit beta'
+PODIGLBH_00813	CDS	3555	rpoB	2.7.7.6	COG0085	DNA-directed RNA polymerase subunit beta
+PODIGLBH_00814	CDS	603	rsmC	2.1.1.172	COG2813	Ribosomal RNA small subunit methyltransferase C
+PODIGLBH_00815	CDS	366	rplL			50S ribosomal protein L7/L12
+PODIGLBH_00816	CDS	504	rplJ		COG0244	50S ribosomal protein L10
+PODIGLBH_00817	CDS	699	rplA			50S ribosomal protein L1
+PODIGLBH_00818	CDS	627	rplK		COG0080	50S ribosomal protein L11
+PODIGLBH_00819	CDS	516	nusG			Transcription termination/antitermination protein NusG
+PODIGLBH_00820	CDS	225	secE			Protein translocase subunit SecE
+PODIGLBH_00821	CDS	150	rpmG1		COG0267	50S ribosomal protein L33 1
+PODIGLBH_00822	CDS	666	sigH		COG1595	RNA polymerase sigma-H factor
+PODIGLBH_00823	CDS	522	yacP		COG3688	putative protein YacP
+PODIGLBH_00824	CDS	741		2.1.1.-		Putative TrmH family tRNA/rRNA methyltransferase
+PODIGLBH_00825	CDS	435	mrnC	3.1.26.-	COG1939	Mini-ribonuclease 3
+PODIGLBH_00826	CDS	1398	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+PODIGLBH_00827	CDS	993	cysE	2.3.1.30	COG1045	Serine acetyltransferase
+PODIGLBH_00828	CDS	1464	gltX	6.1.1.17		Glutamate--tRNA ligase
+PODIGLBH_00829	CDS	480	ispF	4.6.1.12	COG0245	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+PODIGLBH_00830	CDS	690	ispD	2.7.7.60	COG1211	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+PODIGLBH_00831	CDS	1095	yacL	3.1.-.-	COG4956	putative PIN and TRAM-domain containing protein YacL
+PODIGLBH_00832	CDS	489	carD		COG1329	RNA polymerase-binding transcription factor CarD
+PODIGLBH_00833	CDS	396				hypothetical protein
+PODIGLBH_00834	CDS	711				hypothetical protein
+PODIGLBH_00835	CDS	1071	disA	2.7.7.85		DNA integrity scanning protein DisA
+PODIGLBH_00836	CDS	1374	radA	3.6.4.-	COG1066	DNA repair protein RadA
+PODIGLBH_00837	CDS	2448	clpC		COG0542	Negative regulator of genetic competence ClpC/MecB
+PODIGLBH_00838	CDS	1077	mcsB	2.7.14.1		Protein-arginine kinase
+PODIGLBH_00839	CDS	519	mcsA		COG3880	Protein-arginine kinase activator protein
+PODIGLBH_00840	CDS	471	ctsr			Transcriptional regulator CtsR
+PODIGLBH_00841	CDS	699	sapB		COG1285	Protein SapB
+PODIGLBH_00842	CDS	672		3.1.3.5	COG0546	5'-nucleotidase
+PODIGLBH_00843	CDS	891	nreB	2.7.13.3		Oxygen sensor histidine kinase NreB
+PODIGLBH_00844	CDS	678	degU_1		COG2197	Transcriptional regulatory protein DegU
+PODIGLBH_00845	CDS	720				hypothetical protein
+PODIGLBH_00846	CDS	1077				hypothetical protein
+PODIGLBH_00847	CDS	198				hypothetical protein
+PODIGLBH_00848	CDS	1968	bepA_1	3.4.-.-		Beta-barrel assembly-enhancing protease
+PODIGLBH_00849	CDS	768	prkC_1	2.7.11.1		Serine/threonine-protein kinase PrkC
+PODIGLBH_00850	CDS	372				hypothetical protein
+PODIGLBH_00851	CDS	573				hypothetical protein
+PODIGLBH_00852	CDS	498				hypothetical protein
+PODIGLBH_00853	CDS	1524	dnaK_1		COG0443	Chaperone protein DnaK
+PODIGLBH_00854	CDS	636	grpE_1			Protein GrpE
+PODIGLBH_00855	CDS	156				hypothetical protein
+PODIGLBH_00856	CDS	96				hypothetical protein
+PODIGLBH_00857	CDS	1497	lysS	6.1.1.6		Lysine--tRNA ligase
+PODIGLBH_00858	CDS	1017	dus	1.3.1.-	COG0042	putative tRNA-dihydrouridine synthase
+PODIGLBH_00859	CDS	507	folK	2.7.6.3	COG0801	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase
+PODIGLBH_00860	CDS	360	folB	4.1.2.25	COG1539	Dihydroneopterin aldolase
+PODIGLBH_00861	CDS	852	folP	2.5.1.15		Dihydropteroate synthase
+PODIGLBH_00862	CDS	933	cysK_1	2.5.1.47		Cysteine synthase
+PODIGLBH_00863	CDS	873	hslO		COG1281	33 kDa chaperonin
+PODIGLBH_00864	CDS	780	coaX	2.7.1.33	COG1521	Type III pantothenate kinase
+PODIGLBH_00865	CDS	2004	ftsH_1	3.4.24.-	COG0465	ATP-dependent zinc metalloprotease FtsH
+PODIGLBH_00866	CDS	540	hpt	2.4.2.8		Hypoxanthine-guanine phosphoribosyltransferase
+PODIGLBH_00867	CDS	1455	tilS	6.3.4.19	COG0037	tRNA(Ile)-lysidine synthase
+PODIGLBH_00868	CDS	2466	spoIIE	3.1.3.16	COG2208	Stage II sporulation protein E
+PODIGLBH_00869	CDS	489				hypothetical protein
+PODIGLBH_00870	tRNA	77				tRNA-Met(cat)
+PODIGLBH_00871	tRNA	77				tRNA-Met(cat)
+PODIGLBH_00872	CDS	1245				hypothetical protein
+PODIGLBH_00873	CDS	387	ftsL_1			Cell division protein FtsL
+PODIGLBH_00874	CDS	576	yabQ			Spore protein YabQ
+PODIGLBH_00875	CDS	288	yabP			Spore protein YabP
+PODIGLBH_00876	CDS	285			COG1188	putative protein
+PODIGLBH_00877	CDS	1467	mazG	3.6.1.1	COG1694	Nucleoside triphosphate pyrophosphohydrolase/pyrophosphatase MazG
+PODIGLBH_00878	CDS	1638	murJ_1		COG2244	Lipid II flippase MurJ
+PODIGLBH_00879	CDS	543	spoVT		COG2002	Stage V sporulation protein T
+PODIGLBH_00880	CDS	1005	prsA3	5.2.1.8	COG0760	Foldase protein PrsA 3
+PODIGLBH_00881	CDS	3543	mfd	3.6.4.-		Transcription-repair-coupling factor
+PODIGLBH_00882	CDS	231	fin			Anti-sigma-F factor Fin
+PODIGLBH_00883	CDS	567	pth	3.1.1.29	COG0193	Peptidyl-tRNA hydrolase
+PODIGLBH_00884	CDS	603	rplY			50S ribosomal protein L25
+PODIGLBH_00885	CDS	948	prs	2.7.6.1	COG0462	Ribose-phosphate pyrophosphokinase
+PODIGLBH_00886	CDS	1386	glmU_1			Bifunctional protein GlmU
+PODIGLBH_00887	CDS	303	spoVG		COG2088	Putative septation protein SpoVG
+PODIGLBH_00888	CDS	381	yabJ	3.5.99.10	COG0251	2-iminobutanoate/2-iminopropanoate deaminase
+PODIGLBH_00889	CDS	831	purR		COG0503	Pur operon repressor
+PODIGLBH_00890	CDS	894	ispE	2.7.1.148	COG1947	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+PODIGLBH_00891	CDS	183				hypothetical protein
+PODIGLBH_00892	CDS	282	veg		COG4466	Protein Veg
+PODIGLBH_00893	CDS	474				hypothetical protein
+PODIGLBH_00894	CDS	879	rsmA_2	2.1.1.182		Ribosomal RNA small subunit methyltransferase A
+PODIGLBH_00895	CDS	561	rnmV	3.1.26.8	COG1658	Ribonuclease M5
+PODIGLBH_00896	CDS	780	dtd3	3.1.1.96		D-aminoacyl-tRNA deacylase
+PODIGLBH_00897	CDS	546	spsB	3.4.21.89	COG0681	Signal peptidase IB
+PODIGLBH_00898	CDS	1974	metG	6.1.1.10		Methionine--tRNA ligase
+PODIGLBH_00899	CDS	1857				hypothetical protein
+PODIGLBH_00900	CDS	954				hypothetical protein
+PODIGLBH_00901	CDS	273	abrB_1		COG2002	Transition state regulatory protein AbrB
+PODIGLBH_00902	CDS	1488	ptsG_1		COG1263	PTS system glucose-specific EIICB component
+PODIGLBH_00903	CDS	894	rsmI	2.1.1.198	COG0313	Ribosomal RNA small subunit methyltransferase I
+PODIGLBH_00904	CDS	288				hypothetical protein
+PODIGLBH_00905	CDS	366	yabA		COG4467	Initiation-control protein YabA
+PODIGLBH_00906	CDS	831				hypothetical protein
+PODIGLBH_00907	CDS	627	tmk	2.7.4.9	COG0125	Thymidylate kinase
+PODIGLBH_00908	CDS	1416	speA_1	4.1.1.19	COG1982	Arginine decarboxylase
+PODIGLBH_00909	CDS	195	csfB			Anti-sigma-G factor Gin
+PODIGLBH_00910	tRNA	76				tRNA-Ala(tgc)
+PODIGLBH_00911	tRNA	77				tRNA-Ile(gat)
+PODIGLBH_00912	CDS	255				hypothetical protein
+PODIGLBH_00913	CDS	375	bofA			Sigma-K factor-processing regulatory protein BofA
+PODIGLBH_00914	CDS	597	recR		COG0353	Recombination protein RecR
+PODIGLBH_00915	CDS	312			COG0718	Nucleoid-associated protein
+PODIGLBH_00916	CDS	1719	dnaX_2	2.7.7.7	COG2812	DNA polymerase III subunit tau
+PODIGLBH_00917	CDS	1140	kinA	2.7.13.3	COG0642	Sporulation kinase A
+PODIGLBH_00918	CDS	1578	ptsG_2	2.7.1.199	COG1263	PTS system glucose-specific EIICBA component
+PODIGLBH_00919	CDS	1692	treA	3.2.1.93	COG0366	Trehalose-6-phosphate hydrolase
+PODIGLBH_00920	CDS	711	treR		COG2188	HTH-type transcriptional regulator TreR
+PODIGLBH_00921	CDS	810	lipL	2.3.1.204	COG0095	Octanoyl-[GcvH]:protein N-octanoyltransferase
+PODIGLBH_00922	CDS	381				hypothetical protein
+PODIGLBH_00923	CDS	528	pnpB	1.6.5.6		p-benzoquinone reductase
+PODIGLBH_00924	CDS	1563	emrB			Multidrug export protein EmrB
+PODIGLBH_00925	CDS	636	emrK_1		COG1566	putative multidrug resistance protein EmrK
+PODIGLBH_00926	CDS	663	emrK_2		COG1566	putative multidrug resistance protein EmrK
+PODIGLBH_00927	CDS	468	mgrA		COG1846	HTH-type transcriptional regulator MgrA
+PODIGLBH_00928	CDS	996				hypothetical protein
+PODIGLBH_00929	CDS	384	sgrR			HTH-type transcriptional regulator SgrR
+PODIGLBH_00930	CDS	1044	glpQ_1	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase
+PODIGLBH_00931	CDS	435			COG1292	putative glycine betaine transporter
+PODIGLBH_00932	CDS	1032	mro	5.1.3.3	COG2017	Aldose 1-epimerase
+PODIGLBH_00933	CDS	1377	xylP			Isoprimeverose transporter
+PODIGLBH_00934	CDS	2079	bglB	3.2.1.21	COG1472	Thermostable beta-glucosidase B
+PODIGLBH_00935	CDS	1506	xylB_1	2.7.1.17	COG1070	Xylulose kinase
+PODIGLBH_00936	CDS	1206	nagC		COG1940	N-acetylglucosamine repressor
+PODIGLBH_00937	CDS	633	betI		COG1309	HTH-type transcriptional regulator BetI
+PODIGLBH_00938	CDS	432				hypothetical protein
+PODIGLBH_00939	CDS	372	cadC			Cadmium resistance transcriptional regulatory protein CadC
+PODIGLBH_00940	CDS	2112	cadA	3.6.3.3		Cadmium-transporting ATPase
+PODIGLBH_00941	CDS	720	gntR			putative D-xylose utilization operon transcriptional repressor
+PODIGLBH_00942	CDS	1518	xylB_2	2.7.1.17	COG1070	Xylulose kinase
+PODIGLBH_00943	CDS	1365	gntT		COG2610	High-affinity gluconate transporter
+PODIGLBH_00944	CDS	1443	gntZ	1.1.1.343	COG0362	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating
+PODIGLBH_00945	CDS	915	draG	3.2.2.24	COG1397	ADP-ribosyl-[dinitrogen reductase] glycohydrolase
+PODIGLBH_00946	CDS	486				hypothetical protein
+PODIGLBH_00947	CDS	207				hypothetical protein
+PODIGLBH_00948	CDS	579				hypothetical protein
+PODIGLBH_00949	CDS	129				hypothetical protein
+PODIGLBH_00950	CDS	642				hypothetical protein
+PODIGLBH_00951	tRNA	91				tRNA-Ser(cga)
+PODIGLBH_00952	CDS	483	tadA	3.5.4.33	COG0590	tRNA-specific adenosine deaminase
+PODIGLBH_00953	CDS	429	zur		COG0735	Zinc-specific metallo-regulatory protein
+PODIGLBH_00954	CDS	867	znuB		COG1108	High-affinity zinc uptake system membrane protein ZnuB
+PODIGLBH_00955	CDS	774	znuC	3.6.3.-	COG1121	High-affinity zinc uptake system ATP-binding protein ZnuC
+PODIGLBH_00956	CDS	945	znuA		COG0803	High-affinity zinc uptake system binding-protein ZnuA
+PODIGLBH_00957	CDS	621				hypothetical protein
+PODIGLBH_00958	CDS	2031	esaA			ESAT-6 secretion accessory factor EsaA
+PODIGLBH_00959	CDS	603	fadR_2			Fatty acid metabolism regulator protein
+PODIGLBH_00960	CDS	570	trxB_1	1.8.1.9		Thioredoxin reductase
+PODIGLBH_00961	CDS	438	dps1	1.16.-.-	COG0783	DNA protection during starvation protein 1
+PODIGLBH_00962	tRNA	77				tRNA-Arg(cct)
+PODIGLBH_00963	CDS	1212	bcr			Bicyclomycin resistance protein
+PODIGLBH_00964	CDS	1371	steT_1		COG0531	Serine/threonine exchanger SteT
+PODIGLBH_00965	CDS	1845	asnO_1	6.3.5.4	COG0367	Asparagine synthetase [glutamine-hydrolyzing] 3
+PODIGLBH_00966	CDS	738	spo0M_4		COG4326	Sporulation-control protein spo0M
+PODIGLBH_00967	CDS	1317				hypothetical protein
+PODIGLBH_00968	CDS	669	czcR			Transcriptional activator protein CzcR
+PODIGLBH_00969	CDS	1425	phoR_3	2.7.13.3	COG0642	Alkaline phosphatase synthesis sensor protein PhoR
+PODIGLBH_00970	CDS	162				hypothetical protein
+PODIGLBH_00971	CDS	198				hypothetical protein
+PODIGLBH_00972	tRNA	90				tRNA-Ser(tga)
+PODIGLBH_00973	CDS	1278	serS	6.1.1.11		Serine--tRNA ligase
+PODIGLBH_00974	CDS	588	pdxT	4.3.3.6		Pyridoxal 5'-phosphate synthase subunit PdxT
+PODIGLBH_00975	CDS	894	pdxS	4.3.3.6	COG0214	Pyridoxal 5'-phosphate synthase subunit PdxS
+PODIGLBH_00976	CDS	1242	dacA	3.4.16.4		D-alanyl-D-alanine carboxypeptidase DacA
+PODIGLBH_00977	CDS	1458	guaB	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase
+PODIGLBH_00978	CDS	855				hypothetical protein
+PODIGLBH_00979	CDS	990				hypothetical protein
+PODIGLBH_00980	CDS	2457	gyrA	5.99.1.3	COG0188	DNA gyrase subunit A
+PODIGLBH_00981	CDS	1914	gyrB	5.99.1.3	COG0187	DNA gyrase subunit B
+PODIGLBH_00982	CDS	252				hypothetical protein
+PODIGLBH_00983	CDS	1119	recF		COG1195	DNA replication and repair protein RecF
+PODIGLBH_00984	CDS	216	ybcJ		COG2501	putative protein YbcJ
+PODIGLBH_00985	CDS	1134	dnaN		COG0592	Beta sliding clamp
+PODIGLBH_00986	CDS	1356	dnaA		COG0593	Chromosomal replication initiator protein DnaA
+PODIGLBH_00987	CDS	354	rnpA	3.1.26.5	COG0594	Ribonuclease P protein component
+PODIGLBH_00988	CDS	246	yidD		COG0759	Putative membrane protein insertion efficiency factor
+PODIGLBH_00989	CDS	756	misCA		COG0706	Membrane protein insertase MisCA
+PODIGLBH_00990	CDS	633				hypothetical protein
+PODIGLBH_00991	CDS	1377	mnmE	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+PODIGLBH_00992	CDS	1905	mnmG			tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+PODIGLBH_00993	CDS	720	rsmG	2.1.1.-	COG0357	Ribosomal RNA small subunit methyltransferase G
+PODIGLBH_00994	CDS	1359				hypothetical protein
+PODIGLBH_00995	CDS	1191				hypothetical protein
+PODIGLBH_00996	CDS	837	noc		COG1475	Nucleoid occlusion protein
+PODIGLBH_00997	CDS	771	soj	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+PODIGLBH_00998	CDS	870	spo0J		COG1475	Stage 0 sporulation protein J
+PODIGLBH_00999	CDS	1140	csd	2.8.1.7		putative cysteine desulfurase
+PODIGLBH_01000	CDS	606				hypothetical protein
+PODIGLBH_01001	CDS	1101	ychF		COG0012	Ribosome-binding ATPase YchF
+PODIGLBH_01002	CDS	297	rpsF		COG0360	30S ribosomal protein S6
+PODIGLBH_01003	CDS	465	ssbA		COG0629	Single-stranded DNA-binding protein A
+PODIGLBH_01004	CDS	228	rpsR			30S ribosomal protein S18
+PODIGLBH_01005	CDS	312				hypothetical protein
+PODIGLBH_01006	CDS	912				hypothetical protein
+PODIGLBH_01007	CDS	1977	gdpP	3.1.4.-	COG3887	Cyclic-di-AMP phosphodiesterase GdpP
+PODIGLBH_01008	CDS	447	rplI			50S ribosomal protein L9
+PODIGLBH_01009	CDS	1350	dnaC	3.6.4.12	COG0305	Replicative DNA helicase
+PODIGLBH_01010	CDS	1287	purA	6.3.4.4	COG0104	Adenylosuccinate synthetase
+PODIGLBH_01011	CDS	480	rlmH	2.1.1.177	COG1576	Ribosomal RNA large subunit methyltransferase H
+PODIGLBH_01012	CDS	192				hypothetical protein
+PODIGLBH_01013	CDS	1191	htrA	3.4.21.107	COG0265	Serine protease Do-like HtrA
+PODIGLBH_01014	CDS	1116				hypothetical protein
+PODIGLBH_01015	CDS	255				hypothetical protein
+PODIGLBH_01016	CDS	792	yycJ	3.-.-.-	COG1235	Putative metallo-hydrolase YycJ
+PODIGLBH_01017	CDS	777				hypothetical protein
+PODIGLBH_01018	CDS	1380	yycH		COG4863	Two-component system WalR/WalK regulatory protein YycH
+PODIGLBH_01019	CDS	1818	walK_1	2.7.13.3		Sensor histidine kinase WalK
+PODIGLBH_01020	CDS	714	walR_2		COG0745	Transcriptional regulatory protein WalR
+PODIGLBH_01021	CDS	750	yheD_5			Endospore coat-associated protein YheD
+PODIGLBH_01022	CDS	567				hypothetical protein
+PODIGLBH_01023	CDS	126				hypothetical protein
+PODIGLBH_01024	CDS	2055	atoS	2.7.13.3	COG0642	Signal transduction histidine-protein kinase AtoS
+PODIGLBH_01025	CDS	501				hypothetical protein
+PODIGLBH_01026	CDS	231				hypothetical protein
+PODIGLBH_01027	CDS	2046	pbpG		COG0744	Penicillin-binding protein 2D
+PODIGLBH_01028	CDS	858	speE_2	2.5.1.16	COG0421	Polyamine aminopropyltransferase
+PODIGLBH_01029	CDS	891	speB	3.5.3.11	COG0010	Agmatinase
+PODIGLBH_01030	CDS	444	ywiB		COG4506	putative beta-barrel protein YwiB
+PODIGLBH_01031	CDS	1671	argS	6.1.1.19		Arginine--tRNA ligase
+PODIGLBH_01032	CDS	1473	prkC_2	2.7.11.1	COG0515	Serine/threonine-protein kinase PrkC
+PODIGLBH_01033	CDS	483	rocR_2		COG3829	Arginine utilization regulatory protein RocR
+PODIGLBH_01034	CDS	837	rocR_3		COG3829	Arginine utilization regulatory protein RocR
+PODIGLBH_01035	CDS	1041	kdd	1.4.1.11		L-erythro-3,5-diaminohexanoate dehydrogenase
+PODIGLBH_01036	CDS	1257	kamA	5.4.3.2	COG1509	L-lysine 2,3-aminomutase
+PODIGLBH_01037	CDS	1032				hypothetical protein
+PODIGLBH_01038	CDS	1611	mutS2_2	3.1.-.-		Endonuclease MutS2
+PODIGLBH_01039	CDS	1581	kamD	5.4.3.3		Lysine 5,6-aminomutase alpha subunit
+PODIGLBH_01040	CDS	759	kamE	5.4.3.3	COG5012	Lysine 5,6-aminomutase beta subunit
+PODIGLBH_01041	CDS	354				hypothetical protein
+PODIGLBH_01042	CDS	267				hypothetical protein
+PODIGLBH_01043	CDS	795				hypothetical protein
+PODIGLBH_01044	CDS	2067	fadF	1.-.-.-	COG0247	putative iron-sulfur-binding oxidoreductase FadF
+PODIGLBH_01045	CDS	714	phoP_2		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+PODIGLBH_01046	CDS	1974	resE_2	2.7.13.3		Sensor histidine kinase ResE
+PODIGLBH_01047	CDS	1182	mmgA	2.3.1.9	COG0183	Acetyl-CoA acetyltransferase
+PODIGLBH_01048	CDS	864	mmgB_1	1.1.1.157	COG1250	putative 3-hydroxybutyryl-CoA dehydrogenase
+PODIGLBH_01049	CDS	1143	mmgC_2	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_01050	CDS	1143	acdA_3	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_01051	CDS	984		3.6.-.-	COG1703	putative GTPase
+PODIGLBH_01052	CDS	651	kstR2_2			HTH-type transcriptional repressor KstR2
+PODIGLBH_01053	CDS	3231	icmF		COG1703	Fused isobutyryl-CoA mutase
+PODIGLBH_01054	CDS	441	rpoE			putative DNA-directed RNA polymerase subunit delta
+PODIGLBH_01055	CDS	1620	pyrG	6.3.4.2		CTP synthase
+PODIGLBH_01056	CDS	306	caaD_2	1.9.3.1		Cytochrome c oxidase subunit 4B
+PODIGLBH_01057	CDS	504	rimI_2	2.3.1.255	COG0456	N-alpha-acetyltransferase RimI
+PODIGLBH_01058	CDS	927	panE_1	1.1.1.169	COG1893	2-dehydropantoate 2-reductase
+PODIGLBH_01059	CDS	906				hypothetical protein
+PODIGLBH_01060	CDS	363	spo0F	2.7.-.-	COG0784	Sporulation initiation phosphotransferase F
+PODIGLBH_01061	CDS	393	kal	4.3.1.14		3-aminobutyryl-CoA ammonia lyase
+PODIGLBH_01062	CDS	825	kce	2.3.1.247	COG3246	3-keto-5-aminohexanoate cleavage enzyme
+PODIGLBH_01063	CDS	855	fbaA	4.1.2.13	COG0191	putative fructose-bisphosphate aldolase
+PODIGLBH_01064	CDS	648	tal	2.2.1.2	COG0176	Transaldolase
+PODIGLBH_01065	CDS	963	glpX	3.1.3.11	COG1494	Fructose-1,6-bisphosphatase class 2
+PODIGLBH_01066	CDS	1281	rho	3.6.4.-	COG1158	Transcription termination factor Rho
+PODIGLBH_01067	CDS	987	nlpD_1			Murein hydrolase activator NlpD
+PODIGLBH_01068	CDS	201	rpmE		COG0254	50S ribosomal protein L31
+PODIGLBH_01069	CDS	615	tdk	2.7.1.21	COG1435	Thymidine kinase
+PODIGLBH_01070	CDS	1026				hypothetical protein
+PODIGLBH_01071	CDS	1080	prfA		COG0216	Peptide chain release factor 1
+PODIGLBH_01072	CDS	897	prmC	2.1.1.297	COG2890	Release factor glutamine methyltransferase
+PODIGLBH_01073	CDS	669				hypothetical protein
+PODIGLBH_01074	CDS	474	argA	2.3.1.1		Amino-acid acetyltransferase
+PODIGLBH_01075	CDS	1068	ywlC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+PODIGLBH_01076	CDS	1149	ypbG		COG1408	putative protein YpbG
+PODIGLBH_01077	CDS	561	mntP_2		COG1971	putative manganese efflux pump MntP
+PODIGLBH_01078	CDS	645	ywlE	3.9.1.2	COG0394	Protein-arginine-phosphatase
+PODIGLBH_01079	CDS	444	ywlF	5.3.1.-	COG0698	Putative sugar phosphate isomerase YwlF
+PODIGLBH_01080	CDS	537				hypothetical protein
+PODIGLBH_01081	CDS	1242	glyA	2.1.2.1	COG0112	Serine hydroxymethyltransferase
+PODIGLBH_01082	CDS	630	upp	2.4.2.9		Uracil phosphoribosyltransferase
+PODIGLBH_01083	CDS	210				hypothetical protein
+PODIGLBH_01084	CDS	378				hypothetical protein
+PODIGLBH_01085	CDS	759	atpB			ATP synthase subunit a
+PODIGLBH_01086	CDS	225	atpE			ATP synthase subunit c
+PODIGLBH_01087	CDS	489	atpF			ATP synthase subunit b
+PODIGLBH_01088	CDS	543	atpH		COG0712	ATP synthase subunit delta
+PODIGLBH_01089	CDS	1527	atpA	3.6.3.14	COG0056	ATP synthase subunit alpha
+PODIGLBH_01090	CDS	876	atpG		COG0224	ATP synthase gamma chain
+PODIGLBH_01091	CDS	1407	atpD	3.6.3.14	COG0055	ATP synthase subunit beta
+PODIGLBH_01092	CDS	258	atpC		COG0355	ATP synthase epsilon chain
+PODIGLBH_01093	CDS	372	ndhC	1.6.5.-		NAD(P)H-quinone oxidoreductase subunit 3
+PODIGLBH_01094	CDS	519	nqo6	1.6.5.11	COG0377	NADH-quinone oxidoreductase subunit 6
+PODIGLBH_01095	CDS	702	ndhJ	1.6.5.-		NAD(P)H-quinone oxidoreductase subunit J
+PODIGLBH_01096	CDS	1101	nqo4	1.6.5.11	COG0649	NADH-quinone oxidoreductase subunit 4
+PODIGLBH_01097	CDS	975	nuoH	1.6.5.11	COG1005	NADH-quinone oxidoreductase subunit H
+PODIGLBH_01098	CDS	447	ndhI	1.6.5.-		NAD(P)H-quinone oxidoreductase subunit I
+PODIGLBH_01099	CDS	504	nuoJ	1.6.5.11	COG0839	NADH-quinone oxidoreductase subunit J
+PODIGLBH_01100	CDS	306		1.6.5.11	COG0713	NADH-quinone oxidoreductase subunit 11
+PODIGLBH_01101	CDS	1857	nuoL	1.6.5.11	COG1009	NADH-quinone oxidoreductase subunit L
+PODIGLBH_01102	CDS	1521	ndhD1	1.6.5.-	COG1008	NAD(P)H-quinone oxidoreductase chain 4 1
+PODIGLBH_01103	CDS	1509	nuoN	1.6.5.11	COG1007	NADH-quinone oxidoreductase subunit N
+PODIGLBH_01104	CDS	336				hypothetical protein
+PODIGLBH_01105	CDS	729				hypothetical protein
+PODIGLBH_01106	CDS	1296	murAA_1	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1
+PODIGLBH_01107	CDS	1023			COG2385	putative protein
+PODIGLBH_01108	CDS	1023	splG	4.1.99.14		Spore photoproduct lyase
+PODIGLBH_01109	CDS	699	spoIIQ		COG0739	Stage II sporulation protein Q
+PODIGLBH_01110	CDS	279	spoIIID			Stage III sporulation protein D
+PODIGLBH_01111	CDS	753				hypothetical protein
+PODIGLBH_01112	CDS	522	pgsA1	2.7.8.5	COG0558	Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 1
+PODIGLBH_01113	CDS	1308		1.1.1.38		NAD-dependent malic enzyme
+PODIGLBH_01114	CDS	426	fabZ	4.2.1.59		3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ
+PODIGLBH_01115	CDS	129				hypothetical protein
+PODIGLBH_01116	CDS	1203	tuaC	2.4.-.-	COG0438	Putative teichuronic acid biosynthesis glycosyltransferase TuaC
+PODIGLBH_01117	CDS	1026	iolG_3	1.1.1.18	COG0673	Myo-inositol 2-dehydrogenase
+PODIGLBH_01118	CDS	1116	desV	2.6.1.106		dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase
+PODIGLBH_01119	CDS	1314	wbpA	1.1.1.136	COG0677	UDP-N-acetyl-D-glucosamine 6-dehydrogenase
+PODIGLBH_01120	CDS	750	wbpD	2.3.1.201	COG0110	UDP-2-acetamido-3-amino-2,3-dideoxy-D-glucuronate N-acetyltransferase
+PODIGLBH_01121	CDS	1476				hypothetical protein
+PODIGLBH_01122	CDS	1419	tuaE			Teichuronic acid biosynthesis protein TuaE
+PODIGLBH_01123	CDS	1107	pimA	2.4.1.345	COG0438	Phosphatidyl-myo-inositol mannosyltransferase
+PODIGLBH_01124	CDS	918	tagU	2.7.8.-	COG1316	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU
+PODIGLBH_01125	CDS	939		5.1.3.2	COG1088	UDP-glucose 4-epimerase
+PODIGLBH_01126	CDS	633	wecA	2.7.8.40		UDP-N-acetylgalactosamine-undecaprenyl-phosphate N-acetylgalactosaminephosphotransferase
+PODIGLBH_01127	CDS	111				hypothetical protein
+PODIGLBH_01128	CDS	954	metN	3.6.3.-	COG1135	Methionine import ATP-binding protein MetN
+PODIGLBH_01129	CDS	660	metP		COG2011	Methionine import system permease protein MetP
+PODIGLBH_01130	CDS	795	metQ		COG1464	Methionine-binding lipoprotein MetQ
+PODIGLBH_01131	CDS	636	yigZ		COG1739	IMPACT family member YigZ
+PODIGLBH_01132	CDS	1098	tagV	2.7.8.-	COG1316	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagV
+PODIGLBH_01133	CDS	1962	aprE	3.4.21.62	COG1404	Subtilisin E
+PODIGLBH_01134	CDS	1200	metK	2.5.1.6		S-adenosylmethionine synthase
+PODIGLBH_01135	CDS	735	degU_2		COG2197	Transcriptional regulatory protein DegU
+PODIGLBH_01136	CDS	426				hypothetical protein
+PODIGLBH_01137	CDS	1638	comFA	3.6.4.12	COG4098	ComF operon protein 1
+PODIGLBH_01138	CDS	720	pyrE_1	2.4.2.10		Orotate phosphoribosyltransferase
+PODIGLBH_01139	CDS	276	hup_1			DNA-binding protein HU
+PODIGLBH_01140	CDS	759	artJ		COG0834	ABC transporter arginine-binding protein 1
+PODIGLBH_01141	CDS	681	artQ		COG0765	Arginine transport system permease protein ArtQ
+PODIGLBH_01142	CDS	723	glnQ			Glutamine transport ATP-binding protein GlnQ
+PODIGLBH_01143	CDS	246	cspB_2		COG1278	Cold shock protein CspB
+PODIGLBH_01144	CDS	564	yvyD		COG1544	Ribosome hibernation promotion factor
+PODIGLBH_01145	CDS	1068	wbpI	5.1.3.23	COG0381	UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimerase
+PODIGLBH_01146	CDS	1218	glgM	2.4.1.342	COG0438	Alpha-maltose-1-phosphate synthase
+PODIGLBH_01147	CDS	2535	secA		COG0653	Protein translocase subunit SecA
+PODIGLBH_01148	CDS	156				hypothetical protein
+PODIGLBH_01149	CDS	996	prfB			Peptide chain release factor 2
+PODIGLBH_01150	CDS	789	crt_1	4.2.1.150	COG1024	Short-chain-enoyl-CoA hydratase
+PODIGLBH_01151	CDS	831				hypothetical protein
+PODIGLBH_01152	CDS	333	cccA_1			Cytochrome c-551
+PODIGLBH_01153	CDS	1020	argC	1.2.1.38		N-acetyl-gamma-glutamyl-phosphate reductase
+PODIGLBH_01154	CDS	1224	argJ		COG1364	Arginine biosynthesis bifunctional protein ArgJ
+PODIGLBH_01155	CDS	804	argB	2.7.2.8	COG0548	Acetylglutamate kinase
+PODIGLBH_01156	CDS	1170	argD_2	2.6.1.11	COG4992	Acetylornithine aminotransferase
+PODIGLBH_01157	CDS	966	argF	2.1.3.3	COG0078	Ornithine carbamoyltransferase
+PODIGLBH_01158	CDS	999				hypothetical protein
+PODIGLBH_01159	CDS	615				hypothetical protein
+PODIGLBH_01160	CDS	600				hypothetical protein
+PODIGLBH_01161	CDS	690				hypothetical protein
+PODIGLBH_01162	CDS	471				hypothetical protein
+PODIGLBH_01163	CDS	282				hypothetical protein
+PODIGLBH_01164	CDS	1248	ygiC	6.3.1.-	COG0754	Putative acid--amine ligase YgiC
+PODIGLBH_01165	CDS	1263	argG	6.3.4.5		Argininosuccinate synthase
+PODIGLBH_01166	CDS	1401	argH	4.3.2.1	COG0165	Argininosuccinate lyase
+PODIGLBH_01167	CDS	687	ftsE		COG2884	Cell division ATP-binding protein FtsE
+PODIGLBH_01168	CDS	903	ftsX		COG2177	Cell division protein FtsX
+PODIGLBH_01169	CDS	1164	envC		COG4942	Murein hydrolase activator EnvC
+PODIGLBH_01170	CDS	1026	nlpD_2			Murein hydrolase activator NlpD
+PODIGLBH_01171	CDS	1083	mepM_3	3.4.24.-	COG0739	Murein DD-endopeptidase MepM
+PODIGLBH_01172	CDS	1452	ctpB	3.4.21.102	COG0793	Carboxy-terminal processing protease CtpB
+PODIGLBH_01173	CDS	1119	minJ		COG0265	Cell division topological determinant MinJ
+PODIGLBH_01174	CDS	1980	uvrB			UvrABC system protein B
+PODIGLBH_01175	CDS	2880	uvrA			UvrABC system protein A
+PODIGLBH_01176	CDS	210	sspD_1			Small, acid-soluble spore protein D
+PODIGLBH_01177	CDS	231				hypothetical protein
+PODIGLBH_01178	CDS	411				hypothetical protein
+PODIGLBH_01179	CDS	336				hypothetical protein
+PODIGLBH_01180	CDS	522		3.6.1.-	COG1986	Non-canonical purine NTP phosphatase
+PODIGLBH_01181	CDS	648				hypothetical protein
+PODIGLBH_01182	CDS	936	hprK	2.7.11.-	COG1493	HPr kinase/phosphorylase
+PODIGLBH_01183	CDS	1326	ywdJ		COG2233	Putative purine permease YwdJ
+PODIGLBH_01184	CDS	207				hypothetical protein
+PODIGLBH_01185	CDS	897	lgt	2.4.99.-	COG0682	Prolipoprotein diacylglyceryl transferase
+PODIGLBH_01186	CDS	645	ppaX	3.6.1.1	COG0546	Pyrophosphatase PpaX
+PODIGLBH_01187	CDS	489		2.3.1.-		Putative acetyltransferase
+PODIGLBH_01188	CDS	3564	swrC		COG0841	Swarming motility protein SwrC
+PODIGLBH_01189	CDS	309				hypothetical protein
+PODIGLBH_01190	CDS	1503	cwhA	3.5.1.28		N-acetylmuramoyl-L-alanine amidase A
+PODIGLBH_01191	CDS	210	hfq_1		COG1923	RNA-binding protein Hfq
+PODIGLBH_01192	CDS	1113	pyrD	1.3.5.2	COG0167	Dihydroorotate dehydrogenase (quinone)
+PODIGLBH_01193	CDS	354				hypothetical protein
+PODIGLBH_01194	CDS	147				hypothetical protein
+PODIGLBH_01195	CDS	570		3.6.1.66	COG0127	dITP/XTP pyrophosphatase
+PODIGLBH_01196	CDS	1173	hisZ		COG3705	ATP phosphoribosyltransferase regulatory subunit
+PODIGLBH_01197	CDS	633	hisG	2.4.2.17	COG0040	ATP phosphoribosyltransferase
+PODIGLBH_01198	CDS	1314	hisD	1.1.1.23	COG0141	Histidinol dehydrogenase
+PODIGLBH_01199	CDS	597	hisB	4.2.1.19	COG0131	Imidazoleglycerol-phosphate dehydratase
+PODIGLBH_01200	CDS	618	hisH	2.4.2.-	COG0118	Imidazole glycerol phosphate synthase subunit HisH
+PODIGLBH_01201	CDS	741	hisA	5.3.1.16	COG0106	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase
+PODIGLBH_01202	CDS	759	hisF	4.1.3.-	COG0107	Imidazole glycerol phosphate synthase subunit HisF
+PODIGLBH_01203	CDS	612	hisI	3.5.4.19	COG0139	Phosphoribosyl-AMP cyclohydrolase
+PODIGLBH_01204	CDS	1677	bepA_2	3.4.-.-		Beta-barrel assembly-enhancing protease
+PODIGLBH_01205	CDS	312	ytpP			Thioredoxin-like protein YtpP
+PODIGLBH_01206	CDS	957	glcK	2.7.1.2	COG1940	Glucokinase
+PODIGLBH_01207	CDS	876	yvcJ		COG1660	Nucleotide-binding protein YvcJ
+PODIGLBH_01208	CDS	1005			COG0391	Gluconeogenesis factor
+PODIGLBH_01209	CDS	927	whiA		COG1481	Sporulation transcription regulator WhiA
+PODIGLBH_01210	CDS	258	crh_1		COG1925	HPr-like protein Crh
+PODIGLBH_01211	CDS	654				hypothetical protein
+PODIGLBH_01212	CDS	363				hypothetical protein
+PODIGLBH_01213	CDS	567	clpP_2	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+PODIGLBH_01214	CDS	699	mftE	3.5.-.-	COG1402	Putative mycofactocin system creatinine amidohydrolase family protein MftE
+PODIGLBH_01215	tRNA	75				tRNA-Arg(ccg)
+PODIGLBH_01216	CDS	1362	rpoN		COG1508	RNA polymerase sigma-54 factor
+PODIGLBH_01217	CDS	1023	cggR		COG2390	Central glycolytic genes regulator
+PODIGLBH_01218	CDS	1005	gap1	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase 1
+PODIGLBH_01219	CDS	1185	pgk	2.7.2.3	COG0126	Phosphoglycerate kinase
+PODIGLBH_01220	CDS	768	tpiA	5.3.1.1		Triosephosphate isomerase
+PODIGLBH_01221	CDS	1542	gpmI	5.4.2.12		2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+PODIGLBH_01222	CDS	1299	eno	4.2.1.11	COG0148	Enolase
+PODIGLBH_01223	CDS	234	secG		COG1314	putative protein-export membrane protein SecG
+PODIGLBH_01224	CDS	522				hypothetical protein
+PODIGLBH_01225	CDS	771	est	3.1.1.1		Carboxylesterase
+PODIGLBH_01226	CDS	2301	rnr	3.1.13.1	COG0557	Ribonuclease R
+PODIGLBH_01227	CDS	468	smpB		COG0691	SsrA-binding protein
+PODIGLBH_01228	tmRNA	364	ssrA			transfer-messenger RNA, SsrA
+PODIGLBH_01229	tRNA	76				tRNA-Thr(cgt)
+PODIGLBH_01230	CDS	3105	recD2_1	3.6.4.12		ATP-dependent RecD-like DNA helicase
+PODIGLBH_01231	CDS	408				hypothetical protein
+PODIGLBH_01232	CDS	177				hypothetical protein
+PODIGLBH_01233	CDS	423				hypothetical protein
+PODIGLBH_01234	CDS	1002				hypothetical protein
+PODIGLBH_01235	CDS	99				hypothetical protein
+PODIGLBH_01236	CDS	579	bsdB	2.5.1.129	COG0163	putative UbiX-like flavin prenyltransferase
+PODIGLBH_01237	CDS	663				hypothetical protein
+PODIGLBH_01238	CDS	99				hypothetical protein
+PODIGLBH_01239	CDS	1506		6.2.1.3	COG0318	Long-chain-fatty-acid--CoA ligase FadD13
+PODIGLBH_01240	CDS	1059				hypothetical protein
+PODIGLBH_01241	CDS	1053	dinB_1	2.7.7.7	COG0389	DNA polymerase IV
+PODIGLBH_01242	CDS	204				hypothetical protein
+PODIGLBH_01243	CDS	933	ldh_1	1.1.1.27	COG0039	L-lactate dehydrogenase
+PODIGLBH_01244	CDS	1629	lctP		COG1620	L-lactate permease
+PODIGLBH_01245	CDS	378				hypothetical protein
+PODIGLBH_01246	CDS	2055	mtlR_2			Transcriptional regulator MtlR
+PODIGLBH_01247	CDS	267	ulaB	2.7.1.194		Ascorbate-specific PTS system EIIB component
+PODIGLBH_01248	CDS	1272	ulaA		COG3037	Ascorbate-specific PTS system EIIC component
+PODIGLBH_01249	CDS	159				hypothetical protein
+PODIGLBH_01250	CDS	360				hypothetical protein
+PODIGLBH_01251	CDS	4089	eccC		COG1674	ESX secretion system protein EccC
+PODIGLBH_01252	CDS	270				hypothetical protein
+PODIGLBH_01253	CDS	879	hexR		COG1737	HTH-type transcriptional regulator HexR
+PODIGLBH_01254	CDS	1371	hemL_1	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase
+PODIGLBH_01255	CDS	720	ycaC	4.-.-.-	COG1335	putative hydrolase YcaC
+PODIGLBH_01256	CDS	468				hypothetical protein
+PODIGLBH_01257	CDS	114				hypothetical protein
+PODIGLBH_01258	CDS	234				hypothetical protein
+PODIGLBH_01259	CDS	741	lgrE	1.1.-.-		Linear gramicidin dehydrogenase LgrE
+PODIGLBH_01260	CDS	765	sfp	2.7.8.7	COG2091	4'-phosphopantetheinyl transferase Sfp
+PODIGLBH_01261	CDS	699				hypothetical protein
+PODIGLBH_01262	CDS	1179	gerN_1		COG0475	Na(+)/H(+)-K(+) antiporter GerN
+PODIGLBH_01263	CDS	315				hypothetical protein
+PODIGLBH_01264	CDS	1506	mctC		COG4147	Monocarboxylic acid transporter
+PODIGLBH_01265	CDS	780			COG3336	putative protein
+PODIGLBH_01266	CDS	486				hypothetical protein
+PODIGLBH_01267	CDS	753				hypothetical protein
+PODIGLBH_01268	CDS	855				hypothetical protein
+PODIGLBH_01269	CDS	564	bamHIR	3.1.21.4		Type-2 restriction enzyme BamHI
+PODIGLBH_01270	tRNA	76				tRNA-Ala(ggc)
+PODIGLBH_01271	CDS	777				hypothetical protein
+PODIGLBH_01272	CDS	702				hypothetical protein
+PODIGLBH_01273	CDS	690	mqnB	3.2.2.26	COG0775	Futalosine hydrolase
+PODIGLBH_01274	CDS	825	mqnD	4.1.-.-	COG2107	1,4-dihydroxy-6-naphtoate synthase
+PODIGLBH_01275	CDS	693	folQ	3.6.1.-		putative DHNTP pyrophosphohydrolase
+PODIGLBH_01276	CDS	711	lutC		COG1556	Lactate utilization protein C
+PODIGLBH_01277	CDS	1440	lutB		COG1139	Lactate utilization protein B
+PODIGLBH_01278	CDS	720	lutA_2		COG0247	Lactate utilization protein A
+PODIGLBH_01279	CDS	741	lutR_2		COG2186	HTH-type transcriptional regulator LutR
+PODIGLBH_01280	tRNA	71				tRNA-Glu(ttc)
+PODIGLBH_01281	CDS	315				hypothetical protein
+PODIGLBH_01282	CDS	288				hypothetical protein
+PODIGLBH_01283	CDS	432				hypothetical protein
+PODIGLBH_01284	CDS	903	iolS	1.1.1.-	COG0667	Aldo-keto reductase IolS
+PODIGLBH_01285	CDS	1185	mgl_2	4.4.1.11	COG0626	L-methionine gamma-lyase
+PODIGLBH_01286	CDS	1563	atoC_3		COG2204	Regulatory protein AtoC
+PODIGLBH_01287	CDS	1074	murG_1	2.4.1.227		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+PODIGLBH_01288	CDS	1863	fruA		COG1299	PTS system fructose-specific EIIABC component
+PODIGLBH_01289	CDS	918	lacC	2.7.1.144	COG1105	Tagatose-6-phosphate kinase
+PODIGLBH_01290	CDS	693	lacR			Lactose phosphotransferase system repressor
+PODIGLBH_01291	CDS	1338	lapB_2			Lipopolysaccharide assembly protein B
+PODIGLBH_01292	CDS	3450	metH	2.1.1.13	COG0646	Methionine synthase
+PODIGLBH_01293	CDS	1878	yitJ		COG0646	Bifunctional homocysteine S-methyltransferase/5,10-methylenetetrahydrofolate reductase
+PODIGLBH_01294	CDS	168				hypothetical protein
+PODIGLBH_01295	CDS	357				hypothetical protein
+PODIGLBH_01296	CDS	156				hypothetical protein
+PODIGLBH_01297	CDS	960	ispH	1.17.7.4	COG0761	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+PODIGLBH_01298	CDS	165				hypothetical protein
+PODIGLBH_01299	CDS	327	yfhH			putative protein YfhH
+PODIGLBH_01300	CDS	939				hypothetical protein
+PODIGLBH_01301	CDS	393				hypothetical protein
+PODIGLBH_01302	CDS	186				hypothetical protein
+PODIGLBH_01303	CDS	831	yodP	2.3.1.-		N-acetyltransferase YodP
+PODIGLBH_01304	CDS	411	speH	4.1.1.50	COG1586	S-adenosylmethionine decarboxylase proenzyme
+PODIGLBH_01305	CDS	1716	ptsI	2.7.3.9	COG1080	Phosphoenolpyruvate-protein phosphotransferase
+PODIGLBH_01306	CDS	261	crh_2		COG1925	HPr-like protein Crh
+PODIGLBH_01307	CDS	342	celA	2.7.1.205		PTS system cellobiose-specific EIIB component
+PODIGLBH_01308	CDS	2259	dgaR			Transcriptional regulatory protein DagR
+PODIGLBH_01309	CDS	1503		3.4.17.19	COG2317	Thermostable carboxypeptidase 1
+PODIGLBH_01310	CDS	1008	bioB	2.8.1.6		Biotin synthase
+PODIGLBH_01311	CDS	777	spo0M_5		COG4326	Sporulation-control protein spo0M
+PODIGLBH_01312	CDS	384				hypothetical protein
+PODIGLBH_01313	CDS	801				hypothetical protein
+PODIGLBH_01314	CDS	2400	fadN	1.1.1.35	COG1024	putative 3-hydroxyacyl-CoA dehydrogenase
+PODIGLBH_01315	CDS	1182	fadA_2	2.3.1.16	COG0183	3-ketoacyl-CoA thiolase
+PODIGLBH_01316	CDS	1773	fadE	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase
+PODIGLBH_01317	CDS	243				hypothetical protein
+PODIGLBH_01318	CDS	387				hypothetical protein
+PODIGLBH_01319	CDS	780	yvaM	3.-.-.-		AB hydrolase superfamily protein YvaM
+PODIGLBH_01320	CDS	339				hypothetical protein
+PODIGLBH_01321	CDS	267	tatAy			Sec-independent protein translocase protein TatAy
+PODIGLBH_01322	CDS	198				hypothetical protein
+PODIGLBH_01323	CDS	2076	cstA		COG1966	Peptide transporter CstA
+PODIGLBH_01324	CDS	291	gatC	6.3.5.-	COG0721	Glutamyl-tRNA(Gln) amidotransferase subunit C
+PODIGLBH_01325	CDS	1467	gatA_1	6.3.5.7	COG0154	Glutamyl-tRNA(Gln) amidotransferase subunit A
+PODIGLBH_01326	CDS	1440	gatB	6.3.5.-	COG0064	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+PODIGLBH_01327	CDS	312				hypothetical protein
+PODIGLBH_01328	CDS	762				hypothetical protein
+PODIGLBH_01329	CDS	105				hypothetical protein
+PODIGLBH_01330	CDS	1098				hypothetical protein
+PODIGLBH_01331	CDS	1419	gndA	1.1.1.44	COG0362	6-phosphogluconate dehydrogenase, NADP(+)-dependent, decarboxylating
+PODIGLBH_01332	CDS	1302	pbuO_1		COG2252	Guanine/hypoxanthine permease PbuO
+PODIGLBH_01333	CDS	885	dagK_2	2.7.1.107	COG1597	Diacylglycerol kinase
+PODIGLBH_01334	CDS	1374	rlmCD	2.1.1.189	COG2265	23S rRNA (uracil-C(5))-methyltransferase RlmCD
+PODIGLBH_01335	CDS	885	ycjY		COG1073	putative protein YcjY
+PODIGLBH_01336	CDS	600				putative HTH-type transcriptional regulator
+PODIGLBH_01337	CDS	1416	hsrA			putative transport protein HsrA
+PODIGLBH_01338	CDS	807		3.1.1.2		Arylesterase
+PODIGLBH_01339	CDS	264				hypothetical protein
+PODIGLBH_01340	CDS	1527	ahpF	1.6.99.3		NADH dehydrogenase
+PODIGLBH_01341	CDS	564	ahpC	1.11.1.15	COG0450	Alkyl hydroperoxide reductase C
+PODIGLBH_01342	CDS	738	mta		COG0789	HTH-type transcriptional activator mta
+PODIGLBH_01343	CDS	579	tetR			Tetracycline repressor protein class D
+PODIGLBH_01344	CDS	663				putative protein
+PODIGLBH_01345	CDS	1116				hypothetical protein
+PODIGLBH_01346	CDS	198	yezG_1			putative antitoxin YezG
+PODIGLBH_01347	CDS	474				hypothetical protein
+PODIGLBH_01348	CDS	537	yezG_2			putative antitoxin YezG
+PODIGLBH_01349	CDS	591				hypothetical protein
+PODIGLBH_01350	CDS	1530		2.1.1.72	COG0286	putative type I restriction enzymeP M protein
+PODIGLBH_01351	CDS	1236				hypothetical protein
+PODIGLBH_01352	CDS	3105	hsdR	3.1.21.3		Type-1 restriction enzyme R protein
+PODIGLBH_01353	CDS	735				hypothetical protein
+PODIGLBH_01354	CDS	483				hypothetical protein
+PODIGLBH_01355	CDS	222	yezG_3			putative antitoxin YezG
+PODIGLBH_01356	CDS	228				hypothetical protein
+PODIGLBH_01357	CDS	282				hypothetical protein
+PODIGLBH_01358	CDS	1674				hypothetical protein
+PODIGLBH_01359	CDS	681	spsI		COG0558	Bifunctional IPC transferase and DIPP synthase
+PODIGLBH_01360	CDS	990				hypothetical protein
+PODIGLBH_01361	CDS	1866	glmU_2	2.3.1.157		Bifunctional protein GlmU
+PODIGLBH_01362	CDS	840				hypothetical protein
+PODIGLBH_01363	CDS	228				hypothetical protein
+PODIGLBH_01364	CDS	1254	phoA	3.1.3.1	COG1785	Alkaline phosphatase 4
+PODIGLBH_01365	CDS	858				DegV domain-containing protein
+PODIGLBH_01366	CDS	1014	mccF			Microcin C7 self-immunity protein MccF
+PODIGLBH_01367	CDS	843	yusV_2		COG1120	putative siderophore transport system ATP-binding protein YusV
+PODIGLBH_01368	CDS	906	fhuD		COG0614	Iron(3+)-hydroxamate-binding protein FhuD
+PODIGLBH_01369	CDS	1008	feuB		COG0609	Iron-uptake system permease protein FeuB
+PODIGLBH_01370	CDS	1008	feuC		COG0609	Iron-uptake system permease protein FeuC
+PODIGLBH_01371	CDS	216				hypothetical protein
+PODIGLBH_01372	CDS	1131	hcnC	1.4.99.5		Hydrogen cyanide synthase subunit HcnC
+PODIGLBH_01373	CDS	1179	ndbB	1.6.5.12		Demethylphylloquinone reductase NdbB
+PODIGLBH_01374	CDS	891	sigJ			ECF RNA polymerase sigma factor SigJ
+PODIGLBH_01375	CDS	579	yodC	1.-.-.-	COG0778	Putative NAD(P)H nitroreductase YodC
+PODIGLBH_01376	CDS	585	cwlC_1	3.5.1.28	COG0860	Sporulation-specific N-acetylmuramoyl-L-alanine amidase
+PODIGLBH_01377	CDS	438	ppiB	5.2.1.8	COG0652	Peptidyl-prolyl cis-trans isomerase B
+PODIGLBH_01378	CDS	270				hypothetical protein
+PODIGLBH_01379	CDS	444	lrgA		COG1380	Antiholin-like protein LrgA
+PODIGLBH_01380	CDS	630	cidB		COG1346	Holin-like protein CidB
+PODIGLBH_01381	CDS	1221	ynfM			Inner membrane transport protein YnfM
+PODIGLBH_01382	CDS	879	gltC			HTH-type transcriptional regulator GltC
+PODIGLBH_01383	CDS	978	yerB			Putative lipoprotein YerB
+PODIGLBH_01384	CDS	318				hypothetical protein
+PODIGLBH_01385	CDS	711	pcrB	2.5.1.-	COG1646	Heptaprenylglyceryl phosphate synthase
+PODIGLBH_01386	CDS	2184	pcrA	3.6.4.12	COG0210	ATP-dependent DNA helicase PcrA
+PODIGLBH_01387	CDS	2025	ligA	6.5.1.2		DNA ligase
+PODIGLBH_01388	CDS	1692				hypothetical protein
+PODIGLBH_01389	CDS	750	ssuB_2	3.6.3.-	COG1116	Aliphatic sulfonates import ATP-binding protein SsuB
+PODIGLBH_01390	CDS	768	ribX			Riboflavin transport system permease protein RibX
+PODIGLBH_01391	CDS	300				hypothetical protein
+PODIGLBH_01392	CDS	990	thiY		COG0715	Formylaminopyrimidine-binding protein
+PODIGLBH_01393	CDS	915	rluD_1	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+PODIGLBH_01394	CDS	1608				hypothetical protein
+PODIGLBH_01395	CDS	762	fabG_4	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_01396	CDS	162				hypothetical protein
+PODIGLBH_01397	CDS	2553	pbpF_1		COG0744	Penicillin-binding protein 1F
+PODIGLBH_01398	CDS	1020				hypothetical protein
+PODIGLBH_01399	CDS	558	plsY_1	2.3.1.-	COG0344	Glycerol-3-phosphate acyltransferase
+PODIGLBH_01400	CDS	795				hypothetical protein
+PODIGLBH_01401	CDS	192				hypothetical protein
+PODIGLBH_01402	CDS	876				hypothetical protein
+PODIGLBH_01403	CDS	321	csoR		COG1937	Copper-sensing transcriptional repressor CsoR
+PODIGLBH_01404	CDS	855				hypothetical protein
+PODIGLBH_01405	CDS	957	btuF_2		COG0614	Vitamin B12-binding protein
+PODIGLBH_01406	CDS	1002	hmuU		COG0609	Hemin transport system permease protein HmuU
+PODIGLBH_01407	CDS	801	fepC		COG1120	Ferric enterobactin transport ATP-binding protein FepC
+PODIGLBH_01408	CDS	558	yvqK	2.5.1.17	COG2096	Cob(I)yrinic acid a,c-diamide adenosyltransferase
+PODIGLBH_01409	CDS	357	spxA		COG1393	Regulatory protein Spx
+PODIGLBH_01410	CDS	447	ykuV	1.8.-.-	COG0526	Thiol-disulfide oxidoreductase YkuV
+PODIGLBH_01411	CDS	390	gcvH		COG0509	Glycine cleavage system H protein
+PODIGLBH_01412	CDS	426				hypothetical protein
+PODIGLBH_01413	CDS	648	udk	2.7.1.48		Uridine kinase
+PODIGLBH_01414	CDS	1578	pckA	4.1.1.49		Phosphoenolpyruvate carboxykinase (ATP)
+PODIGLBH_01415	CDS	375	pnp_1	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+PODIGLBH_01416	CDS	573	rsmH_1	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+PODIGLBH_01417	CDS	996	hemN_1	1.3.99.-	COG0635	Oxygen-independent coproporphyrinogen-III oxidase-like protein
+PODIGLBH_01418	CDS	870	ywpJ	3.1.3.-	COG0561	Phosphatase YwpJ
+PODIGLBH_01419	CDS	1350				hypothetical protein
+PODIGLBH_01420	CDS	1104	pdhA_1	1.2.4.1	COG1071	Pyruvate dehydrogenase E1 component subunit alpha
+PODIGLBH_01421	CDS	981	pdhB_1	1.2.4.1		Pyruvate dehydrogenase E1 component subunit beta
+PODIGLBH_01422	CDS	1272	pdhC_1	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+PODIGLBH_01423	CDS	1419	pdhD_1	1.8.1.4		Dihydrolipoyl dehydrogenase
+PODIGLBH_01424	CDS	576				hypothetical protein
+PODIGLBH_01425	CDS	393	fadM	3.1.2.-	COG0824	Long-chain acyl-CoA thioesterase FadM
+PODIGLBH_01426	CDS	234				hypothetical protein
+PODIGLBH_01427	CDS	405				hypothetical protein
+PODIGLBH_01428	CDS	585				hypothetical protein
+PODIGLBH_01429	CDS	318				hypothetical protein
+PODIGLBH_01430	CDS	1659	hutU	4.2.1.49	COG2987	Urocanate hydratase
+PODIGLBH_01431	CDS	1263	hutI	3.5.2.7	COG1228	Imidazolonepropionase
+PODIGLBH_01432	CDS	996	hutG	3.5.3.8	COG0010	Formimidoylglutamase
+PODIGLBH_01433	CDS	522	tpx	1.11.1.15	COG2077	Thiol peroxidase
+PODIGLBH_01434	CDS	612	ytlP	3.1.4.-		RNA 2',3'-cyclic phosphodiesterase
+PODIGLBH_01435	CDS	1749	thiC	4.1.99.17	COG0422	Phosphomethylpyrimidine synthase
+PODIGLBH_01436	CDS	741	nikO	3.6.3.-	COG1122	Nickel import ATP-binding protein NikO
+PODIGLBH_01437	CDS	546	pnp_2	2.7.7.8		Polyribonucleotide nucleotidyltransferase
+PODIGLBH_01438	CDS	138				hypothetical protein
+PODIGLBH_01439	CDS	2709	citB	4.2.1.3	COG1048	Aconitate hydratase A
+PODIGLBH_01440	CDS	750	kdgR		COG1414	Transcriptional regulator KdgR
+PODIGLBH_01441	CDS	759	glcR		COG1349	HTH-type transcriptional repressor GlcR
+PODIGLBH_01442	CDS	717	queE_2	4.3.99.3	COG0602	7-carboxy-7-deazaguanine synthase
+PODIGLBH_01443	CDS	693	queC	6.3.4.20	COG0603	7-cyano-7-deazaguanine synthase
+PODIGLBH_01444	CDS	408	queD	4.1.2.50	COG0720	6-carboxy-5,6,7,8-tetrahydropterin synthase
+PODIGLBH_01445	CDS	492	queF	1.7.1.13	COG0780	NADPH-dependent 7-cyano-7-deazaguanine reductase
+PODIGLBH_01446	CDS	444				hypothetical protein
+PODIGLBH_01447	CDS	1059				hypothetical protein
+PODIGLBH_01448	CDS	720	ybbA		COG2819	putative protein YbbA
+PODIGLBH_01449	CDS	1359				hypothetical protein
+PODIGLBH_01450	CDS	1941	acs	6.2.1.1	COG0365	Acetyl-coenzyme A synthetase
+PODIGLBH_01451	CDS	708	sigI			RNA polymerase sigma factor SigI
+PODIGLBH_01452	CDS	1047	rsgI7			Anti-sigma-I factor RsgI7
+PODIGLBH_01453	CDS	264	abrB_2		COG2002	Transition state regulatory protein AbrB
+PODIGLBH_01454	CDS	774	echA8	4.2.1.17	COG1024	putative enoyl-CoA hydratase echA8
+PODIGLBH_01455	CDS	1158	pdh	1.4.1.20		Phenylalanine dehydrogenase
+PODIGLBH_01456	CDS	1077	pdhA_2	1.2.4.1		Pyruvate dehydrogenase E1 component subunit alpha
+PODIGLBH_01457	CDS	978	pdhB_2	1.2.4.1		Pyruvate dehydrogenase E1 component subunit beta
+PODIGLBH_01458	CDS	1173	pdhC_2	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+PODIGLBH_01459	CDS	1365	ythA	1.10.3.-	COG1271	Putative cytochrome bd menaquinol oxidase subunit I
+PODIGLBH_01460	CDS	1020	ythB		COG1294	Putative cytochrome bd menaquinol oxidase subunit II
+PODIGLBH_01461	tRNA	77				tRNA-Arg(acg)
+PODIGLBH_01462	CDS	1233	gltP		COG1301	Proton/glutamate-aspartate symporter
+PODIGLBH_01463	CDS	120				hypothetical protein
+PODIGLBH_01464	tRNA	87				tRNA-Leu(gag)
+PODIGLBH_01465	tRNA	74				tRNA-Gly(tcc)
+PODIGLBH_01466	tRNA	76				tRNA-Thr(ggt)
+PODIGLBH_01467	tRNA	77				tRNA-Glu(ttc)
+PODIGLBH_01468	tRNA	77				tRNA-Asp(gtc)
+PODIGLBH_01469	tRNA	76				tRNA-His(gtg)
+PODIGLBH_01470	tRNA	75				tRNA-Gly(gcc)
+PODIGLBH_01471	CDS	774				hypothetical protein
+PODIGLBH_01472	CDS	1050	comC_1	1.1.1.338	COG2055	(2R)-3-sulfolactate dehydrogenase (NADP(+))
+PODIGLBH_01473	CDS	255				hypothetical protein
+PODIGLBH_01474	tRNA	76				tRNA-Ala(tgc)
+PODIGLBH_01475	tRNA	93				tRNA-Ser(gga)
+PODIGLBH_01476	tRNA	76				tRNA-Phe(gaa)
+PODIGLBH_01477	tRNA	76				tRNA-Thr(tgt)
+PODIGLBH_01478	tRNA	74				tRNA-Trp(cca)
+PODIGLBH_01479	CDS	426				hypothetical protein
+PODIGLBH_01480	tRNA	74				tRNA-Cys(gca)
+PODIGLBH_01481	tRNA	89				tRNA-Leu(cag)
+PODIGLBH_01482	tRNA	77				tRNA-Arg(acg)
+PODIGLBH_01483	CDS	924				hypothetical protein
+PODIGLBH_01484	CDS	1086	mnmA	2.8.1.13		tRNA-specific 2-thiouridylase MnmA
+PODIGLBH_01485	CDS	1362	ktrB		COG0168	Ktr system potassium uptake protein B
+PODIGLBH_01486	CDS	1548				hypothetical protein
+PODIGLBH_01487	CDS	333				hypothetical protein
+PODIGLBH_01488	CDS	621				hypothetical protein
+PODIGLBH_01489	CDS	996	pitA		COG0306	Low-affinity inorganic phosphate transporter 1
+PODIGLBH_01490	CDS	1443		3.4.13.-	COG0624	Putative dipeptidase
+PODIGLBH_01491	CDS	645				hypothetical protein
+PODIGLBH_01492	CDS	1161	iscS_1	2.8.1.7	COG1104	Cysteine desulfurase IscS
+PODIGLBH_01493	CDS	1536	nadB	1.4.3.16	COG0029	L-aspartate oxidase
+PODIGLBH_01494	CDS	846	nadC	2.4.2.19	COG0157	putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+PODIGLBH_01495	CDS	1104	nadA	2.5.1.72	COG0379	Quinolinate synthase A
+PODIGLBH_01496	CDS	1134	ykuD_1	2.-.-.-	COG1376	Putative L,D-transpeptidase YkuD
+PODIGLBH_01497	CDS	915	ykuD_2	2.-.-.-	COG1376	Putative L,D-transpeptidase YkuD
+PODIGLBH_01498	CDS	1164	gph_2	3.1.3.18		Phosphoglycolate phosphatase
+PODIGLBH_01499	CDS	612	sodA_1	1.15.1.1		Superoxide dismutase [Mn]
+PODIGLBH_01500	CDS	723	sleB_2		COG3409	Spore cortex-lytic enzyme
+PODIGLBH_01501	CDS	1314	ugtP_1	2.4.1.315	COG0707	Processive diacylglycerol beta-glucosyltransferase
+PODIGLBH_01502	CDS	1008	yisK		COG0179	putative protein YisK
+PODIGLBH_01503	CDS	1452	hom_2	1.1.1.3	COG0460	Homoserine dehydrogenase
+PODIGLBH_01504	CDS	591	dfx	1.15.1.2	COG2033	Desulfoferrodoxin
+PODIGLBH_01505	CDS	942				hypothetical protein
+PODIGLBH_01506	CDS	351				hypothetical protein
+PODIGLBH_01507	CDS	1230	dinB_2	2.7.7.7	COG0389	DNA polymerase IV
+PODIGLBH_01508	CDS	1608	nfdA	3.5.1.91		N-substituted formamide deformylase
+PODIGLBH_01509	CDS	939	putB	1.5.5.2	COG0506	Proline dehydrogenase 2
+PODIGLBH_01510	CDS	1548	rocA1	1.2.1.88	COG1012	1-pyrroline-5-carboxylate dehydrogenase 1
+PODIGLBH_01511	CDS	1380	atoC_4		COG2204	Regulatory protein AtoC
+PODIGLBH_01512	CDS	1299	citN		COG2851	Citrate transporter
+PODIGLBH_01513	CDS	936				hypothetical protein
+PODIGLBH_01514	CDS	963	kdgK_2	2.7.1.45	COG0524	2-dehydro-3-deoxygluconokinase
+PODIGLBH_01515	CDS	1296	ttuB			Putative tartrate transporter
+PODIGLBH_01516	CDS	669	kdgA		COG0800	KHG/KDPG aldolase
+PODIGLBH_01517	CDS	1038	ccpA_1		COG1609	Catabolite control protein A
+PODIGLBH_01518	CDS	633	hxlA	4.1.2.43	COG0269	3-hexulose-6-phosphate synthase
+PODIGLBH_01519	CDS	552	hxlB	5.3.1.27	COG0794	3-hexulose-6-phosphate isomerase
+PODIGLBH_01520	CDS	1392	gabD_1	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)]
+PODIGLBH_01521	CDS	447	fosB_2	2.5.1.-		Metallothiol transferase FosB
+PODIGLBH_01522	CDS	507				hypothetical protein
+PODIGLBH_01523	CDS	429	cwlJ		COG3773	Cell wall hydrolase CwlJ
+PODIGLBH_01524	CDS	342	gerQ			Spore coat protein GerQ
+PODIGLBH_01525	CDS	444				hypothetical protein
+PODIGLBH_01526	CDS	138				hypothetical protein
+PODIGLBH_01527	CDS	1629	sir	1.8.7.1	COG0155	Sulfite reductase [ferredoxin]
+PODIGLBH_01528	CDS	240				hypothetical protein
+PODIGLBH_01529	CDS	744	cysH	1.8.4.8	COG0175	Phosphoadenosine phosphosulfate reductase
+PODIGLBH_01530	CDS	1167	sat	2.7.7.4	COG2046	Sulfate adenylyltransferase
+PODIGLBH_01531	CDS	873				hypothetical protein
+PODIGLBH_01532	CDS	729	hhoA			Putative serine protease HhoA
+PODIGLBH_01533	CDS	582	bioY		COG1268	Biotin transporter BioY
+PODIGLBH_01534	CDS	381				hypothetical protein
+PODIGLBH_01535	CDS	210	yqgQ		COG4483	putative protein YqgQ
+PODIGLBH_01536	CDS	609	leuD1	4.2.1.33	COG0066	3-isopropylmalate dehydratase small subunit 1
+PODIGLBH_01537	CDS	1440	leuC	4.2.1.33	COG0065	3-isopropylmalate dehydratase large subunit
+PODIGLBH_01538	CDS	1062	cobT	2.4.2.21	COG2038	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase
+PODIGLBH_01539	CDS	1146	cobD_1	4.1.1.81	COG0079	Threonine-phosphate decarboxylase
+PODIGLBH_01540	CDS	513	cobU	2.7.1.156	COG2087	Bifunctional adenosylcobalamin biosynthesis protein CobU
+PODIGLBH_01541	CDS	747	cobS	2.7.8.26	COG0368	Adenosylcobinamide-GDP ribazoletransferase
+PODIGLBH_01542	CDS	609	gpgP	3.1.3.85	COG0406	Glucosyl-3-phosphoglycerate phosphatase
+PODIGLBH_01543	CDS	705				hypothetical protein
+PODIGLBH_01544	CDS	978	cobD_2		COG1270	Cobalamin biosynthesis protein CobD
+PODIGLBH_01545	CDS	702				hypothetical protein
+PODIGLBH_01546	CDS	426	yccU		COG1832	putative protein YccU
+PODIGLBH_01547	CDS	486		3.1.2.28		1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+PODIGLBH_01548	CDS	726	bepA_3	3.4.-.-		Beta-barrel assembly-enhancing protease
+PODIGLBH_01549	CDS	390				hypothetical protein
+PODIGLBH_01550	CDS	567	rsfA_1			Prespore-specific transcriptional regulator RsfA
+PODIGLBH_01551	CDS	249				hypothetical protein
+PODIGLBH_01552	CDS	114				hypothetical protein
+PODIGLBH_01553	CDS	114				hypothetical protein
+PODIGLBH_01554	CDS	114				hypothetical protein
+PODIGLBH_01555	CDS	285				hypothetical protein
+PODIGLBH_01556	CDS	1083	icd_2	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]
+PODIGLBH_01557	CDS	1773	nagZ	3.2.1.52	COG1472	Beta-hexosaminidase
+PODIGLBH_01558	CDS	426				hypothetical protein
+PODIGLBH_01559	CDS	303				hypothetical protein
+PODIGLBH_01560	CDS	348				hypothetical protein
+PODIGLBH_01561	CDS	1092	aroA		COG1605	Protein AroA(G)
+PODIGLBH_01562	CDS	1287				hypothetical protein
+PODIGLBH_01563	CDS	1041	ccpA_2		COG1609	Catabolite control protein A
+PODIGLBH_01564	CDS	714	mtnN	3.2.2.9	COG0775	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase
+PODIGLBH_01565	CDS	156				hypothetical protein
+PODIGLBH_01566	CDS	1719	acsA_1	6.2.1.1	COG0365	Acetyl-coenzyme A synthetase
+PODIGLBH_01567	CDS	2202	pbpF_2		COG0744	Penicillin-binding protein 1F
+PODIGLBH_01568	CDS	2358	pbpF_3		COG0744	Penicillin-binding protein 1F
+PODIGLBH_01569	CDS	1257	tyrS	6.1.1.1	COG0162	Tyrosine--tRNA ligase
+PODIGLBH_01570	CDS	411	ytkD	3.6.1.55	COG0494	Putative 8-oxo-dGTP diphosphatase YtkD
+PODIGLBH_01571	CDS	2622	pigC	6.4.-.-		Prodigiosin synthesizing transferase PigC
+PODIGLBH_01572	CDS	603	rpsD			30S ribosomal protein S4
+PODIGLBH_01573	CDS	654	trmB	2.1.1.33	COG0220	tRNA (guanine-N(7)-)-methyltransferase
+PODIGLBH_01574	CDS	309				hypothetical protein
+PODIGLBH_01575	CDS	705				hypothetical protein
+PODIGLBH_01576	CDS	597	pspA	3.1.3.3	COG0406	Phosphoserine phosphatase 1
+PODIGLBH_01577	CDS	369				hypothetical protein
+PODIGLBH_01578	CDS	1158	atoC_5		COG2204	Regulatory protein AtoC
+PODIGLBH_01579	CDS	768	bdhA	1.1.1.30		D-beta-hydroxybutyrate dehydrogenase
+PODIGLBH_01580	CDS	477	menI_2	3.1.2.28		1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+PODIGLBH_01581	CDS	426	nudI	3.6.1.9	COG0494	Nucleoside triphosphatase NudI
+PODIGLBH_01582	CDS	525				hypothetical protein
+PODIGLBH_01583	CDS	789	fliY		COG0834	L-cystine-binding protein FliY
+PODIGLBH_01584	CDS	666	yxeN			putative amino-acid permease protein YxeN
+PODIGLBH_01585	CDS	726	artM		COG1126	Arginine transport ATP-binding protein ArtM
+PODIGLBH_01586	CDS	504	msrC	1.8.4.14	COG1956	Free methionine-R-sulfoxide reductase
+PODIGLBH_01587	CDS	1116	pepS	3.4.11.-	COG2309	Aminopeptidase PepS
+PODIGLBH_01588	CDS	483	crr			PTS system glucose-specific EIIA component
+PODIGLBH_01589	CDS	1044	ysdC_1	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+PODIGLBH_01590	CDS	480		3.1.2.-	COG2050	Putative esterase
+PODIGLBH_01591	CDS	372				hypothetical protein
+PODIGLBH_01592	CDS	912	glsA	3.5.1.2	COG2066	Glutaminase
+PODIGLBH_01593	CDS	300				hypothetical protein
+PODIGLBH_01594	CDS	1065	chaA		COG0387	Ca(2+)/H(+) antiporter ChaA
+PODIGLBH_01595	CDS	819				hypothetical protein
+PODIGLBH_01596	CDS	381				Alkaline shock protein 23
+PODIGLBH_01597	CDS	354				hypothetical protein
+PODIGLBH_01598	CDS	1203	yxeP	3.-.-.-	COG1473	putative hydrolase YxeP
+PODIGLBH_01599	CDS	492	hrp1			Hypoxic response protein 1
+PODIGLBH_01600	CDS	483				hypothetical protein
+PODIGLBH_01601	CDS	1032	spoVAD			Stage V sporulation protein AD
+PODIGLBH_01602	CDS	669	lipC_1	3.-.-.-	COG2755	Spore germination lipase LipC
+PODIGLBH_01603	CDS	852				hypothetical protein
+PODIGLBH_01604	CDS	189				hypothetical protein
+PODIGLBH_01605	CDS	1086	apr	3.4.21.62		Subtilisin DY
+PODIGLBH_01606	CDS	1350	mgtE		COG2239	Magnesium transporter MgtE
+PODIGLBH_01607	CDS	348				hypothetical protein
+PODIGLBH_01608	CDS	150				hypothetical protein
+PODIGLBH_01609	CDS	339				hypothetical protein
+PODIGLBH_01610	CDS	1659				hypothetical protein
+PODIGLBH_01611	CDS	1839				hypothetical protein
+PODIGLBH_01612	CDS	432				hypothetical protein
+PODIGLBH_01613	CDS	237				hypothetical protein
+PODIGLBH_01614	CDS	1221	tetA_2			Tetracycline resistance protein, class B
+PODIGLBH_01615	CDS	465				hypothetical protein
+PODIGLBH_01616	CDS	360				hypothetical protein
+PODIGLBH_01617	CDS	843	minD_1		COG2894	Septum site-determining protein MinD
+PODIGLBH_01618	CDS	261	minE			Cell division topological specificity factor
+PODIGLBH_01619	CDS	834				hypothetical protein
+PODIGLBH_01620	CDS	441				hypothetical protein
+PODIGLBH_01621	CDS	219				hypothetical protein
+PODIGLBH_01622	CDS	156				hypothetical protein
+PODIGLBH_01623	CDS	168				hypothetical protein
+PODIGLBH_01624	CDS	1383	mleN		COG1757	Malate-2H(+)/Na(+)-lactate antiporter
+PODIGLBH_01625	CDS	747				hypothetical protein
+PODIGLBH_01626	CDS	300				hypothetical protein
+PODIGLBH_01627	CDS	420		3.1.2.-	COG2050	Putative esterase
+PODIGLBH_01628	CDS	786	crt_2	4.2.1.150	COG1024	Short-chain-enoyl-CoA hydratase
+PODIGLBH_01629	CDS	1329		6.2.1.30	COG1541	Phenylacetate-coenzyme A ligase
+PODIGLBH_01630	CDS	858	paaH	1.1.1.-	COG1250	3-hydroxyadipyl-CoA dehydrogenase
+PODIGLBH_01631	CDS	774	mmgB_2	1.1.1.157	COG1250	putative 3-hydroxybutyryl-CoA dehydrogenase
+PODIGLBH_01632	CDS	1200	pcaF_1	2.3.1.174	COG0183	Beta-ketoadipyl-CoA thiolase
+PODIGLBH_01633	CDS	825	paaX		COG3327	Transcriptional repressor PaaX
+PODIGLBH_01634	CDS	1014	paaA	1.14.13.149	COG3396	1,2-phenylacetyl-CoA epoxidase, subunit A
+PODIGLBH_01635	CDS	339				hypothetical protein
+PODIGLBH_01636	CDS	831	paaC		COG3396	1,2-phenylacetyl-CoA epoxidase, subunit C
+PODIGLBH_01637	CDS	477	paaD		COG2151	Putative 1,2-phenylacetyl-CoA epoxidase, subunit D
+PODIGLBH_01638	CDS	1443	gabD_2	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD
+PODIGLBH_01639	CDS	1080		1.13.12.-	COG2070	Putative monooxygenase
+PODIGLBH_01640	CDS	930				hypothetical protein
+PODIGLBH_01641	CDS	501	speG_1	2.3.1.57	COG1670	Spermidine N(1)-acetyltransferase
+PODIGLBH_01642	CDS	594				hypothetical protein
+PODIGLBH_01643	CDS	1137				hypothetical protein
+PODIGLBH_01644	CDS	615				hypothetical protein
+PODIGLBH_01645	CDS	570		1.11.1.6		Manganese catalase
+PODIGLBH_01646	CDS	267				hypothetical protein
+PODIGLBH_01647	CDS	213				Small, acid-soluble spore protein 1
+PODIGLBH_01648	CDS	1560	acsA_2	6.2.1.1	COG0365	Acetyl-coenzyme A synthetase
+PODIGLBH_01649	CDS	534				hypothetical protein
+PODIGLBH_01650	CDS	330				hypothetical protein
+PODIGLBH_01651	CDS	1134		3.4.21.62		Subtilisin BL
+PODIGLBH_01652	CDS	1974	mrdA	3.4.16.4	COG0768	Peptidoglycan D,D-transpeptidase MrdA
+PODIGLBH_01653	CDS	303				hypothetical protein
+PODIGLBH_01654	CDS	870	psd	4.1.1.65	COG0688	Phosphatidylserine decarboxylase proenzyme
+PODIGLBH_01655	CDS	609	gluP	3.4.21.105	COG0705	Rhomboid protease GluP
+PODIGLBH_01656	CDS	1233				hypothetical protein
+PODIGLBH_01657	CDS	465	ykqA	2.3.2.-	COG2105	Putative gamma-glutamylcyclotransferase YkqA
+PODIGLBH_01658	CDS	1368	alkH	1.2.1.3		Aldehyde dehydrogenase
+PODIGLBH_01659	CDS	1044	iolW	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolW
+PODIGLBH_01660	CDS	1413	gatA_2	6.3.5.7	COG0154	Glutamyl-tRNA(Gln) amidotransferase subunit A
+PODIGLBH_01661	CDS	987		1.1.1.-		Putative 2-hydroxyacid dehydrogenase
+PODIGLBH_01662	CDS	477	greA		COG0782	Transcription elongation factor GreA
+PODIGLBH_01663	CDS	375	glbN			Group 1 truncated hemoglobin GlbN
+PODIGLBH_01664	CDS	177				hypothetical protein
+PODIGLBH_01665	CDS	366				hypothetical protein
+PODIGLBH_01666	CDS	2154	relA	2.7.6.5	COG0317	GTP pyrophosphokinase
+PODIGLBH_01667	CDS	450	dtd	3.1.1.96	COG1490	D-aminoacyl-tRNA deacylase
+PODIGLBH_01668	CDS	2004	tkt	2.2.1.1		Transketolase
+PODIGLBH_01669	CDS	381				hypothetical protein
+PODIGLBH_01670	CDS	1290	hisS	6.1.1.21		Histidine--tRNA ligase
+PODIGLBH_01671	CDS	1794	aspS	6.1.1.12		Aspartate--tRNA ligase
+PODIGLBH_01672	CDS	744		3.1.3.-	COG5663	Nucleotidase
+PODIGLBH_01673	CDS	639				hypothetical protein
+PODIGLBH_01674	CDS	591				hypothetical protein
+PODIGLBH_01675	CDS	183				hypothetical protein
+PODIGLBH_01676	CDS	1338	rarA		COG2256	Replication-associated recombination protein A
+PODIGLBH_01677	CDS	420	cymR_2			HTH-type transcriptional regulator CymR
+PODIGLBH_01678	CDS	1143	iscS_2	2.8.1.7		Cysteine desulfurase IscS
+PODIGLBH_01679	CDS	507				hypothetical protein
+PODIGLBH_01680	CDS	2256	recD2_2	3.6.4.12	COG0507	ATP-dependent RecD-like DNA helicase
+PODIGLBH_01681	CDS	504				hypothetical protein
+PODIGLBH_01682	CDS	201				hypothetical protein
+PODIGLBH_01683	CDS	201				hypothetical protein
+PODIGLBH_01684	CDS	1059	yhhT		COG0628	Putative transport protein YhhT
+PODIGLBH_01685	CDS	2631	alaS	6.1.1.7		Alanine--tRNA ligase
+PODIGLBH_01686	CDS	258				hypothetical protein
+PODIGLBH_01687	CDS	459	yrrK	3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+PODIGLBH_01688	CDS	327				hypothetical protein
+PODIGLBH_01689	CDS	297				hypothetical protein
+PODIGLBH_01690	CDS	1074	mltG	4.2.2.-		Endolytic murein transglycosylase
+PODIGLBH_01691	CDS	1803	pbpI		COG0768	Penicillin-binding protein 4B
+PODIGLBH_01692	CDS	327				hypothetical protein
+PODIGLBH_01693	CDS	279				hypothetical protein
+PODIGLBH_01694	CDS	1536	opuD		COG1292	Glycine betaine transporter OpuD
+PODIGLBH_01695	CDS	1206	mntH_2			Divalent metal cation transporter MntH
+PODIGLBH_01696	CDS	888	purU	3.5.1.10	COG0788	Formyltetrahydrofolate deformylase
+PODIGLBH_01697	CDS	1836	gerN_2		COG0475	Na(+)/H(+)-K(+) antiporter GerN
+PODIGLBH_01698	CDS	2361	helD	3.6.4.12	COG3973	DNA helicase IV
+PODIGLBH_01699	CDS	993	ccpA_3		COG1609	Catabolite control protein A
+PODIGLBH_01700	CDS	885	rbsK/rbiA			Bifunctional ribokinase/ribose-5-phosphate isomerase A
+PODIGLBH_01701	CDS	393	rbsD	5.4.99.62	COG1869	D-ribose pyranase
+PODIGLBH_01702	CDS	1500	rbsA	3.6.3.17	COG1129	Ribose import ATP-binding protein RbsA
+PODIGLBH_01703	CDS	945	rbsC		COG1172	Ribose import permease protein RbsC
+PODIGLBH_01704	CDS	915	rbsB		COG1879	Ribose import binding protein RbsB
+PODIGLBH_01705	CDS	594	ssuE	1.5.1.38	COG0431	FMN reductase (NADPH)
+PODIGLBH_01706	CDS	312	ribR	2.7.1.26	COG0196	RNA-binding riboflavin kinase RibR
+PODIGLBH_01707	CDS	1077	ssuD_2	1.14.14.5	COG2141	Alkanesulfonate monooxygenase
+PODIGLBH_01708	CDS	834	acdA_4	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_01709	CDS	354				hypothetical protein
+PODIGLBH_01710	CDS	714	sigK			RNA polymerase sigma-28 factor
+PODIGLBH_01711	CDS	630	esiB_1			Secretory immunoglobulin A-binding protein EsiB
+PODIGLBH_01712	CDS	381				hypothetical protein
+PODIGLBH_01713	CDS	468	sipT_2	3.4.21.89	COG0681	Signal peptidase I T
+PODIGLBH_01714	CDS	474				hypothetical protein
+PODIGLBH_01715	CDS	231				hypothetical protein
+PODIGLBH_01716	CDS	930				hypothetical protein
+PODIGLBH_01717	CDS	225				hypothetical protein
+PODIGLBH_01718	CDS	363				hypothetical protein
+PODIGLBH_01719	CDS	3327	esiB_2			Secretory immunoglobulin A-binding protein EsiB
+PODIGLBH_01720	CDS	1743	smc_1			Chromosome partition protein Smc
+PODIGLBH_01721	CDS	174				hypothetical protein
+PODIGLBH_01722	CDS	330	mazF	3.1.27.-	COG2337	Endoribonuclease toxin MazF
+PODIGLBH_01723	CDS	273	mazE		COG2336	Antitoxin MazE
+PODIGLBH_01724	CDS	705				hypothetical protein
+PODIGLBH_01725	CDS	666				hypothetical protein
+PODIGLBH_01726	CDS	1410	cydA	1.10.3.-	COG1271	Cytochrome bd ubiquinol oxidase subunit 1
+PODIGLBH_01727	CDS	1017	cydB	1.10.3.14	COG1294	Cytochrome bd-I ubiquinol oxidase subunit 2
+PODIGLBH_01728	CDS	1728	cydD		COG4988	ATP-binding/permease protein CydD
+PODIGLBH_01729	CDS	1770			COG1132	putative ABC transporter ATP-binding protein
+PODIGLBH_01730	CDS	408				hypothetical protein
+PODIGLBH_01731	CDS	717	ygaZ		COG1296	Inner membrane protein YgaZ
+PODIGLBH_01732	CDS	300				hypothetical protein
+PODIGLBH_01733	CDS	1386	dtpT		COG3104	Di-/tripeptide transporter
+PODIGLBH_01734	CDS	1035	wecH	2.3.1.-	COG3274	O-acetyltransferase WecH
+PODIGLBH_01735	CDS	228				hypothetical protein
+PODIGLBH_01736	CDS	573	resA_2			Thiol-disulfide oxidoreductase ResA
+PODIGLBH_01737	CDS	888	qoxA_1	1.10.3.-	COG1622	Quinol oxidase subunit 2
+PODIGLBH_01738	CDS	1950	qoxB_1	1.10.3.-		Quinol oxidase subunit 1
+PODIGLBH_01739	CDS	579	qoxC_1	1.10.3.-		Quinol oxidase subunit 3
+PODIGLBH_01740	CDS	300	qoxD_1	1.10.3.-		Quinol oxidase subunit 4
+PODIGLBH_01741	CDS	837	yvgN	1.1.1.-	COG0656	Glyoxal reductase
+PODIGLBH_01742	CDS	771	ycfH	3.1.-.-	COG0084	putative metal-dependent hydrolase YcfH
+PODIGLBH_01743	CDS	786	yafV	3.5.1.3		Omega-amidase YafV
+PODIGLBH_01744	CDS	1173	bacF	2.6.1.-	COG0436	Transaminase BacF
+PODIGLBH_01745	CDS	189				hypothetical protein
+PODIGLBH_01746	CDS	1104		3.4.-.-		putative peptidase
+PODIGLBH_01747	CDS	444	ohrB		COG1764	Organic hydroperoxide resistance protein OhrB
+PODIGLBH_01748	CDS	591				hypothetical protein
+PODIGLBH_01749	CDS	1239	mdtG			Multidrug resistance protein MdtG
+PODIGLBH_01750	CDS	189				hypothetical protein
+PODIGLBH_01751	CDS	525	gph_3	3.1.3.18		Phosphoglycolate phosphatase
+PODIGLBH_01752	CDS	1107	yqeH		COG1161	putative protein YqeH
+PODIGLBH_01753	CDS	846	aroE	1.1.1.25	COG0169	Shikimate dehydrogenase (NADP(+))
+PODIGLBH_01754	CDS	585	nadD	2.7.7.18	COG1057	Nicotinate-nucleotide adenylyltransferase
+PODIGLBH_01755	CDS	591				hypothetical protein
+PODIGLBH_01756	CDS	342	rsfS		COG0799	Ribosomal silencing factor RsfS
+PODIGLBH_01757	CDS	357				hypothetical protein
+PODIGLBH_01758	CDS	2463	leuS	6.1.1.4	COG0495	Leucine--tRNA ligase
+PODIGLBH_01759	CDS	633	comEA		COG1555	ComE operon protein 1
+PODIGLBH_01760	CDS	222				hypothetical protein
+PODIGLBH_01761	CDS	1149	metI	2.5.1.-	COG0626	Cystathionine gamma-synthase/O-acetylhomoserine (thiol)-lyase
+PODIGLBH_01762	CDS	1161	metC	4.4.1.8	COG0626	Cystathionine beta-lyase MetC
+PODIGLBH_01763	CDS	582	dcd	3.5.4.13		dCTP deaminase
+PODIGLBH_01764	CDS	279				hypothetical protein
+PODIGLBH_01765	CDS	2424	comEC		COG0658	ComE operon protein 3
+PODIGLBH_01766	CDS	558	sigE_1			ECF RNA polymerase sigma factor SigE
+PODIGLBH_01767	CDS	690				hypothetical protein
+PODIGLBH_01768	CDS	1026	yqeN		COG1466	putative protein YqeN
+PODIGLBH_01769	CDS	570				hypothetical protein
+PODIGLBH_01770	CDS	1290	crtN	1.3.8.2		Dehydrosqualene desaturase
+PODIGLBH_01771	CDS	519				hypothetical protein
+PODIGLBH_01772	CDS	978	trpS	6.1.1.2		Tryptophan--tRNA ligase
+PODIGLBH_01773	CDS	264	rpsT		COG0268	30S ribosomal protein S20
+PODIGLBH_01774	CDS	1113	gpr	3.4.24.78		Germination protease
+PODIGLBH_01775	CDS	1140				hypothetical protein
+PODIGLBH_01776	CDS	354				hypothetical protein
+PODIGLBH_01777	CDS	1818	lepA	3.6.5.-	COG0481	Elongation factor 4
+PODIGLBH_01778	CDS	1152	hemN_2	1.3.99.-	COG0635	Oxygen-independent coproporphyrinogen-III oxidase-like protein YqeR
+PODIGLBH_01779	CDS	1023	hrcA		COG1420	Heat-inducible transcription repressor HrcA
+PODIGLBH_01780	CDS	1620	groL_2		COG0459	60 kDa chaperonin
+PODIGLBH_01781	CDS	633	grpE_2		COG0576	Protein GrpE
+PODIGLBH_01782	CDS	1851	dnaK_2		COG0443	Chaperone protein DnaK
+PODIGLBH_01783	CDS	1122	dnaJ			Chaperone protein DnaJ
+PODIGLBH_01784	CDS	945	prmA	2.1.1.-	COG2264	Ribosomal protein L11 methyltransferase
+PODIGLBH_01785	CDS	747	rsmE	2.1.1.193	COG1385	Ribosomal RNA small subunit methyltransferase E
+PODIGLBH_01786	CDS	1347	mtaB	2.8.4.5	COG0621	Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB
+PODIGLBH_01787	CDS	429	ndx1	3.6.1.61	COG0494	Diadenosine hexaphosphate hydrolase
+PODIGLBH_01788	CDS	939				hypothetical protein
+PODIGLBH_01789	CDS	384				hypothetical protein
+PODIGLBH_01790	CDS	345		3.9.1.-	COG0537	Purine nucleoside phosphoramidase
+PODIGLBH_01791	CDS	174	rpsU		COG0828	30S ribosomal protein S21
+PODIGLBH_01792	CDS	444	yqeY		COG1610	putative protein YqeY
+PODIGLBH_01793	CDS	660				hypothetical protein
+PODIGLBH_01794	CDS	984				hypothetical protein
+PODIGLBH_01795	CDS	183				hypothetical protein
+PODIGLBH_01796	CDS	189	sspD_2			Small, acid-soluble spore protein D
+PODIGLBH_01797	CDS	258				hypothetical protein
+PODIGLBH_01798	CDS	1212				hypothetical protein
+PODIGLBH_01799	CDS	987			COG1702	PhoH-like protein
+PODIGLBH_01800	CDS	2145	pgpH	3.1.4.-		Cyclic-di-AMP phosphodiesterase PgpH
+PODIGLBH_01801	CDS	471	ybeY	3.1.-.-	COG0319	Endoribonuclease YbeY
+PODIGLBH_01802	CDS	690	dgkA	2.7.1.66	COG0818	Undecaprenol kinase
+PODIGLBH_01803	CDS	924	era		COG1159	GTPase Era
+PODIGLBH_01804	CDS	747	recO		COG1381	DNA repair protein RecO
+PODIGLBH_01805	CDS	882	glyQ	6.1.1.14	COG0752	Glycine--tRNA ligase alpha subunit
+PODIGLBH_01806	CDS	2079	glyS	6.1.1.14	COG0751	Glycine--tRNA ligase beta subunit
+PODIGLBH_01807	CDS	909				hypothetical protein
+PODIGLBH_01808	CDS	525	ccpN		COG0517	Transcriptional repressor CcpN
+PODIGLBH_01809	CDS	816	yqfL	2.7.11.32	COG1806	Putative pyruvate, phosphate dikinase regulatory protein
+PODIGLBH_01810	CDS	2646	ppdK	2.7.9.1	COG0574	Pyruvate, phosphate dikinase
+PODIGLBH_01811	CDS	1845	dnaG	2.7.7.-	COG0358	DNA primase
+PODIGLBH_01812	CDS	1104	sigA		COG0568	RNA polymerase sigma factor SigA
+PODIGLBH_01813	CDS	1140	acdA_5	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_01814	CDS	1665	fadD3	6.2.1.41	COG0318	3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl:CoA ligase
+PODIGLBH_01815	CDS	615	ydaF_2	2.3.1.-	COG1670	Putative ribosomal N-acetyltransferase YdaF
+PODIGLBH_01816	CDS	1086	hpd	1.13.11.27	COG3185	4-hydroxyphenylpyruvate dioxygenase
+PODIGLBH_01817	CDS	1425	pepN	3.4.11.2		Aminopeptidase N
+PODIGLBH_01818	CDS	744	trmK	2.1.1.217	COG2384	tRNA (adenine(22)-N(1))-methyltransferase
+PODIGLBH_01819	CDS	1110			COG0327	GTP cyclohydrolase 1 type 2 
+PODIGLBH_01820	CDS	282				hypothetical protein
+PODIGLBH_01821	CDS	1065	ysdC_2	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+PODIGLBH_01822	CDS	594	dedA		COG0586	Protein DedA
+PODIGLBH_01823	CDS	459	mshD_1	2.3.1.189		Mycothiol acetyltransferase
+PODIGLBH_01824	CDS	612	tenI	5.3.99.10	COG0352	Thiazole tautomerase
+PODIGLBH_01825	CDS	1095	thiO	1.4.3.19	COG0665	Glycine oxidase
+PODIGLBH_01826	CDS	204	thiS		COG2104	Sulfur carrier protein ThiS
+PODIGLBH_01827	CDS	768	thiG	2.8.1.10	COG2022	Thiazole synthase
+PODIGLBH_01828	CDS	1143	ftsW_1	2.4.1.129	COG0772	putative peptidoglycan glycosyltransferase FtsW
+PODIGLBH_01829	CDS	1158	mrdB	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase MrdB
+PODIGLBH_01830	CDS	279				hypothetical protein
+PODIGLBH_01831	CDS	1206	gerN_3		COG0475	Na(+)/H(+)-K(+) antiporter GerN
+PODIGLBH_01832	CDS	684				hypothetical protein
+PODIGLBH_01833	CDS	543	yhcN			Lipoprotein YhcN
+PODIGLBH_01834	CDS	282	gpsB		COG3599	Cell cycle protein GpsB
+PODIGLBH_01835	CDS	1593	dppE_3		COG4166	Dipeptide-binding protein DppE
+PODIGLBH_01836	CDS	387				hypothetical protein
+PODIGLBH_01837	tRNA	74				tRNA-Gly(ccc)
+PODIGLBH_01838	CDS	642		2.1.1.-	COG4122	Putative O-methyltransferase
+PODIGLBH_01839	CDS	564	mtcA1	4.2.1.1	COG0288	Beta-carbonic anhydrase 1
+PODIGLBH_01840	CDS	471	msrA	1.8.4.11	COG0225	Peptide methionine sulfoxide reductase MsrA
+PODIGLBH_01841	CDS	456				hypothetical protein
+PODIGLBH_01842	CDS	1161	iscS_3	2.8.1.7	COG1104	Cysteine desulfurase IscS
+PODIGLBH_01843	CDS	1197	thiI	2.8.1.4	COG0301	putative tRNA sulfurtransferase
+PODIGLBH_01844	CDS	1665	rocB		COG4187	Protein RocB
+PODIGLBH_01845	CDS	678				hypothetical protein
+PODIGLBH_01846	tRNA	75				tRNA-Gln(ttg)
+PODIGLBH_01847	CDS	1125	hxcR		COG2804	putative type II secretion system protein HxcR
+PODIGLBH_01848	CDS	1053	gspF		COG1459	Putative type II secretion system protein F
+PODIGLBH_01849	CDS	339	xcpT		COG2165	Type II secretion system protein G
+PODIGLBH_01850	CDS	456				hypothetical protein
+PODIGLBH_01851	CDS	384				hypothetical protein
+PODIGLBH_01852	CDS	474				hypothetical protein
+PODIGLBH_01853	CDS	366				hypothetical protein
+PODIGLBH_01854	CDS	201				hypothetical protein
+PODIGLBH_01855	CDS	165				hypothetical protein
+PODIGLBH_01856	CDS	1107	ispG	1.17.7.3	COG0821	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)
+PODIGLBH_01857	CDS	216				hypothetical protein
+PODIGLBH_01858	CDS	720		2.4.2.-	COG2071	Putative glutamine amidotransferase
+PODIGLBH_01859	CDS	267				hypothetical protein
+PODIGLBH_01860	CDS	990	vanW_2		COG2720	Vancomycin B-type resistance protein VanW
+PODIGLBH_01861	CDS	978	yocH		COG1388	Cell wall-binding protein YocH
+PODIGLBH_01862	CDS	1440				hypothetical protein
+PODIGLBH_01863	CDS	210				hypothetical protein
+PODIGLBH_01864	CDS	657				hypothetical protein
+PODIGLBH_01865	CDS	840	yciV	3.1.13.-	COG0613	5'-3' exoribonuclease
+PODIGLBH_01866	CDS	435		2.3.1.-		Acetyltransferase
+PODIGLBH_01867	CDS	513	yjcG	3.1.-.-	COG1514	Putative phosphoesterase YjcG
+PODIGLBH_01868	CDS	180				hypothetical protein
+PODIGLBH_01869	tRNA	77				tRNA-Met(cat)
+PODIGLBH_01870	tRNA	77				tRNA-Asp(gtc)
+PODIGLBH_01871	tRNA	76				tRNA-Met(cat)
+PODIGLBH_01872	tRNA	75				tRNA-Val(gac)
+PODIGLBH_01873	CDS	549				hypothetical protein
+PODIGLBH_01874	CDS	723	aviRa	2.1.1.209		23S rRNA (guanine(2535)-N(1))-methyltransferase
+PODIGLBH_01875	CDS	1161		3.4.21.-		Thermophilic serine proteinase
+PODIGLBH_01876	CDS	1017	deoR		COG2390	Deoxyribonucleoside regulator
+PODIGLBH_01877	CDS	1299	pdp	2.4.2.2		Pyrimidine-nucleoside phosphorylase
+PODIGLBH_01878	CDS	657	deoC	4.1.2.4	COG0274	Deoxyribose-phosphate aldolase
+PODIGLBH_01879	CDS	393	cdd	3.5.4.5	COG0295	Cytidine deaminase
+PODIGLBH_01880	CDS	1284	rizA	6.3.2.48		L-arginine-specific L-amino acid ligase
+PODIGLBH_01881	CDS	1164				hypothetical protein
+PODIGLBH_01882	CDS	195				hypothetical protein
+PODIGLBH_01883	CDS	1347				hypothetical protein
+PODIGLBH_01884	CDS	213				hypothetical protein
+PODIGLBH_01885	CDS	534	pgpB	3.1.3.27	COG0671	Phosphatidylglycerophosphatase B
+PODIGLBH_01886	CDS	1338				hypothetical protein
+PODIGLBH_01887	CDS	417				hypothetical protein
+PODIGLBH_01888	CDS	303				hypothetical protein
+PODIGLBH_01889	CDS	147				hypothetical protein
+PODIGLBH_01890	CDS	1458	speA_2	4.1.1.19	COG1982	Arginine decarboxylase
+PODIGLBH_01891	CDS	621				hypothetical protein
+PODIGLBH_01892	CDS	180				hypothetical protein
+PODIGLBH_01893	CDS	1491	pepA	3.4.11.1	COG0260	Cytosol aminopeptidase
+PODIGLBH_01894	CDS	738	glpQ_2	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase
+PODIGLBH_01895	CDS	831	nfo	3.1.21.2	COG0648	putative endonuclease 4
+PODIGLBH_01896	CDS	294				hypothetical protein
+PODIGLBH_01897	CDS	285				hypothetical protein
+PODIGLBH_01898	CDS	165				hypothetical protein
+PODIGLBH_01899	CDS	558				hypothetical protein
+PODIGLBH_01900	CDS	612		3.-.-.-		putative metallo-hydrolase
+PODIGLBH_01901	CDS	510	resA_3		COG0526	Thiol-disulfide oxidoreductase ResA
+PODIGLBH_01902	CDS	702	dsbD	1.8.1.8		Thiol:disulfide interchange protein DsbD
+PODIGLBH_01903	CDS	510	resA_4			Thiol-disulfide oxidoreductase ResA
+PODIGLBH_01904	CDS	318		2.8.1.-	COG0607	Sulfurtransferase
+PODIGLBH_01905	CDS	948	cysK_2	2.5.1.47		Cysteine synthase
+PODIGLBH_01906	CDS	1104				hypothetical protein
+PODIGLBH_01907	CDS	1200	fabV	1.3.1.9	COG3007	Enoyl-[acyl-carrier-protein] reductase [NADH]
+PODIGLBH_01908	CDS	225				hypothetical protein
+PODIGLBH_01909	CDS	768	crt_3	4.2.1.150	COG1024	Short-chain-enoyl-CoA hydratase
+PODIGLBH_01910	CDS	609	rsfA_2			Prespore-specific transcriptional regulator RsfA
+PODIGLBH_01911	CDS	474	ylbP	2.3.1.-		putative N-acetyltransferase YlbP
+PODIGLBH_01912	CDS	1338	accC_1	6.3.4.14	COG0439	Biotin carboxylase
+PODIGLBH_01913	CDS	213	yngHB		COG0511	Biotin/lipoyl attachment protein
+PODIGLBH_01914	CDS	930	yngG	4.1.3.4	COG0119	Hydroxymethylglutaryl-CoA lyase YngG
+PODIGLBH_01915	CDS	777	crt_4	4.2.1.150	COG1024	Short-chain-enoyl-CoA hydratase
+PODIGLBH_01916	CDS	1536		2.1.3.1	COG4799	Methylmalonyl-CoA carboxyltransferase 12S subunit
+PODIGLBH_01917	CDS	990	panE_2	1.1.1.169	COG1893	2-dehydropantoate 2-reductase
+PODIGLBH_01918	CDS	1353				hypothetical protein
+PODIGLBH_01919	CDS	1638	bshC	6.-.-.-	COG4365	Putative cysteine ligase BshC
+PODIGLBH_01920	CDS	1260	ahcY	3.3.1.1	COG0499	Adenosylhomocysteinase
+PODIGLBH_01921	CDS	432	mraZ			Transcriptional regulator MraZ
+PODIGLBH_01922	CDS	933	rsmH_2	2.1.1.199		Ribosomal RNA small subunit methyltransferase H
+PODIGLBH_01923	CDS	366	ftsL_2			Cell division protein FtsL
+PODIGLBH_01924	CDS	1761	spoVD_1		COG0768	Stage V sporulation protein D
+PODIGLBH_01925	CDS	1917	spoVD_2		COG0768	Stage V sporulation protein D
+PODIGLBH_01926	CDS	1488	murE	6.3.2.13	COG0769	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+PODIGLBH_01927	CDS	1386	murF_1	6.3.2.10	COG0770	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+PODIGLBH_01928	CDS	1020	mraY	2.7.8.13	COG0472	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+PODIGLBH_01929	CDS	1371	murD	6.3.2.9		UDP-N-acetylmuramoylalanine--D-glutamate ligase
+PODIGLBH_01930	CDS	1107	ftsW_2	2.4.1.129	COG0772	putative peptidoglycan glycosyltransferase FtsW
+PODIGLBH_01931	CDS	1113	murG_2	2.4.1.227	COG0707	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+PODIGLBH_01932	CDS	909	murB	1.3.1.98	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase
+PODIGLBH_01933	CDS	1269	murAA_2	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1
+PODIGLBH_01934	CDS	732	divIB		COG1589	Cell division protein DivIB
+PODIGLBH_01935	CDS	1242	ftsA		COG0849	Cell division protein FtsA
+PODIGLBH_01936	CDS	1149	ftsZ		COG0206	Cell division protein FtsZ
+PODIGLBH_01937	CDS	909	spoIIGA	3.4.23.-		Sporulation sigma-E factor-processing peptidase
+PODIGLBH_01938	CDS	723	sigE_2		COG1191	RNA polymerase sigma-E factor
+PODIGLBH_01939	CDS	777	sigG		COG1191	RNA polymerase sigma-G factor
+PODIGLBH_01940	CDS	297				hypothetical protein
+PODIGLBH_01941	CDS	834	rl5	1.10.3.-		Polyphenol oxidase
+PODIGLBH_01942	CDS	702	yggS		COG0325	Pyridoxal phosphate homeostasis protein
+PODIGLBH_01943	CDS	411	sepF		COG1799	Cell division protein SepF
+PODIGLBH_01944	CDS	261				hypothetical protein
+PODIGLBH_01945	CDS	759				hypothetical protein
+PODIGLBH_01946	CDS	915	divIVA		COG3599	Septum site-determining protein DivIVA
+PODIGLBH_01947	CDS	2772	ileS	6.1.1.5		Isoleucine--tRNA ligase
+PODIGLBH_01948	CDS	1353	yvbW		COG1113	putative amino acid permease YvbW
+PODIGLBH_01949	CDS	696	yocK		COG1734	General stress protein 16O
+PODIGLBH_01950	CDS	489	lspA	3.4.23.36	COG0597	Lipoprotein signal peptidase
+PODIGLBH_01951	CDS	945	rluD_2	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+PODIGLBH_01952	CDS	546	pyrR			Bifunctional protein PyrR
+PODIGLBH_01953	CDS	1365	pyrP			Uracil permease
+PODIGLBH_01954	CDS	942	pyrB	2.1.3.2	COG0540	Aspartate carbamoyltransferase
+PODIGLBH_01955	CDS	1293	pyrC	3.5.2.3	COG0044	Dihydroorotase
+PODIGLBH_01956	CDS	1092	carA	6.3.5.5		Carbamoyl-phosphate synthase small chain
+PODIGLBH_01957	CDS	3213	carB	6.3.5.5		Carbamoyl-phosphate synthase large chain
+PODIGLBH_01958	CDS	714	pyrF	4.1.1.23		Orotidine 5'-phosphate decarboxylase
+PODIGLBH_01959	CDS	573	pyrE_2	2.4.2.10	COG0461	Orotate phosphoribosyltransferase
+PODIGLBH_01960	CDS	1722	yloA		COG1293	putative protein YloA
+PODIGLBH_01961	CDS	2745	yloB	3.6.3.8	COG0474	Calcium-transporting ATPase
+PODIGLBH_01962	CDS	822	dapF	5.1.1.7	COG0253	Diaminopimelate epimerase
+PODIGLBH_01963	CDS	750				hypothetical protein
+PODIGLBH_01964	CDS	1356	pgiB	5.3.1.9		Glucose-6-phosphate isomerase B
+PODIGLBH_01965	CDS	1071	ysdC_3	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+PODIGLBH_01966	CDS	1398	yhdG_2		COG0531	putative amino acid permease YhdG
+PODIGLBH_01967	CDS	1641	murJ_2		COG2244	Lipid II flippase MurJ
+PODIGLBH_01968	CDS	894				hypothetical protein
+PODIGLBH_01969	CDS	267				hypothetical protein
+PODIGLBH_01970	CDS	609	gmk	2.7.4.8	COG0194	Guanylate kinase
+PODIGLBH_01971	CDS	195	rpoZ	2.7.7.6		DNA-directed RNA polymerase subunit omega
+PODIGLBH_01972	CDS	219				hypothetical protein
+PODIGLBH_01973	CDS	1203	coaBC		COG0452	Coenzyme A biosynthesis bifunctional protein CoaBC
+PODIGLBH_01974	CDS	2451	priA	3.6.4.-	COG1198	Primosomal protein N'
+PODIGLBH_01975	CDS	471	def	3.5.1.88	COG0242	Peptide deformylase
+PODIGLBH_01976	CDS	948	fmt	2.1.2.9		Methionyl-tRNA formyltransferase
+PODIGLBH_01977	CDS	1368	rsmB	2.1.1.176	COG0144	Ribosomal RNA small subunit methyltransferase B
+PODIGLBH_01978	CDS	1581	gerBA_2			Spore germination protein B1
+PODIGLBH_01979	CDS	1146	gerBB			Spore germination protein B2
+PODIGLBH_01980	CDS	1155	gerBC_2			Spore germination protein B3
+PODIGLBH_01981	CDS	1041	rlmN	2.1.1.192		putative dual-specificity RNA methyltransferase RlmN
+PODIGLBH_01982	CDS	822	stp	3.1.3.16	COG0631	Serine/threonine phosphatase stp
+PODIGLBH_01983	CDS	1674	prkC_3	2.7.11.1	COG0515	Serine/threonine-protein kinase PrkC
+PODIGLBH_01984	CDS	894	rsgA	3.6.1.-	COG1162	Small ribosomal subunit biogenesis GTPase RsgA
+PODIGLBH_01985	CDS	660	rpe	5.1.3.1		Ribulose-phosphate 3-epimerase
+PODIGLBH_01986	CDS	549	thiT		COG3859	Thiamine transporter ThiT
+PODIGLBH_01987	CDS	663	thiN	2.7.6.2	COG1564	Thiamine pyrophosphokinase
+PODIGLBH_01988	CDS	225				hypothetical protein
+PODIGLBH_01989	CDS	189	rpmB		COG0227	50S ribosomal protein L28
+PODIGLBH_01990	CDS	366				putative protein
+PODIGLBH_01991	CDS	1683				putative protein
+PODIGLBH_01992	CDS	870				DegV domain-containing protein
+PODIGLBH_01993	CDS	657	sdhB	4.3.1.17		L-serine dehydratase, beta chain
+PODIGLBH_01994	CDS	885	sdhA	4.3.1.17		L-serine dehydratase, alpha chain
+PODIGLBH_01995	CDS	2052	recG	3.6.4.12		ATP-dependent DNA helicase RecG
+PODIGLBH_01996	CDS	312				hypothetical protein
+PODIGLBH_01997	CDS	228				hypothetical protein
+PODIGLBH_01998	CDS	114				hypothetical protein
+PODIGLBH_01999	CDS	546	rsmD	2.1.1.171	COG0742	Ribosomal RNA small subunit methyltransferase D
+PODIGLBH_02000	CDS	486	coaD	2.7.7.3	COG0669	Phosphopantetheine adenylyltransferase
+PODIGLBH_02001	CDS	1245	ylbJ		COG3314	Sporulation integral membrane protein YlbJ
+PODIGLBH_02002	CDS	807			COG1752	putative NTE family protein
+PODIGLBH_02003	CDS	1041	ylbL		COG3480	putative protein YlbL
+PODIGLBH_02004	CDS	516			COG1399	putative protein
+PODIGLBH_02005	CDS	183	rpmF			50S ribosomal protein L32
+PODIGLBH_02006	CDS	579	fapR		COG2050	Transcription factor FapR
+PODIGLBH_02007	CDS	975	plsX	2.3.1.-	COG0416	Phosphate acyltransferase
+PODIGLBH_02008	CDS	990	fabHA	2.3.1.180	COG0332	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1
+PODIGLBH_02009	CDS	948	fabD	2.3.1.39	COG0331	Malonyl CoA-acyl carrier protein transacylase
+PODIGLBH_02010	CDS	741	fabG_5	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_02011	CDS	240	acpA		COG0236	Acyl carrier protein
+PODIGLBH_02012	CDS	1242	fabF	2.3.1.179	COG0304	3-oxoacyl-[acyl-carrier-protein] synthase 2
+PODIGLBH_02013	CDS	687	rnc	3.1.26.3	COG0571	Ribonuclease 3
+PODIGLBH_02014	CDS	195				hypothetical protein
+PODIGLBH_02015	CDS	753				hypothetical protein
+PODIGLBH_02016	CDS	234	csaA		COG0073	putative chaperone CsaA
+PODIGLBH_02017	CDS	3591	smc_2		COG1196	Chromosome partition protein Smc
+PODIGLBH_02018	CDS	993	ftsY		COG0552	Signal recognition particle receptor FtsY
+PODIGLBH_02019	CDS	333				hypothetical protein
+PODIGLBH_02020	CDS	1350	ffh		COG0541	Signal recognition particle protein
+PODIGLBH_02021	CDS	273	rpsP		COG0228	30S ribosomal protein S16
+PODIGLBH_02022	CDS	213				hypothetical protein
+PODIGLBH_02023	CDS	534	rimM			Ribosome maturation factor RimM
+PODIGLBH_02024	CDS	735	trmD	2.1.1.228		tRNA (guanine-N(1)-)-methyltransferase
+PODIGLBH_02025	CDS	351	rplS		COG0335	50S ribosomal protein L19
+PODIGLBH_02026	CDS	549	sipT_3	3.4.21.89	COG0681	Signal peptidase I T
+PODIGLBH_02027	CDS	897	rbgA		COG1161	Ribosome biogenesis GTPase A
+PODIGLBH_02028	CDS	807	rnhB	3.1.26.4	COG0164	Ribonuclease HII
+PODIGLBH_02029	CDS	360				hypothetical protein
+PODIGLBH_02030	CDS	1272	ilvA	4.3.1.19	COG1171	L-threonine dehydratase biosynthetic IlvA
+PODIGLBH_02031	CDS	291				hypothetical protein
+PODIGLBH_02032	CDS	1527	comM		COG0606	Competence protein ComM
+PODIGLBH_02033	CDS	255				hypothetical protein
+PODIGLBH_02034	CDS	147				hypothetical protein
+PODIGLBH_02035	CDS	375				hypothetical protein
+PODIGLBH_02036	CDS	489				hypothetical protein
+PODIGLBH_02037	CDS	225				hypothetical protein
+PODIGLBH_02038	CDS	306				hypothetical protein
+PODIGLBH_02039	CDS	726	yncB	3.1.-.-	COG1525	Endonuclease YncB
+PODIGLBH_02040	CDS	948	spo0M_6		COG4326	Sporulation-control protein spo0M
+PODIGLBH_02041	CDS	702	cwlC_2	3.5.1.28	COG0860	Sporulation-specific N-acetylmuramoyl-L-alanine amidase
+PODIGLBH_02042	CDS	1242	dctA		COG1301	C4-dicarboxylate transport protein
+PODIGLBH_02043	CDS	882	nrdB_2	1.-.-.-	COG0208	R2-like ligand binding oxidase
+PODIGLBH_02044	CDS	1179	adh1	1.1.1.192	COG1454	Long-chain-alcohol dehydrogenase 1
+PODIGLBH_02045	CDS	3438	cfiB	6.4.1.7	COG0439	2-oxoglutarate carboxylase small subunit
+PODIGLBH_02046	CDS	1110	proB	2.7.2.11		Glutamate 5-kinase
+PODIGLBH_02047	CDS	1281	proA	1.2.1.41	COG0014	Gamma-glutamyl phosphate reductase
+PODIGLBH_02048	CDS	1341	mdtH_1			Multidrug resistance protein MdtH
+PODIGLBH_02049	CDS	1344	gabP		COG1113	GABA permease
+PODIGLBH_02050	CDS	2349				hypothetical protein
+PODIGLBH_02051	CDS	1116	ugtP_2	2.4.1.315	COG0707	Processive diacylglycerol beta-glucosyltransferase
+PODIGLBH_02052	CDS	954	tolB		COG0823	Protein TolB
+PODIGLBH_02053	CDS	1515	hemZ	1.3.99.-	COG0635	Oxygen-independent coproporphyrinogen-III oxidase-like protein HemZ
+PODIGLBH_02054	CDS	348				hypothetical protein
+PODIGLBH_02055	CDS	1395	nhaC		COG1757	Na(+)/H(+) antiporter NhaC
+PODIGLBH_02056	CDS	216				hypothetical protein
+PODIGLBH_02057	CDS	213				hypothetical protein
+PODIGLBH_02058	CDS	432				hypothetical protein
+PODIGLBH_02059	CDS	282				hypothetical protein
+PODIGLBH_02060	CDS	261				hypothetical protein
+PODIGLBH_02061	CDS	429				hypothetical protein
+PODIGLBH_02062	CDS	135				hypothetical protein
+PODIGLBH_02063	CDS	1161	sucC	6.2.1.5	COG0045	Succinate--CoA ligase [ADP-forming] subunit beta
+PODIGLBH_02064	CDS	903	sucD	6.2.1.5	COG0074	Succinate--CoA ligase [ADP-forming] subunit alpha
+PODIGLBH_02065	CDS	1209	dprA		COG0758	DNA processing protein DprA
+PODIGLBH_02066	CDS	2076	topA	5.99.1.2		DNA topoisomerase 1
+PODIGLBH_02067	CDS	1314	trmFO	2.1.1.74	COG1206	Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO
+PODIGLBH_02068	CDS	543	clpQ	3.4.21.-	COG5405	ATP-dependent protease subunit ClpQ
+PODIGLBH_02069	CDS	537	clpY_1		COG1220	ATP-dependent protease ATPase subunit ClpY
+PODIGLBH_02070	CDS	843	clpY_2		COG1220	ATP-dependent protease ATPase subunit ClpY
+PODIGLBH_02071	CDS	720	rpsB		COG0052	30S ribosomal protein S2
+PODIGLBH_02072	CDS	654	tsf			Elongation factor Ts
+PODIGLBH_02073	CDS	726	pyrH	2.7.4.22	COG0528	Uridylate kinase
+PODIGLBH_02074	CDS	555	frr		COG0233	Ribosome-recycling factor
+PODIGLBH_02075	CDS	783	uppS	2.5.1.31		Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+PODIGLBH_02076	CDS	798	cdsA	2.7.7.41	COG0575	Phosphatidate cytidylyltransferase
+PODIGLBH_02077	CDS	1179	dxr	1.1.1.267	COG0743	1-deoxy-D-xylulose 5-phosphate reductoisomerase
+PODIGLBH_02078	CDS	1266	rasP	3.4.24.-	COG0750	Regulator of sigma-W protease RasP
+PODIGLBH_02079	CDS	1719	proS_2	6.1.1.15		Proline--tRNA ligase
+PODIGLBH_02080	CDS	633	vanH_1	1.1.1.-		D-specific alpha-keto acid dehydrogenase
+PODIGLBH_02081	CDS	339	vanH_2	1.1.1.-		D-specific alpha-keto acid dehydrogenase
+PODIGLBH_02082	CDS	1032	vanA	6.1.2.1		Vancomycin/teicoplanin A-type resistance protein VanA
+PODIGLBH_02083	CDS	630	vanX	3.4.13.22		D-alanyl-D-alanine dipeptidase
+PODIGLBH_02084	CDS	699	walR_3		COG0745	Transcriptional regulatory protein WalR
+PODIGLBH_02085	CDS	1128	walK_2	2.7.13.3		Sensor protein kinase WalK
+PODIGLBH_02086	CDS	477				hypothetical protein
+PODIGLBH_02087	CDS	1203	opuAA	3.6.3.32	COG4175	Glycine betaine transport ATP-binding protein OpuAA
+PODIGLBH_02088	CDS	1719	opuAB		COG4176	Glycine betaine transport system permease protein OpuAB
+PODIGLBH_02089	CDS	1275	licC		COG1455	Lichenan permease IIC component
+PODIGLBH_02090	CDS	303	licB	2.7.1.-	COG1440	Lichenan-specific phosphotransferase enzyme IIB component
+PODIGLBH_02091	CDS	303	licA		COG1447	Lichenan-specific phosphotransferase enzyme IIA component
+PODIGLBH_02092	CDS	1086				hypothetical protein
+PODIGLBH_02093	CDS	558	glpP		COG1954	Glycerol uptake operon antiterminator regulatory protein
+PODIGLBH_02094	CDS	711	glpF		COG0580	Glycerol uptake facilitator protein
+PODIGLBH_02095	CDS	1503	glpK	2.7.1.30	COG0554	Glycerol kinase
+PODIGLBH_02096	CDS	1668	glpD	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase
+PODIGLBH_02097	CDS	255				hypothetical protein
+PODIGLBH_02098	CDS	465	msrB	1.8.4.12	COG0229	Peptide methionine sulfoxide reductase MsrB
+PODIGLBH_02099	CDS	1815	pepF1	3.4.24.-		Oligoendopeptidase F, plasmid
+PODIGLBH_02100	CDS	471	hspA		COG0071	Spore protein SP21
+PODIGLBH_02101	CDS	294				hypothetical protein
+PODIGLBH_02102	CDS	1425	gltB	1.4.1.13	COG0067	Glutamate synthase [NADPH] large chain
+PODIGLBH_02103	CDS	462	rimP		COG0779	Ribosome maturation factor RimP
+PODIGLBH_02104	CDS	1131	nusA		COG0195	Transcription termination/antitermination protein NusA
+PODIGLBH_02105	CDS	279				hypothetical protein
+PODIGLBH_02106	CDS	300	rplGA		COG1358	putative ribosomal protein YlxQ
+PODIGLBH_02107	CDS	2238	infB			Translation initiation factor IF-2
+PODIGLBH_02108	CDS	279				hypothetical protein
+PODIGLBH_02109	CDS	360	rbfA			Ribosome-binding factor A
+PODIGLBH_02110	CDS	978	nrnA	3.1.-.-	COG0618	Bifunctional oligoribonuclease and PAP phosphatase NrnA
+PODIGLBH_02111	CDS	915	truB	5.4.99.25		tRNA pseudouridine synthase B
+PODIGLBH_02112	CDS	945	ribF		COG0196	Riboflavin biosynthesis protein RibF
+PODIGLBH_02113	CDS	270	rpsO		COG0184	30S ribosomal protein S15
+PODIGLBH_02114	CDS	2121	pnp_3	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+PODIGLBH_02115	CDS	981	pgdA_2	3.5.1.104	COG0726	Peptidoglycan-N-acetylglucosamine deacetylase
+PODIGLBH_02116	CDS	1254		3.4.24.-	COG0612	putative zinc protease
+PODIGLBH_02117	CDS	444	dut	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+PODIGLBH_02118	CDS	180				hypothetical protein
+PODIGLBH_02119	CDS	282				hypothetical protein
+PODIGLBH_02120	CDS	900	dpaA	1.3.1.-		Dipicolinate synthase subunit A
+PODIGLBH_02121	CDS	603	dpaB	1.3.1.-	COG0452	Dipicolinate synthase subunit B
+PODIGLBH_02122	CDS	1035	asd	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase
+PODIGLBH_02123	CDS	1230	lysC_2	2.7.2.4	COG0527	Aspartate kinase Ask_LysC
+PODIGLBH_02124	CDS	870	dapA	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+PODIGLBH_02125	CDS	180				hypothetical protein
+PODIGLBH_02126	CDS	1674	rnjA	3.1.-.-	COG0595	Ribonuclease J1
+PODIGLBH_02127	CDS	558				hypothetical protein
+PODIGLBH_02128	CDS	777				hypothetical protein
+PODIGLBH_02129	CDS	477	lyc	3.2.1.17	COG3409	Autolytic lysozyme
+PODIGLBH_02130	CDS	228				hypothetical protein
+PODIGLBH_02131	CDS	324	sugE			Quaternary ammonium compound-resistance protein SugE
+PODIGLBH_02132	CDS	11553	lgrD_1			Linear gramicidin synthase subunit D
+PODIGLBH_02133	CDS	10596	tycB			Tyrocidine synthase 2
+PODIGLBH_02134	CDS	495				hypothetical protein
+PODIGLBH_02135	CDS	945	dhaK	2.7.1.121	COG2376	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK
+PODIGLBH_02136	CDS	633	dhaL	2.7.1.121	COG2376	PEP-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL
+PODIGLBH_02137	CDS	387	dhaM	3.5.1.-	COG1080	Protein-lysine deacetylase
+PODIGLBH_02138	CDS	723	tepA		COG0740	Translocation-enhancing protein TepA
+PODIGLBH_02139	CDS	222				hypothetical protein
+PODIGLBH_02140	CDS	2334	spoIIIE		COG1674	DNA translocase SpoIIIE
+PODIGLBH_02141	CDS	1305	albE		COG0612	Antilisterial bacteriocin subtilosin biosynthesis protein AlbE
+PODIGLBH_02142	CDS	1296	albF	3.4.24.-	COG0612	Putative zinc protease AlbF
+PODIGLBH_02143	CDS	864	fabG_6	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_02144	CDS	255	yflH			putative protein YflH
+PODIGLBH_02145	CDS	762				hypothetical protein
+PODIGLBH_02146	CDS	1188				hypothetical protein
+PODIGLBH_02147	CDS	594				hypothetical protein
+PODIGLBH_02148	CDS	1404				hypothetical protein
+PODIGLBH_02149	CDS	831				hypothetical protein
+PODIGLBH_02150	CDS	153				hypothetical protein
+PODIGLBH_02151	CDS	585	pgsA	2.7.8.5		CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+PODIGLBH_02152	CDS	1257	cinA		COG1058	Putative competence-damage inducible protein
+PODIGLBH_02153	CDS	1584	cshA	3.6.4.13	COG0513	DEAD-box ATP-dependent RNA helicase CshA
+PODIGLBH_02154	CDS	315	sufT_1			Fe-S protein maturation auxiliary factor SufT
+PODIGLBH_02155	CDS	1068	recA		COG0468	Protein RecA
+PODIGLBH_02156	CDS	696	recX			Regulatory protein RecX
+PODIGLBH_02157	CDS	987	cpdA_2	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+PODIGLBH_02158	CDS	1479	smc_3			Chromosome partition protein Smc
+PODIGLBH_02159	CDS	246				hypothetical protein
+PODIGLBH_02160	CDS	675				hypothetical protein
+PODIGLBH_02161	CDS	1554	rny	3.1.-.-	COG1418	Ribonuclease Y
+PODIGLBH_02162	CDS	795	ymdB	3.1.4.16	COG1692	2',3'-cyclic-nucleotide 2'-phosphodiesterase
+PODIGLBH_02163	CDS	261	spoVS		COG2359	Stage V sporulation protein S
+PODIGLBH_02164	CDS	945				hypothetical protein
+PODIGLBH_02165	CDS	1761	korA	1.2.7.3	COG0674	2-oxoglutarate oxidoreductase subunit KorA
+PODIGLBH_02166	CDS	867	korB	1.2.7.3	COG1013	2-oxoglutarate oxidoreductase subunit KorB
+PODIGLBH_02167	CDS	741			COG1234	putative protein
+PODIGLBH_02168	CDS	576	xpt	2.4.2.22	COG0503	Xanthine phosphoribosyltransferase
+PODIGLBH_02169	CDS	1482	miaB	2.8.4.3	COG0621	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+PODIGLBH_02170	CDS	423	ymcA		COG4550	putative protein YmcA
+PODIGLBH_02171	CDS	597	cotE			Spore coat protein E
+PODIGLBH_02172	CDS	1392				hypothetical protein
+PODIGLBH_02173	CDS	1503	ltrA		COG3344	Group II intron-encoded protein LtrA
+PODIGLBH_02174	CDS	2541	mutS		COG0249	DNA mismatch repair protein MutS
+PODIGLBH_02175	CDS	1971	mutL		COG0323	DNA mismatch repair protein MutL
+PODIGLBH_02176	CDS	783	rsmJ	2.1.1.242		Ribosomal RNA small subunit methyltransferase J
+PODIGLBH_02177	CDS	930	miaA	2.5.1.75	COG0324	tRNA dimethylallyltransferase
+PODIGLBH_02178	CDS	243	hfq_2		COG1923	RNA-binding protein Hfq
+PODIGLBH_02179	CDS	993	spoVK		COG0464	Stage V sporulation protein K
+PODIGLBH_02180	CDS	1269	hflX		COG2262	GTPase HflX
+PODIGLBH_02181	CDS	1290	mdeA	4.4.1.11		L-methionine gamma-lyase
+PODIGLBH_02182	CDS	483				hypothetical protein
+PODIGLBH_02183	CDS	405	glnR		COG0789	HTH-type transcriptional regulator GlnR
+PODIGLBH_02184	CDS	1341	glnA	6.3.1.2	COG0174	Glutamine synthetase
+PODIGLBH_02185	CDS	321				hypothetical protein
+PODIGLBH_02186	CDS	765	glvR_2		COG1737	HTH-type transcriptional regulator GlvR
+PODIGLBH_02187	CDS	1182	malX		COG1263	PTS system maltose-specific EIICB component
+PODIGLBH_02188	CDS	420	malP_2		COG1263	PTS system maltose-specific EIICB component
+PODIGLBH_02189	CDS	1353	malH_2	3.2.1.122	COG1486	Maltose-6'-phosphate glucosidase
+PODIGLBH_02190	CDS	867	ywtE	3.1.3.104	COG0561	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YwtE
+PODIGLBH_02191	CDS	321				hypothetical protein
+PODIGLBH_02192	CDS	684	fnr		COG0664	Anaerobic regulatory protein
+PODIGLBH_02193	CDS	1227	hmp	1.14.12.17	COG1017	Flavohemoprotein
+PODIGLBH_02194	CDS	906	qoxA_2	1.10.3.-	COG1622	Quinol oxidase subunit 2
+PODIGLBH_02195	CDS	1947	qoxB_2	1.10.3.-		Quinol oxidase subunit 1
+PODIGLBH_02196	CDS	621	qoxC_2	1.10.3.-		Quinol oxidase subunit 3
+PODIGLBH_02197	CDS	294	qoxD_2	1.10.3.-		Quinol oxidase subunit 4
+PODIGLBH_02198	CDS	921	ctaB	2.5.1.-	COG0109	Protoheme IX farnesyltransferase
+PODIGLBH_02199	CDS	939	ctaA_1	1.3.-.-		Heme A synthase
+PODIGLBH_02200	CDS	486				hypothetical protein
+PODIGLBH_02201	CDS	771		2.1.1.-	COG0500	putative methyltransferase
+PODIGLBH_02202	CDS	1098	mftC	2.-.-.-	COG0535	Putative mycofactocin radical SAM maturase MftC
+PODIGLBH_02203	CDS	951	aniA	1.7.2.1	COG2132	Copper-containing nitrite reductase
+PODIGLBH_02204	CDS	300	sufT_2			Fe-S protein maturation auxiliary factor SufT
+PODIGLBH_02205	CDS	1269				hypothetical protein
+PODIGLBH_02206	CDS	531				hypothetical protein
+PODIGLBH_02207	CDS	240				hypothetical protein
+PODIGLBH_02208	CDS	1290				hypothetical protein
+PODIGLBH_02209	CDS	1812	norB	1.7.2.5	COG3256	Nitric oxide reductase subunit B
+PODIGLBH_02210	CDS	396				hypothetical protein
+PODIGLBH_02211	CDS	1032	hemE	4.1.1.37	COG0407	Uroporphyrinogen decarboxylase
+PODIGLBH_02212	CDS	936	hemH	4.99.1.1	COG0276	Ferrochelatase
+PODIGLBH_02213	CDS	1407	hemY	1.3.3.4	COG1232	Protoporphyrinogen oxidase
+PODIGLBH_02214	CDS	759		1.11.1.-	COG3253	Putative heme-dependent peroxidase
+PODIGLBH_02215	CDS	648	cat	2.3.1.28		Chloramphenicol acetyltransferase
+PODIGLBH_02216	CDS	504				hypothetical protein
+PODIGLBH_02217	CDS	951				hypothetical protein
+PODIGLBH_02218	CDS	1293	asnS	6.1.1.22		Asparagine--tRNA ligase
+PODIGLBH_02219	CDS	726	dnaD		COG3935	DNA replication protein DnaD
+PODIGLBH_02220	CDS	915	murQ	4.2.1.126	COG2103	N-acetylmuramic acid 6-phosphate etherase
+PODIGLBH_02221	CDS	828	ybbH		COG1737	putative HTH-type transcriptional regulator YbbH
+PODIGLBH_02222	CDS	1362				PTS system EIIBC component
+PODIGLBH_02223	CDS	870				hypothetical protein
+PODIGLBH_02224	CDS	1164	adh2	1.1.1.192	COG1979	Long-chain-alcohol dehydrogenase 2
+PODIGLBH_02225	CDS	1308	brnQ		COG1114	Branched-chain amino acid transport system 2 carrier protein
+PODIGLBH_02226	CDS	1386	murF_2	6.3.2.10	COG0770	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+PODIGLBH_02227	CDS	1179	bmr3_2			Multidrug resistance protein 3
+PODIGLBH_02228	CDS	255				hypothetical protein
+PODIGLBH_02229	CDS	330				hypothetical protein
+PODIGLBH_02230	CDS	1227	yaaH		COG3858	Spore germination protein YaaH
+PODIGLBH_02231	CDS	201	copZ		COG2608	Copper chaperone CopZ
+PODIGLBH_02232	CDS	2415	copA	3.6.3.54	COG2217	Copper-exporting P-type ATPase
+PODIGLBH_02233	CDS	795	paaG	5.3.3.18	COG1024	1,2-epoxyphenylacetyl-CoA isomerase
+PODIGLBH_02234	CDS	876	dagK_3	2.7.1.107		Diacylglycerol kinase
+PODIGLBH_02235	CDS	807	actIII	1.3.1.-		Putative ketoacyl reductase
+PODIGLBH_02236	CDS	1089	mtnB_2	4.2.1.109		Methylthioribulose-1-phosphate dehydratase
+PODIGLBH_02237	CDS	627	ycgM		COG0179	putative protein YcgM
+PODIGLBH_02238	CDS	885	estA	3.1.1.3		Lipase EstA
+PODIGLBH_02239	CDS	540	opcR		COG1510	HTH-type transcriptional repressor OpcR
+PODIGLBH_02240	CDS	1470	gbsA	1.2.1.8	COG1012	Betaine aldehyde dehydrogenase
+PODIGLBH_02241	CDS	1200	gbsB	1.1.1.1	COG1454	Alcohol dehydrogenase
+PODIGLBH_02242	CDS	390				hypothetical protein
+PODIGLBH_02243	CDS	708	deoD	2.4.2.1	COG0813	Purine nucleoside phosphorylase DeoD-type
+PODIGLBH_02244	CDS	750	nfrA1	1.5.1.38	COG0778	FMN reductase (NADPH)
+PODIGLBH_02245	CDS	492	aaaT	2.3.1.-	COG0454	L-amino acid N-acetyltransferase AaaT
+PODIGLBH_02246	CDS	435				hypothetical protein
+PODIGLBH_02247	CDS	312				hypothetical protein
+PODIGLBH_02248	CDS	897				hypothetical protein
+PODIGLBH_02249	CDS	612				hypothetical protein
+PODIGLBH_02250	CDS	1398	feoB_1		COG0370	Fe(2+) transporter FeoB
+PODIGLBH_02251	CDS	714	feoB_2		COG0370	Fe(2+) transporter FeoB
+PODIGLBH_02252	CDS	252				hypothetical protein
+PODIGLBH_02253	CDS	873				hypothetical protein
+PODIGLBH_02254	CDS	318	cccA_2			Cytochrome c-551
+PODIGLBH_02255	CDS	930				hypothetical protein
+PODIGLBH_02256	CDS	762	epsJ	2.4.-.-	COG0463	putative glycosyltransferase EpsJ
+PODIGLBH_02257	CDS	402		2.8.1.-	COG0607	Sulfurtransferase
+PODIGLBH_02258	CDS	102				hypothetical protein
+PODIGLBH_02259	CDS	420				hypothetical protein
+PODIGLBH_02260	CDS	777	fabI	1.3.1.9	COG0623	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+PODIGLBH_02261	CDS	759	lvr	1.1.1.-		Levodione reductase
+PODIGLBH_02262	CDS	282				hypothetical protein
+PODIGLBH_02263	CDS	249				hypothetical protein
+PODIGLBH_02264	CDS	441				hypothetical protein
+PODIGLBH_02265	CDS	393				hypothetical protein
+PODIGLBH_02266	CDS	468	fosB_3	2.5.1.-		Metallothiol transferase FosB
+PODIGLBH_02267	CDS	378				hypothetical protein
+PODIGLBH_02268	CDS	987				hypothetical protein
+PODIGLBH_02269	CDS	525				hypothetical protein
+PODIGLBH_02270	CDS	96				hypothetical protein
+PODIGLBH_02271	CDS	345				hypothetical protein
+PODIGLBH_02272	CDS	129				hypothetical protein
+PODIGLBH_02273	CDS	360				hypothetical protein
+PODIGLBH_02274	CDS	546				hypothetical protein
+PODIGLBH_02275	CDS	384				hypothetical protein
+PODIGLBH_02276	CDS	222				hypothetical protein
+PODIGLBH_02277	CDS	717	bacE_1			Putative bacilysin exporter BacE
+PODIGLBH_02278	CDS	600				hypothetical protein
+PODIGLBH_02279	CDS	534	sodC	1.15.1.1	COG2032	Superoxide dismutase [Cu-Zn]
+PODIGLBH_02280	CDS	450				hypothetical protein
+PODIGLBH_02281	CDS	705	yhhW	1.13.11.24	COG1741	Quercetin 2,3-dioxygenase
+PODIGLBH_02282	CDS	618		1.6.5.2	COG0655	NAD(P)H dehydrogenase (quinone)
+PODIGLBH_02283	CDS	492	nudJ	3.6.1.-		Phosphatase NudJ
+PODIGLBH_02284	CDS	1200	bacE_2			Putative bacilysin exporter BacE
+PODIGLBH_02285	CDS	1074				hypothetical protein
+PODIGLBH_02286	CDS	378				hypothetical protein
+PODIGLBH_02287	CDS	876	mshD_2	2.3.1.189		Mycothiol acetyltransferase
+PODIGLBH_02288	CDS	324				hypothetical protein
+PODIGLBH_02289	CDS	357	fosX		COG0346	Fosfomycin resistance protein FosX
+PODIGLBH_02290	CDS	633	bm3R1_1			HTH-type transcriptional repressor Bm3R1
+PODIGLBH_02291	CDS	567	speG_2	2.3.1.57		Spermidine N(1)-acetyltransferase
+PODIGLBH_02292	CDS	1230	pnbA	3.1.1.-	COG2272	Para-nitrobenzyl esterase
+PODIGLBH_02293	CDS	228				hypothetical protein
+PODIGLBH_02294	CDS	666				hypothetical protein
+PODIGLBH_02295	CDS	900	ytrB		COG1131	ABC transporter ATP-binding protein YtrB
+PODIGLBH_02296	CDS	384	yvoA		COG2188	HTH-type transcriptional repressor YvoA
+PODIGLBH_02297	CDS	684				hypothetical protein
+PODIGLBH_02298	CDS	750				hypothetical protein
+PODIGLBH_02299	CDS	912	drrA	3.6.3.-		Daunorubicin/doxorubicin resistance ATP-binding protein DrrA
+PODIGLBH_02300	CDS	399				hypothetical protein
+PODIGLBH_02301	CDS	639				hypothetical protein
+PODIGLBH_02302	CDS	759	ermD	2.1.1.-		rRNA adenine N-6-methyltransferase
+PODIGLBH_02303	CDS	624	rhtB		COG1280	Homoserine/homoserine lactone efflux protein
+PODIGLBH_02304	CDS	165				hypothetical protein
+PODIGLBH_02305	CDS	747	mshB	3.5.1.103		1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase
+PODIGLBH_02306	CDS	423				hypothetical protein
+PODIGLBH_02307	CDS	189				hypothetical protein
+PODIGLBH_02308	CDS	1116				hypothetical protein
+PODIGLBH_02309	CDS	1533	lytB		COG2247	Amidase enhancer
+PODIGLBH_02310	CDS	1017	ybjJ			Inner membrane protein YbjJ
+PODIGLBH_02311	CDS	636	rob		COG2207	Right origin-binding protein
+PODIGLBH_02312	CDS	1824	asnO_2	6.3.5.4	COG0367	Asparagine synthetase [glutamine-hydrolyzing] 3
+PODIGLBH_02313	CDS	651				hypothetical protein
+PODIGLBH_02314	CDS	708				hypothetical protein
+PODIGLBH_02315	CDS	561	resA_5			Thiol-disulfide oxidoreductase ResA
+PODIGLBH_02316	CDS	483	yokF	3.1.-.-	COG1525	SPBc2 prophage-derived endonuclease YokF
+PODIGLBH_02317	CDS	1086				hypothetical protein
+PODIGLBH_02318	CDS	552				hypothetical protein
+PODIGLBH_02319	CDS	417				hypothetical protein
+PODIGLBH_02320	CDS	1392	lysN	2.6.1.39	COG1167	2-aminoadipate transaminase
+PODIGLBH_02321	CDS	765	tipA			HTH-type transcriptional activator TipA
+PODIGLBH_02322	CDS	1317	lysA	4.1.1.20	COG0019	Diaminopimelate decarboxylase
+PODIGLBH_02323	CDS	903	fieF_2		COG0053	Ferrous-iron efflux pump FieF
+PODIGLBH_02324	CDS	267				hypothetical protein
+PODIGLBH_02325	CDS	2130				hypothetical protein
+PODIGLBH_02326	CDS	903	yijE			putative cystine transporter YijE
+PODIGLBH_02327	CDS	183				hypothetical protein
+PODIGLBH_02328	CDS	657	yneB		COG1961	Resolvase YneB
+PODIGLBH_02329	CDS	1071	ysdC_4	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+PODIGLBH_02330	CDS	381				hypothetical protein
+PODIGLBH_02331	CDS	510				hypothetical protein
+PODIGLBH_02332	CDS	1221		1.14.99.-		Cytochrome P450(MEG)
+PODIGLBH_02333	CDS	213				hypothetical protein
+PODIGLBH_02334	CDS	936	ykfA	3.4.16.-	COG1619	putative murein peptide carboxypeptidase
+PODIGLBH_02335	CDS	771	nat	2.3.1.5	COG2162	Arylamine N-acetyltransferase
+PODIGLBH_02336	CDS	996	acuI	1.3.1.84	COG0604	putative acrylyl-CoA reductase AcuI
+PODIGLBH_02337	CDS	615				hypothetical protein
+PODIGLBH_02338	CDS	831	pse4	3.5.2.6		Beta-lactamase PSE-4
+PODIGLBH_02339	CDS	960				hypothetical protein
+PODIGLBH_02340	CDS	186				hypothetical protein
+PODIGLBH_02341	CDS	516				hypothetical protein
+PODIGLBH_02342	CDS	324				hypothetical protein
+PODIGLBH_02343	CDS	318				hypothetical protein
+PODIGLBH_02344	CDS	327				hypothetical protein
+PODIGLBH_02345	CDS	174				hypothetical protein
+PODIGLBH_02346	CDS	954	ndmA	1.14.13.178		Methylxanthine N1-demethylase NdmA
+PODIGLBH_02347	CDS	933	czcD_2		COG1230	Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+PODIGLBH_02348	CDS	753	fabL	1.3.1.104		Enoyl-[acyl-carrier-protein] reductase [NADPH] FabL
+PODIGLBH_02349	CDS	1191	fsr			Fosmidomycin resistance protein
+PODIGLBH_02350	CDS	1218				hypothetical protein
+PODIGLBH_02351	CDS	825				hypothetical protein
+PODIGLBH_02352	CDS	582				hypothetical protein
+PODIGLBH_02353	CDS	516		3.1.3.82	COG0241	D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase
+PODIGLBH_02354	CDS	918				hypothetical protein
+PODIGLBH_02355	CDS	1095	lgrD_2			Linear gramicidin synthase subunit D
+PODIGLBH_02356	CDS	783	fadB	4.2.1.17	COG1024	putative enoyl-CoA hydratase
+PODIGLBH_02357	CDS	1155	pcaF_2	2.3.1.174	COG0183	Beta-ketoadipyl-CoA thiolase
+PODIGLBH_02358	CDS	834	fabG_7	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+PODIGLBH_02359	CDS	1857		6.2.1.3	COG1022	Long-chain-fatty-acid--CoA ligase FadD15
+PODIGLBH_02360	CDS	357				hypothetical protein
+PODIGLBH_02361	CDS	1173	mmgC_3	1.3.99.-	COG1960	Acyl-CoA dehydrogenase
+PODIGLBH_02362	CDS	630	bm3R1_2			HTH-type transcriptional repressor Bm3R1
+PODIGLBH_02363	CDS	258				hypothetical protein
+PODIGLBH_02364	CDS	1251	pbuO_2		COG2252	Guanine/hypoxanthine permease PbuO
+PODIGLBH_02365	CDS	1086	xerC_3		COG4974	Tyrosine recombinase XerC
+PODIGLBH_02366	CDS	621	lexA	3.4.21.88	COG1974	LexA repressor
+PODIGLBH_02367	CDS	1194		2.6.1.1		Aspartate aminotransferase
+PODIGLBH_02368	CDS	1197	ackA	2.7.2.1	COG0282	Acetate kinase
+PODIGLBH_02369	CDS	891	hbd	1.1.1.157	COG1250	3-hydroxybutyryl-CoA dehydrogenase
+PODIGLBH_02370	CDS	1512	ftsH_2	3.4.24.-	COG0465	ATP-dependent zinc metalloprotease FtsH
+PODIGLBH_02371	CDS	534				hypothetical protein
+PODIGLBH_02372	CDS	639				hypothetical protein
+PODIGLBH_02373	CDS	198				hypothetical protein
+PODIGLBH_02374	CDS	1299	mtaD	3.5.4.28	COG0402	5-methylthioadenosine/S-adenosylhomocysteine deaminase
+PODIGLBH_02375	CDS	903	ligd		COG1793	Bifunctional non-homologous end joining protein LigD
+PODIGLBH_02376	CDS	198				hypothetical protein
+PODIGLBH_02377	CDS	207				hypothetical protein
+PODIGLBH_02378	CDS	942	ligD		COG1793	Multifunctional non-homologous end joining DNA repair protein LigD
+PODIGLBH_02379	CDS	741	nagB	3.5.99.6	COG0363	Glucosamine-6-phosphate deaminase 1
+PODIGLBH_02380	CDS	1188	nagA	3.5.1.25	COG1820	N-acetylglucosamine-6-phosphate deacetylase
+PODIGLBH_02381	CDS	1185	yycB		COG2807	putative transporter YycB
+PODIGLBH_02382	CDS	1329	steT_2		COG0531	Serine/threonine exchanger SteT
+PODIGLBH_02383	CDS	438				hypothetical protein
+PODIGLBH_02384	CDS	1044	nrdB_3	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase subunit beta
+PODIGLBH_02385	CDS	2211	nrdE1	1.17.4.1	COG0209	Ribonucleoside-diphosphate reductase subunit alpha 1
+PODIGLBH_02386	CDS	483				hypothetical protein
+PODIGLBH_02387	CDS	270				hypothetical protein
+PODIGLBH_02388	CDS	951	trxB_2	1.8.1.9	COG0492	Thioredoxin reductase
+PODIGLBH_02389	CDS	633				hypothetical protein
+PODIGLBH_02390	CDS	723	rluB_1	5.4.99.22	COG1187	Ribosomal large subunit pseudouridine synthase B
+PODIGLBH_02391	CDS	1365	yifK		COG1113	putative transport protein YifK
+PODIGLBH_02392	CDS	180				hypothetical protein
+PODIGLBH_02393	CDS	423				hypothetical protein
+PODIGLBH_02394	CDS	1011				hypothetical protein
+PODIGLBH_02395	CDS	1245				hypothetical protein
+PODIGLBH_02396	CDS	276				hypothetical protein
+PODIGLBH_02397	CDS	354				hypothetical protein
+PODIGLBH_02398	CDS	804	ku		COG1273	Non-homologous end joining protein Ku
+PODIGLBH_02399	CDS	1377	lapB_3			Lipopolysaccharide assembly protein B
+PODIGLBH_02400	CDS	384	panD	4.1.1.11	COG0853	Aspartate 1-decarboxylase
+PODIGLBH_02401	CDS	852	panC	6.3.2.1	COG0414	Pantothenate synthetase
+PODIGLBH_02402	CDS	864	panB	2.1.2.11		3-methyl-2-oxobutanoate hydroxymethyltransferase
+PODIGLBH_02403	CDS	1185	nupC		COG1972	Nucleoside permease NupC
+PODIGLBH_02404	CDS	168				hypothetical protein
+PODIGLBH_02405	CDS	513				hypothetical protein
+PODIGLBH_02406	CDS	675				hypothetical protein
+PODIGLBH_02407	CDS	534				hypothetical protein
+PODIGLBH_02408	CDS	504				hypothetical protein
+PODIGLBH_02409	CDS	543				hypothetical protein
+PODIGLBH_02410	CDS	639				hypothetical protein
+PODIGLBH_02411	CDS	978	birA	6.3.4.15	COG0340	Bifunctional ligase/repressor BirA
+PODIGLBH_02412	CDS	1221	cca	2.7.7.72		CCA-adding enzyme
+PODIGLBH_02413	CDS	1125	bshA	2.4.1.-	COG0438	N-acetyl-alpha-D-glucosaminyl L-malate synthase
+PODIGLBH_02414	CDS	702	bshB1	3.5.1.-	COG2120	N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 1
+PODIGLBH_02415	CDS	996	dcyD	4.4.1.15	COG2515	D-cysteine desulfhydrase
+PODIGLBH_02416	CDS	801	dapB	1.17.1.8	COG0289	4-hydroxy-tetrahydrodipicolinate reductase
+PODIGLBH_02417	CDS	333	ypjD		COG1694	putative protein YpjD
+PODIGLBH_02418	CDS	891				hypothetical protein
+PODIGLBH_02419	CDS	1224	hsdS		COG0732	Type-1 restriction enzyme EcoKI specificity protein
+PODIGLBH_02420	CDS	891	hsdM	2.1.1.72	COG0286	Type I restriction enzyme EcoKI M protein
+PODIGLBH_02421	CDS	789				hypothetical protein
+PODIGLBH_02422	CDS	657				hypothetical protein
+PODIGLBH_02423	CDS	789	cccA_3			Cytochrome c-551
+PODIGLBH_02424	CDS	672	qcrB		COG1290	Menaquinol-cytochrome c reductase cytochrome b subunit
+PODIGLBH_02425	CDS	498	petC	1.10.9.1		Cytochrome b6-f complex iron-sulfur subunit
+PODIGLBH_02426	CDS	117				hypothetical protein
+PODIGLBH_02427	CDS	456				hypothetical protein
+PODIGLBH_02428	CDS	549				hypothetical protein
+PODIGLBH_02429	CDS	1131				hypothetical protein
+PODIGLBH_02430	CDS	498				hypothetical protein
+PODIGLBH_02431	CDS	1293	aroA1	2.5.1.19	COG0128	3-phosphoshikimate 1-carboxyvinyltransferase 1
+PODIGLBH_02432	CDS	1131	tyrC	1.3.1.43		Cyclohexadienyl dehydrogenase
+PODIGLBH_02433	CDS	1092	hisC	2.6.1.9	COG0079	Histidinol-phosphate aminotransferase
+PODIGLBH_02434	CDS	798	trpA	4.2.1.20	COG0159	Tryptophan synthase alpha chain
+PODIGLBH_02435	CDS	1200	trpB	4.2.1.20	COG0133	Tryptophan synthase beta chain
+PODIGLBH_02436	CDS	669	trpF	5.3.1.24	COG0135	N-(5'-phosphoribosyl)anthranilate isomerase
+PODIGLBH_02437	CDS	780	trpC	4.1.1.48		Indole-3-glycerol phosphate synthase
+PODIGLBH_02438	CDS	1023	trpD2	2.4.2.18	COG0547	Anthranilate phosphoribosyltransferase 2
+PODIGLBH_02439	CDS	1515	trpE	4.1.3.27	COG0147	Anthranilate synthase component 1
+PODIGLBH_02440	CDS	1110	aroB	4.2.3.4	COG0337	3-dehydroquinate synthase
+PODIGLBH_02441	CDS	1161	aroC	4.2.3.5	COG0082	Chorismate synthase
+PODIGLBH_02442	CDS	444	ndk	2.7.4.6	COG0105	Nucleoside diphosphate kinase
+PODIGLBH_02443	CDS	1020	hepT	2.5.1.30	COG0142	Heptaprenyl diphosphate synthase component 2
+PODIGLBH_02444	CDS	870	plqA	2.5.1.-		4-hydroxybenzoate solanesyltransferase
+PODIGLBH_02445	CDS	726	menG_2	2.1.1.163	COG2226	Demethylmenaquinone methyltransferase
+PODIGLBH_02446	CDS	738	hepS	2.5.1.30		Heptaprenyl diphosphate synthase component 1
+PODIGLBH_02447	CDS	561				hypothetical protein
+PODIGLBH_02448	CDS	222	mtrB			Transcription attenuation protein MtrB
+PODIGLBH_02449	tRNA	77				tRNA-Pro(ggg)
+PODIGLBH_02450	CDS	564	folE	3.5.4.16	COG0302	GTP cyclohydrolase 1
+PODIGLBH_02451	CDS	276	hup_2			DNA-binding protein HU
+PODIGLBH_02452	CDS	1479	spoIVA	3.6.1.3		Stage IV sporulation protein A
+PODIGLBH_02453	CDS	144				hypothetical protein
+PODIGLBH_02454	CDS	732				hypothetical protein
+PODIGLBH_02455	CDS	225				hypothetical protein
+PODIGLBH_02456	CDS	540				hypothetical protein
+PODIGLBH_02457	CDS	1026	gpsA	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+PODIGLBH_02458	CDS	609	plsY_2	2.3.1.-	COG0344	Glycerol-3-phosphate acyltransferase
+PODIGLBH_02459	CDS	1314	der		COG1160	GTPase Der
+PODIGLBH_02460	CDS	618				hypothetical protein
+PODIGLBH_02461	CDS	1158	ypfD		COG0539	30S ribosomal protein S1 
+PODIGLBH_02462	CDS	591	plsC	2.3.1.-	COG0204	1-acyl-sn-glycerol-3-phosphate acyltransferase
+PODIGLBH_02463	CDS	654	cmk	2.7.4.25	COG0283	Cytidylate kinase
+PODIGLBH_02464	CDS	1347	ypeB			Sporulation protein YpeB
+PODIGLBH_02465	CDS	474	sleB_3		COG3409	Spore cortex-lytic enzyme
+PODIGLBH_02466	CDS	171				hypothetical protein
+PODIGLBH_02467	CDS	930	ansA	3.5.1.1	COG0252	putative L-asparaginase
+PODIGLBH_02468	CDS	972		1.18.1.2	COG0492	Ferredoxin--NADP reductase
+PODIGLBH_02469	CDS	1281	gudB	1.4.1.2	COG0334	Cryptic catabolic NAD-specific glutamate dehydrogenase GudB
+PODIGLBH_02470	CDS	681	bshB2	3.5.1.-	COG2120	putative N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 2
+PODIGLBH_02471	CDS	591	mecB		COG4862	Adapter protein MecA 2
+PODIGLBH_02472	CDS	585				hypothetical protein
+PODIGLBH_02473	CDS	210				Ferredoxin
+PODIGLBH_02474	CDS	258		2.8.1.-	COG0607	Sulfurtransferase
+PODIGLBH_02475	CDS	495	ppa	3.6.1.1		Inorganic pyrophosphatase
+PODIGLBH_02476	CDS	399	ytrA		COG1725	HTH-type transcriptional repressor YtrA
+PODIGLBH_02477	CDS	1104				hypothetical protein
+PODIGLBH_02478	CDS	2136	yjcD	3.6.4.12	COG0210	Putative ATP-dependent DNA helicase YjcD
+PODIGLBH_02479	CDS	1158		2.6.1.51	COG0075	Serine-pyruvate aminotransferase
+PODIGLBH_02480	CDS	1581	serA	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase
+PODIGLBH_02481	CDS	696		1.-.-.-		putative oxidoreductase
+PODIGLBH_02482	CDS	1815	resE_3	2.7.13.3		Sensor histidine kinase ResE
+PODIGLBH_02483	CDS	717	srrA_2		COG0745	Transcriptional regulatory protein SrrA
+PODIGLBH_02484	CDS	1203	ccsA			Cytochrome c biogenesis protein CcsA
+PODIGLBH_02485	CDS	1575	ccsB			Cytochrome c biogenesis protein CcsB
+PODIGLBH_02486	CDS	720	rluB_2	5.4.99.22	COG1187	Ribosomal large subunit pseudouridine synthase B
+PODIGLBH_02487	CDS	540	spmB			Spore maturation protein B
+PODIGLBH_02488	CDS	603	spmA		COG2715	Spore maturation protein A
+PODIGLBH_02489	CDS	1149	dacB	3.4.16.4	COG1686	D-alanyl-D-alanine carboxypeptidase DacB
+PODIGLBH_02490	CDS	447	ytfJ		COG3874	putative spore protein YtfJ
+PODIGLBH_02491	CDS	651				hypothetical protein
+PODIGLBH_02492	CDS	456	ulaC		COG1762	Ascorbate-specific PTS system EIIA component
+PODIGLBH_02493	CDS	612	scpB		COG1386	Segregation and condensation protein B
+PODIGLBH_02494	CDS	756	scpA_1		COG1354	Segregation and condensation protein A
+PODIGLBH_02495	CDS	471	ribH	2.5.1.78	COG0054	6,7-dimethyl-8-ribityllumazine synthase
+PODIGLBH_02496	CDS	1197	ribBA		COG0108	Riboflavin biosynthesis protein RibBA
+PODIGLBH_02497	CDS	648	ribE	2.5.1.9	COG0307	Riboflavin synthase
+PODIGLBH_02498	CDS	1116	ribD		COG0117	Riboflavin biosynthesis protein RibD
+PODIGLBH_02499	CDS	969	ctaA_2	1.3.-.-		Heme A synthase
+PODIGLBH_02500	CDS	354				hypothetical protein
+PODIGLBH_02501	CDS	417				hypothetical protein
+PODIGLBH_02502	CDS	630				hypothetical protein
+PODIGLBH_02503	CDS	771	sigF		COG1191	RNA polymerase sigma-F factor
+PODIGLBH_02504	CDS	456	spoIIAB	2.7.11.1	COG2172	Anti-sigma F factor
+PODIGLBH_02505	CDS	354	spoIIAA		COG1366	Anti-sigma F factor antagonist
+PODIGLBH_02506	CDS	1191	dacF	3.4.16.4	COG1686	D-alanyl-D-alanine carboxypeptidase DacF
+PODIGLBH_02507	CDS	2268	ina	3.4.24.-		Immune inhibitor A
+PODIGLBH_02508	CDS	825	punA	2.4.2.1		Purine nucleoside phosphorylase 1
+PODIGLBH_02509	CDS	1182	deoB	5.4.2.7	COG1015	Phosphopentomutase
+PODIGLBH_02510	CDS	246				hypothetical protein
+PODIGLBH_02511	CDS	1122	ald_2	1.4.1.1		Alanine dehydrogenase
+PODIGLBH_02512	CDS	480	fur		COG0735	Ferric uptake regulation protein
+PODIGLBH_02513	CDS	663	spoIIM		COG1300	Stage II sporulation protein M
+PODIGLBH_02514	CDS	435				hypothetical protein
+PODIGLBH_02515	CDS	1176				hypothetical protein
+PODIGLBH_02516	CDS	552	act	3.-.-.-		Methanol dehydrogenase activator
+PODIGLBH_02517	CDS	891	ydbD	1.11.1.6	COG3546	putative manganese catalase
+PODIGLBH_02518	CDS	255				hypothetical protein
+PODIGLBH_02519	CDS	156				hypothetical protein
+PODIGLBH_02520	CDS	870				hypothetical protein
+PODIGLBH_02521	CDS	846				hypothetical protein
+PODIGLBH_02522	CDS	1140	pepT	3.4.11.4	COG2195	Peptidase T
+PODIGLBH_02523	CDS	1548	pccB	6.4.1.3	COG4799	Propionyl-CoA carboxylase beta chain
+PODIGLBH_02524	CDS	426				hypothetical protein
+PODIGLBH_02525	CDS	417	scpA_2	5.4.99.2	COG1884	Methylmalonyl-CoA mutase
+PODIGLBH_02526	CDS	1641	scpA_3	5.4.99.2	COG1884	Methylmalonyl-CoA mutase
+PODIGLBH_02527	CDS	177				hypothetical protein
+PODIGLBH_02528	CDS	1299	sucB	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+PODIGLBH_02529	CDS	987	bfmBAB	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta
+PODIGLBH_02530	CDS	990	bfmBAA	1.2.4.4	COG1071	2-oxoisovalerate dehydrogenase subunit alpha
+PODIGLBH_02531	CDS	1428	pdhD_2	1.8.1.4		Dihydrolipoyl dehydrogenase
+PODIGLBH_02532	CDS	1107	buk2	2.7.2.7	COG3426	Butyrate kinase 2
+PODIGLBH_02533	CDS	1101	ldh_2	1.4.1.9		Leucine dehydrogenase
+PODIGLBH_02534	CDS	1026	pta	2.3.1.8	COG0280	Phosphate acetyltransferase
+PODIGLBH_02535	CDS	2061	rocR_4		COG3829	Arginine utilization regulatory protein RocR
+PODIGLBH_02536	CDS	261				hypothetical protein
+PODIGLBH_02537	CDS	2139			COG2409	Acyltrehalose exporter MmpL10
+PODIGLBH_02538	CDS	567				hypothetical protein
+PODIGLBH_02539	CDS	942	sodA_2	1.15.1.1	COG0605	Superoxide dismutase [Mn/Fe]
+PODIGLBH_02540	CDS	240				hypothetical protein
+PODIGLBH_02541	CDS	801	spo0A		COG0784	Stage 0 sporulation protein A
+PODIGLBH_02542	CDS	138				hypothetical protein
+PODIGLBH_02543	CDS	1272	gltT			Proton/sodium-glutamate symport protein
+PODIGLBH_02544	CDS	1080				hypothetical protein
+PODIGLBH_02545	CDS	834				hypothetical protein
+PODIGLBH_02546	CDS	681				hypothetical protein
+PODIGLBH_02547	CDS	513				hypothetical protein
+PODIGLBH_02548	CDS	1533	spoIVB	3.4.21.116	COG0750	SpoIVB peptidase
+PODIGLBH_02549	CDS	1707	recN		COG0497	DNA repair protein RecN
+PODIGLBH_02550	CDS	450	argR		COG1438	Arginine repressor
+PODIGLBH_02551	CDS	936	nadK	2.7.1.23	COG0061	NAD kinase
+PODIGLBH_02552	CDS	516				hypothetical protein
+PODIGLBH_02553	CDS	813	tlyA	2.1.1.226		16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA
+PODIGLBH_02554	CDS	1890	dxs	2.2.1.7	COG1154	1-deoxy-D-xylulose-5-phosphate synthase
+PODIGLBH_02555	CDS	897		2.5.1.10		Farnesyl diphosphate synthase
+PODIGLBH_02556	CDS	261	xseB	3.1.11.6	COG1722	Exodeoxyribonuclease 7 small subunit
+PODIGLBH_02557	CDS	1365	xseA	3.1.11.6	COG1570	Exodeoxyribonuclease 7 large subunit
+PODIGLBH_02558	CDS	861	folD			Bifunctional protein FolD protein
+PODIGLBH_02559	CDS	417	nusB		COG0781	Transcription antitermination protein NusB
+PODIGLBH_02560	CDS	408				Alkaline shock protein 23
+PODIGLBH_02561	CDS	1362	accC_2	6.3.4.14	COG0439	Biotin carboxylase
+PODIGLBH_02562	CDS	525	accB		COG0511	Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+PODIGLBH_02563	CDS	561	spoIIIAH			Stage III sporulation protein AH
+PODIGLBH_02564	CDS	621				hypothetical protein
+PODIGLBH_02565	CDS	633				hypothetical protein
+PODIGLBH_02566	CDS	1185	spoIIIAE			Stage III sporulation protein AE
+PODIGLBH_02567	CDS	390				hypothetical protein
+PODIGLBH_02568	CDS	207				hypothetical protein
+PODIGLBH_02569	CDS	519	spoIIIAB			Stage III sporulation protein AB
+PODIGLBH_02570	CDS	981				hypothetical protein
+PODIGLBH_02571	CDS	420				hypothetical protein
+PODIGLBH_02572	CDS	1281	ymfD			Bacillibactin exporter
+PODIGLBH_02573	CDS	792	yitD	4.4.1.19	COG1809	Phosphosulfolactate synthase
+PODIGLBH_02574	CDS	453				hypothetical protein
+PODIGLBH_02575	CDS	117				hypothetical protein
+PODIGLBH_02576	CDS	1305	mdtH_2			Multidrug resistance protein MdtH
+PODIGLBH_02577	CDS	120				hypothetical protein
+PODIGLBH_02578	CDS	1143				hypothetical protein
+PODIGLBH_02579	CDS	558	efp			Elongation factor P
+PODIGLBH_02580	CDS	1071	ypdF	3.4.11.-	COG0006	Aminopeptidase YpdF
+PODIGLBH_02581	CDS	1173				hypothetical protein
+PODIGLBH_02582	CDS	987				hypothetical protein
+PODIGLBH_02583	CDS	261				hypothetical protein
+PODIGLBH_02584	CDS	954				hypothetical protein
+PODIGLBH_02585	CDS	432	mntR		COG1321	Transcriptional regulator MntR
+PODIGLBH_02586	CDS	564	arsH	1.6.5.2		NADPH-dependent quinone reductase ArsH
+PODIGLBH_02587	CDS	468				hypothetical protein
+PODIGLBH_02588	CDS	1533	hutH	4.3.1.3	COG2986	Histidine ammonia-lyase
+PODIGLBH_02589	CDS	732	cpdA_3	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+PODIGLBH_02590	CDS	3288	nrdJ	1.17.4.1	COG0209	Vitamin B12-dependent ribonucleotide reductase
+PODIGLBH_02591	CDS	846	dat_2	2.6.1.21		D-alanine aminotransferase
+PODIGLBH_02592	CDS	1815				hypothetical protein
+PODIGLBH_02593	CDS	816	lipM	2.3.1.181	COG0095	Octanoyltransferase LipM
+PODIGLBH_02594	CDS	978	auaH	1.1.1.394		Aurachin B dehydrogenase
+PODIGLBH_02595	CDS	1947	ptsG_3	2.7.1.199	COG1263	PTS system glucose-specific EIICBA component
+PODIGLBH_02596	CDS	846	glcT		COG3711	PtsGHI operon antiterminator
+PODIGLBH_02597	CDS	1149	ousA			Glycine betaine/proline/ectoine/pipecolic acid transporter OusA
+PODIGLBH_02598	CDS	336	proP			Proline/betaine transporter
+PODIGLBH_02599	CDS	1461	gcvPB	1.4.4.2		putative glycine dehydrogenase (decarboxylating) subunit 2
+PODIGLBH_02600	CDS	1350	gcvPA	1.4.4.2		putative glycine dehydrogenase (decarboxylating) subunit 1
+PODIGLBH_02601	CDS	1098	gcvT	2.1.2.10	COG0404	Aminomethyltransferase
+PODIGLBH_02602	CDS	1728	rapA	3.6.4.-	COG0553	RNA polymerase-associated protein RapA
+PODIGLBH_02603	CDS	804				hypothetical protein
+PODIGLBH_02604	CDS	612	rebM_3	2.1.1.164		Demethylrebeccamycin-D-glucose O-methyltransferase
+PODIGLBH_02605	CDS	744	tcyC	3.6.3.-	COG1126	L-cystine import ATP-binding protein TcyC
+PODIGLBH_02606	CDS	690	yecS		COG0765	L-cystine transport system permease protein YecS
+PODIGLBH_02607	CDS	630	kynB_2	3.5.1.9	COG1878	Kynurenine formamidase
+PODIGLBH_02608	CDS	1539	zwf	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase
+PODIGLBH_02609	CDS	789	tcyA		COG0834	L-cystine-binding protein TcyA
+PODIGLBH_02610	CDS	372				hypothetical protein
+PODIGLBH_02611	CDS	1323	dgt		COG0232	Deoxyguanosinetriphosphate triphosphohydrolase-like protein
+PODIGLBH_02612	CDS	192	sspH			Small, acid-soluble spore protein H
+PODIGLBH_02613	CDS	1746	yheH	3.6.3.-	COG1132	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH
+PODIGLBH_02614	CDS	1746	yheI	3.6.3.-	COG1132	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+PODIGLBH_02615	CDS	1818	typA		COG1217	GTP-binding protein TypA/BipA
+PODIGLBH_02616	CDS	663				hypothetical protein
+PODIGLBH_02617	CDS	1173	hmgA	1.13.11.5	COG3508	Homogentisate 1,2-dioxygenase
+PODIGLBH_02618	CDS	633	azoR2_1	1.7.-.-	COG1182	FMN-dependent NADH-azoreductase 2
+PODIGLBH_02619	CDS	195	azoR1	1.7.-.-	COG1182	FMN-dependent NADH-azoreductase 1
+PODIGLBH_02620	CDS	459	azoR2_2	1.7.-.-	COG1182	FMN-dependent NADH-azoreductase 2
+PODIGLBH_02621	CDS	129				hypothetical protein
+PODIGLBH_02622	CDS	516	apt	2.4.2.7		Adenine phosphoribosyltransferase
+PODIGLBH_02623	CDS	2421	recJ	3.1.-.-	COG0608	Single-stranded-DNA-specific exonuclease RecJ
+PODIGLBH_02624	CDS	912	secDF_1		COG0341	Protein translocase subunit SecDF
+PODIGLBH_02625	CDS	1230	secDF_2		COG0341	Protein translocase subunit SecDF
+PODIGLBH_02626	CDS	315				hypothetical protein
+PODIGLBH_02627	CDS	1569	spoVB		COG2244	Stage V sporulation protein B
+PODIGLBH_02628	CDS	669				hypothetical protein
+PODIGLBH_02629	CDS	396				hypothetical protein
+PODIGLBH_02630	CDS	321	yajC		COG1862	Sec translocon accessory complex subunit YajC
+PODIGLBH_02631	CDS	1137	tgt	2.4.2.29		Queuine tRNA-ribosyltransferase
+PODIGLBH_02632	CDS	1035	queA	2.4.99.17	COG0809	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+PODIGLBH_02633	CDS	219				hypothetical protein
+PODIGLBH_02634	CDS	999	ruvB	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+PODIGLBH_02635	CDS	603	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+PODIGLBH_02636	CDS	510	ruvC	3.1.22.4	COG0817	Crossover junction endodeoxyribonuclease RuvC
+PODIGLBH_02637	CDS	174				hypothetical protein
+PODIGLBH_02638	CDS	759			COG0217	putative transcriptional regulatory protein
+PODIGLBH_02639	CDS	852	nadE	6.3.1.5	COG0171	NH(3)-dependent NAD(+) synthetase
+PODIGLBH_02640	CDS	852	ramA	3.5.1.100		(R)-stereoselective amidase
+PODIGLBH_02641	CDS	948	cotI_2			Spore coat protein I
+PODIGLBH_02642	CDS	645	safA			SpoIVD-associated factor A
+PODIGLBH_02643	CDS	822	lipC_2	3.-.-.-	COG2755	Spore germination lipase LipC
+PODIGLBH_02644	CDS	930	yxlF_2	3.6.3.-	COG1131	putative ABC transporter ATP-binding protein YxlF
+PODIGLBH_02645	CDS	984				hypothetical protein
+PODIGLBH_02646	CDS	912	ilvE	2.6.1.42	COG0115	Branched-chain-amino-acid aminotransferase
+PODIGLBH_02647	CDS	894	pheA		COG0077	P-protein
+PODIGLBH_02648	CDS	930	thrB	2.7.1.39	COG0083	Homoserine kinase
+PODIGLBH_02649	CDS	1092	thrC	4.2.3.1	COG0498	Threonine synthase
+PODIGLBH_02650	CDS	444				hypothetical protein
+PODIGLBH_02651	CDS	471	yfkJ	3.1.3.48	COG0394	Low molecular weight protein-tyrosine-phosphatase YfkJ
+PODIGLBH_02652	CDS	381				hypothetical protein
+PODIGLBH_02653	CDS	1305	obg	3.6.5.-	COG0536	GTPase Obg
+PODIGLBH_02654	CDS	720				hypothetical protein
+PODIGLBH_02655	CDS	309	rpmA		COG0211	50S ribosomal protein L27
+PODIGLBH_02656	CDS	339				hypothetical protein
+PODIGLBH_02657	CDS	315	rplU		COG0261	50S ribosomal protein L21
+PODIGLBH_02658	CDS	867	spoIVFB	3.4.24.-	COG1994	Stage IV sporulation protein FB
+PODIGLBH_02659	CDS	696	spoIVFA		COG0739	Stage IV sporulation protein FA
+PODIGLBH_02660	CDS	795	minD_2		COG2894	Septum site-determining protein MinD
+PODIGLBH_02661	CDS	681	minC		COG0850	Septum site-determining protein MinC
+PODIGLBH_02662	CDS	531				hypothetical protein
+PODIGLBH_02663	CDS	150				hypothetical protein
+PODIGLBH_02664	CDS	669	mreC		COG1792	Cell shape-determining protein MreC
+PODIGLBH_02665	CDS	1059	mreB		COG1077	Rod shape-determining protein MreB
+PODIGLBH_02666	CDS	708				hypothetical protein
+PODIGLBH_02667	CDS	600	maf		COG0424	Septum formation protein Maf
+PODIGLBH_02668	CDS	1116				hypothetical protein
+PODIGLBH_02669	CDS	702	comC_2			Type 4 prepilin-like proteins leader peptide-processing enzyme
+PODIGLBH_02670	CDS	399	yggR		COG2805	putative protein YggR
+PODIGLBH_02671	CDS	570	pilT		COG2805	Twitching mobility protein
+PODIGLBH_02672	CDS	735	ecsA		COG1131	ABC-type transporter ATP-binding protein EcsA
+PODIGLBH_02673	CDS	1230				hypothetical protein
+PODIGLBH_02674	CDS	642	ypmQ		COG1999	SCO1 protein 
+PODIGLBH_02675	CDS	1407	murC	6.3.2.8	COG0773	UDP-N-acetylmuramate--L-alanine ligase
+PODIGLBH_02676	CDS	1344	fpgS	6.3.2.17		Folylpolyglutamate synthase
+PODIGLBH_02677	CDS	2640	valS	6.1.1.9		Valine--tRNA ligase
+PODIGLBH_02678	CDS	147				hypothetical protein
+PODIGLBH_02679	CDS	1020	srkA	2.7.11.1		Stress response kinase A
+PODIGLBH_02680	CDS	1212	spoVID			Stage VI sporulation protein D
+PODIGLBH_02681	CDS	1293	hemL_2	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase
+PODIGLBH_02682	CDS	972	hemB	4.2.1.24		Delta-aminolevulinic acid dehydratase
+PODIGLBH_02683	CDS	1518	nasF	2.1.1.107	COG0007	Uroporphyrinogen-III C-methyltransferase
+PODIGLBH_02684	CDS	864	hemC	2.5.1.61		Porphobilinogen deaminase
+PODIGLBH_02685	CDS	732	sirC	1.3.1.76	COG1648	Precorrin-2 dehydrogenase
+PODIGLBH_02686	CDS	822				hypothetical protein
+PODIGLBH_02687	CDS	1347	hemA	1.2.1.70	COG0373	Glutamyl-tRNA reductase
+PODIGLBH_02688	CDS	1050				hypothetical protein
+PODIGLBH_02689	CDS	774	tauB	3.6.3.36	COG4525	Taurine import ATP-binding protein TauB
+PODIGLBH_02690	CDS	846	ssuC_2		COG0600	Putative aliphatic sulfonates transport permease protein SsuC
+PODIGLBH_02691	CDS	471				hypothetical protein
+PODIGLBH_02692	CDS	768	map_2	3.4.11.18	COG0024	Methionine aminopeptidase 1
+PODIGLBH_02693	CDS	1098	ddl	6.3.2.4	COG1181	D-alanine--D-alanine ligase
+PODIGLBH_02694	CDS	597	engB		COG0218	putative GTP-binding protein EngB
+PODIGLBH_02695	CDS	2349	lon1	3.4.21.53	COG0466	Lon protease 1
+PODIGLBH_02696	CDS	1662	lon2	3.4.21.53	COG1067	Lon protease 2
+PODIGLBH_02697	CDS	1137	femX	2.3.2.16	COG2348	Lipid II:glycine glycyltransferase
+PODIGLBH_02698	CDS	1266	clpX_2		COG1219	ATP-dependent Clp protease ATP-binding subunit ClpX
+PODIGLBH_02699	CDS	585	clpP_3	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+PODIGLBH_02700	CDS	1299	tig_2	5.2.1.8	COG0544	Trigger factor
+PODIGLBH_02701	CDS	933		1.13.12.-	COG2070	Putative monooxygenase
+PODIGLBH_02702	CDS	333				hypothetical protein
+PODIGLBH_02703	CDS	1731	ubiB_2	2.7.-.-	COG0661	putative protein kinase UbiB
+PODIGLBH_02704	CDS	849	nrdB_4	1.-.-.-	COG0208	R2-like ligand binding oxidase

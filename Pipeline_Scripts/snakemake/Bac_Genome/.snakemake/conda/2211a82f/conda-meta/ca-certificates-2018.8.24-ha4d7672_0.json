@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64",
+  "build": "ha4d7672_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/ca-certificates-2018.8.24-ha4d7672_0",
+  "features": "",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2018.8.24-ha4d7672_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/ca-certificates-2018.8.24-ha4d7672_0",
+    "type": 1
+  },
+  "md5": "3b198f9e3af1fe32b03852a4fe154f78",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/ca-certificates-2018.8.24-ha4d7672_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "5c0fb81d506c3ab043e657e0f9bdcf894cc0bf051ddaa948cf05f2a483084463",
+        "sha256_in_prefix": "5c0fb81d506c3ab043e657e0f9bdcf894cc0bf051ddaa948cf05f2a483084463",
+        "size_in_bytes": 263074
+      },
+      {
+        "_path": "ssl/cert.pem",
+        "path_type": "softlink",
+        "sha256": "5c0fb81d506c3ab043e657e0f9bdcf894cc0bf051ddaa948cf05f2a483084463",
+        "size_in_bytes": 263074
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 138880,
+  "subdir": "linux-64",
+  "timestamp": 1535111650484,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2018.8.24-ha4d7672_0.tar.bz2",
+  "version": "2018.8.24"
+}

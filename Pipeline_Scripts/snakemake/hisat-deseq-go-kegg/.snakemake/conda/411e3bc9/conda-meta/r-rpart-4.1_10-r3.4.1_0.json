@@ -1,0 +1,398 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-rpart-4.1_10-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rpart/DESCRIPTION",
+    "lib/R/library/rpart/INDEX",
+    "lib/R/library/rpart/Meta/Rd.rds",
+    "lib/R/library/rpart/Meta/data.rds",
+    "lib/R/library/rpart/Meta/features.rds",
+    "lib/R/library/rpart/Meta/hsearch.rds",
+    "lib/R/library/rpart/Meta/links.rds",
+    "lib/R/library/rpart/Meta/nsInfo.rds",
+    "lib/R/library/rpart/Meta/package.rds",
+    "lib/R/library/rpart/Meta/vignette.rds",
+    "lib/R/library/rpart/NAMESPACE",
+    "lib/R/library/rpart/NEWS.Rd",
+    "lib/R/library/rpart/R/rpart",
+    "lib/R/library/rpart/R/rpart.rdb",
+    "lib/R/library/rpart/R/rpart.rdx",
+    "lib/R/library/rpart/data/Rdata.rdb",
+    "lib/R/library/rpart/data/Rdata.rds",
+    "lib/R/library/rpart/data/Rdata.rdx",
+    "lib/R/library/rpart/doc/index.html",
+    "lib/R/library/rpart/doc/longintro.R",
+    "lib/R/library/rpart/doc/longintro.Rnw",
+    "lib/R/library/rpart/doc/longintro.pdf",
+    "lib/R/library/rpart/doc/usercode.R",
+    "lib/R/library/rpart/doc/usercode.Rnw",
+    "lib/R/library/rpart/doc/usercode.pdf",
+    "lib/R/library/rpart/help/AnIndex",
+    "lib/R/library/rpart/help/aliases.rds",
+    "lib/R/library/rpart/help/paths.rds",
+    "lib/R/library/rpart/help/rpart.rdb",
+    "lib/R/library/rpart/help/rpart.rdx",
+    "lib/R/library/rpart/html/00Index.html",
+    "lib/R/library/rpart/html/R.css",
+    "lib/R/library/rpart/libs/rpart.so",
+    "lib/R/library/rpart/po/de/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/de/LC_MESSAGES/rpart.mo",
+    "lib/R/library/rpart/po/en@quot/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/en@quot/LC_MESSAGES/rpart.mo",
+    "lib/R/library/rpart/po/fr/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/fr/LC_MESSAGES/rpart.mo",
+    "lib/R/library/rpart/po/ko/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/ko/LC_MESSAGES/rpart.mo",
+    "lib/R/library/rpart/po/pl/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/pl/LC_MESSAGES/rpart.mo",
+    "lib/R/library/rpart/po/ru/LC_MESSAGES/R-rpart.mo",
+    "lib/R/library/rpart/po/ru/LC_MESSAGES/rpart.mo"
+  ],
+  "fn": "r-rpart-4.1_10-r3.4.1_0.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-rpart-4.1_10-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "3a212daf49e40871abbfd4d6d9ecce6b",
+  "name": "r-rpart",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-rpart-4.1_10-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rpart/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7a8cb034af1bf6e96a0fa14fe2ee87a35afc41c55da7f87b1f66f3ac921ddd1f",
+        "sha256_in_prefix": "7a8cb034af1bf6e96a0fa14fe2ee87a35afc41c55da7f87b1f66f3ac921ddd1f",
+        "size_in_bytes": 1232
+      },
+      {
+        "_path": "lib/R/library/rpart/INDEX",
+        "path_type": "hardlink",
+        "sha256": "23d63203524c5a0ec30c0e556d8d05474dbf267fbbcf293629741451edc54b12",
+        "sha256_in_prefix": "23d63203524c5a0ec30c0e556d8d05474dbf267fbbcf293629741451edc54b12",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "31a3258340b3a99540187eebe7fcf8e74138d5f6d9698b3b81abaeb2765d02b9",
+        "sha256_in_prefix": "31a3258340b3a99540187eebe7fcf8e74138d5f6d9698b3b81abaeb2765d02b9",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "275f107055c87e7c12505c396cdc1a65e224d77468f7711e434c0c842b0be102",
+        "sha256_in_prefix": "275f107055c87e7c12505c396cdc1a65e224d77468f7711e434c0c842b0be102",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "66b4753dcdc228c38040f91232aab5e7d1ce460b496c7cb0d6db2e628195ca0a",
+        "sha256_in_prefix": "66b4753dcdc228c38040f91232aab5e7d1ce460b496c7cb0d6db2e628195ca0a",
+        "size_in_bytes": 1130
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8e0de4302f28065ccc6d9b08cdc5bd28ea221316c548989fab63f0a99e6d035a",
+        "sha256_in_prefix": "8e0de4302f28065ccc6d9b08cdc5bd28ea221316c548989fab63f0a99e6d035a",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bb16217ce21dc19366caa06717817993b91aacffa559ee2a00a80ffc8d624425",
+        "sha256_in_prefix": "bb16217ce21dc19366caa06717817993b91aacffa559ee2a00a80ffc8d624425",
+        "size_in_bytes": 549
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "cbe990f04528fbc67bd0d00ed84aec26a02b1b8958e1c4a4c99d27e0607e186f",
+        "sha256_in_prefix": "cbe990f04528fbc67bd0d00ed84aec26a02b1b8958e1c4a4c99d27e0607e186f",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "lib/R/library/rpart/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "2ffd0ccbc2f88ddf951b69ec0ce9f83b70acddd5f101842002bde35962ad72ce",
+        "sha256_in_prefix": "2ffd0ccbc2f88ddf951b69ec0ce9f83b70acddd5f101842002bde35962ad72ce",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "lib/R/library/rpart/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a3c915075d7b275be651058d5b251871fffa08675db8fd426f017412234d57d9",
+        "sha256_in_prefix": "a3c915075d7b275be651058d5b251871fffa08675db8fd426f017412234d57d9",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/R/library/rpart/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "531bce1e56ebe3f339b1b98474ae2d836b40a44d64d03f4fe3cc44200f93f061",
+        "sha256_in_prefix": "531bce1e56ebe3f339b1b98474ae2d836b40a44d64d03f4fe3cc44200f93f061",
+        "size_in_bytes": 4583
+      },
+      {
+        "_path": "lib/R/library/rpart/R/rpart",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rpart/R/rpart.rdb",
+        "path_type": "hardlink",
+        "sha256": "41d8dab07bc75994da48bec4ed863e64d6a33d2ea260ceedc645e3e78e267de2",
+        "sha256_in_prefix": "41d8dab07bc75994da48bec4ed863e64d6a33d2ea260ceedc645e3e78e267de2",
+        "size_in_bytes": 124893
+      },
+      {
+        "_path": "lib/R/library/rpart/R/rpart.rdx",
+        "path_type": "hardlink",
+        "sha256": "38f61aaabf4878d7dcff33877208ff4728d3035df8d2750aece5302e8fdb2a2f",
+        "sha256_in_prefix": "38f61aaabf4878d7dcff33877208ff4728d3035df8d2750aece5302e8fdb2a2f",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "lib/R/library/rpart/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "b1e679aea69e25ef3c7f0c880cd7dcc3180dbf40d1374cd97344ff9c74c15822",
+        "sha256_in_prefix": "b1e679aea69e25ef3c7f0c880cd7dcc3180dbf40d1374cd97344ff9c74c15822",
+        "size_in_bytes": 14583
+      },
+      {
+        "_path": "lib/R/library/rpart/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "87dd68cb87c502fa148c9025235893fc9b0fbbdc15db5ed30217e6d5d0a27454",
+        "sha256_in_prefix": "87dd68cb87c502fa148c9025235893fc9b0fbbdc15db5ed30217e6d5d0a27454",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/R/library/rpart/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "92951840bfdf65ab4327aba285f0bebfc635e52fedf63e92fe4e1a990a3d8f06",
+        "sha256_in_prefix": "92951840bfdf65ab4327aba285f0bebfc635e52fedf63e92fe4e1a990a3d8f06",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "bebfb5634501821c9ff2314aa6423cb586141a99c3d61117e83bcab163986940",
+        "sha256_in_prefix": "bebfb5634501821c9ff2314aa6423cb586141a99c3d61117e83bcab163986940",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/longintro.R",
+        "path_type": "hardlink",
+        "sha256": "eaf4850e22c23e717c12ba6eb8713f32ea05cb9d03e6b48037b8db01545886d8",
+        "sha256_in_prefix": "eaf4850e22c23e717c12ba6eb8713f32ea05cb9d03e6b48037b8db01545886d8",
+        "size_in_bytes": 10263
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/longintro.Rnw",
+        "path_type": "hardlink",
+        "sha256": "9f9d30c42b8bd4286ee2aaffad206030bc5db695d52e8ceefaa7614e7b100dd2",
+        "sha256_in_prefix": "9f9d30c42b8bd4286ee2aaffad206030bc5db695d52e8ceefaa7614e7b100dd2",
+        "size_in_bytes": 81555
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/longintro.pdf",
+        "path_type": "hardlink",
+        "sha256": "5ce22072376be2ed42e360dce6e5730ed6c23e2855787adf0b456f07a7a60625",
+        "sha256_in_prefix": "5ce22072376be2ed42e360dce6e5730ed6c23e2855787adf0b456f07a7a60625",
+        "size_in_bytes": 407123
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/usercode.R",
+        "path_type": "hardlink",
+        "sha256": "591e6bb8d622f5c1a548f9a0da58499065e4e00f9774319ef0409ad8a490989c",
+        "sha256_in_prefix": "591e6bb8d622f5c1a548f9a0da58499065e4e00f9774319ef0409ad8a490989c",
+        "size_in_bytes": 7218
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/usercode.Rnw",
+        "path_type": "hardlink",
+        "sha256": "25a0f218d6e13b277ab13ef9a23a8d188c1c2e6cbd32e21e04830d6932f0bf11",
+        "sha256_in_prefix": "25a0f218d6e13b277ab13ef9a23a8d188c1c2e6cbd32e21e04830d6932f0bf11",
+        "size_in_bytes": 20253
+      },
+      {
+        "_path": "lib/R/library/rpart/doc/usercode.pdf",
+        "path_type": "hardlink",
+        "sha256": "1f818561d03038995090c833778a9d9107a67e311b8db2891346d4492ca3bbe3",
+        "sha256_in_prefix": "1f818561d03038995090c833778a9d9107a67e311b8db2891346d4492ca3bbe3",
+        "size_in_bytes": 207403
+      },
+      {
+        "_path": "lib/R/library/rpart/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "94534244eb4a6361712005e411916a2af37f6e9070f68dc3f3f035af9cce6d99",
+        "sha256_in_prefix": "94534244eb4a6361712005e411916a2af37f6e9070f68dc3f3f035af9cce6d99",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/R/library/rpart/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0244e658d8a6d4aa8961863ec122e1a39080d27150e509400134fd063e7f439f",
+        "sha256_in_prefix": "0244e658d8a6d4aa8961863ec122e1a39080d27150e509400134fd063e7f439f",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/R/library/rpart/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "74e51309f488fd77a3cde6c45322953a4db718e80bf44476c1e46e24d605b356",
+        "sha256_in_prefix": "74e51309f488fd77a3cde6c45322953a4db718e80bf44476c1e46e24d605b356",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/R/library/rpart/help/rpart.rdb",
+        "path_type": "hardlink",
+        "sha256": "29f3e41fa2e5c6b6543e42b5b131124f1986dc5c3c8f2485484fd3b1a2d5b568",
+        "sha256_in_prefix": "29f3e41fa2e5c6b6543e42b5b131124f1986dc5c3c8f2485484fd3b1a2d5b568",
+        "size_in_bytes": 91657
+      },
+      {
+        "_path": "lib/R/library/rpart/help/rpart.rdx",
+        "path_type": "hardlink",
+        "sha256": "11eb4cfb5df767460b20a39996b552dc40d5dee29fc5bbb18c401a4916667f6f",
+        "sha256_in_prefix": "11eb4cfb5df767460b20a39996b552dc40d5dee29fc5bbb18c401a4916667f6f",
+        "size_in_bytes": 748
+      },
+      {
+        "_path": "lib/R/library/rpart/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "82e3a9bd736835b9db209df34041c2a2849f180a8610df1fee733ac9555b239c",
+        "sha256_in_prefix": "82e3a9bd736835b9db209df34041c2a2849f180a8610df1fee733ac9555b239c",
+        "size_in_bytes": 4949
+      },
+      {
+        "_path": "lib/R/library/rpart/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rpart/libs/rpart.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-rpart_1503240855221/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "2e3582972a7a3b17e5a86a9d42dc788df7335a67a1031bb7039e4087f7a8b22a",
+        "sha256_in_prefix": "8a1df9f53b873328b4f60992df88657ec6d05880145fc1b46d733d02b34c659e",
+        "size_in_bytes": 77395
+      },
+      {
+        "_path": "lib/R/library/rpart/po/de/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "63c71d5096e81b36a1928e8cf6d66a2095292f10ff31b80bb61867019af45782",
+        "sha256_in_prefix": "63c71d5096e81b36a1928e8cf6d66a2095292f10ff31b80bb61867019af45782",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "lib/R/library/rpart/po/de/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "f2450e67b4642b9f666f766c102294db7c42009a0d06a484551df58f2a924b77",
+        "sha256_in_prefix": "f2450e67b4642b9f666f766c102294db7c42009a0d06a484551df58f2a924b77",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "lib/R/library/rpart/po/en@quot/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "6ecc9141ea7416ec5b8ec6f54ca8f2669b01557d4e8eb1f9ecf7471513d23995",
+        "sha256_in_prefix": "6ecc9141ea7416ec5b8ec6f54ca8f2669b01557d4e8eb1f9ecf7471513d23995",
+        "size_in_bytes": 6804
+      },
+      {
+        "_path": "lib/R/library/rpart/po/en@quot/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "3339d03408ca30a8f1b2f065494d104b7f5662c706f28c8eb6d5356b42268bc7",
+        "sha256_in_prefix": "3339d03408ca30a8f1b2f065494d104b7f5662c706f28c8eb6d5356b42268bc7",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "lib/R/library/rpart/po/fr/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "39becb1cfa4fd566c29e002ecdb306c76eb78234474494e64e4edb212c8f51ee",
+        "sha256_in_prefix": "39becb1cfa4fd566c29e002ecdb306c76eb78234474494e64e4edb212c8f51ee",
+        "size_in_bytes": 7523
+      },
+      {
+        "_path": "lib/R/library/rpart/po/fr/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "33d289ab0003168b9e3f8f1a9d4846f5930d6a7756381d4f554bc5f833cb5de3",
+        "sha256_in_prefix": "33d289ab0003168b9e3f8f1a9d4846f5930d6a7756381d4f554bc5f833cb5de3",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/R/library/rpart/po/ko/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "aea4bf0aa302564293b9d35f3f77c43ec21b22d0d46b8390f56fe628f51ab2ad",
+        "sha256_in_prefix": "aea4bf0aa302564293b9d35f3f77c43ec21b22d0d46b8390f56fe628f51ab2ad",
+        "size_in_bytes": 9034
+      },
+      {
+        "_path": "lib/R/library/rpart/po/ko/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "d3a3c0cdd3046448ebe590934f04ef7cab6b94647077018301252711c42d4019",
+        "sha256_in_prefix": "d3a3c0cdd3046448ebe590934f04ef7cab6b94647077018301252711c42d4019",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/rpart/po/pl/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "3ca265a1ba690a2d396cfbe3dd741da44f4340e2586ff853c6a43254d2857163",
+        "sha256_in_prefix": "3ca265a1ba690a2d396cfbe3dd741da44f4340e2586ff853c6a43254d2857163",
+        "size_in_bytes": 7545
+      },
+      {
+        "_path": "lib/R/library/rpart/po/pl/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "7228bb6f22a55e938524d14558fe92b64d411ce2db65349c647070d429632582",
+        "sha256_in_prefix": "7228bb6f22a55e938524d14558fe92b64d411ce2db65349c647070d429632582",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/R/library/rpart/po/ru/LC_MESSAGES/R-rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "c35a027369f351d8b7b91bf501109c145f2307a0fc585d985e2a8c8dec1796f2",
+        "sha256_in_prefix": "c35a027369f351d8b7b91bf501109c145f2307a0fc585d985e2a8c8dec1796f2",
+        "size_in_bytes": 7093
+      },
+      {
+        "_path": "lib/R/library/rpart/po/ru/LC_MESSAGES/rpart.mo",
+        "path_type": "hardlink",
+        "sha256": "1590bd1de3ee30061b7292bff7d9d49ad716d88356c5a907eb11d323b817a671",
+        "sha256_in_prefix": "1590bd1de3ee30061b7292bff7d9d49ad716d88356c5a907eb11d323b817a671",
+        "size_in_bytes": 1365
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-rpart=4.1_10",
+  "size": 916816,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rpart-4.1_10-r3.4.1_0.tar.bz2",
+  "version": "4.1_10"
+}

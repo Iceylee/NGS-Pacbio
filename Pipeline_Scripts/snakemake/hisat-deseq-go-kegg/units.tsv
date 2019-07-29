@@ -1,0 +1,7 @@
+sample	fq1	fq2
+WR180001S	rawData/reads/WR180001S_R1.fastq.gz	rawData/reads/WR180001S_R2.fastq.gz
+WR180002S	rawData/reads/WR180002S_R1.fastq.gz	rawData/reads/WR180002S_R2.fastq.gz
+WR180003S	rawData/reads/WR180003S_R1.fastq.gz	rawData/reads/WR180003S_R2.fastq.gz
+WR180004S	rawData/reads/WR180004S_R1.fastq.gz	rawData/reads/WR180004S_R2.fastq.gz
+WR180005S	rawData/reads/WR180005S_R1.fastq.gz	rawData/reads/WR180005S_R2.fastq.gz
+WR180006S	rawData/reads/WR180006S_R1.fastq.gz	rawData/reads/WR180006S_R2.fastq.gz

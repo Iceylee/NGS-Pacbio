@@ -1,0 +1,10 @@
+
+         mkdir -p outData/transposon/
+         cd outData/transposon/
+
+         /data1/software/TransposonPSI_08222010/transposonPSI.pl ../../rawData/assembly.fasta nuc
+
+         sed "1 i Sequence	Source	Method	Start	End	Score	Strand	Phase	Attributes" *TPSI.allHits.chains.gff3 > Transposon.txt
+   
+
+  

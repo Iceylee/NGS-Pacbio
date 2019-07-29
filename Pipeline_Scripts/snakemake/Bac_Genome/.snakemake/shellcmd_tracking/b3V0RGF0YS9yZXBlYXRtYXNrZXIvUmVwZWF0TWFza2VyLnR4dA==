@@ -1,0 +1,10 @@
+
+         mkdir -p outData/repeatmasker/
+
+         /data1/software/RepeatMasker/RepeatMasker -parallel 15 -html -gff -dir outData/repeatmasker/ rawData/assembly.fasta
+		
+		name=`ls outData/repeatmasker//*.out`
+		bash scripts/rm.sh $name outData/repeatmasker/RepeatMasker.txt
+
+
+  

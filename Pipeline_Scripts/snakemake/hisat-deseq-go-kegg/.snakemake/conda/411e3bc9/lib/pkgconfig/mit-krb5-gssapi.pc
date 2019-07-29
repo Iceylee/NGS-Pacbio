@@ -1,0 +1,11 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mit-krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.14.6
+Requires.private: mit-krb5
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgssapi_krb5

@@ -1,0 +1,196 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-labeling-0.3-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/labeling/DESCRIPTION",
+    "lib/R/library/labeling/INDEX",
+    "lib/R/library/labeling/LICENSE",
+    "lib/R/library/labeling/Meta/Rd.rds",
+    "lib/R/library/labeling/Meta/features.rds",
+    "lib/R/library/labeling/Meta/hsearch.rds",
+    "lib/R/library/labeling/Meta/links.rds",
+    "lib/R/library/labeling/Meta/nsInfo.rds",
+    "lib/R/library/labeling/Meta/package.rds",
+    "lib/R/library/labeling/NAMESPACE",
+    "lib/R/library/labeling/R/labeling",
+    "lib/R/library/labeling/R/labeling.rdb",
+    "lib/R/library/labeling/R/labeling.rdx",
+    "lib/R/library/labeling/help/AnIndex",
+    "lib/R/library/labeling/help/aliases.rds",
+    "lib/R/library/labeling/help/labeling.rdb",
+    "lib/R/library/labeling/help/labeling.rdx",
+    "lib/R/library/labeling/help/paths.rds",
+    "lib/R/library/labeling/html/00Index.html",
+    "lib/R/library/labeling/html/R.css"
+  ],
+  "fn": "r-labeling-0.3-r3.4.1_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-labeling-0.3-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "5bd65d545d49cacdf9a0de62b2286ea9",
+  "name": "r-labeling",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-labeling-0.3-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/labeling/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "19c1a827ef0b3ddcf799f500cbcf0b10d6f51cb8045d55a9a1329a871d8dfbab",
+        "sha256_in_prefix": "19c1a827ef0b3ddcf799f500cbcf0b10d6f51cb8045d55a9a1329a871d8dfbab",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/R/library/labeling/INDEX",
+        "path_type": "hardlink",
+        "sha256": "35ace0173dfcde18dde90ac2d7fe8682856d416462a6403029cd6a7be70e64c7",
+        "sha256_in_prefix": "35ace0173dfcde18dde90ac2d7fe8682856d416462a6403029cd6a7be70e64c7",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "lib/R/library/labeling/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d79afc41f4466fac750ca425cca2be0c5ba5f8b81942d9237d6bbeab51cfeb29",
+        "sha256_in_prefix": "d79afc41f4466fac750ca425cca2be0c5ba5f8b81942d9237d6bbeab51cfeb29",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f23274cbd83fb86c77df8d2977cc27d94a530f70cf71ef64427e8c31a8ae53dd",
+        "sha256_in_prefix": "f23274cbd83fb86c77df8d2977cc27d94a530f70cf71ef64427e8c31a8ae53dd",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e5ec04b387793ea79048aa2ed4a94021c3d217f01320e21ecabfdd32ce43dde4",
+        "sha256_in_prefix": "e5ec04b387793ea79048aa2ed4a94021c3d217f01320e21ecabfdd32ce43dde4",
+        "size_in_bytes": 663
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ddd229927562d608d1e5e5dd087662e545e7a0fe78bb771cc5aeec47e8ea8178",
+        "sha256_in_prefix": "ddd229927562d608d1e5e5dd087662e545e7a0fe78bb771cc5aeec47e8ea8178",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "fc919b0bc804840924dcf1cc1950850aa7c25367b4c6bdcebbc06437710ad2aa",
+        "sha256_in_prefix": "fc919b0bc804840924dcf1cc1950850aa7c25367b4c6bdcebbc06437710ad2aa",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "lib/R/library/labeling/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "744920e7c704ab4d76393b63002029e37d7d4561194fc8cd07e14408e6c35378",
+        "sha256_in_prefix": "744920e7c704ab4d76393b63002029e37d7d4561194fc8cd07e14408e6c35378",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/labeling/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f7b965521aa1bbbe5332538b745a944127b5557d0a0ebcfec97005e1e70ad1cb",
+        "sha256_in_prefix": "f7b965521aa1bbbe5332538b745a944127b5557d0a0ebcfec97005e1e70ad1cb",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "lib/R/library/labeling/R/labeling",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/labeling/R/labeling.rdb",
+        "path_type": "hardlink",
+        "sha256": "638899951517d53bbece78ef848317dfaea165d79363816bd7c31c1a531fd218",
+        "sha256_in_prefix": "638899951517d53bbece78ef848317dfaea165d79363816bd7c31c1a531fd218",
+        "size_in_bytes": 10651
+      },
+      {
+        "_path": "lib/R/library/labeling/R/labeling.rdx",
+        "path_type": "hardlink",
+        "sha256": "2a013b4327c863554b78134fa51351a40cefd6f291d40697ceb1e52aaaa32940",
+        "sha256_in_prefix": "2a013b4327c863554b78134fa51351a40cefd6f291d40697ceb1e52aaaa32940",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/R/library/labeling/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "843f496e1d0722baef66d628dc9fe14e70b2b1dd6078e0da298acaf7da08a76f",
+        "sha256_in_prefix": "843f496e1d0722baef66d628dc9fe14e70b2b1dd6078e0da298acaf7da08a76f",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/R/library/labeling/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "39b71a49a00b577bb8f2b3e25f22f770cc1627b373662eca00e471d220e406ce",
+        "sha256_in_prefix": "39b71a49a00b577bb8f2b3e25f22f770cc1627b373662eca00e471d220e406ce",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/labeling/help/labeling.rdb",
+        "path_type": "hardlink",
+        "sha256": "00328f3740a1251f8f1d256c0fdc2fad648e426a9e9d4b6e5daaa26fa1eb7c9d",
+        "sha256_in_prefix": "00328f3740a1251f8f1d256c0fdc2fad648e426a9e9d4b6e5daaa26fa1eb7c9d",
+        "size_in_bytes": 20899
+      },
+      {
+        "_path": "lib/R/library/labeling/help/labeling.rdx",
+        "path_type": "hardlink",
+        "sha256": "1bc38866cd34ab9d942cdd84cd68748e775a3df280cc342540275307d185bf0d",
+        "sha256_in_prefix": "1bc38866cd34ab9d942cdd84cd68748e775a3df280cc342540275307d185bf0d",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/R/library/labeling/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2407a1732a9d97a8208ecf44eefc2cdc9262480940d1672c16c01b965840f704",
+        "sha256_in_prefix": "2407a1732a9d97a8208ecf44eefc2cdc9262480940d1672c16c01b965840f704",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/labeling/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "831f06fb54a328c8c181d4c0af26532fb076410de84199bb91740a8f6d39b9d2",
+        "sha256_in_prefix": "831f06fb54a328c8c181d4c0af26532fb076410de84199bb91740a8f6d39b9d2",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "lib/R/library/labeling/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-labeling=0.3",
+  "size": 44342,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-labeling-0.3-r3.4.1_0.tar.bz2",
+  "version": "0.3"
+}

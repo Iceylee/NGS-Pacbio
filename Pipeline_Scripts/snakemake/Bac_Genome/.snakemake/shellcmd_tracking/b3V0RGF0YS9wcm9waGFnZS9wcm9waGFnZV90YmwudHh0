@@ -1,0 +1,7 @@
+
+
+           /data1/software/miniconda2/bin/python /data1/software/PhiSpy/genbank_to_seed.py outData/prokka/prokka.gbk outData/prophage//organism_directory
+
+           /data1/software/miniconda2/bin/python /data1/software/PhiSpy/PhiSpy.py -i outData/prophage//organism_directory -o outData/prophage/ 
+
+  

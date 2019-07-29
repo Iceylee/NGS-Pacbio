@@ -1,0 +1,887 @@
+{
+  "arch": "x86_64",
+  "build": "r3.3.2_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-assertthat",
+    "r-base 3.3.2*",
+    "r-bh >=1.58.0_1",
+    "r-dbi >=0.4.1",
+    "r-lazyeval >=0.1.10",
+    "r-magrittr",
+    "r-r6",
+    "r-rcpp >=0.12.3",
+    "r-tibble"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-dplyr-0.5.0-r3.3.2_1",
+  "features": "",
+  "files": [
+    "lib/R/library/dplyr/DESCRIPTION",
+    "lib/R/library/dplyr/INDEX",
+    "lib/R/library/dplyr/LICENSE",
+    "lib/R/library/dplyr/Meta/Rd.rds",
+    "lib/R/library/dplyr/Meta/data.rds",
+    "lib/R/library/dplyr/Meta/hsearch.rds",
+    "lib/R/library/dplyr/Meta/links.rds",
+    "lib/R/library/dplyr/Meta/nsInfo.rds",
+    "lib/R/library/dplyr/Meta/package.rds",
+    "lib/R/library/dplyr/Meta/vignette.rds",
+    "lib/R/library/dplyr/NAMESPACE",
+    "lib/R/library/dplyr/NEWS.md",
+    "lib/R/library/dplyr/R/dplyr",
+    "lib/R/library/dplyr/R/dplyr.rdb",
+    "lib/R/library/dplyr/R/dplyr.rdx",
+    "lib/R/library/dplyr/data/Rdata.rdb",
+    "lib/R/library/dplyr/data/Rdata.rds",
+    "lib/R/library/dplyr/data/Rdata.rdx",
+    "lib/R/library/dplyr/doc/data_frames.R",
+    "lib/R/library/dplyr/doc/data_frames.Rmd",
+    "lib/R/library/dplyr/doc/data_frames.html",
+    "lib/R/library/dplyr/doc/databases.R",
+    "lib/R/library/dplyr/doc/databases.Rmd",
+    "lib/R/library/dplyr/doc/databases.html",
+    "lib/R/library/dplyr/doc/hybrid-evaluation.R",
+    "lib/R/library/dplyr/doc/hybrid-evaluation.Rmd",
+    "lib/R/library/dplyr/doc/hybrid-evaluation.html",
+    "lib/R/library/dplyr/doc/index.html",
+    "lib/R/library/dplyr/doc/introduction.R",
+    "lib/R/library/dplyr/doc/introduction.Rmd",
+    "lib/R/library/dplyr/doc/introduction.html",
+    "lib/R/library/dplyr/doc/new-sql-backend.R",
+    "lib/R/library/dplyr/doc/new-sql-backend.Rmd",
+    "lib/R/library/dplyr/doc/new-sql-backend.html",
+    "lib/R/library/dplyr/doc/nse.R",
+    "lib/R/library/dplyr/doc/nse.Rmd",
+    "lib/R/library/dplyr/doc/nse.html",
+    "lib/R/library/dplyr/doc/two-table.R",
+    "lib/R/library/dplyr/doc/two-table.Rmd",
+    "lib/R/library/dplyr/doc/two-table.html",
+    "lib/R/library/dplyr/doc/window-functions.R",
+    "lib/R/library/dplyr/doc/window-functions.Rmd",
+    "lib/R/library/dplyr/doc/window-functions.html",
+    "lib/R/library/dplyr/help/AnIndex",
+    "lib/R/library/dplyr/help/aliases.rds",
+    "lib/R/library/dplyr/help/dplyr.rdb",
+    "lib/R/library/dplyr/help/dplyr.rdx",
+    "lib/R/library/dplyr/help/paths.rds",
+    "lib/R/library/dplyr/html/00Index.html",
+    "lib/R/library/dplyr/html/R.css",
+    "lib/R/library/dplyr/include/dplyr.h",
+    "lib/R/library/dplyr/include/dplyr/BoolResult.h",
+    "lib/R/library/dplyr/include/dplyr/CharacterVectorOrderer.h",
+    "lib/R/library/dplyr/include/dplyr/Collecter.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameAble.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameColumnSubsetVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameColumnVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameJoinVisitors.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameSubsetVisitors.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameVisitors.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameVisitorsIndexMap.h",
+    "lib/R/library/dplyr/include/dplyr/DataFrameVisitorsIndexSet.h",
+    "lib/R/library/dplyr/include/dplyr/EmptySubset.h",
+    "lib/R/library/dplyr/include/dplyr/FullDataFrame.h",
+    "lib/R/library/dplyr/include/dplyr/Gatherer.h",
+    "lib/R/library/dplyr/include/dplyr/GroupedDataFrame.h",
+    "lib/R/library/dplyr/include/dplyr/JoinVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/JoinVisitorImpl.h",
+    "lib/R/library/dplyr/include/dplyr/MatrixColumnSubsetVectorVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/MatrixColumnVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/MultipleVectorVisitors.h",
+    "lib/R/library/dplyr/include/dplyr/NamedListAccumulator.h",
+    "lib/R/library/dplyr/include/dplyr/Order.h",
+    "lib/R/library/dplyr/include/dplyr/OrderVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/OrderVisitorImpl.h",
+    "lib/R/library/dplyr/include/dplyr/Replicator.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CallElementProxy.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CallProxy.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CallbackProcessor.h",
+    "lib/R/library/dplyr/include/dplyr/Result/ConstantResult.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Count.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Count_Distinct.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CumMax.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CumMin.h",
+    "lib/R/library/dplyr/include/dplyr/Result/CumSum.h",
+    "lib/R/library/dplyr/include/dplyr/Result/DelayedProcessor.h",
+    "lib/R/library/dplyr/include/dplyr/Result/DelayedReducer.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Everything.h",
+    "lib/R/library/dplyr/include/dplyr/Result/GroupedCallProxy.h",
+    "lib/R/library/dplyr/include/dplyr/Result/GroupedCallReducer.h",
+    "lib/R/library/dplyr/include/dplyr/Result/GroupedHybridCall.h",
+    "lib/R/library/dplyr/include/dplyr/Result/GroupedSubset.h",
+    "lib/R/library/dplyr/include/dplyr/Result/In.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Lag.h",
+    "lib/R/library/dplyr/include/dplyr/Result/LazyGroupedSubsets.h",
+    "lib/R/library/dplyr/include/dplyr/Result/LazyRowwiseSubsets.h",
+    "lib/R/library/dplyr/include/dplyr/Result/LazySubsets.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Lead.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Mean.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Mutater.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Processor.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Rank.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Result.h",
+    "lib/R/library/dplyr/include/dplyr/Result/ResultSet.h",
+    "lib/R/library/dplyr/include/dplyr/Result/RowwiseSubset.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Sd.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Sum.h",
+    "lib/R/library/dplyr/include/dplyr/Result/Var.h",
+    "lib/R/library/dplyr/include/dplyr/Result/VectorSliceVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/Result/all.h",
+    "lib/R/library/dplyr/include/dplyr/Result/factories.h",
+    "lib/R/library/dplyr/include/dplyr/Result/is_smaller.h",
+    "lib/R/library/dplyr/include/dplyr/Result/max.h",
+    "lib/R/library/dplyr/include/dplyr/Result/min.h",
+    "lib/R/library/dplyr/include/dplyr/RowwiseDataFrame.h",
+    "lib/R/library/dplyr/include/dplyr/SubsetVectorVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/SubsetVectorVisitorImpl.h",
+    "lib/R/library/dplyr/include/dplyr/SummarisedVariable.h",
+    "lib/R/library/dplyr/include/dplyr/VectorVisitor.h",
+    "lib/R/library/dplyr/include/dplyr/VectorVisitorImpl.h",
+    "lib/R/library/dplyr/include/dplyr/check_supported_type.h",
+    "lib/R/library/dplyr/include/dplyr/comparisons.h",
+    "lib/R/library/dplyr/include/dplyr/comparisons_different.h",
+    "lib/R/library/dplyr/include/dplyr/config.h",
+    "lib/R/library/dplyr/include/dplyr/registration.h",
+    "lib/R/library/dplyr/include/dplyr/subset_visitor.h",
+    "lib/R/library/dplyr/include/dplyr/tbl_cpp.h",
+    "lib/R/library/dplyr/include/dplyr/train.h",
+    "lib/R/library/dplyr/include/dplyr/vector_class.h",
+    "lib/R/library/dplyr/include/dplyr/visitor.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorEqualPredicate.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorHash.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetEqual.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetEqualPredicate.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetGreater.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetGreaterPredicate.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetHash.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetHasher.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetIndexMap.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetIndexSet.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetLess.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetLessPredicate.h",
+    "lib/R/library/dplyr/include/dplyr/visitor_set/visitor_set.h",
+    "lib/R/library/dplyr/include/dplyr/white_list.h",
+    "lib/R/library/dplyr/include/dplyr/workarounds.h",
+    "lib/R/library/dplyr/include/dplyr/workarounds/static_assert.h",
+    "lib/R/library/dplyr/include/solaris/solaris.h",
+    "lib/R/library/dplyr/include/tools/Call.h",
+    "lib/R/library/dplyr/include/tools/DotsOf.h",
+    "lib/R/library/dplyr/include/tools/Encoding.h",
+    "lib/R/library/dplyr/include/tools/FilteredListOf.h",
+    "lib/R/library/dplyr/include/tools/LazyDots.h",
+    "lib/R/library/dplyr/include/tools/ShrinkableVector.h",
+    "lib/R/library/dplyr/include/tools/SlicingIndex.h",
+    "lib/R/library/dplyr/include/tools/StringUTF8.h",
+    "lib/R/library/dplyr/include/tools/SymbolMap.h",
+    "lib/R/library/dplyr/include/tools/all_na.h",
+    "lib/R/library/dplyr/include/tools/collapse.h",
+    "lib/R/library/dplyr/include/tools/complex.h",
+    "lib/R/library/dplyr/include/tools/delete_all.h",
+    "lib/R/library/dplyr/include/tools/get_all_second.h",
+    "lib/R/library/dplyr/include/tools/get_single_class.h",
+    "lib/R/library/dplyr/include/tools/hash.h",
+    "lib/R/library/dplyr/include/tools/match.h",
+    "lib/R/library/dplyr/include/tools/pointer_vector.h",
+    "lib/R/library/dplyr/include/tools/tools.h",
+    "lib/R/library/dplyr/include/tools/wrap_subset.h",
+    "lib/R/library/dplyr/libs/dplyr.so"
+  ],
+  "fn": "r-dplyr-0.5.0-r3.3.2_1.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-dplyr-0.5.0-r3.3.2_1",
+    "type": 1
+  },
+  "md5": "c4e0d2cf00e0ec7edef6dc93ffb1ff36",
+  "name": "r-dplyr",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-dplyr-0.5.0-r3.3.2_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/dplyr/DESCRIPTION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/INDEX",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/LICENSE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/Rd.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/data.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/hsearch.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/links.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/nsInfo.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/package.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/Meta/vignette.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/NAMESPACE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/NEWS.md",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/R/dplyr",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/R/dplyr.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/R/dplyr.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/data/Rdata.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/data/Rdata.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/data/Rdata.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/data_frames.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/data_frames.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/data_frames.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/databases.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/databases.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/databases.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/hybrid-evaluation.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/hybrid-evaluation.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/hybrid-evaluation.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/introduction.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/introduction.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/introduction.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/new-sql-backend.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/new-sql-backend.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/new-sql-backend.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/nse.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/nse.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/nse.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/two-table.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/two-table.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/two-table.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/window-functions.R",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/window-functions.Rmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/doc/window-functions.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/help/AnIndex",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/help/aliases.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/help/dplyr.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/help/dplyr.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/help/paths.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/html/00Index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/html/R.css",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/BoolResult.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/CharacterVectorOrderer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Collecter.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameAble.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameColumnSubsetVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameColumnVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameJoinVisitors.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameSubsetVisitors.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameVisitors.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameVisitorsIndexMap.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/DataFrameVisitorsIndexSet.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/EmptySubset.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/FullDataFrame.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Gatherer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/GroupedDataFrame.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/JoinVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/JoinVisitorImpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/MatrixColumnSubsetVectorVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/MatrixColumnVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/MultipleVectorVisitors.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/NamedListAccumulator.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Order.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/OrderVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/OrderVisitorImpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Replicator.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CallElementProxy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CallProxy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CallbackProcessor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/ConstantResult.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Count.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Count_Distinct.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CumMax.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CumMin.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/CumSum.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/DelayedProcessor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/DelayedReducer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Everything.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/GroupedCallProxy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/GroupedCallReducer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/GroupedHybridCall.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/GroupedSubset.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/In.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Lag.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/LazyGroupedSubsets.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/LazyRowwiseSubsets.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/LazySubsets.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Lead.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Mean.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Mutater.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Processor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Rank.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Result.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/ResultSet.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/RowwiseSubset.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Sd.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Sum.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/Var.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/VectorSliceVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/all.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/factories.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/is_smaller.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/max.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/Result/min.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/RowwiseDataFrame.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/SubsetVectorVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/SubsetVectorVisitorImpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/SummarisedVariable.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/VectorVisitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/VectorVisitorImpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/check_supported_type.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/comparisons.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/comparisons_different.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/config.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/registration.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/subset_visitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/tbl_cpp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/train.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/vector_class.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorEqualPredicate.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorHash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetEqual.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetEqualPredicate.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetGreater.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetGreaterPredicate.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetHash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetHasher.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetIndexMap.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetIndexSet.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetLess.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/VisitorSetLessPredicate.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/visitor_set/visitor_set.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/white_list.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/workarounds.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/dplyr/workarounds/static_assert.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/solaris/solaris.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/Call.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/DotsOf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/Encoding.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/FilteredListOf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/LazyDots.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/ShrinkableVector.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/SlicingIndex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/StringUTF8.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/SymbolMap.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/all_na.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/collapse.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/complex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/delete_all.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/get_all_second.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/get_single_class.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/hash.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/match.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/pointer_vector.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/tools.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/include/tools/wrap_subset.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/dplyr/libs/dplyr.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/recipe_1496670965153/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256_in_prefix": "4afaac27dbbb5c084ef3dfa7797013f8bdcb7303b92cd1116287c60e5e89d6ec"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-dplyr",
+  "size": 1786307,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/r-dplyr-0.5.0-r3.3.2_1.tar.bz2",
+  "version": "0.5.0"
+}

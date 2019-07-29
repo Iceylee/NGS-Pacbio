@@ -1,0 +1,6 @@
+
+
+         bash scripts/sRNA.sh outData/sRNA/cmscan.tblout /data1/Rfam/rfam_anno.txt outData/sRNA/ncRNA.stats outData/sRNA/ncRNA.length outData/sRNA/sRNA.gff outData/sRNA/
+
+
+  

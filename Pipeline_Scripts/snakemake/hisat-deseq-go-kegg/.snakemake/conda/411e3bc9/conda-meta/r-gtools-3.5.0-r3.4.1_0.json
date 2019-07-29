@@ -1,0 +1,230 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-gtools-3.5.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/gtools/ChangeLog",
+    "lib/R/library/gtools/DESCRIPTION",
+    "lib/R/library/gtools/INDEX",
+    "lib/R/library/gtools/Meta/Rd.rds",
+    "lib/R/library/gtools/Meta/data.rds",
+    "lib/R/library/gtools/Meta/features.rds",
+    "lib/R/library/gtools/Meta/hsearch.rds",
+    "lib/R/library/gtools/Meta/links.rds",
+    "lib/R/library/gtools/Meta/nsInfo.rds",
+    "lib/R/library/gtools/Meta/package.rds",
+    "lib/R/library/gtools/NAMESPACE",
+    "lib/R/library/gtools/NEWS",
+    "lib/R/library/gtools/R/gtools",
+    "lib/R/library/gtools/R/gtools.rdb",
+    "lib/R/library/gtools/R/gtools.rdx",
+    "lib/R/library/gtools/data/ELISA.rda",
+    "lib/R/library/gtools/help/AnIndex",
+    "lib/R/library/gtools/help/aliases.rds",
+    "lib/R/library/gtools/help/gtools.rdb",
+    "lib/R/library/gtools/help/gtools.rdx",
+    "lib/R/library/gtools/help/paths.rds",
+    "lib/R/library/gtools/html/00Index.html",
+    "lib/R/library/gtools/html/R.css",
+    "lib/R/library/gtools/libs/gtools.so"
+  ],
+  "fn": "r-gtools-3.5.0-r3.4.1_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-gtools-3.5.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "26ef93557cd851d5d1ac2ce52cc01995",
+  "name": "r-gtools",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-gtools-3.5.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gtools/ChangeLog",
+        "path_type": "hardlink",
+        "sha256": "9183debe8ac3a450329446a24c972fb72a1d6e365530c5261aba45f7ad6b65a6",
+        "sha256_in_prefix": "9183debe8ac3a450329446a24c972fb72a1d6e365530c5261aba45f7ad6b65a6",
+        "size_in_bytes": 22089
+      },
+      {
+        "_path": "lib/R/library/gtools/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "70ece5ecd22cb0c89326c06c9d3153607410d94e5b392482713aee853edb88e6",
+        "sha256_in_prefix": "70ece5ecd22cb0c89326c06c9d3153607410d94e5b392482713aee853edb88e6",
+        "size_in_bytes": 1999
+      },
+      {
+        "_path": "lib/R/library/gtools/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e26cef1624308d1b65e823cd1e93c10bceea07d5aef3e4112bfe0b198d2c1a25",
+        "sha256_in_prefix": "e26cef1624308d1b65e823cd1e93c10bceea07d5aef3e4112bfe0b198d2c1a25",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2bc53de6442d35c11366d4c309dbedb1cef5e65e0083b534459d1448d36315f3",
+        "sha256_in_prefix": "2bc53de6442d35c11366d4c309dbedb1cef5e65e0083b534459d1448d36315f3",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "2aedcc070e65adaa5820b6f2236bb6852284e95077aba92ceb0b293719f9e209",
+        "sha256_in_prefix": "2aedcc070e65adaa5820b6f2236bb6852284e95077aba92ceb0b293719f9e209",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0c0a05ff160911fe214c3b63120504759abf4796f49fa40e0f69bac2b058fd20",
+        "sha256_in_prefix": "0c0a05ff160911fe214c3b63120504759abf4796f49fa40e0f69bac2b058fd20",
+        "size_in_bytes": 1676
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "65c4364e4319590a29b7f31dfec1ed1d78b1cc0e02ae366a5a41ea00af2bd149",
+        "sha256_in_prefix": "65c4364e4319590a29b7f31dfec1ed1d78b1cc0e02ae366a5a41ea00af2bd149",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "abffda27142f4b6f51918c9dda586ff1825a258a9a6fe9d4948c4d607d71da21",
+        "sha256_in_prefix": "abffda27142f4b6f51918c9dda586ff1825a258a9a6fe9d4948c4d607d71da21",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "lib/R/library/gtools/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d7a15f1631c1a8113867e57a9fb89241b03d0ce44dca7a45d9a03c017b3ef1ac",
+        "sha256_in_prefix": "d7a15f1631c1a8113867e57a9fb89241b03d0ce44dca7a45d9a03c017b3ef1ac",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "lib/R/library/gtools/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c31f084b09ee1366e33b4fb88b9e2452fbf8d91cd040043d92896396f9569c16",
+        "sha256_in_prefix": "c31f084b09ee1366e33b4fb88b9e2452fbf8d91cd040043d92896396f9569c16",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/gtools/NEWS",
+        "path_type": "hardlink",
+        "sha256": "e92c63372becd917ab5ab0643625535b1e4bf4466783c91ef68cfd7643f43246",
+        "sha256_in_prefix": "e92c63372becd917ab5ab0643625535b1e4bf4466783c91ef68cfd7643f43246",
+        "size_in_bytes": 8220
+      },
+      {
+        "_path": "lib/R/library/gtools/R/gtools",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gtools/R/gtools.rdb",
+        "path_type": "hardlink",
+        "sha256": "49950b13b13f10b6186eb0a1cb7be5c74cc33c3b5e3393e6c0f0404582aeaead",
+        "sha256_in_prefix": "49950b13b13f10b6186eb0a1cb7be5c74cc33c3b5e3393e6c0f0404582aeaead",
+        "size_in_bytes": 21367
+      },
+      {
+        "_path": "lib/R/library/gtools/R/gtools.rdx",
+        "path_type": "hardlink",
+        "sha256": "e285362442b5b21a27803f4a636d8b39e0793601b41a83b64ac20f0f55660c46",
+        "sha256_in_prefix": "e285362442b5b21a27803f4a636d8b39e0793601b41a83b64ac20f0f55660c46",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/R/library/gtools/data/ELISA.rda",
+        "path_type": "hardlink",
+        "sha256": "eca8bf392f12550fe74303edd1f0f17a695a52513f3ef4d8fe8259841836ac9a",
+        "sha256_in_prefix": "eca8bf392f12550fe74303edd1f0f17a695a52513f3ef4d8fe8259841836ac9a",
+        "size_in_bytes": 2732
+      },
+      {
+        "_path": "lib/R/library/gtools/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "79b25f611fc13fc0790898af3b93914303069382b1c5e8d4dd83dc5635166fed",
+        "sha256_in_prefix": "79b25f611fc13fc0790898af3b93914303069382b1c5e8d4dd83dc5635166fed",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "lib/R/library/gtools/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d88fd7ad56c9c7f73a86f5ec97448aa391b73b1d6a498386460e4c31820fae88",
+        "sha256_in_prefix": "d88fd7ad56c9c7f73a86f5ec97448aa391b73b1d6a498386460e4c31820fae88",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "lib/R/library/gtools/help/gtools.rdb",
+        "path_type": "hardlink",
+        "sha256": "41717ad9ef10db2b9fa36053e14da1cb82fd8c138b47286c39d64140cf29269b",
+        "sha256_in_prefix": "41717ad9ef10db2b9fa36053e14da1cb82fd8c138b47286c39d64140cf29269b",
+        "size_in_bytes": 79441
+      },
+      {
+        "_path": "lib/R/library/gtools/help/gtools.rdx",
+        "path_type": "hardlink",
+        "sha256": "0656b3d6e3c3b03b57f15cc7855d516e09d8dee13c0b04431e328062344304b4",
+        "sha256_in_prefix": "0656b3d6e3c3b03b57f15cc7855d516e09d8dee13c0b04431e328062344304b4",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "lib/R/library/gtools/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4583e68ddfcad21d9501348cc55a22ed638de691dbbbc5d7becc7849888a3ced",
+        "sha256_in_prefix": "4583e68ddfcad21d9501348cc55a22ed638de691dbbbc5d7becc7849888a3ced",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/R/library/gtools/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6cb1a31ccb1fae01bf624c1420a2126a84da90b4c4a52835809f5f2ecfe5c9b1",
+        "sha256_in_prefix": "6cb1a31ccb1fae01bf624c1420a2126a84da90b4c4a52835809f5f2ecfe5c9b1",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "lib/R/library/gtools/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/gtools/libs/gtools.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-gtools_1502982020805/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2d740b91d412c6db25336de1a161f2841aef91c082bdae964277b03ad7e0b5eb",
+        "sha256_in_prefix": "901b51d6e3de19ac8bb5c0fba1c80ed321af01c1c5319ccdd39a9f1f0a46c2df",
+        "size_in_bytes": 9338
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-gtools=3.5.0",
+  "size": 137923,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-gtools-3.5.0-r3.4.1_0.tar.bz2",
+  "version": "3.5.0"
+}

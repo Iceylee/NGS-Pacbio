@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/ca-certificates-2018.4.16-0",
+  "features": "",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2018.4.16-0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/ca-certificates-2018.4.16-0",
+    "type": 1
+  },
+  "md5": "b37df2fb78fec18f617cf0c3cad83067",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/ca-certificates-2018.4.16-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "d25c0c2db7e2e2e9b30dd3a674b31dacd920671c3ee72e8f084d743eb9c9cbe9",
+        "sha256_in_prefix": "d25c0c2db7e2e2e9b30dd3a674b31dacd920671c3ee72e8f084d743eb9c9cbe9",
+        "size_in_bytes": 268839
+      },
+      {
+        "_path": "ssl/cert.pem",
+        "path_type": "softlink",
+        "sha256": "d25c0c2db7e2e2e9b30dd3a674b31dacd920671c3ee72e8f084d743eb9c9cbe9",
+        "size_in_bytes": 268839
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 142666,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2018.4.16-0.tar.bz2",
+  "version": "2018.4.16"
+}

@@ -1,0 +1,720 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base 3.4.1*",
+    "r-bitops"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-rcurl-1.95_4.8-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/RCurl/CurlSSL/boost.pem",
+    "lib/R/library/RCurl/CurlSSL/ca-bundle.crt",
+    "lib/R/library/RCurl/CurlSSL/cacert.pem",
+    "lib/R/library/RCurl/CurlSSL/certs",
+    "lib/R/library/RCurl/CurlSSL/certs.pem",
+    "lib/R/library/RCurl/CurlSSL/curlSSL.xml",
+    "lib/R/library/RCurl/CurlSSL/cybertrust.pem",
+    "lib/R/library/RCurl/CurlSSL/docs",
+    "lib/R/library/RCurl/CurlSSL/google.pem",
+    "lib/R/library/RCurl/CurlSSL/myBundle.crt",
+    "lib/R/library/RCurl/CurlSSL/ok.R",
+    "lib/R/library/RCurl/CurlSSL/server.pem",
+    "lib/R/library/RCurl/CurlSSL/statEth.pem",
+    "lib/R/library/RCurl/DESCRIPTION",
+    "lib/R/library/RCurl/HTTPErrors/makeErrorClasses.R",
+    "lib/R/library/RCurl/INDEX",
+    "lib/R/library/RCurl/Meta/Rd.rds",
+    "lib/R/library/RCurl/Meta/data.rds",
+    "lib/R/library/RCurl/Meta/features.rds",
+    "lib/R/library/RCurl/Meta/hsearch.rds",
+    "lib/R/library/RCurl/Meta/links.rds",
+    "lib/R/library/RCurl/Meta/nsInfo.rds",
+    "lib/R/library/RCurl/Meta/package.rds",
+    "lib/R/library/RCurl/NAMESPACE",
+    "lib/R/library/RCurl/R/RCurl",
+    "lib/R/library/RCurl/R/RCurl.rdb",
+    "lib/R/library/RCurl/R/RCurl.rdx",
+    "lib/R/library/RCurl/data/mimeTypeExtensions.rda",
+    "lib/R/library/RCurl/doc/FAQ.html",
+    "lib/R/library/RCurl/doc/cookies.xml",
+    "lib/R/library/RCurl/doc/fileUploads.xml",
+    "lib/R/library/RCurl/doc/philosophy.html",
+    "lib/R/library/RCurl/doc/philosophy.xml",
+    "lib/R/library/RCurl/doc/withCookies.Rdb",
+    "lib/R/library/RCurl/doc/withCookies.html",
+    "lib/R/library/RCurl/enums/Renums.c",
+    "lib/R/library/RCurl/etc/README",
+    "lib/R/library/RCurl/etc/ca-bundle.crt",
+    "lib/R/library/RCurl/examples/CIS/cis.R",
+    "lib/R/library/RCurl/examples/CIS/cis1.R",
+    "lib/R/library/RCurl/examples/chunks.S",
+    "lib/R/library/RCurl/examples/cis1.R",
+    "lib/R/library/RCurl/examples/concurrent.S",
+    "lib/R/library/RCurl/examples/concurrent.html",
+    "lib/R/library/RCurl/examples/concurrent.xml",
+    "lib/R/library/RCurl/examples/curl.c",
+    "lib/R/library/RCurl/examples/download.R",
+    "lib/R/library/RCurl/examples/elapsed.png",
+    "lib/R/library/RCurl/examples/encoding.R",
+    "lib/R/library/RCurl/examples/ftpList.R",
+    "lib/R/library/RCurl/examples/getinfo.S",
+    "lib/R/library/RCurl/examples/headers.S",
+    "lib/R/library/RCurl/examples/headers2.S",
+    "lib/R/library/RCurl/examples/html.S",
+    "lib/R/library/RCurl/examples/logo.jpg",
+    "lib/R/library/RCurl/examples/multi.S",
+    "lib/R/library/RCurl/examples/nestedHTML.html",
+    "lib/R/library/RCurl/examples/nestedHTML.xml",
+    "lib/R/library/RCurl/examples/omg.netrc",
+    "lib/R/library/RCurl/examples/passwd.S",
+    "lib/R/library/RCurl/examples/passwd2.S",
+    "lib/R/library/RCurl/examples/passwdSSL.S",
+    "lib/R/library/RCurl/examples/post.c",
+    "lib/R/library/RCurl/examples/post.html",
+    "lib/R/library/RCurl/examples/postFormPasswd.R",
+    "lib/R/library/RCurl/examples/progress.S",
+    "lib/R/library/RCurl/examples/proxy.R",
+    "lib/R/library/RCurl/examples/readHeader.S",
+    "lib/R/library/RCurl/examples/soap.S",
+    "lib/R/library/RCurl/examples/speakeasy.S",
+    "lib/R/library/RCurl/examples/system.png",
+    "lib/R/library/RCurl/examples/time.R",
+    "lib/R/library/RCurl/examples/upload.R",
+    "lib/R/library/RCurl/examples/user.png",
+    "lib/R/library/RCurl/examples/worm.S",
+    "lib/R/library/RCurl/examples/xmlParse.html",
+    "lib/R/library/RCurl/examples/xmlParse.xml",
+    "lib/R/library/RCurl/help/AnIndex",
+    "lib/R/library/RCurl/help/RCurl.rdb",
+    "lib/R/library/RCurl/help/RCurl.rdx",
+    "lib/R/library/RCurl/help/aliases.rds",
+    "lib/R/library/RCurl/help/paths.rds",
+    "lib/R/library/RCurl/html/00Index.html",
+    "lib/R/library/RCurl/html/R.css",
+    "lib/R/library/RCurl/libs/RCurl.so"
+  ],
+  "fn": "r-rcurl-1.95_4.8-r3.4.1_0.tar.bz2",
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-rcurl-1.95_4.8-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "6f658c2fb700e476c8338ca58206c419",
+  "name": "r-rcurl",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-rcurl-1.95_4.8-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/boost.pem",
+        "path_type": "hardlink",
+        "sha256": "e7e125b6eeb723e5cd9049bb56c390a2ae3f16a0e245a0baec497c454270b855",
+        "sha256_in_prefix": "e7e125b6eeb723e5cd9049bb56c390a2ae3f16a0e245a0baec497c454270b855",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/ca-bundle.crt",
+        "path_type": "hardlink",
+        "sha256": "066d825a0a0eb98aa30259d4b685a1f4885d413830337d58073ab89ba70b56a7",
+        "sha256_in_prefix": "066d825a0a0eb98aa30259d4b685a1f4885d413830337d58073ab89ba70b56a7",
+        "size_in_bytes": 278491
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "09e9744987ceda000f17d0a59fb4b6f2547b4e16424ad387aaed2864ffd7e7d1",
+        "sha256_in_prefix": "09e9744987ceda000f17d0a59fb4b6f2547b4e16424ad387aaed2864ffd7e7d1",
+        "size_in_bytes": 203034
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/certs",
+        "path_type": "hardlink",
+        "sha256": "983649acc0c20fca2b52942aa0db3e975d310c1e08316610eb31d7bcbd80ead0",
+        "sha256_in_prefix": "983649acc0c20fca2b52942aa0db3e975d310c1e08316610eb31d7bcbd80ead0",
+        "size_in_bytes": 3338
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/certs.pem",
+        "path_type": "hardlink",
+        "sha256": "983649acc0c20fca2b52942aa0db3e975d310c1e08316610eb31d7bcbd80ead0",
+        "sha256_in_prefix": "983649acc0c20fca2b52942aa0db3e975d310c1e08316610eb31d7bcbd80ead0",
+        "size_in_bytes": 3338
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/curlSSL.xml",
+        "path_type": "hardlink",
+        "sha256": "52086d0989fd5e8955922c58883ab41c693a09152bb6c308d6888e8f9c15e01c",
+        "sha256_in_prefix": "52086d0989fd5e8955922c58883ab41c693a09152bb6c308d6888e8f9c15e01c",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/cybertrust.pem",
+        "path_type": "hardlink",
+        "sha256": "fb8fa27d0c411750eeb70ce328aa9fc8f233083f16552e3da86a3452e7a71cf2",
+        "sha256_in_prefix": "fb8fa27d0c411750eeb70ce328aa9fc8f233083f16552e3da86a3452e7a71cf2",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/docs",
+        "path_type": "hardlink",
+        "sha256": "6d3a8c551ff8b1067bd94c87ba702204664ece61d8eb1e3c2d816346fd20fdc5",
+        "sha256_in_prefix": "6d3a8c551ff8b1067bd94c87ba702204664ece61d8eb1e3c2d816346fd20fdc5",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/google.pem",
+        "path_type": "hardlink",
+        "sha256": "39e62b01947876be0f60ba96653df5dd37d1f894dd12ff3c4b230efb25c6d29c",
+        "sha256_in_prefix": "39e62b01947876be0f60ba96653df5dd37d1f894dd12ff3c4b230efb25c6d29c",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/myBundle.crt",
+        "path_type": "hardlink",
+        "sha256": "34625f9ced70e89423fe1e4ddbfd859a45dc06cd248c5482e5ff440fc763f4d2",
+        "sha256_in_prefix": "34625f9ced70e89423fe1e4ddbfd859a45dc06cd248c5482e5ff440fc763f4d2",
+        "size_in_bytes": 280161
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/ok.R",
+        "path_type": "hardlink",
+        "sha256": "6133b7e712e0ee75a4b700f0e14068f78220210b3326e21d8a9ebc6a36017aed",
+        "sha256_in_prefix": "6133b7e712e0ee75a4b700f0e14068f78220210b3326e21d8a9ebc6a36017aed",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/server.pem",
+        "path_type": "hardlink",
+        "sha256": "c7b0d39b1f6ff986e50b00266069b9ef0608abb2c87590fe4ef1e8fe2277706c",
+        "sha256_in_prefix": "c7b0d39b1f6ff986e50b00266069b9ef0608abb2c87590fe4ef1e8fe2277706c",
+        "size_in_bytes": 4107
+      },
+      {
+        "_path": "lib/R/library/RCurl/CurlSSL/statEth.pem",
+        "path_type": "hardlink",
+        "sha256": "22fc50d18357d7ea9d7ec2346c7ee2483c8a2bcb1bae1304a7b61d09d45c415e",
+        "sha256_in_prefix": "22fc50d18357d7ea9d7ec2346c7ee2483c8a2bcb1bae1304a7b61d09d45c415e",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/RCurl/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a5f83e57c9cdd4d7a5651d3c937fc8ff43f78cb53e6f8b1a415fa78821ea8865",
+        "sha256_in_prefix": "a5f83e57c9cdd4d7a5651d3c937fc8ff43f78cb53e6f8b1a415fa78821ea8865",
+        "size_in_bytes": 2312
+      },
+      {
+        "_path": "lib/R/library/RCurl/HTTPErrors/makeErrorClasses.R",
+        "path_type": "hardlink",
+        "sha256": "8ef158f31cdc9be8d37d2aa4918a689f20da854f3ba9e4ecaef7d0ac6d9a1cc4",
+        "sha256_in_prefix": "8ef158f31cdc9be8d37d2aa4918a689f20da854f3ba9e4ecaef7d0ac6d9a1cc4",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "lib/R/library/RCurl/INDEX",
+        "path_type": "hardlink",
+        "sha256": "906d755088dee87bc8b2fe5b8a0a0e7c04f85519e114afc176aa1417f0bbb07e",
+        "sha256_in_prefix": "906d755088dee87bc8b2fe5b8a0a0e7c04f85519e114afc176aa1417f0bbb07e",
+        "size_in_bytes": 3349
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e58755c6fb7318963f083fd445709f367be6c18400ec4b924541b9de085f4a5a",
+        "sha256_in_prefix": "e58755c6fb7318963f083fd445709f367be6c18400ec4b924541b9de085f4a5a",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "408c6fac818b834ffd9088a5d4c7f898fc317089ec9d17e76b6497fcb2f0425a",
+        "sha256_in_prefix": "408c6fac818b834ffd9088a5d4c7f898fc317089ec9d17e76b6497fcb2f0425a",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8a6fcb13bc3527095b42fa06e043c1c03cc83b4aae83d0277fde8ee54d44bee7",
+        "sha256_in_prefix": "8a6fcb13bc3527095b42fa06e043c1c03cc83b4aae83d0277fde8ee54d44bee7",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "002a4108b82f63e7806057f3e946ff01aeb7ac8c556e6ea348bbeb1df6bedd95",
+        "sha256_in_prefix": "002a4108b82f63e7806057f3e946ff01aeb7ac8c556e6ea348bbeb1df6bedd95",
+        "size_in_bytes": 1624
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "135a9d102b0be809218e27b926fd14e8e98ac1b351142c2a4fa8b08c809afb42",
+        "sha256_in_prefix": "135a9d102b0be809218e27b926fd14e8e98ac1b351142c2a4fa8b08c809afb42",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "lib/R/library/RCurl/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "72e1a6672544c261d8e99d1394fa8d66d4e76cb82516c05f5b10d58122e813e9",
+        "sha256_in_prefix": "72e1a6672544c261d8e99d1394fa8d66d4e76cb82516c05f5b10d58122e813e9",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "lib/R/library/RCurl/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7f2d85fcfe4a4267c6810251d83b30c7e60ed4e1b6b96002b277fbe59f22effe",
+        "sha256_in_prefix": "7f2d85fcfe4a4267c6810251d83b30c7e60ed4e1b6b96002b277fbe59f22effe",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "lib/R/library/RCurl/R/RCurl",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RCurl/R/RCurl.rdb",
+        "path_type": "hardlink",
+        "sha256": "bf6bcda546c42f8b62927ef2df1003b87c83823ee228ba5052495a9798910498",
+        "sha256_in_prefix": "bf6bcda546c42f8b62927ef2df1003b87c83823ee228ba5052495a9798910498",
+        "size_in_bytes": 178677
+      },
+      {
+        "_path": "lib/R/library/RCurl/R/RCurl.rdx",
+        "path_type": "hardlink",
+        "sha256": "c14bdf945127ddae03bf422a41557a77cfe38431918de9d02953e3bd9d4f7f3c",
+        "sha256_in_prefix": "c14bdf945127ddae03bf422a41557a77cfe38431918de9d02953e3bd9d4f7f3c",
+        "size_in_bytes": 5236
+      },
+      {
+        "_path": "lib/R/library/RCurl/data/mimeTypeExtensions.rda",
+        "path_type": "hardlink",
+        "sha256": "9ada83ffda898d97e7aef8bfebc670ccf061602002dfa89a1232f0013d79deda",
+        "sha256_in_prefix": "9ada83ffda898d97e7aef8bfebc670ccf061602002dfa89a1232f0013d79deda",
+        "size_in_bytes": 4879
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/FAQ.html",
+        "path_type": "hardlink",
+        "sha256": "59645e43e205d2c848e65bf7059307ad8056e81d8e98cb9f1708abbfbeb1cfe0",
+        "sha256_in_prefix": "59645e43e205d2c848e65bf7059307ad8056e81d8e98cb9f1708abbfbeb1cfe0",
+        "size_in_bytes": 21024
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/cookies.xml",
+        "path_type": "hardlink",
+        "sha256": "a582b8491181b8dbe79be52cfe43ba433d4c6750706a37333947258c07bd649b",
+        "sha256_in_prefix": "a582b8491181b8dbe79be52cfe43ba433d4c6750706a37333947258c07bd649b",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/fileUploads.xml",
+        "path_type": "hardlink",
+        "sha256": "411aade0bc2bec9f98498355a5b12a1addac607b79d2777eecf7a0ec2554240b",
+        "sha256_in_prefix": "411aade0bc2bec9f98498355a5b12a1addac607b79d2777eecf7a0ec2554240b",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/philosophy.html",
+        "path_type": "hardlink",
+        "sha256": "2d07906e49e2246f6f1455278fe7fdae3999617826654d087c8415f0832f244e",
+        "sha256_in_prefix": "2d07906e49e2246f6f1455278fe7fdae3999617826654d087c8415f0832f244e",
+        "size_in_bytes": 57935
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/philosophy.xml",
+        "path_type": "hardlink",
+        "sha256": "7c811ff0fa1e9da0154c1390a08c5b53da4113add665a9337d67a39c56ac974e",
+        "sha256_in_prefix": "7c811ff0fa1e9da0154c1390a08c5b53da4113add665a9337d67a39c56ac974e",
+        "size_in_bytes": 50243
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/withCookies.Rdb",
+        "path_type": "hardlink",
+        "sha256": "40e20ccfde00333c312e3aa63a7f10027ec627e957da0bc986c28f71fe5b2b5e",
+        "sha256_in_prefix": "40e20ccfde00333c312e3aa63a7f10027ec627e957da0bc986c28f71fe5b2b5e",
+        "size_in_bytes": 6071
+      },
+      {
+        "_path": "lib/R/library/RCurl/doc/withCookies.html",
+        "path_type": "hardlink",
+        "sha256": "3acc9c27fbd819a3e0ed765e26866ad6369108c3ffc5c49d9344d46e3df2172d",
+        "sha256_in_prefix": "3acc9c27fbd819a3e0ed765e26866ad6369108c3ffc5c49d9344d46e3df2172d",
+        "size_in_bytes": 11276
+      },
+      {
+        "_path": "lib/R/library/RCurl/enums/Renums.c",
+        "path_type": "hardlink",
+        "sha256": "7b85c472b7269936ee5a417ec8f2c0cb9b868918aa76be07a4be07802a47c3bb",
+        "sha256_in_prefix": "7b85c472b7269936ee5a417ec8f2c0cb9b868918aa76be07a4be07802a47c3bb",
+        "size_in_bytes": 11506
+      },
+      {
+        "_path": "lib/R/library/RCurl/etc/README",
+        "path_type": "hardlink",
+        "sha256": "03ca7f7a95b96d06e42289a7be3a5d480b30177ada3f40fbf9a0ef2791cbe8af",
+        "sha256_in_prefix": "03ca7f7a95b96d06e42289a7be3a5d480b30177ada3f40fbf9a0ef2791cbe8af",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/R/library/RCurl/etc/ca-bundle.crt",
+        "path_type": "hardlink",
+        "sha256": "0f119da204025da7808273fab42ed8e030cafb5c7ea4e1deda4e75f066f528fb",
+        "sha256_in_prefix": "0f119da204025da7808273fab42ed8e030cafb5c7ea4e1deda4e75f066f528fb",
+        "size_in_bytes": 258424
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/CIS/cis.R",
+        "path_type": "hardlink",
+        "sha256": "d2d6dd20989f8f287e91f7d9c1566718173d593eb43eb74a7d233d814f8142ac",
+        "sha256_in_prefix": "d2d6dd20989f8f287e91f7d9c1566718173d593eb43eb74a7d233d814f8142ac",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/CIS/cis1.R",
+        "path_type": "hardlink",
+        "sha256": "3526500e373ca6507e1cdc1492007c78b8ced95df312fd212d3666d21d1410e8",
+        "sha256_in_prefix": "3526500e373ca6507e1cdc1492007c78b8ced95df312fd212d3666d21d1410e8",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/chunks.S",
+        "path_type": "hardlink",
+        "sha256": "65cd3260690cf5e5cde21be44b0f13689d9602992503a699699c51996e459a17",
+        "sha256_in_prefix": "65cd3260690cf5e5cde21be44b0f13689d9602992503a699699c51996e459a17",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/cis1.R",
+        "path_type": "hardlink",
+        "sha256": "4c63af43819e22682122df3ea5eaf371e8c1015bd888d1ccf10f69b3237bc38f",
+        "sha256_in_prefix": "4c63af43819e22682122df3ea5eaf371e8c1015bd888d1ccf10f69b3237bc38f",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/concurrent.S",
+        "path_type": "hardlink",
+        "sha256": "6069d6519aee9e0326d82a561c185738a4b138995d1c11c9543b5e555e7d81fa",
+        "sha256_in_prefix": "6069d6519aee9e0326d82a561c185738a4b138995d1c11c9543b5e555e7d81fa",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/concurrent.html",
+        "path_type": "hardlink",
+        "sha256": "9a065b924dc2ee3bce308f8eccc07507ae4625ebb36c977930f2eb7680ef7c74",
+        "sha256_in_prefix": "9a065b924dc2ee3bce308f8eccc07507ae4625ebb36c977930f2eb7680ef7c74",
+        "size_in_bytes": 8051
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/concurrent.xml",
+        "path_type": "hardlink",
+        "sha256": "ee0e57cd9606910a2234ffd7e53c750b30249c23ac9bf3c89800ee832239f2b8",
+        "sha256_in_prefix": "ee0e57cd9606910a2234ffd7e53c750b30249c23ac9bf3c89800ee832239f2b8",
+        "size_in_bytes": 6795
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/curl.c",
+        "path_type": "hardlink",
+        "sha256": "7b874f96b939f41d4b47d82b3f615c52e8afaf0f636b18940c8585500a93240b",
+        "sha256_in_prefix": "7b874f96b939f41d4b47d82b3f615c52e8afaf0f636b18940c8585500a93240b",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/download.R",
+        "path_type": "hardlink",
+        "sha256": "ac4bbf60451361093f5a7d275e18025a74da3f6e338ee5a614ee2a21dabbda07",
+        "sha256_in_prefix": "ac4bbf60451361093f5a7d275e18025a74da3f6e338ee5a614ee2a21dabbda07",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/elapsed.png",
+        "path_type": "hardlink",
+        "sha256": "7e44a0fffa32a58c791769a7044a01f8618f02b907b38df2c12e240618b5e905",
+        "sha256_in_prefix": "7e44a0fffa32a58c791769a7044a01f8618f02b907b38df2c12e240618b5e905",
+        "size_in_bytes": 10472
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/encoding.R",
+        "path_type": "hardlink",
+        "sha256": "e043fb198f96a232b1ef1bdb4b385c6504799a946557995a7e9946ffb8bca56f",
+        "sha256_in_prefix": "e043fb198f96a232b1ef1bdb4b385c6504799a946557995a7e9946ffb8bca56f",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/ftpList.R",
+        "path_type": "hardlink",
+        "sha256": "1859983950d629a6f959147fd41f033a27ac0e13a3b4158e561bdafcabf32e8b",
+        "sha256_in_prefix": "1859983950d629a6f959147fd41f033a27ac0e13a3b4158e561bdafcabf32e8b",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/getinfo.S",
+        "path_type": "hardlink",
+        "sha256": "ef23bd11a9f6a34d26f41884e8e1913f3af641f845fe0c88c9259860651526bc",
+        "sha256_in_prefix": "ef23bd11a9f6a34d26f41884e8e1913f3af641f845fe0c88c9259860651526bc",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/headers.S",
+        "path_type": "hardlink",
+        "sha256": "4d6612b55c80a4fc50e9a98b1dddc187924db34bba91062a0cbc58077832a402",
+        "sha256_in_prefix": "4d6612b55c80a4fc50e9a98b1dddc187924db34bba91062a0cbc58077832a402",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/headers2.S",
+        "path_type": "hardlink",
+        "sha256": "156df15fbb6c766c402b023fab6d34f0c5e82a71f97fe4c741a4bebf049551b4",
+        "sha256_in_prefix": "156df15fbb6c766c402b023fab6d34f0c5e82a71f97fe4c741a4bebf049551b4",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/html.S",
+        "path_type": "hardlink",
+        "sha256": "05d105b82e82c739d562d21d3c59eeafbe8b3e4fa3bbe63df4fc55b2f7a1ff99",
+        "sha256_in_prefix": "05d105b82e82c739d562d21d3c59eeafbe8b3e4fa3bbe63df4fc55b2f7a1ff99",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/logo.jpg",
+        "path_type": "hardlink",
+        "sha256": "f9465ed21680b3de44d9a6b4b4d004e833455ed305e91daec93a0d429414efff",
+        "sha256_in_prefix": "f9465ed21680b3de44d9a6b4b4d004e833455ed305e91daec93a0d429414efff",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/multi.S",
+        "path_type": "hardlink",
+        "sha256": "8e8ec80b918f23b37766c1f246fd80977ba05766ab68502a4e9fe69b18dea147",
+        "sha256_in_prefix": "8e8ec80b918f23b37766c1f246fd80977ba05766ab68502a4e9fe69b18dea147",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/nestedHTML.html",
+        "path_type": "hardlink",
+        "sha256": "fd63e2cbbc4b6c9e75a069819195ae6db8218eca836610cc66791362f24e9622",
+        "sha256_in_prefix": "fd63e2cbbc4b6c9e75a069819195ae6db8218eca836610cc66791362f24e9622",
+        "size_in_bytes": 8976
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/nestedHTML.xml",
+        "path_type": "hardlink",
+        "sha256": "d72759205d1db4bd9aaf38dddfbcd1e6141ac6dc85bf63cab58d94341d8270cd",
+        "sha256_in_prefix": "d72759205d1db4bd9aaf38dddfbcd1e6141ac6dc85bf63cab58d94341d8270cd",
+        "size_in_bytes": 7982
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/omg.netrc",
+        "path_type": "hardlink",
+        "sha256": "1895cd58fa2c1d5c3427e3831b8c81a0bbe7501df49a27d257f09bcd0c54db96",
+        "sha256_in_prefix": "1895cd58fa2c1d5c3427e3831b8c81a0bbe7501df49a27d257f09bcd0c54db96",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/passwd.S",
+        "path_type": "hardlink",
+        "sha256": "eadbc851273c135c3b79ec8101bae3ba1ef8fe4c6db1c74a005f894fa5b2ee1a",
+        "sha256_in_prefix": "eadbc851273c135c3b79ec8101bae3ba1ef8fe4c6db1c74a005f894fa5b2ee1a",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/passwd2.S",
+        "path_type": "hardlink",
+        "sha256": "b1ae1908f40b1ce0b8b23a3643a3e05cf634cc4a7682b27dac223e779e2272a2",
+        "sha256_in_prefix": "b1ae1908f40b1ce0b8b23a3643a3e05cf634cc4a7682b27dac223e779e2272a2",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/passwdSSL.S",
+        "path_type": "hardlink",
+        "sha256": "76c5070686483f178553a14f1f2a49c4f9a078a51a66b527956274aca6a316e3",
+        "sha256_in_prefix": "76c5070686483f178553a14f1f2a49c4f9a078a51a66b527956274aca6a316e3",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/post.c",
+        "path_type": "hardlink",
+        "sha256": "a23472a8fb091e998ff2dec0522167d960d2d3d11e5cf2d957a91dc364e47015",
+        "sha256_in_prefix": "a23472a8fb091e998ff2dec0522167d960d2d3d11e5cf2d957a91dc364e47015",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/post.html",
+        "path_type": "hardlink",
+        "sha256": "ef2b02130ee943f7195ecebf76ba07b1891057033680984242dd2c14672ffbce",
+        "sha256_in_prefix": "ef2b02130ee943f7195ecebf76ba07b1891057033680984242dd2c14672ffbce",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/postFormPasswd.R",
+        "path_type": "hardlink",
+        "sha256": "d0fb85a2440ea7f61b1e9450f5a5452aee03a1654db2920f846f0b7f9cad6da5",
+        "sha256_in_prefix": "d0fb85a2440ea7f61b1e9450f5a5452aee03a1654db2920f846f0b7f9cad6da5",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/progress.S",
+        "path_type": "hardlink",
+        "sha256": "1d6ac207bb356ad326da48188f96ad76b5a69b1ec92ea92692aa983980e5ac23",
+        "sha256_in_prefix": "1d6ac207bb356ad326da48188f96ad76b5a69b1ec92ea92692aa983980e5ac23",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/proxy.R",
+        "path_type": "hardlink",
+        "sha256": "cb7a325d4146fcb5159f9388bf5e80819e9bb3bd0a0586522fe6bcaa97842b3c",
+        "sha256_in_prefix": "cb7a325d4146fcb5159f9388bf5e80819e9bb3bd0a0586522fe6bcaa97842b3c",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/readHeader.S",
+        "path_type": "hardlink",
+        "sha256": "25ba9498d3f945f68bd72f74bd80d49f28d114b591555784c2593da1054e09f3",
+        "sha256_in_prefix": "25ba9498d3f945f68bd72f74bd80d49f28d114b591555784c2593da1054e09f3",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/soap.S",
+        "path_type": "hardlink",
+        "sha256": "2965789a8723c78be5150c22903b8628d72063f9d442eeb231668e56b65b4589",
+        "sha256_in_prefix": "2965789a8723c78be5150c22903b8628d72063f9d442eeb231668e56b65b4589",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/speakeasy.S",
+        "path_type": "hardlink",
+        "sha256": "1563242ed44ef5f240b44c85d79acececbe70fc2a23639f45cf5a57d7b558b74",
+        "sha256_in_prefix": "1563242ed44ef5f240b44c85d79acececbe70fc2a23639f45cf5a57d7b558b74",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/system.png",
+        "path_type": "hardlink",
+        "sha256": "613197274f06252154d5b7be68a8288fe3f072ee2873ec1081b2bdebed553710",
+        "sha256_in_prefix": "613197274f06252154d5b7be68a8288fe3f072ee2873ec1081b2bdebed553710",
+        "size_in_bytes": 2598
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/time.R",
+        "path_type": "hardlink",
+        "sha256": "e72b2d912fd3cdcc9c5556674ad6f2c3b99c86e039ba673645afeaa222d8bb65",
+        "sha256_in_prefix": "e72b2d912fd3cdcc9c5556674ad6f2c3b99c86e039ba673645afeaa222d8bb65",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/upload.R",
+        "path_type": "hardlink",
+        "sha256": "d0869b7b61bbad7287add16204436bb6c5b881e12701126a777569db1c64688e",
+        "sha256_in_prefix": "d0869b7b61bbad7287add16204436bb6c5b881e12701126a777569db1c64688e",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/user.png",
+        "path_type": "hardlink",
+        "sha256": "ebd7e87a7a13635d580e50cdb78a1e27c861ec4133847edfd7364824e28a24cb",
+        "sha256_in_prefix": "ebd7e87a7a13635d580e50cdb78a1e27c861ec4133847edfd7364824e28a24cb",
+        "size_in_bytes": 2507
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/worm.S",
+        "path_type": "hardlink",
+        "sha256": "122d63e0d0781c874df6a7448e5ba522d28acf27b83687510bd68aa2d8b6fa37",
+        "sha256_in_prefix": "122d63e0d0781c874df6a7448e5ba522d28acf27b83687510bd68aa2d8b6fa37",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/xmlParse.html",
+        "path_type": "hardlink",
+        "sha256": "e36819ed1b800d9f7b8b130c84d4c6b999ce742cfdcda1ef91b0d385a9bbf1f6",
+        "sha256_in_prefix": "e36819ed1b800d9f7b8b130c84d4c6b999ce742cfdcda1ef91b0d385a9bbf1f6",
+        "size_in_bytes": 10021
+      },
+      {
+        "_path": "lib/R/library/RCurl/examples/xmlParse.xml",
+        "path_type": "hardlink",
+        "sha256": "aab402bb130c7587a3f822d0b99e2e3ef3000927682808784dfbbb664b30ab30",
+        "sha256_in_prefix": "aab402bb130c7587a3f822d0b99e2e3ef3000927682808784dfbbb664b30ab30",
+        "size_in_bytes": 9122
+      },
+      {
+        "_path": "lib/R/library/RCurl/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e017342f2211877547a60ce70653d5f59b73524d58783c6109bbaff566fb8cbc",
+        "sha256_in_prefix": "e017342f2211877547a60ce70653d5f59b73524d58783c6109bbaff566fb8cbc",
+        "size_in_bytes": 4927
+      },
+      {
+        "_path": "lib/R/library/RCurl/help/RCurl.rdb",
+        "path_type": "hardlink",
+        "sha256": "ad8c907f6b75d7d07a9e440d4e98eb127848f1486549f25ecbe02773cdfa7ff1",
+        "sha256_in_prefix": "ad8c907f6b75d7d07a9e440d4e98eb127848f1486549f25ecbe02773cdfa7ff1",
+        "size_in_bytes": 137224
+      },
+      {
+        "_path": "lib/R/library/RCurl/help/RCurl.rdx",
+        "path_type": "hardlink",
+        "sha256": "eac1d341b7de9dcc6f4baa2791a2bb46fb5ebb9f54004023d66d3898f32c575c",
+        "sha256_in_prefix": "eac1d341b7de9dcc6f4baa2791a2bb46fb5ebb9f54004023d66d3898f32c575c",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "lib/R/library/RCurl/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d76fa677964412829163dc557adde93ce3dd29dd565342f5e192e45622eeb7b9",
+        "sha256_in_prefix": "d76fa677964412829163dc557adde93ce3dd29dd565342f5e192e45622eeb7b9",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "lib/R/library/RCurl/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "16faa1726fd3326b7e6bb029479958037ad776f111ec9dd96f67acb8788c5e0c",
+        "sha256_in_prefix": "16faa1726fd3326b7e6bb029479958037ad776f111ec9dd96f67acb8788c5e0c",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/RCurl/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "66329fab7952d07562223bf567e4252399b1349d5f7cb9f222de10c90f73033c",
+        "sha256_in_prefix": "66329fab7952d07562223bf567e4252399b1349d5f7cb9f222de10c90f73033c",
+        "size_in_bytes": 18353
+      },
+      {
+        "_path": "lib/R/library/RCurl/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RCurl/libs/RCurl.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-rcurl_1503183861799/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "3626050cbaf33a1e1bdcddeedbb1f4aebadc48f2a6a39f2227fb9265a81bef13",
+        "sha256_in_prefix": "8df89a28e4c9b95d7fc1b7d6fc9203c372c30acc8a2d330aeb634e2ae362cb97",
+        "size_in_bytes": 93956
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-rcurl=1.95_4.8",
+  "size": 777892,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rcurl-1.95_4.8-r3.4.1_0.tar.bz2",
+  "version": "1.95_4.8"
+}

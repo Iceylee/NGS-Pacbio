@@ -1,0 +1,204 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-bindr-0.1.1-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/bindr/DESCRIPTION",
+    "lib/R/library/bindr/INDEX",
+    "lib/R/library/bindr/LICENSE",
+    "lib/R/library/bindr/Meta/Rd.rds",
+    "lib/R/library/bindr/Meta/features.rds",
+    "lib/R/library/bindr/Meta/hsearch.rds",
+    "lib/R/library/bindr/Meta/links.rds",
+    "lib/R/library/bindr/Meta/nsInfo.rds",
+    "lib/R/library/bindr/Meta/package.rds",
+    "lib/R/library/bindr/NAMESPACE",
+    "lib/R/library/bindr/NEWS.md",
+    "lib/R/library/bindr/R/bindr",
+    "lib/R/library/bindr/R/bindr.rdb",
+    "lib/R/library/bindr/R/bindr.rdx",
+    "lib/R/library/bindr/help/AnIndex",
+    "lib/R/library/bindr/help/aliases.rds",
+    "lib/R/library/bindr/help/bindr.rdb",
+    "lib/R/library/bindr/help/bindr.rdx",
+    "lib/R/library/bindr/help/paths.rds",
+    "lib/R/library/bindr/html/00Index.html",
+    "lib/R/library/bindr/html/R.css"
+  ],
+  "fn": "r-bindr-0.1.1-r3.4.1_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-bindr-0.1.1-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "489282167a87f8f820f6a5ea0c13bb4a",
+  "name": "r-bindr",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-bindr-0.1.1-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/bindr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "78fee4ea11c0b7e6d56577f402a7675fa1bf8f22a738188feb50a62c125e7c7b",
+        "sha256_in_prefix": "78fee4ea11c0b7e6d56577f402a7675fa1bf8f22a738188feb50a62c125e7c7b",
+        "size_in_bytes": 957
+      },
+      {
+        "_path": "lib/R/library/bindr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "ce3e8097c9281ce936e98faeae5787fb85ec51dbd2be1c76efa57d0ee65556a8",
+        "sha256_in_prefix": "ce3e8097c9281ce936e98faeae5787fb85ec51dbd2be1c76efa57d0ee65556a8",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/bindr/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "dedbd9556ae00e53a723dbd70e98121fd4f0ab3d6d4c9089456a0d9f74d851f6",
+        "sha256_in_prefix": "dedbd9556ae00e53a723dbd70e98121fd4f0ab3d6d4c9089456a0d9f74d851f6",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "716ebbf3cd7fbb3b24fb732d32a7cd82e5ef58a4276383f4827cb13b8f960229",
+        "sha256_in_prefix": "716ebbf3cd7fbb3b24fb732d32a7cd82e5ef58a4276383f4827cb13b8f960229",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "261282c71de91e19954196aebfc73cd3bd0344fdd2e1b04829cebb9f90429c52",
+        "sha256_in_prefix": "261282c71de91e19954196aebfc73cd3bd0344fdd2e1b04829cebb9f90429c52",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "c6da916032bd233da4441e4500c5b2c0278d63a175cabb3330f2181d7b561961",
+        "sha256_in_prefix": "c6da916032bd233da4441e4500c5b2c0278d63a175cabb3330f2181d7b561961",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "52a1b92a9aec31559b792f1561e8cce49bbf505727d0e400ecfb43819772bcca",
+        "sha256_in_prefix": "52a1b92a9aec31559b792f1561e8cce49bbf505727d0e400ecfb43819772bcca",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/R/library/bindr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "987b7d9b092ce7248d9ac1214520d980b614bf5ca032e5cd100d76f2a9a3890d",
+        "sha256_in_prefix": "987b7d9b092ce7248d9ac1214520d980b614bf5ca032e5cd100d76f2a9a3890d",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "lib/R/library/bindr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b92aeb97c37f3312c1f44ada6ed817fdb5ff83d9380a04dfa89d76771974d755",
+        "sha256_in_prefix": "b92aeb97c37f3312c1f44ada6ed817fdb5ff83d9380a04dfa89d76771974d755",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/R/library/bindr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "95de2e04e3b8eb011ba16dcc566efcbdfd99f88124ddf7140874bf8af500f6d9",
+        "sha256_in_prefix": "95de2e04e3b8eb011ba16dcc566efcbdfd99f88124ddf7140874bf8af500f6d9",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/R/library/bindr/R/bindr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/bindr/R/bindr.rdb",
+        "path_type": "hardlink",
+        "sha256": "6122e3cbda1fcae8d9de8e00d02341d5cf2d1fd9de0fdded8caf98e2301ce506",
+        "sha256_in_prefix": "6122e3cbda1fcae8d9de8e00d02341d5cf2d1fd9de0fdded8caf98e2301ce506",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "lib/R/library/bindr/R/bindr.rdx",
+        "path_type": "hardlink",
+        "sha256": "2372bd85c88c60ca0a600ef2d1b457a6b9b51e8ad1a279dbc4f56395ebba8e60",
+        "sha256_in_prefix": "2372bd85c88c60ca0a600ef2d1b457a6b9b51e8ad1a279dbc4f56395ebba8e60",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/R/library/bindr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0117dec9ae3d583832446035c14cf47d04837552f244f1069ce7afb65c3bd722",
+        "sha256_in_prefix": "0117dec9ae3d583832446035c14cf47d04837552f244f1069ce7afb65c3bd722",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/R/library/bindr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "aa90d980755939823fbcb4b1e98fdbc66bc3d9333b78a0d5ec39498c6dbf5ba3",
+        "sha256_in_prefix": "aa90d980755939823fbcb4b1e98fdbc66bc3d9333b78a0d5ec39498c6dbf5ba3",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/R/library/bindr/help/bindr.rdb",
+        "path_type": "hardlink",
+        "sha256": "17db987166c4806625a4f355123ee3a1bfb011b21b683a50246e642070ecfa36",
+        "sha256_in_prefix": "17db987166c4806625a4f355123ee3a1bfb011b21b683a50246e642070ecfa36",
+        "size_in_bytes": 4066
+      },
+      {
+        "_path": "lib/R/library/bindr/help/bindr.rdx",
+        "path_type": "hardlink",
+        "sha256": "438e17917e2f642023d24671119e2f68723daed776f84534ffe0054fef6baaac",
+        "sha256_in_prefix": "438e17917e2f642023d24671119e2f68723daed776f84534ffe0054fef6baaac",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/bindr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ec7cfe5470fce8bf6fdb31ddf7c1be252461b1629ab2905f97b9b4e3e6ea9aea",
+        "sha256_in_prefix": "ec7cfe5470fce8bf6fdb31ddf7c1be252461b1629ab2905f97b9b4e3e6ea9aea",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/R/library/bindr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "51bf9ce2fe171427d0d49a13683e774491b11f3bf0a8653e6882cec915851a56",
+        "sha256_in_prefix": "51bf9ce2fe171427d0d49a13683e774491b11f3bf0a8653e6882cec915851a56",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "lib/R/library/bindr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 17852,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-bindr-0.1.1-r3.4.1_0.tar.bz2",
+  "version": "0.1.1"
+}

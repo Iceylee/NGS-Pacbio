@@ -1,0 +1,36 @@
+WorkflowError in line 27 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py:
+Error validating row 0 of data frame.
+ValidationError: 'unit' is a required property
+
+Failed validating 'required' in schema:
+    OrderedDict([('$schema', 'http://json-schema.org/draft-06/schema#'),
+                 ('description',
+                  'row of the units.tsv, representing a sequencing unit, '
+                  'i.e. single-end or paired-end data'),
+                 ('type', 'object'),
+                 ('properties',
+                  OrderedDict([('sample',
+                                OrderedDict([('type', 'string'),
+                                             ('description',
+                                              'sample name/id the unit has '
+                                              'been sequenced from')])),
+                               ('unit',
+                                OrderedDict([('type', 'string'),
+                                             ('description', 'unit id')])),
+                               ('fq1',
+                                OrderedDict([('type', 'string'),
+                                             ('description',
+                                              'path to FASTQ file')])),
+                               ('fq2',
+                                OrderedDict([('type', 'string'),
+                                             ('description',
+                                              'path to second FASTQ file '
+                                              '(leave empty in case of '
+                                              'single-end)')]))])),
+                 ('required', ['sample', 'unit', 'fq1'])])
+
+On instance:
+    {'fq1': 'rawData/reads/HBR_1_R1.fq',
+     'fq2': 'rawData/reads/HBR_1_R2.fq',
+     'sample': 'HBR_1'}
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 27, in <module>

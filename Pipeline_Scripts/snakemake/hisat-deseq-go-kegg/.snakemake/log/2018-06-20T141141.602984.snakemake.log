@@ -1,0 +1,58 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	count_matrix
+	1	deseq2_init
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	5
+
+rule count_matrix:
+    input: outData/htseq/HBR_1_CountNum.txt, outData/htseq/HBR_2_CountNum.txt, outData/htseq/HBR_3_CountNum.txt, outData/htseq/UHR_1_CountNum.txt, outData/htseq/UHR_2_CountNum.txt, outData/htseq/UHR_3_CountNum.txt
+    output: outData/counts/all.csv
+    jobid: 40
+
+Finished job 40.
+1 of 5 steps (20%) done
+
+rule deseq2_init:
+    input: outData/counts/all.csv, colData.csv
+    output: outData/deseq2/all.rds, outData/deseq2/norm_count.matrix.txt
+    log: logs/deseq2/init.log
+    jobid: 37
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 37.
+2 of 5 steps (40%) done
+
+rule heatmap_plot:
+    input: colData.csv, outData/deseq2/all.rds
+    output: outData/deseq2/heatmap.pdf
+    log: logs/deseq2/heatmap_plot.log
+    jobid: 15
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 15.
+3 of 5 steps (60%) done
+
+rule heatmap_cor_plot:
+    input: colData.csv, outData/deseq2/norm_count.matrix.txt
+    output: outData/deseq2/heatmap_cor.pdf
+    log: logs/deseq2/heatmap_cor_plot.log
+    jobid: 21
+
+Activating conda environment: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+Finished job 21.
+4 of 5 steps (80%) done
+
+localrule all:
+    input: outData/fastqc_clean/HBR_1_clean_R1_fastqc.zip, outData/fastqc/HBR_1_R1_fastqc.zip, outData/htseq/HBR_1_CountNum.txt, outData/sorted_bam/HBR_1_sorted.bam, outData/fastqc_clean/HBR_2_clean_R1_fastqc.zip, outData/fastqc/HBR_2_R1_fastqc.zip, outData/htseq/HBR_2_CountNum.txt, outData/sorted_bam/HBR_2_sorted.bam, outData/fastqc_clean/HBR_3_clean_R1_fastqc.zip, outData/fastqc/HBR_3_R1_fastqc.zip, outData/htseq/HBR_3_CountNum.txt, outData/sorted_bam/HBR_3_sorted.bam, outData/fastqc_clean/UHR_1_clean_R1_fastqc.zip, outData/fastqc/UHR_1_R1_fastqc.zip, outData/htseq/UHR_1_CountNum.txt, outData/sorted_bam/UHR_1_sorted.bam, outData/fastqc_clean/UHR_2_clean_R1_fastqc.zip, outData/fastqc/UHR_2_R1_fastqc.zip, outData/htseq/UHR_2_CountNum.txt, outData/sorted_bam/UHR_2_sorted.bam, outData/fastqc_clean/UHR_3_clean_R1_fastqc.zip, outData/fastqc/UHR_3_R1_fastqc.zip, outData/htseq/UHR_3_CountNum.txt, outData/sorted_bam/UHR_3_sorted.bam, outData/deseq2/heatmap_cor.pdf, outData/deseq2/heatmap.pdf
+    jobid: 0
+
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T141141.602984.snakemake.log

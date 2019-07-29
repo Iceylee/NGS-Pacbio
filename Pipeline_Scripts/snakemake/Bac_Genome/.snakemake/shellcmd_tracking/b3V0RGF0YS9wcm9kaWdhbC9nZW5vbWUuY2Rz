@@ -1,0 +1,7 @@
+
+
+          awk -v name=fake_2M_genome -f scripts/pep2.awk outData/prodigal/prodigal.pep >outData/prodigal/genome.pep
+          awk -v name=fake_2M_genome -f scripts/pep2.awk outData/prodigal/prodigal.cds >outData/prodigal/genome.cds
+          awk -v name=fake_2M_genome -f scripts/gff2.awk outData/prodigal/prodigal.gff >outData/prodigal/genome.gff 
+      
+  

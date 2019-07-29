@@ -1,0 +1,9 @@
+
+
+         tRNAscan-SE --bact -o outData/tRNA/tRNA.out -f outData/tRNA/tRNA.ss -m outData/tRNA/tRNA.stats rawData/assembly.fasta
+		 
+    		 cat outData/tRNA/tRNA.out|awk '
+    		 BEGIN{FS=OFS="	"}
+    		 NR>3{print $1,"tRNAscan-SE","tRNA",$3,$4,$9,"+",$5,$6}'|sed "1 i #Sequence	Source	Feature	Start	End	Score	Strand	Type	Codon" > outData/tRNA/tRNA.gff
+
+  

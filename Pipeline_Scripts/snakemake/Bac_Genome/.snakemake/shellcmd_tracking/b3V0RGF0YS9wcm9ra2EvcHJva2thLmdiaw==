@@ -1,0 +1,4 @@
+
+           prokka rawData/assembly.fasta --outdir outData/prokka/ --prefix prokka --force
+
+  

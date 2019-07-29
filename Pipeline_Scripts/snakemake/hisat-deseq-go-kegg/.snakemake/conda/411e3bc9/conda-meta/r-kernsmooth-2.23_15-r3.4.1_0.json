@@ -1,0 +1,238 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-kernsmooth-2.23_15-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/KernSmooth/DESCRIPTION",
+    "lib/R/library/KernSmooth/INDEX",
+    "lib/R/library/KernSmooth/Meta/Rd.rds",
+    "lib/R/library/KernSmooth/Meta/features.rds",
+    "lib/R/library/KernSmooth/Meta/hsearch.rds",
+    "lib/R/library/KernSmooth/Meta/links.rds",
+    "lib/R/library/KernSmooth/Meta/nsInfo.rds",
+    "lib/R/library/KernSmooth/Meta/package.rds",
+    "lib/R/library/KernSmooth/NAMESPACE",
+    "lib/R/library/KernSmooth/R/KernSmooth",
+    "lib/R/library/KernSmooth/R/KernSmooth.rdb",
+    "lib/R/library/KernSmooth/R/KernSmooth.rdx",
+    "lib/R/library/KernSmooth/help/AnIndex",
+    "lib/R/library/KernSmooth/help/KernSmooth.rdb",
+    "lib/R/library/KernSmooth/help/KernSmooth.rdx",
+    "lib/R/library/KernSmooth/help/aliases.rds",
+    "lib/R/library/KernSmooth/help/paths.rds",
+    "lib/R/library/KernSmooth/html/00Index.html",
+    "lib/R/library/KernSmooth/html/R.css",
+    "lib/R/library/KernSmooth/libs/KernSmooth.so",
+    "lib/R/library/KernSmooth/po/de/LC_MESSAGES/R-KernSmooth.mo",
+    "lib/R/library/KernSmooth/po/en@quot/LC_MESSAGES/R-KernSmooth.mo",
+    "lib/R/library/KernSmooth/po/fr/LC_MESSAGES/R-KernSmooth.mo",
+    "lib/R/library/KernSmooth/po/ko/LC_MESSAGES/R-KernSmooth.mo",
+    "lib/R/library/KernSmooth/po/pl/LC_MESSAGES/R-KernSmooth.mo"
+  ],
+  "fn": "r-kernsmooth-2.23_15-r3.4.1_0.tar.bz2",
+  "license": "Unlimited",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-kernsmooth-2.23_15-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "084d8cd18b5c041b0f758a53180e6b9e",
+  "name": "r-kernsmooth",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-kernsmooth-2.23_15-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/KernSmooth/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "93f54c1defe58f0c905734b43abcba1ebc05f3b2506ddacffc71817a631aeea6",
+        "sha256_in_prefix": "93f54c1defe58f0c905734b43abcba1ebc05f3b2506ddacffc71817a631aeea6",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c1d1b7989f3ad3a5ecf6482735d6e20e88c44b960fa13a713dd43aae958d6ec0",
+        "sha256_in_prefix": "c1d1b7989f3ad3a5ecf6482735d6e20e88c44b960fa13a713dd43aae958d6ec0",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "eb26aaea73d0fdd2fdf8726e12da8311e39cc548cf8b0506827c064279c5e598",
+        "sha256_in_prefix": "eb26aaea73d0fdd2fdf8726e12da8311e39cc548cf8b0506827c064279c5e598",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "068287b40c77537c57012c1a14695e0bad5d656f0b4c4d2680213b7c1084b0ee",
+        "sha256_in_prefix": "068287b40c77537c57012c1a14695e0bad5d656f0b4c4d2680213b7c1084b0ee",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d6c101c00fceef68e29495f196f9fe9a9c948c828a464f6cff84a79bce8aafe8",
+        "sha256_in_prefix": "d6c101c00fceef68e29495f196f9fe9a9c948c828a464f6cff84a79bce8aafe8",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ceb809a795417b60756fda25d23d720ec4e20f5ba542db62a593e88808582666",
+        "sha256_in_prefix": "ceb809a795417b60756fda25d23d720ec4e20f5ba542db62a593e88808582666",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ebcaa5b955595d67800c4e1552a57a8cd95bf123fc4d9a3b6c1ed96be9aac972",
+        "sha256_in_prefix": "ebcaa5b955595d67800c4e1552a57a8cd95bf123fc4d9a3b6c1ed96be9aac972",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b6a96fe5acd2e51f97128b460ffa36076098016beb066b1ffb4bdc8f3578539e",
+        "sha256_in_prefix": "b6a96fe5acd2e51f97128b460ffa36076098016beb066b1ffb4bdc8f3578539e",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/R/KernSmooth",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/R/KernSmooth.rdb",
+        "path_type": "hardlink",
+        "sha256": "6e9c08a5a2b8dc63106085ab79a67c8df04d068ea2649229a68d77e6794db66e",
+        "sha256_in_prefix": "6e9c08a5a2b8dc63106085ab79a67c8df04d068ea2649229a68d77e6794db66e",
+        "size_in_bytes": 42244
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/R/KernSmooth.rdx",
+        "path_type": "hardlink",
+        "sha256": "9fd493007bac077693dc9d325a0499658207887e4ff70d598cc87d97d9b65797",
+        "sha256_in_prefix": "9fd493007bac077693dc9d325a0499658207887e4ff70d598cc87d97d9b65797",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "44e95a5e2ce488afebf3a2f0fa53f26625351bd1a290f84453eae9d02ca270f3",
+        "sha256_in_prefix": "44e95a5e2ce488afebf3a2f0fa53f26625351bd1a290f84453eae9d02ca270f3",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/help/KernSmooth.rdb",
+        "path_type": "hardlink",
+        "sha256": "609eeb0a8d070a5072fb698802e5a69dc0b087e75c7f073c5c1fb6f5d73c1aac",
+        "sha256_in_prefix": "609eeb0a8d070a5072fb698802e5a69dc0b087e75c7f073c5c1fb6f5d73c1aac",
+        "size_in_bytes": 26771
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/help/KernSmooth.rdx",
+        "path_type": "hardlink",
+        "sha256": "ab102c4785f800c546d1a286f3e758af624371672caeda38cf33a002386ea20a",
+        "sha256_in_prefix": "ab102c4785f800c546d1a286f3e758af624371672caeda38cf33a002386ea20a",
+        "size_in_bytes": 280
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a52456b4f7a623d91fe79a2f3eb271eef890cd47213b7049e25da2f20310e4d1",
+        "sha256_in_prefix": "a52456b4f7a623d91fe79a2f3eb271eef890cd47213b7049e25da2f20310e4d1",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4de159dcc03e766e8ce54f1d853236d65b23ed5842591d3df8fe19f49aa06f62",
+        "sha256_in_prefix": "4de159dcc03e766e8ce54f1d853236d65b23ed5842591d3df8fe19f49aa06f62",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "04ccd83ea5f90fdd7907bc4686c88db129d675cef4079af5284f0c95f3f708f4",
+        "sha256_in_prefix": "04ccd83ea5f90fdd7907bc4686c88db129d675cef4079af5284f0c95f3f708f4",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/libs/KernSmooth.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-kernsmooth_1503144601800/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4bb1633fc7029c906aacb4a3eb2b4cfb5086c36da78b7bb7c096e15e94ec6b15",
+        "sha256_in_prefix": "25858f8bc7c6b2ab070c304907d509ff8028171aa0a9596826b4e6b75af33c52",
+        "size_in_bytes": 32058
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/po/de/LC_MESSAGES/R-KernSmooth.mo",
+        "path_type": "hardlink",
+        "sha256": "cd27ef7c82a10f7175d523e878b729436a1660df3eabe9b6ba1e5422f4d125d5",
+        "sha256_in_prefix": "cd27ef7c82a10f7175d523e878b729436a1660df3eabe9b6ba1e5422f4d125d5",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/po/en@quot/LC_MESSAGES/R-KernSmooth.mo",
+        "path_type": "hardlink",
+        "sha256": "e25b606bec4e99b96911ddb9ded0f9a85fc5e888e59b0fda5dc04a810dade9b6",
+        "sha256_in_prefix": "e25b606bec4e99b96911ddb9ded0f9a85fc5e888e59b0fda5dc04a810dade9b6",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/po/fr/LC_MESSAGES/R-KernSmooth.mo",
+        "path_type": "hardlink",
+        "sha256": "eaa958c004bbf7b32d1c84f7d8989d70180913ad61068d0c3f4e3967ebe35251",
+        "sha256_in_prefix": "eaa958c004bbf7b32d1c84f7d8989d70180913ad61068d0c3f4e3967ebe35251",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/po/ko/LC_MESSAGES/R-KernSmooth.mo",
+        "path_type": "hardlink",
+        "sha256": "5467006ae6718a2244d1a0d7e99a105fde511e01b2e9b4091dd47dca2b1d7880",
+        "sha256_in_prefix": "5467006ae6718a2244d1a0d7e99a105fde511e01b2e9b4091dd47dca2b1d7880",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "lib/R/library/KernSmooth/po/pl/LC_MESSAGES/R-KernSmooth.mo",
+        "path_type": "hardlink",
+        "sha256": "b82cd0f29f2a12520f3ede99bf546627a2c10ef3370b4d606cc33a4daa582f8d",
+        "sha256_in_prefix": "b82cd0f29f2a12520f3ede99bf546627a2c10ef3370b4d606cc33a4daa582f8d",
+        "size_in_bytes": 1428
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-kernsmooth=2.23_15",
+  "size": 98453,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-kernsmooth-2.23_15-r3.4.1_0.tar.bz2",
+  "version": "2.23_15"
+}

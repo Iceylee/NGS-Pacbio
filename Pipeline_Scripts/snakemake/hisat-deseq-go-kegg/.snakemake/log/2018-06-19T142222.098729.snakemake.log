@@ -1,0 +1,5 @@
+Building DAG of jobs...
+InputFunctionException in line 4 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/fastqc_trim.smk:
+KeyError: 'the label [HBR_3_3] is not in the [index]'
+Wildcards:
+sample=HBR_3_3

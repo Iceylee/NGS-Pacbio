@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 51 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py:
+Missing input files for rule all:
+outData/snp/NC.vcf
+outData/snp/EV.vcf

@@ -1,0 +1,150 @@
+{
+  "arch": "x86_64",
+  "build": "r3.3.2_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.3.2*",
+    "r-dichromat",
+    "r-labeling",
+    "r-munsell >=0.2",
+    "r-plyr",
+    "r-rcolorbrewer",
+    "r-rcpp"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-scales-0.4.1-r3.3.2_1",
+  "features": "",
+  "files": [
+    "lib/R/library/scales/DESCRIPTION",
+    "lib/R/library/scales/INDEX",
+    "lib/R/library/scales/LICENSE",
+    "lib/R/library/scales/Meta/Rd.rds",
+    "lib/R/library/scales/Meta/hsearch.rds",
+    "lib/R/library/scales/Meta/links.rds",
+    "lib/R/library/scales/Meta/nsInfo.rds",
+    "lib/R/library/scales/Meta/package.rds",
+    "lib/R/library/scales/NAMESPACE",
+    "lib/R/library/scales/NEWS.md",
+    "lib/R/library/scales/R/scales",
+    "lib/R/library/scales/R/scales.rdb",
+    "lib/R/library/scales/R/scales.rdx",
+    "lib/R/library/scales/help/AnIndex",
+    "lib/R/library/scales/help/aliases.rds",
+    "lib/R/library/scales/help/paths.rds",
+    "lib/R/library/scales/help/scales.rdb",
+    "lib/R/library/scales/help/scales.rdx",
+    "lib/R/library/scales/html/00Index.html",
+    "lib/R/library/scales/html/R.css",
+    "lib/R/library/scales/libs/scales.so"
+  ],
+  "fn": "r-scales-0.4.1-r3.3.2_1.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-scales-0.4.1-r3.3.2_1",
+    "type": 1
+  },
+  "md5": "ef250dd8310638adc01510994882b531",
+  "name": "r-scales",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-scales-0.4.1-r3.3.2_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/scales/DESCRIPTION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/INDEX",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/LICENSE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/Rd.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/hsearch.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/links.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/nsInfo.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/Meta/package.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/NAMESPACE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/NEWS.md",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/R/scales.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/help/AnIndex",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/help/aliases.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/help/paths.rds",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/help/scales.rdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/help/scales.rdx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/html/00Index.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/html/R.css",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/R/library/scales/libs/scales.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/recipe_1496543193586/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256_in_prefix": "d0cc8b68cfaea37c6a5754ee6a010b34c32a7d147fc9c9a7c32ad6c0ca351e17"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 222047,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/r-scales-0.4.1-r3.3.2_1.tar.bz2",
+  "version": "0.4.1"
+}

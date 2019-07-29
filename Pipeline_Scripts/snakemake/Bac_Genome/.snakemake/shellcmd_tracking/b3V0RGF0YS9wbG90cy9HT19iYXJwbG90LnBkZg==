@@ -1,0 +1,4 @@
+
+        Rscript scripts/GO_plot.R outData/diamond/go_count.out outData/plots/GO_barplot
+
+  

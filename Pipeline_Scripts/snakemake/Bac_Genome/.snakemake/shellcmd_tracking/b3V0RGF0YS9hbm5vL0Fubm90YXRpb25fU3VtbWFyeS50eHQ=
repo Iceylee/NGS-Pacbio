@@ -1,0 +1,7 @@
+
+
+        cat outData/prodigal/genome.pep |grep ">"|sed 's/>//g' |awk 'BEGIN{FS=" "}{print $1}' > outData/anno/genome.list
+
+        Rscript scripts/anno_summary.R outData/diamond/ outData/anno/genome.list outData/anno/ 
+
+  

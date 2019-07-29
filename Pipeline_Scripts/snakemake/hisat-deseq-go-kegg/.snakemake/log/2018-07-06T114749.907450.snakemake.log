@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	GATK_SelectVariants
+	1	all
+	2
+
+rule GATK_SelectVariants:
+    input: colData.csv
+    output: outData/snp/EV_merge.vcf
+    jobid: 22
+    wildcards: condition=EV
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-07-06T114749.907450.snakemake.log

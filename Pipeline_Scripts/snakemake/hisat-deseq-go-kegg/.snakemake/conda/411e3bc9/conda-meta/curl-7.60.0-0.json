@@ -1,0 +1,3397 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "krb5 1.14.*",
+    "libssh2 1.8.*",
+    "openssl 1.0.*",
+    "zlib 1.2.11"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/curl-7.60.0-0",
+  "features": "",
+  "files": [
+    "bin/curl",
+    "bin/curl-config",
+    "include/curl/curl.h",
+    "include/curl/curlver.h",
+    "include/curl/easy.h",
+    "include/curl/mprintf.h",
+    "include/curl/multi.h",
+    "include/curl/stdcheaders.h",
+    "include/curl/system.h",
+    "include/curl/typecheck-gcc.h",
+    "lib/libcurl.a",
+    "lib/libcurl.la",
+    "lib/libcurl.so",
+    "lib/libcurl.so.4",
+    "lib/libcurl.so.4.5.0",
+    "lib/pkgconfig/libcurl.pc",
+    "share/aclocal/libcurl.m4",
+    "share/man/man1/curl-config.1",
+    "share/man/man1/curl.1",
+    "share/man/man3/CURLINFO_ACTIVESOCKET.3",
+    "share/man/man3/CURLINFO_APPCONNECT_TIME.3",
+    "share/man/man3/CURLINFO_CERTINFO.3",
+    "share/man/man3/CURLINFO_CONDITION_UNMET.3",
+    "share/man/man3/CURLINFO_CONNECT_TIME.3",
+    "share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD.3",
+    "share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD_T.3",
+    "share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD.3",
+    "share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD_T.3",
+    "share/man/man3/CURLINFO_CONTENT_TYPE.3",
+    "share/man/man3/CURLINFO_COOKIELIST.3",
+    "share/man/man3/CURLINFO_EFFECTIVE_URL.3",
+    "share/man/man3/CURLINFO_FILETIME.3",
+    "share/man/man3/CURLINFO_FILETIME_T.3",
+    "share/man/man3/CURLINFO_FTP_ENTRY_PATH.3",
+    "share/man/man3/CURLINFO_HEADER_SIZE.3",
+    "share/man/man3/CURLINFO_HTTPAUTH_AVAIL.3",
+    "share/man/man3/CURLINFO_HTTP_CONNECTCODE.3",
+    "share/man/man3/CURLINFO_HTTP_VERSION.3",
+    "share/man/man3/CURLINFO_LASTSOCKET.3",
+    "share/man/man3/CURLINFO_LOCAL_IP.3",
+    "share/man/man3/CURLINFO_LOCAL_PORT.3",
+    "share/man/man3/CURLINFO_NAMELOOKUP_TIME.3",
+    "share/man/man3/CURLINFO_NUM_CONNECTS.3",
+    "share/man/man3/CURLINFO_OS_ERRNO.3",
+    "share/man/man3/CURLINFO_PRETRANSFER_TIME.3",
+    "share/man/man3/CURLINFO_PRIMARY_IP.3",
+    "share/man/man3/CURLINFO_PRIMARY_PORT.3",
+    "share/man/man3/CURLINFO_PRIVATE.3",
+    "share/man/man3/CURLINFO_PROTOCOL.3",
+    "share/man/man3/CURLINFO_PROXYAUTH_AVAIL.3",
+    "share/man/man3/CURLINFO_PROXY_SSL_VERIFYRESULT.3",
+    "share/man/man3/CURLINFO_REDIRECT_COUNT.3",
+    "share/man/man3/CURLINFO_REDIRECT_TIME.3",
+    "share/man/man3/CURLINFO_REDIRECT_URL.3",
+    "share/man/man3/CURLINFO_REQUEST_SIZE.3",
+    "share/man/man3/CURLINFO_RESPONSE_CODE.3",
+    "share/man/man3/CURLINFO_RTSP_CLIENT_CSEQ.3",
+    "share/man/man3/CURLINFO_RTSP_CSEQ_RECV.3",
+    "share/man/man3/CURLINFO_RTSP_SERVER_CSEQ.3",
+    "share/man/man3/CURLINFO_RTSP_SESSION_ID.3",
+    "share/man/man3/CURLINFO_SCHEME.3",
+    "share/man/man3/CURLINFO_SIZE_DOWNLOAD.3",
+    "share/man/man3/CURLINFO_SIZE_DOWNLOAD_T.3",
+    "share/man/man3/CURLINFO_SIZE_UPLOAD.3",
+    "share/man/man3/CURLINFO_SIZE_UPLOAD_T.3",
+    "share/man/man3/CURLINFO_SPEED_DOWNLOAD.3",
+    "share/man/man3/CURLINFO_SPEED_DOWNLOAD_T.3",
+    "share/man/man3/CURLINFO_SPEED_UPLOAD.3",
+    "share/man/man3/CURLINFO_SPEED_UPLOAD_T.3",
+    "share/man/man3/CURLINFO_SSL_ENGINES.3",
+    "share/man/man3/CURLINFO_SSL_VERIFYRESULT.3",
+    "share/man/man3/CURLINFO_STARTTRANSFER_TIME.3",
+    "share/man/man3/CURLINFO_TLS_SESSION.3",
+    "share/man/man3/CURLINFO_TLS_SSL_PTR.3",
+    "share/man/man3/CURLINFO_TOTAL_TIME.3",
+    "share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3",
+    "share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3",
+    "share/man/man3/CURLMOPT_MAXCONNECTS.3",
+    "share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3",
+    "share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3",
+    "share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3",
+    "share/man/man3/CURLMOPT_PIPELINING.3",
+    "share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3",
+    "share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3",
+    "share/man/man3/CURLMOPT_PUSHDATA.3",
+    "share/man/man3/CURLMOPT_PUSHFUNCTION.3",
+    "share/man/man3/CURLMOPT_SOCKETDATA.3",
+    "share/man/man3/CURLMOPT_SOCKETFUNCTION.3",
+    "share/man/man3/CURLMOPT_TIMERDATA.3",
+    "share/man/man3/CURLMOPT_TIMERFUNCTION.3",
+    "share/man/man3/CURLOPT_ABSTRACT_UNIX_SOCKET.3",
+    "share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3",
+    "share/man/man3/CURLOPT_ACCEPT_ENCODING.3",
+    "share/man/man3/CURLOPT_ADDRESS_SCOPE.3",
+    "share/man/man3/CURLOPT_APPEND.3",
+    "share/man/man3/CURLOPT_AUTOREFERER.3",
+    "share/man/man3/CURLOPT_BUFFERSIZE.3",
+    "share/man/man3/CURLOPT_CAINFO.3",
+    "share/man/man3/CURLOPT_CAPATH.3",
+    "share/man/man3/CURLOPT_CERTINFO.3",
+    "share/man/man3/CURLOPT_CHUNK_BGN_FUNCTION.3",
+    "share/man/man3/CURLOPT_CHUNK_DATA.3",
+    "share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3",
+    "share/man/man3/CURLOPT_CLOSESOCKETDATA.3",
+    "share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3",
+    "share/man/man3/CURLOPT_CONNECTTIMEOUT.3",
+    "share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3",
+    "share/man/man3/CURLOPT_CONNECT_ONLY.3",
+    "share/man/man3/CURLOPT_CONNECT_TO.3",
+    "share/man/man3/CURLOPT_CONV_FROM_NETWORK_FUNCTION.3",
+    "share/man/man3/CURLOPT_CONV_FROM_UTF8_FUNCTION.3",
+    "share/man/man3/CURLOPT_CONV_TO_NETWORK_FUNCTION.3",
+    "share/man/man3/CURLOPT_COOKIE.3",
+    "share/man/man3/CURLOPT_COOKIEFILE.3",
+    "share/man/man3/CURLOPT_COOKIEJAR.3",
+    "share/man/man3/CURLOPT_COOKIELIST.3",
+    "share/man/man3/CURLOPT_COOKIESESSION.3",
+    "share/man/man3/CURLOPT_COPYPOSTFIELDS.3",
+    "share/man/man3/CURLOPT_CRLF.3",
+    "share/man/man3/CURLOPT_CRLFILE.3",
+    "share/man/man3/CURLOPT_CUSTOMREQUEST.3",
+    "share/man/man3/CURLOPT_DEBUGDATA.3",
+    "share/man/man3/CURLOPT_DEBUGFUNCTION.3",
+    "share/man/man3/CURLOPT_DEFAULT_PROTOCOL.3",
+    "share/man/man3/CURLOPT_DIRLISTONLY.3",
+    "share/man/man3/CURLOPT_DNS_CACHE_TIMEOUT.3",
+    "share/man/man3/CURLOPT_DNS_INTERFACE.3",
+    "share/man/man3/CURLOPT_DNS_LOCAL_IP4.3",
+    "share/man/man3/CURLOPT_DNS_LOCAL_IP6.3",
+    "share/man/man3/CURLOPT_DNS_SERVERS.3",
+    "share/man/man3/CURLOPT_DNS_SHUFFLE_ADDRESSES.3",
+    "share/man/man3/CURLOPT_DNS_USE_GLOBAL_CACHE.3",
+    "share/man/man3/CURLOPT_EGDSOCKET.3",
+    "share/man/man3/CURLOPT_ERRORBUFFER.3",
+    "share/man/man3/CURLOPT_EXPECT_100_TIMEOUT_MS.3",
+    "share/man/man3/CURLOPT_FAILONERROR.3",
+    "share/man/man3/CURLOPT_FILETIME.3",
+    "share/man/man3/CURLOPT_FNMATCH_DATA.3",
+    "share/man/man3/CURLOPT_FNMATCH_FUNCTION.3",
+    "share/man/man3/CURLOPT_FOLLOWLOCATION.3",
+    "share/man/man3/CURLOPT_FORBID_REUSE.3",
+    "share/man/man3/CURLOPT_FRESH_CONNECT.3",
+    "share/man/man3/CURLOPT_FTPPORT.3",
+    "share/man/man3/CURLOPT_FTPSSLAUTH.3",
+    "share/man/man3/CURLOPT_FTP_ACCOUNT.3",
+    "share/man/man3/CURLOPT_FTP_ALTERNATIVE_TO_USER.3",
+    "share/man/man3/CURLOPT_FTP_CREATE_MISSING_DIRS.3",
+    "share/man/man3/CURLOPT_FTP_FILEMETHOD.3",
+    "share/man/man3/CURLOPT_FTP_RESPONSE_TIMEOUT.3",
+    "share/man/man3/CURLOPT_FTP_SKIP_PASV_IP.3",
+    "share/man/man3/CURLOPT_FTP_SSL_CCC.3",
+    "share/man/man3/CURLOPT_FTP_USE_EPRT.3",
+    "share/man/man3/CURLOPT_FTP_USE_EPSV.3",
+    "share/man/man3/CURLOPT_FTP_USE_PRET.3",
+    "share/man/man3/CURLOPT_GSSAPI_DELEGATION.3",
+    "share/man/man3/CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS.3",
+    "share/man/man3/CURLOPT_HAPROXYPROTOCOL.3",
+    "share/man/man3/CURLOPT_HEADER.3",
+    "share/man/man3/CURLOPT_HEADERDATA.3",
+    "share/man/man3/CURLOPT_HEADERFUNCTION.3",
+    "share/man/man3/CURLOPT_HEADEROPT.3",
+    "share/man/man3/CURLOPT_HTTP200ALIASES.3",
+    "share/man/man3/CURLOPT_HTTPAUTH.3",
+    "share/man/man3/CURLOPT_HTTPGET.3",
+    "share/man/man3/CURLOPT_HTTPHEADER.3",
+    "share/man/man3/CURLOPT_HTTPPOST.3",
+    "share/man/man3/CURLOPT_HTTPPROXYTUNNEL.3",
+    "share/man/man3/CURLOPT_HTTP_CONTENT_DECODING.3",
+    "share/man/man3/CURLOPT_HTTP_TRANSFER_DECODING.3",
+    "share/man/man3/CURLOPT_HTTP_VERSION.3",
+    "share/man/man3/CURLOPT_IGNORE_CONTENT_LENGTH.3",
+    "share/man/man3/CURLOPT_INFILESIZE.3",
+    "share/man/man3/CURLOPT_INFILESIZE_LARGE.3",
+    "share/man/man3/CURLOPT_INTERFACE.3",
+    "share/man/man3/CURLOPT_INTERLEAVEDATA.3",
+    "share/man/man3/CURLOPT_INTERLEAVEFUNCTION.3",
+    "share/man/man3/CURLOPT_IOCTLDATA.3",
+    "share/man/man3/CURLOPT_IOCTLFUNCTION.3",
+    "share/man/man3/CURLOPT_IPRESOLVE.3",
+    "share/man/man3/CURLOPT_ISSUERCERT.3",
+    "share/man/man3/CURLOPT_KEEP_SENDING_ON_ERROR.3",
+    "share/man/man3/CURLOPT_KEYPASSWD.3",
+    "share/man/man3/CURLOPT_KRBLEVEL.3",
+    "share/man/man3/CURLOPT_LOCALPORT.3",
+    "share/man/man3/CURLOPT_LOCALPORTRANGE.3",
+    "share/man/man3/CURLOPT_LOGIN_OPTIONS.3",
+    "share/man/man3/CURLOPT_LOW_SPEED_LIMIT.3",
+    "share/man/man3/CURLOPT_LOW_SPEED_TIME.3",
+    "share/man/man3/CURLOPT_MAIL_AUTH.3",
+    "share/man/man3/CURLOPT_MAIL_FROM.3",
+    "share/man/man3/CURLOPT_MAIL_RCPT.3",
+    "share/man/man3/CURLOPT_MAXCONNECTS.3",
+    "share/man/man3/CURLOPT_MAXFILESIZE.3",
+    "share/man/man3/CURLOPT_MAXFILESIZE_LARGE.3",
+    "share/man/man3/CURLOPT_MAXREDIRS.3",
+    "share/man/man3/CURLOPT_MAX_RECV_SPEED_LARGE.3",
+    "share/man/man3/CURLOPT_MAX_SEND_SPEED_LARGE.3",
+    "share/man/man3/CURLOPT_MIMEPOST.3",
+    "share/man/man3/CURLOPT_NETRC.3",
+    "share/man/man3/CURLOPT_NETRC_FILE.3",
+    "share/man/man3/CURLOPT_NEW_DIRECTORY_PERMS.3",
+    "share/man/man3/CURLOPT_NEW_FILE_PERMS.3",
+    "share/man/man3/CURLOPT_NOBODY.3",
+    "share/man/man3/CURLOPT_NOPROGRESS.3",
+    "share/man/man3/CURLOPT_NOPROXY.3",
+    "share/man/man3/CURLOPT_NOSIGNAL.3",
+    "share/man/man3/CURLOPT_OPENSOCKETDATA.3",
+    "share/man/man3/CURLOPT_OPENSOCKETFUNCTION.3",
+    "share/man/man3/CURLOPT_PASSWORD.3",
+    "share/man/man3/CURLOPT_PATH_AS_IS.3",
+    "share/man/man3/CURLOPT_PINNEDPUBLICKEY.3",
+    "share/man/man3/CURLOPT_PIPEWAIT.3",
+    "share/man/man3/CURLOPT_PORT.3",
+    "share/man/man3/CURLOPT_POST.3",
+    "share/man/man3/CURLOPT_POSTFIELDS.3",
+    "share/man/man3/CURLOPT_POSTFIELDSIZE.3",
+    "share/man/man3/CURLOPT_POSTFIELDSIZE_LARGE.3",
+    "share/man/man3/CURLOPT_POSTQUOTE.3",
+    "share/man/man3/CURLOPT_POSTREDIR.3",
+    "share/man/man3/CURLOPT_PREQUOTE.3",
+    "share/man/man3/CURLOPT_PRE_PROXY.3",
+    "share/man/man3/CURLOPT_PRIVATE.3",
+    "share/man/man3/CURLOPT_PROGRESSDATA.3",
+    "share/man/man3/CURLOPT_PROGRESSFUNCTION.3",
+    "share/man/man3/CURLOPT_PROTOCOLS.3",
+    "share/man/man3/CURLOPT_PROXY.3",
+    "share/man/man3/CURLOPT_PROXYAUTH.3",
+    "share/man/man3/CURLOPT_PROXYHEADER.3",
+    "share/man/man3/CURLOPT_PROXYPASSWORD.3",
+    "share/man/man3/CURLOPT_PROXYPORT.3",
+    "share/man/man3/CURLOPT_PROXYTYPE.3",
+    "share/man/man3/CURLOPT_PROXYUSERNAME.3",
+    "share/man/man3/CURLOPT_PROXYUSERPWD.3",
+    "share/man/man3/CURLOPT_PROXY_CAINFO.3",
+    "share/man/man3/CURLOPT_PROXY_CAPATH.3",
+    "share/man/man3/CURLOPT_PROXY_CRLFILE.3",
+    "share/man/man3/CURLOPT_PROXY_KEYPASSWD.3",
+    "share/man/man3/CURLOPT_PROXY_PINNEDPUBLICKEY.3",
+    "share/man/man3/CURLOPT_PROXY_SERVICE_NAME.3",
+    "share/man/man3/CURLOPT_PROXY_SSLCERT.3",
+    "share/man/man3/CURLOPT_PROXY_SSLCERTTYPE.3",
+    "share/man/man3/CURLOPT_PROXY_SSLKEY.3",
+    "share/man/man3/CURLOPT_PROXY_SSLKEYTYPE.3",
+    "share/man/man3/CURLOPT_PROXY_SSLVERSION.3",
+    "share/man/man3/CURLOPT_PROXY_SSL_CIPHER_LIST.3",
+    "share/man/man3/CURLOPT_PROXY_SSL_OPTIONS.3",
+    "share/man/man3/CURLOPT_PROXY_SSL_VERIFYHOST.3",
+    "share/man/man3/CURLOPT_PROXY_SSL_VERIFYPEER.3",
+    "share/man/man3/CURLOPT_PROXY_TLSAUTH_PASSWORD.3",
+    "share/man/man3/CURLOPT_PROXY_TLSAUTH_TYPE.3",
+    "share/man/man3/CURLOPT_PROXY_TLSAUTH_USERNAME.3",
+    "share/man/man3/CURLOPT_PROXY_TRANSFER_MODE.3",
+    "share/man/man3/CURLOPT_PUT.3",
+    "share/man/man3/CURLOPT_QUOTE.3",
+    "share/man/man3/CURLOPT_RANDOM_FILE.3",
+    "share/man/man3/CURLOPT_RANGE.3",
+    "share/man/man3/CURLOPT_READDATA.3",
+    "share/man/man3/CURLOPT_READFUNCTION.3",
+    "share/man/man3/CURLOPT_REDIR_PROTOCOLS.3",
+    "share/man/man3/CURLOPT_REFERER.3",
+    "share/man/man3/CURLOPT_REQUEST_TARGET.3",
+    "share/man/man3/CURLOPT_RESOLVE.3",
+    "share/man/man3/CURLOPT_RESOLVER_START_DATA.3",
+    "share/man/man3/CURLOPT_RESOLVER_START_FUNCTION.3",
+    "share/man/man3/CURLOPT_RESUME_FROM.3",
+    "share/man/man3/CURLOPT_RESUME_FROM_LARGE.3",
+    "share/man/man3/CURLOPT_RTSP_CLIENT_CSEQ.3",
+    "share/man/man3/CURLOPT_RTSP_REQUEST.3",
+    "share/man/man3/CURLOPT_RTSP_SERVER_CSEQ.3",
+    "share/man/man3/CURLOPT_RTSP_SESSION_ID.3",
+    "share/man/man3/CURLOPT_RTSP_STREAM_URI.3",
+    "share/man/man3/CURLOPT_RTSP_TRANSPORT.3",
+    "share/man/man3/CURLOPT_SASL_IR.3",
+    "share/man/man3/CURLOPT_SEEKDATA.3",
+    "share/man/man3/CURLOPT_SEEKFUNCTION.3",
+    "share/man/man3/CURLOPT_SERVICE_NAME.3",
+    "share/man/man3/CURLOPT_SHARE.3",
+    "share/man/man3/CURLOPT_SOCKOPTDATA.3",
+    "share/man/man3/CURLOPT_SOCKOPTFUNCTION.3",
+    "share/man/man3/CURLOPT_SOCKS5_AUTH.3",
+    "share/man/man3/CURLOPT_SOCKS5_GSSAPI_NEC.3",
+    "share/man/man3/CURLOPT_SOCKS5_GSSAPI_SERVICE.3",
+    "share/man/man3/CURLOPT_SSH_AUTH_TYPES.3",
+    "share/man/man3/CURLOPT_SSH_COMPRESSION.3",
+    "share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3",
+    "share/man/man3/CURLOPT_SSH_KEYDATA.3",
+    "share/man/man3/CURLOPT_SSH_KEYFUNCTION.3",
+    "share/man/man3/CURLOPT_SSH_KNOWNHOSTS.3",
+    "share/man/man3/CURLOPT_SSH_PRIVATE_KEYFILE.3",
+    "share/man/man3/CURLOPT_SSH_PUBLIC_KEYFILE.3",
+    "share/man/man3/CURLOPT_SSLCERT.3",
+    "share/man/man3/CURLOPT_SSLCERTTYPE.3",
+    "share/man/man3/CURLOPT_SSLENGINE.3",
+    "share/man/man3/CURLOPT_SSLENGINE_DEFAULT.3",
+    "share/man/man3/CURLOPT_SSLKEY.3",
+    "share/man/man3/CURLOPT_SSLKEYTYPE.3",
+    "share/man/man3/CURLOPT_SSLVERSION.3",
+    "share/man/man3/CURLOPT_SSL_CIPHER_LIST.3",
+    "share/man/man3/CURLOPT_SSL_CTX_DATA.3",
+    "share/man/man3/CURLOPT_SSL_CTX_FUNCTION.3",
+    "share/man/man3/CURLOPT_SSL_ENABLE_ALPN.3",
+    "share/man/man3/CURLOPT_SSL_ENABLE_NPN.3",
+    "share/man/man3/CURLOPT_SSL_FALSESTART.3",
+    "share/man/man3/CURLOPT_SSL_OPTIONS.3",
+    "share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3",
+    "share/man/man3/CURLOPT_SSL_VERIFYHOST.3",
+    "share/man/man3/CURLOPT_SSL_VERIFYPEER.3",
+    "share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3",
+    "share/man/man3/CURLOPT_STDERR.3",
+    "share/man/man3/CURLOPT_STREAM_DEPENDS.3",
+    "share/man/man3/CURLOPT_STREAM_DEPENDS_E.3",
+    "share/man/man3/CURLOPT_STREAM_WEIGHT.3",
+    "share/man/man3/CURLOPT_SUPPRESS_CONNECT_HEADERS.3",
+    "share/man/man3/CURLOPT_TCP_FASTOPEN.3",
+    "share/man/man3/CURLOPT_TCP_KEEPALIVE.3",
+    "share/man/man3/CURLOPT_TCP_KEEPIDLE.3",
+    "share/man/man3/CURLOPT_TCP_KEEPINTVL.3",
+    "share/man/man3/CURLOPT_TCP_NODELAY.3",
+    "share/man/man3/CURLOPT_TELNETOPTIONS.3",
+    "share/man/man3/CURLOPT_TFTP_BLKSIZE.3",
+    "share/man/man3/CURLOPT_TFTP_NO_OPTIONS.3",
+    "share/man/man3/CURLOPT_TIMECONDITION.3",
+    "share/man/man3/CURLOPT_TIMEOUT.3",
+    "share/man/man3/CURLOPT_TIMEOUT_MS.3",
+    "share/man/man3/CURLOPT_TIMEVALUE.3",
+    "share/man/man3/CURLOPT_TIMEVALUE_LARGE.3",
+    "share/man/man3/CURLOPT_TLSAUTH_PASSWORD.3",
+    "share/man/man3/CURLOPT_TLSAUTH_TYPE.3",
+    "share/man/man3/CURLOPT_TLSAUTH_USERNAME.3",
+    "share/man/man3/CURLOPT_TRANSFERTEXT.3",
+    "share/man/man3/CURLOPT_TRANSFER_ENCODING.3",
+    "share/man/man3/CURLOPT_UNIX_SOCKET_PATH.3",
+    "share/man/man3/CURLOPT_UNRESTRICTED_AUTH.3",
+    "share/man/man3/CURLOPT_UPLOAD.3",
+    "share/man/man3/CURLOPT_URL.3",
+    "share/man/man3/CURLOPT_USERAGENT.3",
+    "share/man/man3/CURLOPT_USERNAME.3",
+    "share/man/man3/CURLOPT_USERPWD.3",
+    "share/man/man3/CURLOPT_USE_SSL.3",
+    "share/man/man3/CURLOPT_VERBOSE.3",
+    "share/man/man3/CURLOPT_WILDCARDMATCH.3",
+    "share/man/man3/CURLOPT_WRITEDATA.3",
+    "share/man/man3/CURLOPT_WRITEFUNCTION.3",
+    "share/man/man3/CURLOPT_XFERINFODATA.3",
+    "share/man/man3/CURLOPT_XFERINFOFUNCTION.3",
+    "share/man/man3/CURLOPT_XOAUTH2_BEARER.3",
+    "share/man/man3/curl_easy_cleanup.3",
+    "share/man/man3/curl_easy_duphandle.3",
+    "share/man/man3/curl_easy_escape.3",
+    "share/man/man3/curl_easy_getinfo.3",
+    "share/man/man3/curl_easy_init.3",
+    "share/man/man3/curl_easy_pause.3",
+    "share/man/man3/curl_easy_perform.3",
+    "share/man/man3/curl_easy_recv.3",
+    "share/man/man3/curl_easy_reset.3",
+    "share/man/man3/curl_easy_send.3",
+    "share/man/man3/curl_easy_setopt.3",
+    "share/man/man3/curl_easy_strerror.3",
+    "share/man/man3/curl_easy_unescape.3",
+    "share/man/man3/curl_escape.3",
+    "share/man/man3/curl_formadd.3",
+    "share/man/man3/curl_formfree.3",
+    "share/man/man3/curl_formget.3",
+    "share/man/man3/curl_free.3",
+    "share/man/man3/curl_getdate.3",
+    "share/man/man3/curl_getenv.3",
+    "share/man/man3/curl_global_cleanup.3",
+    "share/man/man3/curl_global_init.3",
+    "share/man/man3/curl_global_init_mem.3",
+    "share/man/man3/curl_global_sslset.3",
+    "share/man/man3/curl_mime_addpart.3",
+    "share/man/man3/curl_mime_data.3",
+    "share/man/man3/curl_mime_data_cb.3",
+    "share/man/man3/curl_mime_encoder.3",
+    "share/man/man3/curl_mime_filedata.3",
+    "share/man/man3/curl_mime_filename.3",
+    "share/man/man3/curl_mime_free.3",
+    "share/man/man3/curl_mime_headers.3",
+    "share/man/man3/curl_mime_init.3",
+    "share/man/man3/curl_mime_name.3",
+    "share/man/man3/curl_mime_subparts.3",
+    "share/man/man3/curl_mime_type.3",
+    "share/man/man3/curl_mprintf.3",
+    "share/man/man3/curl_multi_add_handle.3",
+    "share/man/man3/curl_multi_assign.3",
+    "share/man/man3/curl_multi_cleanup.3",
+    "share/man/man3/curl_multi_fdset.3",
+    "share/man/man3/curl_multi_info_read.3",
+    "share/man/man3/curl_multi_init.3",
+    "share/man/man3/curl_multi_perform.3",
+    "share/man/man3/curl_multi_remove_handle.3",
+    "share/man/man3/curl_multi_setopt.3",
+    "share/man/man3/curl_multi_socket.3",
+    "share/man/man3/curl_multi_socket_action.3",
+    "share/man/man3/curl_multi_socket_all.3",
+    "share/man/man3/curl_multi_strerror.3",
+    "share/man/man3/curl_multi_timeout.3",
+    "share/man/man3/curl_multi_wait.3",
+    "share/man/man3/curl_share_cleanup.3",
+    "share/man/man3/curl_share_init.3",
+    "share/man/man3/curl_share_setopt.3",
+    "share/man/man3/curl_share_strerror.3",
+    "share/man/man3/curl_slist_append.3",
+    "share/man/man3/curl_slist_free_all.3",
+    "share/man/man3/curl_strequal.3",
+    "share/man/man3/curl_strnequal.3",
+    "share/man/man3/curl_unescape.3",
+    "share/man/man3/curl_version.3",
+    "share/man/man3/curl_version_info.3",
+    "share/man/man3/libcurl-easy.3",
+    "share/man/man3/libcurl-env.3",
+    "share/man/man3/libcurl-errors.3",
+    "share/man/man3/libcurl-multi.3",
+    "share/man/man3/libcurl-security.3",
+    "share/man/man3/libcurl-share.3",
+    "share/man/man3/libcurl-symbols.3",
+    "share/man/man3/libcurl-thread.3",
+    "share/man/man3/libcurl-tutorial.3",
+    "share/man/man3/libcurl.3"
+  ],
+  "fn": "curl-7.60.0-0.tar.bz2",
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/curl-7.60.0-0",
+    "type": 1
+  },
+  "md5": "d8b48c1b574cee22f52926f2d1a97556",
+  "name": "curl",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/curl-7.60.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "path_type": "hardlink",
+        "sha256": "1fffa382003de76279c98235ceb55d218722527ab9086f7d255a5f5c2c3af3d3",
+        "sha256_in_prefix": "1fffa382003de76279c98235ceb55d218722527ab9086f7d255a5f5c2c3af3d3",
+        "size_in_bytes": 208807
+      },
+      {
+        "_path": "bin/curl-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "0eccfc7b881e344db63011affff5996acdb49affb5c913decee353f50e47dbdc",
+        "sha256_in_prefix": "52c981e3c8da2ad8073a956607455eb52657bd187d4607c43630a15bf2f3e5af",
+        "size_in_bytes": 6213
+      },
+      {
+        "_path": "include/curl/curl.h",
+        "path_type": "hardlink",
+        "sha256": "6b718fbbd63ccebf2c4c4e7cc68f13e16dd2f302d83acc4940f54386bcb8a151",
+        "sha256_in_prefix": "6b718fbbd63ccebf2c4c4e7cc68f13e16dd2f302d83acc4940f54386bcb8a151",
+        "size_in_bytes": 103310
+      },
+      {
+        "_path": "include/curl/curlver.h",
+        "path_type": "hardlink",
+        "sha256": "36be43c9c8f24f73e516a1d4df6a656096113017f5162c609b04960b592c7536",
+        "sha256_in_prefix": "36be43c9c8f24f73e516a1d4df6a656096113017f5162c609b04960b592c7536",
+        "size_in_bytes": 3034
+      },
+      {
+        "_path": "include/curl/easy.h",
+        "path_type": "hardlink",
+        "sha256": "58b2142e4bd3287e53b98cc0f4f8a23dd9ba502db4aae08dea51ff00823a5824",
+        "sha256_in_prefix": "58b2142e4bd3287e53b98cc0f4f8a23dd9ba502db4aae08dea51ff00823a5824",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "include/curl/mprintf.h",
+        "path_type": "hardlink",
+        "sha256": "61e8e3918f879fe4cf63992bd108eb08dfb2568fa907ec528d8ed3ac02ba0c56",
+        "sha256_in_prefix": "61e8e3918f879fe4cf63992bd108eb08dfb2568fa907ec528d8ed3ac02ba0c56",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "include/curl/multi.h",
+        "path_type": "hardlink",
+        "sha256": "e2e68e6c37d69abbf281a545bc8a6a0cdc867b34f9e254e3cc1f5e710ef32955",
+        "sha256_in_prefix": "e2e68e6c37d69abbf281a545bc8a6a0cdc867b34f9e254e3cc1f5e710ef32955",
+        "size_in_bytes": 16211
+      },
+      {
+        "_path": "include/curl/stdcheaders.h",
+        "path_type": "hardlink",
+        "sha256": "78eb917e7082bf7ce255840c3af5fadd927b7eb5a62305c54b36c7da852cbfd4",
+        "sha256_in_prefix": "78eb917e7082bf7ce255840c3af5fadd927b7eb5a62305c54b36c7da852cbfd4",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "include/curl/system.h",
+        "path_type": "hardlink",
+        "sha256": "fe0a3dbcf592227359a4d9741e4d8a257488df2caf9c56074dd1c4d7401394a7",
+        "sha256_in_prefix": "fe0a3dbcf592227359a4d9741e4d8a257488df2caf9c56074dd1c4d7401394a7",
+        "size_in_bytes": 17817
+      },
+      {
+        "_path": "include/curl/typecheck-gcc.h",
+        "path_type": "hardlink",
+        "sha256": "bde6321b067fe32cf551bb1631afc7b2a983c5281122a11b95a2eefa0aef72bf",
+        "sha256_in_prefix": "bde6321b067fe32cf551bb1631afc7b2a983c5281122a11b95a2eefa0aef72bf",
+        "size_in_bytes": 43215
+      },
+      {
+        "_path": "lib/libcurl.a",
+        "path_type": "hardlink",
+        "sha256": "9f74131d44a79e657eb31674b26053afc5bf2d0ba069ca1a2b2c3f7808ecb237",
+        "sha256_in_prefix": "9f74131d44a79e657eb31674b26053afc5bf2d0ba069ca1a2b2c3f7808ecb237",
+        "size_in_bytes": 1073268
+      },
+      {
+        "_path": "lib/libcurl.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ffd184ef1fbe370220be3ae5d50d91190578afdd7fe3d6ddb3e57c8ff5b2f555",
+        "sha256_in_prefix": "dff48458871b464aba5be1c9c460bc677c22b087de20fcf8060fd7fd69d5b9a3",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/libcurl.so",
+        "path_type": "softlink",
+        "sha256": "fb3f13b1205fdad578086fdda3d4c5d79a0096364e0fba50448ae0b74b591908",
+        "size_in_bytes": 577904
+      },
+      {
+        "_path": "lib/libcurl.so.4",
+        "path_type": "softlink",
+        "sha256": "fb3f13b1205fdad578086fdda3d4c5d79a0096364e0fba50448ae0b74b591908",
+        "size_in_bytes": 577904
+      },
+      {
+        "_path": "lib/libcurl.so.4.5.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/curl_1527014818534/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "fb3f13b1205fdad578086fdda3d4c5d79a0096364e0fba50448ae0b74b591908",
+        "sha256_in_prefix": "8552049be1ef72e786246269bec0d3a37b36d8c603c05069384ffa501f73150d",
+        "size_in_bytes": 577904
+      },
+      {
+        "_path": "lib/pkgconfig/libcurl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8e530ff852a250b2e0412634415e770cf453545a207660934d2d83519b557c0b",
+        "sha256_in_prefix": "5594c94e275f41541b0042e49287630892f9892a260ce33f736750de22b191c2",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "share/aclocal/libcurl.m4",
+        "path_type": "hardlink",
+        "sha256": "84caa4319d7a2dd52a9e3578931fcb7d6d5edbad296981dcf7d49b81ab0177c6",
+        "sha256_in_prefix": "84caa4319d7a2dd52a9e3578931fcb7d6d5edbad296981dcf7d49b81ab0177c6",
+        "size_in_bytes": 11167
+      },
+      {
+        "_path": "share/man/man1/curl-config.1",
+        "path_type": "hardlink",
+        "sha256": "d5e2f4241c9f3384f06a47305e852390b0c31db4d5a7d83b3333da0c99304e9a",
+        "sha256_in_prefix": "d5e2f4241c9f3384f06a47305e852390b0c31db4d5a7d83b3333da0c99304e9a",
+        "size_in_bytes": 4402
+      },
+      {
+        "_path": "share/man/man1/curl.1",
+        "path_type": "hardlink",
+        "sha256": "75e31853ebb1a9dcf4612aa901f66e89dd1c8b9f6c7929d92cfa2dab0bf83304",
+        "sha256_in_prefix": "75e31853ebb1a9dcf4612aa901f66e89dd1c8b9f6c7929d92cfa2dab0bf83304",
+        "size_in_bytes": 128195
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_ACTIVESOCKET.3",
+        "path_type": "hardlink",
+        "sha256": "4e97fc012da390ce7ec2c098834eb0533f3cd39a87472910e2124f52ccb7cbeb",
+        "sha256_in_prefix": "4e97fc012da390ce7ec2c098834eb0533f3cd39a87472910e2124f52ccb7cbeb",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_APPCONNECT_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "0a112b27be24a83a4220039f48d790f6b875fdc3618097ddbea42b7cf78c6abf",
+        "sha256_in_prefix": "0a112b27be24a83a4220039f48d790f6b875fdc3618097ddbea42b7cf78c6abf",
+        "size_in_bytes": 2435
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CERTINFO.3",
+        "path_type": "hardlink",
+        "sha256": "19e5ae44a3603a9f60f8e63cb404ae383614fd5b7fd464a5e6ac246b362cb932",
+        "sha256_in_prefix": "19e5ae44a3603a9f60f8e63cb404ae383614fd5b7fd464a5e6ac246b362cb932",
+        "size_in_bytes": 3051
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONDITION_UNMET.3",
+        "path_type": "hardlink",
+        "sha256": "85a84b386a3df31e70e4961c986877a438e23e533c74390f195aead2cd4e7253",
+        "sha256_in_prefix": "85a84b386a3df31e70e4961c986877a438e23e533c74390f195aead2cd4e7253",
+        "size_in_bytes": 2621
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONNECT_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "1c012046dbb6b9250ffbb146c50bbb4ecb4c75b94e7ec26ac69df7b7c4b29cd1",
+        "sha256_in_prefix": "1c012046dbb6b9250ffbb146c50bbb4ecb4c75b94e7ec26ac69df7b7c4b29cd1",
+        "size_in_bytes": 2174
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "33bc8821686370c60561a54779647761a39e23a0b5d0a49ac89f5f3def0f978a",
+        "sha256_in_prefix": "33bc8821686370c60561a54779647761a39e23a0b5d0a49ac89f5f3def0f978a",
+        "size_in_bytes": 2380
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "1c4a9a17446133ced75f1b04632c9df98cf0f29731aa3928e0d573b859627226",
+        "sha256_in_prefix": "1c4a9a17446133ced75f1b04632c9df98cf0f29731aa3928e0d573b859627226",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "71b2a63189c5d0a5f125809ae58cbe30cdc88c2029784730ee795fa0cb9d0998",
+        "sha256_in_prefix": "71b2a63189c5d0a5f125809ae58cbe30cdc88c2029784730ee795fa0cb9d0998",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "454835da99745b8729498f453c8c1d36cafe151dd2b26ac85293555902c13a61",
+        "sha256_in_prefix": "454835da99745b8729498f453c8c1d36cafe151dd2b26ac85293555902c13a61",
+        "size_in_bytes": 2246
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_CONTENT_TYPE.3",
+        "path_type": "hardlink",
+        "sha256": "1cbd368330df7b680d35631d8541e7f2f6c8049317a059c8187ac82d4ddae24b",
+        "sha256_in_prefix": "1cbd368330df7b680d35631d8541e7f2f6c8049317a059c8187ac82d4ddae24b",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_COOKIELIST.3",
+        "path_type": "hardlink",
+        "sha256": "8f2b7174a8eeadebd2bb9f27ac59bf59597159ca3e5671b3cf952e621e5f96f6",
+        "sha256_in_prefix": "8f2b7174a8eeadebd2bb9f27ac59bf59597159ca3e5671b3cf952e621e5f96f6",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_EFFECTIVE_URL.3",
+        "path_type": "hardlink",
+        "sha256": "45516aeeec500f47f5048aabe9d654be73ff0e51fe6102ff3a30e745c5f42842",
+        "sha256_in_prefix": "45516aeeec500f47f5048aabe9d654be73ff0e51fe6102ff3a30e745c5f42842",
+        "size_in_bytes": 2383
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_FILETIME.3",
+        "path_type": "hardlink",
+        "sha256": "19296b62ef54ef8f95421477cf33a2750a6d234580fff566f0d5dc45404e2161",
+        "sha256_in_prefix": "19296b62ef54ef8f95421477cf33a2750a6d234580fff566f0d5dc45404e2161",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_FILETIME_T.3",
+        "path_type": "hardlink",
+        "sha256": "c07c6983e63684f0f17cd9fb3ef50f3ad95bcf8911e083ca8c4418b76545920e",
+        "sha256_in_prefix": "c07c6983e63684f0f17cd9fb3ef50f3ad95bcf8911e083ca8c4418b76545920e",
+        "size_in_bytes": 2878
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_FTP_ENTRY_PATH.3",
+        "path_type": "hardlink",
+        "sha256": "36579744d0af70d520e62053e38bf3eb932db7a2c3024471b54883e8227e0aa3",
+        "sha256_in_prefix": "36579744d0af70d520e62053e38bf3eb932db7a2c3024471b54883e8227e0aa3",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_HEADER_SIZE.3",
+        "path_type": "hardlink",
+        "sha256": "cbd54a7517e794d5540fd7d39a1e3539c590fd51df12adcb932ace77f0a3c93a",
+        "sha256_in_prefix": "cbd54a7517e794d5540fd7d39a1e3539c590fd51df12adcb932ace77f0a3c93a",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_HTTPAUTH_AVAIL.3",
+        "path_type": "hardlink",
+        "sha256": "31968233fed04a19266c253a63688aa3c2e541f170e2a0df8ea40e29d026b0aa",
+        "sha256_in_prefix": "31968233fed04a19266c253a63688aa3c2e541f170e2a0df8ea40e29d026b0aa",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_HTTP_CONNECTCODE.3",
+        "path_type": "hardlink",
+        "sha256": "a2f62a6219e74d4fc24924b22de1e8efb6b68d9105b1223af18c723e16f80d2d",
+        "sha256_in_prefix": "a2f62a6219e74d4fc24924b22de1e8efb6b68d9105b1223af18c723e16f80d2d",
+        "size_in_bytes": 2327
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_HTTP_VERSION.3",
+        "path_type": "hardlink",
+        "sha256": "e6cfcead7a95bdb5a77796b7b9b3253786e025a9a57ebf152760bd737a71457d",
+        "sha256_in_prefix": "e6cfcead7a95bdb5a77796b7b9b3253786e025a9a57ebf152760bd737a71457d",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_LASTSOCKET.3",
+        "path_type": "hardlink",
+        "sha256": "3cfbf40805cdfb0c2097f69b68bb5a4e9e0551e55f46a3a7bce57e98e5a52d7f",
+        "sha256_in_prefix": "3cfbf40805cdfb0c2097f69b68bb5a4e9e0551e55f46a3a7bce57e98e5a52d7f",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_LOCAL_IP.3",
+        "path_type": "hardlink",
+        "sha256": "b8fd4ed7b4fb4c84937c946ec9c05be4e056785f9004273569a2350269f08742",
+        "sha256_in_prefix": "b8fd4ed7b4fb4c84937c946ec9c05be4e056785f9004273569a2350269f08742",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_LOCAL_PORT.3",
+        "path_type": "hardlink",
+        "sha256": "64301a8554ae076fac85fb5bc16649a0db628c7e74589bf44ec34749dfbea299",
+        "sha256_in_prefix": "64301a8554ae076fac85fb5bc16649a0db628c7e74589bf44ec34749dfbea299",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_NAMELOOKUP_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "9a2b0be9a1f0785f211f1834cbd13c0f8fbeb17e14f515b2a649f680497e22f8",
+        "sha256_in_prefix": "9a2b0be9a1f0785f211f1834cbd13c0f8fbeb17e14f515b2a649f680497e22f8",
+        "size_in_bytes": 2167
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_NUM_CONNECTS.3",
+        "path_type": "hardlink",
+        "sha256": "abdeac9f0594147bfb50688924c26d4b28035ece315c9cdeb3e488776f9afd63",
+        "sha256_in_prefix": "abdeac9f0594147bfb50688924c26d4b28035ece315c9cdeb3e488776f9afd63",
+        "size_in_bytes": 2458
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_OS_ERRNO.3",
+        "path_type": "hardlink",
+        "sha256": "571ed71d70a6e04d9172396b49b0bde56d29e9c91c31a5884e96408ee56c99ec",
+        "sha256_in_prefix": "571ed71d70a6e04d9172396b49b0bde56d29e9c91c31a5884e96408ee56c99ec",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PRETRANSFER_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "cf132dcbd926eb030cfcf78043a5262600d14e882996edfa773f47f62ff498e9",
+        "sha256_in_prefix": "cf132dcbd926eb030cfcf78043a5262600d14e882996edfa773f47f62ff498e9",
+        "size_in_bytes": 2417
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PRIMARY_IP.3",
+        "path_type": "hardlink",
+        "sha256": "47fcfcdbf3f9d6109b86e8bcedd40ec47b99f3732371a0c183fadf8be7998340",
+        "sha256_in_prefix": "47fcfcdbf3f9d6109b86e8bcedd40ec47b99f3732371a0c183fadf8be7998340",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PRIMARY_PORT.3",
+        "path_type": "hardlink",
+        "sha256": "5a5ab03266b32d093d91aa62c11e156cd9cc3f0b5a9c60d2a7e29c5d256bff1e",
+        "sha256_in_prefix": "5a5ab03266b32d093d91aa62c11e156cd9cc3f0b5a9c60d2a7e29c5d256bff1e",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PRIVATE.3",
+        "path_type": "hardlink",
+        "sha256": "689ecd4184a6465c06fe357ea7bbe0f1a4de86c81bd06d177cb51f5cd0a95652",
+        "sha256_in_prefix": "689ecd4184a6465c06fe357ea7bbe0f1a4de86c81bd06d177cb51f5cd0a95652",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PROTOCOL.3",
+        "path_type": "hardlink",
+        "sha256": "845d0875a01efaf44b8c2c6cc9aaf120e0322c221ff1a0fe4e01e6fbb0706e71",
+        "sha256_in_prefix": "845d0875a01efaf44b8c2c6cc9aaf120e0322c221ff1a0fe4e01e6fbb0706e71",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PROXYAUTH_AVAIL.3",
+        "path_type": "hardlink",
+        "sha256": "d6bbfb054fa5f07013d8f304671f1215ab4598386e553019f3dcdbee9895b0b7",
+        "sha256_in_prefix": "d6bbfb054fa5f07013d8f304671f1215ab4598386e553019f3dcdbee9895b0b7",
+        "size_in_bytes": 2676
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_PROXY_SSL_VERIFYRESULT.3",
+        "path_type": "hardlink",
+        "sha256": "9e7bcb708ca21f0d6ebd97e0b4e5dedfe46b2424f60278f11216f7cbbc6cec9f",
+        "sha256_in_prefix": "9e7bcb708ca21f0d6ebd97e0b4e5dedfe46b2424f60278f11216f7cbbc6cec9f",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_REDIRECT_COUNT.3",
+        "path_type": "hardlink",
+        "sha256": "d691ba41e9adfeef02dee4de84d9d09306a0a9e5084541229b05c269669fdea5",
+        "sha256_in_prefix": "d691ba41e9adfeef02dee4de84d9d09306a0a9e5084541229b05c269669fdea5",
+        "size_in_bytes": 2065
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_REDIRECT_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "2dc5f2207a68bd824281187135939ceb3af6b86736d1646031ba705908393f8f",
+        "sha256_in_prefix": "2dc5f2207a68bd824281187135939ceb3af6b86736d1646031ba705908393f8f",
+        "size_in_bytes": 2328
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_REDIRECT_URL.3",
+        "path_type": "hardlink",
+        "sha256": "20d687b0a6e2b40611cfa4f84c6b5c723938f5b241ae6de836ce559e7b4d4621",
+        "sha256_in_prefix": "20d687b0a6e2b40611cfa4f84c6b5c723938f5b241ae6de836ce559e7b4d4621",
+        "size_in_bytes": 2409
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_REQUEST_SIZE.3",
+        "path_type": "hardlink",
+        "sha256": "2c911f684a465e8affcbe507cf267e63d3314d3213dbc553aa3e5a88f5aa9275",
+        "sha256_in_prefix": "2c911f684a465e8affcbe507cf267e63d3314d3213dbc553aa3e5a88f5aa9275",
+        "size_in_bytes": 2226
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_RESPONSE_CODE.3",
+        "path_type": "hardlink",
+        "sha256": "3b18ecaab384d1db17b41dd8b2adea4ba7ab42bd2db1c9b0ba87d5ad5d30a937",
+        "sha256_in_prefix": "3b18ecaab384d1db17b41dd8b2adea4ba7ab42bd2db1c9b0ba87d5ad5d30a937",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_RTSP_CLIENT_CSEQ.3",
+        "path_type": "hardlink",
+        "sha256": "5f02624a134908af35c552fc157a1e6f88999d082d41440015c41c25a8f36258",
+        "sha256_in_prefix": "5f02624a134908af35c552fc157a1e6f88999d082d41440015c41c25a8f36258",
+        "size_in_bytes": 2002
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_RTSP_CSEQ_RECV.3",
+        "path_type": "hardlink",
+        "sha256": "a88cf9bb384ba04c018ce0f6d47dd8b87b51f9db7c15d0e9db158de78a5d87c6",
+        "sha256_in_prefix": "a88cf9bb384ba04c018ce0f6d47dd8b87b51f9db7c15d0e9db158de78a5d87c6",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_RTSP_SERVER_CSEQ.3",
+        "path_type": "hardlink",
+        "sha256": "ee30e0350f901f77b78b0e515c9b22b4a73a1047e4fb23d4971035d8d59937fa",
+        "sha256_in_prefix": "ee30e0350f901f77b78b0e515c9b22b4a73a1047e4fb23d4971035d8d59937fa",
+        "size_in_bytes": 2210
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_RTSP_SESSION_ID.3",
+        "path_type": "hardlink",
+        "sha256": "b4ecec4558844faaa9a987ee893cc2cb74ffab659f1600bf4c4efca816f58e4d",
+        "sha256_in_prefix": "b4ecec4558844faaa9a987ee893cc2cb74ffab659f1600bf4c4efca816f58e4d",
+        "size_in_bytes": 2311
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SCHEME.3",
+        "path_type": "hardlink",
+        "sha256": "d22e4db1f2c6096bfcbf3463767eeffb6c50065f75faa8201da89ef9bb0ffe8c",
+        "sha256_in_prefix": "d22e4db1f2c6096bfcbf3463767eeffb6c50065f75faa8201da89ef9bb0ffe8c",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SIZE_DOWNLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "310a134ff1b182e8a94ab0d1a4c5189e4e4f98848c593cc9d8d26b886cc64362",
+        "sha256_in_prefix": "310a134ff1b182e8a94ab0d1a4c5189e4e4f98848c593cc9d8d26b886cc64362",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SIZE_DOWNLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "65d686c8727390767b2f00c0297ac186703eadadf88453a90b468ab347a79b84",
+        "sha256_in_prefix": "65d686c8727390767b2f00c0297ac186703eadadf88453a90b468ab347a79b84",
+        "size_in_bytes": 2417
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SIZE_UPLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "ad50bbfa75d4346ba3a9e428ea5863fd64b5adca6480630db149d44d80ef3899",
+        "sha256_in_prefix": "ad50bbfa75d4346ba3a9e428ea5863fd64b5adca6480630db149d44d80ef3899",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SIZE_UPLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "926854a0d53403cc46b4d86db1c36b42e5e3de464586f16c94c4afc3f767764b",
+        "sha256_in_prefix": "926854a0d53403cc46b4d86db1c36b42e5e3de464586f16c94c4afc3f767764b",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SPEED_DOWNLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "ede333a03e5269488400ec84bd886d952e2d368349f3fb49f1bf8a04f05f82af",
+        "sha256_in_prefix": "ede333a03e5269488400ec84bd886d952e2d368349f3fb49f1bf8a04f05f82af",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SPEED_DOWNLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "a0b439e3cb7c276c51e4e13513c175745eb2aad6ef11770a08ae44991bbc611d",
+        "sha256_in_prefix": "a0b439e3cb7c276c51e4e13513c175745eb2aad6ef11770a08ae44991bbc611d",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SPEED_UPLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "5e2027de0f15baffefb9613e81da97bd58b609198ce67f9ea6e6d8c8fbc60c80",
+        "sha256_in_prefix": "5e2027de0f15baffefb9613e81da97bd58b609198ce67f9ea6e6d8c8fbc60c80",
+        "size_in_bytes": 2201
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SPEED_UPLOAD_T.3",
+        "path_type": "hardlink",
+        "sha256": "032d0c4751a53cf97185ea3f61f73524f275e4e6805c5da265b068303643e831",
+        "sha256_in_prefix": "032d0c4751a53cf97185ea3f61f73524f275e4e6805c5da265b068303643e831",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SSL_ENGINES.3",
+        "path_type": "hardlink",
+        "sha256": "69b39ad3b2409070b88142663dba35e94217d3caae7094ed2df969ffc3d05e60",
+        "sha256_in_prefix": "69b39ad3b2409070b88142663dba35e94217d3caae7094ed2df969ffc3d05e60",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_SSL_VERIFYRESULT.3",
+        "path_type": "hardlink",
+        "sha256": "e21170d79b194697c95dfc824313e4e72dc5a0d5a52a59175c08e473996b2eab",
+        "sha256_in_prefix": "e21170d79b194697c95dfc824313e4e72dc5a0d5a52a59175c08e473996b2eab",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_STARTTRANSFER_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "9b93df3792ddd1b0559818b25008e07eb7f69d530728cc6092acc546f8ffc1b6",
+        "sha256_in_prefix": "9b93df3792ddd1b0559818b25008e07eb7f69d530728cc6092acc546f8ffc1b6",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_TLS_SESSION.3",
+        "path_type": "hardlink",
+        "sha256": "ddf694824e9b0bd60e12e3d2e9e4c50c95cf4aefb5235b90a0b73dac83f2f63e",
+        "sha256_in_prefix": "ddf694824e9b0bd60e12e3d2e9e4c50c95cf4aefb5235b90a0b73dac83f2f63e",
+        "size_in_bytes": 2863
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_TLS_SSL_PTR.3",
+        "path_type": "hardlink",
+        "sha256": "ca5056dad9c527e9f5f68e6a1a34ce97253dbaf46bf9c4e695e49da0e0943e7d",
+        "sha256_in_prefix": "ca5056dad9c527e9f5f68e6a1a34ce97253dbaf46bf9c4e695e49da0e0943e7d",
+        "size_in_bytes": 6027
+      },
+      {
+        "_path": "share/man/man3/CURLINFO_TOTAL_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "d6dd0e5e60a6942f7f50bd4223814f5cd1d97406ecd2c208d70804fbfbd95b4e",
+        "sha256_in_prefix": "d6dd0e5e60a6942f7f50bd4223814f5cd1d97406ecd2c208d70804fbfbd95b4e",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3",
+        "path_type": "hardlink",
+        "sha256": "76b8d28eec8f2ecb2b699773a344b840585cffc10254eb9e33b6cb0a8f390023",
+        "sha256_in_prefix": "76b8d28eec8f2ecb2b699773a344b840585cffc10254eb9e33b6cb0a8f390023",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3",
+        "path_type": "hardlink",
+        "sha256": "5e3b992a6c7378667ad5bf88627f147490fc6ffb5a2d770f70e995ff9741a819",
+        "sha256_in_prefix": "5e3b992a6c7378667ad5bf88627f147490fc6ffb5a2d770f70e995ff9741a819",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_MAXCONNECTS.3",
+        "path_type": "hardlink",
+        "sha256": "842e77f3f3cb2193c93003d2b58f699be2a7de3dc0b9768d9bd1ce8d52fc612b",
+        "sha256_in_prefix": "842e77f3f3cb2193c93003d2b58f699be2a7de3dc0b9768d9bd1ce8d52fc612b",
+        "size_in_bytes": 2549
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "75ddf0e56b5211aaa9f241d49bc65f65bf976a8c49864ea32e34a514fe5c6e08",
+        "sha256_in_prefix": "75ddf0e56b5211aaa9f241d49bc65f65bf976a8c49864ea32e34a514fe5c6e08",
+        "size_in_bytes": 2709
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3",
+        "path_type": "hardlink",
+        "sha256": "5346ee8f652a9f19a50bf951a673987a546986add650da23b6ba5f6ac1c5aaad",
+        "sha256_in_prefix": "5346ee8f652a9f19a50bf951a673987a546986add650da23b6ba5f6ac1c5aaad",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "9742d3b3dc0cea6f79028da52f4e2b17ffd1011c984e75920089b9d95ea2a470",
+        "sha256_in_prefix": "9742d3b3dc0cea6f79028da52f4e2b17ffd1011c984e75920089b9d95ea2a470",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_PIPELINING.3",
+        "path_type": "hardlink",
+        "sha256": "ec2dabe12a5e6e4e04ddff48781883af218b9f1d724d1e32653d608b4460003b",
+        "sha256_in_prefix": "ec2dabe12a5e6e4e04ddff48781883af218b9f1d724d1e32653d608b4460003b",
+        "size_in_bytes": 3657
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3",
+        "path_type": "hardlink",
+        "sha256": "7ffd0f3a02d704975669349563476319826c391caa71a9df075b485e2c3a51d7",
+        "sha256_in_prefix": "7ffd0f3a02d704975669349563476319826c391caa71a9df075b485e2c3a51d7",
+        "size_in_bytes": 2411
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3",
+        "path_type": "hardlink",
+        "sha256": "bb2a16f69d53d09bb4de798fd787743a9f0bf71033f12aa130ba58466e30aee1",
+        "sha256_in_prefix": "bb2a16f69d53d09bb4de798fd787743a9f0bf71033f12aa130ba58466e30aee1",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_PUSHDATA.3",
+        "path_type": "hardlink",
+        "sha256": "f17540b4eda596d1182c55f89873d0a1da4516d4791d83839c58efb35cfc8459",
+        "sha256_in_prefix": "f17540b4eda596d1182c55f89873d0a1da4516d4791d83839c58efb35cfc8459",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_PUSHFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "e0590d92863136f32a42ca1d430361dd7abe0ea1f6df4abd364f5024205b17a3",
+        "sha256_in_prefix": "e0590d92863136f32a42ca1d430361dd7abe0ea1f6df4abd364f5024205b17a3",
+        "size_in_bytes": 5272
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_SOCKETDATA.3",
+        "path_type": "hardlink",
+        "sha256": "1cbdde61b2e71b3847d72b3445ba2ffdc650da48a7d9989177daece696cad261",
+        "sha256_in_prefix": "1cbdde61b2e71b3847d72b3445ba2ffdc650da48a7d9989177daece696cad261",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_SOCKETFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "f08bb6ef9cbbaabb3fcfbbc85501eb9af5cda82c76496b6518f8ed21ff7ca2c0",
+        "sha256_in_prefix": "f08bb6ef9cbbaabb3fcfbbc85501eb9af5cda82c76496b6518f8ed21ff7ca2c0",
+        "size_in_bytes": 3593
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_TIMERDATA.3",
+        "path_type": "hardlink",
+        "sha256": "a7a294f2087f5d4fd3614f3d47c2dba0f3004892f45877f6c4d4dc90d8c6e08c",
+        "sha256_in_prefix": "a7a294f2087f5d4fd3614f3d47c2dba0f3004892f45877f6c4d4dc90d8c6e08c",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "share/man/man3/CURLMOPT_TIMERFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "28bd625ab310ec0be56b7db68c615c8c90c7f667b87189f162325f9ffd75ef69",
+        "sha256_in_prefix": "28bd625ab310ec0be56b7db68c615c8c90c7f667b87189f162325f9ffd75ef69",
+        "size_in_bytes": 3562
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ABSTRACT_UNIX_SOCKET.3",
+        "path_type": "hardlink",
+        "sha256": "5194acbfdf26ffbcd71dde455b82eb2257024365ebc7d9a66d09b07eeb418fa2",
+        "sha256_in_prefix": "5194acbfdf26ffbcd71dde455b82eb2257024365ebc7d9a66d09b07eeb418fa2",
+        "size_in_bytes": 2571
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3",
+        "path_type": "hardlink",
+        "sha256": "aae4777e998d6fb07329f49922dfc07040066e6e26735f46cfe58b6072a4fa16",
+        "sha256_in_prefix": "aae4777e998d6fb07329f49922dfc07040066e6e26735f46cfe58b6072a4fa16",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ACCEPT_ENCODING.3",
+        "path_type": "hardlink",
+        "sha256": "9c6bdb85fa4c9228dcee8f9f79d58d7a4d877315531df732b87035234638466b",
+        "sha256_in_prefix": "9c6bdb85fa4c9228dcee8f9f79d58d7a4d877315531df732b87035234638466b",
+        "size_in_bytes": 3722
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ADDRESS_SCOPE.3",
+        "path_type": "hardlink",
+        "sha256": "b269ade9b4212a0e3939e89207a217e7dd216d7e524d679411f8795b1f2a2970",
+        "sha256_in_prefix": "b269ade9b4212a0e3939e89207a217e7dd216d7e524d679411f8795b1f2a2970",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_APPEND.3",
+        "path_type": "hardlink",
+        "sha256": "635e584bc4a9bddc9e2dc2670ba0ab4905e796c0d476135e296f27d7b396e736",
+        "sha256_in_prefix": "635e584bc4a9bddc9e2dc2670ba0ab4905e796c0d476135e296f27d7b396e736",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_AUTOREFERER.3",
+        "path_type": "hardlink",
+        "sha256": "c0007675b42bac40b5c381a9cd1c8cd9541bc6546e5c5fdb1715d8138c83eeb1",
+        "sha256_in_prefix": "c0007675b42bac40b5c381a9cd1c8cd9541bc6546e5c5fdb1715d8138c83eeb1",
+        "size_in_bytes": 2174
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_BUFFERSIZE.3",
+        "path_type": "hardlink",
+        "sha256": "02bbb4166c2e08bad86d05240f87cfd85ec94578fe36f5fd53b2db2d20f2d055",
+        "sha256_in_prefix": "02bbb4166c2e08bad86d05240f87cfd85ec94578fe36f5fd53b2db2d20f2d055",
+        "size_in_bytes": 2577
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CAINFO.3",
+        "path_type": "hardlink",
+        "sha256": "9566be2a7c9acae42998d259769469a4cd9117d1051bcd5fae070c0970766ea6",
+        "sha256_in_prefix": "9566be2a7c9acae42998d259769469a4cd9117d1051bcd5fae070c0970766ea6",
+        "size_in_bytes": 3747
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CAPATH.3",
+        "path_type": "hardlink",
+        "sha256": "cb6bcf18e6c2bfd3d4396cfe3f5b42ff18e6170388c7e2c5396f5d76128687ea",
+        "sha256_in_prefix": "cb6bcf18e6c2bfd3d4396cfe3f5b42ff18e6170388c7e2c5396f5d76128687ea",
+        "size_in_bytes": 2673
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CERTINFO.3",
+        "path_type": "hardlink",
+        "sha256": "9118fd06eaa0ccd753cf9a3d3b8ad984bd66750441167012f11f19d3235e13ea",
+        "sha256_in_prefix": "9118fd06eaa0ccd753cf9a3d3b8ad984bd66750441167012f11f19d3235e13ea",
+        "size_in_bytes": 2777
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CHUNK_BGN_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "bc83f0f3b1af8c2f24afd62dde23703087d0bb8ae58142e08f4bd6fadbdeef78",
+        "sha256_in_prefix": "bc83f0f3b1af8c2f24afd62dde23703087d0bb8ae58142e08f4bd6fadbdeef78",
+        "size_in_bytes": 3937
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CHUNK_DATA.3",
+        "path_type": "hardlink",
+        "sha256": "7dab977b6be3d8903e6ef4d7a05be22fb784429700f95f2505f5da110b43b940",
+        "sha256_in_prefix": "7dab977b6be3d8903e6ef4d7a05be22fb784429700f95f2505f5da110b43b940",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "56b9521bda5cbd1ff406be51555363f34de2567f324e9199955cb67544a57767",
+        "sha256_in_prefix": "56b9521bda5cbd1ff406be51555363f34de2567f324e9199955cb67544a57767",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CLOSESOCKETDATA.3",
+        "path_type": "hardlink",
+        "sha256": "ca91f87bbfbf04567416bf53f1d579ed0c53df06625c25cfd1e0291c09b874e0",
+        "sha256_in_prefix": "ca91f87bbfbf04567416bf53f1d579ed0c53df06625c25cfd1e0291c09b874e0",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "8cc94ebe7c15a601942cd191ebd36156dcc5c030497d729bfd3b3b4b233efb47",
+        "sha256_in_prefix": "8cc94ebe7c15a601942cd191ebd36156dcc5c030497d729bfd3b3b4b233efb47",
+        "size_in_bytes": 2619
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONNECTTIMEOUT.3",
+        "path_type": "hardlink",
+        "sha256": "ae0046f32ef7196427ef4b3076aacaee9166e09c2fb1da041390311f289015e3",
+        "sha256_in_prefix": "ae0046f32ef7196427ef4b3076aacaee9166e09c2fb1da041390311f289015e3",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3",
+        "path_type": "hardlink",
+        "sha256": "ed25385d51a9ef9ce382e7e7dee14387697f53113ae53864574c87a22314671c",
+        "sha256_in_prefix": "ed25385d51a9ef9ce382e7e7dee14387697f53113ae53864574c87a22314671c",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONNECT_ONLY.3",
+        "path_type": "hardlink",
+        "sha256": "3b4e81a0f2ae01465ee094a323838eee0e9222977e9944fc2568b1e1dff381db",
+        "sha256_in_prefix": "3b4e81a0f2ae01465ee094a323838eee0e9222977e9944fc2568b1e1dff381db",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONNECT_TO.3",
+        "path_type": "hardlink",
+        "sha256": "2e87b829fd0be47a72d4f722e8cd868b27474cb7fd7205e35c02ca6b526d8121",
+        "sha256_in_prefix": "2e87b829fd0be47a72d4f722e8cd868b27474cb7fd7205e35c02ca6b526d8121",
+        "size_in_bytes": 4690
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONV_FROM_NETWORK_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "9919c29d84daf024e0546f9d1c4892fba3583d9f78d89fa5a88eb63fad961b47",
+        "sha256_in_prefix": "9919c29d84daf024e0546f9d1c4892fba3583d9f78d89fa5a88eb63fad961b47",
+        "size_in_bytes": 3883
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONV_FROM_UTF8_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "a0bcd713becd3cce443809bbac5c14cee8b36374fdfc8139fdead033a41422b2",
+        "sha256_in_prefix": "a0bcd713becd3cce443809bbac5c14cee8b36374fdfc8139fdead033a41422b2",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CONV_TO_NETWORK_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "564239ddcea0b34f557ec98c644cf747ca145407ade73ec12cb024f9360f66ba",
+        "sha256_in_prefix": "564239ddcea0b34f557ec98c644cf747ca145407ade73ec12cb024f9360f66ba",
+        "size_in_bytes": 3809
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COOKIE.3",
+        "path_type": "hardlink",
+        "sha256": "e8c7a1369866d9749f4b6095e92a7541c07acc8f7bd0551bc6702af2f4932323",
+        "sha256_in_prefix": "e8c7a1369866d9749f4b6095e92a7541c07acc8f7bd0551bc6702af2f4932323",
+        "size_in_bytes": 3407
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COOKIEFILE.3",
+        "path_type": "hardlink",
+        "sha256": "9c0ba76d2c3164e3b7f3b45a1c0d8a3da2064fb2b01a6a993da66061540c9757",
+        "sha256_in_prefix": "9c0ba76d2c3164e3b7f3b45a1c0d8a3da2064fb2b01a6a993da66061540c9757",
+        "size_in_bytes": 3390
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COOKIEJAR.3",
+        "path_type": "hardlink",
+        "sha256": "fc16f0ee95a6f1a9fe707a0cf7c2f9f1fc17aa532b89b4b587fff15875defd92",
+        "sha256_in_prefix": "fc16f0ee95a6f1a9fe707a0cf7c2f9f1fc17aa532b89b4b587fff15875defd92",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COOKIELIST.3",
+        "path_type": "hardlink",
+        "sha256": "511ad28bbc03f6144af6ee45090090c1b8f98d3aa96b5776b16fc4dd5c8df114",
+        "sha256_in_prefix": "511ad28bbc03f6144af6ee45090090c1b8f98d3aa96b5776b16fc4dd5c8df114",
+        "size_in_bytes": 4586
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COOKIESESSION.3",
+        "path_type": "hardlink",
+        "sha256": "c512815df4b2631bc86c66e6c443b7e8301d433f4be18c41c98b99563ddbfab8",
+        "sha256_in_prefix": "c512815df4b2631bc86c66e6c443b7e8301d433f4be18c41c98b99563ddbfab8",
+        "size_in_bytes": 2459
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_COPYPOSTFIELDS.3",
+        "path_type": "hardlink",
+        "sha256": "34f5d2af92eb457d4876183e21407a32a4ed1ca8b923b0c4ba1fa9ed93b205be",
+        "sha256_in_prefix": "34f5d2af92eb457d4876183e21407a32a4ed1ca8b923b0c4ba1fa9ed93b205be",
+        "size_in_bytes": 2929
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CRLF.3",
+        "path_type": "hardlink",
+        "sha256": "bb251bc00d50339890b97379c15dffc295c2e6dcd2415a1fd95bf1945cd256d0",
+        "sha256_in_prefix": "bb251bc00d50339890b97379c15dffc295c2e6dcd2415a1fd95bf1945cd256d0",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CRLFILE.3",
+        "path_type": "hardlink",
+        "sha256": "0515be331099cb58532326d2a9e2277ef56c351897ecfa1d4dc73965b798da3b",
+        "sha256_in_prefix": "0515be331099cb58532326d2a9e2277ef56c351897ecfa1d4dc73965b798da3b",
+        "size_in_bytes": 2967
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_CUSTOMREQUEST.3",
+        "path_type": "hardlink",
+        "sha256": "dfdb11abcbd70bb175cea74fdce69e6cf99c23424200117c987ccfe1a0981f17",
+        "sha256_in_prefix": "dfdb11abcbd70bb175cea74fdce69e6cf99c23424200117c987ccfe1a0981f17",
+        "size_in_bytes": 4368
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DEBUGDATA.3",
+        "path_type": "hardlink",
+        "sha256": "33bd03842ca5761cef548162de8e94221d29b477399031583807190388702989",
+        "sha256_in_prefix": "33bd03842ca5761cef548162de8e94221d29b477399031583807190388702989",
+        "size_in_bytes": 1782
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DEBUGFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "139e35ffc306a13dde88798c7c12eedda58fea8cf55346a8d427f7fe785f64dc",
+        "sha256_in_prefix": "139e35ffc306a13dde88798c7c12eedda58fea8cf55346a8d427f7fe785f64dc",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DEFAULT_PROTOCOL.3",
+        "path_type": "hardlink",
+        "sha256": "6261d57e08fb764bcf0725c3380d4de9b4964a9c1ceb9d054a7f046269450569",
+        "sha256_in_prefix": "6261d57e08fb764bcf0725c3380d4de9b4964a9c1ceb9d054a7f046269450569",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DIRLISTONLY.3",
+        "path_type": "hardlink",
+        "sha256": "caefd964a541bd4641f16d7f7822d88a49c2e20e8f935946b781b16a14d9b858",
+        "sha256_in_prefix": "caefd964a541bd4641f16d7f7822d88a49c2e20e8f935946b781b16a14d9b858",
+        "size_in_bytes": 2915
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_CACHE_TIMEOUT.3",
+        "path_type": "hardlink",
+        "sha256": "256f6d827bcef4f2c49f638d1276ec12d00fb84c2b1f484dd7f4edac8de885fb",
+        "sha256_in_prefix": "256f6d827bcef4f2c49f638d1276ec12d00fb84c2b1f484dd7f4edac8de885fb",
+        "size_in_bytes": 2896
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_INTERFACE.3",
+        "path_type": "hardlink",
+        "sha256": "7096930cfe5ff5839f4c21994dc1e65bfad45db80ecea1440314d5d64ac66fdc",
+        "sha256_in_prefix": "7096930cfe5ff5839f4c21994dc1e65bfad45db80ecea1440314d5d64ac66fdc",
+        "size_in_bytes": 2391
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_LOCAL_IP4.3",
+        "path_type": "hardlink",
+        "sha256": "a8d1ea3337ba5d68d1b51dc8102a7ccfa677ba3733d995ef0df690c1864d5514",
+        "sha256_in_prefix": "a8d1ea3337ba5d68d1b51dc8102a7ccfa677ba3733d995ef0df690c1864d5514",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_LOCAL_IP6.3",
+        "path_type": "hardlink",
+        "sha256": "68d45e06d995faf51f833f98242e60f9b1b0deb13bb00c380a5199d6cda28c5b",
+        "sha256_in_prefix": "68d45e06d995faf51f833f98242e60f9b1b0deb13bb00c380a5199d6cda28c5b",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_SERVERS.3",
+        "path_type": "hardlink",
+        "sha256": "f8f41cd474dd5bde407dba498b741174fb1d9bc877e4036073a16c0ee99d74ca",
+        "sha256_in_prefix": "f8f41cd474dd5bde407dba498b741174fb1d9bc877e4036073a16c0ee99d74ca",
+        "size_in_bytes": 2520
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_SHUFFLE_ADDRESSES.3",
+        "path_type": "hardlink",
+        "sha256": "780ab926a1dd43eecbacc55b200b565633bdf0ffbe4e4fc4b137374826f61030",
+        "sha256_in_prefix": "780ab926a1dd43eecbacc55b200b565633bdf0ffbe4e4fc4b137374826f61030",
+        "size_in_bytes": 2733
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_DNS_USE_GLOBAL_CACHE.3",
+        "path_type": "hardlink",
+        "sha256": "e59532321a0edf0735f44139c31b8678be3d4f6515ac90b650df284482a12401",
+        "sha256_in_prefix": "e59532321a0edf0735f44139c31b8678be3d4f6515ac90b650df284482a12401",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_EGDSOCKET.3",
+        "path_type": "hardlink",
+        "sha256": "8cdb8b817a0afc211d42e1de9966c0cb03488b1a1f5efa3f3882fffd8aa08e03",
+        "sha256_in_prefix": "8cdb8b817a0afc211d42e1de9966c0cb03488b1a1f5efa3f3882fffd8aa08e03",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ERRORBUFFER.3",
+        "path_type": "hardlink",
+        "sha256": "3d62714f3450c7dff9dc3d910e188f6524955ccd43eb96f67aff7d9d0b36acac",
+        "sha256_in_prefix": "3d62714f3450c7dff9dc3d910e188f6524955ccd43eb96f67aff7d9d0b36acac",
+        "size_in_bytes": 3502
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_EXPECT_100_TIMEOUT_MS.3",
+        "path_type": "hardlink",
+        "sha256": "ecd4c63d4f062e55cfec0fbf4b39c2a651a46bb977054c2082020bf9669e7f89",
+        "sha256_in_prefix": "ecd4c63d4f062e55cfec0fbf4b39c2a651a46bb977054c2082020bf9669e7f89",
+        "size_in_bytes": 2265
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FAILONERROR.3",
+        "path_type": "hardlink",
+        "sha256": "21715f4b254ca66fb3521ee72491036e54f432e64d6c653fbb4422c3d3f9ec86",
+        "sha256_in_prefix": "21715f4b254ca66fb3521ee72491036e54f432e64d6c653fbb4422c3d3f9ec86",
+        "size_in_bytes": 2684
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FILETIME.3",
+        "path_type": "hardlink",
+        "sha256": "73dc7eca59f31c86f2692bc94c53a4d43f775db28ba1308cbf659528ab1dd987",
+        "sha256_in_prefix": "73dc7eca59f31c86f2692bc94c53a4d43f775db28ba1308cbf659528ab1dd987",
+        "size_in_bytes": 2425
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FNMATCH_DATA.3",
+        "path_type": "hardlink",
+        "sha256": "d21dfca71d741274790876af9250f6b2f165045e0316277915bc7aed5f461f98",
+        "sha256_in_prefix": "d21dfca71d741274790876af9250f6b2f165045e0316277915bc7aed5f461f98",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FNMATCH_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "9306fd17c265d9e02444b6956fd142d9e381893341db3f3c9cf0478c6d36944b",
+        "sha256_in_prefix": "9306fd17c265d9e02444b6956fd142d9e381893341db3f3c9cf0478c6d36944b",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FOLLOWLOCATION.3",
+        "path_type": "hardlink",
+        "sha256": "192acc1382083ff73e001de679dc8cb3057275816436ccd61c4eb31d37b6f616",
+        "sha256_in_prefix": "192acc1382083ff73e001de679dc8cb3057275816436ccd61c4eb31d37b6f616",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FORBID_REUSE.3",
+        "path_type": "hardlink",
+        "sha256": "f3c53fb3b9ebaf347beb129d994d41f4ccad48962fcee098dd1784bfd6bff059",
+        "sha256_in_prefix": "f3c53fb3b9ebaf347beb129d994d41f4ccad48962fcee098dd1784bfd6bff059",
+        "size_in_bytes": 2266
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FRESH_CONNECT.3",
+        "path_type": "hardlink",
+        "sha256": "485693799bd5d63d96c805615f4c43f64537ddb5858ad9b6ee420fb3942bbe35",
+        "sha256_in_prefix": "485693799bd5d63d96c805615f4c43f64537ddb5858ad9b6ee420fb3942bbe35",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTPPORT.3",
+        "path_type": "hardlink",
+        "sha256": "fb8e270366382ec7d8efd3bae4ee93c44a5db1d98920a4a8ee1c8b9567c72b59",
+        "sha256_in_prefix": "fb8e270366382ec7d8efd3bae4ee93c44a5db1d98920a4a8ee1c8b9567c72b59",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTPSSLAUTH.3",
+        "path_type": "hardlink",
+        "sha256": "24cfda3eb793290e2bbaa4eaad87271de8722708f9860929f94233c6aa0a461f",
+        "sha256_in_prefix": "24cfda3eb793290e2bbaa4eaad87271de8722708f9860929f94233c6aa0a461f",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_ACCOUNT.3",
+        "path_type": "hardlink",
+        "sha256": "b01330971f522dcf60a47f5fd4d75c2be6932914a42123f750685a0f3cc495dc",
+        "sha256_in_prefix": "b01330971f522dcf60a47f5fd4d75c2be6932914a42123f750685a0f3cc495dc",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_ALTERNATIVE_TO_USER.3",
+        "path_type": "hardlink",
+        "sha256": "2c8844bd1ec2b1ef3bad775ac9fded069e3751fcf7fcfd0a2bcf82c3e8855238",
+        "sha256_in_prefix": "2c8844bd1ec2b1ef3bad775ac9fded069e3751fcf7fcfd0a2bcf82c3e8855238",
+        "size_in_bytes": 2409
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_CREATE_MISSING_DIRS.3",
+        "path_type": "hardlink",
+        "sha256": "be3a1d83e5c16618a1eb5bf51a23bc4e69866508dfd177c8f3463425ecfba58f",
+        "sha256_in_prefix": "be3a1d83e5c16618a1eb5bf51a23bc4e69866508dfd177c8f3463425ecfba58f",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_FILEMETHOD.3",
+        "path_type": "hardlink",
+        "sha256": "d9042f01af276ba20ebae45d532edf85eda3aee205a19e7d63583f3eb2a1af9b",
+        "sha256_in_prefix": "d9042f01af276ba20ebae45d532edf85eda3aee205a19e7d63583f3eb2a1af9b",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_RESPONSE_TIMEOUT.3",
+        "path_type": "hardlink",
+        "sha256": "d91f1dcc55c4820f57a7593ac52a3d0812cea61ad31d40ea58be0671886cfd61",
+        "sha256_in_prefix": "d91f1dcc55c4820f57a7593ac52a3d0812cea61ad31d40ea58be0671886cfd61",
+        "size_in_bytes": 2568
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_SKIP_PASV_IP.3",
+        "path_type": "hardlink",
+        "sha256": "c776f45b669b055d447b9abd7b9fa835f717bfe6873a80b1964c756fcbd0d8a7",
+        "sha256_in_prefix": "c776f45b669b055d447b9abd7b9fa835f717bfe6873a80b1964c756fcbd0d8a7",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_SSL_CCC.3",
+        "path_type": "hardlink",
+        "sha256": "3d2415b55f6465c9c3780b8b83d1d9ef7abfd36941a5dd92b855b9fcb9c373c9",
+        "sha256_in_prefix": "3d2415b55f6465c9c3780b8b83d1d9ef7abfd36941a5dd92b855b9fcb9c373c9",
+        "size_in_bytes": 2550
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_USE_EPRT.3",
+        "path_type": "hardlink",
+        "sha256": "8d1dc16ddf7c7a2ed251ea0da95848f694ad027f846f929971573ffc884560b8",
+        "sha256_in_prefix": "8d1dc16ddf7c7a2ed251ea0da95848f694ad027f846f929971573ffc884560b8",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_USE_EPSV.3",
+        "path_type": "hardlink",
+        "sha256": "2a6ff9f453170c8f2456f289a69786f3ca2f99c4ef85de1d03f73d976a0b794e",
+        "sha256_in_prefix": "2a6ff9f453170c8f2456f289a69786f3ca2f99c4ef85de1d03f73d976a0b794e",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_FTP_USE_PRET.3",
+        "path_type": "hardlink",
+        "sha256": "fbc5984e73d3e0588804cbc827f8438bf539a6e2cd69777d3195de9797396974",
+        "sha256_in_prefix": "fbc5984e73d3e0588804cbc827f8438bf539a6e2cd69777d3195de9797396974",
+        "size_in_bytes": 2175
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_GSSAPI_DELEGATION.3",
+        "path_type": "hardlink",
+        "sha256": "cf76071e3f9f0e1dcb28be36a9bf4df71366aca03ff0e2f77f3545d552712619",
+        "sha256_in_prefix": "cf76071e3f9f0e1dcb28be36a9bf4df71366aca03ff0e2f77f3545d552712619",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS.3",
+        "path_type": "hardlink",
+        "sha256": "c71717400502a5e6dd927a62c354f5e68971512377f9b9aac2af9a003d91b59c",
+        "sha256_in_prefix": "c71717400502a5e6dd927a62c354f5e68971512377f9b9aac2af9a003d91b59c",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HAPROXYPROTOCOL.3",
+        "path_type": "hardlink",
+        "sha256": "f6999b1da6385c736b3f53ced36019122506b0afa07da9c1c4df74da3dfc7136",
+        "sha256_in_prefix": "f6999b1da6385c736b3f53ced36019122506b0afa07da9c1c4df74da3dfc7136",
+        "size_in_bytes": 2176
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HEADER.3",
+        "path_type": "hardlink",
+        "sha256": "6e00185aab83a5e0196c334983e5f80a8f5f36a7d8268af888c570923023f285",
+        "sha256_in_prefix": "6e00185aab83a5e0196c334983e5f80a8f5f36a7d8268af888c570923023f285",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HEADERDATA.3",
+        "path_type": "hardlink",
+        "sha256": "bab0644b45e058330b53b2eef4d298f51dfa7369db089b5964254848b88675e7",
+        "sha256_in_prefix": "bab0644b45e058330b53b2eef4d298f51dfa7369db089b5964254848b88675e7",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HEADERFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "1ee415730495266fbad952725822db7ae4dcc47bf543beb9d777f0bce24f83fc",
+        "sha256_in_prefix": "1ee415730495266fbad952725822db7ae4dcc47bf543beb9d777f0bce24f83fc",
+        "size_in_bytes": 4993
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HEADEROPT.3",
+        "path_type": "hardlink",
+        "sha256": "3b29168db54669b608b77cc014083b8166388df4e35df5a111345963dfa28dd2",
+        "sha256_in_prefix": "3b29168db54669b608b77cc014083b8166388df4e35df5a111345963dfa28dd2",
+        "size_in_bytes": 3073
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTP200ALIASES.3",
+        "path_type": "hardlink",
+        "sha256": "8cce5cbc55d9517039509525aa843c607aad3aed2f5ea52405509958b752675e",
+        "sha256_in_prefix": "8cce5cbc55d9517039509525aa843c607aad3aed2f5ea52405509958b752675e",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTPAUTH.3",
+        "path_type": "hardlink",
+        "sha256": "da741273f1f8947b7eed69fded7ca7f2ce1d16fcd37a50eca52bcc047938d051",
+        "sha256_in_prefix": "da741273f1f8947b7eed69fded7ca7f2ce1d16fcd37a50eca52bcc047938d051",
+        "size_in_bytes": 5647
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTPGET.3",
+        "path_type": "hardlink",
+        "sha256": "706f43cf9c59c2c44d04b49fd9ac17680d650d909b9043141682646af9a34923",
+        "sha256_in_prefix": "706f43cf9c59c2c44d04b49fd9ac17680d650d909b9043141682646af9a34923",
+        "size_in_bytes": 2150
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTPHEADER.3",
+        "path_type": "hardlink",
+        "sha256": "0204eadd09cabea80e3d4d7f6cc0b8aef176dad823e7b9f5bd6a12797d79c09d",
+        "sha256_in_prefix": "0204eadd09cabea80e3d4d7f6cc0b8aef176dad823e7b9f5bd6a12797d79c09d",
+        "size_in_bytes": 5279
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTPPOST.3",
+        "path_type": "hardlink",
+        "sha256": "8b3610f82900d9bb97b8f6c30cb157f1d29f2182ff4431f3903db6f2168f0f1f",
+        "sha256_in_prefix": "8b3610f82900d9bb97b8f6c30cb157f1d29f2182ff4431f3903db6f2168f0f1f",
+        "size_in_bytes": 3264
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTPPROXYTUNNEL.3",
+        "path_type": "hardlink",
+        "sha256": "020293e5a58603ca3dc4919ffd7446a32ce7456087605d2face3c9c70b3f950a",
+        "sha256_in_prefix": "020293e5a58603ca3dc4919ffd7446a32ce7456087605d2face3c9c70b3f950a",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTP_CONTENT_DECODING.3",
+        "path_type": "hardlink",
+        "sha256": "6c72b8aa78078710addcca24a120902fad5014a5241fd625da38364e116a13e3",
+        "sha256_in_prefix": "6c72b8aa78078710addcca24a120902fad5014a5241fd625da38364e116a13e3",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTP_TRANSFER_DECODING.3",
+        "path_type": "hardlink",
+        "sha256": "02fb61d138c0c42d59d24f7577f7d277b08ccb0fdd2e0f7a49fe9251d9d5ee7c",
+        "sha256_in_prefix": "02fb61d138c0c42d59d24f7577f7d277b08ccb0fdd2e0f7a49fe9251d9d5ee7c",
+        "size_in_bytes": 2160
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_HTTP_VERSION.3",
+        "path_type": "hardlink",
+        "sha256": "d3e5d176bd92db7084d9dbc7be3f0dadb6f4912e7bae6935dbf224cc72775f08",
+        "sha256_in_prefix": "d3e5d176bd92db7084d9dbc7be3f0dadb6f4912e7bae6935dbf224cc72775f08",
+        "size_in_bytes": 3417
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_IGNORE_CONTENT_LENGTH.3",
+        "path_type": "hardlink",
+        "sha256": "962cf2de96d7cd9f65a4452775f72ba864b383c5620ce7fe4be536eb7abe0d0f",
+        "sha256_in_prefix": "962cf2de96d7cd9f65a4452775f72ba864b383c5620ce7fe4be536eb7abe0d0f",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_INFILESIZE.3",
+        "path_type": "hardlink",
+        "sha256": "5e38a015a0af958c48341b7bcf7bb91e035d9682924af4a7777f963f3c1eaf5e",
+        "sha256_in_prefix": "5e38a015a0af958c48341b7bcf7bb91e035d9682924af4a7777f963f3c1eaf5e",
+        "size_in_bytes": 2651
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_INFILESIZE_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "bd7da50f1388d758b76dc193c65d62163f8b2382e2faf1120565e1ba3ba80d35",
+        "sha256_in_prefix": "bd7da50f1388d758b76dc193c65d62163f8b2382e2faf1120565e1ba3ba80d35",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_INTERFACE.3",
+        "path_type": "hardlink",
+        "sha256": "2bb5e9c264a562192db221f3090b9fed7601373f51e95a0c065cefb636202b6f",
+        "sha256_in_prefix": "2bb5e9c264a562192db221f3090b9fed7601373f51e95a0c065cefb636202b6f",
+        "size_in_bytes": 2796
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_INTERLEAVEDATA.3",
+        "path_type": "hardlink",
+        "sha256": "bbfcf62f13942c40daa4bfe42ea4d46a6f46329cefd22b8b93f6d6adaffb4e3a",
+        "sha256_in_prefix": "bbfcf62f13942c40daa4bfe42ea4d46a6f46329cefd22b8b93f6d6adaffb4e3a",
+        "size_in_bytes": 2241
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_INTERLEAVEFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "60e0eb59ffaf7a64e0afa896492629c9efef8b746c3855d83d875b530eb35b7a",
+        "sha256_in_prefix": "60e0eb59ffaf7a64e0afa896492629c9efef8b746c3855d83d875b530eb35b7a",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_IOCTLDATA.3",
+        "path_type": "hardlink",
+        "sha256": "1e863c1e16f0c17a256819328e01d8524014dfc2c1d0ed53519ef6c3de933e49",
+        "sha256_in_prefix": "1e863c1e16f0c17a256819328e01d8524014dfc2c1d0ed53519ef6c3de933e49",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_IOCTLFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "8ab903301a8af3dfe2145e0eb99be6694e59ed60ba3e25a4bb912c5d0eea7b2f",
+        "sha256_in_prefix": "8ab903301a8af3dfe2145e0eb99be6694e59ed60ba3e25a4bb912c5d0eea7b2f",
+        "size_in_bytes": 3426
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_IPRESOLVE.3",
+        "path_type": "hardlink",
+        "sha256": "fd398e5e02ba160c8209999b3b5a9d1e0ff015d9503ddae38c9c412941f594d4",
+        "sha256_in_prefix": "fd398e5e02ba160c8209999b3b5a9d1e0ff015d9503ddae38c9c412941f594d4",
+        "size_in_bytes": 2287
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_ISSUERCERT.3",
+        "path_type": "hardlink",
+        "sha256": "9871869eb90c3ff836c79c7696280b4c1037a586bd520dd56776bbcd921edd88",
+        "sha256_in_prefix": "9871869eb90c3ff836c79c7696280b4c1037a586bd520dd56776bbcd921edd88",
+        "size_in_bytes": 2912
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_KEEP_SENDING_ON_ERROR.3",
+        "path_type": "hardlink",
+        "sha256": "d037d038b70a1f3b1d7e341f34e0c18d73779734d5edb19f9a00eeb727a4c92d",
+        "sha256_in_prefix": "d037d038b70a1f3b1d7e341f34e0c18d73779734d5edb19f9a00eeb727a4c92d",
+        "size_in_bytes": 2482
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_KEYPASSWD.3",
+        "path_type": "hardlink",
+        "sha256": "313ddd09238c34597d5227b0472d3f9a048ff9a34d142ee85d1f9735dc3b4278",
+        "sha256_in_prefix": "313ddd09238c34597d5227b0472d3f9a048ff9a34d142ee85d1f9735dc3b4278",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_KRBLEVEL.3",
+        "path_type": "hardlink",
+        "sha256": "8c8157d5d0db01344aafc9dd50941c744765f53416e0e2530dd887408e1e3ffd",
+        "sha256_in_prefix": "8c8157d5d0db01344aafc9dd50941c744765f53416e0e2530dd887408e1e3ffd",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_LOCALPORT.3",
+        "path_type": "hardlink",
+        "sha256": "9bcc0102691a2b83fdf96c084c137c256579877948a133450997200e327c3739",
+        "sha256_in_prefix": "9bcc0102691a2b83fdf96c084c137c256579877948a133450997200e327c3739",
+        "size_in_bytes": 2217
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_LOCALPORTRANGE.3",
+        "path_type": "hardlink",
+        "sha256": "e80196f838cef38a198e675f2366b74f5956b5a33bd7cacb951000e029dc6d94",
+        "sha256_in_prefix": "e80196f838cef38a198e675f2366b74f5956b5a33bd7cacb951000e029dc6d94",
+        "size_in_bytes": 2460
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_LOGIN_OPTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "5a8f8b9e7fbcb2aa309b3a6485022a0271b4a548bd8331cc61b2478a780c7baf",
+        "sha256_in_prefix": "5a8f8b9e7fbcb2aa309b3a6485022a0271b4a548bd8331cc61b2478a780c7baf",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_LOW_SPEED_LIMIT.3",
+        "path_type": "hardlink",
+        "sha256": "0cf75c143b7dffc4d72c2883b69acc07cfb6ebaa9bf634e27aa58cc4e3950544",
+        "sha256_in_prefix": "0cf75c143b7dffc4d72c2883b69acc07cfb6ebaa9bf634e27aa58cc4e3950544",
+        "size_in_bytes": 2212
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_LOW_SPEED_TIME.3",
+        "path_type": "hardlink",
+        "sha256": "cf5c71be9637cd45b9ea5e66b0b8f7459d6a68936d2155af14fba60a2e518f08",
+        "sha256_in_prefix": "cf5c71be9637cd45b9ea5e66b0b8f7459d6a68936d2155af14fba60a2e518f08",
+        "size_in_bytes": 2175
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAIL_AUTH.3",
+        "path_type": "hardlink",
+        "sha256": "7229e8c138f14975d6ceacfc02aa6c02f47d7137f8ccb10799885749b4092a8b",
+        "sha256_in_prefix": "7229e8c138f14975d6ceacfc02aa6c02f47d7137f8ccb10799885749b4092a8b",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAIL_FROM.3",
+        "path_type": "hardlink",
+        "sha256": "ff8cfa867681e9516f0e671001cf60323c60b4e4a9c6e8aa2e3066f3c26d5e9e",
+        "sha256_in_prefix": "ff8cfa867681e9516f0e671001cf60323c60b4e4a9c6e8aa2e3066f3c26d5e9e",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAIL_RCPT.3",
+        "path_type": "hardlink",
+        "sha256": "17bcd0911c2f81849e70da63775386ac0f2c476ea6e0afba09b239ef4969b986",
+        "sha256_in_prefix": "17bcd0911c2f81849e70da63775386ac0f2c476ea6e0afba09b239ef4969b986",
+        "size_in_bytes": 2995
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAXCONNECTS.3",
+        "path_type": "hardlink",
+        "sha256": "20feba4fb74f0141e1b94d79a03264fa4f71a8907ad6cd2e54666b644a89727b",
+        "sha256_in_prefix": "20feba4fb74f0141e1b94d79a03264fa4f71a8907ad6cd2e54666b644a89727b",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAXFILESIZE.3",
+        "path_type": "hardlink",
+        "sha256": "f48eb3564b201770f0043b4b55d527cd29097740e5d80fd72f38e2bf3c60706c",
+        "sha256_in_prefix": "f48eb3564b201770f0043b4b55d527cd29097740e5d80fd72f38e2bf3c60706c",
+        "size_in_bytes": 2377
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAXFILESIZE_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "5ab1642be6aee09671842aa893f1784d6f84c6f34fe8a26400e0ef68f4c90b18",
+        "sha256_in_prefix": "5ab1642be6aee09671842aa893f1784d6f84c6f34fe8a26400e0ef68f4c90b18",
+        "size_in_bytes": 2474
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAXREDIRS.3",
+        "path_type": "hardlink",
+        "sha256": "d3c681b04a195339abff05807603ef35e810b3db5473b014199506dd62bba58f",
+        "sha256_in_prefix": "d3c681b04a195339abff05807603ef35e810b3db5473b014199506dd62bba58f",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAX_RECV_SPEED_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "dfdb5dbbc7d77ef49cfe844602090c08faa5d7d367b92520e5643643aa4e80b0",
+        "sha256_in_prefix": "dfdb5dbbc7d77ef49cfe844602090c08faa5d7d367b92520e5643643aa4e80b0",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MAX_SEND_SPEED_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "726838de1e1cabc4e7e875e3b5c96eed32d76b359bc7e356d39f0f087f187666",
+        "sha256_in_prefix": "726838de1e1cabc4e7e875e3b5c96eed32d76b359bc7e356d39f0f087f187666",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_MIMEPOST.3",
+        "path_type": "hardlink",
+        "sha256": "bea54884242164ac454b588f105ed9cc39650f2a99c40d687ae602b6e84b72f3",
+        "sha256_in_prefix": "bea54884242164ac454b588f105ed9cc39650f2a99c40d687ae602b6e84b72f3",
+        "size_in_bytes": 2041
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NETRC.3",
+        "path_type": "hardlink",
+        "sha256": "c281e4dc73e9b4e32edcedc7e5d5c14b15c7a768f6bfea8e9e198b7092bd9a45",
+        "sha256_in_prefix": "c281e4dc73e9b4e32edcedc7e5d5c14b15c7a768f6bfea8e9e198b7092bd9a45",
+        "size_in_bytes": 3363
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NETRC_FILE.3",
+        "path_type": "hardlink",
+        "sha256": "a6afd3963bed17398d370d62fbd87e62fbda2eb02b920ca8843e02f0ade7be5d",
+        "sha256_in_prefix": "a6afd3963bed17398d370d62fbd87e62fbda2eb02b920ca8843e02f0ade7be5d",
+        "size_in_bytes": 2335
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NEW_DIRECTORY_PERMS.3",
+        "path_type": "hardlink",
+        "sha256": "78c985e342b58daa6b5b327c86edaa3ebf5b50bae9213f7b06aea62135ace468",
+        "sha256_in_prefix": "78c985e342b58daa6b5b327c86edaa3ebf5b50bae9213f7b06aea62135ace468",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NEW_FILE_PERMS.3",
+        "path_type": "hardlink",
+        "sha256": "a00b2c31b00d9df76625648ce0b2ec274e3f0a5879c379c286b00de7fb703a61",
+        "sha256_in_prefix": "a00b2c31b00d9df76625648ce0b2ec274e3f0a5879c379c286b00de7fb703a61",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NOBODY.3",
+        "path_type": "hardlink",
+        "sha256": "6168afb6b7120f06534dc3cfbb9ca0ad65437fb1c21ed8baf63189645a0b64e8",
+        "sha256_in_prefix": "6168afb6b7120f06534dc3cfbb9ca0ad65437fb1c21ed8baf63189645a0b64e8",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NOPROGRESS.3",
+        "path_type": "hardlink",
+        "sha256": "9cfa4696c4ddfc776494b081f4b4f4decce4a80b141db1bdb6d84e2dba71ac12",
+        "sha256_in_prefix": "9cfa4696c4ddfc776494b081f4b4f4decce4a80b141db1bdb6d84e2dba71ac12",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NOPROXY.3",
+        "path_type": "hardlink",
+        "sha256": "c0bb116dc78b98bbc6d43f79d83501eca03359bb348f8e9ff5f77496ac44568e",
+        "sha256_in_prefix": "c0bb116dc78b98bbc6d43f79d83501eca03359bb348f8e9ff5f77496ac44568e",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_NOSIGNAL.3",
+        "path_type": "hardlink",
+        "sha256": "a8c6f62bc812b3781fb6fe230300597a8d001b5451188bed67ee550ef3b10249",
+        "sha256_in_prefix": "a8c6f62bc812b3781fb6fe230300597a8d001b5451188bed67ee550ef3b10249",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_OPENSOCKETDATA.3",
+        "path_type": "hardlink",
+        "sha256": "ccb5ba12fb4bb2605d03bfc88b7c5cb12ecaf1201fb2814145c18b0d30e07493",
+        "sha256_in_prefix": "ccb5ba12fb4bb2605d03bfc88b7c5cb12ecaf1201fb2814145c18b0d30e07493",
+        "size_in_bytes": 3056
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_OPENSOCKETFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "6765a4f40564fb2d2ce567d276fd7ca19d44189d8486f0340959c0f81b67e626",
+        "sha256_in_prefix": "6765a4f40564fb2d2ce567d276fd7ca19d44189d8486f0340959c0f81b67e626",
+        "size_in_bytes": 4981
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PASSWORD.3",
+        "path_type": "hardlink",
+        "sha256": "eff5ffbc132228ecde7e6c84eee51c2ee9669cb0a4736d4ec6268dab6a8591d0",
+        "sha256_in_prefix": "eff5ffbc132228ecde7e6c84eee51c2ee9669cb0a4736d4ec6268dab6a8591d0",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PATH_AS_IS.3",
+        "path_type": "hardlink",
+        "sha256": "39387a70111dd575205c5369d49646e0e62fb1986bc6c2420c2a83e7d3bb7c12",
+        "sha256_in_prefix": "39387a70111dd575205c5369d49646e0e62fb1986bc6c2420c2a83e7d3bb7c12",
+        "size_in_bytes": 2409
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PINNEDPUBLICKEY.3",
+        "path_type": "hardlink",
+        "sha256": "359b7a1f4bb3e01b6ebe34c0b0c6fb1d5c847f33f39e4edda23ac2e8ea51dc16",
+        "sha256_in_prefix": "359b7a1f4bb3e01b6ebe34c0b0c6fb1d5c847f33f39e4edda23ac2e8ea51dc16",
+        "size_in_bytes": 4620
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PIPEWAIT.3",
+        "path_type": "hardlink",
+        "sha256": "b36acb7d3d4e134538731c4da0db9a7411d0f10f50c6eed67c0412ad427057d9",
+        "sha256_in_prefix": "b36acb7d3d4e134538731c4da0db9a7411d0f10f50c6eed67c0412ad427057d9",
+        "size_in_bytes": 2851
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PORT.3",
+        "path_type": "hardlink",
+        "sha256": "d545708c69fe1ede956711aef9ff78cf22505b85c46a878628d6d9ce91c5c4f8",
+        "sha256_in_prefix": "d545708c69fe1ede956711aef9ff78cf22505b85c46a878628d6d9ce91c5c4f8",
+        "size_in_bytes": 2266
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POST.3",
+        "path_type": "hardlink",
+        "sha256": "49384338a4dd0a7dd1dd66c0fd1fd97fe6b7a19d7c35ee20931a68b6439b5d3b",
+        "sha256_in_prefix": "49384338a4dd0a7dd1dd66c0fd1fd97fe6b7a19d7c35ee20931a68b6439b5d3b",
+        "size_in_bytes": 3731
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POSTFIELDS.3",
+        "path_type": "hardlink",
+        "sha256": "03f10d1e1ade778e4f6c9cb0f5000ef0d3434e042dd314b565fd3717125dc017",
+        "sha256_in_prefix": "03f10d1e1ade778e4f6c9cb0f5000ef0d3434e042dd314b565fd3717125dc017",
+        "size_in_bytes": 3678
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POSTFIELDSIZE.3",
+        "path_type": "hardlink",
+        "sha256": "a95399bfa5ff4f86c104bf7732db07e54e884178ac7caea01c7f917fa1cd9cfb",
+        "sha256_in_prefix": "a95399bfa5ff4f86c104bf7732db07e54e884178ac7caea01c7f917fa1cd9cfb",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POSTFIELDSIZE_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "b2b1f6b745d403f42c78217d83df66bf47ef95ff27f2268758285a06f6e3e0af",
+        "sha256_in_prefix": "b2b1f6b745d403f42c78217d83df66bf47ef95ff27f2268758285a06f6e3e0af",
+        "size_in_bytes": 2382
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POSTQUOTE.3",
+        "path_type": "hardlink",
+        "sha256": "2e3ce6ddf1c307e1bd04ba1884b78f69be212780ac18af442ebd42297490fb3d",
+        "sha256_in_prefix": "2e3ce6ddf1c307e1bd04ba1884b78f69be212780ac18af442ebd42297490fb3d",
+        "size_in_bytes": 2434
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_POSTREDIR.3",
+        "path_type": "hardlink",
+        "sha256": "e421ed6c51556e5995059ac14bcb56873c513859c93dc65c965eb3ec6036afae",
+        "sha256_in_prefix": "e421ed6c51556e5995059ac14bcb56873c513859c93dc65c965eb3ec6036afae",
+        "size_in_bytes": 3108
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PREQUOTE.3",
+        "path_type": "hardlink",
+        "sha256": "606cfa5d315eaf789c9f5ffc03cd3c31ecb81b51a260445d80796c67825f887e",
+        "sha256_in_prefix": "606cfa5d315eaf789c9f5ffc03cd3c31ecb81b51a260445d80796c67825f887e",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PRE_PROXY.3",
+        "path_type": "hardlink",
+        "sha256": "2a24429ae0d21bd4be6f20c4f8f404d56fbd7666470fefb96e6c6bd23d13c7b4",
+        "sha256_in_prefix": "2a24429ae0d21bd4be6f20c4f8f404d56fbd7666470fefb96e6c6bd23d13c7b4",
+        "size_in_bytes": 3402
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PRIVATE.3",
+        "path_type": "hardlink",
+        "sha256": "241d2d36d877cee9d99cfafd982d550bf5895bb16a4c7d3048a7a566303fe03a",
+        "sha256_in_prefix": "241d2d36d877cee9d99cfafd982d550bf5895bb16a4c7d3048a7a566303fe03a",
+        "size_in_bytes": 2256
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROGRESSDATA.3",
+        "path_type": "hardlink",
+        "sha256": "53ace342c45c4f200772fcf21a63393685ebf8c4985691846823ed8e924a7747",
+        "sha256_in_prefix": "53ace342c45c4f200772fcf21a63393685ebf8c4985691846823ed8e924a7747",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROGRESSFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "d715449d60099dfee42754fa6579703477d50d29401e2a3480e22e19d900450b",
+        "sha256_in_prefix": "d715449d60099dfee42754fa6579703477d50d29401e2a3480e22e19d900450b",
+        "size_in_bytes": 3566
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROTOCOLS.3",
+        "path_type": "hardlink",
+        "sha256": "5ac3e1af5839c3242176a89c68328054bd5c9c6bab53ea9856f97d43f85f5c79",
+        "sha256_in_prefix": "5ac3e1af5839c3242176a89c68328054bd5c9c6bab53ea9856f97d43f85f5c79",
+        "size_in_bytes": 2871
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY.3",
+        "path_type": "hardlink",
+        "sha256": "24539d1993368ce3b92d5cd43d624af64389349e8f272fbccd42b1e5c6641999",
+        "sha256_in_prefix": "24539d1993368ce3b92d5cd43d624af64389349e8f272fbccd42b1e5c6641999",
+        "size_in_bytes": 4759
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYAUTH.3",
+        "path_type": "hardlink",
+        "sha256": "f0dfdc7f87b73a42a6e98832c2a2b1198a3ed41942500ca2c8a6d4a25aff6747",
+        "sha256_in_prefix": "f0dfdc7f87b73a42a6e98832c2a2b1198a3ed41942500ca2c8a6d4a25aff6747",
+        "size_in_bytes": 2843
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYHEADER.3",
+        "path_type": "hardlink",
+        "sha256": "d9880b1faa6ee6fadeffc2ef4ffb1e804440b93e404bdab5c342d5b508941fb6",
+        "sha256_in_prefix": "d9880b1faa6ee6fadeffc2ef4ffb1e804440b93e404bdab5c342d5b508941fb6",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYPASSWORD.3",
+        "path_type": "hardlink",
+        "sha256": "8089945b3d9beaa0228e9287689143dba18c992505ba68836574a87b929d3c8c",
+        "sha256_in_prefix": "8089945b3d9beaa0228e9287689143dba18c992505ba68836574a87b929d3c8c",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYPORT.3",
+        "path_type": "hardlink",
+        "sha256": "ea3da0d009b04393fdb22791ffdf3508ef93dbe4be3049d30d51aba4370ee6c7",
+        "sha256_in_prefix": "ea3da0d009b04393fdb22791ffdf3508ef93dbe4be3049d30d51aba4370ee6c7",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYTYPE.3",
+        "path_type": "hardlink",
+        "sha256": "037a9e22f77481055c3b2ce7856309ab048a19b2a8332b64fc2402ca4d968c27",
+        "sha256_in_prefix": "037a9e22f77481055c3b2ce7856309ab048a19b2a8332b64fc2402ca4d968c27",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYUSERNAME.3",
+        "path_type": "hardlink",
+        "sha256": "a5f3e8e02be558814aeaa99e01b2462f738f9f7d5366f81c078033a08d1d28df",
+        "sha256_in_prefix": "a5f3e8e02be558814aeaa99e01b2462f738f9f7d5366f81c078033a08d1d28df",
+        "size_in_bytes": 2515
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXYUSERPWD.3",
+        "path_type": "hardlink",
+        "sha256": "451e391eba42a3e5599e728385d5ca99d94fb0d922b7cba07c289b6fb857174f",
+        "sha256_in_prefix": "451e391eba42a3e5599e728385d5ca99d94fb0d922b7cba07c289b6fb857174f",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_CAINFO.3",
+        "path_type": "hardlink",
+        "sha256": "521078bf6723d4cbb543e749e5341b9b142b059da42d6bd9d4ea419bbb00cf23",
+        "sha256_in_prefix": "521078bf6723d4cbb543e749e5341b9b142b059da42d6bd9d4ea419bbb00cf23",
+        "size_in_bytes": 3472
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_CAPATH.3",
+        "path_type": "hardlink",
+        "sha256": "a68d1ab3cea9a4d34c52327d3bdc0ed75825bed1630a2727a5279ea0f551bbe9",
+        "sha256_in_prefix": "a68d1ab3cea9a4d34c52327d3bdc0ed75825bed1630a2727a5279ea0f551bbe9",
+        "size_in_bytes": 2758
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_CRLFILE.3",
+        "path_type": "hardlink",
+        "sha256": "f710a7948ba874644df82997a8b4259feba4a4ddce19327b9c2de134b4453d8e",
+        "sha256_in_prefix": "f710a7948ba874644df82997a8b4259feba4a4ddce19327b9c2de134b4453d8e",
+        "size_in_bytes": 3184
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_KEYPASSWD.3",
+        "path_type": "hardlink",
+        "sha256": "8dec465ff2d43c312f209496b471503a92de969f4b33a2ce0c5f14198680e326",
+        "sha256_in_prefix": "8dec465ff2d43c312f209496b471503a92de969f4b33a2ce0c5f14198680e326",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_PINNEDPUBLICKEY.3",
+        "path_type": "hardlink",
+        "sha256": "7f4aaf1af6c49d649010348997b390a940cbf94eec6237f01cf117cf3a443ac4",
+        "sha256_in_prefix": "7f4aaf1af6c49d649010348997b390a940cbf94eec6237f01cf117cf3a443ac4",
+        "size_in_bytes": 4416
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SERVICE_NAME.3",
+        "path_type": "hardlink",
+        "sha256": "71887e3a8ba55db9803988143bf37a667611912ace5702935fd5d05ddefc08cd",
+        "sha256_in_prefix": "71887e3a8ba55db9803988143bf37a667611912ace5702935fd5d05ddefc08cd",
+        "size_in_bytes": 2265
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSLCERT.3",
+        "path_type": "hardlink",
+        "sha256": "bb8440984395dea30eb3b7217e22c255c47b37c7d56d4a3d121dff239ca3e9b2",
+        "sha256_in_prefix": "bb8440984395dea30eb3b7217e22c255c47b37c7d56d4a3d121dff239ca3e9b2",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSLCERTTYPE.3",
+        "path_type": "hardlink",
+        "sha256": "dcc2ac529aad0167d53a1245831df9d54f5758d4ff265e58b233bcac10b057a4",
+        "sha256_in_prefix": "dcc2ac529aad0167d53a1245831df9d54f5758d4ff265e58b233bcac10b057a4",
+        "size_in_bytes": 2694
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSLKEY.3",
+        "path_type": "hardlink",
+        "sha256": "11386cf0ae37ded2cf3ccead4982d28a610c8f8b920c1c98bafc4fdf5f51287f",
+        "sha256_in_prefix": "11386cf0ae37ded2cf3ccead4982d28a610c8f8b920c1c98bafc4fdf5f51287f",
+        "size_in_bytes": 2738
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSLKEYTYPE.3",
+        "path_type": "hardlink",
+        "sha256": "de840e285c4370928daef8773e1e1d12fd0d70e6c7d3f2b0c3607ed6ae65a59a",
+        "sha256_in_prefix": "de840e285c4370928daef8773e1e1d12fd0d70e6c7d3f2b0c3607ed6ae65a59a",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSLVERSION.3",
+        "path_type": "hardlink",
+        "sha256": "c7304256ec15b0a03ac56a4d953676b72feb07ea99f2b5be3ef004cef70a7b36",
+        "sha256_in_prefix": "c7304256ec15b0a03ac56a4d953676b72feb07ea99f2b5be3ef004cef70a7b36",
+        "size_in_bytes": 3381
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSL_CIPHER_LIST.3",
+        "path_type": "hardlink",
+        "sha256": "6718d0092836fb4166e7dc32e25d7bc049066f5559457714efc6a7c704a2a1f3",
+        "sha256_in_prefix": "6718d0092836fb4166e7dc32e25d7bc049066f5559457714efc6a7c704a2a1f3",
+        "size_in_bytes": 3172
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSL_OPTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "0586a9086238872af361f54bee0b79ed3126dd63f46f5e013ed196cad2ca3b3b",
+        "sha256_in_prefix": "0586a9086238872af361f54bee0b79ed3126dd63f46f5e013ed196cad2ca3b3b",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSL_VERIFYHOST.3",
+        "path_type": "hardlink",
+        "sha256": "52ffe08b143a3d496ce653a60ceaff9f567402e06fbe5e5cfc4185d04b6efe1b",
+        "sha256_in_prefix": "52ffe08b143a3d496ce653a60ceaff9f567402e06fbe5e5cfc4185d04b6efe1b",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_SSL_VERIFYPEER.3",
+        "path_type": "hardlink",
+        "sha256": "b532032896fa6efeee76250828e711d7a922f0f5bb9a461bb3c85db2738111ed",
+        "sha256_in_prefix": "b532032896fa6efeee76250828e711d7a922f0f5bb9a461bb3c85db2738111ed",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_TLSAUTH_PASSWORD.3",
+        "path_type": "hardlink",
+        "sha256": "8d82d2049712f69bf4ca8f713164837522359d7876fcd86adddde622778b3142",
+        "sha256_in_prefix": "8d82d2049712f69bf4ca8f713164837522359d7876fcd86adddde622778b3142",
+        "size_in_bytes": 2576
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_TLSAUTH_TYPE.3",
+        "path_type": "hardlink",
+        "sha256": "1f84ea556f2a06dd375f71db52af2c410a5e361cbd6411cf41e0c53f17c99d19",
+        "sha256_in_prefix": "1f84ea556f2a06dd375f71db52af2c410a5e361cbd6411cf41e0c53f17c99d19",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_TLSAUTH_USERNAME.3",
+        "path_type": "hardlink",
+        "sha256": "f55166bdf34ac83ee239b3ac9c160012ee340bcf8be75b7fa538a1d01502d9aa",
+        "sha256_in_prefix": "f55166bdf34ac83ee239b3ac9c160012ee340bcf8be75b7fa538a1d01502d9aa",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PROXY_TRANSFER_MODE.3",
+        "path_type": "hardlink",
+        "sha256": "025ce82ca1f788fa30d800a67e472d60cc59975c8d0d9c780a83dc6da0a89670",
+        "sha256_in_prefix": "025ce82ca1f788fa30d800a67e472d60cc59975c8d0d9c780a83dc6da0a89670",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_PUT.3",
+        "path_type": "hardlink",
+        "sha256": "59e81a85629173e6b8ff4f9368d88c3356e1f19913cf1a4ced89bb9bb72f996e",
+        "sha256_in_prefix": "59e81a85629173e6b8ff4f9368d88c3356e1f19913cf1a4ced89bb9bb72f996e",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_QUOTE.3",
+        "path_type": "hardlink",
+        "sha256": "b30293243691bf8364b2bdaedf7cb505e101714ea1c5d6956889656e31b020f2",
+        "sha256_in_prefix": "b30293243691bf8364b2bdaedf7cb505e101714ea1c5d6956889656e31b020f2",
+        "size_in_bytes": 4248
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RANDOM_FILE.3",
+        "path_type": "hardlink",
+        "sha256": "ea64768559e7de64de6635ef04b58dabe2a8e600d5560dec380e87e683e73d07",
+        "sha256_in_prefix": "ea64768559e7de64de6635ef04b58dabe2a8e600d5560dec380e87e683e73d07",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RANGE.3",
+        "path_type": "hardlink",
+        "sha256": "87c9f1c2855a833e560ae1fd1c60fd9a0f8516f2772f768104bc418a9aaf2084",
+        "sha256_in_prefix": "87c9f1c2855a833e560ae1fd1c60fd9a0f8516f2772f768104bc418a9aaf2084",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_READDATA.3",
+        "path_type": "hardlink",
+        "sha256": "f84fdf7022a0fd905374de966979fed590fbe886e63e82ab32b88f475423c6ef",
+        "sha256_in_prefix": "f84fdf7022a0fd905374de966979fed590fbe886e63e82ab32b88f475423c6ef",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_READFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "dadacfb245d4405981d3adbd40e7798680ffcfd1ad4a3b002b3ca18130e3f365",
+        "sha256_in_prefix": "dadacfb245d4405981d3adbd40e7798680ffcfd1ad4a3b002b3ca18130e3f365",
+        "size_in_bytes": 3621
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_REDIR_PROTOCOLS.3",
+        "path_type": "hardlink",
+        "sha256": "ac46ebf1b2fbc7708dd394366e62b4c0f172c31db4b38c0c834eaa85c82c7c0f",
+        "sha256_in_prefix": "ac46ebf1b2fbc7708dd394366e62b4c0f172c31db4b38c0c834eaa85c82c7c0f",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_REFERER.3",
+        "path_type": "hardlink",
+        "sha256": "83eb6319ee8d7bfcb25caf2e74d0e9ac230ae6518f2fbe98592915084d2f32f8",
+        "sha256_in_prefix": "83eb6319ee8d7bfcb25caf2e74d0e9ac230ae6518f2fbe98592915084d2f32f8",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_REQUEST_TARGET.3",
+        "path_type": "hardlink",
+        "sha256": "c6c34df578802a4020649bad0edf9bb936cd7ad3acfdfec1e2706912ef03580d",
+        "sha256_in_prefix": "c6c34df578802a4020649bad0edf9bb936cd7ad3acfdfec1e2706912ef03580d",
+        "size_in_bytes": 2086
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RESOLVE.3",
+        "path_type": "hardlink",
+        "sha256": "a35fce6b0c8fa80386748220b69030decb279ca5c5719f6fd15972384d62b812",
+        "sha256_in_prefix": "a35fce6b0c8fa80386748220b69030decb279ca5c5719f6fd15972384d62b812",
+        "size_in_bytes": 3780
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RESOLVER_START_DATA.3",
+        "path_type": "hardlink",
+        "sha256": "091453c1165fd62eb5b66d1980b008e12a4436791242717b6282638894e6d24b",
+        "sha256_in_prefix": "091453c1165fd62eb5b66d1980b008e12a4436791242717b6282638894e6d24b",
+        "size_in_bytes": 2305
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RESOLVER_START_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "fcc50967d5a0d82190129ae863768b390df286ba42f1448518fe1b8994cabafa",
+        "sha256_in_prefix": "fcc50967d5a0d82190129ae863768b390df286ba42f1448518fe1b8994cabafa",
+        "size_in_bytes": 2977
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RESUME_FROM.3",
+        "path_type": "hardlink",
+        "sha256": "3e3679ef7c38b3aa4ff4548ff184e661f49b2eb0f0270c32a48a63334481bd9e",
+        "sha256_in_prefix": "3e3679ef7c38b3aa4ff4548ff184e661f49b2eb0f0270c32a48a63334481bd9e",
+        "size_in_bytes": 2687
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RESUME_FROM_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "38c0f2692e9899245b1050c535e4d47dd428b96127f24114d0c265b8ba63071a",
+        "sha256_in_prefix": "38c0f2692e9899245b1050c535e4d47dd428b96127f24114d0c265b8ba63071a",
+        "size_in_bytes": 2852
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_CLIENT_CSEQ.3",
+        "path_type": "hardlink",
+        "sha256": "f5c09541b2d32e3d45757a1b7145fcd70f5b409ee11bbdb36d864904be62f3b5",
+        "sha256_in_prefix": "f5c09541b2d32e3d45757a1b7145fcd70f5b409ee11bbdb36d864904be62f3b5",
+        "size_in_bytes": 2068
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_REQUEST.3",
+        "path_type": "hardlink",
+        "sha256": "351d3e8b50b63ffa0d9a3cb274d3d476d57d05f4c2a46e83241dcdaa1de90a29",
+        "sha256_in_prefix": "351d3e8b50b63ffa0d9a3cb274d3d476d57d05f4c2a46e83241dcdaa1de90a29",
+        "size_in_bytes": 5532
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_SERVER_CSEQ.3",
+        "path_type": "hardlink",
+        "sha256": "fc61cac782ad3fd5631c8d193f899b34f136891cad6c70a555f98a37b8686a05",
+        "sha256_in_prefix": "fc61cac782ad3fd5631c8d193f899b34f136891cad6c70a555f98a37b8686a05",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_SESSION_ID.3",
+        "path_type": "hardlink",
+        "sha256": "34c28adf001175c736913cce3b817eb8158cc63d3cfd68f0865dabac3ab79c12",
+        "sha256_in_prefix": "34c28adf001175c736913cce3b817eb8158cc63d3cfd68f0865dabac3ab79c12",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_STREAM_URI.3",
+        "path_type": "hardlink",
+        "sha256": "1af7c3edd92865d89deceba117d203adb221e017bc2ca8b53868ad3431b723d1",
+        "sha256_in_prefix": "1af7c3edd92865d89deceba117d203adb221e017bc2ca8b53868ad3431b723d1",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_RTSP_TRANSPORT.3",
+        "path_type": "hardlink",
+        "sha256": "1c6abeb28b4527adc25746a8a956af056cd15722a9c98b4a0c2f6374da810090",
+        "sha256_in_prefix": "1c6abeb28b4527adc25746a8a956af056cd15722a9c98b4a0c2f6374da810090",
+        "size_in_bytes": 2436
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SASL_IR.3",
+        "path_type": "hardlink",
+        "sha256": "b434b2b6dc8e8fac26399b871236fd944ce3feb4997035f1be1ecea3ec08355f",
+        "sha256_in_prefix": "b434b2b6dc8e8fac26399b871236fd944ce3feb4997035f1be1ecea3ec08355f",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SEEKDATA.3",
+        "path_type": "hardlink",
+        "sha256": "725f93a8d51f85dd6564e254f9cbe51ec36483bd0a9742f994fb77f9daa7a497",
+        "sha256_in_prefix": "725f93a8d51f85dd6564e254f9cbe51ec36483bd0a9742f994fb77f9daa7a497",
+        "size_in_bytes": 2093
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SEEKFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "39e7f63fe3ad4d6b57de0b9dd6a16912ad3e645f1229de2929939056a0969c0a",
+        "sha256_in_prefix": "39e7f63fe3ad4d6b57de0b9dd6a16912ad3e645f1229de2929939056a0969c0a",
+        "size_in_bytes": 3744
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SERVICE_NAME.3",
+        "path_type": "hardlink",
+        "sha256": "5e5272553987dcf14f02be9c1ce7dd7f86480f42540bf2f61cd5baf3c6250993",
+        "sha256_in_prefix": "5e5272553987dcf14f02be9c1ce7dd7f86480f42540bf2f61cd5baf3c6250993",
+        "size_in_bytes": 2301
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SHARE.3",
+        "path_type": "hardlink",
+        "sha256": "4cdec7418afab3eae0212fbe714b76acf8b4cb73d345af74d0bbe8e957331f66",
+        "sha256_in_prefix": "4cdec7418afab3eae0212fbe714b76acf8b4cb73d345af74d0bbe8e957331f66",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SOCKOPTDATA.3",
+        "path_type": "hardlink",
+        "sha256": "f64039e33537dc2d30d830863577a7bbe352c6e2fcfd53e8969e9954a2870fbb",
+        "sha256_in_prefix": "f64039e33537dc2d30d830863577a7bbe352c6e2fcfd53e8969e9954a2870fbb",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SOCKOPTFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "ad6ff23ba3ecdc03ce2cf5c9dd508770f8e1a5d6872a2fbfca8f845fbd15d92c",
+        "sha256_in_prefix": "ad6ff23ba3ecdc03ce2cf5c9dd508770f8e1a5d6872a2fbfca8f845fbd15d92c",
+        "size_in_bytes": 5021
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SOCKS5_AUTH.3",
+        "path_type": "hardlink",
+        "sha256": "87db1f8670bbfe55346a481e65d78cfbc426580c25124437bbea093ae6da909c",
+        "sha256_in_prefix": "87db1f8670bbfe55346a481e65d78cfbc426580c25124437bbea093ae6da909c",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SOCKS5_GSSAPI_NEC.3",
+        "path_type": "hardlink",
+        "sha256": "2c0e211d9ad4f66af2d2192f69d51bb3a8d95d6d86f1fc134569900918b73661",
+        "sha256_in_prefix": "2c0e211d9ad4f66af2d2192f69d51bb3a8d95d6d86f1fc134569900918b73661",
+        "size_in_bytes": 2260
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SOCKS5_GSSAPI_SERVICE.3",
+        "path_type": "hardlink",
+        "sha256": "e125a3a835eb70049b46671a33e66de31a664bd570d92238bcac1e3b93154a1c",
+        "sha256_in_prefix": "e125a3a835eb70049b46671a33e66de31a664bd570d92238bcac1e3b93154a1c",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_AUTH_TYPES.3",
+        "path_type": "hardlink",
+        "sha256": "9cf73ff010af3018129fa29a75c84beea021662a755ef7022c11c424d94e5e0d",
+        "sha256_in_prefix": "9cf73ff010af3018129fa29a75c84beea021662a755ef7022c11c424d94e5e0d",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_COMPRESSION.3",
+        "path_type": "hardlink",
+        "sha256": "2482a8974e91757e073f8759191213531511e8772065bbf1d76f8d947ab0f3e8",
+        "sha256_in_prefix": "2482a8974e91757e073f8759191213531511e8772065bbf1d76f8d947ab0f3e8",
+        "size_in_bytes": 2182
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3",
+        "path_type": "hardlink",
+        "sha256": "8e2c8afc1cc86d6762f6ae83a481fd9ff4184b691125fea0bc616e84df1a7ae7",
+        "sha256_in_prefix": "8e2c8afc1cc86d6762f6ae83a481fd9ff4184b691125fea0bc616e84df1a7ae7",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_KEYDATA.3",
+        "path_type": "hardlink",
+        "sha256": "613f609f82d49628d0baa41c998ad1687a1395e713d961ea45e5635a627a77af",
+        "sha256_in_prefix": "613f609f82d49628d0baa41c998ad1687a1395e713d961ea45e5635a627a77af",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_KEYFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "8c0a2f1f5fa09246698fcf1d804a3bd511aeaa9e3166feb5a2667b56c8efe7a3",
+        "sha256_in_prefix": "8c0a2f1f5fa09246698fcf1d804a3bd511aeaa9e3166feb5a2667b56c8efe7a3",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_KNOWNHOSTS.3",
+        "path_type": "hardlink",
+        "sha256": "dc78b04a9064d726c2dda230e99bc1b01ca8aafc19e6ee427ff9a600a0cc7c9e",
+        "sha256_in_prefix": "dc78b04a9064d726c2dda230e99bc1b01ca8aafc19e6ee427ff9a600a0cc7c9e",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_PRIVATE_KEYFILE.3",
+        "path_type": "hardlink",
+        "sha256": "012de0aaa1e59727b08366c46bb958fc426b2a5d769bbf2a1fd075add0661578",
+        "sha256_in_prefix": "012de0aaa1e59727b08366c46bb958fc426b2a5d769bbf2a1fd075add0661578",
+        "size_in_bytes": 2509
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSH_PUBLIC_KEYFILE.3",
+        "path_type": "hardlink",
+        "sha256": "953084d3fcad56d1b0e8ae519abde492ddaaae2426fc2dd0ca9d6240a385eb85",
+        "sha256_in_prefix": "953084d3fcad56d1b0e8ae519abde492ddaaae2426fc2dd0ca9d6240a385eb85",
+        "size_in_bytes": 2575
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLCERT.3",
+        "path_type": "hardlink",
+        "sha256": "78ab36a1623aa1fa98a72c490bb6c7345594f56e5d1591eaafe098f31d09a3ae",
+        "sha256_in_prefix": "78ab36a1623aa1fa98a72c490bb6c7345594f56e5d1591eaafe098f31d09a3ae",
+        "size_in_bytes": 3400
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLCERTTYPE.3",
+        "path_type": "hardlink",
+        "sha256": "eb1d5492fba378c03f8770e3634383097b719d618c95a26f76cb67c190edcd98",
+        "sha256_in_prefix": "eb1d5492fba378c03f8770e3634383097b719d618c95a26f76cb67c190edcd98",
+        "size_in_bytes": 2558
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLENGINE.3",
+        "path_type": "hardlink",
+        "sha256": "b48f09be3674b9809f363d55d3aa9c79bedc5d7e521be7cd663a6f3f7e159bf8",
+        "sha256_in_prefix": "b48f09be3674b9809f363d55d3aa9c79bedc5d7e521be7cd663a6f3f7e159bf8",
+        "size_in_bytes": 2456
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLENGINE_DEFAULT.3",
+        "path_type": "hardlink",
+        "sha256": "4de60c62e369bf54ac429767507b4f3a4bdccc926a5a19517510c5b158869272",
+        "sha256_in_prefix": "4de60c62e369bf54ac429767507b4f3a4bdccc926a5a19517510c5b158869272",
+        "size_in_bytes": 2389
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLKEY.3",
+        "path_type": "hardlink",
+        "sha256": "b325f59169e9d3ab4651e627238b295e25dd6670dac1b799609b04362002ee89",
+        "sha256_in_prefix": "b325f59169e9d3ab4651e627238b295e25dd6670dac1b799609b04362002ee89",
+        "size_in_bytes": 2568
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLKEYTYPE.3",
+        "path_type": "hardlink",
+        "sha256": "a34ccf022041160b8072f51f9de6975e624ea4c4c3d635a6013b0d98c76ce79f",
+        "sha256_in_prefix": "a34ccf022041160b8072f51f9de6975e624ea4c4c3d635a6013b0d98c76ce79f",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSLVERSION.3",
+        "path_type": "hardlink",
+        "sha256": "22e4dcd37842b3c5b17f1310e228864fe6679a8149fb59e2483d2253dd9cd5da",
+        "sha256_in_prefix": "22e4dcd37842b3c5b17f1310e228864fe6679a8149fb59e2483d2253dd9cd5da",
+        "size_in_bytes": 3660
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_CIPHER_LIST.3",
+        "path_type": "hardlink",
+        "sha256": "407c8d575649ab69d3a1fd7f5042ec011821900c4643c1e6f525389b44337186",
+        "sha256_in_prefix": "407c8d575649ab69d3a1fd7f5042ec011821900c4643c1e6f525389b44337186",
+        "size_in_bytes": 3027
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_CTX_DATA.3",
+        "path_type": "hardlink",
+        "sha256": "57dfa7e258cfca88938e5650e83882cb8fba7b1c17411213fac23d30def0b6ee",
+        "sha256_in_prefix": "57dfa7e258cfca88938e5650e83882cb8fba7b1c17411213fac23d30def0b6ee",
+        "size_in_bytes": 4324
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_CTX_FUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "b7da9b3af2439c6dcaa8f7d730f24676eceb60bd24b37445b4292262920009c9",
+        "sha256_in_prefix": "b7da9b3af2439c6dcaa8f7d730f24676eceb60bd24b37445b4292262920009c9",
+        "size_in_bytes": 3494
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_ENABLE_ALPN.3",
+        "path_type": "hardlink",
+        "sha256": "a076d70ac7f3b42e9eaa476f4d8519ebdb572012fd279b0ffad95189b7ab7273",
+        "sha256_in_prefix": "a076d70ac7f3b42e9eaa476f4d8519ebdb572012fd279b0ffad95189b7ab7273",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_ENABLE_NPN.3",
+        "path_type": "hardlink",
+        "sha256": "720e62f03292660759cc3b3949190954d04c1474a97d727323337fde1dacc091",
+        "sha256_in_prefix": "720e62f03292660759cc3b3949190954d04c1474a97d727323337fde1dacc091",
+        "size_in_bytes": 2067
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_FALSESTART.3",
+        "path_type": "hardlink",
+        "sha256": "24e24afa25094201aa75baa1cbbb3c0cd239f027967d2041c22e333f9ad2fdf8",
+        "sha256_in_prefix": "24e24afa25094201aa75baa1cbbb3c0cd239f027967d2041c22e333f9ad2fdf8",
+        "size_in_bytes": 2286
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_OPTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "7734abc9d196fae489d97b8dfb54dc679267ea77939e4b4bc5b078345eb14e0b",
+        "sha256_in_prefix": "7734abc9d196fae489d97b8dfb54dc679267ea77939e4b4bc5b078345eb14e0b",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3",
+        "path_type": "hardlink",
+        "sha256": "8e79c5957b0e83b2cf7dc3d1780b2d091da86347a61989c9f2ed472724720809",
+        "sha256_in_prefix": "8e79c5957b0e83b2cf7dc3d1780b2d091da86347a61989c9f2ed472724720809",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_VERIFYHOST.3",
+        "path_type": "hardlink",
+        "sha256": "eb28baa15b4a5f9ec40c0b4d46891c213d91614c19bfe379ebf6a27fbfea44aa",
+        "sha256_in_prefix": "eb28baa15b4a5f9ec40c0b4d46891c213d91614c19bfe379ebf6a27fbfea44aa",
+        "size_in_bytes": 3928
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_VERIFYPEER.3",
+        "path_type": "hardlink",
+        "sha256": "9e95fb7f2e8a444ae254eb97c6894c1b6092522a4a1e85207078630d8cc4bfc4",
+        "sha256_in_prefix": "9e95fb7f2e8a444ae254eb97c6894c1b6092522a4a1e85207078630d8cc4bfc4",
+        "size_in_bytes": 3728
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3",
+        "path_type": "hardlink",
+        "sha256": "5afa71011a65ec6c0b114ca92326da46b553f46e065797a980de1cc004869f0f",
+        "sha256_in_prefix": "5afa71011a65ec6c0b114ca92326da46b553f46e065797a980de1cc004869f0f",
+        "size_in_bytes": 2432
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_STDERR.3",
+        "path_type": "hardlink",
+        "sha256": "03edaa90f9a9bc728f5207e346d67891abe39155b9ab74e1dafe8c2f20eccd7e",
+        "sha256_in_prefix": "03edaa90f9a9bc728f5207e346d67891abe39155b9ab74e1dafe8c2f20eccd7e",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_STREAM_DEPENDS.3",
+        "path_type": "hardlink",
+        "sha256": "0fa927a86d16dfd8c1e344df726efe6d306e7b61919aeccf3b863603cad69c48",
+        "sha256_in_prefix": "0fa927a86d16dfd8c1e344df726efe6d306e7b61919aeccf3b863603cad69c48",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_STREAM_DEPENDS_E.3",
+        "path_type": "hardlink",
+        "sha256": "d047f58afd476c56b8d62e1d72f37151635ca71bdca9fd3bbbb0e4e2d172493f",
+        "sha256_in_prefix": "d047f58afd476c56b8d62e1d72f37151635ca71bdca9fd3bbbb0e4e2d172493f",
+        "size_in_bytes": 2896
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_STREAM_WEIGHT.3",
+        "path_type": "hardlink",
+        "sha256": "fb23ccfa52d18711f5ad4041324ce489cb35c78f013a75d3f1c181738e9fc33b",
+        "sha256_in_prefix": "fb23ccfa52d18711f5ad4041324ce489cb35c78f013a75d3f1c181738e9fc33b",
+        "size_in_bytes": 3160
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_SUPPRESS_CONNECT_HEADERS.3",
+        "path_type": "hardlink",
+        "sha256": "7d1d12f5b61f6fbdbda06c127446a2a366cc4760e2304fc3f4dee5dd0b0a37c3",
+        "sha256_in_prefix": "7d1d12f5b61f6fbdbda06c127446a2a366cc4760e2304fc3f4dee5dd0b0a37c3",
+        "size_in_bytes": 3098
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TCP_FASTOPEN.3",
+        "path_type": "hardlink",
+        "sha256": "1881b15385073a6c31ddc158da8aa917bdeb393b3b0d56dbb5ad0513d9186a5b",
+        "sha256_in_prefix": "1881b15385073a6c31ddc158da8aa917bdeb393b3b0d56dbb5ad0513d9186a5b",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TCP_KEEPALIVE.3",
+        "path_type": "hardlink",
+        "sha256": "c6f89733eb856acd5d0612d2d001e06a6b7b4609be1902d79a4cfbe80c158b16",
+        "sha256_in_prefix": "c6f89733eb856acd5d0612d2d001e06a6b7b4609be1902d79a4cfbe80c158b16",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TCP_KEEPIDLE.3",
+        "path_type": "hardlink",
+        "sha256": "45b91b0011c946cd0c71d3fee0095db234d437c769329eb06fb40adade1af458",
+        "sha256_in_prefix": "45b91b0011c946cd0c71d3fee0095db234d437c769329eb06fb40adade1af458",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TCP_KEEPINTVL.3",
+        "path_type": "hardlink",
+        "sha256": "5efb5af4a711183387971ade9cd8480cf07c3295fa8995ba93310492caa6c83c",
+        "sha256_in_prefix": "5efb5af4a711183387971ade9cd8480cf07c3295fa8995ba93310492caa6c83c",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TCP_NODELAY.3",
+        "path_type": "hardlink",
+        "sha256": "592d808f197646f6a92e439ffeaff327ba67910e4b05f6cebc8ae2923b6d6c42",
+        "sha256_in_prefix": "592d808f197646f6a92e439ffeaff327ba67910e4b05f6cebc8ae2923b6d6c42",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TELNETOPTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "eb9682ed2764e717c45745452285995c18ac4df3114f8abfc017f892463ef761",
+        "sha256_in_prefix": "eb9682ed2764e717c45745452285995c18ac4df3114f8abfc017f892463ef761",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TFTP_BLKSIZE.3",
+        "path_type": "hardlink",
+        "sha256": "963e617605fad68531751ba4bc9fb0675feab02f9c4feec11be3cd0a3f0e54a4",
+        "sha256_in_prefix": "963e617605fad68531751ba4bc9fb0675feab02f9c4feec11be3cd0a3f0e54a4",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TFTP_NO_OPTIONS.3",
+        "path_type": "hardlink",
+        "sha256": "3f5f42d22321dd31fa0b451b527c091b48299d39ea7c8f0c3d28608587a300c5",
+        "sha256_in_prefix": "3f5f42d22321dd31fa0b451b527c091b48299d39ea7c8f0c3d28608587a300c5",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TIMECONDITION.3",
+        "path_type": "hardlink",
+        "sha256": "4a3d823f905dcc68aaef65ac1d6e307d0a71056345fb2987e2de8e251115be74",
+        "sha256_in_prefix": "4a3d823f905dcc68aaef65ac1d6e307d0a71056345fb2987e2de8e251115be74",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TIMEOUT.3",
+        "path_type": "hardlink",
+        "sha256": "ca3aa1a81abc74a07e9c99bfd374064811dc86ff6750a23cbc0082f35d597188",
+        "sha256_in_prefix": "ca3aa1a81abc74a07e9c99bfd374064811dc86ff6750a23cbc0082f35d597188",
+        "size_in_bytes": 2911
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TIMEOUT_MS.3",
+        "path_type": "hardlink",
+        "sha256": "7f50b50642ee862695226a4cf67eb161adf442db8d5f8fc3774bbdd74e0ee1da",
+        "sha256_in_prefix": "7f50b50642ee862695226a4cf67eb161adf442db8d5f8fc3774bbdd74e0ee1da",
+        "size_in_bytes": 3002
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TIMEVALUE.3",
+        "path_type": "hardlink",
+        "sha256": "739dc7a58c3a771e0e3ae734ae141fdd1ff5a6e74ff58cc24d95300ec3f99bc8",
+        "sha256_in_prefix": "739dc7a58c3a771e0e3ae734ae141fdd1ff5a6e74ff58cc24d95300ec3f99bc8",
+        "size_in_bytes": 2256
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TIMEVALUE_LARGE.3",
+        "path_type": "hardlink",
+        "sha256": "78b6c2197a78311c641290335a86861adf797035d7d457f7fe107a0ebbf45343",
+        "sha256_in_prefix": "78b6c2197a78311c641290335a86861adf797035d7d457f7fe107a0ebbf45343",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TLSAUTH_PASSWORD.3",
+        "path_type": "hardlink",
+        "sha256": "ccdc1abc590460079b9a71bcd43decdbdcf705b3609c5c613f8e0bc2b10a7b52",
+        "sha256_in_prefix": "ccdc1abc590460079b9a71bcd43decdbdcf705b3609c5c613f8e0bc2b10a7b52",
+        "size_in_bytes": 2406
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TLSAUTH_TYPE.3",
+        "path_type": "hardlink",
+        "sha256": "6b3550280f3d5abb80ab3a0ffd42b6505f5518957dac89ae3c4f787c68d71258",
+        "sha256_in_prefix": "6b3550280f3d5abb80ab3a0ffd42b6505f5518957dac89ae3c4f787c68d71258",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TLSAUTH_USERNAME.3",
+        "path_type": "hardlink",
+        "sha256": "b23aaed5bce42ac9ddeac55661f49b2e209c5774abdfa8c3b19595c8902efd58",
+        "sha256_in_prefix": "b23aaed5bce42ac9ddeac55661f49b2e209c5774abdfa8c3b19595c8902efd58",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TRANSFERTEXT.3",
+        "path_type": "hardlink",
+        "sha256": "ebcc7117a742178c36e79c13f24effc34f9330cbb887335ed0420c95f20539d2",
+        "sha256_in_prefix": "ebcc7117a742178c36e79c13f24effc34f9330cbb887335ed0420c95f20539d2",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_TRANSFER_ENCODING.3",
+        "path_type": "hardlink",
+        "sha256": "c848ee5f17fad1e4a00f7bdc427f5e68ad31b22d1fd85bc42a5d27e7a23d7ef3",
+        "sha256_in_prefix": "c848ee5f17fad1e4a00f7bdc427f5e68ad31b22d1fd85bc42a5d27e7a23d7ef3",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_UNIX_SOCKET_PATH.3",
+        "path_type": "hardlink",
+        "sha256": "630be04e9fe7256245b285fc1d72dc3ecc2c749d720f81b42c2e9c1f174e17ed",
+        "sha256_in_prefix": "630be04e9fe7256245b285fc1d72dc3ecc2c749d720f81b42c2e9c1f174e17ed",
+        "size_in_bytes": 3458
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_UNRESTRICTED_AUTH.3",
+        "path_type": "hardlink",
+        "sha256": "42d4961d4404269e8cf1d7ab7ec819e3636e6a13d18518b0c6c688ec54118ede",
+        "sha256_in_prefix": "42d4961d4404269e8cf1d7ab7ec819e3636e6a13d18518b0c6c688ec54118ede",
+        "size_in_bytes": 2324
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_UPLOAD.3",
+        "path_type": "hardlink",
+        "sha256": "15c33080c44447c1b3ca48b39d0b98c12fa7549eb2b2bfb239f90ec1d82c9c87",
+        "sha256_in_prefix": "15c33080c44447c1b3ca48b39d0b98c12fa7549eb2b2bfb239f90ec1d82c9c87",
+        "size_in_bytes": 3005
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_URL.3",
+        "path_type": "hardlink",
+        "sha256": "0d5f91048cf579a33559f28052f01e1cf6fcc66e15ba1b2c9d81786d3623fd0b",
+        "sha256_in_prefix": "0d5f91048cf579a33559f28052f01e1cf6fcc66e15ba1b2c9d81786d3623fd0b",
+        "size_in_bytes": 14952
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_USERAGENT.3",
+        "path_type": "hardlink",
+        "sha256": "8720a5c0eb20d76e580169044d5fb72061c8a49d5426092bdd1c36c048640f9f",
+        "sha256_in_prefix": "8720a5c0eb20d76e580169044d5fb72061c8a49d5426092bdd1c36c048640f9f",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_USERNAME.3",
+        "path_type": "hardlink",
+        "sha256": "ebc46619aae883b14f83fd429ac5da0bf3dcd766856b5a0d7f4db3ae31c31f8b",
+        "sha256_in_prefix": "ebc46619aae883b14f83fd429ac5da0bf3dcd766856b5a0d7f4db3ae31c31f8b",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_USERPWD.3",
+        "path_type": "hardlink",
+        "sha256": "850c29790119ead702d52c3a43bf4e1b43a9992482baec5dcf4a73f3476ceaca",
+        "sha256_in_prefix": "850c29790119ead702d52c3a43bf4e1b43a9992482baec5dcf4a73f3476ceaca",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_USE_SSL.3",
+        "path_type": "hardlink",
+        "sha256": "027ceb1a5832aadcdcffacf5bb86d2cb28aed1b461ab4077bfb996178bf80b55",
+        "sha256_in_prefix": "027ceb1a5832aadcdcffacf5bb86d2cb28aed1b461ab4077bfb996178bf80b55",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_VERBOSE.3",
+        "path_type": "hardlink",
+        "sha256": "74c6b68d15fefa58f6bfe066fff20d5eca04a6ecdbc850c640313104493048da",
+        "sha256_in_prefix": "74c6b68d15fefa58f6bfe066fff20d5eca04a6ecdbc850c640313104493048da",
+        "size_in_bytes": 2332
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_WILDCARDMATCH.3",
+        "path_type": "hardlink",
+        "sha256": "5c3bd25ea3cd40f1c93d41d2b6337aca07e7108f1c212374dc68603d31fa81b7",
+        "sha256_in_prefix": "5c3bd25ea3cd40f1c93d41d2b6337aca07e7108f1c212374dc68603d31fa81b7",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_WRITEDATA.3",
+        "path_type": "hardlink",
+        "sha256": "ad69547da8d7a1d892f67ba4459d3a4a48037780649542b9a3a4a30e09263909",
+        "sha256_in_prefix": "ad69547da8d7a1d892f67ba4459d3a4a48037780649542b9a3a4a30e09263909",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_WRITEFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "457c890341b7312c43226f572138b4f42d29e8915a817cd0e35be2e328dc9873",
+        "sha256_in_prefix": "457c890341b7312c43226f572138b4f42d29e8915a817cd0e35be2e328dc9873",
+        "size_in_bytes": 3698
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_XFERINFODATA.3",
+        "path_type": "hardlink",
+        "sha256": "337a2250555c4503da8f2575481d0acf760abbd13fc1cf58d6b2e777d8351c6d",
+        "sha256_in_prefix": "337a2250555c4503da8f2575481d0acf760abbd13fc1cf58d6b2e777d8351c6d",
+        "size_in_bytes": 1881
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_XFERINFOFUNCTION.3",
+        "path_type": "hardlink",
+        "sha256": "278c25929dccb00f342e4aba4c36437ef48f2fa7d959ecf064c5dea5e9b25535",
+        "sha256_in_prefix": "278c25929dccb00f342e4aba4c36437ef48f2fa7d959ecf064c5dea5e9b25535",
+        "size_in_bytes": 3562
+      },
+      {
+        "_path": "share/man/man3/CURLOPT_XOAUTH2_BEARER.3",
+        "path_type": "hardlink",
+        "sha256": "d9581ae779f5c52c30e73288c53775644856d0208cd39fee481b14e9bf46539f",
+        "sha256_in_prefix": "d9581ae779f5c52c30e73288c53775644856d0208cd39fee481b14e9bf46539f",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "share/man/man3/curl_easy_cleanup.3",
+        "path_type": "hardlink",
+        "sha256": "7276a5984ef544103305e6d1e1e6280d9fa9bd6d964523788dfd7d7d5e60d066",
+        "sha256_in_prefix": "7276a5984ef544103305e6d1e1e6280d9fa9bd6d964523788dfd7d7d5e60d066",
+        "size_in_bytes": 2956
+      },
+      {
+        "_path": "share/man/man3/curl_easy_duphandle.3",
+        "path_type": "hardlink",
+        "sha256": "c949df558b8b48d52c197fb1de5d937544a12f628261b4b3de78f1b50415057b",
+        "sha256_in_prefix": "c949df558b8b48d52c197fb1de5d937544a12f628261b4b3de78f1b50415057b",
+        "size_in_bytes": 2347
+      },
+      {
+        "_path": "share/man/man3/curl_easy_escape.3",
+        "path_type": "hardlink",
+        "sha256": "c98a4c6969254284f9b96ff426d482f75b11fd0ad61811dfece96d7aaf9f41cf",
+        "sha256_in_prefix": "c98a4c6969254284f9b96ff426d482f75b11fd0ad61811dfece96d7aaf9f41cf",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "share/man/man3/curl_easy_getinfo.3",
+        "path_type": "hardlink",
+        "sha256": "242f78e9c9e312c8bdb84fa179f9c5c9dce6b37eb967b8d47af78e93ba769f67",
+        "sha256_in_prefix": "242f78e9c9e312c8bdb84fa179f9c5c9dce6b37eb967b8d47af78e93ba769f67",
+        "size_in_bytes": 9360
+      },
+      {
+        "_path": "share/man/man3/curl_easy_init.3",
+        "path_type": "hardlink",
+        "sha256": "a508ffe2eed81420f067a060d960ef09ac29615c54315e7ea576b5364b4b7dc2",
+        "sha256_in_prefix": "a508ffe2eed81420f067a060d960ef09ac29615c54315e7ea576b5364b4b7dc2",
+        "size_in_bytes": 2524
+      },
+      {
+        "_path": "share/man/man3/curl_easy_pause.3",
+        "path_type": "hardlink",
+        "sha256": "781e60bf5b6ff731ab6fd68c517b6bee6d30d97e81d181f49e793512ed8d0d7a",
+        "sha256_in_prefix": "781e60bf5b6ff731ab6fd68c517b6bee6d30d97e81d181f49e793512ed8d0d7a",
+        "size_in_bytes": 5278
+      },
+      {
+        "_path": "share/man/man3/curl_easy_perform.3",
+        "path_type": "hardlink",
+        "sha256": "f90e3524cafa4fef91cd9eeaf1990fd11c3cd05f378dec48fc859afc17a86861",
+        "sha256_in_prefix": "f90e3524cafa4fef91cd9eeaf1990fd11c3cd05f378dec48fc859afc17a86861",
+        "size_in_bytes": 3281
+      },
+      {
+        "_path": "share/man/man3/curl_easy_recv.3",
+        "path_type": "hardlink",
+        "sha256": "84a196dcbfeb974a85622f43452a4f800a5db3629f038fb60eac9c21724b46fd",
+        "sha256_in_prefix": "84a196dcbfeb974a85622f43452a4f800a5db3629f038fb60eac9c21724b46fd",
+        "size_in_bytes": 3783
+      },
+      {
+        "_path": "share/man/man3/curl_easy_reset.3",
+        "path_type": "hardlink",
+        "sha256": "f78455a53328511608679a364e235612d10d555e7b619b21ca5e4a7444cc84d3",
+        "sha256_in_prefix": "f78455a53328511608679a364e235612d10d555e7b619b21ca5e4a7444cc84d3",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "share/man/man3/curl_easy_send.3",
+        "path_type": "hardlink",
+        "sha256": "03e4d872d547326ae10aece74b25e01d58b1b6321e663566a4c102ac8512621c",
+        "sha256_in_prefix": "03e4d872d547326ae10aece74b25e01d58b1b6321e663566a4c102ac8512621c",
+        "size_in_bytes": 3461
+      },
+      {
+        "_path": "share/man/man3/curl_easy_setopt.3",
+        "path_type": "hardlink",
+        "sha256": "2cc93c0185330c781942bd2ab539a44b0192ebc5ca26e84dbd2911b19338c290",
+        "sha256_in_prefix": "2cc93c0185330c781942bd2ab539a44b0192ebc5ca26e84dbd2911b19338c290",
+        "size_in_bytes": 27489
+      },
+      {
+        "_path": "share/man/man3/curl_easy_strerror.3",
+        "path_type": "hardlink",
+        "sha256": "0250d49936a1e07a2a4ba96fd6a2494bdb21b915d8ec10a456167d95d0eb5a46",
+        "sha256_in_prefix": "0250d49936a1e07a2a4ba96fd6a2494bdb21b915d8ec10a456167d95d0eb5a46",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "share/man/man3/curl_easy_unescape.3",
+        "path_type": "hardlink",
+        "sha256": "cb04231771739a13575b3220a996d5b7bf329522f40c2967e904ab09f330b862",
+        "sha256_in_prefix": "cb04231771739a13575b3220a996d5b7bf329522f40c2967e904ab09f330b862",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "share/man/man3/curl_escape.3",
+        "path_type": "hardlink",
+        "sha256": "97774ad6ec049cb975be045fc5858b8336b0140ffa6f134915fd4577baaed0e9",
+        "sha256_in_prefix": "97774ad6ec049cb975be045fc5858b8336b0140ffa6f134915fd4577baaed0e9",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "share/man/man3/curl_formadd.3",
+        "path_type": "hardlink",
+        "sha256": "dd1769045029e807314a1922072080d12ae00735f1b6cc9d1e781d0ac747c5a2",
+        "sha256_in_prefix": "dd1769045029e807314a1922072080d12ae00735f1b6cc9d1e781d0ac747c5a2",
+        "size_in_bytes": 12804
+      },
+      {
+        "_path": "share/man/man3/curl_formfree.3",
+        "path_type": "hardlink",
+        "sha256": "436e6843e8bc77e7682041f4872fc9b65bfff0cdb021c4edd45a4834b2c36bba",
+        "sha256_in_prefix": "436e6843e8bc77e7682041f4872fc9b65bfff0cdb021c4edd45a4834b2c36bba",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "share/man/man3/curl_formget.3",
+        "path_type": "hardlink",
+        "sha256": "0c9565f9681cb8a2d9b9948f574fe56ac7a22d7e42d75a6e63c82028635a9bef",
+        "sha256_in_prefix": "0c9565f9681cb8a2d9b9948f574fe56ac7a22d7e42d75a6e63c82028635a9bef",
+        "size_in_bytes": 2816
+      },
+      {
+        "_path": "share/man/man3/curl_free.3",
+        "path_type": "hardlink",
+        "sha256": "17116a87e5edbe0ce3884867c054a9d4045a57a3cc5960198330218e5d32655f",
+        "sha256_in_prefix": "17116a87e5edbe0ce3884867c054a9d4045a57a3cc5960198330218e5d32655f",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "share/man/man3/curl_getdate.3",
+        "path_type": "hardlink",
+        "sha256": "3d177a7252ce3335f9c0eade67ce8d071a0fea0e5829341f85faab19e4ce21d0",
+        "sha256_in_prefix": "3d177a7252ce3335f9c0eade67ce8d071a0fea0e5829341f85faab19e4ce21d0",
+        "size_in_bytes": 4445
+      },
+      {
+        "_path": "share/man/man3/curl_getenv.3",
+        "path_type": "hardlink",
+        "sha256": "70d9d8ad8509051e7e5adcd261dfe1c631f6b93a5c8700adac661bc9178deec8",
+        "sha256_in_prefix": "70d9d8ad8509051e7e5adcd261dfe1c631f6b93a5c8700adac661bc9178deec8",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "share/man/man3/curl_global_cleanup.3",
+        "path_type": "hardlink",
+        "sha256": "33c67851c0d44b9e983ca27a1129b75434cce150b864888f3631a4ef54cade73",
+        "sha256_in_prefix": "33c67851c0d44b9e983ca27a1129b75434cce150b864888f3631a4ef54cade73",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "share/man/man3/curl_global_init.3",
+        "path_type": "hardlink",
+        "sha256": "e435457f132e04a827a5d35c5792f2c8b3050adeb59cc1481a2f08d63e3a584d",
+        "sha256_in_prefix": "e435457f132e04a827a5d35c5792f2c8b3050adeb59cc1481a2f08d63e3a584d",
+        "size_in_bytes": 4476
+      },
+      {
+        "_path": "share/man/man3/curl_global_init_mem.3",
+        "path_type": "hardlink",
+        "sha256": "50390a29fbcf0437f529c0db9f7614a17120de64e1082fa5883ac0c2d04a718e",
+        "sha256_in_prefix": "50390a29fbcf0437f529c0db9f7614a17120de64e1082fa5883ac0c2d04a718e",
+        "size_in_bytes": 2779
+      },
+      {
+        "_path": "share/man/man3/curl_global_sslset.3",
+        "path_type": "hardlink",
+        "sha256": "467928ae3de984989158ef1e29bd5f73e517e3f85a6df5552f120d22279660b3",
+        "sha256_in_prefix": "467928ae3de984989158ef1e29bd5f73e517e3f85a6df5552f120d22279660b3",
+        "size_in_bytes": 4193
+      },
+      {
+        "_path": "share/man/man3/curl_mime_addpart.3",
+        "path_type": "hardlink",
+        "sha256": "8151a72b70434500c2f5513304feea48f5eba1618a63ac33396ded57411bae9c",
+        "sha256_in_prefix": "8151a72b70434500c2f5513304feea48f5eba1618a63ac33396ded57411bae9c",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "share/man/man3/curl_mime_data.3",
+        "path_type": "hardlink",
+        "sha256": "222652a2337df62a1d59048c8d900f770166e1159f4688ea5ce0e3ee497d031f",
+        "sha256_in_prefix": "222652a2337df62a1d59048c8d900f770166e1159f4688ea5ce0e3ee497d031f",
+        "size_in_bytes": 2613
+      },
+      {
+        "_path": "share/man/man3/curl_mime_data_cb.3",
+        "path_type": "hardlink",
+        "sha256": "165d5e64c01f831097d51fad87ab0fd908d78eadc4d9b6592423ddc6456e902c",
+        "sha256_in_prefix": "165d5e64c01f831097d51fad87ab0fd908d78eadc4d9b6592423ddc6456e902c",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "share/man/man3/curl_mime_encoder.3",
+        "path_type": "hardlink",
+        "sha256": "211d54a7029a00e2f39611c52c0132972ba4f36c4efaff818eea9823f6d9a51f",
+        "sha256_in_prefix": "211d54a7029a00e2f39611c52c0132972ba4f36c4efaff818eea9823f6d9a51f",
+        "size_in_bytes": 3763
+      },
+      {
+        "_path": "share/man/man3/curl_mime_filedata.3",
+        "path_type": "hardlink",
+        "sha256": "a9780bcd7a71f7c411a88384635f392e870f5f5c8e135999d813e40d7fa7e098",
+        "sha256_in_prefix": "a9780bcd7a71f7c411a88384635f392e870f5f5c8e135999d813e40d7fa7e098",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "share/man/man3/curl_mime_filename.3",
+        "path_type": "hardlink",
+        "sha256": "9d105ae882d98a4d1749164f7638a2e10f8e6f12a3de58780996fc295c8ab347",
+        "sha256_in_prefix": "9d105ae882d98a4d1749164f7638a2e10f8e6f12a3de58780996fc295c8ab347",
+        "size_in_bytes": 2744
+      },
+      {
+        "_path": "share/man/man3/curl_mime_free.3",
+        "path_type": "hardlink",
+        "sha256": "45dcd389f352eacf873b09759ef4f3a60e57a934ed072fc2d45d7342b5bb60e6",
+        "sha256_in_prefix": "45dcd389f352eacf873b09759ef4f3a60e57a934ed072fc2d45d7342b5bb60e6",
+        "size_in_bytes": 2046
+      },
+      {
+        "_path": "share/man/man3/curl_mime_headers.3",
+        "path_type": "hardlink",
+        "sha256": "daafea8d6076a190bb4f3973e4634ad3a64dc9819fa83496a2103d85cf5f66a0",
+        "sha256_in_prefix": "daafea8d6076a190bb4f3973e4634ad3a64dc9819fa83496a2103d85cf5f66a0",
+        "size_in_bytes": 2480
+      },
+      {
+        "_path": "share/man/man3/curl_mime_init.3",
+        "path_type": "hardlink",
+        "sha256": "9588638eb343fc6a22272a3a076a9932650cff0b4cdaa2a34bf03f649539d945",
+        "sha256_in_prefix": "9588638eb343fc6a22272a3a076a9932650cff0b4cdaa2a34bf03f649539d945",
+        "size_in_bytes": 2579
+      },
+      {
+        "_path": "share/man/man3/curl_mime_name.3",
+        "path_type": "hardlink",
+        "sha256": "f94f9ba0bacaba1eabc2bd3ddcd2c49d1803b11b5b2bec5536854675b509d593",
+        "sha256_in_prefix": "f94f9ba0bacaba1eabc2bd3ddcd2c49d1803b11b5b2bec5536854675b509d593",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "share/man/man3/curl_mime_subparts.3",
+        "path_type": "hardlink",
+        "sha256": "ae83bb807c9c6311c0739c720a4ebce24c36ff6329fd96ed9afac5711a4062b1",
+        "sha256_in_prefix": "ae83bb807c9c6311c0739c720a4ebce24c36ff6329fd96ed9afac5711a4062b1",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "share/man/man3/curl_mime_type.3",
+        "path_type": "hardlink",
+        "sha256": "80599d9cbcf00cd246b36a91a8147bfc6cbf0b4cca726a7e082cf272a38c01c5",
+        "sha256_in_prefix": "80599d9cbcf00cd246b36a91a8147bfc6cbf0b4cca726a7e082cf272a38c01c5",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "share/man/man3/curl_mprintf.3",
+        "path_type": "hardlink",
+        "sha256": "1d749b2958683a428cd51c24b8cb540537bcf57a7fbdf11d5764984a12a9e2f4",
+        "sha256_in_prefix": "1d749b2958683a428cd51c24b8cb540537bcf57a7fbdf11d5764984a12a9e2f4",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "share/man/man3/curl_multi_add_handle.3",
+        "path_type": "hardlink",
+        "sha256": "2b1d80e28f7ea7ab32e3d4cf0b1c5d7e9e5fd1f3c07bcca9bdd436ff9cf63ac1",
+        "sha256_in_prefix": "2b1d80e28f7ea7ab32e3d4cf0b1c5d7e9e5fd1f3c07bcca9bdd436ff9cf63ac1",
+        "size_in_bytes": 3235
+      },
+      {
+        "_path": "share/man/man3/curl_multi_assign.3",
+        "path_type": "hardlink",
+        "sha256": "8aee046e827c362f0deaf83525740a1312ff7e06e2b1b74cd8f553aa36c24a59",
+        "sha256_in_prefix": "8aee046e827c362f0deaf83525740a1312ff7e06e2b1b74cd8f553aa36c24a59",
+        "size_in_bytes": 2967
+      },
+      {
+        "_path": "share/man/man3/curl_multi_cleanup.3",
+        "path_type": "hardlink",
+        "sha256": "8523aed91cd13ca3d88d90944ca93d8c2bd2b95ae9adb67c7c8150b989814beb",
+        "sha256_in_prefix": "8523aed91cd13ca3d88d90944ca93d8c2bd2b95ae9adb67c7c8150b989814beb",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "share/man/man3/curl_multi_fdset.3",
+        "path_type": "hardlink",
+        "sha256": "7a4b26fbb648eb021dde572c9259416bd2d806e197d47b705ed0b8b3b170f6c1",
+        "sha256_in_prefix": "7a4b26fbb648eb021dde572c9259416bd2d806e197d47b705ed0b8b3b170f6c1",
+        "size_in_bytes": 4299
+      },
+      {
+        "_path": "share/man/man3/curl_multi_info_read.3",
+        "path_type": "hardlink",
+        "sha256": "23e4fdf9ce77ea3f5cb75015fe08928babfa3088eeb1298cbecb6ed3ea5fdb19",
+        "sha256_in_prefix": "23e4fdf9ce77ea3f5cb75015fe08928babfa3088eeb1298cbecb6ed3ea5fdb19",
+        "size_in_bytes": 3848
+      },
+      {
+        "_path": "share/man/man3/curl_multi_init.3",
+        "path_type": "hardlink",
+        "sha256": "4399c7cd05e8bae18252bf255c3c0262b4a4dd97440dab1384e33249f8a8691c",
+        "sha256_in_prefix": "4399c7cd05e8bae18252bf255c3c0262b4a4dd97440dab1384e33249f8a8691c",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "share/man/man3/curl_multi_perform.3",
+        "path_type": "hardlink",
+        "sha256": "0c01f46f36270b772664192055dd6de6ab8a26185e74eea921202f1d96d1bd9e",
+        "sha256_in_prefix": "0c01f46f36270b772664192055dd6de6ab8a26185e74eea921202f1d96d1bd9e",
+        "size_in_bytes": 5016
+      },
+      {
+        "_path": "share/man/man3/curl_multi_remove_handle.3",
+        "path_type": "hardlink",
+        "sha256": "b6703aaa0fbd88eab1ba54e6c837c94181759dcf5a33a03c06fbdcd2218b2bd4",
+        "sha256_in_prefix": "b6703aaa0fbd88eab1ba54e6c837c94181759dcf5a33a03c06fbdcd2218b2bd4",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "share/man/man3/curl_multi_setopt.3",
+        "path_type": "hardlink",
+        "sha256": "c116dbc9cb9069f2cd9a5153472cdc38ad9ec5e62a69842c41b6d9d3f5f4340f",
+        "sha256_in_prefix": "c116dbc9cb9069f2cd9a5153472cdc38ad9ec5e62a69842c41b6d9d3f5f4340f",
+        "size_in_bytes": 3365
+      },
+      {
+        "_path": "share/man/man3/curl_multi_socket.3",
+        "path_type": "hardlink",
+        "sha256": "34c5c1dcafa6c19842d70f533b21bd4aa464342733fa8ddaefaccb6aac1951fa",
+        "sha256_in_prefix": "34c5c1dcafa6c19842d70f533b21bd4aa464342733fa8ddaefaccb6aac1951fa",
+        "size_in_bytes": 6875
+      },
+      {
+        "_path": "share/man/man3/curl_multi_socket_action.3",
+        "path_type": "hardlink",
+        "sha256": "63ba364469df505eba723b9885c35fab7c64be1110423989bfab773f1396840f",
+        "sha256_in_prefix": "63ba364469df505eba723b9885c35fab7c64be1110423989bfab773f1396840f",
+        "size_in_bytes": 7232
+      },
+      {
+        "_path": "share/man/man3/curl_multi_socket_all.3",
+        "path_type": "hardlink",
+        "sha256": "0882dbee8ed3e80146b882dc588488763de4e2f642280024df97296bf649e76f",
+        "sha256_in_prefix": "0882dbee8ed3e80146b882dc588488763de4e2f642280024df97296bf649e76f",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "share/man/man3/curl_multi_strerror.3",
+        "path_type": "hardlink",
+        "sha256": "a92913782f015e6575de8ef28ff5d67cc61cc2335ff421d98633ceb19e68ed0e",
+        "sha256_in_prefix": "a92913782f015e6575de8ef28ff5d67cc61cc2335ff421d98633ceb19e68ed0e",
+        "size_in_bytes": 1693
+      },
+      {
+        "_path": "share/man/man3/curl_multi_timeout.3",
+        "path_type": "hardlink",
+        "sha256": "8ea0fd7bcd9286bbb8c9868171f10042be6fb2d4a46a538416aefb39d54dc08b",
+        "sha256_in_prefix": "8ea0fd7bcd9286bbb8c9868171f10042be6fb2d4a46a538416aefb39d54dc08b",
+        "size_in_bytes": 3311
+      },
+      {
+        "_path": "share/man/man3/curl_multi_wait.3",
+        "path_type": "hardlink",
+        "sha256": "6d692d7ee36e4453466b56b539671c6afe58da65c2a828092b56aa78c45c9d9f",
+        "sha256_in_prefix": "6d692d7ee36e4453466b56b539671c6afe58da65c2a828092b56aa78c45c9d9f",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "share/man/man3/curl_share_cleanup.3",
+        "path_type": "hardlink",
+        "sha256": "128e471e70f4f19ab4ad9a54d83c95a36105f0dee29c51e28940439875f06fc1",
+        "sha256_in_prefix": "128e471e70f4f19ab4ad9a54d83c95a36105f0dee29c51e28940439875f06fc1",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "share/man/man3/curl_share_init.3",
+        "path_type": "hardlink",
+        "sha256": "cc7dca09993ea72fafb244eb5575f57a33f058fcc60522403b965849bf7fa4e7",
+        "sha256_in_prefix": "cc7dca09993ea72fafb244eb5575f57a33f058fcc60522403b965849bf7fa4e7",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "share/man/man3/curl_share_setopt.3",
+        "path_type": "hardlink",
+        "sha256": "4e151d8fd36c47ccb5404a2a9386a18d598fc32b600d49b5cd4c1d78984c0a04",
+        "sha256_in_prefix": "4e151d8fd36c47ccb5404a2a9386a18d598fc32b600d49b5cd4c1d78984c0a04",
+        "size_in_bytes": 4778
+      },
+      {
+        "_path": "share/man/man3/curl_share_strerror.3",
+        "path_type": "hardlink",
+        "sha256": "9ea7e180a51e959f5ef5671cacd78cb7e15bd266c571fbae9855a7d0e5935b0b",
+        "sha256_in_prefix": "9ea7e180a51e959f5ef5671cacd78cb7e15bd266c571fbae9855a7d0e5935b0b",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "share/man/man3/curl_slist_append.3",
+        "path_type": "hardlink",
+        "sha256": "b974930c5bba23325791013e3f31c6bfbac689bb3ca019157d9b3ae1744827d2",
+        "sha256_in_prefix": "b974930c5bba23325791013e3f31c6bfbac689bb3ca019157d9b3ae1744827d2",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "share/man/man3/curl_slist_free_all.3",
+        "path_type": "hardlink",
+        "sha256": "4fd2f37d52ceecaf480b344a62cf7607267b0f563f457ec065cadff1af01fd1c",
+        "sha256_in_prefix": "4fd2f37d52ceecaf480b344a62cf7607267b0f563f457ec065cadff1af01fd1c",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "share/man/man3/curl_strequal.3",
+        "path_type": "hardlink",
+        "sha256": "c310306b0793659e09f044663fe8590ff20825e994d7b5a3cc94c71778d2c2e6",
+        "sha256_in_prefix": "c310306b0793659e09f044663fe8590ff20825e994d7b5a3cc94c71778d2c2e6",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "share/man/man3/curl_strnequal.3",
+        "path_type": "hardlink",
+        "sha256": "00bd82088e8a3eba6042a6bc47c60f84d114650418aea8e8f3c8a83d3c63469b",
+        "sha256_in_prefix": "00bd82088e8a3eba6042a6bc47c60f84d114650418aea8e8f3c8a83d3c63469b",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "share/man/man3/curl_unescape.3",
+        "path_type": "hardlink",
+        "sha256": "94a846da0be16b67f2b2a8c53e672ad63305a85c855b5f6082f7ad66bdd4474a",
+        "sha256_in_prefix": "94a846da0be16b67f2b2a8c53e672ad63305a85c855b5f6082f7ad66bdd4474a",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "share/man/man3/curl_version.3",
+        "path_type": "hardlink",
+        "sha256": "095ed83d568597bb062f2c6728bcbcf3b6cbdf5fb012830a08b6ecb0404d59cf",
+        "sha256_in_prefix": "095ed83d568597bb062f2c6728bcbcf3b6cbdf5fb012830a08b6ecb0404d59cf",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "share/man/man3/curl_version_info.3",
+        "path_type": "hardlink",
+        "sha256": "4e7ec78eedae3ca4e72a5762ee12994a9c7eabc368bcaa95cb2874b48a76bb4c",
+        "sha256_in_prefix": "4e7ec78eedae3ca4e72a5762ee12994a9c7eabc368bcaa95cb2874b48a76bb4c",
+        "size_in_bytes": 7911
+      },
+      {
+        "_path": "share/man/man3/libcurl-easy.3",
+        "path_type": "hardlink",
+        "sha256": "010184ecf486718e06cb649f516a801c48046ca6151a3df24fa0fee50850fb3b",
+        "sha256_in_prefix": "010184ecf486718e06cb649f516a801c48046ca6151a3df24fa0fee50850fb3b",
+        "size_in_bytes": 3074
+      },
+      {
+        "_path": "share/man/man3/libcurl-env.3",
+        "path_type": "hardlink",
+        "sha256": "f453cc0859af1e7297da223c49a8a2d54150ba608b08d144602d6468adbd9b58",
+        "sha256_in_prefix": "f453cc0859af1e7297da223c49a8a2d54150ba608b08d144602d6468adbd9b58",
+        "size_in_bytes": 4471
+      },
+      {
+        "_path": "share/man/man3/libcurl-errors.3",
+        "path_type": "hardlink",
+        "sha256": "a2073e36c63857e0cc4589a545d366010330cf072fa97d81c4f8432ea5a85b7d",
+        "sha256_in_prefix": "a2073e36c63857e0cc4589a545d366010330cf072fa97d81c4f8432ea5a85b7d",
+        "size_in_bytes": 14425
+      },
+      {
+        "_path": "share/man/man3/libcurl-multi.3",
+        "path_type": "hardlink",
+        "sha256": "2f6feed543dd7e77de99a74f3283b3742344357c5fd6b4403dad21ac9932e35b",
+        "sha256_in_prefix": "2f6feed543dd7e77de99a74f3283b3742344357c5fd6b4403dad21ac9932e35b",
+        "size_in_bytes": 9436
+      },
+      {
+        "_path": "share/man/man3/libcurl-security.3",
+        "path_type": "hardlink",
+        "sha256": "380eb1a520831dd7388d5b8f2f8b7c63133e425e9f2e678f5322374b82a836cf",
+        "sha256_in_prefix": "380eb1a520831dd7388d5b8f2f8b7c63133e425e9f2e678f5322374b82a836cf",
+        "size_in_bytes": 18156
+      },
+      {
+        "_path": "share/man/man3/libcurl-share.3",
+        "path_type": "hardlink",
+        "sha256": "5377cab0917ecc05909a6068af2aee29e2a075958cbbb894b08a8dab870dd095",
+        "sha256_in_prefix": "5377cab0917ecc05909a6068af2aee29e2a075958cbbb894b08a8dab870dd095",
+        "size_in_bytes": 3055
+      },
+      {
+        "_path": "share/man/man3/libcurl-symbols.3",
+        "path_type": "hardlink",
+        "sha256": "8f2aceb59622eded083613d3a8181616e5adc670b8d06a7af2cde1fedb392fbb",
+        "sha256_in_prefix": "8f2aceb59622eded083613d3a8181616e5adc670b8d06a7af2cde1fedb392fbb",
+        "size_in_bytes": 43000
+      },
+      {
+        "_path": "share/man/man3/libcurl-thread.3",
+        "path_type": "hardlink",
+        "sha256": "79e7d5fbc0b9cf76f020ec5926d3c1cda9bca47b97166a6cf5f6b2fb8b675652",
+        "sha256_in_prefix": "79e7d5fbc0b9cf76f020ec5926d3c1cda9bca47b97166a6cf5f6b2fb8b675652",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "share/man/man3/libcurl-tutorial.3",
+        "path_type": "hardlink",
+        "sha256": "6a0362a9af8797212d6a6ee127f6553db09627868b1bf9330daf1e45b3df6a99",
+        "sha256_in_prefix": "6a0362a9af8797212d6a6ee127f6553db09627868b1bf9330daf1e45b3df6a99",
+        "size_in_bytes": 62178
+      },
+      {
+        "_path": "share/man/man3/libcurl.3",
+        "path_type": "hardlink",
+        "sha256": "929a673ae7d611fdb01d52c7a3fa9186bcc2ed42e05472f7b0f7056748103946",
+        "sha256_in_prefix": "929a673ae7d611fdb01d52c7a3fa9186bcc2ed42e05472f7b0f7056748103946",
+        "size_in_bytes": 11640
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 875070,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/curl-7.60.0-0.tar.bz2",
+  "version": "7.60.0"
+}

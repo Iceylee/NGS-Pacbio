@@ -1,0 +1,7 @@
+
+
+         perl /data1/software/rnammer/rnammer -S bac -m lsu,ssu,tsu -multi -f outData/rRNA/rRNA.fna -h outData/rRNA/rRNA.hmmreport -xml outData/rRNA/rRNA.xml -gff outData/rRNA/out.gff rawData/assembly.fasta
+
+         grep -v "#" outData/rRNA/out.gff|awk 'BEGIN{OFS="	"}{print $1,"rRNAmmer",$3,$4,$5,$6,$7,$8,$9}' |sed "1 i #Sequence	Source	Feature	Start	End	Score	Strand	Frame	Attribute" > outData/rRNA/rRNA.gff		 
+
+  

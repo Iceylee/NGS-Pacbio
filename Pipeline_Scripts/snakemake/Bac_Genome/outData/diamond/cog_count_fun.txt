@@ -1,0 +1,23 @@
+C	150	Energy production and conversion
+D	58	Cell cycle control, cell division, chromosome partitioning
+E	228	Amino acid transport and metabolism
+F	82	Nucleotide transport and metabolism
+G	147	Carbohydrate transport and metabolism
+H	144	Coenzyme transport and metabolism
+I	133	Lipid transport and metabolism
+J	204	Translation, ribosomal structure and biogenesis
+K	158	Transcription
+L	92	Replication, recombination and repair
+M	118	Cell wall/membrane/envelope biogenesis
+N	11	Cell motility
+O	120	Posttranslational modification, protein turnover, chaperones
+P	120	Inorganic ion transport and metabolism
+Q	57	Secondary metabolites biosynthesis, transport and catabolism
+R	190	General function prediction only
+S	127	Function unknown
+T	104	Signal transduction mechanisms
+U	26	Intracellular trafficking, secretion, and vesicular transport
+V	54	Defense mechanisms
+W	6	Extracellular structures
+X	5	Mobilome: prophages, transposons
+Z	2	Cytoskeleton

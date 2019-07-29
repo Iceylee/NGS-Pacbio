@@ -1,0 +1,200 @@
+{
+  "arch": "x86_64",
+  "build": "r341_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.4.1,<3.4.2.0a0",
+    "r-gtable",
+    "r-rcolorbrewer",
+    "r-scales"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-pheatmap-1.0.10-r341_0",
+  "features": "",
+  "files": [
+    "lib/R/library/pheatmap/DESCRIPTION",
+    "lib/R/library/pheatmap/INDEX",
+    "lib/R/library/pheatmap/Meta/Rd.rds",
+    "lib/R/library/pheatmap/Meta/features.rds",
+    "lib/R/library/pheatmap/Meta/hsearch.rds",
+    "lib/R/library/pheatmap/Meta/links.rds",
+    "lib/R/library/pheatmap/Meta/nsInfo.rds",
+    "lib/R/library/pheatmap/Meta/package.rds",
+    "lib/R/library/pheatmap/NAMESPACE",
+    "lib/R/library/pheatmap/NEWS",
+    "lib/R/library/pheatmap/R/pheatmap",
+    "lib/R/library/pheatmap/R/pheatmap.rdb",
+    "lib/R/library/pheatmap/R/pheatmap.rdx",
+    "lib/R/library/pheatmap/help/AnIndex",
+    "lib/R/library/pheatmap/help/aliases.rds",
+    "lib/R/library/pheatmap/help/paths.rds",
+    "lib/R/library/pheatmap/help/pheatmap.rdb",
+    "lib/R/library/pheatmap/help/pheatmap.rdx",
+    "lib/R/library/pheatmap/html/00Index.html",
+    "lib/R/library/pheatmap/html/R.css"
+  ],
+  "fn": "r-pheatmap-1.0.10-r341_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-pheatmap-1.0.10-r341_0",
+    "type": 1
+  },
+  "md5": "5f0a243199eef37f36dd489121448585",
+  "name": "r-pheatmap",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-pheatmap-1.0.10-r341_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/pheatmap/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "602ab0974e93a0104fa268f539201eaed00d82eb1a9120ad7681bb140e77f6ce",
+        "sha256_in_prefix": "602ab0974e93a0104fa268f539201eaed00d82eb1a9120ad7681bb140e77f6ce",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "lib/R/library/pheatmap/INDEX",
+        "path_type": "hardlink",
+        "sha256": "cfeec27dd653df9115925a88119fa993b400ec4cd12b70c71e61a85e68455cd6",
+        "sha256_in_prefix": "cfeec27dd653df9115925a88119fa993b400ec4cd12b70c71e61a85e68455cd6",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "1529034bcc6ba40cb2f865004202d9a4d504448e81b8f6c775667e9e8d9517c8",
+        "sha256_in_prefix": "1529034bcc6ba40cb2f865004202d9a4d504448e81b8f6c775667e9e8d9517c8",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5fc8d560b5cb438647cf24c41713185e6ce17251a0798d45da16b18c4bfe4151",
+        "sha256_in_prefix": "5fc8d560b5cb438647cf24c41713185e6ce17251a0798d45da16b18c4bfe4151",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "b781099627f9309cfc69768a8cdf64959f6f27c2d814affc202fe802d02a460d",
+        "sha256_in_prefix": "b781099627f9309cfc69768a8cdf64959f6f27c2d814affc202fe802d02a460d",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e12509b7bd156997c55ea4fb79ec5aca074399240ce775f4aa7f9fe2325d4031",
+        "sha256_in_prefix": "e12509b7bd156997c55ea4fb79ec5aca074399240ce775f4aa7f9fe2325d4031",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "lib/R/library/pheatmap/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "615b783ed5c9d9efc721b6808302d99852e5b0d7d3ea5aac6fc2b870188f5993",
+        "sha256_in_prefix": "615b783ed5c9d9efc721b6808302d99852e5b0d7d3ea5aac6fc2b870188f5993",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/pheatmap/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6d66f2c00215d2b0e035d743e1e61d53ecb407f21ebdf6b9b07db223da0c368a",
+        "sha256_in_prefix": "6d66f2c00215d2b0e035d743e1e61d53ecb407f21ebdf6b9b07db223da0c368a",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/R/library/pheatmap/NEWS",
+        "path_type": "hardlink",
+        "sha256": "9fd8e0358305baf0f5152a2f833f6347ad2f0d72a890048f1dcf818bc1ef301c",
+        "sha256_in_prefix": "9fd8e0358305baf0f5152a2f833f6347ad2f0d72a890048f1dcf818bc1ef301c",
+        "size_in_bytes": 4822
+      },
+      {
+        "_path": "lib/R/library/pheatmap/R/pheatmap",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/pheatmap/R/pheatmap.rdb",
+        "path_type": "hardlink",
+        "sha256": "3a5538899c1383e799c25e609e025521a3f05148103b91ffd9b70963406b018a",
+        "sha256_in_prefix": "3a5538899c1383e799c25e609e025521a3f05148103b91ffd9b70963406b018a",
+        "size_in_bytes": 21540
+      },
+      {
+        "_path": "lib/R/library/pheatmap/R/pheatmap.rdx",
+        "path_type": "hardlink",
+        "sha256": "e952c4cd3969d1f99666884a81239b8801575b80d3bcc739b266527809715ddd",
+        "sha256_in_prefix": "e952c4cd3969d1f99666884a81239b8801575b80d3bcc739b266527809715ddd",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "lib/R/library/pheatmap/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0efb6b0f9f7b4af45ebae2236e882b06a7d8bada4d87af379da09847f99aa0ec",
+        "sha256_in_prefix": "0efb6b0f9f7b4af45ebae2236e882b06a7d8bada4d87af379da09847f99aa0ec",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/R/library/pheatmap/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "825e4ffcb12bb44df4a8d256ed0634857a916ca3d1921cfd6dd682dbce56950f",
+        "sha256_in_prefix": "825e4ffcb12bb44df4a8d256ed0634857a916ca3d1921cfd6dd682dbce56950f",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "lib/R/library/pheatmap/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "a5c81b2ef7e8be2c1181e80ece0a25f8929e9ca243d5c262a8eeefa514b76aec",
+        "sha256_in_prefix": "a5c81b2ef7e8be2c1181e80ece0a25f8929e9ca243d5c262a8eeefa514b76aec",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/pheatmap/help/pheatmap.rdb",
+        "path_type": "hardlink",
+        "sha256": "2b6e8d3a5ce4d813f956abba2e4fd771bec8f276df93774abec9d5ed3d91c451",
+        "sha256_in_prefix": "2b6e8d3a5ce4d813f956abba2e4fd771bec8f276df93774abec9d5ed3d91c451",
+        "size_in_bytes": 11564
+      },
+      {
+        "_path": "lib/R/library/pheatmap/help/pheatmap.rdx",
+        "path_type": "hardlink",
+        "sha256": "caaabc83e9964dd5e8a527eeb4e2e8905ef2ec852aa1cfccb629406ffd4cc36c",
+        "sha256_in_prefix": "caaabc83e9964dd5e8a527eeb4e2e8905ef2ec852aa1cfccb629406ffd4cc36c",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/pheatmap/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6ead8a2cf7847d748dc9cd45927d118e189f1c1b9baf4486a1bcda3119f5090a",
+        "sha256_in_prefix": "6ead8a2cf7847d748dc9cd45927d118e189f1c1b9baf4486a1bcda3119f5090a",
+        "size_in_bytes": 1191
+      },
+      {
+        "_path": "lib/R/library/pheatmap/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-pheatmap",
+  "size": 45235,
+  "subdir": "linux-64",
+  "timestamp": 1528926180316,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-pheatmap-1.0.10-r341_0.tar.bz2",
+  "version": "1.0.10"
+}

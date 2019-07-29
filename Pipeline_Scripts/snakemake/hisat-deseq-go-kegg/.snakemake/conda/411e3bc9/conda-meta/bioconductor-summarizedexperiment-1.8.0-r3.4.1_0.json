@@ -1,0 +1,403 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biobase",
+    "bioconductor-biocgenerics >=0.15.3",
+    "bioconductor-delayedarray >=0.3.20",
+    "bioconductor-genomeinfodb >=1.13.1",
+    "bioconductor-genomicranges >=1.29.14",
+    "bioconductor-iranges >=2.11.17",
+    "bioconductor-s4vectors >=0.13.13",
+    "r-base 3.4.1*",
+    "r-matrix"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/bioconductor-summarizedexperiment-1.8.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/SummarizedExperiment/DESCRIPTION",
+    "lib/R/library/SummarizedExperiment/INDEX",
+    "lib/R/library/SummarizedExperiment/Meta/Rd.rds",
+    "lib/R/library/SummarizedExperiment/Meta/features.rds",
+    "lib/R/library/SummarizedExperiment/Meta/hsearch.rds",
+    "lib/R/library/SummarizedExperiment/Meta/links.rds",
+    "lib/R/library/SummarizedExperiment/Meta/nsInfo.rds",
+    "lib/R/library/SummarizedExperiment/Meta/package.rds",
+    "lib/R/library/SummarizedExperiment/Meta/vignette.rds",
+    "lib/R/library/SummarizedExperiment/NAMESPACE",
+    "lib/R/library/SummarizedExperiment/NEWS",
+    "lib/R/library/SummarizedExperiment/R/SummarizedExperiment",
+    "lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdb",
+    "lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdx",
+    "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.R",
+    "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.Rmd",
+    "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.html",
+    "lib/R/library/SummarizedExperiment/doc/index.html",
+    "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.h5",
+    "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.tsv",
+    "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.txt",
+    "lib/R/library/SummarizedExperiment/extdata/kallisto/run_info.json",
+    "lib/R/library/SummarizedExperiment/help/AnIndex",
+    "lib/R/library/SummarizedExperiment/help/SummarizedExperiment.rdb",
+    "lib/R/library/SummarizedExperiment/help/SummarizedExperiment.rdx",
+    "lib/R/library/SummarizedExperiment/help/aliases.rds",
+    "lib/R/library/SummarizedExperiment/help/paths.rds",
+    "lib/R/library/SummarizedExperiment/html/00Index.html",
+    "lib/R/library/SummarizedExperiment/html/R.css",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/README",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/collect_rda_objects_to_update.R",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/data_store_RDA_OBJECTS_TO_UPDATE",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/pkgs_RDA_OBJECTS_TO_UPDATE",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/scan_rda_files.R",
+    "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/update_rda_objects.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_Assays-class.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_RangedSummarizedExperiment-class.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_SummarizedExperiment-class.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_coverage-methods.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_findOverlaps-methods.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_inter-range-methods.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_intra-range-methods.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_makeSummarizedExperimentFromDataFrame.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_makeSummarizedExperimentFromExpressionSet.R",
+    "lib/R/library/SummarizedExperiment/unitTests/test_nearest-methods.R"
+  ],
+  "fn": "bioconductor-summarizedexperiment-1.8.0-r3.4.1_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/bioconductor-summarizedexperiment-1.8.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "bf56f12a2f487dc60fc492fd858e556e",
+  "name": "bioconductor-summarizedexperiment",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/bioconductor-summarizedexperiment-1.8.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/SummarizedExperiment/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7808497e4a4b4d8ba2c96ee03452dde356e0bb38328277fd21138909987ae603",
+        "sha256_in_prefix": "7808497e4a4b4d8ba2c96ee03452dde356e0bb38328277fd21138909987ae603",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/INDEX",
+        "path_type": "hardlink",
+        "sha256": "5641dc8cdc449ac4a7769838031226b29c1adf18651e32053f29c20dc9c59a5f",
+        "sha256_in_prefix": "5641dc8cdc449ac4a7769838031226b29c1adf18651e32053f29c20dc9c59a5f",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e3e90469423eba363eb625c225f3f99b75e5653ee7e2aa2f80de0674c7aceef3",
+        "sha256_in_prefix": "e3e90469423eba363eb625c225f3f99b75e5653ee7e2aa2f80de0674c7aceef3",
+        "size_in_bytes": 1894
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "97db8c2194c1225791152f4042a344006f78dd35190b5b88e9aceabb6e04b63c",
+        "sha256_in_prefix": "97db8c2194c1225791152f4042a344006f78dd35190b5b88e9aceabb6e04b63c",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4ce38d5e0df78574f04e6ae5b220e1bdcf9c791d626f29aed4383f3cb289a3e6",
+        "sha256_in_prefix": "4ce38d5e0df78574f04e6ae5b220e1bdcf9c791d626f29aed4383f3cb289a3e6",
+        "size_in_bytes": 1600
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ef499402c2996ad207e8a4ba8e671c7a84be73187df243e60bbaa0eb6052dba6",
+        "sha256_in_prefix": "ef499402c2996ad207e8a4ba8e671c7a84be73187df243e60bbaa0eb6052dba6",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "26cf4942acb64bf2c0fba0fa06e1907d603213639eddd32eb05b2daaf7725e82",
+        "sha256_in_prefix": "26cf4942acb64bf2c0fba0fa06e1907d603213639eddd32eb05b2daaf7725e82",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "6ac4a4d836a48dbc9c057c558816e872339bc5381b287840971a836beb2fcc28",
+        "sha256_in_prefix": "6ac4a4d836a48dbc9c057c558816e872339bc5381b287840971a836beb2fcc28",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "1ca702724986c0f2b122da247e121be87913b476b90b675927c2c7645760c0ac",
+        "sha256_in_prefix": "1ca702724986c0f2b122da247e121be87913b476b90b675927c2c7645760c0ac",
+        "size_in_bytes": 3033
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/NEWS",
+        "path_type": "hardlink",
+        "sha256": "18f59b062e777cc3eff840af44513c31d7748e68753950d37adeae4f2c12568b",
+        "sha256_in_prefix": "18f59b062e777cc3eff840af44513c31d7748e68753950d37adeae4f2c12568b",
+        "size_in_bytes": 4513
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/R/SummarizedExperiment",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdb",
+        "path_type": "hardlink",
+        "sha256": "51dc796859d044f79960371545e034c3a28c2f1cd0a80afa459a5439f179420b",
+        "sha256_in_prefix": "51dc796859d044f79960371545e034c3a28c2f1cd0a80afa459a5439f179420b",
+        "size_in_bytes": 605884
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdx",
+        "path_type": "hardlink",
+        "sha256": "be855ffba14d13acb8f0fd5490fdf051fcb303f7150e5d7356374c53f81d2799",
+        "sha256_in_prefix": "be855ffba14d13acb8f0fd5490fdf051fcb303f7150e5d7356374c53f81d2799",
+        "size_in_bytes": 6016
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.R",
+        "path_type": "hardlink",
+        "sha256": "8f8de840f67ce8a3c20e3161037b8eb36728c415a1ee19601d45965a3a4e6c65",
+        "sha256_in_prefix": "8f8de840f67ce8a3c20e3161037b8eb36728c415a1ee19601d45965a3a4e6c65",
+        "size_in_bytes": 3777
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.Rmd",
+        "path_type": "hardlink",
+        "sha256": "105ad7a9c638e3bda9d2a3916de6d6d80fe19fbfa9efa5350dd69ac7040482ca",
+        "sha256_in_prefix": "105ad7a9c638e3bda9d2a3916de6d6d80fe19fbfa9efa5350dd69ac7040482ca",
+        "size_in_bytes": 12885
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/doc/SummarizedExperiment.html",
+        "path_type": "hardlink",
+        "sha256": "30a69f98cd4d1a2dd39fb9a088a6a15ae1e206871033fa7b72cb4bb3f1aa14b8",
+        "sha256_in_prefix": "30a69f98cd4d1a2dd39fb9a088a6a15ae1e206871033fa7b72cb4bb3f1aa14b8",
+        "size_in_bytes": 952280
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "bae4229ac8229ea01ea558c10c6b4f6d58f4478dfad186ec364d9a5b0b970d60",
+        "sha256_in_prefix": "bae4229ac8229ea01ea558c10c6b4f6d58f4478dfad186ec364d9a5b0b970d60",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.h5",
+        "path_type": "hardlink",
+        "sha256": "a0262dd7b3bd85aa356d65eab4b2bc343b83fc94b0171ecfea0ece080a00e75a",
+        "sha256_in_prefix": "a0262dd7b3bd85aa356d65eab4b2bc343b83fc94b0171ecfea0ece080a00e75a",
+        "size_in_bytes": 1086722
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.tsv",
+        "path_type": "hardlink",
+        "sha256": "e2fab3bb745b01f78768399331d7f33d11c9d0790ac572186b027878f5c15e9c",
+        "sha256_in_prefix": "e2fab3bb745b01f78768399331d7f33d11c9d0790ac572186b027878f5c15e9c",
+        "size_in_bytes": 92427
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/extdata/kallisto/abundance.txt",
+        "path_type": "hardlink",
+        "sha256": "8a399230e0a578fda7f531f28e754f5d3ddaf9df7915b38cfe4b0b1f09247df9",
+        "sha256_in_prefix": "8a399230e0a578fda7f531f28e754f5d3ddaf9df7915b38cfe4b0b1f09247df9",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/extdata/kallisto/run_info.json",
+        "path_type": "hardlink",
+        "sha256": "db036dc35b5a8222cf46f83569ca9ec91b4264bbc4357c3e2a70857a8d907cbe",
+        "sha256_in_prefix": "db036dc35b5a8222cf46f83569ca9ec91b4264bbc4357c3e2a70857a8d907cbe",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c9e942357ae5c4a908ec5df20f5d8406563a1b5547a33b1f2031bfa2acd00e99",
+        "sha256_in_prefix": "c9e942357ae5c4a908ec5df20f5d8406563a1b5547a33b1f2031bfa2acd00e99",
+        "size_in_bytes": 11612
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/help/SummarizedExperiment.rdb",
+        "path_type": "hardlink",
+        "sha256": "e8f30be5077d9a129cd203bbfb47c8f5c113eaaa805096729c4c8884dfe14cc5",
+        "sha256_in_prefix": "e8f30be5077d9a129cd203bbfb47c8f5c113eaaa805096729c4c8884dfe14cc5",
+        "size_in_bytes": 79005
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/help/SummarizedExperiment.rdx",
+        "path_type": "hardlink",
+        "sha256": "2725f011fb70621f74ba25b7a1017b2a21c84d91d9cf250b00849a795e349ba9",
+        "sha256_in_prefix": "2725f011fb70621f74ba25b7a1017b2a21c84d91d9cf250b00849a795e349ba9",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "19d49a228a680d04c50f51621a27ee6b357008f3527b3b6ca976d4df6807bc3a",
+        "sha256_in_prefix": "19d49a228a680d04c50f51621a27ee6b357008f3527b3b6ca976d4df6807bc3a",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b7325a38c81c51e4a79dc79963ac00e9aac0cc520e6dac90a9de9c8bf077c970",
+        "sha256_in_prefix": "b7325a38c81c51e4a79dc79963ac00e9aac0cc520e6dac90a9de9c8bf077c970",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "36fcbf4071cfc9a8771ec49d916553d33763a4ce7629a318d4a68daa56d6e3bd",
+        "sha256_in_prefix": "36fcbf4071cfc9a8771ec49d916553d33763a4ce7629a318d4a68daa56d6e3bd",
+        "size_in_bytes": 25599
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/README",
+        "path_type": "hardlink",
+        "sha256": "4b3a1069c61834eb48a2e88f870ab40c9b89f55e144cad97747f159b46577511",
+        "sha256_in_prefix": "4b3a1069c61834eb48a2e88f870ab40c9b89f55e144cad97747f159b46577511",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/collect_rda_objects_to_update.R",
+        "path_type": "hardlink",
+        "sha256": "f0beb8d7116ea2f46734e618275fe07ed0dfd288532b3802f6e2af166a87095a",
+        "sha256_in_prefix": "f0beb8d7116ea2f46734e618275fe07ed0dfd288532b3802f6e2af166a87095a",
+        "size_in_bytes": 5073
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/data_store_RDA_OBJECTS_TO_UPDATE",
+        "path_type": "hardlink",
+        "sha256": "67fd037b71b6bfebe6d63ca9726088894f2c99ccd74fb8c5421c70a8c9736fcf",
+        "sha256_in_prefix": "67fd037b71b6bfebe6d63ca9726088894f2c99ccd74fb8c5421c70a8c9736fcf",
+        "size_in_bytes": 2198
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/pkgs_RDA_OBJECTS_TO_UPDATE",
+        "path_type": "hardlink",
+        "sha256": "c66423c6d5e311e34a8ba81e04bb53c7b2b815547dd85fbb9db3ff397a5a6996",
+        "sha256_in_prefix": "c66423c6d5e311e34a8ba81e04bb53c7b2b815547dd85fbb9db3ff397a5a6996",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/scan_rda_files.R",
+        "path_type": "hardlink",
+        "sha256": "0ae069065cb6a48d54fa248b40ac2d09e1d7ce46bc4f5bc3020371bf783a4af3",
+        "sha256_in_prefix": "0ae069065cb6a48d54fa248b40ac2d09e1d7ce46bc4f5bc3020371bf783a4af3",
+        "size_in_bytes": 2471
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/scripts/Find_and_update_objects/update_rda_objects.R",
+        "path_type": "hardlink",
+        "sha256": "8f38c631f1b3f5bfea0fe33f6f261abba90222a62960dc9ad1fcc72e2757fd12",
+        "sha256_in_prefix": "8f38c631f1b3f5bfea0fe33f6f261abba90222a62960dc9ad1fcc72e2757fd12",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_Assays-class.R",
+        "path_type": "hardlink",
+        "sha256": "aa5126216a3ad965806e99b319cb3803e73978f25c9d3f3e95ece2adecb961c3",
+        "sha256_in_prefix": "aa5126216a3ad965806e99b319cb3803e73978f25c9d3f3e95ece2adecb961c3",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_RangedSummarizedExperiment-class.R",
+        "path_type": "hardlink",
+        "sha256": "9fe77acbb3deae7adfae1ccc365623ddcb9692747d82ccd9e64843008a548992",
+        "sha256_in_prefix": "9fe77acbb3deae7adfae1ccc365623ddcb9692747d82ccd9e64843008a548992",
+        "size_in_bytes": 13178
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_SummarizedExperiment-class.R",
+        "path_type": "hardlink",
+        "sha256": "7f3dcb1ffb134790afbdba9b2342a936d99cffae79a13873ced429c9ff1d508e",
+        "sha256_in_prefix": "7f3dcb1ffb134790afbdba9b2342a936d99cffae79a13873ced429c9ff1d508e",
+        "size_in_bytes": 12483
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_coverage-methods.R",
+        "path_type": "hardlink",
+        "sha256": "ee382e24d9f08e891d50b221ef8f613117be2b8724abd8e6d699b8ba6a89ba1f",
+        "sha256_in_prefix": "ee382e24d9f08e891d50b221ef8f613117be2b8724abd8e6d699b8ba6a89ba1f",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_findOverlaps-methods.R",
+        "path_type": "hardlink",
+        "sha256": "d75f76929f64f268dc43faf6288552712443b6b173d2c914e356d11fb9664036",
+        "sha256_in_prefix": "d75f76929f64f268dc43faf6288552712443b6b173d2c914e356d11fb9664036",
+        "size_in_bytes": 3209
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_inter-range-methods.R",
+        "path_type": "hardlink",
+        "sha256": "1900871bbaa82b9d38877b5e16bc07ccec95729cd2c5f73ca9973d7eb5f8d0a3",
+        "sha256_in_prefix": "1900871bbaa82b9d38877b5e16bc07ccec95729cd2c5f73ca9973d7eb5f8d0a3",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_intra-range-methods.R",
+        "path_type": "hardlink",
+        "sha256": "a87f512066255ae031e28cfe106233acba3f4d4dda8db5ed7b1c21917d201e5f",
+        "sha256_in_prefix": "a87f512066255ae031e28cfe106233acba3f4d4dda8db5ed7b1c21917d201e5f",
+        "size_in_bytes": 3356
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_makeSummarizedExperimentFromDataFrame.R",
+        "path_type": "hardlink",
+        "sha256": "94276916ae4e6a96484f879e23c78565118c734af98a5a073535eb728bed73c5",
+        "sha256_in_prefix": "94276916ae4e6a96484f879e23c78565118c734af98a5a073535eb728bed73c5",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_makeSummarizedExperimentFromExpressionSet.R",
+        "path_type": "hardlink",
+        "sha256": "43e4c3e219aade355007bd67203ee34b08c8202f8898036b2f6dc3526e6ff7dd",
+        "sha256_in_prefix": "43e4c3e219aade355007bd67203ee34b08c8202f8898036b2f6dc3526e6ff7dd",
+        "size_in_bytes": 6366
+      },
+      {
+        "_path": "lib/R/library/SummarizedExperiment/unitTests/test_nearest-methods.R",
+        "path_type": "hardlink",
+        "sha256": "e99bf5124878494c8271b74f4f1622a948ec10401caff997f7daac3316204745",
+        "sha256_in_prefix": "e99bf5124878494c8271b74f4f1622a948ec10401caff997f7daac3316204745",
+        "size_in_bytes": 2122
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bioconductor-summarizedexperiment=1.8.0",
+  "size": 1740431,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-summarizedexperiment-1.8.0-r3.4.1_0.tar.bz2",
+  "version": "1.8.0"
+}

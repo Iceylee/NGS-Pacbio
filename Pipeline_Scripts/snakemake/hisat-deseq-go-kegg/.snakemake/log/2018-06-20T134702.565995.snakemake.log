@@ -1,0 +1,226 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	6	fastqc
+	6	fastqc_clean
+	6	hisat2
+	6	htseq
+	6	sam_sort
+	6	trimming
+	37
+
+Job 25: --- Trimming.
+
+Finished job 25.
+1 of 37 steps (3%) done
+
+Job 11: --- Quality check of raw outData with Fastqc.
+
+Finished job 11.
+2 of 37 steps (5%) done
+
+Job 36: --- Trimming.
+
+Finished job 36.
+3 of 37 steps (8%) done
+
+Job 9: --- Quality check of raw outData with Fastqc.
+
+Finished job 9.
+4 of 37 steps (11%) done
+
+Job 26: --- Trimming.
+
+Finished job 26.
+5 of 37 steps (14%) done
+
+Job 20: --- Quality check of raw outData with Fastqc.
+
+Finished job 20.
+6 of 37 steps (16%) done
+
+Job 22: --- Quality check of raw outData with Fastqc.
+
+Finished job 22.
+7 of 37 steps (19%) done
+
+Job 29: --- Trimming.
+
+Finished job 29.
+8 of 37 steps (22%) done
+
+Job 35: --- Trimming.
+
+Finished job 35.
+9 of 37 steps (24%) done
+
+Job 5: --- Quality check of raw outData with Fastqc.
+
+Finished job 5.
+10 of 37 steps (27%) done
+
+Job 30: --- Trimming.
+
+Finished job 30.
+11 of 37 steps (30%) done
+
+Job 12: --- Quality check of raw outData with Fastqc.
+
+Finished job 12.
+12 of 37 steps (32%) done
+
+Job 27: --- Hisat2 Mapping.---
+
+Finished job 27.
+13 of 37 steps (35%) done
+
+Job 3: ---htseq count---
+
+Finished job 3.
+14 of 37 steps (38%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_1.sam
+    output: outData/sorted_bam/UHR_1_sorted.bam
+    jobid: 18
+    wildcards: sample=UHR_1
+
+Finished job 18.
+15 of 37 steps (41%) done
+
+Job 1: --- Quality check of clean outData with Fastqc.
+
+Finished job 1.
+16 of 37 steps (43%) done
+
+Job 24: --- Quality check of clean outData with Fastqc.
+
+Finished job 24.
+17 of 37 steps (46%) done
+
+Job 33: --- Hisat2 Mapping.---
+
+Finished job 33.
+18 of 37 steps (49%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_3.sam
+    output: outData/sorted_bam/UHR_3_sorted.bam
+    jobid: 14
+    wildcards: sample=UHR_3
+
+Finished job 14.
+19 of 37 steps (51%) done
+
+Job 16: ---htseq count---
+
+Finished job 16.
+20 of 37 steps (54%) done
+
+Job 28: --- Hisat2 Mapping.---
+
+Finished job 28.
+21 of 37 steps (57%) done
+
+rule sam_sort:
+    input: outData/hisat2/UHR_2.sam
+    output: outData/sorted_bam/UHR_2_sorted.bam
+    jobid: 13
+    wildcards: sample=UHR_2
+
+Finished job 13.
+22 of 37 steps (59%) done
+
+Job 4: ---htseq count---
+
+Finished job 4.
+23 of 37 steps (62%) done
+
+Job 2: --- Quality check of clean outData with Fastqc.
+
+Finished job 2.
+24 of 37 steps (65%) done
+
+Job 6: --- Quality check of clean outData with Fastqc.
+
+Finished job 6.
+25 of 37 steps (68%) done
+
+Job 31: --- Hisat2 Mapping.---
+
+Finished job 31.
+26 of 37 steps (70%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_2.sam
+    output: outData/sorted_bam/HBR_2_sorted.bam
+    jobid: 8
+    wildcards: sample=HBR_2
+
+Finished job 8.
+27 of 37 steps (73%) done
+
+Job 21: ---htseq count---
+
+Finished job 21.
+28 of 37 steps (76%) done
+
+Job 34: --- Hisat2 Mapping.---
+
+Finished job 34.
+29 of 37 steps (78%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_3.sam
+    output: outData/sorted_bam/HBR_3_sorted.bam
+    jobid: 23
+    wildcards: sample=HBR_3
+
+Finished job 23.
+30 of 37 steps (81%) done
+
+Job 15: ---htseq count---
+
+Finished job 15.
+31 of 37 steps (84%) done
+
+Job 17: --- Quality check of clean outData with Fastqc.
+
+Finished job 17.
+32 of 37 steps (86%) done
+
+Job 32: --- Hisat2 Mapping.---
+
+Finished job 32.
+33 of 37 steps (89%) done
+
+Job 19: ---htseq count---
+
+Finished job 19.
+34 of 37 steps (92%) done
+
+rule sam_sort:
+    input: outData/hisat2/HBR_1.sam
+    output: outData/sorted_bam/HBR_1_sorted.bam
+    jobid: 10
+    wildcards: sample=HBR_1
+
+Finished job 10.
+35 of 37 steps (95%) done
+
+Job 7: --- Quality check of clean outData with Fastqc.
+
+Finished job 7.
+36 of 37 steps (97%) done
+
+localrule all:
+    input: outData/fastqc_clean/HBR_1_clean_R1_fastqc.zip, outData/fastqc/HBR_1_R1_fastqc.zip, outData/htseq/HBR_1_CountNum.txt, outData/sorted_bam/HBR_1_sorted.bam, outData/fastqc_clean/HBR_2_clean_R1_fastqc.zip, outData/fastqc/HBR_2_R1_fastqc.zip, outData/htseq/HBR_2_CountNum.txt, outData/sorted_bam/HBR_2_sorted.bam, outData/fastqc_clean/HBR_3_clean_R1_fastqc.zip, outData/fastqc/HBR_3_R1_fastqc.zip, outData/htseq/HBR_3_CountNum.txt, outData/sorted_bam/HBR_3_sorted.bam, outData/fastqc_clean/UHR_1_clean_R1_fastqc.zip, outData/fastqc/UHR_1_R1_fastqc.zip, outData/htseq/UHR_1_CountNum.txt, outData/sorted_bam/UHR_1_sorted.bam, outData/fastqc_clean/UHR_2_clean_R1_fastqc.zip, outData/fastqc/UHR_2_R1_fastqc.zip, outData/htseq/UHR_2_CountNum.txt, outData/sorted_bam/UHR_2_sorted.bam, outData/fastqc_clean/UHR_3_clean_R1_fastqc.zip, outData/fastqc/UHR_3_R1_fastqc.zip, outData/htseq/UHR_3_CountNum.txt, outData/sorted_bam/UHR_3_sorted.bam
+    jobid: 0
+
+Finished job 0.
+37 of 37 steps (100%) done
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T134702.565995.snakemake.log

@@ -1,0 +1,72 @@
+{
+  "arch": "x86_64",
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/zlib-1.2.8-3",
+  "features": "",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.a",
+    "lib/libz.so",
+    "lib/libz.so.1",
+    "lib/libz.so.1.2.8",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.8-3.tar.bz2",
+  "license": "zlib (http://zlib.net/zlib_license.html)",
+  "license_family": "Other",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/zlib-1.2.8-3",
+    "type": 1
+  },
+  "md5": "6b3dbbf50432b3e2a271b5e46877bcfc",
+  "name": "zlib",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/zlib-1.2.8-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/zconf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/zlib.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libz.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libz.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libz.so.1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libz.so.1.2.8",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a259797965db088f30b77a718ed19c1d638b4f96f34a24605185d18ad163d98d"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 89463,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zlib-1.2.8-3.tar.bz2",
+  "version": "1.2.8"
+}

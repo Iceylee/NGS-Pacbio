@@ -1,0 +1,46 @@
+# path or URL to sample sheet (TSV format, columns: sample, condition, ...)
+#samples: samples.tsv
+# path or URL to sequencing unit sheet (TSV format, columns: sample, unit, fq1, fq2)
+# Units are technical replicates (e.g. lanes, or resequencing of the same biological
+# sample).
+
+
+# working directory
+workdir: "/home/liyubing/analysis/7_snakemake/Bac_Genome/"
+
+threads: 15
+
+fasta: "rawData/assembly.fasta"
+name: "fake_2M_genome"
+size2: "5"
+contig: "TRUE" #contig 1 or not?
+
+db:
+  #nr: "/data1/DiamondDB/nr"
+  sp: "/data1/Uniprot/uniprot_sprot"
+  #trembl: ""
+  pfam: "/data1/Pfam/Pfam-A.dmnd"
+  cog: "/data1/COGDatabase/prot2003-2014"
+    
+cog:
+    csv: "/data1/COGDatabase/cog2003-2014.csv"
+    cognames: "/data1/COGDatabase/cognames2003-2014.tab"
+    fun: "/data1/COGDatabase/fun2003-2014.tab" 
+
+go:
+    tab: "/data1/GO/go_term_class.tab"
+    gaf: "/data1/GO/sp_go_merge.gaf"
+
+kegg: "rawData/q00000.keg"
+
+Rfam:
+     clanin: "/data1/Rfam/Rfam.clanin"
+     cm: "/data1/Rfam/Rfam.cm"
+     anno: "/data1/Rfam/rfam_anno.txt"
+color: "color.txt"
+
+short_chr: "-unitig_0;-unitig_1;-unitig_2;-unitig_3;-unitig_4;-unitig_10;-unitig_12;-unitig_13;-unitig_14;-unitig_16"
+
+
+
+

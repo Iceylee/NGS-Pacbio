@@ -1,0 +1,11 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XTEST
+Description: XCB XTEST Extension
+Version: 1.13
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-xtest
+Cflags: -I${includedir}

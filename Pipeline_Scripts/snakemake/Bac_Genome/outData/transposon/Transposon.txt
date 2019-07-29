@@ -1,0 +1,6 @@
+Sequence	Source	Method	Start	End	Score	Strand	Phase	Attributes
+unitig_0	TransposonPSI	translated_nucleotide_match	49751	49990	213	-	.	ID=match00001; Target=ISC1316; E=4e-19 291 372
+unitig_0	TransposonPSI	translated_nucleotide_match	49915	50568	136	-	.	ID=match00002; Target=ISC1316; E=1e-09 100 315
+unitig_0	TransposonPSI	translated_nucleotide_match	373122	373736	112	-	.	ID=match00003; Target=LINE; E=4e-06 864 1037
+unitig_0	TransposonPSI	translated_nucleotide_match	2095264	2095818	113	+	.	ID=match00004; Target=LINE; E=3e-06 431 636
+unitig_0	TransposonPSI	translated_nucleotide_match	1880352	1880891	124	+	.	ID=match00005; Target=helitronORF; E=2e-07 764 924

@@ -1,0 +1,14 @@
+prefix=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Requires: glib-2.0
+Version: 2.55.0
+Libs: -L${libdir} -Wl,--export-dynamic -lgmodule-2.0 -pthread -lrt
+Libs.private: -ldl
+Cflags: -pthread

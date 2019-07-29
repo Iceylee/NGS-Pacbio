@@ -1,0 +1,17 @@
+{
+"Date":"20/9/2018_6:28:43",
+"Version":"4.2.17",
+"Command":"perl /opt/CRISPRCasFinder/CRISPRCasFinder.pl -cf CasFinder-2.0.2 -def General -cas -i /data/rawData/assembly.fasta -out /data/outData/crispr/ –keep -so /opt/CRISPRCasFinder/sel392v2.so",
+"Sequences":
+[{
+"Id":"unitig_0",
+"Description":"Unknown",
+"AT":51.8577666268928,
+"Length":2595509,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[],
+"Cas":[]
+
+}
+]
+}

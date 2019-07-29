@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	5	fastqc
+	6	fastqc_clean
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	5	hisat2
+	5	htseq
+	2	mergelist
+	5	sam_sort
+	6	stringtie
+	2	stringtie_merge
+	5	trimming
+	49
+
+rule stringtie:
+    input: outData/sorted_bam/WR180004S_sorted.bam
+    output: outData/stringtie/WR180004S.gtf
+    jobid: 29
+    wildcards: sample=WR180004S
+
+    Error in rule stringtie:
+        jobid: 29
+        output: outData/stringtie/WR180004S.gtf
+
+RuleException:
+CalledProcessError in line 6 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Command ' set -euo pipefail;  
+             stringtie outData/sorted_bam/WR180004S_sorted.bam -p 1 -o outData/stringtie/WR180004S.gtf -G rawData/refs/22.gtf -l WR180004S ' returned non-zero exit status 127.
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk", line 6, in __rule_stringtie
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-26T140012.784411.snakemake.log

@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 11 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Wildcards in input files cannot be determined from output files:
+'sample'

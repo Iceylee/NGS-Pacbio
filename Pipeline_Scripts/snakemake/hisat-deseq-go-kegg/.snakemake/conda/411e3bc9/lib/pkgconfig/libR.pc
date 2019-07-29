@@ -1,0 +1,10 @@
+rhome=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/lib/R
+rlibdir=${rhome}/lib
+rincludedir=/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/lib/R/include
+
+Name: libR
+Description: R as a library
+Version: 3.4.1
+Libs: -Wl,--export-dynamic -fopenmp  -L/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/conda/411e3bc9/lib -lgfortran -L${rlibdir} -lR
+Cflags: -I${rincludedir} -I${rincludedir}
+Libs.private:

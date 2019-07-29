@@ -1,0 +1,267 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	as
+	1	count_matrix
+	1	deseq2
+	1	deseq2_init
+	5	fastqc
+	6	fastqc_clean
+	1	heatmap_cor_plot
+	1	heatmap_plot
+	5	hisat2
+	5	htseq
+	2	mergelist
+	5	sam_sort
+	6	stringtie
+	2	stringtie_merge
+	5	trimming
+	49
+
+rule stringtie:
+    input: outData/sorted_bam/WR180004S_sorted.bam
+    output: outData/stringtie/WR180004S.gtf
+    jobid: 20
+    wildcards: sample=WR180004S
+
+Finished job 20.
+1 of 49 steps (2%) done
+
+Job 27: --- Quality check of clean outData with Fastqc.
+
+Finished job 27.
+2 of 49 steps (4%) done
+
+Job 42: --- Trimming.
+
+Finished job 42.
+3 of 49 steps (6%) done
+
+Job 4: --- Quality check of raw outData with Fastqc.
+
+Finished job 4.
+4 of 49 steps (8%) done
+
+Job 12: --- Quality check of clean outData with Fastqc.
+
+Finished job 12.
+5 of 49 steps (10%) done
+
+Job 40: --- Hisat2 Mapping.---
+
+Finished job 40.
+6 of 49 steps (12%) done
+
+Job 10: ---htseq count---
+
+Finished job 10.
+7 of 49 steps (14%) done
+
+rule sam_sort:
+    input: outData/hisat2/WR180006S.sam
+    output: outData/sorted_bam/WR180006S_sorted.bam
+    jobid: 25
+    wildcards: sample=WR180006S
+
+Finished job 25.
+8 of 49 steps (16%) done
+
+rule stringtie:
+    input: outData/sorted_bam/WR180006S_sorted.bam
+    output: outData/stringtie/WR180006S.gtf
+    jobid: 29
+    wildcards: sample=WR180006S
+
+Finished job 29.
+9 of 49 steps (18%) done
+
+Job 49: --- Trimming.
+
+Finished job 49.
+10 of 49 steps (20%) done
+
+Job 34: --- Quality check of raw outData with Fastqc.
+
+Finished job 34.
+11 of 49 steps (22%) done
+
+Job 47: --- Hisat2 Mapping.---
+
+Finished job 47.
+12 of 49 steps (24%) done
+
+rule sam_sort:
+    input: outData/hisat2/WR180005S.sam
+    output: outData/sorted_bam/WR180005S_sorted.bam
+    jobid: 32
+    wildcards: sample=WR180005S
+
+Finished job 32.
+13 of 49 steps (27%) done
+
+Job 24: ---htseq count---
+
+Finished job 24.
+14 of 49 steps (29%) done
+
+rule stringtie:
+    input: outData/sorted_bam/WR180005S_sorted.bam
+    output: outData/stringtie/WR180005S.gtf
+    jobid: 18
+    wildcards: sample=WR180005S
+
+Finished job 18.
+15 of 49 steps (31%) done
+
+Job 28: --- Quality check of clean outData with Fastqc.
+
+Finished job 28.
+16 of 49 steps (33%) done
+
+Job 41: --- Trimming.
+
+Finished job 41.
+17 of 49 steps (35%) done
+
+Job 5: --- Quality check of raw outData with Fastqc.
+
+Finished job 5.
+18 of 49 steps (37%) done
+
+Job 44: --- Hisat2 Mapping.---
+
+Finished job 44.
+19 of 49 steps (39%) done
+
+Job 26: ---htseq count---
+
+Finished job 26.
+20 of 49 steps (41%) done
+
+rule sam_sort:
+    input: outData/hisat2/WR180002S.sam
+    output: outData/sorted_bam/WR180002S_sorted.bam
+    jobid: 14
+    wildcards: sample=WR180002S
+
+Finished job 14.
+21 of 49 steps (43%) done
+
+rule stringtie:
+    input: outData/sorted_bam/WR180002S_sorted.bam
+    output: outData/stringtie/WR180002S.gtf
+    jobid: 16
+    wildcards: sample=WR180002S
+
+Finished job 16.
+22 of 49 steps (45%) done
+
+Job 11: --- Quality check of clean outData with Fastqc.
+
+Finished job 11.
+23 of 49 steps (47%) done
+
+Job 7: --- Quality check of raw outData with Fastqc.
+
+Finished job 7.
+24 of 49 steps (49%) done
+
+Job 36: --- Trimming.
+
+Finished job 36.
+25 of 49 steps (51%) done
+
+Job 37: --- Hisat2 Mapping.---
+
+Finished job 37.
+26 of 49 steps (53%) done
+
+rule sam_sort:
+    input: outData/hisat2/WR180003S.sam
+    output: outData/sorted_bam/WR180003S_sorted.bam
+    jobid: 6
+    wildcards: sample=WR180003S
+
+Finished job 6.
+27 of 49 steps (55%) done
+
+Job 33: ---htseq count---
+
+Finished job 33.
+28 of 49 steps (57%) done
+
+rule stringtie:
+    input: outData/sorted_bam/WR180003S_sorted.bam
+    output: outData/stringtie/WR180003S.gtf
+    jobid: 2
+    wildcards: sample=WR180003S
+
+Finished job 2.
+29 of 49 steps (59%) done
+
+Job 3: --- Quality check of clean outData with Fastqc.
+
+Finished job 3.
+30 of 49 steps (61%) done
+
+Job 22: --- Quality check of raw outData with Fastqc.
+
+Finished job 22.
+31 of 49 steps (63%) done
+
+Job 50: --- Trimming.
+
+Finished job 50.
+32 of 49 steps (65%) done
+
+Job 35: --- Quality check of clean outData with Fastqc.
+
+Finished job 35.
+33 of 49 steps (67%) done
+
+Job 39: --- Hisat2 Mapping.---
+
+Finished job 39.
+34 of 49 steps (69%) done
+
+rule sam_sort:
+    input: outData/hisat2/WR180001S.sam
+    output: outData/sorted_bam/WR180001S_sorted.bam
+    jobid: 31
+    wildcards: sample=WR180001S
+
+Finished job 31.
+35 of 49 steps (71%) done
+
+Job 9: ---htseq count---
+
+Finished job 9.
+36 of 49 steps (73%) done
+
+rule stringtie:
+    input: outData/sorted_bam/WR180001S_sorted.bam
+    output: outData/stringtie/WR180001S.gtf
+    jobid: 1
+    wildcards: sample=WR180001S
+
+Finished job 1.
+37 of 49 steps (76%) done
+
+rule mergelist:
+    input: outData/stringtie/WR180001S.gtf, outData/stringtie/WR180004S.gtf, outData/stringtie/WR180002S.gtf, outData/stringtie/WR180005S.gtf, outData/stringtie/WR180003S.gtf, outData/stringtie/WR180006S.gtf
+    output: outData/stringtie/mergelist_NC.txt
+    jobid: 53
+    wildcards: condition=NC
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 12 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Missing files after 5 seconds:
+outData/stringtie/mergelist_NC.txt
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-26T140304.573815.snakemake.log

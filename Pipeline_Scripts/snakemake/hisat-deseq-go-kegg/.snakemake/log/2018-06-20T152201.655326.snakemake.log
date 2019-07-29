@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	mergelist
+	3
+
+rule mergelist:
+    input: outData/stringtie/HBR_1.gtf, outData/stringtie/HBR_2.gtf, outData/stringtie/HBR_3.gtf, outData/stringtie/UHR_1.gtf, outData/stringtie/UHR_2.gtf, outData/stringtie/UHR_3.gtf
+    output: outData/stringtie/mergelist_HBR.txt
+    jobid: 21
+    wildcards: condition=HBR
+
+RuleException in line 11 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+NameError: The name 'condition' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

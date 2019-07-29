@@ -1,0 +1,60 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/xorg-renderproto-0.11.1-1",
+  "features": "",
+  "files": [
+    "include/X11/extensions/render.h",
+    "include/X11/extensions/renderproto.h",
+    "lib/pkgconfig/renderproto.pc"
+  ],
+  "fn": "xorg-renderproto-0.11.1-1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/xorg-renderproto-0.11.1-1",
+    "type": 1
+  },
+  "md5": "3097629a320a5055a0fd8ad2e5d7e826",
+  "name": "xorg-renderproto",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/xorg-renderproto-0.11.1-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/render.h",
+        "path_type": "hardlink",
+        "sha256": "ef3f4aede97e1143656f9169868429d3b180fb8dfb0cbd4aa853e4f9a97a7a52",
+        "sha256_in_prefix": "ef3f4aede97e1143656f9169868429d3b180fb8dfb0cbd4aa853e4f9a97a7a52",
+        "size_in_bytes": 7020
+      },
+      {
+        "_path": "include/X11/extensions/renderproto.h",
+        "path_type": "hardlink",
+        "sha256": "f34edcf5d8f289b810596ba7f646c4d07e14aa50590a11e1462993e5bccd732c",
+        "sha256_in_prefix": "f34edcf5d8f289b810596ba7f646c4d07e14aa50590a11e1462993e5bccd732c",
+        "size_in_bytes": 14081
+      },
+      {
+        "_path": "lib/pkgconfig/renderproto.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "eca725ec1d03521bd036aefa72de2e16525e60b1d232d965acf26630ee04e4fb",
+        "sha256_in_prefix": "13d8c49a5f4317f165cf127e9732bc2d045bd517e59a5bb3c28127015b675875",
+        "size_in_bytes": 215
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 7872,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-renderproto-0.11.1-1.tar.bz2",
+  "version": "0.11.1"
+}

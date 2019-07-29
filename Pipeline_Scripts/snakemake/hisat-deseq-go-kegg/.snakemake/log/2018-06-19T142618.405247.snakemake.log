@@ -1,0 +1,4 @@
+AttributeError in line 3 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk:
+'Pandas' object has no attribute 'unit'
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 71, in <module>
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/diffexp.smk", line 3, in <module>

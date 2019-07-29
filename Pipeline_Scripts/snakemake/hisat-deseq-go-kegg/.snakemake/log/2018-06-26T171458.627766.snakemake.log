@@ -1,0 +1,10 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules samtools_mpileup and GATK_SelectVariants are ambiguous for the file outData/snp/WR180001S.samtools.vcf.
+Consider starting rule output with a unique prefix or constrain your wildcards.
+Wildcards:
+	samtools_mpileup: sample=WR180001S
+	GATK_SelectVariants: condition=WR180001S.samtools
+Expected input files:
+	samtools_mpileup: outData/sorted_bam/WR180001S_sorted.bam
+	GATK_SelectVariants: colData.csv

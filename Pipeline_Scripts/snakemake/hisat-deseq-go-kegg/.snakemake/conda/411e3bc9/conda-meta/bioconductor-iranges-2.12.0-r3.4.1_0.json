@@ -1,0 +1,485 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.23.3",
+    "bioconductor-s4vectors >=0.15.5",
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/bioconductor-iranges-2.12.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/IRanges/CITATION",
+    "lib/R/library/IRanges/DESCRIPTION",
+    "lib/R/library/IRanges/INDEX",
+    "lib/R/library/IRanges/Meta/Rd.rds",
+    "lib/R/library/IRanges/Meta/features.rds",
+    "lib/R/library/IRanges/Meta/hsearch.rds",
+    "lib/R/library/IRanges/Meta/links.rds",
+    "lib/R/library/IRanges/Meta/nsInfo.rds",
+    "lib/R/library/IRanges/Meta/package.rds",
+    "lib/R/library/IRanges/Meta/vignette.rds",
+    "lib/R/library/IRanges/NAMESPACE",
+    "lib/R/library/IRanges/NEWS",
+    "lib/R/library/IRanges/R/IRanges",
+    "lib/R/library/IRanges/R/IRanges.rdb",
+    "lib/R/library/IRanges/R/IRanges.rdx",
+    "lib/R/library/IRanges/doc/IRangesOverview.R",
+    "lib/R/library/IRanges/doc/IRangesOverview.Rnw",
+    "lib/R/library/IRanges/doc/IRangesOverview.pdf",
+    "lib/R/library/IRanges/doc/index.html",
+    "lib/R/library/IRanges/extdata/ce2chrM.bed",
+    "lib/R/library/IRanges/extdata/ce2chrM.fa.out",
+    "lib/R/library/IRanges/extdata/hg18liftAll.lft",
+    "lib/R/library/IRanges/extdata/hs_b36v3_chrY.agp",
+    "lib/R/library/IRanges/help/AnIndex",
+    "lib/R/library/IRanges/help/IRanges.rdb",
+    "lib/R/library/IRanges/help/IRanges.rdx",
+    "lib/R/library/IRanges/help/aliases.rds",
+    "lib/R/library/IRanges/help/paths.rds",
+    "lib/R/library/IRanges/html/00Index.html",
+    "lib/R/library/IRanges/html/R.css",
+    "lib/R/library/IRanges/include/IRanges_defines.h",
+    "lib/R/library/IRanges/include/IRanges_interface.h",
+    "lib/R/library/IRanges/include/_IRanges_stubs.c",
+    "lib/R/library/IRanges/libs/IRanges.so",
+    "lib/R/library/IRanges/unitTests/test_AtomicList-class.R",
+    "lib/R/library/IRanges/unitTests/test_AtomicList-utils.R",
+    "lib/R/library/IRanges/unitTests/test_DataFrame-utils.R",
+    "lib/R/library/IRanges/unitTests/test_DataFrameList.R",
+    "lib/R/library/IRanges/unitTests/test_Grouping-class.R",
+    "lib/R/library/IRanges/unitTests/test_HitsList.R",
+    "lib/R/library/IRanges/unitTests/test_IRanges-class.R",
+    "lib/R/library/IRanges/unitTests/test_NCList-class.R",
+    "lib/R/library/IRanges/unitTests/test_Ranges-comparison.R",
+    "lib/R/library/IRanges/unitTests/test_RangesList-class.R",
+    "lib/R/library/IRanges/unitTests/test_RleViews.R",
+    "lib/R/library/IRanges/unitTests/test_RleViewsList.R",
+    "lib/R/library/IRanges/unitTests/test_coverage-methods.R",
+    "lib/R/library/IRanges/unitTests/test_extractList.R",
+    "lib/R/library/IRanges/unitTests/test_findOverlaps-methods.R",
+    "lib/R/library/IRanges/unitTests/test_inter-range-methods.R",
+    "lib/R/library/IRanges/unitTests/test_intra-range-methods.R",
+    "lib/R/library/IRanges/unitTests/test_nearest-methods.R",
+    "lib/R/library/IRanges/unitTests/test_seqapply.R",
+    "lib/R/library/IRanges/unitTests/test_setops-methods.R",
+    "lib/R/library/IRanges/unitTests/test_split.R",
+    "lib/R/library/IRanges/unitTests/test_tile-methods.R"
+  ],
+  "fn": "bioconductor-iranges-2.12.0-r3.4.1_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/bioconductor-iranges-2.12.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "d6eba62c90f14eefee3db162c1e9fb26",
+  "name": "bioconductor-iranges",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/bioconductor-iranges-2.12.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/IRanges/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "sha256_in_prefix": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/R/library/IRanges/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d785a7f2434e3aa52b935d85a8f5cc63b93f91baa5a54e964787ce468d9e7da7",
+        "sha256_in_prefix": "d785a7f2434e3aa52b935d85a8f5cc63b93f91baa5a54e964787ce468d9e7da7",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "lib/R/library/IRanges/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b26096b3d695e52092f937e5594778a7ad8c65fad1b7b38f7eba2d54492442c7",
+        "sha256_in_prefix": "b26096b3d695e52092f937e5594778a7ad8c65fad1b7b38f7eba2d54492442c7",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b4c5d1de4149dd9d6b3ff18c1df5e57d598e17f87b73d9e550474c87a2c6a234",
+        "sha256_in_prefix": "b4c5d1de4149dd9d6b3ff18c1df5e57d598e17f87b73d9e550474c87a2c6a234",
+        "size_in_bytes": 7417
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "837bf3722635796dd3786f65480ef4a8eb443c52a57ec206517251dd6fe1868e",
+        "sha256_in_prefix": "837bf3722635796dd3786f65480ef4a8eb443c52a57ec206517251dd6fe1868e",
+        "size_in_bytes": 7719
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f1d733dd0231bbbbf8500a4e2d0eb0749562aef346856eedc4296a9c109268de",
+        "sha256_in_prefix": "f1d733dd0231bbbbf8500a4e2d0eb0749562aef346856eedc4296a9c109268de",
+        "size_in_bytes": 6807
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "0bd663e48ebe2b102c531eb346949f5958b5adb4e4e1c4198a0fa146f3b06e2b",
+        "sha256_in_prefix": "0bd663e48ebe2b102c531eb346949f5958b5adb4e4e1c4198a0fa146f3b06e2b",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1e0573f3da2827dc46f5e372a1346f6a213e65f25be47ba11c03cc50c6113606",
+        "sha256_in_prefix": "1e0573f3da2827dc46f5e372a1346f6a213e65f25be47ba11c03cc50c6113606",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "lib/R/library/IRanges/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "ec83e9645a8b849bb8b01cfc0f022c1eb42a494b204aa4eb2a3e237b1c135381",
+        "sha256_in_prefix": "ec83e9645a8b849bb8b01cfc0f022c1eb42a494b204aa4eb2a3e237b1c135381",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/IRanges/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "8e553433fdfcf013e8f13caff5a5c0d5f2074483b9289d6f8f3dec49d3fcf2e7",
+        "sha256_in_prefix": "8e553433fdfcf013e8f13caff5a5c0d5f2074483b9289d6f8f3dec49d3fcf2e7",
+        "size_in_bytes": 7834
+      },
+      {
+        "_path": "lib/R/library/IRanges/NEWS",
+        "path_type": "hardlink",
+        "sha256": "8070a66cf354dd43890626fe096b1d7f00a420212497291ff06ae65b634b56a6",
+        "sha256_in_prefix": "8070a66cf354dd43890626fe096b1d7f00a420212497291ff06ae65b634b56a6",
+        "size_in_bytes": 44717
+      },
+      {
+        "_path": "lib/R/library/IRanges/R/IRanges",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/IRanges/R/IRanges.rdb",
+        "path_type": "hardlink",
+        "sha256": "03ce07683e70d6dfb393e5d7fbace641810f8d13aade382d5285b5f131235824",
+        "sha256_in_prefix": "03ce07683e70d6dfb393e5d7fbace641810f8d13aade382d5285b5f131235824",
+        "size_in_bytes": 1143440
+      },
+      {
+        "_path": "lib/R/library/IRanges/R/IRanges.rdx",
+        "path_type": "hardlink",
+        "sha256": "0a874083bc4415013db8365150f61310812a8a9e271b83145b0e9ea61e735a58",
+        "sha256_in_prefix": "0a874083bc4415013db8365150f61310812a8a9e271b83145b0e9ea61e735a58",
+        "size_in_bytes": 17035
+      },
+      {
+        "_path": "lib/R/library/IRanges/doc/IRangesOverview.R",
+        "path_type": "hardlink",
+        "sha256": "1cb229ae127b01fe2560b0c02a84e3b1f6292be80cc7b2d493a4790147c39753",
+        "sha256_in_prefix": "1cb229ae127b01fe2560b0c02a84e3b1f6292be80cc7b2d493a4790147c39753",
+        "size_in_bytes": 12673
+      },
+      {
+        "_path": "lib/R/library/IRanges/doc/IRangesOverview.Rnw",
+        "path_type": "hardlink",
+        "sha256": "202c592e72e13e6cafb34560f19da5002080fcde26f172dba441d0005c1839d7",
+        "sha256_in_prefix": "202c592e72e13e6cafb34560f19da5002080fcde26f172dba441d0005c1839d7",
+        "size_in_bytes": 31318
+      },
+      {
+        "_path": "lib/R/library/IRanges/doc/IRangesOverview.pdf",
+        "path_type": "hardlink",
+        "sha256": "574944199ae1aa65b39efb187b6c39818d9043f342ed7f4944c909582396e0ac",
+        "sha256_in_prefix": "574944199ae1aa65b39efb187b6c39818d9043f342ed7f4944c909582396e0ac",
+        "size_in_bytes": 230876
+      },
+      {
+        "_path": "lib/R/library/IRanges/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "8223c8af762c33d855c29eaa63bc4942022aad24c0a36455f978de65d38083d3",
+        "sha256_in_prefix": "8223c8af762c33d855c29eaa63bc4942022aad24c0a36455f978de65d38083d3",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "lib/R/library/IRanges/extdata/ce2chrM.bed",
+        "path_type": "hardlink",
+        "sha256": "3dcd85196c1f74e151d51bf2f23dad9d30126b4d17a50c831406f97dbe73c5c8",
+        "sha256_in_prefix": "3dcd85196c1f74e151d51bf2f23dad9d30126b4d17a50c831406f97dbe73c5c8",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/IRanges/extdata/ce2chrM.fa.out",
+        "path_type": "hardlink",
+        "sha256": "66f6a3212a78e15839db408296ed7b8e3020d53bcb9a1c2bd3de973dbcfe6d65",
+        "sha256_in_prefix": "66f6a3212a78e15839db408296ed7b8e3020d53bcb9a1c2bd3de973dbcfe6d65",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "lib/R/library/IRanges/extdata/hg18liftAll.lft",
+        "path_type": "hardlink",
+        "sha256": "bc18903349bd62fb0c3bdfd563e0fbd0877eb8cf29116f85d44169994c6fc1b2",
+        "sha256_in_prefix": "bc18903349bd62fb0c3bdfd563e0fbd0877eb8cf29116f85d44169994c6fc1b2",
+        "size_in_bytes": 16815
+      },
+      {
+        "_path": "lib/R/library/IRanges/extdata/hs_b36v3_chrY.agp",
+        "path_type": "hardlink",
+        "sha256": "e84ce86d4c55f80dc68f9e145f5d24edb7e454bacc67272deb4e9b4ede3830ae",
+        "sha256_in_prefix": "e84ce86d4c55f80dc68f9e145f5d24edb7e454bacc67272deb4e9b4ede3830ae",
+        "size_in_bytes": 12741
+      },
+      {
+        "_path": "lib/R/library/IRanges/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "21b2d6b4d95846fe7e094528e7eca1df93fd6e0864ce4863c3728a49e305f155",
+        "sha256_in_prefix": "21b2d6b4d95846fe7e094528e7eca1df93fd6e0864ce4863c3728a49e305f155",
+        "size_in_bytes": 47672
+      },
+      {
+        "_path": "lib/R/library/IRanges/help/IRanges.rdb",
+        "path_type": "hardlink",
+        "sha256": "f4f20fb0555c6d06d4ff07d21ada6633712e5c1651f4d7fc0987ff6d5e82e7ba",
+        "sha256_in_prefix": "f4f20fb0555c6d06d4ff07d21ada6633712e5c1651f4d7fc0987ff6d5e82e7ba",
+        "size_in_bytes": 328695
+      },
+      {
+        "_path": "lib/R/library/IRanges/help/IRanges.rdx",
+        "path_type": "hardlink",
+        "sha256": "c6b00390dddf85ecde7cf36f94c4a9d3ae07d887d0b9faedd57c56ea7817db9a",
+        "sha256_in_prefix": "c6b00390dddf85ecde7cf36f94c4a9d3ae07d887d0b9faedd57c56ea7817db9a",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "lib/R/library/IRanges/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "76df2fa5ef57c27c1762582ab38d8e9f4618b2fbb5c8bf6107cfdfe30de694ae",
+        "sha256_in_prefix": "76df2fa5ef57c27c1762582ab38d8e9f4618b2fbb5c8bf6107cfdfe30de694ae",
+        "size_in_bytes": 7535
+      },
+      {
+        "_path": "lib/R/library/IRanges/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "5e8a9c3f4bcf26d5a1420f808ab9918fa742e93b02d406898006f67b59d6703e",
+        "sha256_in_prefix": "5e8a9c3f4bcf26d5a1420f808ab9918fa742e93b02d406898006f67b59d6703e",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/R/library/IRanges/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "70dc9d110dae00bc02472cb3b6d73b22dffed5e75f34f0659ffdbe9cecdf4ab8",
+        "sha256_in_prefix": "70dc9d110dae00bc02472cb3b6d73b22dffed5e75f34f0659ffdbe9cecdf4ab8",
+        "size_in_bytes": 100034
+      },
+      {
+        "_path": "lib/R/library/IRanges/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/IRanges/include/IRanges_defines.h",
+        "path_type": "hardlink",
+        "sha256": "b02462cc038f69cbde0823c205b8c623e82aa0a7f1daf5f3672d081d3a2cd1f6",
+        "sha256_in_prefix": "b02462cc038f69cbde0823c205b8c623e82aa0a7f1daf5f3672d081d3a2cd1f6",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "lib/R/library/IRanges/include/IRanges_interface.h",
+        "path_type": "hardlink",
+        "sha256": "fd6121cb2d9db5fff1750626fa00dc1b098a98cbd1a701057b9a8599197ceb44",
+        "sha256_in_prefix": "fd6121cb2d9db5fff1750626fa00dc1b098a98cbd1a701057b9a8599197ceb44",
+        "size_in_bytes": 3279
+      },
+      {
+        "_path": "lib/R/library/IRanges/include/_IRanges_stubs.c",
+        "path_type": "hardlink",
+        "sha256": "7cf5e89797d9b9c10a9892b17e67a1d8008614818d8f808f1dbb366fa5591361",
+        "sha256_in_prefix": "7cf5e89797d9b9c10a9892b17e67a1d8008614818d8f808f1dbb366fa5591361",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "lib/R/library/IRanges/libs/IRanges.so",
+        "path_type": "hardlink",
+        "sha256": "973ffa820d2de0c4a5cc182dcc83f61adf5c1061a78c1c13120836c08c18a4ad",
+        "sha256_in_prefix": "973ffa820d2de0c4a5cc182dcc83f61adf5c1061a78c1c13120836c08c18a4ad",
+        "size_in_bytes": 142043
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_AtomicList-class.R",
+        "path_type": "hardlink",
+        "sha256": "d3243247d4868ca5681a0ebf3bf68fbdd2ea6282b41fa6be9666ce39ab51a077",
+        "sha256_in_prefix": "d3243247d4868ca5681a0ebf3bf68fbdd2ea6282b41fa6be9666ce39ab51a077",
+        "size_in_bytes": 3664
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_AtomicList-utils.R",
+        "path_type": "hardlink",
+        "sha256": "81dd6ba68e16e6632799b01d7b6cbb44218e15d6e7a973120c47a4fc832edcc3",
+        "sha256_in_prefix": "81dd6ba68e16e6632799b01d7b6cbb44218e15d6e7a973120c47a4fc832edcc3",
+        "size_in_bytes": 7735
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_DataFrame-utils.R",
+        "path_type": "hardlink",
+        "sha256": "8f3f5b5ffb54d42095bf6a415a96cde87fe8beef2afdc9f3186c4877ae8f2eb6",
+        "sha256_in_prefix": "8f3f5b5ffb54d42095bf6a415a96cde87fe8beef2afdc9f3186c4877ae8f2eb6",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_DataFrameList.R",
+        "path_type": "hardlink",
+        "sha256": "2f728904ec5c2484ea9fa854c2cca614f96454745b986bfff7c47338a7b5d394",
+        "sha256_in_prefix": "2f728904ec5c2484ea9fa854c2cca614f96454745b986bfff7c47338a7b5d394",
+        "size_in_bytes": 8183
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_Grouping-class.R",
+        "path_type": "hardlink",
+        "sha256": "fd4f46181bf059e8639bbd05f65887abb2e3423752c1926089bd1a1a9cb46c2e",
+        "sha256_in_prefix": "fd4f46181bf059e8639bbd05f65887abb2e3423752c1926089bd1a1a9cb46c2e",
+        "size_in_bytes": 5748
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_HitsList.R",
+        "path_type": "hardlink",
+        "sha256": "c2b338dc628a5c529732fe07aec7f74314568924493d924317f21e74ff06bfd6",
+        "sha256_in_prefix": "c2b338dc628a5c529732fe07aec7f74314568924493d924317f21e74ff06bfd6",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_IRanges-class.R",
+        "path_type": "hardlink",
+        "sha256": "12b8f7e54cf8cdaf105ef7d6f0eef3679376a90c95effc012196fd36245588b7",
+        "sha256_in_prefix": "12b8f7e54cf8cdaf105ef7d6f0eef3679376a90c95effc012196fd36245588b7",
+        "size_in_bytes": 2055
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_NCList-class.R",
+        "path_type": "hardlink",
+        "sha256": "c48601e64ea230b1e516321979f37af65f9029b955bb1d102f755472b51f0f0e",
+        "sha256_in_prefix": "c48601e64ea230b1e516321979f37af65f9029b955bb1d102f755472b51f0f0e",
+        "size_in_bytes": 21105
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_Ranges-comparison.R",
+        "path_type": "hardlink",
+        "sha256": "1e38990c32a4381f7045403c92aaa0e307760f75996141fba7efe687592e1a7d",
+        "sha256_in_prefix": "1e38990c32a4381f7045403c92aaa0e307760f75996141fba7efe687592e1a7d",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_RangesList-class.R",
+        "path_type": "hardlink",
+        "sha256": "676e7d87244433774d5920d0ca9aed57c6af56a468b25fa5c919ae3f64a2f297",
+        "sha256_in_prefix": "676e7d87244433774d5920d0ca9aed57c6af56a468b25fa5c919ae3f64a2f297",
+        "size_in_bytes": 4704
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_RleViews.R",
+        "path_type": "hardlink",
+        "sha256": "34ed215aefad1192360557943302f3db45cb11a800d5a5a8078543108acd039a",
+        "sha256_in_prefix": "34ed215aefad1192360557943302f3db45cb11a800d5a5a8078543108acd039a",
+        "size_in_bytes": 7278
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_RleViewsList.R",
+        "path_type": "hardlink",
+        "sha256": "2209706f29b7c13be713ff2aa459c642a8675662836ee63a950ab51324fc622d",
+        "sha256_in_prefix": "2209706f29b7c13be713ff2aa459c642a8675662836ee63a950ab51324fc622d",
+        "size_in_bytes": 5655
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_coverage-methods.R",
+        "path_type": "hardlink",
+        "sha256": "cb3668306fc3435281c886c17f5db79982ee5bd6df4b789817b25e180f9ce99d",
+        "sha256_in_prefix": "cb3668306fc3435281c886c17f5db79982ee5bd6df4b789817b25e180f9ce99d",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_extractList.R",
+        "path_type": "hardlink",
+        "sha256": "3665778f6a1187e42d4c2b36574a9fe3889668e16f85bd302da914580a6709e7",
+        "sha256_in_prefix": "3665778f6a1187e42d4c2b36574a9fe3889668e16f85bd302da914580a6709e7",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_findOverlaps-methods.R",
+        "path_type": "hardlink",
+        "sha256": "0c7082f6f033f27305beaa5f17f45a35fa954faf92e9d5fac21b89139c97be8c",
+        "sha256_in_prefix": "0c7082f6f033f27305beaa5f17f45a35fa954faf92e9d5fac21b89139c97be8c",
+        "size_in_bytes": 5657
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_inter-range-methods.R",
+        "path_type": "hardlink",
+        "sha256": "095f5400b93c125cc2601c44e62c23dea24065321bb24bd316d1ace72e64f246",
+        "sha256_in_prefix": "095f5400b93c125cc2601c44e62c23dea24065321bb24bd316d1ace72e64f246",
+        "size_in_bytes": 12876
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_intra-range-methods.R",
+        "path_type": "hardlink",
+        "sha256": "0be99d06a9f761c984fc2cc37df6ff30eb4cbc1f2bdae1a53da31fa084b53142",
+        "sha256_in_prefix": "0be99d06a9f761c984fc2cc37df6ff30eb4cbc1f2bdae1a53da31fa084b53142",
+        "size_in_bytes": 9360
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_nearest-methods.R",
+        "path_type": "hardlink",
+        "sha256": "6294872ed02582028c9f063ecc4936ae1a3b7cedc15c2c7c03858db49b0ac318",
+        "sha256_in_prefix": "6294872ed02582028c9f063ecc4936ae1a3b7cedc15c2c7c03858db49b0ac318",
+        "size_in_bytes": 5000
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_seqapply.R",
+        "path_type": "hardlink",
+        "sha256": "0d5f270fb583bb7aacdbd327043c0f5b52bff38cc431bcff58f93558f80792d8",
+        "sha256_in_prefix": "0d5f270fb583bb7aacdbd327043c0f5b52bff38cc431bcff58f93558f80792d8",
+        "size_in_bytes": 406
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_setops-methods.R",
+        "path_type": "hardlink",
+        "sha256": "60f0ba62b9d50320cd0bc054209f6dc28644275c9e9a61b20f622e0874f79e0c",
+        "sha256_in_prefix": "60f0ba62b9d50320cd0bc054209f6dc28644275c9e9a61b20f622e0874f79e0c",
+        "size_in_bytes": 3638
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_split.R",
+        "path_type": "hardlink",
+        "sha256": "420a654bfb78eef1cb3ce9f2e32cad2bf88e09e2d66df03007a9e1b1081f5f97",
+        "sha256_in_prefix": "420a654bfb78eef1cb3ce9f2e32cad2bf88e09e2d66df03007a9e1b1081f5f97",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/IRanges/unitTests/test_tile-methods.R",
+        "path_type": "hardlink",
+        "sha256": "3c0d9373d4b955c39ded0311a6302737dbd45c9a73dbd7c60504aeb37c7d6020",
+        "sha256_in_prefix": "3c0d9373d4b955c39ded0311a6302737dbd45c9a73dbd7c60504aeb37c7d6020",
+        "size_in_bytes": 1628
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bioconductor-iranges=2.12.0",
+  "size": 1656493,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-iranges-2.12.0-r3.4.1_0.tar.bz2",
+  "version": "2.12.0"
+}

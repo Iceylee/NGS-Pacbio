@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*",
+    "wget"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/bioconductor-genomeinfodbdata-1.0.0-r3.4.1_1",
+  "features": "",
+  "files": [
+    "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+    "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-genomeinfodbdata-1.0.0-r3.4.1_1.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/bioconductor-genomeinfodbdata-1.0.0-r3.4.1_1",
+    "type": 1
+  },
+  "md5": "32aea36c2c16cd87cb220bb72c4ecbf1",
+  "name": "bioconductor-genomeinfodbdata",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/bioconductor-genomeinfodbdata-1.0.0-r3.4.1_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "15ba0aea5a22d445d269d26be26a56fda13571cf4a9b8e94eab834367cf7684d",
+        "sha256_in_prefix": "15ba0aea5a22d445d269d26be26a56fda13571cf4a9b8e94eab834367cf7684d",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "sha256_in_prefix": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "size_in_bytes": 63
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bioconductor-genomeinfodbdata=1.0.0",
+  "size": 4636,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-genomeinfodbdata-1.0.0-r3.4.1_1.tar.bz2",
+  "version": "1.0.0"
+}

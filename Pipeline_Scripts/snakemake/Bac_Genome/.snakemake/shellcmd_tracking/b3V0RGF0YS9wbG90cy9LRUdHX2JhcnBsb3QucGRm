@@ -1,0 +1,4 @@
+
+        Rscript scripts/KEGG_plot.R outData/diamond/kegg_count.out outData/plots/KEGG_barplot
+
+  

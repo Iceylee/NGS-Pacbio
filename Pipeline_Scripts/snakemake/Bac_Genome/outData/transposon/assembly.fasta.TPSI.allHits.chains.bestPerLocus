@@ -1,0 +1,12 @@
+#Chain	ISC1316	100-315	unitig_0	49915-50568	-	30.0
+ISC1316		393	PSITBLASTN	transposonPSI.13630.BYZH.tmp/unitig_0/unitig_0.seq	unitig_0	100	315	50568	49915	13.9	32.0	136	56.7			0	Minus	2595509	1e-09
+
+#Chain	LINE	864-1037	unitig_0	373122-373736	-	32.5
+LINE		1189	PSITBLASTN	transposonPSI.13630.BYZH.tmp/unitig_0/unitig_0.seq	unitig_0	864	1037	373736	373122	18.7	31.1	112	47.6			0	Minus	2595509	4e-06
+
+#Chain	helitronORF	764-924	unitig_0	1880352-1880891	+	35.4
+helitronORF		1321	PSITBLASTN	transposonPSI.13630.BYZH.tmp/unitig_0/unitig_0.seq	unitig_0	764	924	1880352	1880891	22.0	37.1	124	52.0			0	Plus	2595509	2e-07
+
+#Chain	LINE	431-636	unitig_0	2095264-2095818	+	39.3
+LINE		1189	PSITBLASTN	transposonPSI.13630.BYZH.tmp/unitig_0/unitig_0.seq	unitig_0	431	636	2095264	2095818	19.1	34.4	113	48.0			0	Plus	2595509	3e-06
+

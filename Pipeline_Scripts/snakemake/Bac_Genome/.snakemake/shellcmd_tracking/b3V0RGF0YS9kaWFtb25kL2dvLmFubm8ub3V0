@@ -1,0 +1,5 @@
+
+
+        bash scripts/sp2go.sh outData/diamond/sp.anno.out /data1/GO/go_term_class.tab /data1/GO/sp_go_merge.gaf outData/diamond/go.anno.out outData/diamond/go_count.out outData/diamond/       
+
+  

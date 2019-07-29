@@ -1,0 +1,243 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/bioconductor-tximport-1.6.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/tximport/CITATION",
+    "lib/R/library/tximport/DESCRIPTION",
+    "lib/R/library/tximport/INDEX",
+    "lib/R/library/tximport/Meta/Rd.rds",
+    "lib/R/library/tximport/Meta/features.rds",
+    "lib/R/library/tximport/Meta/hsearch.rds",
+    "lib/R/library/tximport/Meta/links.rds",
+    "lib/R/library/tximport/Meta/nsInfo.rds",
+    "lib/R/library/tximport/Meta/package.rds",
+    "lib/R/library/tximport/Meta/vignette.rds",
+    "lib/R/library/tximport/NAMESPACE",
+    "lib/R/library/tximport/NEWS",
+    "lib/R/library/tximport/R/tximport",
+    "lib/R/library/tximport/R/tximport.rdb",
+    "lib/R/library/tximport/R/tximport.rdx",
+    "lib/R/library/tximport/doc/index.html",
+    "lib/R/library/tximport/doc/tximport.R",
+    "lib/R/library/tximport/doc/tximport.Rmd",
+    "lib/R/library/tximport/doc/tximport.html",
+    "lib/R/library/tximport/help/AnIndex",
+    "lib/R/library/tximport/help/aliases.rds",
+    "lib/R/library/tximport/help/paths.rds",
+    "lib/R/library/tximport/help/tximport.rdb",
+    "lib/R/library/tximport/help/tximport.rdx",
+    "lib/R/library/tximport/html/00Index.html",
+    "lib/R/library/tximport/html/R.css"
+  ],
+  "fn": "bioconductor-tximport-1.6.0-r3.4.1_0.tar.bz2",
+  "license": "GPL (>=2)",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/bioconductor-tximport-1.6.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "a8817a2ae3062f5b3d3709c10ea24723",
+  "name": "bioconductor-tximport",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/bioconductor-tximport-1.6.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/tximport/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9e22428243628d989fe1e46779e0b57adc883888700a77532cc4a08ed46d7b74",
+        "sha256_in_prefix": "9e22428243628d989fe1e46779e0b57adc883888700a77532cc4a08ed46d7b74",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "lib/R/library/tximport/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c8bc43430907427115e488c62d356765e432c53d7ef6fdaf46621ba9324aa0a5",
+        "sha256_in_prefix": "c8bc43430907427115e488c62d356765e432c53d7ef6fdaf46621ba9324aa0a5",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "lib/R/library/tximport/INDEX",
+        "path_type": "hardlink",
+        "sha256": "822a6285887d9bd23078dfb5017cbdf2233ecd83b0bc95f981cd5189e4404784",
+        "sha256_in_prefix": "822a6285887d9bd23078dfb5017cbdf2233ecd83b0bc95f981cd5189e4404784",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "decd96fc7170095a18bc495abe8153669575ee2b60babeb93430674c3a3459e6",
+        "sha256_in_prefix": "decd96fc7170095a18bc495abe8153669575ee2b60babeb93430674c3a3459e6",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7cb8ec9f46cbb1acb50af0f3514fde5dd3a5772f224bebcb9fe16728d61f19e8",
+        "sha256_in_prefix": "7cb8ec9f46cbb1acb50af0f3514fde5dd3a5772f224bebcb9fe16728d61f19e8",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "24876d1552cdc4b39340f9b755d100f4a1915226ede2e5f573d81981574c3483",
+        "sha256_in_prefix": "24876d1552cdc4b39340f9b755d100f4a1915226ede2e5f573d81981574c3483",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "76d40068e826d9240736114137620492a54f32dc16299dd00e9a96106c19d945",
+        "sha256_in_prefix": "76d40068e826d9240736114137620492a54f32dc16299dd00e9a96106c19d945",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "23d3555562a872accbb8146a92cf3fea9027c6463a3bebe62eafe61d8c3dd103",
+        "sha256_in_prefix": "23d3555562a872accbb8146a92cf3fea9027c6463a3bebe62eafe61d8c3dd103",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "lib/R/library/tximport/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d488f1b350f31b158cf37030c47f085228a68c1ccf06690f682795de25f6e1a4",
+        "sha256_in_prefix": "d488f1b350f31b158cf37030c47f085228a68c1ccf06690f682795de25f6e1a4",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/tximport/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f21decab49c0ef0a2a2015c1797f41391740cf9affb2a3e80c0e843fc3fe0341",
+        "sha256_in_prefix": "f21decab49c0ef0a2a2015c1797f41391740cf9affb2a3e80c0e843fc3fe0341",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/R/library/tximport/NEWS",
+        "path_type": "hardlink",
+        "sha256": "8bd6a1e01365f2a9eb92f242f7e2c2de37bdc0143dff657e8902945516443db9",
+        "sha256_in_prefix": "8bd6a1e01365f2a9eb92f242f7e2c2de37bdc0143dff657e8902945516443db9",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/R/library/tximport/R/tximport",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/tximport/R/tximport.rdb",
+        "path_type": "hardlink",
+        "sha256": "4b97b39999cfbf11116f84e6b261f9cbc79d1b74972df4080d9594b926eab58e",
+        "sha256_in_prefix": "4b97b39999cfbf11116f84e6b261f9cbc79d1b74972df4080d9594b926eab58e",
+        "size_in_bytes": 6964
+      },
+      {
+        "_path": "lib/R/library/tximport/R/tximport.rdx",
+        "path_type": "hardlink",
+        "sha256": "4c34d9abf891d41ebcc590327d4bf889dd462967e882f94b955942fec682f097",
+        "sha256_in_prefix": "4c34d9abf891d41ebcc590327d4bf889dd462967e882f94b955942fec682f097",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/R/library/tximport/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "23c56796f1a3f09b5a48fa5b773d6ba61df02470dda5433bbd8bcb9bddf8ebfa",
+        "sha256_in_prefix": "23c56796f1a3f09b5a48fa5b773d6ba61df02470dda5433bbd8bcb9bddf8ebfa",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/R/library/tximport/doc/tximport.R",
+        "path_type": "hardlink",
+        "sha256": "c6d64cfbc7386ba74b84c9fce83b4c318fe40cab3a71d34eb6505f339542ed6b",
+        "sha256_in_prefix": "c6d64cfbc7386ba74b84c9fce83b4c318fe40cab3a71d34eb6505f339542ed6b",
+        "size_in_bytes": 5160
+      },
+      {
+        "_path": "lib/R/library/tximport/doc/tximport.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c03ce38b6c4defe3b68b79ad0ed0e31636aa4536d195e91bdb9fae124f981851",
+        "sha256_in_prefix": "c03ce38b6c4defe3b68b79ad0ed0e31636aa4536d195e91bdb9fae124f981851",
+        "size_in_bytes": 13391
+      },
+      {
+        "_path": "lib/R/library/tximport/doc/tximport.html",
+        "path_type": "hardlink",
+        "sha256": "383d1861b9e546f10f08f50747e208f33c84d02328cac6703f0ca8a21d2b7ec4",
+        "sha256_in_prefix": "383d1861b9e546f10f08f50747e208f33c84d02328cac6703f0ca8a21d2b7ec4",
+        "size_in_bytes": 707586
+      },
+      {
+        "_path": "lib/R/library/tximport/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b2e0ff181d18d4624b035cb4df5cf7955e6e8742237fd4627c4a66ea77677b0a",
+        "sha256_in_prefix": "b2e0ff181d18d4624b035cb4df5cf7955e6e8742237fd4627c4a66ea77677b0a",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/R/library/tximport/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6b241cb40928552d634c5b3fa3375467475e2fb3a2fb3d44967db7fb5214687c",
+        "sha256_in_prefix": "6b241cb40928552d634c5b3fa3375467475e2fb3a2fb3d44967db7fb5214687c",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/R/library/tximport/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "79b8d360f242a026f6322b51dd74564c0720e9ee32a52f793fbeb7a6fe57d7a8",
+        "sha256_in_prefix": "79b8d360f242a026f6322b51dd74564c0720e9ee32a52f793fbeb7a6fe57d7a8",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/R/library/tximport/help/tximport.rdb",
+        "path_type": "hardlink",
+        "sha256": "46388813eb1d89ec2db6f496bae8326b85c4994079237e3e7ef1e349d1aeb68a",
+        "sha256_in_prefix": "46388813eb1d89ec2db6f496bae8326b85c4994079237e3e7ef1e349d1aeb68a",
+        "size_in_bytes": 6908
+      },
+      {
+        "_path": "lib/R/library/tximport/help/tximport.rdx",
+        "path_type": "hardlink",
+        "sha256": "8f4bc522f39f41e7752d79e6304208f713a1ca7eb2b62885fcd4ce69781ec87c",
+        "sha256_in_prefix": "8f4bc522f39f41e7752d79e6304208f713a1ca7eb2b62885fcd4ce69781ec87c",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/R/library/tximport/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "23d3e291adb5bff2b8af8f533df6a27680ed512d1f205383548f12ece702998b",
+        "sha256_in_prefix": "23d3e291adb5bff2b8af8f533df6a27680ed512d1f205383548f12ece702998b",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "lib/R/library/tximport/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bioconductor-tximport=1.6.0",
+  "size": 251776,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-tximport-1.6.0-r3.4.1_0.tar.bz2",
+  "version": "1.6.0"
+}

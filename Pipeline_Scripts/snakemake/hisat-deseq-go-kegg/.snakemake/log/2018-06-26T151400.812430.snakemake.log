@@ -1,0 +1,3 @@
+SyntaxError in line 18 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Expecting rule keyword, comment or docstrings inside a rule definition. (stringtie_as.smk, line 18)
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 74, in <module>

@@ -1,0 +1,4 @@
+
+        Rscript scripts/cog_plot.R outData/diamond/cog_count_fun.txt outData/plots/COG_barplot
+
+  

@@ -1,0 +1,2787 @@
+RF00001	5S_rRNA	Gene; rRNA	 rRNA
+RF00002	5_8S_rRNA	Gene; rRNA	 rRNA
+RF00003	U1	Gene; snRNA; splicing	 snRNA
+RF00004	U2	Gene; snRNA; splicing	 snRNA
+RF00005	tRNA	Gene; tRNA	 tRNA
+RF00006	Vault	Gene	
+RF00007	U12	Gene; snRNA; splicing	 snRNA
+RF00008	Hammerhead_3	Gene; ribozyme	 ribozyme
+RF00009	RNaseP_nuc	Gene; ribozyme	 ribozyme
+RF00010	RNaseP_bact_a	Gene; ribozyme	 ribozyme
+RF00011	RNaseP_bact_b	Gene; ribozyme	 ribozyme
+RF00012	U3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00013	6S	Gene	
+RF00014	DsrA	Gene; sRNA	 sRNA
+RF00015	U4	Gene; snRNA; splicing	 snRNA
+RF00016	SNORD14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00017	Metazoa_SRP	Gene	
+RF00018	CsrB	Gene; sRNA	 sRNA
+RF00019	Y_RNA	Gene	
+RF00020	U5	Gene; snRNA; splicing	 snRNA
+RF00021	Spot_42	Gene; sRNA	 sRNA
+RF00022	GcvB	Gene	
+RF00023	tmRNA	Gene	
+RF00024	Telomerase-vert	Gene	
+RF00025	Telomerase-cil	Gene	
+RF00026	U6	Gene; snRNA; splicing	 snRNA
+RF00027	let-7	Gene; miRNA	 miRNA
+RF00028	Intron_gpI	Intron	
+RF00029	Intron_gpII	Intron	
+RF00030	RNase_MRP	Gene; ribozyme	 ribozyme
+RF00031	SECIS_1	Cis-reg	
+RF00032	Histone3	Cis-reg	
+RF00033	MicF	Gene; antisense	 antisense
+RF00034	RprA	Gene; sRNA	 sRNA
+RF00035	OxyS	Gene; sRNA	 sRNA
+RF00036	RRE	Cis-reg	
+RF00037	IRE_I	Cis-reg	
+RF00038	PrfA	Cis-reg; thermoregulator	 thermoregulator
+RF00039	DicF	Gene; antisense	 antisense
+RF00040	rne5	Cis-reg	
+RF00041	Entero_OriR	Cis-reg	
+RF00042	CopA	Gene; antisense	 antisense
+RF00043	Plasmid_R1162	Gene; antisense	 antisense
+RF00044	Phage_pRNA	Gene	
+RF00045	SNORA73	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00046	snoR30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00047	mir-2	Gene; miRNA	 miRNA
+RF00048	Entero_CRE	Cis-reg	
+RF00049	SNORD36	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00050	FMN	Cis-reg; riboswitch	 riboswitch
+RF00051	mir-17	Gene; miRNA	 miRNA
+RF00052	lin-4	Gene; miRNA	 miRNA
+RF00053	mir-7	Gene; miRNA	 miRNA
+RF00054	SNORD25	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00055	SNORD96	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00056	SNORA71	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00057	RyhB	Gene; sRNA	 sRNA
+RF00058	HgcF	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00059	TPP	Cis-reg; riboswitch	 riboswitch
+RF00060	HgcE	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00061	IRES_HCV	Cis-reg; IRES	 IRES
+RF00062	HgcC	Gene	
+RF00063	SscA	Gene	
+RF00065	snoR9	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00066	U7	Gene; snRNA	 snRNA
+RF00067	SNORD15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00068	SNORD21	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00069	SNORD24	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00070	SNORD29	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00071	SNORD73	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00072	SNORA75	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00073	mir-156	Gene; miRNA	 miRNA
+RF00074	mir-29	Gene; miRNA	 miRNA
+RF00075	mir-166	Gene; miRNA	 miRNA
+RF00076	mir-181	Gene; miRNA	 miRNA
+RF00077	SraB	Gene; sRNA	 sRNA
+RF00078	MicA	Gene; sRNA	 sRNA
+RF00079	OmrA-B	Gene; sRNA	 sRNA
+RF00080	yybP-ykoY	Cis-reg; riboswitch	 riboswitch
+RF00081	ArcZ	Gene; sRNA	 sRNA
+RF00082	SraG	Gene; sRNA	 sRNA
+RF00083	GlmZ_SraJ	Gene; sRNA	 sRNA
+RF00084	CsrC	Gene; sRNA	 sRNA
+RF00085	SNORD28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00086	SNORD27	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00087	SNORD26	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00088	SNORD30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00089	SNORD31	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00090	SNORA74	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00091	SNORA62	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00092	SNORA63	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00093	SNORD18	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00094	HDV_ribozyme	Gene; ribozyme	 ribozyme
+RF00095	snoPyro_CD	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00096	U8	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00097	snoR71	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00099	SNORD22	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00100	7SK	Gene	
+RF00101	SraC_RyeA	Gene; sRNA	 sRNA
+RF00102	VA	Gene	
+RF00103	mir-1	Gene; miRNA	 miRNA
+RF00104	mir-10	Gene; miRNA	 miRNA
+RF00105	SNORD115	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00106	RNAI	Gene; antisense	 antisense
+RF00107	FinP	Gene	
+RF00108	SNORD116	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00109	Vimentin3	Cis-reg	
+RF00110	RybB	Gene; sRNA	 sRNA
+RF00111	SdsR_RyeB	Gene; sRNA	 sRNA
+RF00112	CyaR_RyeE	Gene; sRNA	 sRNA
+RF00113	SIB_RNA	Gene; antitoxin	 antitoxin
+RF00114	S15	Cis-reg; leader	 leader
+RF00115	McaS	Gene; sRNA	 sRNA
+RF00116	C0465	Gene; sRNA	 sRNA
+RF00117	C0719	Gene; sRNA	 sRNA
+RF00118	rydB	Gene; sRNA	 sRNA
+RF00119	C0299	Gene; sRNA	 sRNA
+RF00121	MicC	Gene; sRNA	 sRNA
+RF00122	GadY	Gene; sRNA	 sRNA
+RF00124	IS102	Gene; sRNA	 sRNA
+RF00125	IS128	Gene; sRNA	 sRNA
+RF00126	ryfA	Gene; sRNA	 sRNA
+RF00127	t44	Gene; sRNA	 sRNA
+RF00128	GlmY_tke1	Gene; sRNA	 sRNA
+RF00129	mir-103	Gene; miRNA	 miRNA
+RF00130	mir-192	Gene; miRNA	 miRNA
+RF00131	mir-30	Gene; miRNA	 miRNA
+RF00132	snoR24	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00133	SNORD33	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00134	snoZ196	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00135	snoZ223	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00136	SNORD81	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00137	SNORD83	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00138	SNORD16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00139	SNORA72	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00140	Alpha_RBS	Cis-reg	
+RF00142	snoZ118	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00143	mir-6	Gene; miRNA	 miRNA
+RF00144	mir-199	Gene; miRNA	 miRNA
+RF00145	snoZ105	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00147	SNORD34	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00149	snoZ103	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00150	SNORD42	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00151	SNORD58	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00152	SNORD79	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00153	SNORD62	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00154	SNORD63	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00155	SNORA66	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00156	SNORA70	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00157	SNORD39	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00158	SNORD82	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00159	snoZ168	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00160	snoZ159	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00161	nos_TCE	Cis-reg	
+RF00162	SAM	Cis-reg; riboswitch	 riboswitch
+RF00163	Hammerhead_1	Gene; ribozyme	 ribozyme
+RF00164	s2m	Cis-reg	
+RF00165	Corona_pk3	Cis-reg	
+RF00166	PrrB_RsmZ	Gene; sRNA	 sRNA
+RF00167	Purine	Cis-reg; riboswitch	 riboswitch
+RF00168	Lysine	Cis-reg; riboswitch	 riboswitch
+RF00169	Bacteria_small_SRP	Gene	
+RF00170	msr	Gene	
+RF00171	Tombus_5	Cis-reg	
+RF00172	CAESAR	Cis-reg	
+RF00173	Hairpin	Gene; ribozyme	 ribozyme
+RF00174	Cobalamin	Cis-reg; riboswitch	 riboswitch
+RF00175	HIV-1_DIS	Cis-reg	
+RF00176	Tombus_3_IV	Cis-reg	
+RF00177	SSU_rRNA_bacteria	Gene; rRNA	 rRNA
+RF00178	mir-24	Gene; miRNA	 miRNA
+RF00179	GAIT	Cis-reg	
+RF00180	REN-SRE	Cis-reg	
+RF00181	SNORD113	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00182	Corona_package	Cis-reg	
+RF00183	G-CSF_SLDE	Cis-reg	
+RF00184	PVX_3	Cis-reg	
+RF00185	Flavi_CRE	Cis-reg	
+RF00186	SNORD101	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00187	SNORD102	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00188	SNORD103	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00189	SNORD95	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00190	SNORA16	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00191	SNORA57	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00192	BLV_package	Cis-reg	
+RF00193	CTV_rep_sig	Cis-reg	
+RF00194	Rubella_3	Cis-reg	
+RF00195	RsmY	Gene; sRNA	 sRNA
+RF00196	AMV_RNA1_SL	Cis-reg	
+RF00198	SL1	Gene	
+RF00199	SL2	Gene	
+RF00200	snoZ199	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00201	snoZ278	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00202	snoR66	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00203	snoR160	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00204	snoR12	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00205	snoR41	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00206	U54	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00207	K10_TLS	Cis-reg	
+RF00208	snoR72	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00209	IRES_Pesti	Cis-reg; IRES	 IRES
+RF00210	IRES_Picorna_2	Cis-reg; IRES	 IRES
+RF00211	SNORD35	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00212	SNORD38	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00213	snoR38	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00214	Retro_dr1	Cis-reg	
+RF00215	Tombus_3_III	Cis-reg	
+RF00216	IRES_c-myc	Cis-reg; IRES	 IRES
+RF00217	SNORD20	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00218	SNORD46	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00220	Rhino_CRE	Cis-reg	
+RF00221	SNORD43	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00222	IRES_Bag1	Cis-reg; IRES	 IRES
+RF00223	IRES_Bip	Cis-reg; IRES	 IRES
+RF00224	IRES_FGF2	Cis-reg; IRES	 IRES
+RF00225	IRES_Tobamo	Cis-reg; IRES	 IRES
+RF00226	IRES_n-myc	Cis-reg; IRES	 IRES
+RF00227	FIE3	Cis-reg	
+RF00228	IRES_HepA	Cis-reg; IRES	 IRES
+RF00229	IRES_Picorna	Cis-reg; IRES	 IRES
+RF00230	T-box	Cis-reg; leader	 leader
+RF00231	SCARNA13	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00232	Spi-1	Cis-reg	
+RF00233	Tymo_tRNA-like	Cis-reg	
+RF00234	glmS	Cis-reg; riboswitch	 riboswitch
+RF00235	Plasmid_RNAIII	Gene	
+RF00236	ctRNA_pGA1	Gene; antisense	 antisense
+RF00237	mir-9	Gene; miRNA	 miRNA
+RF00238	ctRNA_pND324	Gene; antisense	 antisense
+RF00239	mir-124	Gene; miRNA	 miRNA
+RF00240	RNA-OUT	Gene; antisense	 antisense
+RF00241	mir-8	Gene; miRNA	 miRNA
+RF00242	ctRNA_pT181	Gene; antisense	 antisense
+RF00243	traJ_5	Cis-reg	
+RF00244	mir-26	Gene; miRNA	 miRNA
+RF00245	mir-19	Gene; miRNA	 miRNA
+RF00246	mir-135	Gene; miRNA	 miRNA
+RF00247	mir-160	Gene; miRNA	 miRNA
+RF00248	mir-148	Gene; miRNA	 miRNA
+RF00249	mir-46	Gene; miRNA	 miRNA
+RF00250	mir-TAR	Gene; miRNA	 miRNA
+RF00251	mir-219	Gene; miRNA	 miRNA
+RF00252	Alfamo_CPB	Cis-reg	
+RF00253	mir-101	Gene; miRNA	 miRNA
+RF00254	mir-16	Gene; miRNA	 miRNA
+RF00255	mir-218	Gene; miRNA	 miRNA
+RF00256	mir-196	Gene; miRNA	 miRNA
+RF00257	mir-194	Gene; miRNA	 miRNA
+RF00258	mir-130	Gene; miRNA	 miRNA
+RF00259	IFN_gamma	Cis-reg	
+RF00260	HepC_CRE	Cis-reg	
+RF00261	IRES_L-myc	Cis-reg; IRES	 IRES
+RF00262	sar	Gene; antisense	 antisense
+RF00263	SNORA68	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00264	SNORA64	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00265	SNORA69	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00266	snoZ17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00267	snoR64	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00268	snoZ7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00270	SNORD61	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00271	SNORD60	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00272	SNORA67	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00273	SNORD59	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00274	SNORD57	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00275	SNORD56	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00276	SNORD52	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00277	SNORD49	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00278	SNORD50	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00279	SNORD45	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00280	SNORD51	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00281	SNORD47	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00282	SNORD48	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00283	SCARNA18	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00284	SNORD74	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00285	snoZ6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00286	SCARNA8	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00287	SNORD44	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00288	snoZ30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00289	SNORND104	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00290	BaMV_CRE	Cis-reg	
+RF00291	snoR639	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00292	snoTBR5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00293	snoM1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00294	snoTBR17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00295	snoTBR7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00296	snoR16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00300	snoZ221_snoR21b	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00301	snoZ256	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00302	SNORA65	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00303	snoR86	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00304	snoZ279_R105_R108	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00305	snoZ248	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00306	snoZ178	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00307	snoR98	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00309	snosnR60_Z15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00310	snoZ165	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00311	snoZ188	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00312	snoZ206	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00313	snoZ173	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00314	snoZ182	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00315	snoJ33	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00316	snoR43	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00317	snoZ163	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00318	snoZ175	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00319	SNORA23	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00320	snoZ185	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00321	snoZ247	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00322	SNORA31	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00323	snoR79	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00324	snoMBII-202	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00325	SNORD53_SNORD92	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00326	snoZ155	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00327	snoZ194	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00328	snoZ161_228	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00329	snoZ162	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00330	snoZ43	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00331	snoZ169	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00332	snoZ266	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00333	snoZ157	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00334	SNORA3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00335	snoZ13_snr52	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00336	snoJ26	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00337	snoZ112	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00338	snoR53	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00339	snoR60	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00340	SNORA36	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00341	snoZ39	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00342	snoZ40	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00343	snoZ122	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00344	snoZ267	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00345	snoR1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00348	snoR9_plant	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00349	snoR11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00350	snoZ152	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00351	snoR20	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00352	snoR21	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00353	snoR31_Z110_Z27	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00355	snoR28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00356	snoR32_R81	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00357	snoR44_J54	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00358	snoZ101	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00359	snoZ102_R77	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00360	snoZ107_R87	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00361	snoZ119	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00362	Pospi_RY	Cis-reg	
+RF00363	mir-BART1	Gene; miRNA	 miRNA
+RF00364	mir-BART2	Gene; miRNA	 miRNA
+RF00365	mir-BHRF1-1	Gene; miRNA	 miRNA
+RF00366	mir-BHRF1-2	Gene; miRNA	 miRNA
+RF00367	mir-BHRF1-3	Gene; miRNA	 miRNA
+RF00368	sroB	Gene; sRNA	 sRNA
+RF00369	sroC	Gene; sRNA	 sRNA
+RF00370	sroD	Gene; sRNA	 sRNA
+RF00371	sroE	Gene; sRNA	 sRNA
+RF00372	sroH	Gene; sRNA	 sRNA
+RF00373	RNaseP_arch	Gene; ribozyme	 ribozyme
+RF00374	Gammaretro_CES	Cis-reg	
+RF00375	HIV_PBS	Cis-reg	
+RF00376	HIV_GSL3	Cis-reg	
+RF00377	snoU6-53	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00378	Qrr	Gene; sRNA	 sRNA
+RF00379	ydaO-yuaA	Cis-reg; riboswitch	 riboswitch
+RF00380	ykoK	Cis-reg; riboswitch	 riboswitch
+RF00381	Antizyme_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF00382	DnaX	Cis-reg; frameshift_element	 frameshift_element
+RF00383	IS1222_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF00384	Pox_AX_element	Cis-reg	
+RF00385	IBV_D-RNA	Cis-reg	
+RF00386	Entero_5_CRE	Cis-reg	
+RF00387	IRES_FGF1	Cis-reg; IRES	 IRES
+RF00388	Anti-Q_RNA	Gene; antisense	 antisense
+RF00389	satBaMV_CRE	Cis-reg	
+RF00390	UPSK	Cis-reg	
+RF00391	RtT	Cis-reg	
+RF00392	SNORA5	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00393	SNORA8	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00394	SNORA4	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00396	SNORA13	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00397	SNORA14	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00398	SNORA15	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00399	SNORA24	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00400	SNORA28	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00401	SNORA20	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00402	SNORA25	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00403	SNORA41	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00404	SNORA46	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00405	SNORA44	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00406	SNORA42	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00407	SNORA50	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00408	SNORA1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00409	SNORA7	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00410	SNORA2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00411	SNORA9	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00412	SNORA21	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00413	SNORA19	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00414	SNORA22	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00415	SNORA30	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00416	SNORA43	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00417	SNORA56	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00418	SNORA58	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00419	SNORA52	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00420	SNORA61	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00421	SNORA32	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00422	SCARNA24	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00423	SCARNA4	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00424	SCARNA16	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00425	SNORA18	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00426	SCARNA15	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00427	SCARNA23	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00428	SNORA38	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00429	SNORA29	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00430	SNORA54	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00431	SNORA55	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00432	SNORA51	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00433	Hsp90_CRE	Cis-reg; thermoregulator	 thermoregulator
+RF00434	BTE	Cis-reg	
+RF00435	ROSE	Cis-reg; thermoregulator	 thermoregulator
+RF00436	UnaL2	Cis-reg	
+RF00437	HLE	Cis-reg	
+RF00438	SNORA33	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00439	SNORD87	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00440	SNORD37	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00441	snoZ242	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00442	ykkC-yxkD	Cis-reg; riboswitch	 riboswitch
+RF00443	SNORA27	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00444	PrrF	Gene; sRNA	 sRNA
+RF00445	mir-399	Gene; miRNA	 miRNA
+RF00446	mir-133	Gene; miRNA	 miRNA
+RF00447	IRES_Kv1_4	Cis-reg; IRES	 IRES
+RF00448	IRES_EBNA	Cis-reg; IRES	 IRES
+RF00449	IRES_HIF1	Cis-reg; IRES	 IRES
+RF00451	mir-395	Gene; miRNA	 miRNA
+RF00452	mir-172	Gene; miRNA	 miRNA
+RF00453	Cardiovirus_CRE	Cis-reg	
+RF00454	p27_CRE	Cis-reg	
+RF00455	mir-15	Gene; miRNA	 miRNA
+RF00456	mir-34	Gene; miRNA	 miRNA
+RF00457	IRES_mnt	Cis-reg; IRES	 IRES
+RF00458	IRES_Cripavirus	Cis-reg; IRES	 IRES
+RF00459	MPMV_package	Cis-reg	
+RF00460	U1A_PIE	Cis-reg	
+RF00461	IRES_VEGF_A	Cis-reg; IRES	 IRES
+RF00462	IRES_APC	Cis-reg; IRES	 IRES
+RF00463	ApoB_5_CRE	Cis-reg	
+RF00464	mir-92	Gene; miRNA	 miRNA
+RF00465	JEV_hairpin	Cis-reg	
+RF00467	RSV_PBS	Cis-reg	
+RF00468	HCV_SLVII	Cis-reg	
+RF00469	HCV_SLIV	Cis-reg	
+RF00470	Toga_5_CRE	Cis-reg	
+RF00471	snosnR48	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00472	snosnR55	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00473	snosnR54	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00474	snosnR57	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00475	snosnR69	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00476	snosnR61	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00477	snosnR66	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00478	SCARNA6	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00479	snosnR71	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00480	HIV_FE	Cis-reg; frameshift_element	 frameshift_element
+RF00481	HCV_X3	Cis-reg	
+RF00482	snoF1_F2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00483	IRES_IGF2	Cis-reg; IRES	 IRES
+RF00484	IRES_Cx32	Cis-reg; IRES	 IRES
+RF00485	K_chan_RES	Cis-reg	
+RF00486	mir-129	Gene; miRNA	 miRNA
+RF00487	IRES_Cx43	Cis-reg; IRES	 IRES
+RF00488	U1_yeast	Gene; snRNA; splicing	 snRNA
+RF00489	ctRNA_p42d	Gene; antisense	 antisense
+RF00490	S-element	Cis-reg	
+RF00492	SCARNA17	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00493	snoU2-30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00494	snoU2_19	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00495	IRES_Hsp70	Cis-reg; IRES	 IRES
+RF00496	Corona_SL-III	Cis-reg	
+RF00498	EAV_LTH	Cis-reg; leader	 leader
+RF00499	Parecho_CRE	Cis-reg	
+RF00500	TCV_H5	Cis-reg	
+RF00501	Rota_CRE	Cis-reg	
+RF00502	TCV_Pr	Cis-reg	
+RF00503	RNAIII	Gene	
+RF00504	Glycine	Cis-reg; riboswitch	 riboswitch
+RF00505	RydC	Gene; sRNA	 sRNA
+RF00506	Thr_leader	Cis-reg; leader	 leader
+RF00507	Corona_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF00509	snosnR64	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00510	Tombus_IRE	Cis-reg	
+RF00511	IRES_KSHV	Cis-reg; IRES	 IRES
+RF00512	Leu_leader	Cis-reg; leader	 leader
+RF00513	Trp_leader	Cis-reg; leader	 leader
+RF00514	His_leader	Cis-reg; leader	 leader
+RF00515	PyrR	Cis-reg	
+RF00516	ylbH	Cis-reg; leader	 leader
+RF00517	serC	Cis-reg; leader	 leader
+RF00518	speF	Cis-reg; leader	 leader
+RF00519	suhB	Gene; sRNA	 sRNA
+RF00520	ybhL	Cis-reg; leader	 leader
+RF00521	SAM_alpha	Cis-reg; riboswitch	 riboswitch
+RF00522	PreQ1	Cis-reg; riboswitch	 riboswitch
+RF00523	Prion_pknot	Cis-reg	
+RF00524	R2_retro_el	Cis-reg	
+RF00525	Flavivirus_DB	Cis-reg	
+RF00526	snoMe28S-U3344	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00527	snoMe28S-G3255	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00528	snoMe28S-Gm1083	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00529	snoMe28S-Am2589	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00530	snoMe28S-Cm2645	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00531	snoMe28S-Gm3113	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00532	snoMe18S-Um1356	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00533	snoMe18S-Gm1358	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00534	SgrS	Gene; antisense	 antisense
+RF00535	snoMe28S-Am982	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00536	snoMe28S-Cm3227	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00537	snoMe28S-Am2634	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00538	snoCD11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00539	snoMe28S-Cm788	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00540	snopsi18S-1854	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00541	snopsi28S-2876	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00542	snopsi28S-1192	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00543	snopsi18S-1377	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00544	snopsi28S-3327	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00545	snopsi18S-841	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00546	snopsi28S-3316	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00547	IRES_TrkB	Cis-reg; IRES	 IRES
+RF00548	U11	Gene; snRNA; splicing	 snRNA
+RF00549	IRES_c-sis	Cis-reg; IRES	 IRES
+RF00550	HepE_CRE	Cis-reg	
+RF00551	bicoid_3	Cis-reg	
+RF00552	rncO	Cis-reg	
+RF00553	SCARNA1	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00554	SNORA48	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00555	L13_leader	Cis-reg; leader	 leader
+RF00556	L19_leader	Cis-reg; leader	 leader
+RF00557	L10_leader	Cis-reg; leader	 leader
+RF00558	L20_leader	Cis-reg; leader	 leader
+RF00559	L21_leader	Cis-reg; leader	 leader
+RF00560	SNORA17	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00561	SNORA40	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00562	SNORA49	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00563	SNORA53	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00564	SCARNA11	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00565	SCARNA3	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00566	SNORA35	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00567	SNORD17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00568	SNORA26	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00569	SNORD19	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00570	SNORD64	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00571	SNORD65	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00572	SNORD66	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00573	SNORD67	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00574	SNORD69	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00575	SNORD70	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00576	SNORD71	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00577	SNORD72	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00578	SNORD89	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00579	SNORD90	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00580	SNORD91	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00581	SNORD12	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00582	SCARNA14	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00584	SNORD105	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00586	SNORA12	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00588	SNORD41	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00591	SNORD77	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00592	SNORD78	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00593	snoU83B	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00594	SNORD86	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00598	SNORA76	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00599	SNORA77	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00600	SNORA79	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00601	SCARNA20	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00602	SCARNA21	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF00603	SNORD23	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00604	SNORD88	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00606	SNORD93	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00607	SNORD98	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00608	SNORD99	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00609	SNORD100	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00610	SNORD110	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00611	SNORD111	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00612	SNORD75	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00613	SNORD94	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF00614	SNORA11	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF00615	LhrA	Gene; sRNA	 sRNA
+RF00616	LhrC	Gene; sRNA	 sRNA
+RF00617	cHP	Cis-reg	
+RF00618	U4atac	Gene; snRNA; splicing	 snRNA
+RF00619	U6atac	Gene; snRNA; splicing	 snRNA
+RF00620	HCV_ARF_SL	Cis-reg	
+RF00621	CoTC_ribozyme	Gene; ribozyme	 ribozyme
+RF00622	CPEB3_ribozyme	Gene; ribozyme	 ribozyme
+RF00623	P1	Gene	
+RF00624	P9	Gene	
+RF00625	P11	Gene	
+RF00626	Gurken	Cis-reg	
+RF00627	P15	Gene	
+RF00629	P24	Gene	
+RF00630	P26	Gene	
+RF00632	sxy	Cis-reg	
+RF00634	SAM-IV	Cis-reg; riboswitch	 riboswitch
+RF00635	HAR1A	Gene; lncRNA	 lncRNA
+RF00636	NRON	Gene	
+RF00637	mir-276	Gene; miRNA	 miRNA
+RF00638	MIR159	Gene; miRNA	 miRNA
+RF00639	mir-515	Gene; miRNA	 miRNA
+RF00640	MIR167_1	Gene; miRNA	 miRNA
+RF00641	mir-154	Gene; miRNA	 miRNA
+RF00642	mir-23	Gene; miRNA	 miRNA
+RF00643	MIR171_1	Gene; miRNA	 miRNA
+RF00644	mir-27	Gene; miRNA	 miRNA
+RF00645	MIR169_2	Gene; miRNA	 miRNA
+RF00646	mir-204	Gene; miRNA	 miRNA
+RF00647	MIR164	Gene; miRNA	 miRNA
+RF00648	MIR396	Gene; miRNA	 miRNA
+RF00649	mir-128	Gene; miRNA	 miRNA
+RF00650	mir-153	Gene; miRNA	 miRNA
+RF00651	mir-221	Gene; miRNA	 miRNA
+RF00652	MIR478	Gene; miRNA	 miRNA
+RF00653	mir-22	Gene; miRNA	 miRNA
+RF00654	mir-216	Gene; miRNA	 miRNA
+RF00655	mir-28	Gene; miRNA	 miRNA
+RF00656	mir-205	Gene; miRNA	 miRNA
+RF00657	mir-184	Gene; miRNA	 miRNA
+RF00658	mir-21	Gene; miRNA	 miRNA
+RF00659	mir-365	Gene; miRNA	 miRNA
+RF00660	mir-214	Gene; miRNA	 miRNA
+RF00661	mir-31	Gene; miRNA	 miRNA
+RF00662	mir-132	Gene; miRNA	 miRNA
+RF00663	mir-183	Gene; miRNA	 miRNA
+RF00664	mir-223	Gene; miRNA	 miRNA
+RF00665	mir-290	Gene; miRNA	 miRNA
+RF00666	mir-32	Gene; miRNA	 miRNA
+RF00667	mir-33	Gene; miRNA	 miRNA
+RF00668	mir-302	Gene; miRNA	 miRNA
+RF00669	mir-96	Gene; miRNA	 miRNA
+RF00670	mir-105	Gene; miRNA	 miRNA
+RF00671	mir-138	Gene; miRNA	 miRNA
+RF00672	mir-190	Gene; miRNA	 miRNA
+RF00673	mir-217	Gene; miRNA	 miRNA
+RF00674	mir-187	Gene; miRNA	 miRNA
+RF00675	mir-145	Gene; miRNA	 miRNA
+RF00676	mir-127	Gene; miRNA	 miRNA
+RF00677	MIR168	Gene; miRNA	 miRNA
+RF00678	mir-140	Gene; miRNA	 miRNA
+RF00679	mir-210	Gene; miRNA	 miRNA
+RF00680	mir-224	Gene; miRNA	 miRNA
+RF00681	mir-198	Gene; miRNA	 miRNA
+RF00682	mir-144	Gene; miRNA	 miRNA
+RF00683	mir-143	Gene; miRNA	 miRNA
+RF00684	mir-122	Gene; miRNA	 miRNA
+RF00685	mir-36	Gene; miRNA	 miRNA
+RF00686	mir-338	Gene; miRNA	 miRNA
+RF00687	mir-136	Gene; miRNA	 miRNA
+RF00688	MIR394	Gene; miRNA	 miRNA
+RF00689	MIR390	Gene; miRNA	 miRNA
+RF00690	MIR408	Gene; miRNA	 miRNA
+RF00691	mir-146	Gene; miRNA	 miRNA
+RF00692	MIR171_2	Gene; miRNA	 miRNA
+RF00693	mir-147	Gene; miRNA	 miRNA
+RF00694	mir-137	Gene; miRNA	 miRNA
+RF00695	MIR398	Gene; miRNA	 miRNA
+RF00696	mir-203	Gene; miRNA	 miRNA
+RF00697	mir-186	Gene; miRNA	 miRNA
+RF00698	mir-489	Gene; miRNA	 miRNA
+RF00699	mir-134	Gene; miRNA	 miRNA
+RF00700	mir-375	Gene; miRNA	 miRNA
+RF00701	mir-126	Gene; miRNA	 miRNA
+RF00702	mir-182	Gene; miRNA	 miRNA
+RF00703	mir-139	Gene; miRNA	 miRNA
+RF00704	MIR397	Gene; miRNA	 miRNA
+RF00705	mir-202	Gene; miRNA	 miRNA
+RF00706	mir-263	Gene; miRNA	 miRNA
+RF00707	mir-197	Gene; miRNA	 miRNA
+RF00708	mir-450	Gene; miRNA	 miRNA
+RF00709	mir-455	Gene; miRNA	 miRNA
+RF00710	mir-44	Gene; miRNA	 miRNA
+RF00711	mir-449	Gene; miRNA	 miRNA
+RF00712	mir-460	Gene; miRNA	 miRNA
+RF00713	mir-239	Gene; miRNA	 miRNA
+RF00714	MIR535	Gene; miRNA	 miRNA
+RF00715	mir-383	Gene; miRNA	 miRNA
+RF00716	mir-3	Gene; miRNA	 miRNA
+RF00717	mir-315	Gene; miRNA	 miRNA
+RF00718	mir-431	Gene; miRNA	 miRNA
+RF00719	mir-326	Gene; miRNA	 miRNA
+RF00720	mir-317	Gene; miRNA	 miRNA
+RF00721	MIR475	Gene; miRNA	 miRNA
+RF00722	mir-451	Gene; miRNA	 miRNA
+RF00723	mir-448	Gene; miRNA	 miRNA
+RF00724	mir-282	Gene; miRNA	 miRNA
+RF00725	mir-iab-4	Gene; miRNA	 miRNA
+RF00726	mir-87	Gene; miRNA	 miRNA
+RF00727	bantam	Gene; miRNA	 miRNA
+RF00728	mir-81	Gene; miRNA	 miRNA
+RF00729	mir-278	Gene; miRNA	 miRNA
+RF00730	mir-277	Gene; miRNA	 miRNA
+RF00731	mir-155	Gene; miRNA	 miRNA
+RF00732	mir-305	Gene; miRNA	 miRNA
+RF00733	mir-296	Gene; miRNA	 miRNA
+RF00734	mir-52	Gene; miRNA	 miRNA
+RF00735	mir-367	Gene; miRNA	 miRNA
+RF00736	mir-320	Gene; miRNA	 miRNA
+RF00737	mir-322	Gene; miRNA	 miRNA
+RF00739	MIR476	Gene; miRNA	 miRNA
+RF00740	mir-370	Gene; miRNA	 miRNA
+RF00741	mir-378	Gene; miRNA	 miRNA
+RF00742	MIR162_2	Gene; miRNA	 miRNA
+RF00743	mir-308	Gene; miRNA	 miRNA
+RF00744	mir-361	Gene; miRNA	 miRNA
+RF00745	mir-499	Gene; miRNA	 miRNA
+RF00746	mir-454	Gene; miRNA	 miRNA
+RF00747	mir-283	Gene; miRNA	 miRNA
+RF00748	mir-433	Gene; miRNA	 miRNA
+RF00749	mir-208	Gene; miRNA	 miRNA
+RF00750	mir-458	Gene; miRNA	 miRNA
+RF00751	mir-12	Gene; miRNA	 miRNA
+RF00752	mir-14	Gene; miRNA	 miRNA
+RF00753	mir-503	Gene; miRNA	 miRNA
+RF00754	mir-279	Gene; miRNA	 miRNA
+RF00755	mir-542	Gene; miRNA	 miRNA
+RF00756	mir-299	Gene; miRNA	 miRNA
+RF00757	mir-275	Gene; miRNA	 miRNA
+RF00758	mir-346	Gene; miRNA	 miRNA
+RF00760	mir-342	Gene; miRNA	 miRNA
+RF00761	mir-340	Gene; miRNA	 miRNA
+RF00762	mir-412	Gene; miRNA	 miRNA
+RF00763	mir-339	Gene; miRNA	 miRNA
+RF00764	mir-191	Gene; miRNA	 miRNA
+RF00765	mir-337	Gene; miRNA	 miRNA
+RF00766	mir-335	Gene; miRNA	 miRNA
+RF00767	mir-150	Gene; miRNA	 miRNA
+RF00768	MIR405	Gene; miRNA	 miRNA
+RF00769	mir-331	Gene; miRNA	 miRNA
+RF00770	mir-330	Gene; miRNA	 miRNA
+RF00771	mir-185	Gene; miRNA	 miRNA
+RF00772	mir-328	Gene; miRNA	 miRNA
+RF00773	mir-298	Gene; miRNA	 miRNA
+RF00774	mir-360	Gene; miRNA	 miRNA
+RF00775	mir-432	Gene; miRNA	 miRNA
+RF00776	mir-540	Gene; miRNA	 miRNA
+RF00777	mir-541	Gene; miRNA	 miRNA
+RF00778	MIR473	Gene; miRNA	 miRNA
+RF00779	MIR474	Gene; miRNA	 miRNA
+RF00780	MIR477	Gene; miRNA	 miRNA
+RF00781	mir-505	Gene; miRNA	 miRNA
+RF00782	MIR480	Gene; miRNA	 miRNA
+RF00783	mir-484	Gene; miRNA	 miRNA
+RF00784	mir-486	Gene; miRNA	 miRNA
+RF00785	mir-90	Gene; miRNA	 miRNA
+RF00786	mir-289	Gene; miRNA	 miRNA
+RF00787	mir-288	Gene; miRNA	 miRNA
+RF00788	mir-287	Gene; miRNA	 miRNA
+RF00789	mir-286	Gene; miRNA	 miRNA
+RF00790	mir-358	Gene; miRNA	 miRNA
+RF00791	mir-357	Gene; miRNA	 miRNA
+RF00792	mir-490	Gene; miRNA	 miRNA
+RF00793	mir-497	Gene; miRNA	 miRNA
+RF00794	mir-42	Gene; miRNA	 miRNA
+RF00795	mir-43	Gene; miRNA	 miRNA
+RF00796	mir-48	Gene; miRNA	 miRNA
+RF00797	mir-355	Gene; miRNA	 miRNA
+RF00798	mir-49	Gene; miRNA	 miRNA
+RF00799	mir-354	Gene; miRNA	 miRNA
+RF00800	mir-353	Gene; miRNA	 miRNA
+RF00801	mir-280	Gene; miRNA	 miRNA
+RF00802	mir-207	Gene; miRNA	 miRNA
+RF00803	mir-425	Gene; miRNA	 miRNA
+RF00804	mir-240	Gene; miRNA	 miRNA
+RF00805	mir-351	Gene; miRNA	 miRNA
+RF00806	mir-350	Gene; miRNA	 miRNA
+RF00807	mir-314	Gene; miRNA	 miRNA
+RF00808	mir-86	Gene; miRNA	 miRNA
+RF00809	mir-241	Gene; miRNA	 miRNA
+RF00810	mir-85	Gene; miRNA	 miRNA
+RF00811	mir-84	Gene; miRNA	 miRNA
+RF00812	mir-83	Gene; miRNA	 miRNA
+RF00813	mir-11	Gene; miRNA	 miRNA
+RF00814	mir-316	Gene; miRNA	 miRNA
+RF00815	mir-244	Gene; miRNA	 miRNA
+RF00816	mir-245	Gene; miRNA	 miRNA
+RF00817	mir-80	Gene; miRNA	 miRNA
+RF00818	mir-318	Gene; miRNA	 miRNA
+RF00819	mir-246	Gene; miRNA	 miRNA
+RF00820	mir-248	Gene; miRNA	 miRNA
+RF00821	mir-249	Gene; miRNA	 miRNA
+RF00822	mir-274	Gene; miRNA	 miRNA
+RF00823	lsy-6	Gene; miRNA	 miRNA
+RF00824	mir-50	Gene; miRNA	 miRNA
+RF00825	mir-344	Gene; miRNA	 miRNA
+RF00826	mir-55	Gene; miRNA	 miRNA
+RF00827	mir-77	Gene; miRNA	 miRNA
+RF00828	mir-75	Gene; miRNA	 miRNA
+RF00829	mir-149	Gene; miRNA	 miRNA
+RF00830	mir-74	Gene; miRNA	 miRNA
+RF00831	mir-73	Gene; miRNA	 miRNA
+RF00832	mir-71	Gene; miRNA	 miRNA
+RF00833	mir-70	Gene; miRNA	 miRNA
+RF00834	mir-268	Gene; miRNA	 miRNA
+RF00835	mir-58	Gene; miRNA	 miRNA
+RF00836	mir-250	Gene; miRNA	 miRNA
+RF00837	mir-251	Gene; miRNA	 miRNA
+RF00838	mir-252	Gene; miRNA	 miRNA
+RF00839	mir-452	Gene; miRNA	 miRNA
+RF00840	mir-374	Gene; miRNA	 miRNA
+RF00841	mir-384	Gene; miRNA	 miRNA
+RF00842	MIR403	Gene; miRNA	 miRNA
+RF00843	mir-228	Gene; miRNA	 miRNA
+RF00844	mir-67	Gene; miRNA	 miRNA
+RF00845	MIR158	Gene; miRNA	 miRNA
+RF00846	mir-64	Gene; miRNA	 miRNA
+RF00847	mir-62	Gene; miRNA	 miRNA
+RF00848	mir-61	Gene; miRNA	 miRNA
+RF00849	mir-60	Gene; miRNA	 miRNA
+RF00850	mir-259	Gene; miRNA	 miRNA
+RF00851	mir-230	Gene; miRNA	 miRNA
+RF00852	mir-231	Gene; miRNA	 miRNA
+RF00853	mir-304	Gene; miRNA	 miRNA
+RF00854	mir-5	Gene; miRNA	 miRNA
+RF00855	mir-254	Gene; miRNA	 miRNA
+RF00856	mir-232	Gene; miRNA	 miRNA
+RF00857	mir-233	Gene; miRNA	 miRNA
+RF00858	mir-306	Gene; miRNA	 miRNA
+RF00859	mir-234	Gene; miRNA	 miRNA
+RF00861	mir-488	Gene; miRNA	 miRNA
+RF00862	mir-491	Gene; miRNA	 miRNA
+RF00863	mir-BART17	Gene; miRNA	 miRNA
+RF00864	mir-BART20	Gene; miRNA	 miRNA
+RF00865	MIR169_5	Gene; miRNA	 miRNA
+RF00866	mir-BART3	Gene; miRNA	 miRNA
+RF00867	mir-BART5	Gene; miRNA	 miRNA
+RF00868	mir-BART15	Gene; miRNA	 miRNA
+RF00869	mir-BART7	Gene; miRNA	 miRNA
+RF00870	mir-423	Gene; miRNA	 miRNA
+RF00872	mir-652	Gene; miRNA	 miRNA
+RF00873	mir-550	Gene; miRNA	 miRNA
+RF00874	mir-BART12	Gene; miRNA	 miRNA
+RF00875	mir-692	Gene; miRNA	 miRNA
+RF00876	mir-684	Gene; miRNA	 miRNA
+RF00877	mir-592	Gene; miRNA	 miRNA
+RF00878	mir-456	Gene; miRNA	 miRNA
+RF00879	mir-615	Gene; miRNA	 miRNA
+RF00882	MIR811	Gene; miRNA	 miRNA
+RF00883	MIR820	Gene; miRNA	 miRNA
+RF00884	MIR815	Gene; miRNA	 miRNA
+RF00885	MIR821	Gene; miRNA	 miRNA
+RF00886	MIR807	Gene; miRNA	 miRNA
+RF00887	mir-802	Gene; miRNA	 miRNA
+RF00888	mir-770	Gene; miRNA	 miRNA
+RF00890	mir-668	Gene; miRNA	 miRNA
+RF00891	mir-671	Gene; miRNA	 miRNA
+RF00892	mir-551	Gene; miRNA	 miRNA
+RF00893	MIR854	Gene; miRNA	 miRNA
+RF00894	mir-790	Gene; miRNA	 miRNA
+RF00895	mir-786	Gene; miRNA	 miRNA
+RF00896	mir-787	Gene; miRNA	 miRNA
+RF00897	mir-675	Gene; miRNA	 miRNA
+RF00898	mir-242	Gene; miRNA	 miRNA
+RF00899	mir-235	Gene; miRNA	 miRNA
+RF00900	mir-255	Gene; miRNA	 miRNA
+RF00901	MIR845_1	Gene; miRNA	 miRNA
+RF00902	mir-791	Gene; miRNA	 miRNA
+RF00903	mir-359	Gene; miRNA	 miRNA
+RF00904	mir-392	Gene; miRNA	 miRNA
+RF00905	mir-789	Gene; miRNA	 miRNA
+RF00906	MIR1122	Gene; miRNA	 miRNA
+RF00907	mir-941	Gene; miRNA	 miRNA
+RF00908	MIR529	Gene; miRNA	 miRNA
+RF00909	mir-883	Gene; miRNA	 miRNA
+RF00910	mir-873	Gene; miRNA	 miRNA
+RF00911	mir-672	Gene; miRNA	 miRNA
+RF00912	mir-877	Gene; miRNA	 miRNA
+RF00914	mir-674	Gene; miRNA	 miRNA
+RF00915	mir-760	Gene; miRNA	 miRNA
+RF00917	mir-708	Gene; miRNA	 miRNA
+RF00918	mir-872	Gene; miRNA	 miRNA
+RF00919	mir-874	Gene; miRNA	 miRNA
+RF00920	MIR444	Gene; miRNA	 miRNA
+RF00921	mir-665	Gene; miRNA	 miRNA
+RF00922	mir-673	Gene; miRNA	 miRNA
+RF00925	MIR1027	Gene; miRNA	 miRNA
+RF00926	MIR1151	Gene; miRNA	 miRNA
+RF00927	mir-582	Gene; miRNA	 miRNA
+RF00928	mir-590	Gene; miRNA	 miRNA
+RF00929	mir-574	Gene; miRNA	 miRNA
+RF00931	mir-879	Gene; miRNA	 miRNA
+RF00932	mir-471	Gene; miRNA	 miRNA
+RF00933	mir-875	Gene; miRNA	 miRNA
+RF00934	mir-463	Gene; miRNA	 miRNA
+RF00935	mir-876	Gene; miRNA	 miRNA
+RF00936	mir-744	Gene; miRNA	 miRNA
+RF00937	mir-653	Gene; miRNA	 miRNA
+RF00939	mir-504	Gene; miRNA	 miRNA
+RF00940	mir-327	Gene; miRNA	 miRNA
+RF00941	mir-434	Gene; miRNA	 miRNA
+RF00942	mir-1224	Gene; miRNA	 miRNA
+RF00943	MIR824	Gene; miRNA	 miRNA
+RF00945	mir-1226	Gene; miRNA	 miRNA
+RF00946	mir-1225	Gene; miRNA	 miRNA
+RF00947	mir-929	Gene; miRNA	 miRNA
+RF00948	mir-996	Gene; miRNA	 miRNA
+RF00949	mir-983	Gene; miRNA	 miRNA
+RF00950	mir-927	Gene; miRNA	 miRNA
+RF00951	mir-1302	Gene; miRNA	 miRNA
+RF00952	mir-650	Gene; miRNA	 miRNA
+RF00953	mir-1497	Gene; miRNA	 miRNA
+RF00954	MIR1446	Gene; miRNA	 miRNA
+RF00955	mir-1829	Gene; miRNA	 miRNA
+RF00956	MIR1444	Gene; miRNA	 miRNA
+RF00957	mir-663	Gene; miRNA	 miRNA
+RF00958	mir-498	Gene; miRNA	 miRNA
+RF00959	mir-612	Gene; miRNA	 miRNA
+RF00960	mir-661	Gene; miRNA	 miRNA
+RF00961	mir-581	Gene; miRNA	 miRNA
+RF00962	mir-586	Gene; miRNA	 miRNA
+RF00963	mir-642	Gene; miRNA	 miRNA
+RF00964	mir-938	Gene; miRNA	 miRNA
+RF00965	mir-549	Gene; miRNA	 miRNA
+RF00966	mir-676	Gene; miRNA	 miRNA
+RF00967	mir-281	Gene; miRNA	 miRNA
+RF00968	mir-626	Gene; miRNA	 miRNA
+RF00969	mir-556	Gene; miRNA	 miRNA
+RF00970	mir-648	Gene; miRNA	 miRNA
+RF00971	mir-578	Gene; miRNA	 miRNA
+RF00972	mir-651	Gene; miRNA	 miRNA
+RF00973	mir-597	Gene; miRNA	 miRNA
+RF00974	mir-607	Gene; miRNA	 miRNA
+RF00975	MIR845_2	Gene; miRNA	 miRNA
+RF00976	mir-583	Gene; miRNA	 miRNA
+RF00977	mir-600	Gene; miRNA	 miRNA
+RF00978	mir-638	Gene; miRNA	 miRNA
+RF00979	mir-553	Gene; miRNA	 miRNA
+RF00980	mir-643	Gene; miRNA	 miRNA
+RF00981	mir-939	Gene; miRNA	 miRNA
+RF00983	mir-662	Gene; miRNA	 miRNA
+RF00984	mir-576	Gene; miRNA	 miRNA
+RF00985	mir-640	Gene; miRNA	 miRNA
+RF00986	mir-920	Gene; miRNA	 miRNA
+RF00987	mir-589	Gene; miRNA	 miRNA
+RF00988	mir-657	Gene; miRNA	 miRNA
+RF00989	mir-492	Gene; miRNA	 miRNA
+RF00990	mir-552	Gene; miRNA	 miRNA
+RF00991	mir-599	Gene; miRNA	 miRNA
+RF00992	mir-593	Gene; miRNA	 miRNA
+RF00993	mir-1473	Gene; miRNA	 miRNA
+RF00994	mir-1255	Gene; miRNA	 miRNA
+RF00995	mir-616	Gene; miRNA	 miRNA
+RF00996	mir-631	Gene; miRNA	 miRNA
+RF00997	mir-942	Gene; miRNA	 miRNA
+RF00998	mir-562	Gene; miRNA	 miRNA
+RF00999	mir-924	Gene; miRNA	 miRNA
+RF01000	mir-580	Gene; miRNA	 miRNA
+RF01001	mir-609	Gene; miRNA	 miRNA
+RF01002	mir-936	Gene; miRNA	 miRNA
+RF01003	mir-563	Gene; miRNA	 miRNA
+RF01004	mir-557	Gene; miRNA	 miRNA
+RF01005	MIR530	Gene; miRNA	 miRNA
+RF01006	mir-601	Gene; miRNA	 miRNA
+RF01007	mir-624	Gene; miRNA	 miRNA
+RF01008	mir-636	Gene; miRNA	 miRNA
+RF01009	mir-M7	Gene; miRNA	 miRNA
+RF01010	mir-632	Gene; miRNA	 miRNA
+RF01011	mir-605	Gene; miRNA	 miRNA
+RF01012	mir-628	Gene; miRNA	 miRNA
+RF01013	mir-577	Gene; miRNA	 miRNA
+RF01014	mir-1306	Gene; miRNA	 miRNA
+RF01015	mir-885	Gene; miRNA	 miRNA
+RF01016	mir-584	Gene; miRNA	 miRNA
+RF01018	mir-569	Gene; miRNA	 miRNA
+RF01019	mir-922	Gene; miRNA	 miRNA
+RF01020	mir-572	Gene; miRNA	 miRNA
+RF01021	mir-558	Gene; miRNA	 miRNA
+RF01022	mir-611	Gene; miRNA	 miRNA
+RF01023	mir-940	Gene; miRNA	 miRNA
+RF01024	mir-944	Gene; miRNA	 miRNA
+RF01025	mir-934	Gene; miRNA	 miRNA
+RF01026	MIR828	Gene; miRNA	 miRNA
+RF01027	mir-765	Gene; miRNA	 miRNA
+RF01028	mir-633	Gene; miRNA	 miRNA
+RF01029	mir-649	Gene; miRNA	 miRNA
+RF01030	mir-422	Gene; miRNA	 miRNA
+RF01031	mir-639	Gene; miRNA	 miRNA
+RF01032	mir-554	Gene; miRNA	 miRNA
+RF01033	mir-767	Gene; miRNA	 miRNA
+RF01034	mir-618	Gene; miRNA	 miRNA
+RF01035	mir-887	Gene; miRNA	 miRNA
+RF01036	mir-567	Gene; miRNA	 miRNA
+RF01037	mir-644	Gene; miRNA	 miRNA
+RF01038	mir-1307	Gene; miRNA	 miRNA
+RF01039	mir-937	Gene; miRNA	 miRNA
+RF01040	mir-573	Gene; miRNA	 miRNA
+RF01041	mir-604	Gene; miRNA	 miRNA
+RF01042	mir-891	Gene; miRNA	 miRNA
+RF01043	MIR1023	Gene; miRNA	 miRNA
+RF01044	mir-345	Gene; miRNA	 miRNA
+RF01045	mir-544	Gene; miRNA	 miRNA
+RF01046	WLE3	Cis-reg	
+RF01047	HBV_epsilon	Cis-reg	
+RF01050	Sacc_telomerase	Gene	
+RF01051	c-di-GMP-I	Cis-reg	
+RF01052	Arthropod_7SK	Gene	
+RF01053	Deinococcus_Y_RNA	Gene	
+RF01054	preQ1-II	Cis-reg; riboswitch	 riboswitch
+RF01055	MOCO_RNA_motif	Cis-reg; riboswitch	 riboswitch
+RF01056	Mg_sensor	Cis-reg; riboswitch	 riboswitch
+RF01057	SAH_riboswitch	Cis-reg; riboswitch	 riboswitch
+RF01059	mir-598	Gene; miRNA	 miRNA
+RF01061	mir-548	Gene; miRNA	 miRNA
+RF01064	mir-253	Gene; miRNA	 miRNA
+RF01065	23S-methyl	Cis-reg	
+RF01066	6C	Cis-reg	
+RF01067	ATPC	Gene	
+RF01068	mini-ykkC	Cis-reg	
+RF01069	purD	Cis-reg	
+RF01070	sucA	Cis-reg	
+RF01071	OLE	Gene	
+RF01072	TMV_UPD-PK3	Cis-reg	
+RF01073	GP_knot1	Cis-reg	
+RF01074	RF_site1	Cis-reg; frameshift_element	 frameshift_element
+RF01075	TLS-PK1	Cis-reg	
+RF01076	RF_site2	Cis-reg; frameshift_element	 frameshift_element
+RF01077	TLS-PK2	Cis-reg	
+RF01078	PK-PYVV	Cis-reg	
+RF01079	RF_site3	Cis-reg; frameshift_element	 frameshift_element
+RF01080	UPD-PKib	Cis-reg	
+RF01081	SBWMV1_UPD-PKe	Cis-reg	
+RF01082	SBWMV1_UPD-PKh	Cis-reg	
+RF01083	UPD-PK2	Cis-reg	
+RF01084	TLS-PK3	Cis-reg	
+RF01085	TLS-PK4	Cis-reg	
+RF01087	PK-repZ	Cis-reg	
+RF01088	TLS-PK5	Cis-reg	
+RF01089	PK-repBA	Cis-reg	
+RF01090	RF_site4	Cis-reg; frameshift_element	 frameshift_element
+RF01091	PK-SPCSV	Cis-reg	
+RF01092	GP_knot2	Cis-reg	
+RF01093	RF_site5	Cis-reg; frameshift_element	 frameshift_element
+RF01094	RF_site6	Cis-reg; frameshift_element	 frameshift_element
+RF01095	PK-CuYV_BPYV	Cis-reg	
+RF01096	PK-HAV	Cis-reg	
+RF01097	RF_site8	Cis-reg; frameshift_element	 frameshift_element
+RF01098	RF_site9	Cis-reg; frameshift_element	 frameshift_element
+RF01099	PK-IAV	Cis-reg	
+RF01100	PK-BYV	Cis-reg	
+RF01101	TLS-PK6	Cis-reg	
+RF01102	PK1-TEV_CVMV	Cis-reg; leader	 leader
+RF01103	UPD-PKc	Cis-reg	
+RF01104	SBWMV2_UPD-PKb	Cis-reg	
+RF01105	SBWMV2_UPD-PKl	Cis-reg	
+RF01106	SBWMV1_UPD-PKb	Cis-reg	
+RF01107	SBRMV1_UPD-PKf	Cis-reg	
+RF01108	BMV3_UPD-PK1	Cis-reg	
+RF01109	SBRMV1_UPD-PKd	Cis-reg	
+RF01111	SBWMV2_UPD-PKk	Cis-reg	
+RF01113	BMV3_UPD-PK3	Cis-reg	
+RF01114	TMV_UPD-PK1	Cis-reg	
+RF01116	Yfr1	Gene; sRNA	 sRNA
+RF01117	ciona-mir-92	Gene; miRNA	 miRNA
+RF01119	sR32	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01120	sR33	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01121	sR38	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01122	sR39	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01123	sR35	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01124	sR36	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01125	sR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01126	sR41	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01127	sR42	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01128	sR43	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01129	sR44	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01130	sR46	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01131	sR47	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01132	sR48	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01133	sR3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01134	sR30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01135	sR24	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01136	sR28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01137	sR21	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01138	sR23	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01139	sR2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01140	sR20	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01141	sR18	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01142	sR19	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01143	sR16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01144	sR17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01145	sR14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01146	sR15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01147	sR12	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01149	sR10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01150	sR11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01151	snoU82P	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01152	sR1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01153	sn3060	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01155	snoR101	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01156	SNORD123	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01157	sn1185	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01158	SNORD108	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01159	snoU18	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01160	sn2841	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01161	SNORD5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01162	sn668	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01163	snoR64a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01164	SNORD107	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01165	sn2317	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01166	sn3071	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01167	sn2429	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01168	SNORD126	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01169	SNORD112	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01170	snoU61	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01171	snoR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01172	sn2343	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01173	snoU105B	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01174	snoU43	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01175	snoU83D	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01176	snR78	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01177	snR67	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01178	snoR77Y	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01179	snoU83	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01180	snoR110	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01181	snR77	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01182	SNORD11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01183	SNORD19B	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01184	snR79	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01185	snR75	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01186	SNORD127	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01188	snR56	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01189	sn1502	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01190	snR50	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01191	SNORD121A	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01192	SNORD11B	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01193	snoR20a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01194	sn2903	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01195	snR52	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01196	snoZ30a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01197	snR39	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01198	snoR69Y	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01199	snR58	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01200	SNORD125	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01201	snR40	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01202	sn2991	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01203	snR47	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01204	snR65	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01205	snR62	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01206	snoR109	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01207	snR73	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01208	snoR99	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01209	snR76	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01210	snoU13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01211	SNORD124	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01212	sn2524	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01213	snoR103	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01214	snR51	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01215	snoR97	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01216	snR87	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01218	snR41	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01219	snoR100	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01220	snoR104	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01221	snoU6-47	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01222	sn2417	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01223	snR13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01224	snoR80	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01225	ACA64	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01226	snoZ5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01227	snoR83	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01228	snoR111	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01229	SNORA84	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01230	snoR77	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01231	snoR74	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01232	snoR442	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01233	snoU109	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01234	SNORA47	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01235	snR68	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01236	snoU19	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01237	snR161	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01238	snR70	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01239	snR49	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01240	snR85	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01241	SNORA81	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01242	snR36	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01243	snR33	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01244	snR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01245	snR9	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01246	snR81	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01247	snR32	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01248	snR8	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01249	snR190	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01250	snR189	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01251	snR3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01252	snR5	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01253	snR46	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01254	snR34	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01255	snR35	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01256	snR43	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01257	snR31	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01258	snR10	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01259	snR63	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01260	snR11	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01261	snR82	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01262	snR44	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01263	snR191	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01264	snR83	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01265	snR42	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01266	snR45	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01267	snR37	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01268	SCARNA2	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF01269	snR80	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01270	snR84	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01271	snR30	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01272	snR86	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01273	sR34	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01274	sR45	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01275	sR22	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01276	sR53	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01277	snoU54	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01278	SNORD109A	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01279	snoR53Y	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01280	snoR14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01281	snoR35	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01283	snoU30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01284	snoR8a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01285	snoU31b	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01286	snoR26	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01287	snoR27	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01288	snoR31	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01289	snoR17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01290	SNORD10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01291	SNORD97	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01292	snoR2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01293	ACA59	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01294	snoU89	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01295	SCARNA7	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF01296	snoU85	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01297	sR40	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01298	snoU25	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01299	SNORD2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01300	snoU49	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01301	snoR4a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01302	snoU36a	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01303	sR49	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01304	sR5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01305	sR51	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01306	sR52	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01307	sR55	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01308	sR58	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01309	sR60	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01310	sR7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01312	sR9	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01313	AHBV_epsilon	Cis-reg	
+RF01314	mir-1227	Gene; miRNA	 miRNA
+RF01315	CRISPR-DR2	Gene; CRISPR	 CRISPR
+RF01316	CRISPR-DR3	Gene; CRISPR	 CRISPR
+RF01317	CRISPR-DR4	Gene; CRISPR	 CRISPR
+RF01318	CRISPR-DR5	Gene; CRISPR	 CRISPR
+RF01319	CRISPR-DR6	Gene; CRISPR	 CRISPR
+RF01320	CRISPR-DR7	Gene; CRISPR	 CRISPR
+RF01321	CRISPR-DR8	Gene; CRISPR	 CRISPR
+RF01322	CRISPR-DR9	Gene; CRISPR	 CRISPR
+RF01323	CRISPR-DR10	Gene; CRISPR	 CRISPR
+RF01324	CRISPR-DR11	Gene; CRISPR	 CRISPR
+RF01325	CRISPR-DR12	Gene; CRISPR	 CRISPR
+RF01326	CRISPR-DR13	Gene; CRISPR	 CRISPR
+RF01327	CRISPR-DR14	Gene; CRISPR	 CRISPR
+RF01328	CRISPR-DR17	Gene; CRISPR	 CRISPR
+RF01329	CRISPR-DR15	Gene; CRISPR	 CRISPR
+RF01330	CRISPR-DR16	Gene; CRISPR	 CRISPR
+RF01331	CRISPR-DR18	Gene; CRISPR	 CRISPR
+RF01332	CRISPR-DR19	Gene; CRISPR	 CRISPR
+RF01333	CRISPR-DR20	Gene; CRISPR	 CRISPR
+RF01334	CRISPR-DR21	Gene; CRISPR	 CRISPR
+RF01335	CRISPR-DR22	Gene; CRISPR	 CRISPR
+RF01336	CRISPR-DR23	Gene; CRISPR	 CRISPR
+RF01337	CRISPR-DR24	Gene; CRISPR	 CRISPR
+RF01338	CRISPR-DR25	Gene; CRISPR	 CRISPR
+RF01339	CRISPR-DR27	Gene; CRISPR	 CRISPR
+RF01340	CRISPR-DR29	Gene; CRISPR	 CRISPR
+RF01341	CRISPR-DR30	Gene; CRISPR	 CRISPR
+RF01342	CRISPR-DR32	Gene; CRISPR	 CRISPR
+RF01343	CRISPR-DR33	Gene; CRISPR	 CRISPR
+RF01344	CRISPR-DR34	Gene; CRISPR	 CRISPR
+RF01345	CRISPR-DR35	Gene; CRISPR	 CRISPR
+RF01346	CRISPR-DR36	Gene; CRISPR	 CRISPR
+RF01347	CRISPR-DR37	Gene; CRISPR	 CRISPR
+RF01348	CRISPR-DR38	Gene; CRISPR	 CRISPR
+RF01349	CRISPR-DR40	Gene; CRISPR	 CRISPR
+RF01350	CRISPR-DR41	Gene; CRISPR	 CRISPR
+RF01351	CRISPR-DR42	Gene; CRISPR	 CRISPR
+RF01352	CRISPR-DR43	Gene; CRISPR	 CRISPR
+RF01353	CRISPR-DR44	Gene; CRISPR	 CRISPR
+RF01354	CRISPR-DR45	Gene; CRISPR	 CRISPR
+RF01355	CRISPR-DR26	Gene; CRISPR	 CRISPR
+RF01356	CRISPR-DR28	Gene; CRISPR	 CRISPR
+RF01357	CRISPR-DR31	Gene; CRISPR	 CRISPR
+RF01358	CRISPR-DR39	Gene; CRISPR	 CRISPR
+RF01359	CRISPR-DR46	Gene; CRISPR	 CRISPR
+RF01360	CRISPR-DR47	Gene; CRISPR	 CRISPR
+RF01361	CRISPR-DR48	Gene; CRISPR	 CRISPR
+RF01362	CRISPR-DR49	Gene; CRISPR	 CRISPR
+RF01363	CRISPR-DR50	Gene; CRISPR	 CRISPR
+RF01364	CRISPR-DR51	Gene; CRISPR	 CRISPR
+RF01365	CRISPR-DR52	Gene; CRISPR	 CRISPR
+RF01366	CRISPR-DR53	Gene; CRISPR	 CRISPR
+RF01367	CRISPR-DR54	Gene; CRISPR	 CRISPR
+RF01368	CRISPR-DR55	Gene; CRISPR	 CRISPR
+RF01369	CRISPR-DR56	Gene; CRISPR	 CRISPR
+RF01370	CRISPR-DR57	Gene; CRISPR	 CRISPR
+RF01371	CRISPR-DR58	Gene; CRISPR	 CRISPR
+RF01373	CRISPR-DR60	Gene; CRISPR	 CRISPR
+RF01374	CRISPR-DR61	Gene; CRISPR	 CRISPR
+RF01375	CRISPR-DR62	Gene; CRISPR	 CRISPR
+RF01376	CRISPR-DR63	Gene; CRISPR	 CRISPR
+RF01377	CRISPR-DR64	Gene; CRISPR	 CRISPR
+RF01378	CRISPR-DR65	Gene; CRISPR	 CRISPR
+RF01379	CRISPR-DR66	Gene; CRISPR	 CRISPR
+RF01380	HIV-1_SD	Cis-reg	
+RF01381	HIV-1_SL3	Cis-reg	
+RF01382	HIV-1_SL4	Cis-reg	
+RF01383	GRIK4_3p_UTR	Gene	
+RF01384	InvR	Gene	
+RF01385	isrA	Gene; sRNA	 sRNA
+RF01386	isrB	Gene; sRNA	 sRNA
+RF01387	isrC	Gene; sRNA	 sRNA
+RF01388	isrD	Gene; sRNA	 sRNA
+RF01389	isrF	Gene; sRNA	 sRNA
+RF01390	isrG	Gene; sRNA	 sRNA
+RF01391	isrH	Gene; sRNA	 sRNA
+RF01392	isrI	Gene; sRNA	 sRNA
+RF01393	isrJ	Gene; sRNA	 sRNA
+RF01394	isrK	Gene; sRNA	 sRNA
+RF01395	isrL	Gene; sRNA	 sRNA
+RF01396	isrN	Gene; sRNA	 sRNA
+RF01397	isrO	Gene; sRNA	 sRNA
+RF01398	isrP	Gene; sRNA	 sRNA
+RF01399	isrQ	Gene; sRNA	 sRNA
+RF01400	istR	Gene; antitoxin	 antitoxin
+RF01401	rseX	Gene; sRNA	 sRNA
+RF01402	STnc150	Gene; sRNA	 sRNA
+RF01403	STnc290	Gene; sRNA	 sRNA
+RF01404	PinT	Gene; sRNA	 sRNA
+RF01405	STnc490	Gene; sRNA	 sRNA
+RF01406	STnc500	Gene; sRNA	 sRNA
+RF01407	STnc560	Gene; sRNA	 sRNA
+RF01408	sraL	Gene; sRNA	 sRNA
+RF01409	STnc250	Gene; sRNA	 sRNA
+RF01410	BsrC	Gene; sRNA	 sRNA
+RF01411	BsrF	Gene; sRNA	 sRNA
+RF01412	BsrG	Gene; sRNA	 sRNA
+RF01413	miR-430	Gene; miRNA	 miRNA
+RF01414	class_I_RNA	Gene	
+RF01415	Flavivirus_SLIV	Cis-reg	
+RF01416	NrrF	Gene; antisense	 antisense
+RF01417	RSV_RNA	Cis-reg	
+RF01418	HIV_POL-1_SL	Cis-reg	
+RF01419	IsrR	Gene; antisense	 antisense
+RF01420	snoR113	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01421	snoR114	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01422	snoR116	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01423	snoR117	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01424	snoR118	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01425	snoR121	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01426	snoR126	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01427	snoR127	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01428	snoR128	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01429	snoR130	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01430	snoR134	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01431	snoR135	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01432	snoR143	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01433	snoR137	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01434	S_pombe_snR3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01435	S_pombe_snR5	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01436	S_pombe_snR33	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01437	S_pombe_snR10	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01438	S_pombe_snR35	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01439	S_pombe_snR36	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01440	S_pombe_snR42	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01441	S_pombe_snR46	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01442	S_pombe_snR90	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01443	S_pombe_snR91	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01444	S_pombe_snR92	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01445	S_pombe_snR94	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01446	S_pombe_snR95	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01447	S_pombe_snR98	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01448	S_pombe_snR93	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01449	S_pombe_snR100	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01450	S_pombe_snR96	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01451	S_pombe_snR97	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01452	S_pombe_snR99	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01453	RCNMV_TE_DR1	Cis-reg	
+RF01454	RCNMV_5UTR	Cis-reg	
+RF01455	DPB	Cis-reg	
+RF01456	VrrA	Gene; antisense	 antisense
+RF01457	rli22	Gene; sRNA	 sRNA
+RF01458	rli23	Gene; antisense	 antisense
+RF01459	rliE	Gene; sRNA	 sRNA
+RF01460	rliH	Gene; sRNA	 sRNA
+RF01461	rli24	Gene; sRNA	 sRNA
+RF01462	rli26	Gene; sRNA	 sRNA
+RF01463	rli27	Gene; sRNA	 sRNA
+RF01464	rliA	Gene; sRNA	 sRNA
+RF01465	rli31	Gene; sRNA	 sRNA
+RF01466	rli34	Gene; sRNA	 sRNA
+RF01467	rli36	Gene; sRNA	 sRNA
+RF01468	rli32	Gene; sRNA	 sRNA
+RF01469	rli33	Gene; sRNA	 sRNA
+RF01470	rli38	Gene; sRNA	 sRNA
+RF01471	rliB	Gene; sRNA	 sRNA
+RF01472	rli40	Gene; sRNA	 sRNA
+RF01473	rli41	Gene; sRNA	 sRNA
+RF01474	rli42	Gene; sRNA	 sRNA
+RF01475	rli45	Gene; antisense	 antisense
+RF01476	rliF	Gene; sRNA	 sRNA
+RF01477	rli43	Gene; sRNA	 sRNA
+RF01478	rli47	Gene; sRNA	 sRNA
+RF01479	rli48	Gene; sRNA	 sRNA
+RF01480	rli52	Cis-reg	
+RF01481	rli53	Cis-reg	
+RF01482	AdoCbl_riboswitch	Cis-reg; riboswitch	 riboswitch
+RF01483	rli56	Cis-reg	
+RF01484	rli59	Cis-reg	
+RF01485	rli61	Cis-reg	
+RF01486	rli62	Cis-reg	
+RF01487	rliI	Gene; sRNA	 sRNA
+RF01488	rli49	Gene; sRNA	 sRNA
+RF01489	sbrA	Gene; sRNA	 sRNA
+RF01490	rli51	Cis-reg	
+RF01491	rli54	Cis-reg	
+RF01492	rli28	Gene; sRNA	 sRNA
+RF01493	rli37	Gene; sRNA	 sRNA
+RF01494	rliD	Gene; antisense	 antisense
+RF01495	ACAT	Cis-reg	
+RF01496	Afu_182	Gene; sRNA	 sRNA
+RF01497	ALIL	Cis-reg	
+RF01498	Afu_190	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01499	Afu_191	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01500	Afu_198	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01501	Afu_199	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01502	Fungi_SRP	Gene	
+RF01503	Afu_203	Gene; sRNA	 sRNA
+RF01504	Afu_254	Gene; sRNA	 sRNA
+RF01505	Afu_264	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01506	Afu_294	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01507	Afu_298	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01508	BYDV_5_UTR	Cis-reg	
+RF01509	Afu_300	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01510	MFR	Cis-reg; riboswitch	 riboswitch
+RF01511	Afu_304	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01512	Afu_309	Gene; sRNA	 sRNA
+RF01513	Afu_335	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01514	Afu_513	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01515	Afu_514	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01516	v-snoRNA-1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01517	iscRS	Cis-reg	
+RF01518	pRNA	Gene	
+RF01519	CC0196	Gene; sRNA	 sRNA
+RF01520	CC0734	Gene; sRNA	 sRNA
+RF01521	CC1840	Gene; sRNA	 sRNA
+RF01522	TB10Cs1H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01523	TB10Cs1H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01524	TB10Cs1H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01525	TB10Cs2H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01526	ceN106	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01527	CrfA	Gene; sRNA	 sRNA
+RF01528	CC3513	Gene; sRNA	 sRNA
+RF01529	CC3552	Gene; sRNA	 sRNA
+RF01530	CC3664	Gene; sRNA	 sRNA
+RF01531	TB10Cs3H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01532	TB10Cs3H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01533	TB10Cs4H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01534	TB10Cs4H4	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01535	TB10Cs5H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01536	TB10Cs5H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01537	TB11Cs2H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01538	TB11Cs3H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01539	TB11Cs4H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01540	TB11Cs4H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01541	TB11Cs4H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01542	TB11Cs5H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01543	TB11Cs5H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01544	TB11Cs5H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01545	TB3Cs2H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01546	TB6Cs1H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01547	TB6Cs1H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01548	TB6Cs1H4	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01549	TB8Cs2H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01550	TB8Cs3H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01551	TB8Cs4H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01552	TB9Cs1H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01553	TB9Cs1H3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01554	TB9Cs2H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01555	TB9Cs3H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01556	TB9Cs3H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01557	TB9Cs4H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01558	TB9Cs4H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01559	DdR1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01560	DdR10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01561	DdR11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01562	DdR12	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01563	DdR13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01564	DdR14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01565	DdR15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01566	DdR16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01567	DdR17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01568	DdR18	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01569	DdR2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01570	Dictyostelium_SRP	Gene; snRNA	 snRNA
+RF01571	DdR35	Gene; sRNA	 sRNA
+RF01572	DdR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01573	DdR5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01574	DdR6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01575	DdR7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01576	DdR8	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01577	RNase_P	Gene; ribozyme	 ribozyme
+RF01578	RUF1	Gene; sRNA	 sRNA
+RF01579	RUF2	Gene; sRNA	 sRNA
+RF01580	RUF3	Gene; sRNA	 sRNA
+RF01581	RUF6-5	Gene; sRNA	 sRNA
+RF01582	RUF4	Gene; sRNA	 sRNA
+RF01583	snoR01	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01584	snoR03	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01585	snoR07	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01586	snoR09	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01587	snoR10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01588	snoR13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01589	plasmodium_snoR11	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01590	plasmodium_snoR14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01591	snoR15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01592	plasmodium_snoR17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01593	plasmodium_snoR16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01594	snoR18	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01595	snoR19	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01596	plasmodium_snoR20	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01597	snoR22	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01598	snoR23	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01599	plasmodium_snoR24	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01600	snoR25	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01601	plasmodium_snoR26	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01602	plasmodium_snoR27	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01603	snoR29	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01604	plasmodium_snoR28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01605	plasmodium_snoR30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01606	plasmodium_snoR31	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01607	ceN100	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01608	ceN102	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01609	ceN103	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01610	ceN104	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01611	ceN108	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01612	ceN105	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01613	ceN109	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01614	ceN110	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01615	ceN111	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01617	ceN113	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01618	ceN114	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01619	ceN115	Gene; sRNA	 sRNA
+RF01620	ceN125	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01621	ceN126	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01622	ceN22	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01623	ceN23-1	Gene; sRNA	 sRNA
+RF01624	ceN27	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01625	ceN28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01626	ceN30	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01627	ceN36-1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01628	ceN38	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01629	ceN39	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01630	ceN40	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01631	ceN41	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01632	ceN42	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01633	ceN43	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01634	ceN44	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01635	ceN45	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01636	ceN46	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01637	ceN47	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01638	ceN48	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01639	ceN49	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01640	ceN51	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01641	ceN53	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01642	ceN54	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01643	ceN56	Gene; sRNA	 sRNA
+RF01644	ceN59	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01645	ceN58	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01646	ceN63	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01647	ceN61	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01648	ceN65	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01649	ceN67	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01650	ceN68	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01651	ceN69	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01652	ceN70	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01653	ceN80	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01654	ceN82	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01655	ceN84	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01656	ceN72-3_ceN74-2	Gene; sRNA	 sRNA
+RF01658	ceN81	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01659	ceN86	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01660	ceN88	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01661	ceN92	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01662	ceN89	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01663	ceN93	Gene; sRNA	 sRNA
+RF01664	ceN101	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01665	P13	Gene; sRNA	 sRNA
+RF01666	rox2	Cis-reg	
+RF01667	rox1	Cis-reg	
+RF01668	P10	Gene; sRNA	 sRNA
+RF01669	P14	Gene; sRNA	 sRNA
+RF01670	P17	Gene; sRNA	 sRNA
+RF01671	P18	Gene; sRNA	 sRNA
+RF01672	P2	Gene; sRNA	 sRNA
+RF01673	PhrS	Gene; sRNA	 sRNA
+RF01674	P27	Gene; sRNA	 sRNA
+RF01675	CrcZ	Gene; sRNA	 sRNA
+RF01676	P31	Gene; sRNA	 sRNA
+RF01677	P35	Gene; sRNA	 sRNA
+RF01678	P37	Gene; sRNA	 sRNA
+RF01679	P36	Gene; sRNA	 sRNA
+RF01680	P5	Gene; sRNA	 sRNA
+RF01681	P4	Gene; sRNA	 sRNA
+RF01682	P8	Gene; sRNA	 sRNA
+RF01683	P6	Gene; sRNA	 sRNA
+RF01684	mascRNA-menRNA	Gene	
+RF01685	6S-Flavo	Gene; sRNA	 sRNA
+RF01686	Acido-1	Gene; sRNA	 sRNA
+RF01687	Acido-Lenti-1	Gene; sRNA	 sRNA
+RF01688	Actino-pnp	Cis-reg	
+RF01689	AdoCbl-variant	Cis-reg; riboswitch	 riboswitch
+RF01690	Bacillaceae-1	Gene; sRNA	 sRNA
+RF01691	Bacillus-plasmid	Gene; sRNA	 sRNA
+RF01692	Bacteroid-trp	Cis-reg; leader	 leader
+RF01693	Bacteroidales-1	Gene; sRNA	 sRNA
+RF01694	Bacteroides-1	Gene; sRNA	 sRNA
+RF01695	C4	Gene; antisense	 antisense
+RF01696	Chlorobi-1	Gene; sRNA	 sRNA
+RF01697	Chlorobi-RRM	Cis-reg	
+RF01698	Chloroflexi-1	Gene; sRNA	 sRNA
+RF01699	Clostridiales-1	Gene; sRNA	 sRNA
+RF01700	Collinsella-1	Gene; sRNA	 sRNA
+RF01701	Cyano-1	Gene; sRNA	 sRNA
+RF01702	Cyano-2	Gene; sRNA	 sRNA
+RF01703	Dictyoglomi-1	Gene; sRNA	 sRNA
+RF01704	Downstream-peptide	Cis-reg	
+RF01705	Flavo-1	Gene; sRNA	 sRNA
+RF01706	Gut-1	Gene; sRNA	 sRNA
+RF01707	JUMPstart	Cis-reg	
+RF01708	L17DE	Cis-reg	
+RF01709	Lacto-rpoB	Cis-reg	
+RF01710	Lacto-usp	Gene; sRNA	 sRNA
+RF01711	Lnt	Cis-reg	
+RF01712	Methylobacterium-1	Gene; sRNA	 sRNA
+RF01713	Moco-II	Cis-reg	
+RF01714	Ocean-V	Gene; sRNA	 sRNA
+RF01715	Pedo-repair	Cis-reg	
+RF01716	PhotoRC-I	Cis-reg	
+RF01717	PhotoRC-II	Cis-reg	
+RF01718	Polynucleobacter-1	Gene; sRNA	 sRNA
+RF01719	Pseudomon-1	Gene; sRNA	 sRNA
+RF01720	Pseudomon-Rho	Cis-reg	
+RF01721	Pseudomon-groES	Cis-reg	
+RF01722	Pyrobac-1	Gene; sRNA	 sRNA
+RF01723	Rhizobiales-2	Gene; sRNA	 sRNA
+RF01724	SAM-Chlorobi	Cis-reg	
+RF01725	SAM-I-IV-variant	Cis-reg; riboswitch	 riboswitch
+RF01726	SAM-II_long_loops	Cis-reg	
+RF01727	SAM-SAH	Cis-reg; riboswitch	 riboswitch
+RF01728	STAXI	Gene; sRNA	 sRNA
+RF01729	Termite-flg	Cis-reg	
+RF01730	Termite-leu	Cis-reg	
+RF01731	TwoAYGGAY	Cis-reg	
+RF01732	asd	Gene; sRNA	 sRNA
+RF01733	atoC	Cis-reg	
+RF01734	Fluoride	Cis-reg; riboswitch	 riboswitch
+RF01735	epsC	Cis-reg	
+RF01736	flg-Rhizobiales	Cis-reg	
+RF01737	flpD	Cis-reg	
+RF01738	gabT	Cis-reg	
+RF01739	glnA	Cis-reg; riboswitch	 riboswitch
+RF01740	gyrA	Cis-reg	
+RF01741	hopC	Cis-reg	
+RF01742	lactis-plasmid	Gene; sRNA	 sRNA
+RF01743	leu-phe_leader	Cis-reg; leader	 leader
+RF01744	livK	Cis-reg	
+RF01745	manA	Cis-reg	
+RF01746	mraW	Cis-reg	
+RF01747	msiK	Cis-reg	
+RF01748	nuoG	Cis-reg	
+RF01749	pan	Cis-reg	
+RF01750	ZMP-ZTP	Cis-reg; riboswitch	 riboswitch
+RF01751	potC	Cis-reg	
+RF01752	psaA	Cis-reg	
+RF01753	psbNH	Cis-reg	
+RF01754	radC	Cis-reg	
+RF01755	rmf	Cis-reg	
+RF01756	rne-II	Cis-reg	
+RF01757	sbcD	Gene; sRNA	 sRNA
+RF01758	sucA-II	Cis-reg	
+RF01759	sucC	Cis-reg	
+RF01760	traJ-II	Cis-reg	
+RF01761	wcaG	Cis-reg	
+RF01762	whalefall-1	Gene; sRNA	 sRNA
+RF01763	ykkC-III	Cis-reg	
+RF01764	yjdF	Cis-reg	
+RF01765	srg1	Gene	
+RF01766	cspA	Cis-reg; thermoregulator	 thermoregulator
+RF01767	SMK_box_riboswitch	Cis-reg; riboswitch	 riboswitch
+RF01768	flavi_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01769	greA	Cis-reg; leader	 leader
+RF01770	rimP	Cis-reg; leader	 leader
+RF01771	rnk_leader	Cis-reg; leader	 leader
+RF01772	rnk_pseudo	Cis-reg; leader	 leader
+RF01773	rpsL_pseudo	Cis-reg; leader	 leader
+RF01774	rpsL_ricks	Cis-reg; leader	 leader
+RF01775	RsaOG	Gene; sRNA	 sRNA
+RF01776	RatA	Gene; antitoxin	 antitoxin
+RF01778	Evf-2_5p	Gene; lncRNA	 lncRNA
+RF01779	AS1726	Gene	
+RF01780	AS1890	Gene	
+RF01781	ASdes	Gene; sRNA	 sRNA
+RF01782	ASpks	Gene; antisense	 antisense
+RF01783	b55	Gene; sRNA	 sRNA
+RF01784	bablM	Gene; sRNA	 sRNA
+RF01785	blv_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01786	c-di-GMP-II	Cis-reg; riboswitch	 riboswitch
+RF01787	drz-agam-1	Gene; ribozyme	 ribozyme
+RF01788	drz-agam-2-2	Gene; ribozyme	 ribozyme
+RF01789	EBER1	Gene; sRNA	 sRNA
+RF01790	htlv_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01791	F6	Gene; sRNA	 sRNA
+RF01792	eiav_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01793	ffh	Gene; sRNA	 sRNA
+RF01794	sok	Gene; antitoxin	 antitoxin
+RF01795	FourU	Cis-reg; thermoregulator	 thermoregulator
+RF01796	frnS	Gene; sRNA	 sRNA
+RF01797	fstAT	Gene; antitoxin	 antitoxin
+RF01798	g2	Gene	
+RF01800	gadd7	Gene; lncRNA	 lncRNA
+RF01802	HSUR	Gene; snRNA	 snRNA
+RF01803	GABA3	Cis-reg	
+RF01804	Lambda_thermo	Cis-reg; thermoregulator	 thermoregulator
+RF01807	GIR1	Gene; ribozyme	 ribozyme
+RF01808	MicX	Gene; sRNA	 sRNA
+RF01809	symR	Gene; antitoxin	 antitoxin
+RF01810	pntA	Gene; sRNA	 sRNA
+RF01811	PtaRNA1	Gene; antitoxin	 antitoxin
+RF01812	Pxr	Gene; sRNA	 sRNA
+RF01813	rdlD	Gene; antitoxin	 antitoxin
+RF01814	rhtB	Gene; sRNA	 sRNA
+RF01815	rpsB	Gene; sRNA	 sRNA
+RF01816	RsaA	Gene; sRNA	 sRNA
+RF01817	RsaB	Gene; sRNA	 sRNA
+RF01818	RsaC	Gene; sRNA	 sRNA
+RF01819	RsaD	Gene; sRNA	 sRNA
+RF01820	RsaE	Gene; sRNA	 sRNA
+RF01821	RsaH	Gene; sRNA	 sRNA
+RF01822	RsaJ	Gene; sRNA	 sRNA
+RF01823	rspL	Gene; sRNA	 sRNA
+RF01824	RUF20	Gene	
+RF01825	RUF21	Gene	
+RF01826	SAM_V	Cis-reg; riboswitch	 riboswitch
+RF01827	SAR11_0636	Gene; sRNA	 sRNA
+RF01828	SprD	Gene; sRNA	 sRNA
+RF01829	sR6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01830	StyR-44	Gene	
+RF01831	THF	Cis-reg; riboswitch	 riboswitch
+RF01832	ROSE_2	Cis-reg; thermoregulator	 thermoregulator
+RF01833	astro_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01834	fiv_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01835	HIV_FS2	Cis-reg; frameshift_element	 frameshift_element
+RF01836	weev_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01837	toga_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01838	sobemo_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01839	eeev_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01840	ovine_lenti_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01841	veev_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01842	mycoplasma_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01843	neisseria_FSE	Cis-reg; frameshift_element	 frameshift_element
+RF01844	SmY	Gene; snRNA; splicing	 snRNA
+RF01845	enod40	Gene	
+RF01846	Fungi_U3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01847	Plant_U3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01848	ACEA_U3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01849	alpha_tmRNA	Gene	
+RF01850	beta_tmRNA	Gene	
+RF01851	cyano_tmRNA	Gene	
+RF01852	tRNA-Sec	Gene; tRNA	 tRNA
+RF01853	mtDNA_ssA	Gene; antisense	 antisense
+RF01854	Bacteria_large_SRP	Gene	
+RF01855	Plant_SRP	Gene	
+RF01856	Protozoa_SRP	Gene	
+RF01857	Archaea_SRP	Gene	
+RF01858	RsaF	Gene; sRNA	 sRNA
+RF01859	Phe_leader	Cis-reg; leader	 leader
+RF01860	Afu_455	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01861	TB9Cs1H1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01862	TB10Cs4H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01863	TB10Cs2H2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF01864	plasmodium_snoR21	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01865	Vg1_ribozyme	Gene; ribozyme	 ribozyme
+RF01866	ceN33	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF01867	CC2171	Gene; sRNA	 sRNA
+RF01871	MALAT1	Gene; lncRNA	 lncRNA
+RF01872	MEG3_2	Gene; lncRNA	 lncRNA
+RF01873	PISRT1	Gene; lncRNA	 lncRNA
+RF01874	MIAT_exon1	Gene; lncRNA	 lncRNA
+RF01875	MIAT_exon5_1	Gene; lncRNA	 lncRNA
+RF01876	MIAT_exon5_2	Gene; lncRNA	 lncRNA
+RF01877	MIAT_exon5_3	Gene; lncRNA	 lncRNA
+RF01879	TUSC7	Gene; lncRNA	 lncRNA
+RF01880	Xist_exon1	Gene; lncRNA	 lncRNA
+RF01881	Xist_exon4	Gene; lncRNA	 lncRNA
+RF01882	TUG1_1	Gene; lncRNA	 lncRNA
+RF01883	TUG1_2	Gene; lncRNA	 lncRNA
+RF01884	LINC00901	Gene; lncRNA	 lncRNA
+RF01885	HSR-omega_1	Gene; lncRNA	 lncRNA
+RF01886	HSR-omega_2	Gene; lncRNA	 lncRNA
+RF01887	DLX6-AS1_1	Gene; lncRNA	 lncRNA
+RF01888	DLX6-AS1_2	Gene; lncRNA	 lncRNA
+RF01889	lincRNA-p21_1	Gene; lncRNA	 lncRNA
+RF01890	lincRNA-p21_2	Gene; lncRNA	 lncRNA
+RF01891	TUG1_3	Gene; lncRNA	 lncRNA
+RF01892	TUG1_4	Gene; lncRNA	 lncRNA
+RF01894	PCA3_2	Gene; lncRNA	 lncRNA
+RF01895	mir-193	Gene; miRNA	 miRNA
+RF01896	mir-142	Gene; miRNA	 miRNA
+RF01897	mir-188	Gene; miRNA	 miRNA
+RF01898	mir-363	Gene; miRNA	 miRNA
+RF01899	mir-2241	Gene; miRNA	 miRNA
+RF01900	mir-2024	Gene; miRNA	 miRNA
+RF01901	mir-284	Gene; miRNA	 miRNA
+RF01902	MIR439	Gene; miRNA	 miRNA
+RF01903	mir-500	Gene; miRNA	 miRNA
+RF01904	HOTAIR_1	Gene; lncRNA	 lncRNA
+RF01905	HOTAIR_2	Gene; lncRNA	 lncRNA
+RF01906	HOTAIR_3	Gene; lncRNA	 lncRNA
+RF01909	CDKN2B-AS	Gene; lncRNA	 lncRNA
+RF01910	mir-506	Gene; miRNA	 miRNA
+RF01911	MIR2118	Gene; miRNA	 miRNA
+RF01912	mir-2807	Gene; miRNA	 miRNA
+RF01913	mir-2778	Gene; miRNA	 miRNA
+RF01914	mir-932	Gene; miRNA	 miRNA
+RF01915	mir-2238	Gene; miRNA	 miRNA
+RF01916	mir-988	Gene; miRNA	 miRNA
+RF01917	MIR2587	Gene; miRNA	 miRNA
+RF01918	mir-1249	Gene; miRNA	 miRNA
+RF01919	mir-1419	Gene; miRNA	 miRNA
+RF01920	mir-764	Gene; miRNA	 miRNA
+RF01921	mir-1296	Gene; miRNA	 miRNA
+RF01922	mir-654	Gene; miRNA	 miRNA
+RF01923	mir-711	Gene; miRNA	 miRNA
+RF01924	mir-2774	Gene; miRNA	 miRNA
+RF01925	MIR1428	Gene; miRNA	 miRNA
+RF01926	mir-981	Gene; miRNA	 miRNA
+RF01927	MIR1222	Gene; miRNA	 miRNA
+RF01928	Mico1	Gene; lncRNA	 lncRNA
+RF01929	bxd_1	Gene; lncRNA	 lncRNA
+RF01930	bxd_2	Gene; lncRNA	 lncRNA
+RF01931	bxd_3	Gene; lncRNA	 lncRNA
+RF01932	bxd_4	Gene; lncRNA	 lncRNA
+RF01933	bxd_5	Gene; lncRNA	 lncRNA
+RF01934	bxd_6	Gene; lncRNA	 lncRNA
+RF01935	bxd_7	Gene; lncRNA	 lncRNA
+RF01936	mir-63	Gene; miRNA	 miRNA
+RF01937	mir-2780	Gene; miRNA	 miRNA
+RF01938	mir-1251	Gene; miRNA	 miRNA
+RF01939	mir-761	Gene; miRNA	 miRNA
+RF01940	hvt-mir-H	Gene; miRNA	 miRNA
+RF01941	MIR1223	Gene; miRNA	 miRNA
+RF01942	mir-1937	Gene; miRNA	 miRNA
+RF01943	mir-999	Gene; miRNA	 miRNA
+RF01944	mir-2518	Gene; miRNA	 miRNA
+RF01945	mir-1388	Gene; miRNA	 miRNA
+RF01946	KCNQ1OT1_1	Gene; lncRNA	 lncRNA
+RF01947	KCNQ1OT1_2	Gene; lncRNA	 lncRNA
+RF01948	KCNQ1OT1_3	Gene; lncRNA	 lncRNA
+RF01950	KCNQ1OT1_5	Gene; lncRNA	 lncRNA
+RF01951	SOX2OT_exon1	Gene; lncRNA	 lncRNA
+RF01952	SOX2OT_exon2	Gene; lncRNA	 lncRNA
+RF01953	SOX2OT_exon3	Gene; lncRNA	 lncRNA
+RF01954	SOX2OT_exon4	Gene; lncRNA	 lncRNA
+RF01955	NEAT1_1	Gene; lncRNA	 lncRNA
+RF01956	NEAT1_2	Gene; lncRNA	 lncRNA
+RF01957	NEAT1_3	Gene; lncRNA	 lncRNA
+RF01959	SSU_rRNA_archaea	Gene; rRNA	 rRNA
+RF01960	SSU_rRNA_eukarya	Gene; rRNA	 rRNA
+RF01962	RMST_1	Gene; lncRNA	 lncRNA
+RF01963	RMST_2	Gene; lncRNA	 lncRNA
+RF01964	RMST_3	Gene; lncRNA	 lncRNA
+RF01965	RMST_4	Gene; lncRNA	 lncRNA
+RF01966	RMST_5	Gene; lncRNA	 lncRNA
+RF01967	RMST_6	Gene; lncRNA	 lncRNA
+RF01968	RMST_7	Gene; lncRNA	 lncRNA
+RF01969	RMST_8	Gene; lncRNA	 lncRNA
+RF01970	RMST_9	Gene; lncRNA	 lncRNA
+RF01971	RMST_10	Gene; lncRNA	 lncRNA
+RF01972	H19_1	Gene; lncRNA	 lncRNA
+RF01973	H19_2	Gene; lncRNA	 lncRNA
+RF01974	H19_3	Gene; lncRNA	 lncRNA
+RF01975	HOTAIRM1_1	Gene; lncRNA	 lncRNA
+RF01976	HOTAIRM1_2	Gene; lncRNA	 lncRNA
+RF01977	HOTAIRM1_3	Gene; lncRNA	 lncRNA
+RF01978	HOTAIRM1_4	Gene; lncRNA	 lncRNA
+RF01979	HOTAIRM1_5	Gene; lncRNA	 lncRNA
+RF01981	PCGEM1	Gene; lncRNA	 lncRNA
+RF01982	PYLIS_1	Cis-reg	
+RF01983	Pinc	Gene; lncRNA	 lncRNA
+RF01984	ZEB2_AS1_1	Gene; lncRNA	 lncRNA
+RF01985	ZEB2_AS1_2	Gene; lncRNA	 lncRNA
+RF01986	ZEB2_AS1_3	Gene; lncRNA	 lncRNA
+RF01987	ZEB2_AS1_4	Gene; lncRNA	 lncRNA
+RF01988	SECIS_2	Cis-reg	
+RF01989	SECIS_3	Cis-reg	
+RF01990	SECIS_4	Cis-reg	
+RF01991	SECIS_5	Cis-reg	
+RF01992	VIS1	Gene; lncRNA	 lncRNA
+RF01996	mir-995	Gene; miRNA	 miRNA
+RF01997	mir-969	Gene; miRNA	 miRNA
+RF01998	group-II-D1D4-1	Intron	
+RF01999	group-II-D1D4-2	Intron	
+RF02000	MIR1846	Gene; miRNA	 miRNA
+RF02001	group-II-D1D4-3	Intron	
+RF02002	mir-720	Gene; miRNA	 miRNA
+RF02003	group-II-D1D4-4	Intron	
+RF02004	group-II-D1D4-5	Intron	
+RF02005	group-II-D1D4-6	Intron	
+RF02006	mir-1253	Gene; miRNA	 miRNA
+RF02007	mir-1237	Gene; miRNA	 miRNA
+RF02008	mir-621	Gene; miRNA	 miRNA
+RF02009	mir-987	Gene; miRNA	 miRNA
+RF02010	mir-3180	Gene; miRNA	 miRNA
+RF02011	mir-575	Gene; miRNA	 miRNA
+RF02012	group-II-D1D4-7	Intron	
+RF02013	mir-1280	Gene; miRNA	 miRNA
+RF02014	mir-1178	Gene; miRNA	 miRNA
+RF02015	mir-1287	Gene; miRNA	 miRNA
+RF02016	mir-1183	Gene; miRNA	 miRNA
+RF02017	mir-1912	Gene; miRNA	 miRNA
+RF02018	mir-1207	Gene; miRNA	 miRNA
+RF02019	mir-1265	Gene; miRNA	 miRNA
+RF02020	mir-25	Gene; miRNA	 miRNA
+RF02021	mir-3179	Gene; miRNA	 miRNA
+RF02022	mir-1275	Gene; miRNA	 miRNA
+RF02023	mir-1208	Gene; miRNA	 miRNA
+RF02024	mir-1180	Gene; miRNA	 miRNA
+RF02025	mir-3017	Gene; miRNA	 miRNA
+RF02026	mir-2833	Gene; miRNA	 miRNA
+RF02027	MIR2907	Gene; miRNA	 miRNA
+RF02028	mir-1827	Gene; miRNA	 miRNA
+RF02029	sraA	Gene; sRNA	 sRNA
+RF02030	tp2	Gene; sRNA	 sRNA
+RF02031	tpke11	Gene; sRNA	 sRNA
+RF02032	GOLLD	Gene	
+RF02033	HEARO	Gene	
+RF02034	IMES-1	Gene	
+RF02035	IMES-2	Gene	
+RF02036	IMES-3	Gene	
+RF02037	IMES-4	Gene	
+RF02038	SPRY4-IT1_1	Gene; lncRNA	 lncRNA
+RF02039	SPRY4-IT1_2	Gene; lncRNA	 lncRNA
+RF02040	HOTTIP_1	Gene; lncRNA	 lncRNA
+RF02041	HOTTIP_2	Gene; lncRNA	 lncRNA
+RF02042	HOTTIP_3	Gene; lncRNA	 lncRNA
+RF02043	HOTTIP_4	Gene; lncRNA	 lncRNA
+RF02044	CDKN2B-AS_2	Gene; lncRNA	 lncRNA
+RF02045	CDKN2B-AS_3	Gene; lncRNA	 lncRNA
+RF02046	Sphinx_1	Gene; lncRNA	 lncRNA
+RF02047	Sphinx_2	Gene; lncRNA	 lncRNA
+RF02048	STnc30	Gene; sRNA	 sRNA
+RF02049	STnc460	Gene; sRNA	 sRNA
+RF02050	STnc470	Gene; sRNA	 sRNA
+RF02051	STnc450	Gene; sRNA	 sRNA
+RF02052	STnc630	Gene; sRNA	 sRNA
+RF02053	STnc430	Gene; sRNA	 sRNA
+RF02054	STnc420	Gene; sRNA	 sRNA
+RF02055	STnc380	Gene; sRNA	 sRNA
+RF02056	STnc390	Gene; sRNA	 sRNA
+RF02057	STnc40	Gene; sRNA	 sRNA
+RF02058	STnc400	Gene	
+RF02059	STnc50	Gene; sRNA	 sRNA
+RF02060	STnc410	Gene; sRNA	 sRNA
+RF02061	mir-301	Gene; miRNA	 miRNA
+RF02062	STnc361	Gene; sRNA	 sRNA
+RF02063	STnc350	Gene; sRNA	 sRNA
+RF02064	STnc370	Gene; sRNA	 sRNA
+RF02065	STnc340	Gene; sRNA	 sRNA
+RF02066	STnc320	Gene; sRNA	 sRNA
+RF02067	STnc310	Gene; sRNA	 sRNA
+RF02068	STnc480	Gene; sRNA	 sRNA
+RF02069	STnc70	Gene; sRNA	 sRNA
+RF02070	STnc300	Gene; sRNA	 sRNA
+RF02071	STnc280	Gene; sRNA	 sRNA
+RF02072	STnc590	Gene; sRNA	 sRNA
+RF02073	STnc260	Gene; sRNA	 sRNA
+RF02074	STnc240	Gene; sRNA	 sRNA
+RF02075	STnc230	Gene; sRNA	 sRNA
+RF02076	STnc100	Gene; sRNA	 sRNA
+RF02077	STnc220	Gene; sRNA	 sRNA
+RF02078	STnc210	Gene; sRNA	 sRNA
+RF02079	STnc180	Gene; sRNA	 sRNA
+RF02080	STnc170	Gene; sRNA	 sRNA
+RF02081	STnc550	Gene; sRNA	 sRNA
+RF02082	STnc540	Gene; sRNA	 sRNA
+RF02083	OrzO-P	Gene; antitoxin	 antitoxin
+RF02084	STnc130	Gene; sRNA	 sRNA
+RF02085	Yar_1	Gene; lncRNA	 lncRNA
+RF02086	Yar_2	Gene; lncRNA	 lncRNA
+RF02087	Yar_3	Gene; lncRNA	 lncRNA
+RF02088	STnc510	Gene; sRNA	 sRNA
+RF02089	CLRN1-AS1	Gene; lncRNA	 lncRNA
+RF02090	DAOA-AS1_1	Gene; lncRNA	 lncRNA
+RF02091	DAOA-AS1_2	Gene; lncRNA	 lncRNA
+RF02092	mir-2970	Gene; miRNA	 miRNA
+RF02093	mir-2968	Gene; miRNA	 miRNA
+RF02094	mir-1803	Gene; miRNA	 miRNA
+RF02095	mir-2985-2	Gene; miRNA	 miRNA
+RF02096	mir-2973	Gene; miRNA	 miRNA
+RF02097	mir-1662	Gene; miRNA	 miRNA
+RF02098	DGCR5	Gene; lncRNA	 lncRNA
+RF02099	rivX	Gene; sRNA	 sRNA
+RF02100	tfoR	Gene; sRNA	 sRNA
+RF02101	HULC	Gene; lncRNA	 lncRNA
+RF02102	DISC2	Gene; lncRNA	 lncRNA
+RF02103	DLEU1_1	Gene; lncRNA	 lncRNA
+RF02104	DLEU1_2	Gene; lncRNA	 lncRNA
+RF02105	DLEU2_1	Gene; lncRNA	 lncRNA
+RF02106	DLEU2_2	Gene; lncRNA	 lncRNA
+RF02107	DLEU2_3	Gene; lncRNA	 lncRNA
+RF02108	DLEU2_4	Gene; lncRNA	 lncRNA
+RF02109	DLEU2_5	Gene; lncRNA	 lncRNA
+RF02110	DLEU2_6	Gene; lncRNA	 lncRNA
+RF02111	IS009	Gene	
+RF02112	DLG2-AS1_1	Gene; lncRNA	 lncRNA
+RF02113	DLG2-AS1_2	Gene; lncRNA	 lncRNA
+RF02114	FAM13A-AS1_1	Gene; lncRNA	 lncRNA
+RF02115	FAM13A-AS1_2	Gene; lncRNA	 lncRNA
+RF02116	FAS-AS1	Gene; lncRNA	 lncRNA
+RF02117	FMR1-AS1_1	Gene; lncRNA	 lncRNA
+RF02118	FMR1-AS1_2	Gene; lncRNA	 lncRNA
+RF02119	FTX_1	Gene; lncRNA	 lncRNA
+RF02120	FTX_2	Gene; lncRNA	 lncRNA
+RF02121	FTX_3	Gene; lncRNA	 lncRNA
+RF02122	FTX_5	Gene; lncRNA	 lncRNA
+RF02123	FTX_4	Gene; lncRNA	 lncRNA
+RF02124	JPX_1	Gene; lncRNA	 lncRNA
+RF02125	JPX_2	Gene; lncRNA	 lncRNA
+RF02126	GHRLOS	Gene; lncRNA	 lncRNA
+RF02127	GNAS-AS1_1	Gene; lncRNA	 lncRNA
+RF02128	GNAS-AS1_2	Gene; lncRNA	 lncRNA
+RF02129	GNAS-AS1_3	Gene; lncRNA	 lncRNA
+RF02130	GNAS-AS1_4	Gene; lncRNA	 lncRNA
+RF02131	GNAS-AS1_5	Gene; lncRNA	 lncRNA
+RF02132	HOXB13-AS1_1	Gene; lncRNA	 lncRNA
+RF02133	HOXB13-AS1_2	Gene; lncRNA	 lncRNA
+RF02134	HTT-AS1_1	Gene; lncRNA	 lncRNA
+RF02135	HTT-AS1_2	Gene; lncRNA	 lncRNA
+RF02136	HTT-AS1_3	Gene; lncRNA	 lncRNA
+RF02137	HOXA11-AS1_1	Gene; lncRNA	 lncRNA
+RF02138	HOXA11-AS1_2	Gene; lncRNA	 lncRNA
+RF02139	HOXA11-AS1_3	Gene; lncRNA	 lncRNA
+RF02140	HOXA11-AS1_4	Gene; lncRNA	 lncRNA
+RF02141	HOXA11-AS1_5	Gene; lncRNA	 lncRNA
+RF02142	HOXA11-AS1_6	Gene; lncRNA	 lncRNA
+RF02143	HYMAI	Gene; lncRNA	 lncRNA
+RF02144	rsmX	Gene	
+RF02145	MEG8_1	Gene; lncRNA	 lncRNA
+RF02146	MEG8_2	Gene; lncRNA	 lncRNA
+RF02147	MEG8_3	Gene; lncRNA	 lncRNA
+RF02148	MESTIT1_1	Gene; lncRNA	 lncRNA
+RF02149	MESTIT1_2	Gene; lncRNA	 lncRNA
+RF02150	MESTIT1_3	Gene; lncRNA	 lncRNA
+RF02151	MIMT1_1	Gene; lncRNA	 lncRNA
+RF02153	NBR2	Gene; lncRNA	 lncRNA
+RF02154	NCRUPAR_1	Gene; lncRNA	 lncRNA
+RF02155	NCRUPAR_2	Gene; lncRNA	 lncRNA
+RF02156	NPPA-AS1_1	Gene; lncRNA	 lncRNA
+RF02157	NPPA-AS1_2	Gene; lncRNA	 lncRNA
+RF02158	NPPA-AS1_3	Gene; lncRNA	 lncRNA
+RF02159	PART1_1	Gene; lncRNA	 lncRNA
+RF02160	PART1_2	Gene; lncRNA	 lncRNA
+RF02161	PART1_3	Gene; lncRNA	 lncRNA
+RF02162	XIST_A_REPEAT	Gene; lncRNA	 lncRNA
+RF02163	sR-tMet	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02164	PVT1_1	Gene; lncRNA	 lncRNA
+RF02165	PVT1_2	Gene; lncRNA	 lncRNA
+RF02166	PVT1_3	Gene; lncRNA	 lncRNA
+RF02167	PVT1_4	Gene; lncRNA	 lncRNA
+RF02168	PVT1_5	Gene; lncRNA	 lncRNA
+RF02169	PVT1_6	Gene; lncRNA	 lncRNA
+RF02170	PVT1_7	Gene; lncRNA	 lncRNA
+RF02171	RFPL3-AS1_1	Gene; lncRNA	 lncRNA
+RF02172	RFPL3-AS1_2	Gene; lncRNA	 lncRNA
+RF02173	SMAD5-AS1_1	Gene; lncRNA	 lncRNA
+RF02174	SMAD5-AS1_2	Gene; lncRNA	 lncRNA
+RF02175	SMAD5-AS1_3	Gene; lncRNA	 lncRNA
+RF02176	SMAD5-AS1_4	Gene; lncRNA	 lncRNA
+RF02177	SMCR2_1	Gene; lncRNA	 lncRNA
+RF02178	SMCR2_2	Gene; lncRNA	 lncRNA
+RF02179	ST7-AS1_1	Gene; lncRNA	 lncRNA
+RF02180	ST7-AS1_2	Gene; lncRNA	 lncRNA
+RF02181	ST7-AS2_1	Gene; lncRNA	 lncRNA
+RF02182	ST7-AS2_2	Gene; lncRNA	 lncRNA
+RF02183	ST7-OT3_1	Gene; lncRNA	 lncRNA
+RF02184	ST7-OT3_2	Gene; lncRNA	 lncRNA
+RF02185	ST7-OT3_3	Gene; lncRNA	 lncRNA
+RF02186	ST7-OT3_4	Gene; lncRNA	 lncRNA
+RF02187	ST7-OT4_1	Gene; lncRNA	 lncRNA
+RF02188	ST7-OT4_2	Gene; lncRNA	 lncRNA
+RF02189	ST7-OT4_3	Gene; lncRNA	 lncRNA
+RF02190	ST7-OT4_4	Gene; lncRNA	 lncRNA
+RF02191	TCL6_1	Gene; lncRNA	 lncRNA
+RF02192	TCL6_2	Gene; lncRNA	 lncRNA
+RF02193	TCL6_3	Gene; lncRNA	 lncRNA
+RF02194	HPnc0260	Gene; antisense	 antisense
+RF02195	TP53TG1_1	Gene; lncRNA	 lncRNA
+RF02196	TP53TG1_2	Gene; lncRNA	 lncRNA
+RF02197	TP73-AS1	Gene; lncRNA	 lncRNA
+RF02198	TTC28-AS1_1	Gene; lncRNA	 lncRNA
+RF02199	TTC28-AS1_2	Gene; lncRNA	 lncRNA
+RF02200	TTC28-AS1_3	Gene; lncRNA	 lncRNA
+RF02201	TTC28-AS1_4	Gene; lncRNA	 lncRNA
+RF02202	UCA1	Gene; lncRNA	 lncRNA
+RF02203	WT1-AS_1	Gene; lncRNA	 lncRNA
+RF02204	WT1-AS_2	Gene; lncRNA	 lncRNA
+RF02205	WT1-AS_3	Gene; lncRNA	 lncRNA
+RF02206	WT1-AS_4	Gene; lncRNA	 lncRNA
+RF02207	WT1-AS_5	Gene; lncRNA	 lncRNA
+RF02208	WT1-AS_6	Gene; lncRNA	 lncRNA
+RF02209	WT1-AS_7	Gene; lncRNA	 lncRNA
+RF02210	WT1-AS_8	Gene; lncRNA	 lncRNA
+RF02211	ZFAT-AS1_1	Gene; lncRNA	 lncRNA
+RF02212	ZFAT-AS1_2	Gene; lncRNA	 lncRNA
+RF02213	ZFAT-AS1_3	Gene; lncRNA	 lncRNA
+RF02214	mir-56	Gene; miRNA	 miRNA
+RF02215	ZNFX1-AS1_1	Gene; lncRNA	 lncRNA
+RF02216	ZNFX1-AS1_2	Gene; lncRNA	 lncRNA
+RF02217	ZNFX1-AS1_3	Gene; lncRNA	 lncRNA
+RF02218	ZNRD1-AS1_1	Gene; lncRNA	 lncRNA
+RF02219	ZNRD1-AS1_2	Gene; lncRNA	 lncRNA
+RF02220	ZNRD1-AS1_3	Gene; lncRNA	 lncRNA
+RF02221	sRNA-Xcc1	Gene; sRNA	 sRNA
+RF02222	sX2	Gene; sRNA	 sRNA
+RF02223	sX4	Gene; sRNA	 sRNA
+RF02224	sX5	Gene; sRNA	 sRNA
+RF02225	sX6	Gene; sRNA	 sRNA
+RF02226	sX7	Gene; sRNA	 sRNA
+RF02227	sX8	Gene; sRNA	 sRNA
+RF02228	sX9	Gene; sRNA	 sRNA
+RF02230	sX11	Gene; sRNA	 sRNA
+RF02231	sX12	Gene; sRNA	 sRNA
+RF02232	sX13	Gene; sRNA	 sRNA
+RF02233	sX14	Gene; sRNA	 sRNA
+RF02234	sX15	Gene; sRNA	 sRNA
+RF02235	asX1	Gene; sRNA	 sRNA
+RF02236	asX2	Gene; sRNA	 sRNA
+RF02237	asX3	Gene; sRNA	 sRNA
+RF02238	asX4	Gene; sRNA	 sRNA
+RF02239	asX6	Gene; sRNA	 sRNA
+RF02240	Xoo1	Gene; sRNA	 sRNA
+RF02241	Xoo2	Gene; sRNA	 sRNA
+RF02242	Xoo5	Gene; sRNA	 sRNA
+RF02243	Xoo8	Gene; sRNA	 sRNA
+RF02244	mir-785	Gene; miRNA	 miRNA
+RF02245	mir-788	Gene; miRNA	 miRNA
+RF02246	Six3os1_1	Gene; lncRNA	 lncRNA
+RF02247	Six3os1_2	Gene; lncRNA	 lncRNA
+RF02248	Six3os1_3	Gene; lncRNA	 lncRNA
+RF02249	Six3os1_4	Gene; lncRNA	 lncRNA
+RF02250	Six3os1_5	Gene; lncRNA	 lncRNA
+RF02251	Six3os1_6	Gene; lncRNA	 lncRNA
+RF02252	Six3os1_7	Gene; lncRNA	 lncRNA
+RF02253	IRE_II	Cis-reg	
+RF02254	mir-35	Gene; miRNA	 miRNA
+RF02255	adapt33_1	Gene; lncRNA	 lncRNA
+RF02256	adapt33_2	Gene; lncRNA	 lncRNA
+RF02257	adapt33_3	Gene; lncRNA	 lncRNA
+RF02258	adapt33_4	Gene; lncRNA	 lncRNA
+RF02259	Vax2os1_1	Gene; lncRNA	 lncRNA
+RF02260	MAT2A_A	Cis-reg	
+RF02261	MAT2A_B	Cis-reg	
+RF02262	MAT2A_C	Cis-reg	
+RF02263	MAT2A_D	Cis-reg	
+RF02264	MAT2A_E	Cis-reg	
+RF02265	MAT2A_F	Cis-reg	
+RF02266	XIST_intron	Gene; lncRNA	 lncRNA
+RF02267	Vax2os1_2	Gene; lncRNA	 lncRNA
+RF02268	MtlS	Gene; sRNA	 sRNA
+RF02269	HPnc0580	Gene; sRNA	 sRNA
+RF02270	nse_sRNA	Gene	
+RF02271	uc_338	Cis-reg	
+RF02272	Vax2os1_3	Gene; lncRNA	 lncRNA
+RF02273	FsrA	Gene	
+RF02274	AniS	Gene	
+RF02275	Hammerhead_HH9	Gene; ribozyme	 ribozyme
+RF02276	Hammerhead_II	Gene; ribozyme	 ribozyme
+RF02277	Hammerhead_HH10	Gene; ribozyme	 ribozyme
+RF02278	Betaproteobacteria_toxic_sRNA	Gene; sRNA	 sRNA
+RF02279	TtnuCD1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02280	TtnuCD3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02281	TtnuCD4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02282	TtnuCD5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02283	TtnuCD6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02284	TtnuCD7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02285	TtnuCD8	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02286	TtnuCD9	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02287	TtnuCD10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02288	TtnuCD11	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02289	TtnuCD13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02290	TtnuCD14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02291	TtnuCD15	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02292	TtnuCD16	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02293	TtnuCD17	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02294	TtnuCD18	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02295	TtnuCD19	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02296	TtnuCD20	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02297	TtnuCD21	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02298	TtnuCD22	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02299	TtnuCD23	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02300	TtnuCD24	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02301	TtnuCD25	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02302	TtnuCD26	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02303	TtnuCD28	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02304	TtnuCD29	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02305	TtnuCD31	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02306	TtnuCD32	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02307	TtnuCD33	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02308	TtnuCD34	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02309	TtnuHACA1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02310	TtnuHACA2	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02311	TtnuHACA3	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02312	TtnuHACA5	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02313	TtnuHACA6	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02314	TtnuHACA7	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02315	TtnuHACA8	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02316	TtnuHACA9	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02317	TtnuHACA10	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02318	TtnuHACA11a	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02319	TtnuHACA12	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02320	TtnuHACA13	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02321	TtnuHACA14	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02322	TtnuHACA15	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02323	TtnuHACA16	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02324	TtnuHACA17	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02325	TtnuHACA18	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02326	TtnuHACA19	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02327	TtnuHACA20	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02328	TtnuHACA21	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02329	TtnuHACA22	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02330	TtnuHACA23	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02331	TtnuHACA24	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02332	TtnuHACA25	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02333	TtnuHACA27	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02334	TtnuHACA28	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02335	GlsR2_miR4	Gene; miRNA	 miRNA
+RF02336	GlsR1_miR6	Gene; miRNA	 miRNA
+RF02337	GlsR8_miR10	Gene; miRNA	 miRNA
+RF02338	GlsR16_miR3	Gene; miRNA	 miRNA
+RF02339	GlsR17_miR2	Gene; miRNA	 miRNA
+RF02340	DENV_SLA	Cis-reg	
+RF02341	ncrMT1302	Gene; sRNA	 sRNA
+RF02342	ar7	Gene; sRNA	 sRNA
+RF02343	ar9	Gene; sRNA	 sRNA
+RF02344	ar14	Gene; sRNA	 sRNA
+RF02345	ar15	Gene; sRNA	 sRNA
+RF02346	ar35	Gene; sRNA	 sRNA
+RF02347	ar45	Gene; sRNA	 sRNA
+RF02348	tracrRNA	Gene	
+RF02349	psRNA2	Gene; sRNA	 sRNA
+RF02350	psRNA6	Gene; sRNA	 sRNA
+RF02351	psRNA14	Gene; sRNA	 sRNA
+RF02353	BjrC68	Gene; sRNA	 sRNA
+RF02354	BjrC80	Gene; sRNA	 sRNA
+RF02355	BjrC174	Gene; sRNA	 sRNA
+RF02356	BjrC1505	Gene; sRNA	 sRNA
+RF02357	RNaseP-T	Gene; ribozyme	 ribozyme
+RF02358	hsp17	Cis-reg; thermoregulator	 thermoregulator
+RF02359	MS2	Cis-reg	
+RF02360	Yfr8	Gene; sRNA	 sRNA
+RF02362	Yfr10	Gene; sRNA	 sRNA
+RF02363	Yfr11	Gene; sRNA	 sRNA
+RF02364	Yfr13	Gene; sRNA	 sRNA
+RF02365	Yfr17	Gene; sRNA	 sRNA
+RF02366	Yfr19	Gene; sRNA	 sRNA
+RF02367	Yfr20	Gene; sRNA	 sRNA
+RF02368	Yfr21	Gene; sRNA	 sRNA
+RF02369	h2cR	Gene; sRNA	 sRNA
+RF02370	Trp_leader_2	Cis-reg; leader	 leader
+RF02371	PyrG_leader	Cis-reg; leader	 leader
+RF02372	PyrC_leader	Cis-reg; leader	 leader
+RF02373	PyrD_leader	Cis-reg; leader	 leader
+RF02374	YenS	Gene; sRNA	 sRNA
+RF02375	Aar	Gene; sRNA	 sRNA
+RF02376	SR1	Gene; sRNA	 sRNA
+RF02377	SurA	Gene; sRNA	 sRNA
+RF02378	SurC	Gene; sRNA	 sRNA
+RF02379	csRNA	Gene; sRNA	 sRNA
+RF02384	FasX	Gene; sRNA	 sRNA
+RF02385	sau-13	Gene; sRNA	 sRNA
+RF02386	sau-19	Gene; sRNA	 sRNA
+RF02387	sau-27	Gene; sRNA	 sRNA
+RF02388	sau-30	Gene; sRNA	 sRNA
+RF02389	sau-31	Gene; sRNA	 sRNA
+RF02390	sau-41	Gene; sRNA	 sRNA
+RF02392	sau-53	Gene; sRNA	 sRNA
+RF02393	sau-59	Gene; sRNA	 sRNA
+RF02394	sau-63	Gene; sRNA	 sRNA
+RF02395	sau-66	Gene; sRNA	 sRNA
+RF02396	sau-5949	Gene; sRNA	 sRNA
+RF02397	sau-5971	Gene; sRNA	 sRNA
+RF02398	sau-6072	Gene; sRNA	 sRNA
+RF02399	NsiR1	Gene; sRNA	 sRNA
+RF02400	Hsp83_3_UTR	Cis-reg	
+RF02401	ClpQY_promoter	Cis-reg	
+RF02402	Afu_263	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02403	Afu_328	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02404	P33	Gene; sRNA	 sRNA
+RF02405	P34	Gene; sRNA	 sRNA
+RF02406	snoR120	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02407	snoR122	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02408	snoR124	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02409	snoR125	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02410	snoR136	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02411	snoR138	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02412	snoR144	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02413	snoR145	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02414	rli60	Gene; sRNA	 sRNA
+RF02415	rliG	Gene; sRNA	 sRNA
+RF02416	TCV_H4	Cis-reg	
+RF02417	VR-RNA	Gene; sRNA	 sRNA
+RF02418	Spd-sr07	Gene; sRNA	 sRNA
+RF02419	Spd-sr37	Gene; sRNA	 sRNA
+RF02420	Bp1_162	Gene; sRNA	 sRNA
+RF02421	Bp1_684	Gene; sRNA	 sRNA
+RF02422	Bp1_738	Gene; sRNA	 sRNA
+RF02423	Bp1_781	Gene; sRNA	 sRNA
+RF02424	Bp2_287	Gene; sRNA	 sRNA
+RF02425	SpF01_sRNA	Gene; sRNA	 sRNA
+RF02426	SpF03_sRNA	Gene; sRNA	 sRNA
+RF02427	SpF10_sRNA	Gene; sRNA	 sRNA
+RF02428	SpF11_sRNA	Gene; sRNA	 sRNA
+RF02429	SpF14_sRNA	Gene; sRNA	 sRNA
+RF02430	SpF19_sRNA	Gene; sRNA	 sRNA
+RF02431	SpF22_sRNA	Gene; sRNA	 sRNA
+RF02432	SpF25_sRNA	Gene; sRNA	 sRNA
+RF02433	SpF36_sRNA	Gene; sRNA	 sRNA
+RF02434	SpF39_sRNA	Gene; sRNA	 sRNA
+RF02435	SpF41_sRNA	Gene; sRNA	 sRNA
+RF02436	SpF43_sRNA	Gene; sRNA	 sRNA
+RF02437	SpF44_sRNA	Gene; sRNA	 sRNA
+RF02438	SpF51_sRNA	Gene; sRNA	 sRNA
+RF02439	SpF56_sRNA	Gene; sRNA	 sRNA
+RF02440	SpF59_sRNA	Gene; sRNA	 sRNA
+RF02441	SpF61_sRNA	Gene; sRNA	 sRNA
+RF02442	SpF66_sRNA	Gene; sRNA	 sRNA
+RF02443	SpR08_sRNA	Gene; sRNA	 sRNA
+RF02444	SpR10_sRNA	Gene; sRNA	 sRNA
+RF02445	SpR14_sRNA	Gene; sRNA	 sRNA
+RF02446	SpR18_sRNA	Gene; sRNA	 sRNA
+RF02447	SpR19_sRNA	Gene; sRNA	 sRNA
+RF02448	SpR20_sRNA	Gene; sRNA	 sRNA
+RF02449	ncr1015	Gene; sRNA	 sRNA
+RF02450	ncr1175	Gene; sRNA	 sRNA
+RF02451	ncr1241	Gene; sRNA	 sRNA
+RF02452	ncr1575	Gene; sRNA	 sRNA
+RF02453	ncr952	Gene; sRNA	 sRNA
+RF02454	ncr982	Gene; sRNA	 sRNA
+RF02455	Virus_CITE_1	Cis-reg	
+RF02456	Diantho_3_UTR	Cis-reg	
+RF02457	Virus_CITE_2	Cis-reg	
+RF02458	Virus_CITE_3	Cis-reg	
+RF02459	Virus_CITE_4	Cis-reg	
+RF02460	Virus_CITE_5	Cis-reg	
+RF02461	Virus_CITE_6	Cis-reg	
+RF02462	Telomerase_Asco	Gene	
+RF02463	Ms_AS-1	Gene; sRNA	 sRNA
+RF02464	Ms_AS-4	Gene; sRNA	 sRNA
+RF02465	Ms_AS-5	Gene; sRNA	 sRNA
+RF02466	Ms_AS-8	Gene; sRNA	 sRNA
+RF02467	Ms_IGR-2	Gene; sRNA	 sRNA
+RF02468	Ms_IGR-4	Gene; sRNA	 sRNA
+RF02469	Ms_IGR-7	Gene; sRNA	 sRNA
+RF02470	Ms_IGR-8	Gene; sRNA	 sRNA
+RF02471	Ms_IGR-5	Gene; sRNA	 sRNA
+RF02472	Gl_RNase_MRP	Gene; ribozyme	 ribozyme
+RF02473	GlsR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02474	GlsR5	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02475	GlsR6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02476	GlsR7	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02477	GlsR9	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02478	GlsR10	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02479	GlsR13	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02480	GlsR14	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02481	GlsR18	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02482	GlsR19	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02483	GlsR20	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02484	GlsR21	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02485	GlsR22	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02486	GlsR23	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02487	GlsR24	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02488	GlsR25	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02489	GlsR26	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02490	GlsR27	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02491	Gl_U1	Gene; snRNA; splicing	 snRNA
+RF02492	Gl_U2	Gene; snRNA; splicing	 snRNA
+RF02493	Gl_U4	Gene; snRNA; splicing	 snRNA
+RF02494	Gl_U6	Gene; snRNA; splicing	 snRNA
+RF02495	ohsC_RNA	Gene; antitoxin	 antitoxin
+RF02496	Atu_At1	Gene; sRNA	 sRNA
+RF02497	Atu_C10	Gene; sRNA	 sRNA
+RF02498	Atu_C3	Gene; sRNA	 sRNA
+RF02499	Atu_C4	Gene; sRNA	 sRNA
+RF02500	Atu_C6	Gene; sRNA	 sRNA
+RF02501	Atu_C7	Gene; sRNA	 sRNA
+RF02502	Atu_C8	Gene; sRNA	 sRNA
+RF02503	Atu_C9	Gene; sRNA	 sRNA
+RF02504	Atu_L1	Gene; sRNA	 sRNA
+RF02505	Atu_L6	Gene; sRNA	 sRNA
+RF02506	Atu_Ti1	Gene; sRNA	 sRNA
+RF02507	Atu_Ti3	Gene; sRNA	 sRNA
+RF02508	Atu_Ti4	Gene; sRNA	 sRNA
+RF02509	PYLIS_2	Cis-reg	
+RF02510	PYLIS_3	Cis-reg	
+RF02511	PYLIS_4	Cis-reg	
+RF02512	PYLIS_5	Cis-reg	
+RF02513	PYLIS_6	Cis-reg	
+RF02514	5_ureB_sRNA	Gene; sRNA	 sRNA
+RF02515	AfaR	Gene; sRNA	 sRNA
+RF02516	mir-393	Gene; miRNA	 miRNA
+RF02517	mir-1017	Gene; miRNA	 miRNA
+RF02518	mir-2494	Gene; miRNA	 miRNA
+RF02519	ToxI	Gene; antitoxin	 antitoxin
+RF02520	mir-965	Gene; miRNA	 miRNA
+RF02521	Virus_CITE_7	Cis-reg	
+RF02522	Virus_CITE_8	Cis-reg	
+RF02523	ROSE_3	Cis-reg; thermoregulator	 thermoregulator
+RF02524	sagA	Gene; sRNA	 sRNA
+RF02525	SSRC30	Gene; sRNA	 sRNA
+RF02526	SSRC34_1	Gene; sRNA	 sRNA
+RF02527	SSRC38	Gene; sRNA	 sRNA
+RF02528	SSRC41	Gene; sRNA	 sRNA
+RF02529	SSRC8_1	Gene; sRNA	 sRNA
+RF02530	URE2_IRES	Cis-reg; IRES	 IRES
+RF02531	NRF2_IRES	Cis-reg; IRES	 IRES
+RF02532	MNV_3UTR	Cis-reg	
+RF02533	HAV_CRE	Cis-reg	
+RF02534	Noro_CRE	Cis-reg	
+RF02535	ODC_IRES	Cis-reg; IRES	 IRES
+RF02536	AEV_CRE	Cis-reg	
+RF02537	TarA	Gene; sRNA	 sRNA
+RF02538	TarB	Gene; sRNA	 sRNA
+RF02539	SNOR75	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02540	LSU_rRNA_archaea	Gene; rRNA	 rRNA
+RF02541	LSU_rRNA_bacteria	Gene; rRNA	 rRNA
+RF02542	SSU_rRNA_microsporidia	Gene; rRNA	 rRNA
+RF02543	LSU_rRNA_eukarya	Gene; rRNA	 rRNA
+RF02544	mt-tmRNA	Gene	
+RF02545	SSU_trypano_mito	Gene; rRNA	 rRNA
+RF02546	LSU_trypano_mito	Gene; rRNA	 rRNA
+RF02547	mtPerm-5S	Gene; rRNA	 rRNA
+RF02548	Oskar_OES	Cis-reg	
+RF02549	YFV_3UTR	Cis-reg	
+RF02550	RnaG	Gene; sRNA	 sRNA
+RF02551	DapZ	Cis-reg	
+RF02552	RcsR1	Gene; sRNA	 sRNA
+RF02553	YrlA	Gene; sRNA	 sRNA
+RF02554	ppoRNA	Gene; rRNA	 rRNA
+RF02555	hveRNA	Gene; rRNA	 rRNA
+RF02556	snaR-A	Gene; sRNA	 sRNA
+RF02557	CbSR1	Gene; sRNA	 sRNA
+RF02558	CbSR2	Gene; antisense	 antisense
+RF02559	CbSR4	Gene; antisense	 antisense
+RF02560	CbSR9	Gene; antisense	 antisense
+RF02561	CbSR12	Gene; sRNA	 sRNA
+RF02562	CbSR14	Gene; sRNA	 sRNA
+RF02563	CbSR3	Gene; antisense	 antisense
+RF02564	naRNA4	Gene; sRNA	 sRNA
+RF02565	YrlB	Gene; sRNA	 sRNA
+RF02566	Ms1	Gene; sRNA	 sRNA
+RF02567	Va-907	Gene; sRNA	 sRNA
+RF02568	UptR	Gene; sRNA	 sRNA
+RF02569	IhtA	Gene; sRNA	 sRNA
+RF02570	BM-sr0117	Gene; sRNA	 sRNA
+RF02571	Mcr7	Gene; sRNA	 sRNA
+RF02572	babR_5UTR	Cis-reg	
+RF02573	LLnc147	Gene; sRNA	 sRNA
+RF02574	Ricks_sRNA10	Gene; sRNA	 sRNA
+RF02575	DM_SisR1	Gene	
+RF02576	tsr1	Gene; sRNA	 sRNA
+RF02577	tsr24	Gene; sRNA	 sRNA
+RF02578	tsr25	Gene; sRNA	 sRNA
+RF02579	tsr26	Gene; sRNA	 sRNA
+RF02580	tsr31	Gene; sRNA	 sRNA
+RF02581	tsr32	Gene; sRNA	 sRNA
+RF02582	tsr33	Gene; sRNA	 sRNA
+RF02583	Teg23	Gene; sRNA	 sRNA
+RF02584	KRAS_3UTR	Cis-reg	
+RF02585	HCV_package	Cis-reg	
+RF02586	HCV_package-SL733	Cis-reg	
+RF02587	HCV_package-SL4629	Cis-reg	
+RF02588	HCV_package-SL6067	Cis-reg	
+RF02589	Spy779816	Gene; sRNA	 sRNA
+RF02590	Spy1186876	Gene; sRNA	 sRNA
+RF02591	Spy1786666	Gene; sRNA	 sRNA
+RF02592	Spy392987	Gene; antisense	 antisense
+RF02593	NsiR8	Gene; sRNA	 sRNA
+RF02594	NsiR9	Gene; sRNA	 sRNA
+RF02595	EBv-sisRNA-1	Gene	
+RF02596	cyano_het_sRNA	Gene; sRNA	 sRNA
+RF02597	shuA_thermo	Cis-reg; thermoregulator	 thermoregulator
+RF02598	EBv-sisRNA-2	Gene	
+RF02599	BASRCI408	Gene; sRNA	 sRNA
+RF02600	BASRCI27	Gene; sRNA	 sRNA
+RF02601	BASRCI337	Gene; sRNA	 sRNA
+RF02602	BASRCI414	Gene; sRNA	 sRNA
+RF02603	BASRCII26	Gene; sRNA	 sRNA
+RF02604	BASRCI153	Gene; sRNA	 sRNA
+RF02605	scr5239	Gene; sRNA	 sRNA
+RF02606	AbsR28	Gene; sRNA	 sRNA
+RF02607	AbsR25	Gene; sRNA	 sRNA
+RF02608	AbsR11	Gene; sRNA	 sRNA
+RF02609	BSR0602	Gene; sRNA	 sRNA
+RF02610	BSR0709	Gene; sRNA	 sRNA
+RF02611	BSR0653	Gene; sRNA	 sRNA
+RF02612	BSR1350	Gene; sRNA	 sRNA
+RF02613	BSR0739	Gene; sRNA	 sRNA
+RF02614	BSR1073	Gene; sRNA	 sRNA
+RF02615	BSR0626	Gene; sRNA	 sRNA
+RF02616	SSRC8_2	Gene; sRNA	 sRNA
+RF02617	SSRC10	Gene; sRNA	 sRNA
+RF02618	SSRC34_2	Gene; sRNA	 sRNA
+RF02619	BSnc115	Gene; sRNA	 sRNA
+RF02620	BSnc119	Gene; sRNA	 sRNA
+RF02621	BSnc120	Gene; sRNA	 sRNA
+RF02622	BSnc121	Gene; sRNA	 sRNA
+RF02623	BSnc140	Gene; sRNA	 sRNA
+RF02624	BSnc150	Gene; sRNA	 sRNA
+RF02625	WsnRNA46	Gene; sRNA	 sRNA
+RF02626	WsnRNA59	Gene; sRNA	 sRNA
+RF02627	Ssr1	Gene; sRNA	 sRNA
+RF02628	Hrs1	Gene; sRNA	 sRNA
+RF02629	RmaA	Gene; sRNA	 sRNA
+RF02630	Hrs12	Gene; sRNA	 sRNA
+RF02631	Hrs13	Gene; sRNA	 sRNA
+RF02632	Hrs10	Gene; sRNA	 sRNA
+RF02633	Hrs21	Gene; sRNA	 sRNA
+RF02634	EF3314_EF3315	Gene; sRNA	 sRNA
+RF02635	EF0820_EF0821	Gene; sRNA	 sRNA
+RF02636	EF1368_EF1369	Gene; sRNA	 sRNA
+RF02637	EF0408_EF0409	Gene; sRNA	 sRNA
+RF02638	EF0605_EF0606	Gene; sRNA	 sRNA
+RF02639	EF0869_EF0870	Gene; sRNA	 sRNA
+RF02640	MOSES4	Gene; sRNA	 sRNA
+RF02641	Spy490483c	Gene; sRNA	 sRNA
+RF02642	Spy491311c	Gene; sRNA	 sRNA
+RF02643	Spy491738	Gene; sRNA	 sRNA
+RF02644	Spy490380c	Gene; sRNA	 sRNA
+RF02645	Cis2_sRNA	Gene; sRNA	 sRNA
+RF02646	Cis8_sRNA	Gene; sRNA	 sRNA
+RF02647	Cis52_sRNA	Gene; sRNA	 sRNA
+RF02648	Cis90_sRNA	Gene; sRNA	 sRNA
+RF02649	Trans44_sRNA	Gene; sRNA	 sRNA
+RF02650	CncR1	Gene; sRNA	 sRNA
+RF02651	SorY	Gene; sRNA	 sRNA
+RF02652	StyR-3	Gene; sRNA	 sRNA
+RF02653	StyR-143	Gene; sRNA	 sRNA
+RF02654	MicL	Gene; sRNA	 sRNA
+RF02655	BSR0441	Gene; sRNA	 sRNA
+RF02656	sot0042	Gene; sRNA	 sRNA
+RF02657	sot2652	Gene; sRNA	 sRNA
+RF02658	IRES_RhPV	Cis-reg; IRES	 IRES
+RF02659	ncRv12659	Gene; sRNA	 sRNA
+RF02660	icaR_3p_UTR	Cis-reg	
+RF02661	icaR_5p_UTR	Cis-reg	
+RF02662	BLi_r0872	Gene; antisense	 antisense
+RF02663	GmglnB1_5p_UTR	Cis-reg	
+RF02664	IRES_cyp24a1	Cis-reg; IRES	 IRES
+RF02665	PsiU1-6	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02666	PsiU2-35.45	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02667	PsiU2-38.40.42	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02668	PsiU2-55	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02669	PsiU6-40	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02670	scaDm46E3	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02671	Ysr35	Gene; sRNA	 sRNA
+RF02672	SprX	Gene; sRNA	 sRNA
+RF02673	scr4677	Gene; sRNA	 sRNA
+RF02674	AsdA	Gene; antisense	 antisense
+RF02675	Ysr141	Gene; sRNA	 sRNA
+RF02676	Esr41	Gene; sRNA	 sRNA
+RF02677	NsiR4	Gene; sRNA	 sRNA
+RF02678	Hatchet	Gene; ribozyme	 ribozyme
+RF02679	Pistol	Gene; ribozyme	 ribozyme
+RF02680	PreQ1-III	Cis-reg; riboswitch	 riboswitch
+RF02681	Twister-sister	Gene; ribozyme	 ribozyme
+RF02682	HDV-F-prausnitzii	Gene; ribozyme	 ribozyme
+RF02683	NiCo	Cis-reg; riboswitch	 riboswitch
+RF02684	Twister-P5	Gene; ribozyme	 ribozyme
+RF02685	RAGATH-5	Gene; ribozyme	 ribozyme
+RF02686	RAGATH-6	Gene; ribozyme	 ribozyme
+RF02687	RAGATH-8	Gene; ribozyme	 ribozyme
+RF02688	RAGATH-13	Gene; ribozyme	 ribozyme
+RF02689	hilD_3p_UTR	Cis-reg	
+RF02690	BTH_s1	Gene; sRNA	 sRNA
+RF02691	BTH_s19	Gene; sRNA	 sRNA
+RF02692	BTH_s39	Gene; sRNA	 sRNA
+RF02693	psm_mec_RNA	Gene; sRNA	 sRNA
+RF02694	RalA	Gene; sRNA	 sRNA
+RF02695	NrsZ	Gene; sRNA	 sRNA
+RF02696	Teg49	Gene; sRNA	 sRNA
+RF02697	LDH1_5p_UTR	Cis-reg	
+RF02698	Avalong_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02699	Avashort_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02700	HtrA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02702	AgvB	Gene; sRNA	 sRNA
+RF02703	AsxR	Gene; sRNA	 sRNA
+RF02704	LcrF_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02705	B_rapa_snoR775	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02706	TeloSII_ncR30	Gene; sRNA	 sRNA
+RF02707	TeloSII_ncR33	Gene; sRNA	 sRNA
+RF02708	TeloSII_ncR40	Gene; sRNA	 sRNA
+RF02709	TeloSII_ncR43	Gene; sRNA	 sRNA
+RF02710	TeloSII_ncR45	Gene; sRNA	 sRNA
+RF02711	TeloSII_ncR49	Gene; sRNA	 sRNA
+RF02712	EBER2	Gene; sRNA	 sRNA
+RF02713	MCS4	Gene; sRNA	 sRNA
+RF02714	snopsi28S-3378	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02715	sno_ncR1	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02716	sno_ncR3	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02717	sno_ncR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02718	sca_ncR14	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02719	sca_ncR20	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02720	sca_ncR21	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02721	sca_ncR26	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02722	sca_ncR27	Gene; snRNA; snoRNA; scaRNA	 snRNA
+RF02723	sno_ZL1	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02724	sno_ZL2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02725	sno_ZL8	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02726	sno_ZL63	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02727	sno_ZL116	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02728	HrrF	Gene; sRNA	 sRNA
+RF02729	JA01	Gene; sRNA	 sRNA
+RF02730	JA02	Gene; sRNA	 sRNA
+RF02731	JA03	Gene; sRNA	 sRNA
+RF02732	JA04	Gene; sRNA	 sRNA
+RF02733	ToxT_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02734	Cgb105	Gene; sRNA	 sRNA
+RF02735	Sernc350	Gene; antisense; 	 antisense
+RF02736	Rev11	Gene; antisense; 	 antisense
+RF02737	Rev13	Gene; antisense	 antisense
+RF02738	Rev24	Gene; antisense	 antisense
+RF02739	Rev41	Gene; sRNA	 sRNA
+RF02740	Fwd6_3p_UTR	Cis-reg; 	 
+RF02741	Rev44	Gene; antisense; 	 antisense
+RF02742	Rev72	Gene; antisense	 antisense
+RF02743	Sernc389	Gene; antisense	 antisense
+RF02744	Rev39_5p_UTR	Cis-reg	
+RF02745	Rev42_5p_UTR	Cis-reg	
+RF02746	AsrC	Gene; antisense; 	 antisense
+RF02747	FtrA	Gene; sRNA	 sRNA
+RF02748	FtrB	Gene; sRNA	 sRNA
+RF02749	Ncrwmel02	Gene; sRNA	 sRNA
+RF02750	ES003	Gene; sRNA	 sRNA
+RF02751	ES036	Gene; sRNA	 sRNA
+RF02752	ES056	Gene; sRNA	 sRNA
+RF02753	ES173	Gene; sRNA	 sRNA
+RF02754	ES205	Gene; sRNA	 sRNA
+RF02755	ES222	Gene; sRNA	 sRNA
+RF02756	ES239	Gene; sRNA	 sRNA
+RF02757	Erse	Gene; sRNA	 sRNA
+RF02758	RhlA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02759	LasI_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02760	sR035	Gene; sRNA	 sRNA
+RF02761	sR084	Gene; sRNA	 sRNA
+RF02762	C1_109596F_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02763	IsrM	Gene; sRNA	 sRNA
+RF02764	Ysr190	Gene; sRNA	 sRNA
+RF02765	Ysr209	Gene; sRNA	 sRNA
+RF02766	Ysr49	Gene; sRNA	 sRNA
+RF02767	Ysr186_sR026_CsrC	Gene; sRNA	 sRNA
+RF02768	Ysr155(RyfD)	Gene; sRNA	 sRNA
+RF02769	Ysr202	Gene; sRNA	 sRNA
+RF02770	Ysr224	Gene; sRNA	 sRNA
+RF02771	CnfY_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02772	AilA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02773	TrxA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02774	KatA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02775	SodB_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02776	SodC_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02777	OppA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02778	FdoG1_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02779	PepN_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02780	PutA_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02781	ManX_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02782	CpoB_ybgF_thermometer	Cis-reg; thermoregulator; 	 thermoregulator
+RF02783	IscS1_thermometer	Cis-reg; thermoregulator; 	 thermoregulator
+RF02784	SorX	Gene; sRNA	 sRNA
+RF02785	snoRNA2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02786	snoTBR2	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02787	snoTBR4	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02788	snoTBR6	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02789	snoTBR12	Gene; snRNA; snoRNA; CD-box	 snRNA
+RF02790	sodF_sRNA	Gene; sRNA	 sRNA
+RF02791	CcsR1	Gene; sRNA	 sRNA
+RF02792	sRNA162	Gene; antisense	 antisense
+RF02793	asR3	Gene; antisense; 	 antisense
+RF02794	Pab19	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02795	Pab91	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02796	Pab160	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02797	PssrA	Gene; sRNA	 sRNA
+RF02798	CssrA	Gene; sRNA	 sRNA
+RF02799	CssrB	Gene; sRNA	 sRNA
+RF02800	Rp_sR47	Gene; sRNA	 sRNA
+RF02801	PyrR201	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02802	PyrR204	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02803	PyrR205	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02804	PyrR206	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02805	PyrR207	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02806	PyrR208	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02807	PyrR209	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02808	PyrR210	Gene; snRNA; snoRNA; HACA-box	 snRNA
+RF02809	RsmW	Gene; sRNA	 sRNA
+RF02810	Lst_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02811	FHbp_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02812	asponA	Gene; antisense	 antisense
+RF02813	PA5194_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02814	Sso133	Gene; sRNA	 sRNA
+RF02815	Lig_thermometer	Cis-reg; thermoregulator	 thermoregulator
+RF02816	HBV_PRE_1151-1410	Cis-reg	
+RF02818	V_AS5	Gene; antisense	 antisense
+RF02819	V_AS7	Gene; antisense	 antisense
+RF02820	V_AS9	Gene; antisense	 antisense
+RF02821	V_IGR5	Gene; sRNA	 sRNA
+RF02822	Srn266	Gene; sRNA	 sRNA
+RF02823	LPR69	Gene; sRNA	 sRNA
+RF02824	LPR10	Gene; sRNA	 sRNA
+RF02825	LPR17	Gene; sRNA	 sRNA
+RF02826	Scr6925	Gene; sRNA	 sRNA
+RF02827	Scr6106	Gene; sRNA	 sRNA
+RF02828	Scr3920	Gene; sRNA	 sRNA
+RF02829	Scr4115	Gene; sRNA	 sRNA
+RF02830	Scr1601	Gene; sRNA	 sRNA
+RF02831	Scr2736	Gene; sRNA	 sRNA
+RF02832	Scr5676	Gene; sRNA	 sRNA
+RF02833	Scr3202	Gene; sRNA	 sRNA
+RF02834	VqmR	Gene; sRNA	 sRNA
+RF02835	Bcj11	Gene; sRNA	 sRNA
+RF02836	Bcj14	Gene; sRNA	 sRNA
+RF02837	Bcj7	Gene; sRNA	 sRNA
+RF02838	Ref55	Gene; sRNA	 sRNA
+RF02839	Ref66	Gene; antisense	 antisense
+RF02840	Ref68	Gene; sRNA	 sRNA
+RF02841	Ref70	Gene; sRNA	 sRNA
+RF02842	RefA1	Gene; sRNA	 sRNA
+RF02843	RefA5	Gene; antisense	 antisense
+RF02844	RefA9	Gene; antisense	 antisense
+RF02845	Ref1C	Gene; sRNA	 sRNA
+RF02846	Ref84	Gene; antisense	 antisense
+RF02847	Ref64	Gene; sRNA	 sRNA
+RF02848	RefB11	Gene; sRNA	 sRNA
+RF02849	Ysr197	Gene; sRNA	 sRNA
+RF02850	Ysr276	Gene; antisense	 antisense
+RF02851	Ysr283	Gene; antisense	 antisense
+RF02852	Ysr206	Gene; sRNA	 sRNA
+RF02854	Ysr100	Gene; sRNA	 sRNA
+RF02855	Ysr251	Gene; antisense	 antisense
+RF02856	30_292	Gene; sRNA	 sRNA
+RF02857	30_255	Gene; sRNA	 sRNA
+RF02858	Arrc08	Gene; sRNA	 sRNA
+RF02859	Arrc11	Gene; sRNA	 sRNA
+RF02860	Arrc14	Gene; sRNA	 sRNA
+RF02861	IR_84	Gene; sRNA	 sRNA
+RF02862	sRNA_1300	Gene; sRNA	 sRNA
+RF02863	sRNA_2410	Gene; sRNA	 sRNA
+RF02864	sRNA_0030	Gene; sRNA	 sRNA
+RF02865	ncS01	Gene; sRNA	 sRNA
+RF02866	ncS16	Gene; sRNA	 sRNA
+RF02867	ncS011	Gene; sRNA	 sRNA
+RF02868	ncS037	Gene; sRNA	 sRNA
+RF02869	ncS025	Gene; sRNA	 sRNA
+RF02870	ncS035	Gene; sRNA	 sRNA
+RF02871	ncS54	Gene; sRNA	 sRNA
+RF02872	SrbA	Gene; sRNA	 sRNA
+RF02873	AS-traI	Gene; antisense	 antisense
+RF02874	AS-traG	Gene; antisense	 antisense
+RF02875	AS-pc01	Gene; antisense	 antisense
+RF02876	AS-pc02	Gene; antisense	 antisense
+RF02877	NmsRb	Gene; sRNA	 sRNA
+RF02878	MH_s7	Gene; sRNA	 sRNA
+RF02879	MH_s10	Gene; sRNA	 sRNA
+RF02880	MH_s15	Gene; sRNA	 sRNA
+RF02881	MH_s25	Gene; sRNA	 sRNA
+RF02882	MH_s36	Gene; sRNA	 sRNA
+RF02883	BcKCsr2	Gene; sRNA	 sRNA
+RF02884	BcKCsr7	Gene; sRNA	 sRNA
+RF02885	SAM_VI	Cis-reg; riboswitch	 riboswitch
+RF02886	npcTB_6715	Gene; sRNA	 sRNA
+RF02887	mgtC_leader	Cis-reg; leader	 leader
+RF02888	BtsR1	Gene; sRNA	 sRNA
+RF02889	Sr006	Gene; sRNA	 sRNA

@@ -1,0 +1,6 @@
+
+
+         cmscan -Z 5 --cut_ga --rfam --nohmmonly --tblout outData/sRNA/cmscan.tblout --fmt 2 --cpu 15 --clanin /data1/Rfam/Rfam.clanin /data1/Rfam/Rfam.cm rawData/assembly.fasta > outData/sRNA/cmscan.out
+
+
+  

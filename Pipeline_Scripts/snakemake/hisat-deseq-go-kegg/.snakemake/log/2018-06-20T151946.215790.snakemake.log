@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	6	stringtie
+	7
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_1_sorted.bam
+    output: outData/stringtie/UHR_1.gtf
+    jobid: 22
+    wildcards: sample=UHR_1
+
+Finished job 22.
+1 of 7 steps (14%) done
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_3_sorted.bam
+    output: outData/stringtie/UHR_3.gtf
+    jobid: 14
+    wildcards: sample=UHR_3
+
+Finished job 14.
+2 of 7 steps (29%) done
+
+rule stringtie:
+    input: outData/sorted_bam/UHR_2_sorted.bam
+    output: outData/stringtie/UHR_2.gtf
+    jobid: 6
+    wildcards: sample=UHR_2
+
+Finished job 6.
+3 of 7 steps (43%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_2_sorted.bam
+    output: outData/stringtie/HBR_2.gtf
+    jobid: 26
+    wildcards: sample=HBR_2
+
+Finished job 26.
+4 of 7 steps (57%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_3_sorted.bam
+    output: outData/stringtie/HBR_3.gtf
+    jobid: 4
+    wildcards: sample=HBR_3
+
+Finished job 4.
+5 of 7 steps (71%) done
+
+rule stringtie:
+    input: outData/sorted_bam/HBR_1_sorted.bam
+    output: outData/stringtie/HBR_1.gtf
+    jobid: 20
+    wildcards: sample=HBR_1
+
+Finished job 20.
+6 of 7 steps (86%) done
+
+localrule all:
+    input: outData/fastqc_clean/HBR_1_clean_R1_fastqc.zip, outData/fastqc/HBR_1_R1_fastqc.zip, outData/htseq/HBR_1_CountNum.txt, outData/sorted_bam/HBR_1_sorted.bam, outData/stringtie/HBR_1.gtf, outData/fastqc_clean/HBR_2_clean_R1_fastqc.zip, outData/fastqc/HBR_2_R1_fastqc.zip, outData/htseq/HBR_2_CountNum.txt, outData/sorted_bam/HBR_2_sorted.bam, outData/stringtie/HBR_2.gtf, outData/fastqc_clean/HBR_3_clean_R1_fastqc.zip, outData/fastqc/HBR_3_R1_fastqc.zip, outData/htseq/HBR_3_CountNum.txt, outData/sorted_bam/HBR_3_sorted.bam, outData/stringtie/HBR_3.gtf, outData/fastqc_clean/UHR_1_clean_R1_fastqc.zip, outData/fastqc/UHR_1_R1_fastqc.zip, outData/htseq/UHR_1_CountNum.txt, outData/sorted_bam/UHR_1_sorted.bam, outData/stringtie/UHR_1.gtf, outData/fastqc_clean/UHR_2_clean_R1_fastqc.zip, outData/fastqc/UHR_2_R1_fastqc.zip, outData/htseq/UHR_2_CountNum.txt, outData/sorted_bam/UHR_2_sorted.bam, outData/stringtie/UHR_2.gtf, outData/fastqc_clean/UHR_3_clean_R1_fastqc.zip, outData/fastqc/UHR_3_R1_fastqc.zip, outData/htseq/UHR_3_CountNum.txt, outData/sorted_bam/UHR_3_sorted.bam, outData/stringtie/UHR_3.gtf, outData/deseq2/heatmap_cor.pdf, outData/deseq2/heatmap.pdf, outData/deseq2/treated-vs-untreated_volcano_plot.pdf
+    jobid: 0
+
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T151946.215790.snakemake.log

@@ -1,0 +1,3 @@
+SyntaxError in line 20 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/snp.smk:
+invalid syntax
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 76, in <module>

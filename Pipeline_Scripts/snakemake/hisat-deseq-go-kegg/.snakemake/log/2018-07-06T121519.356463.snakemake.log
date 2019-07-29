@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	snpEff
+	3
+
+rule snpEff:
+    input: outData/snp/EV_merge.vcf
+    output: outData/snp/Annotation/EV.SnpEff.html, outData/snp/Annotation/EV.SnpEff.csv
+    jobid: 20
+    wildcards: condition=EV
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 32 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/snp.smk:
+Missing files after 5 seconds:
+outData/snp/Annotation/EV.SnpEff.html
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Removing output files of failed job snpEff since they might be corrupted:
+outData/snp/Annotation/EV.SnpEff.csv
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-07-06T121519.356463.snakemake.log

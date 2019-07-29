@@ -1,0 +1,272 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc",
+    "r-backports",
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-checkmate-1.8.2-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/checkmate/DESCRIPTION",
+    "lib/R/library/checkmate/INDEX",
+    "lib/R/library/checkmate/LICENSE",
+    "lib/R/library/checkmate/Meta/Rd.rds",
+    "lib/R/library/checkmate/Meta/features.rds",
+    "lib/R/library/checkmate/Meta/hsearch.rds",
+    "lib/R/library/checkmate/Meta/links.rds",
+    "lib/R/library/checkmate/Meta/nsInfo.rds",
+    "lib/R/library/checkmate/Meta/package.rds",
+    "lib/R/library/checkmate/Meta/vignette.rds",
+    "lib/R/library/checkmate/NAMESPACE",
+    "lib/R/library/checkmate/NEWS.md",
+    "lib/R/library/checkmate/R/checkmate",
+    "lib/R/library/checkmate/R/checkmate.rdb",
+    "lib/R/library/checkmate/R/checkmate.rdx",
+    "lib/R/library/checkmate/doc/checkmate.R",
+    "lib/R/library/checkmate/doc/checkmate.Rmd",
+    "lib/R/library/checkmate/doc/checkmate.html",
+    "lib/R/library/checkmate/doc/index.html",
+    "lib/R/library/checkmate/help/AnIndex",
+    "lib/R/library/checkmate/help/aliases.rds",
+    "lib/R/library/checkmate/help/checkmate.rdb",
+    "lib/R/library/checkmate/help/checkmate.rdx",
+    "lib/R/library/checkmate/help/paths.rds",
+    "lib/R/library/checkmate/html/00Index.html",
+    "lib/R/library/checkmate/html/R.css",
+    "lib/R/library/checkmate/include/checkmate.h",
+    "lib/R/library/checkmate/include/checkmate_stub.c",
+    "lib/R/library/checkmate/libs/checkmate.so"
+  ],
+  "fn": "r-checkmate-1.8.2-r3.4.1_0.tar.bz2",
+  "license": "BSD_3_clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-checkmate-1.8.2-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "a7169d8b256a6969c4041cde61e69f8c",
+  "name": "r-checkmate",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-checkmate-1.8.2-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/checkmate/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e6bbbd06883f845d64234786bc87a389a63305c050325bca035bd9aa7fc5f401",
+        "sha256_in_prefix": "e6bbbd06883f845d64234786bc87a389a63305c050325bca035bd9aa7fc5f401",
+        "size_in_bytes": 2192
+      },
+      {
+        "_path": "lib/R/library/checkmate/INDEX",
+        "path_type": "hardlink",
+        "sha256": "590c3f21dcc7b110c85325fef8115708ddd41883846dc9bd05324ed5f2d9d51f",
+        "sha256_in_prefix": "590c3f21dcc7b110c85325fef8115708ddd41883846dc9bd05324ed5f2d9d51f",
+        "size_in_bytes": 3578
+      },
+      {
+        "_path": "lib/R/library/checkmate/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ef95e49cc702eb642e581a847088d26e47ba71ca1b057ef3935ab7661368c125",
+        "sha256_in_prefix": "ef95e49cc702eb642e581a847088d26e47ba71ca1b057ef3935ab7661368c125",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "797870acf47c4b8da94a8b1002986c9afaaceda64bb498d170a672e49519a756",
+        "sha256_in_prefix": "797870acf47c4b8da94a8b1002986c9afaaceda64bb498d170a672e49519a756",
+        "size_in_bytes": 2800
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7479d56b9a717bd2a016d37283e0ab2fd87e105d33cabbee30eee17856ee4d05",
+        "sha256_in_prefix": "7479d56b9a717bd2a016d37283e0ab2fd87e105d33cabbee30eee17856ee4d05",
+        "size_in_bytes": 2954
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "150b9b9f4663d3e3c331a1b6f595608741ecabd2a9fbb7fd969ec44d8462d333",
+        "sha256_in_prefix": "150b9b9f4663d3e3c331a1b6f595608741ecabd2a9fbb7fd969ec44d8462d333",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "9411969da0f0a8fab8e84a2dc20f25b7db412fc43b037980fa6675b66e838d66",
+        "sha256_in_prefix": "9411969da0f0a8fab8e84a2dc20f25b7db412fc43b037980fa6675b66e838d66",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "aaf861240c35c8ed6a542e16e5f457093e0f8aa8b0e092601070845b9de650fe",
+        "sha256_in_prefix": "aaf861240c35c8ed6a542e16e5f457093e0f8aa8b0e092601070845b9de650fe",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "lib/R/library/checkmate/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "f90de07304fd7c87be543c7be1dfddff88145a392b7860c4e122754794edaca1",
+        "sha256_in_prefix": "f90de07304fd7c87be543c7be1dfddff88145a392b7860c4e122754794edaca1",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/checkmate/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "8b335651e8c26a59d358e1bfb6bbdb571b0197ce1b0125162005f89fc9b6a5bc",
+        "sha256_in_prefix": "8b335651e8c26a59d358e1bfb6bbdb571b0197ce1b0125162005f89fc9b6a5bc",
+        "size_in_bytes": 7832
+      },
+      {
+        "_path": "lib/R/library/checkmate/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d950f76b5cbf95c87a81a11cecba7b3372be3b527f7e0b7ff35c07c51eaf3640",
+        "sha256_in_prefix": "d950f76b5cbf95c87a81a11cecba7b3372be3b527f7e0b7ff35c07c51eaf3640",
+        "size_in_bytes": 7445
+      },
+      {
+        "_path": "lib/R/library/checkmate/R/checkmate",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/checkmate/R/checkmate.rdb",
+        "path_type": "hardlink",
+        "sha256": "d581fe5a7dce049b90cb59ef3c04a6128f326f42c5838427e88583cca9ddf952",
+        "sha256_in_prefix": "d581fe5a7dce049b90cb59ef3c04a6128f326f42c5838427e88583cca9ddf952",
+        "size_in_bytes": 167078
+      },
+      {
+        "_path": "lib/R/library/checkmate/R/checkmate.rdx",
+        "path_type": "hardlink",
+        "sha256": "30fbfa4851e6f3e7d7bcc9520e4b54a4c2c747c26b2731d902391e72406917bf",
+        "sha256_in_prefix": "30fbfa4851e6f3e7d7bcc9520e4b54a4c2c747c26b2731d902391e72406917bf",
+        "size_in_bytes": 3612
+      },
+      {
+        "_path": "lib/R/library/checkmate/doc/checkmate.R",
+        "path_type": "hardlink",
+        "sha256": "35d41e3c83f3aca6b4ced132911408276166cf3b7d7f5045212d0145c343132a",
+        "sha256_in_prefix": "35d41e3c83f3aca6b4ced132911408276166cf3b7d7f5045212d0145c343132a",
+        "size_in_bytes": 4707
+      },
+      {
+        "_path": "lib/R/library/checkmate/doc/checkmate.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a2f9b17d57c1d6bd4ca1b0ef12a17af1e4b22ccbdcf94548cfd3ffe16a82a243",
+        "sha256_in_prefix": "a2f9b17d57c1d6bd4ca1b0ef12a17af1e4b22ccbdcf94548cfd3ffe16a82a243",
+        "size_in_bytes": 12156
+      },
+      {
+        "_path": "lib/R/library/checkmate/doc/checkmate.html",
+        "path_type": "hardlink",
+        "sha256": "0cc9d587f0550ea5e55d9b6500274b04a81c781efcf771d50cf0f840902c7f1e",
+        "sha256_in_prefix": "0cc9d587f0550ea5e55d9b6500274b04a81c781efcf771d50cf0f840902c7f1e",
+        "size_in_bytes": 408676
+      },
+      {
+        "_path": "lib/R/library/checkmate/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "94d696e112e6ddb691b46b8570affa237551518f429a7aa8f3e0c4f14438034d",
+        "sha256_in_prefix": "94d696e112e6ddb691b46b8570affa237551518f429a7aa8f3e0c4f14438034d",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "lib/R/library/checkmate/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "cd830df9f5df5a9ef99b591e56e4a1e32cc670f8d7ddd479abe9c0cc6b37700c",
+        "sha256_in_prefix": "cd830df9f5df5a9ef99b591e56e4a1e32cc670f8d7ddd479abe9c0cc6b37700c",
+        "size_in_bytes": 8048
+      },
+      {
+        "_path": "lib/R/library/checkmate/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5fa86edcee4895dbcac2e396fe68cd15ac98959130e497fb636c1566d46d51e5",
+        "sha256_in_prefix": "5fa86edcee4895dbcac2e396fe68cd15ac98959130e497fb636c1566d46d51e5",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "lib/R/library/checkmate/help/checkmate.rdb",
+        "path_type": "hardlink",
+        "sha256": "c05f3ba573c0ed6ac8b6ecb5ee3368763accb1ae2ee68d83d27ccd15edc7b99e",
+        "sha256_in_prefix": "c05f3ba573c0ed6ac8b6ecb5ee3368763accb1ae2ee68d83d27ccd15edc7b99e",
+        "size_in_bytes": 250900
+      },
+      {
+        "_path": "lib/R/library/checkmate/help/checkmate.rdx",
+        "path_type": "hardlink",
+        "sha256": "befa2bab74ef794b0498813575cf2c9afac6a59b79297a0bff2a47aae38153f5",
+        "sha256_in_prefix": "befa2bab74ef794b0498813575cf2c9afac6a59b79297a0bff2a47aae38153f5",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "lib/R/library/checkmate/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b10a8ed562dc5b3716415d1b743582adf48e1f11fd8160f0c083164bd4c49be8",
+        "sha256_in_prefix": "b10a8ed562dc5b3716415d1b743582adf48e1f11fd8160f0c083164bd4c49be8",
+        "size_in_bytes": 579
+      },
+      {
+        "_path": "lib/R/library/checkmate/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "929aafdd69751dc40298bd3a5746fa32ec6f275a13932c19e7c3c32d4d373f11",
+        "sha256_in_prefix": "929aafdd69751dc40298bd3a5746fa32ec6f275a13932c19e7c3c32d4d373f11",
+        "size_in_bytes": 42403
+      },
+      {
+        "_path": "lib/R/library/checkmate/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/checkmate/include/checkmate.h",
+        "path_type": "hardlink",
+        "sha256": "4e2f972b3f99262502b050e9898e58bce74d5fee5fdd76b6a3e96c78b2d246a4",
+        "sha256_in_prefix": "4e2f972b3f99262502b050e9898e58bce74d5fee5fdd76b6a3e96c78b2d246a4",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/R/library/checkmate/include/checkmate_stub.c",
+        "path_type": "hardlink",
+        "sha256": "8c634e09da4ccc679183a1a8c6b90c1ccaa3bebd76d9e26356352c800d29d263",
+        "sha256_in_prefix": "8c634e09da4ccc679183a1a8c6b90c1ccaa3bebd76d9e26356352c800d29d263",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/R/library/checkmate/libs/checkmate.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-checkmate_1502719462367/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "4b39d62b0ef30b26702d69e6c3c41cea3b079f41cd5cc53a4e044cb0f2076e85",
+        "sha256_in_prefix": "8ffbbda8c63749e913371d0d1af770ba5bef9116a991f64ef6e772a1f095673e",
+        "size_in_bytes": 67709
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-checkmate=1.8.2",
+  "size": 525389,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-checkmate-1.8.2-r3.4.1_0.tar.bz2",
+  "version": "1.8.2"
+}

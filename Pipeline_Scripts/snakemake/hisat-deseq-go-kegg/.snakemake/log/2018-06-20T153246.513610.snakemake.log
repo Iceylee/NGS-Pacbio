@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	stringtie_merge
+	3
+
+rule stringtie_merge:
+    input: outData/stringtie/mergelist_UHR.txt
+    output: outData/as/merge_UHR.gtf
+    jobid: 22
+    wildcards: condition=UHR
+
+    Error in rule stringtie_merge:
+        jobid: 22
+        output: outData/as/merge_UHR.gtf
+
+RuleException:
+CalledProcessError in line 25 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk:
+Command ' set -euo pipefail;  
+                     stringtie --merge -G config["ref"]["gtf"] -p 8 -o outData/as/merge_UHR.gtf outData/stringtie/mergelist_UHR.txt ' returned non-zero exit status 1.
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/rules/stringtie_as.smk", line 25, in __rule_stringtie_merge
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/.snakemake/log/2018-06-20T153246.513610.snakemake.log

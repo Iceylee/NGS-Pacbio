@@ -1,0 +1,853 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*",
+    "r-gtools"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-gdata-2.17.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/gdata/ChangeLog",
+    "lib/R/library/gdata/DESCRIPTION",
+    "lib/R/library/gdata/INDEX",
+    "lib/R/library/gdata/Meta/Rd.rds",
+    "lib/R/library/gdata/Meta/data.rds",
+    "lib/R/library/gdata/Meta/features.rds",
+    "lib/R/library/gdata/Meta/hsearch.rds",
+    "lib/R/library/gdata/Meta/links.rds",
+    "lib/R/library/gdata/Meta/nsInfo.rds",
+    "lib/R/library/gdata/Meta/package.rds",
+    "lib/R/library/gdata/Meta/vignette.rds",
+    "lib/R/library/gdata/NAMESPACE",
+    "lib/R/library/gdata/NEWS",
+    "lib/R/library/gdata/R/gdata",
+    "lib/R/library/gdata/R/gdata.rdb",
+    "lib/R/library/gdata/R/gdata.rdx",
+    "lib/R/library/gdata/bin/xls2csv",
+    "lib/R/library/gdata/bin/xls2csv.bat",
+    "lib/R/library/gdata/data/MedUnits.rda",
+    "lib/R/library/gdata/doc/gregmisc.pdf",
+    "lib/R/library/gdata/doc/index.html",
+    "lib/R/library/gdata/doc/mapLevels.R",
+    "lib/R/library/gdata/doc/mapLevels.Rnw",
+    "lib/R/library/gdata/doc/mapLevels.pdf",
+    "lib/R/library/gdata/doc/unknown.R",
+    "lib/R/library/gdata/doc/unknown.Rnw",
+    "lib/R/library/gdata/doc/unknown.pdf",
+    "lib/R/library/gdata/help/AnIndex",
+    "lib/R/library/gdata/help/aliases.rds",
+    "lib/R/library/gdata/help/gdata.rdb",
+    "lib/R/library/gdata/help/gdata.rdx",
+    "lib/R/library/gdata/help/paths.rds",
+    "lib/R/library/gdata/html/00Index.html",
+    "lib/R/library/gdata/html/R.css",
+    "lib/R/library/gdata/perl/Archive/README-Archive-Zip",
+    "lib/R/library/gdata/perl/Archive/Zip.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/Archive.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/BufferedFileHandle.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/DirectoryMember.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/FAQ.pod",
+    "lib/R/library/gdata/perl/Archive/Zip/FileMember.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/Member.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/MemberRead.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/MockFileHandle.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/NewFileMember.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/StringMember.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/Tree.pm",
+    "lib/R/library/gdata/perl/Archive/Zip/ZipFileMember.pm",
+    "lib/R/library/gdata/perl/Crypt/RC4.pm",
+    "lib/R/library/gdata/perl/Digest/Perl/MD5.pm",
+    "lib/R/library/gdata/perl/Graphics/ColorUtils.pm",
+    "lib/R/library/gdata/perl/IO/AtomicFile.pm",
+    "lib/R/library/gdata/perl/IO/InnerFile.pm",
+    "lib/R/library/gdata/perl/IO/Lines.pm",
+    "lib/R/library/gdata/perl/IO/Scalar.pm",
+    "lib/R/library/gdata/perl/IO/Scalar.pm.html",
+    "lib/R/library/gdata/perl/IO/ScalarArray.pm",
+    "lib/R/library/gdata/perl/IO/Stringy.pm",
+    "lib/R/library/gdata/perl/IO/Wrap.pm",
+    "lib/R/library/gdata/perl/IO/WrapTie.pm",
+    "lib/R/library/gdata/perl/OLE/README-OLE-Storage_Lite",
+    "lib/R/library/gdata/perl/OLE/Storage_Lite.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Cell.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Dump.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtDefault.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtJapan.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtJapan2.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtUnicode.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Font.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Format.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser/Workbook.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser/Worksheet.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Utility.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Workbook.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Worksheet.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/ParseXLSX.pm",
+    "lib/R/library/gdata/perl/Spreadsheet/README-ParseExcel",
+    "lib/R/library/gdata/perl/Spreadsheet/README-XLS",
+    "lib/R/library/gdata/perl/VERSIONS",
+    "lib/R/library/gdata/perl/XML/Twig.pm",
+    "lib/R/library/gdata/perl/XML/Twig/XPath.pm",
+    "lib/R/library/gdata/perl/install_modules.pl",
+    "lib/R/library/gdata/perl/module_tools.pl",
+    "lib/R/library/gdata/perl/sheetCount.pl",
+    "lib/R/library/gdata/perl/sheetNames.pl",
+    "lib/R/library/gdata/perl/supportedFormats.pl",
+    "lib/R/library/gdata/perl/xls2csv.pl",
+    "lib/R/library/gdata/perl/xls2tab.pl",
+    "lib/R/library/gdata/perl/xls2tsv.pl",
+    "lib/R/library/gdata/xls/ExampleExcelFile.xls",
+    "lib/R/library/gdata/xls/ExampleExcelFile.xlsx",
+    "lib/R/library/gdata/xls/ExampleExcelFile_1900.xls",
+    "lib/R/library/gdata/xls/ExampleExcelFile_1900.xlsx",
+    "lib/R/library/gdata/xls/ExampleExcelFile_1904.xls",
+    "lib/R/library/gdata/xls/ExampleExcelFile_1904.xlsx",
+    "lib/R/library/gdata/xls/iris.xls",
+    "lib/R/library/gdata/xls/latin-1.xls",
+    "lib/R/library/gdata/xls/latin-1.xlsx",
+    "lib/R/library/gdata/xls/wide.xls",
+    "lib/R/library/gdata/xls/wide.xlsx"
+  ],
+  "fn": "r-gdata-2.17.0-r3.4.1_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-gdata-2.17.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "3904691ce5fe34cded49431d281374b0",
+  "name": "r-gdata",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-gdata-2.17.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gdata/ChangeLog",
+        "path_type": "hardlink",
+        "sha256": "5487d16d61bf2641249ad465e73d2334643120436961603c5a5a369a4a8a8361",
+        "sha256_in_prefix": "5487d16d61bf2641249ad465e73d2334643120436961603c5a5a369a4a8a8361",
+        "size_in_bytes": 40939
+      },
+      {
+        "_path": "lib/R/library/gdata/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "beeebe716b2a799846bae677812db96ccd91eddac26cd7d6fb2b6d8e29a7b5d6",
+        "sha256_in_prefix": "beeebe716b2a799846bae677812db96ccd91eddac26cd7d6fb2b6d8e29a7b5d6",
+        "size_in_bytes": 1876
+      },
+      {
+        "_path": "lib/R/library/gdata/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d266559abc9027566f5f88c1065f42745f4fbdfb11328ad6057b74184719e83a",
+        "sha256_in_prefix": "d266559abc9027566f5f88c1065f42745f4fbdfb11328ad6057b74184719e83a",
+        "size_in_bytes": 3621
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "4594fb83eb16e979b6d2c302007f959d8d08b80cee1a4e2f7aee0aecf72340ef",
+        "sha256_in_prefix": "4594fb83eb16e979b6d2c302007f959d8d08b80cee1a4e2f7aee0aecf72340ef",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "2e8c947ed39367fe752f967e7cb7497e55d3ffa58e7ba1defba0c92bd0993d57",
+        "sha256_in_prefix": "2e8c947ed39367fe752f967e7cb7497e55d3ffa58e7ba1defba0c92bd0993d57",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4f1a9f12a8830488e8926288899cdf4505d8b0ab0177239dcf9e30d217d3e85a",
+        "sha256_in_prefix": "4f1a9f12a8830488e8926288899cdf4505d8b0ab0177239dcf9e30d217d3e85a",
+        "size_in_bytes": 2684
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "16a8895439909a9915c7d612bf5d0c2a5ae46c701e4f695f7ac15366ae26283d",
+        "sha256_in_prefix": "16a8895439909a9915c7d612bf5d0c2a5ae46c701e4f695f7ac15366ae26283d",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d7a26068e622c7abb68ca137fb5d8993cf5b1c413d3887a283e25dfdb424df45",
+        "sha256_in_prefix": "d7a26068e622c7abb68ca137fb5d8993cf5b1c413d3887a283e25dfdb424df45",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d82be4e776b02ab2fb0953f5454b1ea3c31f730df31047d5c40e82992faab888",
+        "sha256_in_prefix": "d82be4e776b02ab2fb0953f5454b1ea3c31f730df31047d5c40e82992faab888",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/R/library/gdata/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "1aeb4a89ff4f6832eb34154b97afb10ca677609270ca9a41d7a58eca84baf059",
+        "sha256_in_prefix": "1aeb4a89ff4f6832eb34154b97afb10ca677609270ca9a41d7a58eca84baf059",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/gdata/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b7f713892625af9b43d489829550e4a8fbf674db3bbe086080ff8c491d63d583",
+        "sha256_in_prefix": "b7f713892625af9b43d489829550e4a8fbf674db3bbe086080ff8c491d63d583",
+        "size_in_bytes": 3503
+      },
+      {
+        "_path": "lib/R/library/gdata/NEWS",
+        "path_type": "hardlink",
+        "sha256": "d05df8422ad2a8a0627b80891aa5e53156d8ad5c35fe87d402839324689542b1",
+        "sha256_in_prefix": "d05df8422ad2a8a0627b80891aa5e53156d8ad5c35fe87d402839324689542b1",
+        "size_in_bytes": 19011
+      },
+      {
+        "_path": "lib/R/library/gdata/R/gdata",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gdata/R/gdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "d8699f454ae18b5d7982cf203d3432238c9372e83464cef3dcf73d24416ab38f",
+        "sha256_in_prefix": "d8699f454ae18b5d7982cf203d3432238c9372e83464cef3dcf73d24416ab38f",
+        "size_in_bytes": 41424
+      },
+      {
+        "_path": "lib/R/library/gdata/R/gdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "38187671a8deb2e6af8e9118c80dc15a201aee8b3d6b08268cfd7877e1992c1a",
+        "sha256_in_prefix": "38187671a8deb2e6af8e9118c80dc15a201aee8b3d6b08268cfd7877e1992c1a",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/R/library/gdata/bin/xls2csv",
+        "path_type": "hardlink",
+        "sha256": "905b7b1ef4721150a1c809a93b10dd51d7b38e5eece46ef41383b82a9535715b",
+        "sha256_in_prefix": "905b7b1ef4721150a1c809a93b10dd51d7b38e5eece46ef41383b82a9535715b",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "lib/R/library/gdata/bin/xls2csv.bat",
+        "path_type": "hardlink",
+        "sha256": "baa825048b486a57b470aec0db870128ef9d1914bf96d6858ae0a0bc09507351",
+        "sha256_in_prefix": "baa825048b486a57b470aec0db870128ef9d1914bf96d6858ae0a0bc09507351",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/R/library/gdata/data/MedUnits.rda",
+        "path_type": "hardlink",
+        "sha256": "6e69f139c1db269b215d85ead63fd123382774fef6655b5d546d4a447cd67bbc",
+        "sha256_in_prefix": "6e69f139c1db269b215d85ead63fd123382774fef6655b5d546d4a447cd67bbc",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/gregmisc.pdf",
+        "path_type": "hardlink",
+        "sha256": "9c154d874c4310d2708d376d4b1b65fa773ec4e2b93b331901f81343dcfcd2ad",
+        "sha256_in_prefix": "9c154d874c4310d2708d376d4b1b65fa773ec4e2b93b331901f81343dcfcd2ad",
+        "size_in_bytes": 116573
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "0987e0d53b39756b975099178d46ae84c6a680aeedda6369c0d43238e94fdc70",
+        "sha256_in_prefix": "0987e0d53b39756b975099178d46ae84c6a680aeedda6369c0d43238e94fdc70",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/mapLevels.R",
+        "path_type": "hardlink",
+        "sha256": "13fd1dd53a9087509bf3d22c97f547aa7cf2cea082b1646be95b32fb498c53dd",
+        "sha256_in_prefix": "13fd1dd53a9087509bf3d22c97f547aa7cf2cea082b1646be95b32fb498c53dd",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/mapLevels.Rnw",
+        "path_type": "hardlink",
+        "sha256": "6614c14c5701d087a678dfe113cd24921e43b6283db905e9301de59e0002ee71",
+        "sha256_in_prefix": "6614c14c5701d087a678dfe113cd24921e43b6283db905e9301de59e0002ee71",
+        "size_in_bytes": 8295
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/mapLevels.pdf",
+        "path_type": "hardlink",
+        "sha256": "6fc3a6d0602a4347d7a2c1b66c883ab5561024084459ec3af052dc51280727cd",
+        "sha256_in_prefix": "6fc3a6d0602a4347d7a2c1b66c883ab5561024084459ec3af052dc51280727cd",
+        "size_in_bytes": 101009
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/unknown.R",
+        "path_type": "hardlink",
+        "sha256": "605ef209d39379a33d643115598400f1428ec43c6431c6b20d7a1ad954a635bd",
+        "sha256_in_prefix": "605ef209d39379a33d643115598400f1428ec43c6431c6b20d7a1ad954a635bd",
+        "size_in_bytes": 3259
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/unknown.Rnw",
+        "path_type": "hardlink",
+        "sha256": "4fe030291a764e946afcf90866240f61423ab00ff1c3501df3431555360d46df",
+        "sha256_in_prefix": "4fe030291a764e946afcf90866240f61423ab00ff1c3501df3431555360d46df",
+        "size_in_bytes": 9973
+      },
+      {
+        "_path": "lib/R/library/gdata/doc/unknown.pdf",
+        "path_type": "hardlink",
+        "sha256": "52f0fb4d44e24befb37f5e56f9ed11a72654b775438b79da8fbdaf8d38d5985f",
+        "sha256_in_prefix": "52f0fb4d44e24befb37f5e56f9ed11a72654b775438b79da8fbdaf8d38d5985f",
+        "size_in_bytes": 107722
+      },
+      {
+        "_path": "lib/R/library/gdata/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "a9e0749545bec4d3e52350af80547e3f01bc45d952bf869fc0000aebf345e438",
+        "sha256_in_prefix": "a9e0749545bec4d3e52350af80547e3f01bc45d952bf869fc0000aebf345e438",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "lib/R/library/gdata/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4d22181ca66bc84d0dd8e0c16068f4cd9412b97ec1fd0017d691ccf4070ac7e0",
+        "sha256_in_prefix": "4d22181ca66bc84d0dd8e0c16068f4cd9412b97ec1fd0017d691ccf4070ac7e0",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "lib/R/library/gdata/help/gdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "3f8d4e00f5304803b53dada45ad0b6f976b4e0cada6bf2842b9c185956ba6585",
+        "sha256_in_prefix": "3f8d4e00f5304803b53dada45ad0b6f976b4e0cada6bf2842b9c185956ba6585",
+        "size_in_bytes": 145079
+      },
+      {
+        "_path": "lib/R/library/gdata/help/gdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "c0dd7767bac9301d0c07a09fe046513783ff18a7833b8d2b0b9d0835e51c0aeb",
+        "sha256_in_prefix": "c0dd7767bac9301d0c07a09fe046513783ff18a7833b8d2b0b9d0835e51c0aeb",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "lib/R/library/gdata/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "261320cbba0210bf44f89edb147e7f6800564fb29c0f1f2de31782b7d6d08680",
+        "sha256_in_prefix": "261320cbba0210bf44f89edb147e7f6800564fb29c0f1f2de31782b7d6d08680",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "lib/R/library/gdata/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4545dfed988e4686a9da55c94a67a0488338dbf378fd44ab4d65e96dac6b44b1",
+        "sha256_in_prefix": "4545dfed988e4686a9da55c94a67a0488338dbf378fd44ab4d65e96dac6b44b1",
+        "size_in_bytes": 19299
+      },
+      {
+        "_path": "lib/R/library/gdata/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/README-Archive-Zip",
+        "path_type": "hardlink",
+        "sha256": "e632bb80e3cfa346ce0b2bae9adc3986e6159c35e42cbdf648c22ffe00c182d4",
+        "sha256_in_prefix": "e632bb80e3cfa346ce0b2bae9adc3986e6159c35e42cbdf648c22ffe00c182d4",
+        "size_in_bytes": 47177
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip.pm",
+        "path_type": "hardlink",
+        "sha256": "99e5282678029da1e079b4bee922fa812f026677bd8b83f8663185c12c7737f0",
+        "sha256_in_prefix": "99e5282678029da1e079b4bee922fa812f026677bd8b83f8663185c12c7737f0",
+        "size_in_bytes": 60499
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/Archive.pm",
+        "path_type": "hardlink",
+        "sha256": "ce084660ee475aba1051c7d1f4a8fd355facfe0a5e3861f527304d74a726e446",
+        "sha256_in_prefix": "ce084660ee475aba1051c7d1f4a8fd355facfe0a5e3861f527304d74a726e446",
+        "size_in_bytes": 29395
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/BufferedFileHandle.pm",
+        "path_type": "hardlink",
+        "sha256": "159363180f874f883ba2bb6c5061120066a61e93e3ddf88ecbcc4830e7cd9266",
+        "sha256_in_prefix": "159363180f874f883ba2bb6c5061120066a61e93e3ddf88ecbcc4830e7cd9266",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/DirectoryMember.pm",
+        "path_type": "hardlink",
+        "sha256": "fc4a116b6cdd6c6c173f257ebc2c42dc74c34630dca6766ba114462b0e0e398d",
+        "sha256_in_prefix": "fc4a116b6cdd6c6c173f257ebc2c42dc74c34630dca6766ba114462b0e0e398d",
+        "size_in_bytes": 1999
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/FAQ.pod",
+        "path_type": "hardlink",
+        "sha256": "00b61eae3c6f39c79b95bb928e0740029b188c55db2e99f8f920033f994cc47d",
+        "sha256_in_prefix": "00b61eae3c6f39c79b95bb928e0740029b188c55db2e99f8f920033f994cc47d",
+        "size_in_bytes": 12510
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/FileMember.pm",
+        "path_type": "hardlink",
+        "sha256": "bfbf65c55e8cee3d14e4a23e0f44adc61f28799ff39afaf16a8327f1bb46e6fd",
+        "sha256_in_prefix": "bfbf65c55e8cee3d14e4a23e0f44adc61f28799ff39afaf16a8327f1bb46e6fd",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/Member.pm",
+        "path_type": "hardlink",
+        "sha256": "ab3dbd9361db0ff7811614c6e38d4074e40c683a25273705f65c32e0625847da",
+        "sha256_in_prefix": "ab3dbd9361db0ff7811614c6e38d4074e40c683a25273705f65c32e0625847da",
+        "size_in_bytes": 32530
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/MemberRead.pm",
+        "path_type": "hardlink",
+        "sha256": "1a13efd14362a50e180a080e92c1b3c2bf4e3d6403c3417f1fde58e6a5bbe0a8",
+        "sha256_in_prefix": "1a13efd14362a50e180a080e92c1b3c2bf4e3d6403c3417f1fde58e6a5bbe0a8",
+        "size_in_bytes": 7415
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/MockFileHandle.pm",
+        "path_type": "hardlink",
+        "sha256": "f68426f56fdc92d6bed9e27d33400f3d5b6feb20f7e6bb13d008bea5578e5121",
+        "sha256_in_prefix": "f68426f56fdc92d6bed9e27d33400f3d5b6feb20f7e6bb13d008bea5578e5121",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/NewFileMember.pm",
+        "path_type": "hardlink",
+        "sha256": "09f936eba67f6b2eb108dce50957d6e193feb33d38f261b2e1f84edd4dbd5dd9",
+        "sha256_in_prefix": "09f936eba67f6b2eb108dce50957d6e193feb33d38f261b2e1f84edd4dbd5dd9",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/StringMember.pm",
+        "path_type": "hardlink",
+        "sha256": "d43d68f45924f0356dcf5fa1388e70ee19fe0bc45ad14b5729a56b7c4702529e",
+        "sha256_in_prefix": "d43d68f45924f0356dcf5fa1388e70ee19fe0bc45ad14b5729a56b7c4702529e",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/Tree.pm",
+        "path_type": "hardlink",
+        "sha256": "b4ab2297ee4de6725d34df0afcd19e2810a439ba85a9b74dfc210579271a1185",
+        "sha256_in_prefix": "b4ab2297ee4de6725d34df0afcd19e2810a439ba85a9b74dfc210579271a1185",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Archive/Zip/ZipFileMember.pm",
+        "path_type": "hardlink",
+        "sha256": "f8605702f5610bf844c8513908bdbf9cb959c63f74dbbd0e492b1a714d411b74",
+        "sha256_in_prefix": "f8605702f5610bf844c8513908bdbf9cb959c63f74dbbd0e492b1a714d411b74",
+        "size_in_bytes": 13531
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Crypt/RC4.pm",
+        "path_type": "hardlink",
+        "sha256": "665d80751ce13b3b185be8ae56fb31a7f7c3c836fe45aed86625b1b4b483507e",
+        "sha256_in_prefix": "665d80751ce13b3b185be8ae56fb31a7f7c3c836fe45aed86625b1b4b483507e",
+        "size_in_bytes": 4897
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Digest/Perl/MD5.pm",
+        "path_type": "hardlink",
+        "sha256": "2332e3500d52bca8536d5b80f7b1862f66d84bbd6f4d107a6c61db7ce2c64b1d",
+        "sha256_in_prefix": "2332e3500d52bca8536d5b80f7b1862f66d84bbd6f4d107a6c61db7ce2c64b1d",
+        "size_in_bytes": 12762
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Graphics/ColorUtils.pm",
+        "path_type": "hardlink",
+        "sha256": "3f9d9f3349f93769536b20a6a3d3b8c220bceefa2bbb71f236a5c54cf3110e45",
+        "sha256_in_prefix": "3f9d9f3349f93769536b20a6a3d3b8c220bceefa2bbb71f236a5c54cf3110e45",
+        "size_in_bytes": 58936
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/AtomicFile.pm",
+        "path_type": "hardlink",
+        "sha256": "2b00da3b07ead2960c8f6970191da78d382a4475b31fd4bde973d2bfa5ea5ede",
+        "sha256_in_prefix": "2b00da3b07ead2960c8f6970191da78d382a4475b31fd4bde973d2bfa5ea5ede",
+        "size_in_bytes": 4837
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/InnerFile.pm",
+        "path_type": "hardlink",
+        "sha256": "7f64e6beee743cdc913c74adc7bb46a4bfde594ca47bd8217948a1395066b47f",
+        "sha256_in_prefix": "7f64e6beee743cdc913c74adc7bb46a4bfde594ca47bd8217948a1395066b47f",
+        "size_in_bytes": 5538
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/Lines.pm",
+        "path_type": "hardlink",
+        "sha256": "fce434ccb1bdd66447d6f5cfadd56c79c8e7dfa6e9c43efe96b09145a41549a6",
+        "sha256_in_prefix": "fce434ccb1bdd66447d6f5cfadd56c79c8e7dfa6e9c43efe96b09145a41549a6",
+        "size_in_bytes": 4315
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/Scalar.pm",
+        "path_type": "hardlink",
+        "sha256": "6811c1ebcd32b04686f1a0131c076ae2359a7a3b96000b6754d6fe16bff23bef",
+        "sha256_in_prefix": "6811c1ebcd32b04686f1a0131c076ae2359a7a3b96000b6754d6fe16bff23bef",
+        "size_in_bytes": 16736
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/Scalar.pm.html",
+        "path_type": "hardlink",
+        "sha256": "ae1d5f39eb501ff0f8e7176ffbd6f016f2c753211dafba61b9a409ebbc527575",
+        "sha256_in_prefix": "ae1d5f39eb501ff0f8e7176ffbd6f016f2c753211dafba61b9a409ebbc527575",
+        "size_in_bytes": 14450
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/ScalarArray.pm",
+        "path_type": "hardlink",
+        "sha256": "9e800ae7f79c3cd9f0c4287c9de741b280b8ed32a3306fe851e5598bcca83393",
+        "sha256_in_prefix": "9e800ae7f79c3cd9f0c4287c9de741b280b8ed32a3306fe851e5598bcca83393",
+        "size_in_bytes": 17588
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/Stringy.pm",
+        "path_type": "hardlink",
+        "sha256": "fcdf62a6a11240a1406c1bdcafc7ff0383dc74b0d04ee098630033be59217803",
+        "sha256_in_prefix": "fcdf62a6a11240a1406c1bdcafc7ff0383dc74b0d04ee098630033be59217803",
+        "size_in_bytes": 12104
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/Wrap.pm",
+        "path_type": "hardlink",
+        "sha256": "6ebce62f4c5f69baa8626bb02d1d82205bd87f099a3673d7f5211888b86e56bd",
+        "sha256_in_prefix": "6ebce62f4c5f69baa8626bb02d1d82205bd87f099a3673d7f5211888b86e56bd",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/IO/WrapTie.pm",
+        "path_type": "hardlink",
+        "sha256": "66a729029a9a26ca5fff6ffbeb2b15a92b03195516bec9db0d13a40b1d7ba058",
+        "sha256_in_prefix": "66a729029a9a26ca5fff6ffbeb2b15a92b03195516bec9db0d13a40b1d7ba058",
+        "size_in_bytes": 14756
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/OLE/README-OLE-Storage_Lite",
+        "path_type": "hardlink",
+        "sha256": "f1d6394d7cfecd30ffc1c9faab7a03a43000a89c52f7f27ef139513eb68ccada",
+        "sha256_in_prefix": "f1d6394d7cfecd30ffc1c9faab7a03a43000a89c52f7f27ef139513eb68ccada",
+        "size_in_bytes": 955
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/OLE/Storage_Lite.pm",
+        "path_type": "hardlink",
+        "sha256": "ff792a76394d99bc5ccda3535b49a444e4585c3e21f450522a69c40bbd4b4367",
+        "sha256_in_prefix": "ff792a76394d99bc5ccda3535b49a444e4585c3e21f450522a69c40bbd4b4367",
+        "size_in_bytes": 54351
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel.pm",
+        "path_type": "hardlink",
+        "sha256": "a89be0d06fb182339baf2bcc53554a2eb11a595b735e85fba2d99d3455f2fd61",
+        "sha256_in_prefix": "a89be0d06fb182339baf2bcc53554a2eb11a595b735e85fba2d99d3455f2fd61",
+        "size_in_bytes": 115324
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Cell.pm",
+        "path_type": "hardlink",
+        "sha256": "3fe9b57ed1bb20fe0d0fdaba7d92a51f43d077ae103da14f6871fb43e66cba99",
+        "sha256_in_prefix": "3fe9b57ed1bb20fe0d0fdaba7d92a51f43d077ae103da14f6871fb43e66cba99",
+        "size_in_bytes": 9473
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Dump.pm",
+        "path_type": "hardlink",
+        "sha256": "289dc14afb1bf175ce70c8b59d8c2ac971ded1b9802a1fadee2903c50dc7be41",
+        "sha256_in_prefix": "289dc14afb1bf175ce70c8b59d8c2ac971ded1b9802a1fadee2903c50dc7be41",
+        "size_in_bytes": 8055
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtDefault.pm",
+        "path_type": "hardlink",
+        "sha256": "1f8f0dcdd79e1cda32953ad058379816f846b0904736616b0acbd874617a1fe0",
+        "sha256_in_prefix": "1f8f0dcdd79e1cda32953ad058379816f846b0904736616b0acbd874617a1fe0",
+        "size_in_bytes": 6419
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtJapan.pm",
+        "path_type": "hardlink",
+        "sha256": "5e12e8aa5b8ed91eb7746f5625a3f0ed622c0e9baf6dfa13b0c444876675e8d1",
+        "sha256_in_prefix": "5e12e8aa5b8ed91eb7746f5625a3f0ed622c0e9baf6dfa13b0c444876675e8d1",
+        "size_in_bytes": 5664
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtJapan2.pm",
+        "path_type": "hardlink",
+        "sha256": "3c9894b11460bb5a9c870ca70e6ec7379883345d9c154f78b5a2923f91a7db7c",
+        "sha256_in_prefix": "3c9894b11460bb5a9c870ca70e6ec7379883345d9c154f78b5a2923f91a7db7c",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/FmtUnicode.pm",
+        "path_type": "hardlink",
+        "sha256": "68e0f6b2be9966c7b1bf6516c256620e9635d9579577e202756d321e63ed4256",
+        "sha256_in_prefix": "68e0f6b2be9966c7b1bf6516c256620e9635d9579577e202756d321e63ed4256",
+        "size_in_bytes": 2758
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Font.pm",
+        "path_type": "hardlink",
+        "sha256": "d6310a207cca95a21b1f2efee8027e49cbba2b112d4bf58ac2d7a7ff756d4538",
+        "sha256_in_prefix": "d6310a207cca95a21b1f2efee8027e49cbba2b112d4bf58ac2d7a7ff756d4538",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Format.pm",
+        "path_type": "hardlink",
+        "sha256": "51158adfc123df7d5606142681153b7a2e4253f6d373039a1e2409c0dd041208",
+        "sha256_in_prefix": "51158adfc123df7d5606142681153b7a2e4253f6d373039a1e2409c0dd041208",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser.pm",
+        "path_type": "hardlink",
+        "sha256": "6d79c5f23829b72e7600a742ed59ac98282fa2bfd0b940179ac3d6a83143100e",
+        "sha256_in_prefix": "6d79c5f23829b72e7600a742ed59ac98282fa2bfd0b940179ac3d6a83143100e",
+        "size_in_bytes": 7869
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser/Workbook.pm",
+        "path_type": "hardlink",
+        "sha256": "810efc3641ab25137b1102128d12a2a2ff071abab39bbcc82f6f5154f713c1e1",
+        "sha256_in_prefix": "810efc3641ab25137b1102128d12a2a2ff071abab39bbcc82f6f5154f713c1e1",
+        "size_in_bytes": 15369
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/SaveParser/Worksheet.pm",
+        "path_type": "hardlink",
+        "sha256": "091daae7b06948521e965ff2cfa6e7be2519bf2585f63c5659894b4c812fa10f",
+        "sha256_in_prefix": "091daae7b06948521e965ff2cfa6e7be2519bf2585f63c5659894b4c812fa10f",
+        "size_in_bytes": 2657
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Utility.pm",
+        "path_type": "hardlink",
+        "sha256": "5a46fcede3185ea4c71e0de3e7eeeddcecd8f7434786aebb37d7cc8847c0c49b",
+        "sha256_in_prefix": "5a46fcede3185ea4c71e0de3e7eeeddcecd8f7434786aebb37d7cc8847c0c49b",
+        "size_in_bytes": 55663
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Workbook.pm",
+        "path_type": "hardlink",
+        "sha256": "75663d9ad10ac02559e23dfafd33128f4f5a70c3df045ffee52e3eff70217692",
+        "sha256_in_prefix": "75663d9ad10ac02559e23dfafd33128f4f5a70c3df045ffee52e3eff70217692",
+        "size_in_bytes": 7190
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseExcel/Worksheet.pm",
+        "path_type": "hardlink",
+        "sha256": "47af1852b7e951757abbfe57f80e22d65690371e7014ebbb2f76de9b1e50c506",
+        "sha256_in_prefix": "47af1852b7e951757abbfe57f80e22d65690371e7014ebbb2f76de9b1e50c506",
+        "size_in_bytes": 24494
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/ParseXLSX.pm",
+        "path_type": "hardlink",
+        "sha256": "5b9c7a9557fae07eb26c174251b5625fc528e683b2239eab90df1f510a32f616",
+        "sha256_in_prefix": "5b9c7a9557fae07eb26c174251b5625fc528e683b2239eab90df1f510a32f616",
+        "size_in_bytes": 28257
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/README-ParseExcel",
+        "path_type": "hardlink",
+        "sha256": "3af0b9e3c5424b0ae78fe5276cd07d74cef09627a608b7dbbf1148e819f1e385",
+        "sha256_in_prefix": "3af0b9e3c5424b0ae78fe5276cd07d74cef09627a608b7dbbf1148e819f1e385",
+        "size_in_bytes": 2396
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/Spreadsheet/README-XLS",
+        "path_type": "hardlink",
+        "sha256": "3eba346a25faaaeed1a0e1cd8d1f1c4fba4079d0ab064b33aa7d673739854e82",
+        "sha256_in_prefix": "3eba346a25faaaeed1a0e1cd8d1f1c4fba4079d0ab064b33aa7d673739854e82",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/VERSIONS",
+        "path_type": "hardlink",
+        "sha256": "6a200a29eb15e6bd1ecf0840d89f137c314687135cca9c2465bcdce43cf91a0c",
+        "sha256_in_prefix": "6a200a29eb15e6bd1ecf0840d89f137c314687135cca9c2465bcdce43cf91a0c",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/XML/Twig.pm",
+        "path_type": "hardlink",
+        "sha256": "eb43e9c550cca950733950a9eaebf60b1acb26575efb4a9eb74b6322884b088d",
+        "sha256_in_prefix": "eb43e9c550cca950733950a9eaebf60b1acb26575efb4a9eb74b6322884b088d",
+        "size_in_bytes": 476517
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/XML/Twig/XPath.pm",
+        "path_type": "hardlink",
+        "sha256": "bc31132b9142ef10b1d0c36b83220c6d30b7a6ea53a01ddd19698e69d0f609f6",
+        "sha256_in_prefix": "bc31132b9142ef10b1d0c36b83220c6d30b7a6ea53a01ddd19698e69d0f609f6",
+        "size_in_bytes": 7699
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/install_modules.pl",
+        "path_type": "hardlink",
+        "sha256": "6c7c90e093c47d1194d3f342ad89955768847aaf5d72dbc3c2a8569c56217f4a",
+        "sha256_in_prefix": "6c7c90e093c47d1194d3f342ad89955768847aaf5d72dbc3c2a8569c56217f4a",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/module_tools.pl",
+        "path_type": "hardlink",
+        "sha256": "a6397ac67db9ab76f64109b84b64dd737f26e882df061db6635948b69d34fc0d",
+        "sha256_in_prefix": "a6397ac67db9ab76f64109b84b64dd737f26e882df061db6635948b69d34fc0d",
+        "size_in_bytes": 2938
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/sheetCount.pl",
+        "path_type": "hardlink",
+        "sha256": "67937c5ce6e0cfb300e415a7cb57225a0df18000c9af1555de3c64191a3c940d",
+        "sha256_in_prefix": "67937c5ce6e0cfb300e415a7cb57225a0df18000c9af1555de3c64191a3c940d",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/sheetNames.pl",
+        "path_type": "hardlink",
+        "sha256": "67937c5ce6e0cfb300e415a7cb57225a0df18000c9af1555de3c64191a3c940d",
+        "sha256_in_prefix": "67937c5ce6e0cfb300e415a7cb57225a0df18000c9af1555de3c64191a3c940d",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/supportedFormats.pl",
+        "path_type": "hardlink",
+        "sha256": "06db80decdf2783643c310807d859a5ad326ba632c170d86023cb2b68463cf15",
+        "sha256_in_prefix": "06db80decdf2783643c310807d859a5ad326ba632c170d86023cb2b68463cf15",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/xls2csv.pl",
+        "path_type": "hardlink",
+        "sha256": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "sha256_in_prefix": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "size_in_bytes": 7149
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/xls2tab.pl",
+        "path_type": "hardlink",
+        "sha256": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "sha256_in_prefix": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "size_in_bytes": 7149
+      },
+      {
+        "_path": "lib/R/library/gdata/perl/xls2tsv.pl",
+        "path_type": "hardlink",
+        "sha256": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "sha256_in_prefix": "9190a8b4f4905d6bca1ca531b0bf158ce2359407dd50d2f6c7e5a81e523df91d",
+        "size_in_bytes": 7149
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile.xls",
+        "path_type": "hardlink",
+        "sha256": "d493e9b26302e2d26d28306ab19f08877bc51964631df53266839272742f1bc4",
+        "sha256_in_prefix": "d493e9b26302e2d26d28306ab19f08877bc51964631df53266839272742f1bc4",
+        "size_in_bytes": 61952
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile.xlsx",
+        "path_type": "hardlink",
+        "sha256": "7085186a8ed5feab0e82212bd6e8a7e750164fe0beff1cbcb1540dc738bb86f0",
+        "sha256_in_prefix": "7085186a8ed5feab0e82212bd6e8a7e750164fe0beff1cbcb1540dc738bb86f0",
+        "size_in_bytes": 43228
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile_1900.xls",
+        "path_type": "hardlink",
+        "sha256": "c4cfe102a3125d7c3750794470cea91d62d7e6dbfcf145c4be886d9b28070fe1",
+        "sha256_in_prefix": "c4cfe102a3125d7c3750794470cea91d62d7e6dbfcf145c4be886d9b28070fe1",
+        "size_in_bytes": 61952
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile_1900.xlsx",
+        "path_type": "hardlink",
+        "sha256": "323e43ede3fed025a321fcc11790fe875325bb8f2ec781a969bd67db5d095786",
+        "sha256_in_prefix": "323e43ede3fed025a321fcc11790fe875325bb8f2ec781a969bd67db5d095786",
+        "size_in_bytes": 43237
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile_1904.xls",
+        "path_type": "hardlink",
+        "sha256": "fb049fbb8051a376e0d1f7cdefd512e7802f335cb4917ae5e7c81766a67b8c49",
+        "sha256_in_prefix": "fb049fbb8051a376e0d1f7cdefd512e7802f335cb4917ae5e7c81766a67b8c49",
+        "size_in_bytes": 61952
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/ExampleExcelFile_1904.xlsx",
+        "path_type": "hardlink",
+        "sha256": "688ef37d27506d972cfff48cee14efaaab2b7c6ec2e2b0b5edff19d5619caee1",
+        "sha256_in_prefix": "688ef37d27506d972cfff48cee14efaaab2b7c6ec2e2b0b5edff19d5619caee1",
+        "size_in_bytes": 43197
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/iris.xls",
+        "path_type": "hardlink",
+        "sha256": "9c0dc78731ad452051ba73a2e557b0571f94ecbb933081d4f942c1d781d75681",
+        "sha256_in_prefix": "9c0dc78731ad452051ba73a2e557b0571f94ecbb933081d4f942c1d781d75681",
+        "size_in_bytes": 50176
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/latin-1.xls",
+        "path_type": "hardlink",
+        "sha256": "32afb3eded8787e19aaeec7b13fa3264194c68489c5ca46f0c819c12e725c648",
+        "sha256_in_prefix": "32afb3eded8787e19aaeec7b13fa3264194c68489c5ca46f0c819c12e725c648",
+        "size_in_bytes": 43008
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/latin-1.xlsx",
+        "path_type": "hardlink",
+        "sha256": "b11665745c0e1dfdee2e8a744ea443fe18bfc14630a72292535ef869b1c4917e",
+        "sha256_in_prefix": "b11665745c0e1dfdee2e8a744ea443fe18bfc14630a72292535ef869b1c4917e",
+        "size_in_bytes": 44001
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/wide.xls",
+        "path_type": "hardlink",
+        "sha256": "421ef70be97de14dbcffaa000af6839aeb2d15f63ce39a1a52e354204bdf97eb",
+        "sha256_in_prefix": "421ef70be97de14dbcffaa000af6839aeb2d15f63ce39a1a52e354204bdf97eb",
+        "size_in_bytes": 31744
+      },
+      {
+        "_path": "lib/R/library/gdata/xls/wide.xlsx",
+        "path_type": "hardlink",
+        "sha256": "1199facc48b9d2a8cb13c1bb8b361a86b403f8a5fa96fe3044b3717aa465f5fb",
+        "sha256_in_prefix": "1199facc48b9d2a8cb13c1bb8b361a86b403f8a5fa96fe3044b3717aa465f5fb",
+        "size_in_bytes": 170289
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-gdata=2.17.0",
+  "size": 1061738,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-gdata-2.17.0-r3.4.1_0.tar.bz2",
+  "version": "2.17.0"
+}

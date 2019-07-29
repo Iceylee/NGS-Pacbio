@@ -1,0 +1,1650 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base 3.4.1*",
+    "r-digest",
+    "r-evaluate >=0.10",
+    "r-highr",
+    "r-markdown",
+    "r-stringr >=0.6",
+    "r-yaml"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-knitr-1.16-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/knitr/CITATION",
+    "lib/R/library/knitr/DESCRIPTION",
+    "lib/R/library/knitr/INDEX",
+    "lib/R/library/knitr/Meta/Rd.rds",
+    "lib/R/library/knitr/Meta/demo.rds",
+    "lib/R/library/knitr/Meta/features.rds",
+    "lib/R/library/knitr/Meta/hsearch.rds",
+    "lib/R/library/knitr/Meta/links.rds",
+    "lib/R/library/knitr/Meta/nsInfo.rds",
+    "lib/R/library/knitr/Meta/package.rds",
+    "lib/R/library/knitr/Meta/vignette.rds",
+    "lib/R/library/knitr/NAMESPACE",
+    "lib/R/library/knitr/NEWS.Rd",
+    "lib/R/library/knitr/R/knitr",
+    "lib/R/library/knitr/R/knitr.rdb",
+    "lib/R/library/knitr/R/knitr.rdx",
+    "lib/R/library/knitr/bin/knit",
+    "lib/R/library/knitr/demo/gwidgets.R",
+    "lib/R/library/knitr/demo/notebook.R",
+    "lib/R/library/knitr/doc/datatables.R",
+    "lib/R/library/knitr/doc/datatables.Rmd",
+    "lib/R/library/knitr/doc/datatables.html",
+    "lib/R/library/knitr/doc/docco-classic.R",
+    "lib/R/library/knitr/doc/docco-classic.Rmd",
+    "lib/R/library/knitr/doc/docco-classic.html",
+    "lib/R/library/knitr/doc/docco-linear.R",
+    "lib/R/library/knitr/doc/docco-linear.Rmd",
+    "lib/R/library/knitr/doc/docco-linear.html",
+    "lib/R/library/knitr/doc/index.html",
+    "lib/R/library/knitr/doc/knit_expand.R",
+    "lib/R/library/knitr/doc/knit_expand.Rmd",
+    "lib/R/library/knitr/doc/knit_expand.html",
+    "lib/R/library/knitr/doc/knit_print.R",
+    "lib/R/library/knitr/doc/knit_print.Rmd",
+    "lib/R/library/knitr/doc/knit_print.html",
+    "lib/R/library/knitr/doc/knitr-html.R",
+    "lib/R/library/knitr/doc/knitr-html.Rhtml",
+    "lib/R/library/knitr/doc/knitr-html.html",
+    "lib/R/library/knitr/doc/knitr-intro.R",
+    "lib/R/library/knitr/doc/knitr-intro.Rmd",
+    "lib/R/library/knitr/doc/knitr-intro.html",
+    "lib/R/library/knitr/doc/knitr-markdown.R",
+    "lib/R/library/knitr/doc/knitr-markdown.Rmd",
+    "lib/R/library/knitr/doc/knitr-markdown.html",
+    "lib/R/library/knitr/doc/knitr-refcard.Rmd",
+    "lib/R/library/knitr/doc/knitr-refcard.pdf",
+    "lib/R/library/knitr/examples/README.md",
+    "lib/R/library/knitr/examples/Sweavel.sty",
+    "lib/R/library/knitr/examples/child/knitr-child-a.Rnw",
+    "lib/R/library/knitr/examples/child/knitr-child-b.Rnw",
+    "lib/R/library/knitr/examples/child/knitr-child.Rmd",
+    "lib/R/library/knitr/examples/child/knitr-main.Rmd",
+    "lib/R/library/knitr/examples/child/knitr-main.Rnw",
+    "lib/R/library/knitr/examples/child/knitr-parent.Rnw",
+    "lib/R/library/knitr/examples/child/sub/knitr-child-c.Rnw",
+    "lib/R/library/knitr/examples/download_count.csv",
+    "lib/R/library/knitr/examples/knit-all.R",
+    "lib/R/library/knitr/examples/knitr-beamer.Rnw",
+    "lib/R/library/knitr/examples/knitr-beamer.lyx",
+    "lib/R/library/knitr/examples/knitr-graphics.Rnw",
+    "lib/R/library/knitr/examples/knitr-graphics.lyx",
+    "lib/R/library/knitr/examples/knitr-input-child.Rnw",
+    "lib/R/library/knitr/examples/knitr-input.Rnw",
+    "lib/R/library/knitr/examples/knitr-latex.Rtex",
+    "lib/R/library/knitr/examples/knitr-listings.Rnw",
+    "lib/R/library/knitr/examples/knitr-listings.lyx",
+    "lib/R/library/knitr/examples/knitr-manual.Rnw",
+    "lib/R/library/knitr/examples/knitr-manual.bib",
+    "lib/R/library/knitr/examples/knitr-manual.lyx",
+    "lib/R/library/knitr/examples/knitr-minimal.Rmd",
+    "lib/R/library/knitr/examples/knitr-minimal.Rnw",
+    "lib/R/library/knitr/examples/knitr-minimal.Rrst",
+    "lib/R/library/knitr/examples/knitr-minimal.brew",
+    "lib/R/library/knitr/examples/knitr-minimal.lyx",
+    "lib/R/library/knitr/examples/knitr-packages.bib",
+    "lib/R/library/knitr/examples/knitr-spin.R",
+    "lib/R/library/knitr/examples/knitr-spin.Rmd",
+    "lib/R/library/knitr/examples/knitr-spin.html",
+    "lib/R/library/knitr/examples/knitr-subfloats.Rnw",
+    "lib/R/library/knitr/examples/knitr-subfloats.lyx",
+    "lib/R/library/knitr/examples/knitr-themes.Rnw",
+    "lib/R/library/knitr/examples/knitr-themes.lyx",
+    "lib/R/library/knitr/examples/knitr-twocolumn.Rnw",
+    "lib/R/library/knitr/examples/knitr-twocolumn.lyx",
+    "lib/R/library/knitr/examples/upload-github.R",
+    "lib/R/library/knitr/help/AnIndex",
+    "lib/R/library/knitr/help/aliases.rds",
+    "lib/R/library/knitr/help/knitr.rdb",
+    "lib/R/library/knitr/help/knitr.rdx",
+    "lib/R/library/knitr/help/paths.rds",
+    "lib/R/library/knitr/html/00Index.html",
+    "lib/R/library/knitr/html/R.css",
+    "lib/R/library/knitr/misc/R.css",
+    "lib/R/library/knitr/misc/Sweavel.sty",
+    "lib/R/library/knitr/misc/datatables.html",
+    "lib/R/library/knitr/misc/docco-classic.css",
+    "lib/R/library/knitr/misc/docco-classic.html",
+    "lib/R/library/knitr/misc/docco-template.html",
+    "lib/R/library/knitr/misc/framed.sty",
+    "lib/R/library/knitr/misc/gWidgetsWWW2-knitr.R",
+    "lib/R/library/knitr/misc/knitr-template.Rhtml",
+    "lib/R/library/knitr/misc/knitr-template.Rmd",
+    "lib/R/library/knitr/misc/knitr-template.Rnw",
+    "lib/R/library/knitr/misc/knitr.css",
+    "lib/R/library/knitr/misc/knitr.sty",
+    "lib/R/library/knitr/misc/stitch-test.R",
+    "lib/R/library/knitr/misc/tikz2pdf.tex",
+    "lib/R/library/knitr/misc/toggleR.js",
+    "lib/R/library/knitr/misc/tweak_bib.csv",
+    "lib/R/library/knitr/misc/vignette.css",
+    "lib/R/library/knitr/misc/vignette.html",
+    "lib/R/library/knitr/opencpu/apps/index.html",
+    "lib/R/library/knitr/shiny/server.R",
+    "lib/R/library/knitr/shiny/ui.R",
+    "lib/R/library/knitr/shiny/www/ace-shiny.css",
+    "lib/R/library/knitr/shiny/www/ace-shiny.js",
+    "lib/R/library/knitr/themes/acid.css",
+    "lib/R/library/knitr/themes/aiseered.css",
+    "lib/R/library/knitr/themes/andes.css",
+    "lib/R/library/knitr/themes/anotherdark.css",
+    "lib/R/library/knitr/themes/autumn.css",
+    "lib/R/library/knitr/themes/baycomb.css",
+    "lib/R/library/knitr/themes/bclear.css",
+    "lib/R/library/knitr/themes/biogoo.css",
+    "lib/R/library/knitr/themes/bipolar.css",
+    "lib/R/library/knitr/themes/blacknblue.css",
+    "lib/R/library/knitr/themes/bluegreen.css",
+    "lib/R/library/knitr/themes/breeze.css",
+    "lib/R/library/knitr/themes/bright.css",
+    "lib/R/library/knitr/themes/camo.css",
+    "lib/R/library/knitr/themes/candy.css",
+    "lib/R/library/knitr/themes/clarity.css",
+    "lib/R/library/knitr/themes/dante.css",
+    "lib/R/library/knitr/themes/darkblue.css",
+    "lib/R/library/knitr/themes/darkbone.css",
+    "lib/R/library/knitr/themes/darkness.css",
+    "lib/R/library/knitr/themes/darkslategray.css",
+    "lib/R/library/knitr/themes/darkspectrum.css",
+    "lib/R/library/knitr/themes/default.css",
+    "lib/R/library/knitr/themes/denim.css",
+    "lib/R/library/knitr/themes/dusk.css",
+    "lib/R/library/knitr/themes/earendel.css",
+    "lib/R/library/knitr/themes/easter.css",
+    "lib/R/library/knitr/themes/edit-anjuta.css",
+    "lib/R/library/knitr/themes/edit-eclipse.css",
+    "lib/R/library/knitr/themes/edit-emacs.css",
+    "lib/R/library/knitr/themes/edit-flashdevelop.css",
+    "lib/R/library/knitr/themes/edit-gedit.css",
+    "lib/R/library/knitr/themes/edit-jedit.css",
+    "lib/R/library/knitr/themes/edit-kwrite.css",
+    "lib/R/library/knitr/themes/edit-matlab.css",
+    "lib/R/library/knitr/themes/edit-msvs2008.css",
+    "lib/R/library/knitr/themes/edit-nedit.css",
+    "lib/R/library/knitr/themes/edit-vim-dark.css",
+    "lib/R/library/knitr/themes/edit-vim.css",
+    "lib/R/library/knitr/themes/edit-xcode.css",
+    "lib/R/library/knitr/themes/ekvoli.css",
+    "lib/R/library/knitr/themes/fine_blue.css",
+    "lib/R/library/knitr/themes/freya.css",
+    "lib/R/library/knitr/themes/fruit.css",
+    "lib/R/library/knitr/themes/golden.css",
+    "lib/R/library/knitr/themes/greenlcd.css",
+    "lib/R/library/knitr/themes/greyscale0.css",
+    "lib/R/library/knitr/themes/greyscale1.css",
+    "lib/R/library/knitr/themes/greyscale2.css",
+    "lib/R/library/knitr/themes/kellys.css",
+    "lib/R/library/knitr/themes/leo.css",
+    "lib/R/library/knitr/themes/lucretia.css",
+    "lib/R/library/knitr/themes/manxome.css",
+    "lib/R/library/knitr/themes/maroloccio.css",
+    "lib/R/library/knitr/themes/matrix.css",
+    "lib/R/library/knitr/themes/moe.css",
+    "lib/R/library/knitr/themes/molokai.css",
+    "lib/R/library/knitr/themes/moria.css",
+    "lib/R/library/knitr/themes/navajo-night.css",
+    "lib/R/library/knitr/themes/navy.css",
+    "lib/R/library/knitr/themes/neon.css",
+    "lib/R/library/knitr/themes/night.css",
+    "lib/R/library/knitr/themes/nightshimmer.css",
+    "lib/R/library/knitr/themes/nuvola.css",
+    "lib/R/library/knitr/themes/olive.css",
+    "lib/R/library/knitr/themes/orion.css",
+    "lib/R/library/knitr/themes/oxygenated.css",
+    "lib/R/library/knitr/themes/pablo.css",
+    "lib/R/library/knitr/themes/peaksea.css",
+    "lib/R/library/knitr/themes/print.css",
+    "lib/R/library/knitr/themes/rand01.css",
+    "lib/R/library/knitr/themes/rdark.css",
+    "lib/R/library/knitr/themes/relaxedgreen.css",
+    "lib/R/library/knitr/themes/rootwater.css",
+    "lib/R/library/knitr/themes/seashell.css",
+    "lib/R/library/knitr/themes/solarized-dark.css",
+    "lib/R/library/knitr/themes/solarized-light.css",
+    "lib/R/library/knitr/themes/tabula.css",
+    "lib/R/library/knitr/themes/tcsoft.css",
+    "lib/R/library/knitr/themes/vampire.css",
+    "lib/R/library/knitr/themes/whitengrey.css",
+    "lib/R/library/knitr/themes/xoria256.css",
+    "lib/R/library/knitr/themes/zellner.css",
+    "lib/R/library/knitr/themes/zenburn.css",
+    "lib/R/library/knitr/themes/zmrok.css"
+  ],
+  "fn": "r-knitr-1.16-r3.4.1_0.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-knitr-1.16-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "3b3694759c14d0633f9335513b283c9f",
+  "name": "r-knitr",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-knitr-1.16-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/knitr/CITATION",
+        "path_type": "hardlink",
+        "sha256": "754c761d2eb63672bc43d33b724f6e54f871982a5a8dca3a78ff9ebd39d0b6c1",
+        "sha256_in_prefix": "754c761d2eb63672bc43d33b724f6e54f871982a5a8dca3a78ff9ebd39d0b6c1",
+        "size_in_bytes": 1676
+      },
+      {
+        "_path": "lib/R/library/knitr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "620cbf45559abbc21adaf40f5995aada542b8b5a7eff99cc817fbcd0387b261c",
+        "sha256_in_prefix": "620cbf45559abbc21adaf40f5995aada542b8b5a7eff99cc817fbcd0387b261c",
+        "size_in_bytes": 7619
+      },
+      {
+        "_path": "lib/R/library/knitr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "38c2f0223f8ea64bd6159e710ef7a3a7f8d06906c638fd5d4023df51d51a95fb",
+        "sha256_in_prefix": "38c2f0223f8ea64bd6159e710ef7a3a7f8d06906c638fd5d4023df51d51a95fb",
+        "size_in_bytes": 4855
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "89ccb944d4417dce50978559d5e3e9b2841948fb65179fdce43936b0da577404",
+        "sha256_in_prefix": "89ccb944d4417dce50978559d5e3e9b2841948fb65179fdce43936b0da577404",
+        "size_in_bytes": 2972
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "9a6f3580a9edf964455c7fdc1400d08d6e0de15318f8f9ca4d1c39324f7068dd",
+        "sha256_in_prefix": "9a6f3580a9edf964455c7fdc1400d08d6e0de15318f8f9ca4d1c39324f7068dd",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0593c1b3bae18b5bca78bd512a95a2a3ae2cef67ed523bce23f4239f6ac0f56a",
+        "sha256_in_prefix": "0593c1b3bae18b5bca78bd512a95a2a3ae2cef67ed523bce23f4239f6ac0f56a",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1c5df13ff87c783ce02419ed15fbae5fb580f1281f3fa61a85dfff4ed7fd0f31",
+        "sha256_in_prefix": "1c5df13ff87c783ce02419ed15fbae5fb580f1281f3fa61a85dfff4ed7fd0f31",
+        "size_in_bytes": 1205
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "97db173ef1e856610b1b03ea4cbc32e16da014ce0d357e73ed2ce7c329562713",
+        "sha256_in_prefix": "97db173ef1e856610b1b03ea4cbc32e16da014ce0d357e73ed2ce7c329562713",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "147e07e5548336107ce26f2085118cd5458514e456604c7f192b8457e6f2e29d",
+        "sha256_in_prefix": "147e07e5548336107ce26f2085118cd5458514e456604c7f192b8457e6f2e29d",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "lib/R/library/knitr/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "1d97c85a77cc1fb98c10503f8399f4e23853bfc14a58e009020fe1fe675b90a3",
+        "sha256_in_prefix": "1d97c85a77cc1fb98c10503f8399f4e23853bfc14a58e009020fe1fe675b90a3",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/R/library/knitr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e10921c182dc69827bf461f8858f5c759493ca22d581e5e00784d19091f6c83f",
+        "sha256_in_prefix": "e10921c182dc69827bf461f8858f5c759493ca22d581e5e00784d19091f6c83f",
+        "size_in_bytes": 2741
+      },
+      {
+        "_path": "lib/R/library/knitr/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "9820860ad03feeec84935843541e3594994df164c0bebdb92e0ca989fc7e8bfa",
+        "sha256_in_prefix": "9820860ad03feeec84935843541e3594994df164c0bebdb92e0ca989fc7e8bfa",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/knitr/R/knitr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/knitr/R/knitr.rdb",
+        "path_type": "hardlink",
+        "sha256": "46bffc600b71dd862f183af7fe902e589b194879b0f99ba4ec9e3bd5f00fb562",
+        "sha256_in_prefix": "46bffc600b71dd862f183af7fe902e589b194879b0f99ba4ec9e3bd5f00fb562",
+        "size_in_bytes": 203934
+      },
+      {
+        "_path": "lib/R/library/knitr/R/knitr.rdx",
+        "path_type": "hardlink",
+        "sha256": "7c4da3100943f55793a086c73ea4303e455fd90d45e29d42c3cc94ddd5ac1d92",
+        "sha256_in_prefix": "7c4da3100943f55793a086c73ea4303e455fd90d45e29d42c3cc94ddd5ac1d92",
+        "size_in_bytes": 5672
+      },
+      {
+        "_path": "lib/R/library/knitr/bin/knit",
+        "path_type": "hardlink",
+        "sha256": "cd75daf8160ca7cf5ada44c12d7981e41339368f52eacc55857919710680a83f",
+        "sha256_in_prefix": "cd75daf8160ca7cf5ada44c12d7981e41339368f52eacc55857919710680a83f",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "lib/R/library/knitr/demo/gwidgets.R",
+        "path_type": "hardlink",
+        "sha256": "8219b45e9a7a75520b988878502030dba5c7d16542924fd2b3062ed07dd0c4dc",
+        "sha256_in_prefix": "8219b45e9a7a75520b988878502030dba5c7d16542924fd2b3062ed07dd0c4dc",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/R/library/knitr/demo/notebook.R",
+        "path_type": "hardlink",
+        "sha256": "011e97fd2e9091f2b8175bed5a2ddd096ddcb02d8c7943c4334f526b2cf2da4b",
+        "sha256_in_prefix": "011e97fd2e9091f2b8175bed5a2ddd096ddcb02d8c7943c4334f526b2cf2da4b",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/datatables.R",
+        "path_type": "hardlink",
+        "sha256": "ecdcac7afe4df7b98a745f97692ea6d7d25e6fbc14ea42912d184ec493ea9364",
+        "sha256_in_prefix": "ecdcac7afe4df7b98a745f97692ea6d7d25e6fbc14ea42912d184ec493ea9364",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/datatables.Rmd",
+        "path_type": "hardlink",
+        "sha256": "484fbfc95b163830107cae0b273a4b7863da62bf3a4257fc8d73d5ebd55bb862",
+        "sha256_in_prefix": "484fbfc95b163830107cae0b273a4b7863da62bf3a4257fc8d73d5ebd55bb862",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/datatables.html",
+        "path_type": "hardlink",
+        "sha256": "84ba58dab3330290bc610c4d8c98a578ab8905498fdc7a52e7cb41fd8fb8c472",
+        "sha256_in_prefix": "84ba58dab3330290bc610c4d8c98a578ab8905498fdc7a52e7cb41fd8fb8c472",
+        "size_in_bytes": 37398
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-classic.R",
+        "path_type": "hardlink",
+        "sha256": "3d234eb8934e4b85cf5b7e3608ed151a5cbe29c6f9beedd85039f20a38341374",
+        "sha256_in_prefix": "3d234eb8934e4b85cf5b7e3608ed151a5cbe29c6f9beedd85039f20a38341374",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-classic.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7baf7b10dd09f0186e89e31312450a3ac02463abeabf1ff45b33453e5ebeaa28",
+        "sha256_in_prefix": "7baf7b10dd09f0186e89e31312450a3ac02463abeabf1ff45b33453e5ebeaa28",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-classic.html",
+        "path_type": "hardlink",
+        "sha256": "3f87ffe0288f62f765e977a9810b3c0c39fb8ec5691aaf6c58ba4a2d1e8a1596",
+        "sha256_in_prefix": "3f87ffe0288f62f765e977a9810b3c0c39fb8ec5691aaf6c58ba4a2d1e8a1596",
+        "size_in_bytes": 84269
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-linear.R",
+        "path_type": "hardlink",
+        "sha256": "3fff1f3a7cf76acb87f622df6a9853ded75eb101270b872fe0c406656a66b094",
+        "sha256_in_prefix": "3fff1f3a7cf76acb87f622df6a9853ded75eb101270b872fe0c406656a66b094",
+        "size_in_bytes": 625
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-linear.Rmd",
+        "path_type": "hardlink",
+        "sha256": "512a7a404eeba4677e71d52340811a5aecd4604f649ae439c64b23a75969e544",
+        "sha256_in_prefix": "512a7a404eeba4677e71d52340811a5aecd4604f649ae439c64b23a75969e544",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/docco-linear.html",
+        "path_type": "hardlink",
+        "sha256": "40a1c13fb9352c21219e9e0dbd54108ed7489097683efc844819af5e362ac69c",
+        "sha256_in_prefix": "40a1c13fb9352c21219e9e0dbd54108ed7489097683efc844819af5e362ac69c",
+        "size_in_bytes": 79756
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "40c3d1c85ad12847ba090518c7ad31d9856d09695f84905aa26467a84eca1e26",
+        "sha256_in_prefix": "40c3d1c85ad12847ba090518c7ad31d9856d09695f84905aa26467a84eca1e26",
+        "size_in_bytes": 5235
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_expand.R",
+        "path_type": "hardlink",
+        "sha256": "2da93edfc09ce672b644ca91d08c943f93cfac482a4a4d5bb8d3fa8a6580833f",
+        "sha256_in_prefix": "2da93edfc09ce672b644ca91d08c943f93cfac482a4a4d5bb8d3fa8a6580833f",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_expand.Rmd",
+        "path_type": "hardlink",
+        "sha256": "253ab9b7846bfaa01e52f08104f8c76c6a965859e19a40667f9f83c01bfa2783",
+        "sha256_in_prefix": "253ab9b7846bfaa01e52f08104f8c76c6a965859e19a40667f9f83c01bfa2783",
+        "size_in_bytes": 1756
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_expand.html",
+        "path_type": "hardlink",
+        "sha256": "dd759e6abdbd9bf913a3676fcf51ae6274107bd05f6005dd0916fc0001d25218",
+        "sha256_in_prefix": "dd759e6abdbd9bf913a3676fcf51ae6274107bd05f6005dd0916fc0001d25218",
+        "size_in_bytes": 18955
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_print.R",
+        "path_type": "hardlink",
+        "sha256": "0231593f4f80c6d32fdce15c7682cdde125b86511bacce55d7e8be9c9da70fbc",
+        "sha256_in_prefix": "0231593f4f80c6d32fdce15c7682cdde125b86511bacce55d7e8be9c9da70fbc",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_print.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a6dbdd9f2cbb59cd995478881cb9a87658d28de2ce716c01d736a85d102a6725",
+        "sha256_in_prefix": "a6dbdd9f2cbb59cd995478881cb9a87658d28de2ce716c01d736a85d102a6725",
+        "size_in_bytes": 9714
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knit_print.html",
+        "path_type": "hardlink",
+        "sha256": "ff90e96624994c0c1021a277d3482b46b8a1856ddca5cc755e6c13477c72983d",
+        "sha256_in_prefix": "ff90e96624994c0c1021a277d3482b46b8a1856ddca5cc755e6c13477c72983d",
+        "size_in_bytes": 34322
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-html.R",
+        "path_type": "hardlink",
+        "sha256": "0a9dd839b2cd82c36eab2b1266f94c601f98f528ad30ec9ae54ef4d194e7240f",
+        "sha256_in_prefix": "0a9dd839b2cd82c36eab2b1266f94c601f98f528ad30ec9ae54ef4d194e7240f",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-html.Rhtml",
+        "path_type": "hardlink",
+        "sha256": "f7a6c9a1af1577c5433b31308e979e39f9d4c97ac502369999c0d61b3e328fcf",
+        "sha256_in_prefix": "f7a6c9a1af1577c5433b31308e979e39f9d4c97ac502369999c0d61b3e328fcf",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-html.html",
+        "path_type": "hardlink",
+        "sha256": "c709ee43d88caba6aa998d6ece076f2c3b94d8269726e1e3df2d3871e12ea95a",
+        "sha256_in_prefix": "c709ee43d88caba6aa998d6ece076f2c3b94d8269726e1e3df2d3871e12ea95a",
+        "size_in_bytes": 31740
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-intro.R",
+        "path_type": "hardlink",
+        "sha256": "e5fe8cc5c70c1c8f5bdb36aafd716caa3b48fed7a064bc718a4c7ab16aac7ac1",
+        "sha256_in_prefix": "e5fe8cc5c70c1c8f5bdb36aafd716caa3b48fed7a064bc718a4c7ab16aac7ac1",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-intro.Rmd",
+        "path_type": "hardlink",
+        "sha256": "3928186f32dbb5b0ef77b9d317ee615fdecffc853a0e86ad03a85dc04be4a1a6",
+        "sha256_in_prefix": "3928186f32dbb5b0ef77b9d317ee615fdecffc853a0e86ad03a85dc04be4a1a6",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-intro.html",
+        "path_type": "hardlink",
+        "sha256": "cf319bbd948039d51c88fe9be4458ee2824ff39b2b001e4db15b8dafe36446c5",
+        "sha256_in_prefix": "cf319bbd948039d51c88fe9be4458ee2824ff39b2b001e4db15b8dafe36446c5",
+        "size_in_bytes": 120834
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-markdown.R",
+        "path_type": "hardlink",
+        "sha256": "d1766440c97612d7c5a23e333a275518fb195f2532f519b1397235971c78f070",
+        "sha256_in_prefix": "d1766440c97612d7c5a23e333a275518fb195f2532f519b1397235971c78f070",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-markdown.Rmd",
+        "path_type": "hardlink",
+        "sha256": "58e6562cfbd31ae2a163d90e583da6e7aa10ee572bbb0982c968009e58a09c73",
+        "sha256_in_prefix": "58e6562cfbd31ae2a163d90e583da6e7aa10ee572bbb0982c968009e58a09c73",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-markdown.html",
+        "path_type": "hardlink",
+        "sha256": "b2155ffc9808b8d939d3cab857f166abe8c18787832b1721014f01e969702864",
+        "sha256_in_prefix": "b2155ffc9808b8d939d3cab857f166abe8c18787832b1721014f01e969702864",
+        "size_in_bytes": 92217
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-refcard.Rmd",
+        "path_type": "hardlink",
+        "sha256": "625d9f77d54083aca89469e46195a17ea340d74a84b636f677e00112b83681ed",
+        "sha256_in_prefix": "625d9f77d54083aca89469e46195a17ea340d74a84b636f677e00112b83681ed",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "lib/R/library/knitr/doc/knitr-refcard.pdf",
+        "path_type": "hardlink",
+        "sha256": "5fffe020679da24f94bd7581cc052087eedff2961b012a52cf0752814f691883",
+        "sha256_in_prefix": "5fffe020679da24f94bd7581cc052087eedff2961b012a52cf0752814f691883",
+        "size_in_bytes": 176739
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/README.md",
+        "path_type": "hardlink",
+        "sha256": "e391089307ef52d3becbf67f3f02f051c936f49ba586629211723b505b4e647e",
+        "sha256_in_prefix": "e391089307ef52d3becbf67f3f02f051c936f49ba586629211723b505b4e647e",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/Sweavel.sty",
+        "path_type": "hardlink",
+        "sha256": "4d0c7b8aae31fb19498baff6b989a62454c0848f16ce4bd6393d2956579974e6",
+        "sha256_in_prefix": "4d0c7b8aae31fb19498baff6b989a62454c0848f16ce4bd6393d2956579974e6",
+        "size_in_bytes": 2853
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-child-a.Rnw",
+        "path_type": "hardlink",
+        "sha256": "11ab9b2b4735245d1669dafe63cfcbbce5a7e61272604edb9461a8cf7c37143a",
+        "sha256_in_prefix": "11ab9b2b4735245d1669dafe63cfcbbce5a7e61272604edb9461a8cf7c37143a",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-child-b.Rnw",
+        "path_type": "hardlink",
+        "sha256": "ad135f576ddea9541daf73980689fe3c666f915424011dde6bbdb1543c0bb281",
+        "sha256_in_prefix": "ad135f576ddea9541daf73980689fe3c666f915424011dde6bbdb1543c0bb281",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-child.Rmd",
+        "path_type": "hardlink",
+        "sha256": "510131f8ff3153b74bb409d9f70c029510dcb0ead3244f3e12006851a58fde82",
+        "sha256_in_prefix": "510131f8ff3153b74bb409d9f70c029510dcb0ead3244f3e12006851a58fde82",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-main.Rmd",
+        "path_type": "hardlink",
+        "sha256": "3802af6c22667a835e69abb126732153b3542272a7672f23a3a2956283e16e89",
+        "sha256_in_prefix": "3802af6c22667a835e69abb126732153b3542272a7672f23a3a2956283e16e89",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-main.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7cb202b539c6dc7e29bbf8350750c58d0ceb50566f8f99d0034c864fb937d972",
+        "sha256_in_prefix": "7cb202b539c6dc7e29bbf8350750c58d0ceb50566f8f99d0034c864fb937d972",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/knitr-parent.Rnw",
+        "path_type": "hardlink",
+        "sha256": "9697ca97344697a9a7262385df975df2df5574213de263ce58d8685e30fc36a2",
+        "sha256_in_prefix": "9697ca97344697a9a7262385df975df2df5574213de263ce58d8685e30fc36a2",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/child/sub/knitr-child-c.Rnw",
+        "path_type": "hardlink",
+        "sha256": "f6845b2ed5619d4ff597ea7c0af4f91f456360b8d40c490a9b20d04a12e58ee5",
+        "sha256_in_prefix": "f6845b2ed5619d4ff597ea7c0af4f91f456360b8d40c490a9b20d04a12e58ee5",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/download_count.csv",
+        "path_type": "hardlink",
+        "sha256": "aa6f9864185d41339c017b42138f9cee1c0e670cbf953ddbc74bce1088e7d03d",
+        "sha256_in_prefix": "aa6f9864185d41339c017b42138f9cee1c0e670cbf953ddbc74bce1088e7d03d",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knit-all.R",
+        "path_type": "hardlink",
+        "sha256": "92fd2f97c9cbdb52ea5d5aa53d4e2f32b89dfd5db6ef6db1f521e05c2e65ad50",
+        "sha256_in_prefix": "92fd2f97c9cbdb52ea5d5aa53d4e2f32b89dfd5db6ef6db1f521e05c2e65ad50",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-beamer.Rnw",
+        "path_type": "hardlink",
+        "sha256": "aa2a923665f64900dbecbd3f3a9bf99989b71071195ae927a8b08452ff96ecbd",
+        "sha256_in_prefix": "aa2a923665f64900dbecbd3f3a9bf99989b71071195ae927a8b08452ff96ecbd",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-beamer.lyx",
+        "path_type": "hardlink",
+        "sha256": "4fb929ca46f5ee75cbbf437807083519dfd868090cc3cee6ebe27a0cbcc0389b",
+        "sha256_in_prefix": "4fb929ca46f5ee75cbbf437807083519dfd868090cc3cee6ebe27a0cbcc0389b",
+        "size_in_bytes": 6434
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-graphics.Rnw",
+        "path_type": "hardlink",
+        "sha256": "dad86853286133929dfd5203d52d21bbc75553ebfab8b531ff7067c491b377e4",
+        "sha256_in_prefix": "dad86853286133929dfd5203d52d21bbc75553ebfab8b531ff7067c491b377e4",
+        "size_in_bytes": 16867
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-graphics.lyx",
+        "path_type": "hardlink",
+        "sha256": "0f1d6f03b11a4e101b20631cae60a2a528a7e2bcf2ac8139da4fa616aaf5c67e",
+        "sha256_in_prefix": "0f1d6f03b11a4e101b20631cae60a2a528a7e2bcf2ac8139da4fa616aaf5c67e",
+        "size_in_bytes": 32174
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-input-child.Rnw",
+        "path_type": "hardlink",
+        "sha256": "83c6f6b9bdc6db854bdc4b7f76235bcd54299f3fb12cdf5e5ad96f3c19c108d1",
+        "sha256_in_prefix": "83c6f6b9bdc6db854bdc4b7f76235bcd54299f3fb12cdf5e5ad96f3c19c108d1",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-input.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7e281510b081d5e8034ec862dc6d18654817ab5025d9bf4b891e088856abc812",
+        "sha256_in_prefix": "7e281510b081d5e8034ec862dc6d18654817ab5025d9bf4b891e088856abc812",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-latex.Rtex",
+        "path_type": "hardlink",
+        "sha256": "d2ea01f6ad12bf102072cda4fdd5baa5f9687a7ff50f657a0451cc1699d4e523",
+        "sha256_in_prefix": "d2ea01f6ad12bf102072cda4fdd5baa5f9687a7ff50f657a0451cc1699d4e523",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-listings.Rnw",
+        "path_type": "hardlink",
+        "sha256": "cbc837b7d6c6901704ce9cf80177cd0d4feafb1a77fb343f06923ca1b39b5cfa",
+        "sha256_in_prefix": "cbc837b7d6c6901704ce9cf80177cd0d4feafb1a77fb343f06923ca1b39b5cfa",
+        "size_in_bytes": 3926
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-listings.lyx",
+        "path_type": "hardlink",
+        "sha256": "b24434a51fa95a5935339cb678f19da3a109f4bc3a0bb439bd3a5bdd0745603b",
+        "sha256_in_prefix": "b24434a51fa95a5935339cb678f19da3a109f4bc3a0bb439bd3a5bdd0745603b",
+        "size_in_bytes": 8279
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-manual.Rnw",
+        "path_type": "hardlink",
+        "sha256": "87a1bcace631a2bcb53b4d1f81b1ef8ab2a206df66ec6647549d59558a7caa11",
+        "sha256_in_prefix": "87a1bcace631a2bcb53b4d1f81b1ef8ab2a206df66ec6647549d59558a7caa11",
+        "size_in_bytes": 34247
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-manual.bib",
+        "path_type": "hardlink",
+        "sha256": "6b2e6c03542f69de1928350aab88ed5b058e7ec587d5820eb03e4ddf568fee41",
+        "sha256_in_prefix": "6b2e6c03542f69de1928350aab88ed5b058e7ec587d5820eb03e4ddf568fee41",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-manual.lyx",
+        "path_type": "hardlink",
+        "sha256": "c1c06528b762392cfdbb47aeb8765e5d59e96fa69b4520351c37919847f9fa43",
+        "sha256_in_prefix": "c1c06528b762392cfdbb47aeb8765e5d59e96fa69b4520351c37919847f9fa43",
+        "size_in_bytes": 54607
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-minimal.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7f8b16c052ae9237b20cc9c2d36bc387609ce33b3a22d0fd261be6595dcea294",
+        "sha256_in_prefix": "7f8b16c052ae9237b20cc9c2d36bc387609ce33b3a22d0fd261be6595dcea294",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-minimal.Rnw",
+        "path_type": "hardlink",
+        "sha256": "cec3dde74bb29ac0609b448962bff6aa92f2939103878fcfdf034d85ea58e7ab",
+        "sha256_in_prefix": "cec3dde74bb29ac0609b448962bff6aa92f2939103878fcfdf034d85ea58e7ab",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-minimal.Rrst",
+        "path_type": "hardlink",
+        "sha256": "3c80bbf9f5c310c2fef380582b33428f8ea1d30ed1f7e91d62e6d5ddc7d7af5e",
+        "sha256_in_prefix": "3c80bbf9f5c310c2fef380582b33428f8ea1d30ed1f7e91d62e6d5ddc7d7af5e",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-minimal.brew",
+        "path_type": "hardlink",
+        "sha256": "e3360b6996b663804fb5c25be37f7cafff4cc9ef03d563dd71e56302ab5afe7f",
+        "sha256_in_prefix": "e3360b6996b663804fb5c25be37f7cafff4cc9ef03d563dd71e56302ab5afe7f",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-minimal.lyx",
+        "path_type": "hardlink",
+        "sha256": "52814ef9458f02793538d88bb3146c7f80056fb35740ff40ea5573d2f6dfd983",
+        "sha256_in_prefix": "52814ef9458f02793538d88bb3146c7f80056fb35740ff40ea5573d2f6dfd983",
+        "size_in_bytes": 4112
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-packages.bib",
+        "path_type": "hardlink",
+        "sha256": "a4372718ab39ef9a028dee5fde7fab0de83a4f5c34dc08eec8af4ad209d8b1f2",
+        "sha256_in_prefix": "a4372718ab39ef9a028dee5fde7fab0de83a4f5c34dc08eec8af4ad209d8b1f2",
+        "size_in_bytes": 2736
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-spin.R",
+        "path_type": "hardlink",
+        "sha256": "32f96084df3a56aa8e91e6277ea6a6b11b0d47c01ba506e33e8b8297a91b7eaa",
+        "sha256_in_prefix": "32f96084df3a56aa8e91e6277ea6a6b11b0d47c01ba506e33e8b8297a91b7eaa",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-spin.Rmd",
+        "path_type": "hardlink",
+        "sha256": "33396e45dcefcf4fb8ab808c9a86233c66f6d3ef325345c5a4e84e9a6318fc78",
+        "sha256_in_prefix": "33396e45dcefcf4fb8ab808c9a86233c66f6d3ef325345c5a4e84e9a6318fc78",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-spin.html",
+        "path_type": "hardlink",
+        "sha256": "8d48a6a230635ef32e37ac47b83e6d6b4bfca6622eabca178dc8a1d3f5e50d8c",
+        "sha256_in_prefix": "8d48a6a230635ef32e37ac47b83e6d6b4bfca6622eabca178dc8a1d3f5e50d8c",
+        "size_in_bytes": 28214
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-subfloats.Rnw",
+        "path_type": "hardlink",
+        "sha256": "6b5e4167613609d93413d5ae1e131d119851f4a1d21a99c0a1de2d8a467d67b3",
+        "sha256_in_prefix": "6b5e4167613609d93413d5ae1e131d119851f4a1d21a99c0a1de2d8a467d67b3",
+        "size_in_bytes": 2201
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-subfloats.lyx",
+        "path_type": "hardlink",
+        "sha256": "db4c88c98ae2843fd562859916473fcc071744a989ca048211004bb9e3059651",
+        "sha256_in_prefix": "db4c88c98ae2843fd562859916473fcc071744a989ca048211004bb9e3059651",
+        "size_in_bytes": 4909
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-themes.Rnw",
+        "path_type": "hardlink",
+        "sha256": "8758c43536f02693ea193d6b860e8f67a2c961503ed517a107cf08ff5dbc1515",
+        "sha256_in_prefix": "8758c43536f02693ea193d6b860e8f67a2c961503ed517a107cf08ff5dbc1515",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-themes.lyx",
+        "path_type": "hardlink",
+        "sha256": "9ef339f35956b52f517438d4fd3f467abc2bf1ed361ebd56544ce7616ea63412",
+        "sha256_in_prefix": "9ef339f35956b52f517438d4fd3f467abc2bf1ed361ebd56544ce7616ea63412",
+        "size_in_bytes": 9527
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-twocolumn.Rnw",
+        "path_type": "hardlink",
+        "sha256": "02e93a5a740dc96243cb6540c4f8a33db73ceff5df8511c02515500b3de76df8",
+        "sha256_in_prefix": "02e93a5a740dc96243cb6540c4f8a33db73ceff5df8511c02515500b3de76df8",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/knitr-twocolumn.lyx",
+        "path_type": "hardlink",
+        "sha256": "4cac8a4dc55abd32cc85020b42cf1cca73eb060df3785ef03071dbc92aa064f4",
+        "sha256_in_prefix": "4cac8a4dc55abd32cc85020b42cf1cca73eb060df3785ef03071dbc92aa064f4",
+        "size_in_bytes": 4237
+      },
+      {
+        "_path": "lib/R/library/knitr/examples/upload-github.R",
+        "path_type": "hardlink",
+        "sha256": "cb370a2614564960241a62ea563d6ef3ee042df22d9414365c126ae09fa32a3f",
+        "sha256_in_prefix": "cb370a2614564960241a62ea563d6ef3ee042df22d9414365c126ae09fa32a3f",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/R/library/knitr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b03de9f3eb4e28a3803c04701bc24e899f1c891b823ccd849b31077c88af3268",
+        "sha256_in_prefix": "b03de9f3eb4e28a3803c04701bc24e899f1c891b823ccd849b31077c88af3268",
+        "size_in_bytes": 2399
+      },
+      {
+        "_path": "lib/R/library/knitr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "452fdad2820154f927d1ab6175971e7d940f72303edf70a27b6b9b78f1b40b8f",
+        "sha256_in_prefix": "452fdad2820154f927d1ab6175971e7d940f72303edf70a27b6b9b78f1b40b8f",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/R/library/knitr/help/knitr.rdb",
+        "path_type": "hardlink",
+        "sha256": "242daa840eccb63ab82aaf1f8d7216a89fd226ee73f65894f72219ae928398f2",
+        "sha256_in_prefix": "242daa840eccb63ab82aaf1f8d7216a89fd226ee73f65894f72219ae928398f2",
+        "size_in_bytes": 173613
+      },
+      {
+        "_path": "lib/R/library/knitr/help/knitr.rdx",
+        "path_type": "hardlink",
+        "sha256": "17c5e5887056f1a020d95bee10079e44aaf7618cb33aa0c1458d1831d9c785dc",
+        "sha256_in_prefix": "17c5e5887056f1a020d95bee10079e44aaf7618cb33aa0c1458d1831d9c785dc",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "lib/R/library/knitr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "fa8c2a850dd57a4b10e8c34a27aa82174d7f1460ad23026cbc35a1336a2dcc2b",
+        "sha256_in_prefix": "fa8c2a850dd57a4b10e8c34a27aa82174d7f1460ad23026cbc35a1336a2dcc2b",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "lib/R/library/knitr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "475381f26b537b27ce4449aae3a5e4ead40d5f53c710a8aee32482fb0b9fe913",
+        "sha256_in_prefix": "475381f26b537b27ce4449aae3a5e4ead40d5f53c710a8aee32482fb0b9fe913",
+        "size_in_bytes": 16602
+      },
+      {
+        "_path": "lib/R/library/knitr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/R.css",
+        "path_type": "hardlink",
+        "sha256": "765daf611f47b0f78800245fd070b3f98140c284dca18db7d31f4476b472a572",
+        "sha256_in_prefix": "765daf611f47b0f78800245fd070b3f98140c284dca18db7d31f4476b472a572",
+        "size_in_bytes": 775
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/Sweavel.sty",
+        "path_type": "hardlink",
+        "sha256": "4d0c7b8aae31fb19498baff6b989a62454c0848f16ce4bd6393d2956579974e6",
+        "sha256_in_prefix": "4d0c7b8aae31fb19498baff6b989a62454c0848f16ce4bd6393d2956579974e6",
+        "size_in_bytes": 2853
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/datatables.html",
+        "path_type": "hardlink",
+        "sha256": "3dd7c0dd7650839119c90b7a502f97263aaf2ba0ca3dcb4521bd645f5a080016",
+        "sha256_in_prefix": "3dd7c0dd7650839119c90b7a502f97263aaf2ba0ca3dcb4521bd645f5a080016",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/docco-classic.css",
+        "path_type": "hardlink",
+        "sha256": "39cfbe72eac392673feb2a0b3b04568a0fd625e83abfca35fb2d9a255f36b6eb",
+        "sha256_in_prefix": "39cfbe72eac392673feb2a0b3b04568a0fd625e83abfca35fb2d9a255f36b6eb",
+        "size_in_bytes": 1856
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/docco-classic.html",
+        "path_type": "hardlink",
+        "sha256": "23a35e968a50324e0d77159493a98d0ad77eeb32472c02530f98f6be37767f0d",
+        "sha256_in_prefix": "23a35e968a50324e0d77159493a98d0ad77eeb32472c02530f98f6be37767f0d",
+        "size_in_bytes": 1636
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/docco-template.html",
+        "path_type": "hardlink",
+        "sha256": "f2c361f389cea1c97908029241fbe71285240d94937fef6bb2cd732ca87c494a",
+        "sha256_in_prefix": "f2c361f389cea1c97908029241fbe71285240d94937fef6bb2cd732ca87c494a",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/framed.sty",
+        "path_type": "hardlink",
+        "sha256": "b8dada8d643194cde015f97fd8fda466524eab5a45b8d5ff169bbb755875bebc",
+        "sha256_in_prefix": "b8dada8d643194cde015f97fd8fda466524eab5a45b8d5ff169bbb755875bebc",
+        "size_in_bytes": 22449
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/gWidgetsWWW2-knitr.R",
+        "path_type": "hardlink",
+        "sha256": "305384d27f2c39820048233872ae2c74c031b9a7b52cd583b814c09f6efb1fbe",
+        "sha256_in_prefix": "305384d27f2c39820048233872ae2c74c031b9a7b52cd583b814c09f6efb1fbe",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/knitr-template.Rhtml",
+        "path_type": "hardlink",
+        "sha256": "ce9c4738de5b4e0e60d5036abe7e85b0af04efb6dfa715b953036313eeb7691e",
+        "sha256_in_prefix": "ce9c4738de5b4e0e60d5036abe7e85b0af04efb6dfa715b953036313eeb7691e",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/knitr-template.Rmd",
+        "path_type": "hardlink",
+        "sha256": "217717718dedc42ced92281abd0d5d61dcce03b5a8c987ab95d60fd9b5c8669b",
+        "sha256_in_prefix": "217717718dedc42ced92281abd0d5d61dcce03b5a8c987ab95d60fd9b5c8669b",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/knitr-template.Rnw",
+        "path_type": "hardlink",
+        "sha256": "eaebd1151e2a9e13cc18a067df8acd18bfd67a8225b8c084d5245f86e8933223",
+        "sha256_in_prefix": "eaebd1151e2a9e13cc18a067df8acd18bfd67a8225b8c084d5245f86e8933223",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/knitr.css",
+        "path_type": "hardlink",
+        "sha256": "12472992a5087abd7fbd72b38adcc22157b4f4f29336564842e8752f45a41dc4",
+        "sha256_in_prefix": "12472992a5087abd7fbd72b38adcc22157b4f4f29336564842e8752f45a41dc4",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/knitr.sty",
+        "path_type": "hardlink",
+        "sha256": "e2df728f12f328579c6ad870b32a942040561654c07ce246f328185ccb0384ed",
+        "sha256_in_prefix": "e2df728f12f328579c6ad870b32a942040561654c07ce246f328185ccb0384ed",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/stitch-test.R",
+        "path_type": "hardlink",
+        "sha256": "bbeb6d5196f4164ade3af59dbd6ecf9df76e7dc447f89483f70e9f409097b90e",
+        "sha256_in_prefix": "bbeb6d5196f4164ade3af59dbd6ecf9df76e7dc447f89483f70e9f409097b90e",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/tikz2pdf.tex",
+        "path_type": "hardlink",
+        "sha256": "5b9e7f0effb7d1241d164b93ca647908780f67b3ac32667636f6748b4c8fe97c",
+        "sha256_in_prefix": "5b9e7f0effb7d1241d164b93ca647908780f67b3ac32667636f6748b4c8fe97c",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/toggleR.js",
+        "path_type": "hardlink",
+        "sha256": "3dae7fba672e031a6361d1c70cc8cd0593a5271c463d904dac401b8b3f3df1ff",
+        "sha256_in_prefix": "3dae7fba672e031a6361d1c70cc8cd0593a5271c463d904dac401b8b3f3df1ff",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/tweak_bib.csv",
+        "path_type": "hardlink",
+        "sha256": "4fb97e1817a6bc9b0483c4621187d9c885dccd059547c24fac3ebddab67e1adf",
+        "sha256_in_prefix": "4fb97e1817a6bc9b0483c4621187d9c885dccd059547c24fac3ebddab67e1adf",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/vignette.css",
+        "path_type": "hardlink",
+        "sha256": "17ea96523519054215d22fc0b3574fe54a59b72e142325d197755ed3e4548591",
+        "sha256_in_prefix": "17ea96523519054215d22fc0b3574fe54a59b72e142325d197755ed3e4548591",
+        "size_in_bytes": 4388
+      },
+      {
+        "_path": "lib/R/library/knitr/misc/vignette.html",
+        "path_type": "hardlink",
+        "sha256": "8a4c098746c47e8e6aa3dad256bb9daee34aa8349aa4eaf378e48e9a7d80dda5",
+        "sha256_in_prefix": "8a4c098746c47e8e6aa3dad256bb9daee34aa8349aa4eaf378e48e9a7d80dda5",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "lib/R/library/knitr/opencpu/apps/index.html",
+        "path_type": "hardlink",
+        "sha256": "957f2c90a0668eb8f50a7ae722793a097f7e5f06edc49363a09a073744062783",
+        "sha256_in_prefix": "957f2c90a0668eb8f50a7ae722793a097f7e5f06edc49363a09a073744062783",
+        "size_in_bytes": 2683
+      },
+      {
+        "_path": "lib/R/library/knitr/shiny/server.R",
+        "path_type": "hardlink",
+        "sha256": "1ac2663dd0dbfcf0aec20a9b8ad0302f8b57969fc5bfd4167d6746053bd77752",
+        "sha256_in_prefix": "1ac2663dd0dbfcf0aec20a9b8ad0302f8b57969fc5bfd4167d6746053bd77752",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "lib/R/library/knitr/shiny/ui.R",
+        "path_type": "hardlink",
+        "sha256": "5c3a774be1655c012067ea911ab08091e6436a712a6def9a3e7bba892abef8aa",
+        "sha256_in_prefix": "5c3a774be1655c012067ea911ab08091e6436a712a6def9a3e7bba892abef8aa",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "lib/R/library/knitr/shiny/www/ace-shiny.css",
+        "path_type": "hardlink",
+        "sha256": "bd6416ff40cb1895da6c65c8849508b41d3df3d0fede3ffd40b008b7d9cd29ee",
+        "sha256_in_prefix": "bd6416ff40cb1895da6c65c8849508b41d3df3d0fede3ffd40b008b7d9cd29ee",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/R/library/knitr/shiny/www/ace-shiny.js",
+        "path_type": "hardlink",
+        "sha256": "c043fc67c06628775d32ad68f704cb90b1ab6c73074cdaa4703068531241ba5d",
+        "sha256_in_prefix": "c043fc67c06628775d32ad68f704cb90b1ab6c73074cdaa4703068531241ba5d",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/acid.css",
+        "path_type": "hardlink",
+        "sha256": "9fdc5948b470341b17cf616d58f3ea36988ca13a16af92eea825ed92ee9694ab",
+        "sha256_in_prefix": "9fdc5948b470341b17cf616d58f3ea36988ca13a16af92eea825ed92ee9694ab",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/aiseered.css",
+        "path_type": "hardlink",
+        "sha256": "a502384e10de8b7a856e0979c00808b780c2d480ebe5d75d598447cf679f4a66",
+        "sha256_in_prefix": "a502384e10de8b7a856e0979c00808b780c2d480ebe5d75d598447cf679f4a66",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/andes.css",
+        "path_type": "hardlink",
+        "sha256": "bca1893e657d7d34d3526f49a888a3397db7a47fe4c2e284b3b4f468b1f398f5",
+        "sha256_in_prefix": "bca1893e657d7d34d3526f49a888a3397db7a47fe4c2e284b3b4f468b1f398f5",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/anotherdark.css",
+        "path_type": "hardlink",
+        "sha256": "4836bd057252c7bf73d7848c522447979272172ca678dad35ae1e7eefd5529b8",
+        "sha256_in_prefix": "4836bd057252c7bf73d7848c522447979272172ca678dad35ae1e7eefd5529b8",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/autumn.css",
+        "path_type": "hardlink",
+        "sha256": "c791df0a2dd800743bef6891db15c33633e1665073ae21cdad4b3c97fd22fbb3",
+        "sha256_in_prefix": "c791df0a2dd800743bef6891db15c33633e1665073ae21cdad4b3c97fd22fbb3",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/baycomb.css",
+        "path_type": "hardlink",
+        "sha256": "31ed5d66cde46398ec7ab2277a5323c98eb695ccf03f5eacc3d000c7cd650a3f",
+        "sha256_in_prefix": "31ed5d66cde46398ec7ab2277a5323c98eb695ccf03f5eacc3d000c7cd650a3f",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/bclear.css",
+        "path_type": "hardlink",
+        "sha256": "252316da3184b9c88c9b7afb7c94361a40f53b621c2f35e9c8b977c2d452c607",
+        "sha256_in_prefix": "252316da3184b9c88c9b7afb7c94361a40f53b621c2f35e9c8b977c2d452c607",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/biogoo.css",
+        "path_type": "hardlink",
+        "sha256": "3fa47e2698c118cc6856250674c932ee620e114435000e915d8a5a7d0f733e12",
+        "sha256_in_prefix": "3fa47e2698c118cc6856250674c932ee620e114435000e915d8a5a7d0f733e12",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/bipolar.css",
+        "path_type": "hardlink",
+        "sha256": "167ac09016c6ffb0c19627d233e458af96a2792500c6ffbd528b07e53492c537",
+        "sha256_in_prefix": "167ac09016c6ffb0c19627d233e458af96a2792500c6ffbd528b07e53492c537",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/blacknblue.css",
+        "path_type": "hardlink",
+        "sha256": "d2ccd7745a56b144de020c332e5e7d8f6ea058acb8083fb5f3a205ab27fa9c32",
+        "sha256_in_prefix": "d2ccd7745a56b144de020c332e5e7d8f6ea058acb8083fb5f3a205ab27fa9c32",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/bluegreen.css",
+        "path_type": "hardlink",
+        "sha256": "0b67a71079cf00395981d5b5f0290fc2aab95756b7ebf974063b710c9869c203",
+        "sha256_in_prefix": "0b67a71079cf00395981d5b5f0290fc2aab95756b7ebf974063b710c9869c203",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/breeze.css",
+        "path_type": "hardlink",
+        "sha256": "a447e03f07d617d6da2909c020519fec0c910ab33e4ddd1604c103ceae38cccb",
+        "sha256_in_prefix": "a447e03f07d617d6da2909c020519fec0c910ab33e4ddd1604c103ceae38cccb",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/bright.css",
+        "path_type": "hardlink",
+        "sha256": "23b55b7d4fda9ccb5e6d967660424fcb910a2e8571f081c052955efe79693a2a",
+        "sha256_in_prefix": "23b55b7d4fda9ccb5e6d967660424fcb910a2e8571f081c052955efe79693a2a",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/camo.css",
+        "path_type": "hardlink",
+        "sha256": "4a4ee1218bb223a337a559bd0adff46fc08c0e25f36a67b8400d81b656467924",
+        "sha256_in_prefix": "4a4ee1218bb223a337a559bd0adff46fc08c0e25f36a67b8400d81b656467924",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/candy.css",
+        "path_type": "hardlink",
+        "sha256": "87ee864c7be5f1e3867c46ad566c6f8ceffb287bef77d862721da4fabc68242c",
+        "sha256_in_prefix": "87ee864c7be5f1e3867c46ad566c6f8ceffb287bef77d862721da4fabc68242c",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/clarity.css",
+        "path_type": "hardlink",
+        "sha256": "e782faefd6b1c9829399d6c2bbea8c606a5008b714ae5d374a7e44e9434e6546",
+        "sha256_in_prefix": "e782faefd6b1c9829399d6c2bbea8c606a5008b714ae5d374a7e44e9434e6546",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/dante.css",
+        "path_type": "hardlink",
+        "sha256": "acf017a883aaee34c9530d20d6aadb0f6e26d1d0485167dd44f462218117f624",
+        "sha256_in_prefix": "acf017a883aaee34c9530d20d6aadb0f6e26d1d0485167dd44f462218117f624",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/darkblue.css",
+        "path_type": "hardlink",
+        "sha256": "345b8e4535dd4a7c8c5a2d4daf7c9aef48e8632dd119443b2fa04dede6e9e782",
+        "sha256_in_prefix": "345b8e4535dd4a7c8c5a2d4daf7c9aef48e8632dd119443b2fa04dede6e9e782",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/darkbone.css",
+        "path_type": "hardlink",
+        "sha256": "0221ec2388e01e111358cf6798c8c906ed927ea6c35ca4c0664ffac369722569",
+        "sha256_in_prefix": "0221ec2388e01e111358cf6798c8c906ed927ea6c35ca4c0664ffac369722569",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/darkness.css",
+        "path_type": "hardlink",
+        "sha256": "981233e9295755d6f22565e139851a183896d8ebf176ce1a6d4c574737b9e1d8",
+        "sha256_in_prefix": "981233e9295755d6f22565e139851a183896d8ebf176ce1a6d4c574737b9e1d8",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/darkslategray.css",
+        "path_type": "hardlink",
+        "sha256": "482ee5fdce42762122dbe6b1baab3a8b23058ee901e14e0c39ce180763eee889",
+        "sha256_in_prefix": "482ee5fdce42762122dbe6b1baab3a8b23058ee901e14e0c39ce180763eee889",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/darkspectrum.css",
+        "path_type": "hardlink",
+        "sha256": "a3db2dc20b17c5769cfa40b98e239bc1e436bfff317f9f71d2d5e41e687208bf",
+        "sha256_in_prefix": "a3db2dc20b17c5769cfa40b98e239bc1e436bfff317f9f71d2d5e41e687208bf",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/default.css",
+        "path_type": "hardlink",
+        "sha256": "6a10a41f2ca456946102ae29ef3d4117d1a96e386fff1b82e42ca10c9995d4a7",
+        "sha256_in_prefix": "6a10a41f2ca456946102ae29ef3d4117d1a96e386fff1b82e42ca10c9995d4a7",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/denim.css",
+        "path_type": "hardlink",
+        "sha256": "44febf63138c6012569cfaf1235378fe26fbd092355e5e4dd68c7e8d2b7c5a07",
+        "sha256_in_prefix": "44febf63138c6012569cfaf1235378fe26fbd092355e5e4dd68c7e8d2b7c5a07",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/dusk.css",
+        "path_type": "hardlink",
+        "sha256": "893bab1cb7ee87ec53171a850571d13e1e283c1e9ec43c6533985900aceb8107",
+        "sha256_in_prefix": "893bab1cb7ee87ec53171a850571d13e1e283c1e9ec43c6533985900aceb8107",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/earendel.css",
+        "path_type": "hardlink",
+        "sha256": "741cc0991f96444e4dd93ce0432669c4309d17926f04d971c36d0a25e00cf1d5",
+        "sha256_in_prefix": "741cc0991f96444e4dd93ce0432669c4309d17926f04d971c36d0a25e00cf1d5",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/easter.css",
+        "path_type": "hardlink",
+        "sha256": "6edcd3e8aaf8138c6050d3ef1dd6757d3ae5e67b7e7dd21ca15b70dff14caed4",
+        "sha256_in_prefix": "6edcd3e8aaf8138c6050d3ef1dd6757d3ae5e67b7e7dd21ca15b70dff14caed4",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-anjuta.css",
+        "path_type": "hardlink",
+        "sha256": "a59090f5b9deb06884c20fe1fabf9a1fc6727b24337ca4f0ff1fabc98abfeba7",
+        "sha256_in_prefix": "a59090f5b9deb06884c20fe1fabf9a1fc6727b24337ca4f0ff1fabc98abfeba7",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-eclipse.css",
+        "path_type": "hardlink",
+        "sha256": "1fb348b2c943165edee11d0654793cdbe38626a8d0b91059340aa5ba04a80bf3",
+        "sha256_in_prefix": "1fb348b2c943165edee11d0654793cdbe38626a8d0b91059340aa5ba04a80bf3",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-emacs.css",
+        "path_type": "hardlink",
+        "sha256": "b65b0a90be33796357659c54434fe5993906fd47cb3e467de5a07315e0afb221",
+        "sha256_in_prefix": "b65b0a90be33796357659c54434fe5993906fd47cb3e467de5a07315e0afb221",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-flashdevelop.css",
+        "path_type": "hardlink",
+        "sha256": "b681b7976eae7aa935126b77ec2fc6459bbe273d79eea727256244449526b7db",
+        "sha256_in_prefix": "b681b7976eae7aa935126b77ec2fc6459bbe273d79eea727256244449526b7db",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-gedit.css",
+        "path_type": "hardlink",
+        "sha256": "12e145b6adc5c0ac243f34ff6ae39fb425c1a6f7ea48b51702d28f41f80727c9",
+        "sha256_in_prefix": "12e145b6adc5c0ac243f34ff6ae39fb425c1a6f7ea48b51702d28f41f80727c9",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-jedit.css",
+        "path_type": "hardlink",
+        "sha256": "e203ac0a577b3c81b04f5e1758311bc3a5f381e260b109d212bb8edb2fd56eff",
+        "sha256_in_prefix": "e203ac0a577b3c81b04f5e1758311bc3a5f381e260b109d212bb8edb2fd56eff",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-kwrite.css",
+        "path_type": "hardlink",
+        "sha256": "6202fc4b95e0b7c51f8ff081a24927f4da1a73adbf6f2122af59de47e757b932",
+        "sha256_in_prefix": "6202fc4b95e0b7c51f8ff081a24927f4da1a73adbf6f2122af59de47e757b932",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-matlab.css",
+        "path_type": "hardlink",
+        "sha256": "fd4899dc5ec5edda347bf43f9d3029a54641457129cc722ac6f8f7da2f413128",
+        "sha256_in_prefix": "fd4899dc5ec5edda347bf43f9d3029a54641457129cc722ac6f8f7da2f413128",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-msvs2008.css",
+        "path_type": "hardlink",
+        "sha256": "8f1a86e02a88abb60bc3b8f47907d47fb6c488618e31f80f39f11fb4db2427ee",
+        "sha256_in_prefix": "8f1a86e02a88abb60bc3b8f47907d47fb6c488618e31f80f39f11fb4db2427ee",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-nedit.css",
+        "path_type": "hardlink",
+        "sha256": "7c229f52dcf539efb5f1b92ff8b6db34a4e316c336fd4e4344bddb6ae8fee75a",
+        "sha256_in_prefix": "7c229f52dcf539efb5f1b92ff8b6db34a4e316c336fd4e4344bddb6ae8fee75a",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-vim-dark.css",
+        "path_type": "hardlink",
+        "sha256": "98531d3408c57f276ef011691560c37b80936adcbb5eb854c856cdacaf82147f",
+        "sha256_in_prefix": "98531d3408c57f276ef011691560c37b80936adcbb5eb854c856cdacaf82147f",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-vim.css",
+        "path_type": "hardlink",
+        "sha256": "507a5385d816e969d3a12e17eea017d72f6c6feaf285907580e0a8f2bd591c27",
+        "sha256_in_prefix": "507a5385d816e969d3a12e17eea017d72f6c6feaf285907580e0a8f2bd591c27",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/edit-xcode.css",
+        "path_type": "hardlink",
+        "sha256": "92f62de0768a7a6f4ed0eb1f58edfca26aefffd53e0756464ac51f7a36b52c13",
+        "sha256_in_prefix": "92f62de0768a7a6f4ed0eb1f58edfca26aefffd53e0756464ac51f7a36b52c13",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/ekvoli.css",
+        "path_type": "hardlink",
+        "sha256": "d18a48fe58f5242e4067d8d0eecfa81ad23d78edefe58df0ba90b200649774c4",
+        "sha256_in_prefix": "d18a48fe58f5242e4067d8d0eecfa81ad23d78edefe58df0ba90b200649774c4",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/fine_blue.css",
+        "path_type": "hardlink",
+        "sha256": "4f29ae703699526a4cc222ce73af1b922612eeff5f10714659c962a63a98521a",
+        "sha256_in_prefix": "4f29ae703699526a4cc222ce73af1b922612eeff5f10714659c962a63a98521a",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/freya.css",
+        "path_type": "hardlink",
+        "sha256": "9c29eb5403c49a140d57bafa83a36492b9aecc80ed0c97fd3b1999622b229950",
+        "sha256_in_prefix": "9c29eb5403c49a140d57bafa83a36492b9aecc80ed0c97fd3b1999622b229950",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/fruit.css",
+        "path_type": "hardlink",
+        "sha256": "8c0d649d4838148aa68e7eef4e024011a555d16895d5328d907ebbd7efc5e638",
+        "sha256_in_prefix": "8c0d649d4838148aa68e7eef4e024011a555d16895d5328d907ebbd7efc5e638",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/golden.css",
+        "path_type": "hardlink",
+        "sha256": "c36d188db40c194d605a998b6935a8895b9eda3953b407dda27439e88da4e0eb",
+        "sha256_in_prefix": "c36d188db40c194d605a998b6935a8895b9eda3953b407dda27439e88da4e0eb",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/greenlcd.css",
+        "path_type": "hardlink",
+        "sha256": "bc4fb642c746e2691061923da71319f8c15fa9c5e65551c0205f1d647193275c",
+        "sha256_in_prefix": "bc4fb642c746e2691061923da71319f8c15fa9c5e65551c0205f1d647193275c",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/greyscale0.css",
+        "path_type": "hardlink",
+        "sha256": "1d874619ee760497ce91917741d4b803b5e9b76db74c302efb1a56b87023041f",
+        "sha256_in_prefix": "1d874619ee760497ce91917741d4b803b5e9b76db74c302efb1a56b87023041f",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/greyscale1.css",
+        "path_type": "hardlink",
+        "sha256": "5b7a03aef3be78dd6c3e2984d48fc6926fc5042cbe1aeee373ee25e6756a8a20",
+        "sha256_in_prefix": "5b7a03aef3be78dd6c3e2984d48fc6926fc5042cbe1aeee373ee25e6756a8a20",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/greyscale2.css",
+        "path_type": "hardlink",
+        "sha256": "7a19079a163d77db26ccbd0a1d37a6bd4de9b50e1943379da8da1c959f941bfd",
+        "sha256_in_prefix": "7a19079a163d77db26ccbd0a1d37a6bd4de9b50e1943379da8da1c959f941bfd",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/kellys.css",
+        "path_type": "hardlink",
+        "sha256": "7f08aa487b04ee7e885b926c40653b4340bfd6a0fc74699f4daaa558abef9506",
+        "sha256_in_prefix": "7f08aa487b04ee7e885b926c40653b4340bfd6a0fc74699f4daaa558abef9506",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/leo.css",
+        "path_type": "hardlink",
+        "sha256": "ad8a665951bb99a591d345e36611ae5068a97df1cf97b9d240b74592461438ca",
+        "sha256_in_prefix": "ad8a665951bb99a591d345e36611ae5068a97df1cf97b9d240b74592461438ca",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/lucretia.css",
+        "path_type": "hardlink",
+        "sha256": "0ff185d6fb7c27e7d9bddd81b68ae932e5faa90a2d62f6e49a62165d38de8873",
+        "sha256_in_prefix": "0ff185d6fb7c27e7d9bddd81b68ae932e5faa90a2d62f6e49a62165d38de8873",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/manxome.css",
+        "path_type": "hardlink",
+        "sha256": "b8205bba55c70970252fa59a37aeb4d5ff246df02b2a7f896d6e48a0678f130f",
+        "sha256_in_prefix": "b8205bba55c70970252fa59a37aeb4d5ff246df02b2a7f896d6e48a0678f130f",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/maroloccio.css",
+        "path_type": "hardlink",
+        "sha256": "0db5b38e485313675dbe8d5d294fe0adc904cc5c19e48a5d3efc6799bf988ea6",
+        "sha256_in_prefix": "0db5b38e485313675dbe8d5d294fe0adc904cc5c19e48a5d3efc6799bf988ea6",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/matrix.css",
+        "path_type": "hardlink",
+        "sha256": "e7121cf366d47ff5fd22d651e83250cc4570d7748792ef6f40a30825271485a4",
+        "sha256_in_prefix": "e7121cf366d47ff5fd22d651e83250cc4570d7748792ef6f40a30825271485a4",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/moe.css",
+        "path_type": "hardlink",
+        "sha256": "ed39b4ca1dbcd106702b41163dca9c467cd3506b3c51fae9240a59c2badbe5c5",
+        "sha256_in_prefix": "ed39b4ca1dbcd106702b41163dca9c467cd3506b3c51fae9240a59c2badbe5c5",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/molokai.css",
+        "path_type": "hardlink",
+        "sha256": "e51c1b82af79d41ba9a6a34d7d2b8bd760666efeb7ffa08603c7c5f6e14dc3f2",
+        "sha256_in_prefix": "e51c1b82af79d41ba9a6a34d7d2b8bd760666efeb7ffa08603c7c5f6e14dc3f2",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/moria.css",
+        "path_type": "hardlink",
+        "sha256": "9bcb8c8c80e9d951213f6e5be39741e15b16be285d699a9894dcfe7a9a2e725e",
+        "sha256_in_prefix": "9bcb8c8c80e9d951213f6e5be39741e15b16be285d699a9894dcfe7a9a2e725e",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/navajo-night.css",
+        "path_type": "hardlink",
+        "sha256": "7014453a1b292840936eae2ebe404c6ef100b65865927f484230fbfe9c7d3eea",
+        "sha256_in_prefix": "7014453a1b292840936eae2ebe404c6ef100b65865927f484230fbfe9c7d3eea",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/navy.css",
+        "path_type": "hardlink",
+        "sha256": "dac1ce8cf0bab26ca8b9cd90393fe34b09232b2617578b86ee79a9edeb9a9398",
+        "sha256_in_prefix": "dac1ce8cf0bab26ca8b9cd90393fe34b09232b2617578b86ee79a9edeb9a9398",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/neon.css",
+        "path_type": "hardlink",
+        "sha256": "d440172054c633c65e70c29e7e3e0d34afdb54e43e777ad2c2af168c310e1552",
+        "sha256_in_prefix": "d440172054c633c65e70c29e7e3e0d34afdb54e43e777ad2c2af168c310e1552",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/night.css",
+        "path_type": "hardlink",
+        "sha256": "d917a2851b3fa5b2c2c7544dc18e6dd5dce9a272bce611854df58b2f97b5b01e",
+        "sha256_in_prefix": "d917a2851b3fa5b2c2c7544dc18e6dd5dce9a272bce611854df58b2f97b5b01e",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/nightshimmer.css",
+        "path_type": "hardlink",
+        "sha256": "340d318fb174e7de79343f5667d5d6f7bec860188d863d1c375748af388c3a19",
+        "sha256_in_prefix": "340d318fb174e7de79343f5667d5d6f7bec860188d863d1c375748af388c3a19",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/nuvola.css",
+        "path_type": "hardlink",
+        "sha256": "1310e93da7b702cb9e9c3d516dcabd24daa91c99c0add80b2ce6bed6fd0e13ca",
+        "sha256_in_prefix": "1310e93da7b702cb9e9c3d516dcabd24daa91c99c0add80b2ce6bed6fd0e13ca",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/olive.css",
+        "path_type": "hardlink",
+        "sha256": "a1c06b0f9454fca11811a55b28b893dcadbf2126cc4b09d0f2aad2d476301b65",
+        "sha256_in_prefix": "a1c06b0f9454fca11811a55b28b893dcadbf2126cc4b09d0f2aad2d476301b65",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/orion.css",
+        "path_type": "hardlink",
+        "sha256": "b8974bb67d497754fcad8820272a157cb17a22521dc78fa56ed05ea68b7d4a95",
+        "sha256_in_prefix": "b8974bb67d497754fcad8820272a157cb17a22521dc78fa56ed05ea68b7d4a95",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/oxygenated.css",
+        "path_type": "hardlink",
+        "sha256": "3417fa3887b060547f45c1aa0fda8f32d0d9539fe34ba1ecffaf089b98a00f21",
+        "sha256_in_prefix": "3417fa3887b060547f45c1aa0fda8f32d0d9539fe34ba1ecffaf089b98a00f21",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/pablo.css",
+        "path_type": "hardlink",
+        "sha256": "087e3d1d4cb3ef512c422fe22c4bcfc410e832eb418059d6a85b9af3f6a48ab2",
+        "sha256_in_prefix": "087e3d1d4cb3ef512c422fe22c4bcfc410e832eb418059d6a85b9af3f6a48ab2",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/peaksea.css",
+        "path_type": "hardlink",
+        "sha256": "729c7e84038ba9e5d957ffd37377b8ebde6aaf56752b922b70eb86781f4e4660",
+        "sha256_in_prefix": "729c7e84038ba9e5d957ffd37377b8ebde6aaf56752b922b70eb86781f4e4660",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/print.css",
+        "path_type": "hardlink",
+        "sha256": "65267f778577c3a950c0ae2a55f9e641f81b885476de22fcfd5da0f5d88ee415",
+        "sha256_in_prefix": "65267f778577c3a950c0ae2a55f9e641f81b885476de22fcfd5da0f5d88ee415",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/rand01.css",
+        "path_type": "hardlink",
+        "sha256": "cf8bc6e026015d86455b523e2ff725aa46d342cd2062a48e3f56e738c934e1c4",
+        "sha256_in_prefix": "cf8bc6e026015d86455b523e2ff725aa46d342cd2062a48e3f56e738c934e1c4",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/rdark.css",
+        "path_type": "hardlink",
+        "sha256": "512d14dd3b0f37c4ddf78de2cf6bbc6e2e5f8a6279dc45d9d18768cdcbca3b81",
+        "sha256_in_prefix": "512d14dd3b0f37c4ddf78de2cf6bbc6e2e5f8a6279dc45d9d18768cdcbca3b81",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/relaxedgreen.css",
+        "path_type": "hardlink",
+        "sha256": "6dfe21f7020378d15ab5aebdb09f59da1560f4ac98d4509d361f478b01b139e6",
+        "sha256_in_prefix": "6dfe21f7020378d15ab5aebdb09f59da1560f4ac98d4509d361f478b01b139e6",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/rootwater.css",
+        "path_type": "hardlink",
+        "sha256": "6c8a2f19a16b8e9acf173d25ad21920e8572056df8bcbf3beece6ca3f84491ff",
+        "sha256_in_prefix": "6c8a2f19a16b8e9acf173d25ad21920e8572056df8bcbf3beece6ca3f84491ff",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/seashell.css",
+        "path_type": "hardlink",
+        "sha256": "1d07b667afe4a8a0112bf4d84b1021783a7e3f623b5fe73e15dbad33d401b923",
+        "sha256_in_prefix": "1d07b667afe4a8a0112bf4d84b1021783a7e3f623b5fe73e15dbad33d401b923",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/solarized-dark.css",
+        "path_type": "hardlink",
+        "sha256": "25c26558ca4eb4b41fb82fadf789f389f0e88dd41c2bdd4cd11372ec7e6950f3",
+        "sha256_in_prefix": "25c26558ca4eb4b41fb82fadf789f389f0e88dd41c2bdd4cd11372ec7e6950f3",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/solarized-light.css",
+        "path_type": "hardlink",
+        "sha256": "48eaf1f7f5b0799517c2076e22405dd2b597b54f6d6600460000fc4ddcb60486",
+        "sha256_in_prefix": "48eaf1f7f5b0799517c2076e22405dd2b597b54f6d6600460000fc4ddcb60486",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/tabula.css",
+        "path_type": "hardlink",
+        "sha256": "5757a2803cae1db6981dd4622992855e360cc8c4ce7b5fbdf63a6954112924b4",
+        "sha256_in_prefix": "5757a2803cae1db6981dd4622992855e360cc8c4ce7b5fbdf63a6954112924b4",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/tcsoft.css",
+        "path_type": "hardlink",
+        "sha256": "321b2ac460082580d45f5c31045ad4a85b848f66fca549fe22e8d6855c66b599",
+        "sha256_in_prefix": "321b2ac460082580d45f5c31045ad4a85b848f66fca549fe22e8d6855c66b599",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/vampire.css",
+        "path_type": "hardlink",
+        "sha256": "20cd49a6261a22d4e40d8e2445ca2aa6bb6c3d29a967ef8a97b9b563cff738c1",
+        "sha256_in_prefix": "20cd49a6261a22d4e40d8e2445ca2aa6bb6c3d29a967ef8a97b9b563cff738c1",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/whitengrey.css",
+        "path_type": "hardlink",
+        "sha256": "118edc5c2680d8c5109171b771cdff528a34e191025a5efe6bf19c6291c355b8",
+        "sha256_in_prefix": "118edc5c2680d8c5109171b771cdff528a34e191025a5efe6bf19c6291c355b8",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/xoria256.css",
+        "path_type": "hardlink",
+        "sha256": "836639784982e13bce97f20d75f65a7ba5a5262d0aa0bc53be2f93d23a427c75",
+        "sha256_in_prefix": "836639784982e13bce97f20d75f65a7ba5a5262d0aa0bc53be2f93d23a427c75",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/zellner.css",
+        "path_type": "hardlink",
+        "sha256": "d6abd8ab1638d6c1d67f55fa1c225a24f0151df0fc0b7d1791ba58bee5e3c3e3",
+        "sha256_in_prefix": "d6abd8ab1638d6c1d67f55fa1c225a24f0151df0fc0b7d1791ba58bee5e3c3e3",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/zenburn.css",
+        "path_type": "hardlink",
+        "sha256": "d6f03c79f6890d5c233a77ad6053eb1bd98a91ca47713c16f5b0155b01f63999",
+        "sha256_in_prefix": "d6f03c79f6890d5c233a77ad6053eb1bd98a91ca47713c16f5b0155b01f63999",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/knitr/themes/zmrok.css",
+        "path_type": "hardlink",
+        "sha256": "26e52e24cff5dfa351106bffeabbf7a67852746d8da353d33b70bf32906b52d7",
+        "sha256_in_prefix": "26e52e24cff5dfa351106bffeabbf7a67852746d8da353d33b70bf32906b52d7",
+        "size_in_bytes": 298
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-knitr=1.16",
+  "size": 879937,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-knitr-1.16-r3.4.1_0.tar.bz2",
+  "version": "1.16"
+}

@@ -1,0 +1,13 @@
+KeyError in line 25 of /home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py:
+'sample'
+  File "/home/liyubing/analysis/7_snakemake/hisat-deseq-go-kegg/pro1/snakefile-mine.py", line 25, in <module>
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/frame.py", line 3906, in set_index
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/frame.py", line 2685, in __getitem__
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/frame.py", line 2692, in _getitem_column
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/generic.py", line 2486, in _get_item_cache
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/internals.py", line 4115, in get
+  File "/data1/software/miniconda2/envs/py3/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item

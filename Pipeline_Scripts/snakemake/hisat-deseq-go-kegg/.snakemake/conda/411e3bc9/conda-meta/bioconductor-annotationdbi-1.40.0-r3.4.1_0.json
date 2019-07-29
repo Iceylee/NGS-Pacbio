@@ -1,0 +1,1441 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biobase >=1.17.0",
+    "bioconductor-biocgenerics >=0.23.1",
+    "bioconductor-iranges",
+    "bioconductor-s4vectors >=0.9.25",
+    "r-base 3.4.1*",
+    "r-dbi",
+    "r-rsqlite"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/bioconductor-annotationdbi-1.40.0-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/AnnotationDbi/DBschemas/SchemaGuidelines.txt",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/00README.TXT",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/ARABIDOPSISCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/DataTypes.txt",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/FLYCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/FLY_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/GO_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/HUMANCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/HUMAN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/KEGG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/RODENTCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/RODENT_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/YEASTCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/YEAST_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/00README.TXT",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ARABIDOPSISCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/BOVINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/BOVINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CANINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CANINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CHICKENCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CHICKEN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/DataTypes.txt",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ECOLICHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ECOLI_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/FLYCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/FLY_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/GO_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMANCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMANCROSSCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMAN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDDROME_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDHOMSA_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDMUSMU_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDRATNO_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDSACCE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/KEGG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MALARIA_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MOUSECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MOUSE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PFAM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PIGCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PIG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/RATCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/RAT_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/WORMCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/WORM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/YEASTCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/YEAST_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ZEBRAFISHCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ZEBRAFISH_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/00README.TXT",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ANOPHELES_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ARABIDOPSISCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ARABIDOPSIS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/BOVINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/BOVINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CANINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CANINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHICKENCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHICKEN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHIMP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/DataTypes.txt",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ECOLI_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/FLYCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/FLY_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/GO_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/HUMANCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/HUMAN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/INPARANOID_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/KEGG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MALARIA_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MOUSECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MOUSE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/PFAM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/PIG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RATCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RAT_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RHESUS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/WORMCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/WORM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/XENOPUSCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/XENOPUS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/YEASTCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/YEAST_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ZEBRAFISHCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ZEBRAFISH_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/00README.TXT",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ANOPHELES_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ARABIDOPSISCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ARABIDOPSIS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/BOVINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/BOVINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CANINECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CANINE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHICKENCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHICKEN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHIMP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/COELICOLOR_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/DataTypes.txt",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ECOLI_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/FLYCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/FLY_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/GO_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/HUMANCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/HUMAN_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/INPARANOID_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/KEGG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MALARIA_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MOUSECHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MOUSE_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/PFAM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/PIG_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RATCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RAT_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RHESUS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/WORMCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/WORM_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/XENOPUSCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/XENOPUS_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/YEASTCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/YEAST_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ZEBRAFISHCHIP_DB.sql",
+    "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ZEBRAFISH_DB.sql",
+    "lib/R/library/AnnotationDbi/DESCRIPTION",
+    "lib/R/library/AnnotationDbi/INDEX",
+    "lib/R/library/AnnotationDbi/Meta/Rd.rds",
+    "lib/R/library/AnnotationDbi/Meta/features.rds",
+    "lib/R/library/AnnotationDbi/Meta/hsearch.rds",
+    "lib/R/library/AnnotationDbi/Meta/links.rds",
+    "lib/R/library/AnnotationDbi/Meta/nsInfo.rds",
+    "lib/R/library/AnnotationDbi/Meta/package.rds",
+    "lib/R/library/AnnotationDbi/Meta/vignette.rds",
+    "lib/R/library/AnnotationDbi/NAMESPACE",
+    "lib/R/library/AnnotationDbi/NEWS",
+    "lib/R/library/AnnotationDbi/NOTES-Herve",
+    "lib/R/library/AnnotationDbi/R/AnnotationDbi",
+    "lib/R/library/AnnotationDbi/R/AnnotationDbi.rdb",
+    "lib/R/library/AnnotationDbi/R/AnnotationDbi.rdx",
+    "lib/R/library/AnnotationDbi/TODO",
+    "lib/R/library/AnnotationDbi/doc/AnnotationDbi.R",
+    "lib/R/library/AnnotationDbi/doc/AnnotationDbi.Rnw",
+    "lib/R/library/AnnotationDbi/doc/AnnotationDbi.pdf",
+    "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.R",
+    "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.Rnw",
+    "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.pdf",
+    "lib/R/library/AnnotationDbi/doc/index.html",
+    "lib/R/library/AnnotationDbi/extdata/HG-U95Av2_probe_tab.gz",
+    "lib/R/library/AnnotationDbi/extdata/Inp_species_mapping",
+    "lib/R/library/AnnotationDbi/extdata/hcg110_ID",
+    "lib/R/library/AnnotationDbi/extdata/hgu95av2_ID",
+    "lib/R/library/AnnotationDbi/extdata/manyToOneBlackList.Rda",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/DESCRIPTION",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/NAMESPACE",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/R/zzz.R",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/inst/extdata/org.testing.sqlite",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.egBASE.Rd",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.egORGANISM.Rd",
+    "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.eg_dbconn.Rd",
+    "lib/R/library/AnnotationDbi/extdata/resultTable.Rda",
+    "lib/R/library/AnnotationDbi/help/AnIndex",
+    "lib/R/library/AnnotationDbi/help/AnnotationDbi.rdb",
+    "lib/R/library/AnnotationDbi/help/AnnotationDbi.rdx",
+    "lib/R/library/AnnotationDbi/help/aliases.rds",
+    "lib/R/library/AnnotationDbi/help/paths.rds",
+    "lib/R/library/AnnotationDbi/html/00Index.html",
+    "lib/R/library/AnnotationDbi/html/R.css",
+    "lib/R/library/AnnotationDbi/script/generateMultiCols.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_bimap.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_geneCentricDbs.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_mapIds.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_select.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_select_NOSCHEMA.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_select_inparanoid.R",
+    "lib/R/library/AnnotationDbi/unitTests/test_select_reactome.R"
+  ],
+  "fn": "bioconductor-annotationdbi-1.40.0-r3.4.1_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/bioconductor-annotationdbi-1.40.0-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "701a138ad50d39a160424adec56d22d1",
+  "name": "bioconductor-annotationdbi",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/bioconductor-annotationdbi-1.40.0-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/SchemaGuidelines.txt",
+        "path_type": "hardlink",
+        "sha256": "d98e5cc02ad536df18f52ce381636221d93457e111655bbaeecc8b309b66b67e",
+        "sha256_in_prefix": "d98e5cc02ad536df18f52ce381636221d93457e111655bbaeecc8b309b66b67e",
+        "size_in_bytes": 2577
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/00README.TXT",
+        "path_type": "hardlink",
+        "sha256": "ddd268c24490506085e6a41cc697fd03f6c75082a42fa1f383e8c434c3616fb6",
+        "sha256_in_prefix": "ddd268c24490506085e6a41cc697fd03f6c75082a42fa1f383e8c434c3616fb6",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/ARABIDOPSISCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "49f31bcc0d059669eb56c98d53a83142dea12e76b80696d958eefd21b413868d",
+        "sha256_in_prefix": "49f31bcc0d059669eb56c98d53a83142dea12e76b80696d958eefd21b413868d",
+        "size_in_bytes": 5133
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/DataTypes.txt",
+        "path_type": "hardlink",
+        "sha256": "b255900860f8d188e7a1d3651b90733f8e83181c1e30c971f77b874d877e5dcf",
+        "sha256_in_prefix": "b255900860f8d188e7a1d3651b90733f8e83181c1e30c971f77b874d877e5dcf",
+        "size_in_bytes": 6896
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/FLYCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "da4be76ce71f0722a0031c7d6213d4fa0b211d669822fa27edb2ab6eff754453",
+        "sha256_in_prefix": "da4be76ce71f0722a0031c7d6213d4fa0b211d669822fa27edb2ab6eff754453",
+        "size_in_bytes": 5825
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/FLY_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a4d8121f051a54583d14402e8b6ec2f8b4009661a4a4d30ff66fc7d7bd1ebf81",
+        "sha256_in_prefix": "a4d8121f051a54583d14402e8b6ec2f8b4009661a4a4d30ff66fc7d7bd1ebf81",
+        "size_in_bytes": 5762
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/GO_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d0abff25f5659e92d8da605e8f11a7726f5740a99c5fc68b6bced31391b41fc8",
+        "sha256_in_prefix": "d0abff25f5659e92d8da605e8f11a7726f5740a99c5fc68b6bced31391b41fc8",
+        "size_in_bytes": 5017
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/HUMANCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "0da2f4214c107909aec0ec6cc0a072e54b6e478bec5b314fa8ba72661b914504",
+        "sha256_in_prefix": "0da2f4214c107909aec0ec6cc0a072e54b6e478bec5b314fa8ba72661b914504",
+        "size_in_bytes": 6421
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/HUMAN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "eb2e6a948b188c5db7dfce108b62fe1102b88c0275649707507125dff62cb736",
+        "sha256_in_prefix": "eb2e6a948b188c5db7dfce108b62fe1102b88c0275649707507125dff62cb736",
+        "size_in_bytes": 6358
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/KEGG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "54bbf29c9dc4e9b3ff9fde23a01d487a00e5be3b37ea8860afbb768d158834f8",
+        "sha256_in_prefix": "54bbf29c9dc4e9b3ff9fde23a01d487a00e5be3b37ea8860afbb768d158834f8",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/RODENTCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "656d85d95b4e83ab45852db36fc74ca3bd2463f3d815a754da27fb9b41e01d14",
+        "sha256_in_prefix": "656d85d95b4e83ab45852db36fc74ca3bd2463f3d815a754da27fb9b41e01d14",
+        "size_in_bytes": 6199
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/RODENT_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "b71121a6d32e5db1743d44ccafb54cce494a7b6329932750032206a6bafd4363",
+        "sha256_in_prefix": "b71121a6d32e5db1743d44ccafb54cce494a7b6329932750032206a6bafd4363",
+        "size_in_bytes": 6136
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/YEASTCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "c44a1f0e88b7320bc8f6a3c69e51a326371a1ae194dfbc3a72e9a94fa5b155b9",
+        "sha256_in_prefix": "c44a1f0e88b7320bc8f6a3c69e51a326371a1ae194dfbc3a72e9a94fa5b155b9",
+        "size_in_bytes": 4379
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_0.9/YEAST_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "9782638ec7367543016154054668b89337edea53cf794401179c5fb83de085a3",
+        "sha256_in_prefix": "9782638ec7367543016154054668b89337edea53cf794401179c5fb83de085a3",
+        "size_in_bytes": 5075
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/00README.TXT",
+        "path_type": "hardlink",
+        "sha256": "747e9ba160e05b34fcc61f4665c0bbd23205e28fd386bf32a430a67412c58559",
+        "sha256_in_prefix": "747e9ba160e05b34fcc61f4665c0bbd23205e28fd386bf32a430a67412c58559",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ARABIDOPSISCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a409aa999769e4335eb5a41f94fd740a0e2e28034504415c880165b99b1dbe06",
+        "sha256_in_prefix": "a409aa999769e4335eb5a41f94fd740a0e2e28034504415c880165b99b1dbe06",
+        "size_in_bytes": 5215
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/BOVINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "deb1ffeeb38de52d3d75e9404d65c71878fc4445bfd944cf93771466978c5828",
+        "sha256_in_prefix": "deb1ffeeb38de52d3d75e9404d65c71878fc4445bfd944cf93771466978c5828",
+        "size_in_bytes": 5971
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/BOVINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a6365cbe143b5101ad2216f113ec7459582925464a5d34354361d011e2269b0f",
+        "sha256_in_prefix": "a6365cbe143b5101ad2216f113ec7459582925464a5d34354361d011e2269b0f",
+        "size_in_bytes": 5908
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CANINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "378c52f54734b32e1819bd69f0aea0022548b3c440a8d6630e1d0737e3ae547d",
+        "sha256_in_prefix": "378c52f54734b32e1819bd69f0aea0022548b3c440a8d6630e1d0737e3ae547d",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CANINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "fc6546fe9f3a34b311e520a9fdf671616be73909b925ee906485219aa9da44c5",
+        "sha256_in_prefix": "fc6546fe9f3a34b311e520a9fdf671616be73909b925ee906485219aa9da44c5",
+        "size_in_bytes": 3486
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CHICKENCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "91b30bbfde59308b1cfdfb53a4f61186ffdaac9f67e1ed7f2b56865221c44034",
+        "sha256_in_prefix": "91b30bbfde59308b1cfdfb53a4f61186ffdaac9f67e1ed7f2b56865221c44034",
+        "size_in_bytes": 6216
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/CHICKEN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "7dd21dea02a2713012f1447c7c4040499dc1b338e7886ebbd300acc05f406c78",
+        "sha256_in_prefix": "7dd21dea02a2713012f1447c7c4040499dc1b338e7886ebbd300acc05f406c78",
+        "size_in_bytes": 6410
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/DataTypes.txt",
+        "path_type": "hardlink",
+        "sha256": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "sha256_in_prefix": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "size_in_bytes": 11790
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ECOLICHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "c2ad654f0551664c5663d21d718f44fef4ba10a91d2451ae71fc839ae7e47415",
+        "sha256_in_prefix": "c2ad654f0551664c5663d21d718f44fef4ba10a91d2451ae71fc839ae7e47415",
+        "size_in_bytes": 4399
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ECOLI_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d33cc9966af7a00905fa7de2070e9a05ba5fb2f3f010ff42082f45caeadcbfe2",
+        "sha256_in_prefix": "d33cc9966af7a00905fa7de2070e9a05ba5fb2f3f010ff42082f45caeadcbfe2",
+        "size_in_bytes": 4337
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/FLYCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "19efbd719344121a05b4f16c6d0e635347f8f33ce3fadc5d534e66e4357b3bd4",
+        "sha256_in_prefix": "19efbd719344121a05b4f16c6d0e635347f8f33ce3fadc5d534e66e4357b3bd4",
+        "size_in_bytes": 6173
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/FLY_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "9b8a6272c594c7836e82be904b0428df659b4c4830fde186eb922dfd410d8cf7",
+        "sha256_in_prefix": "9b8a6272c594c7836e82be904b0428df659b4c4830fde186eb922dfd410d8cf7",
+        "size_in_bytes": 6367
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/GO_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "abc9978b48aefcdeadc12e4a86a9a9840f582608fc50798ee12ccadea3e2843d",
+        "sha256_in_prefix": "abc9978b48aefcdeadc12e4a86a9a9840f582608fc50798ee12ccadea3e2843d",
+        "size_in_bytes": 4808
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMANCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "205095ea48ecbfcbe076fdd08f1639eb0e098192423bfafcccb0f4218e602c50",
+        "sha256_in_prefix": "205095ea48ecbfcbe076fdd08f1639eb0e098192423bfafcccb0f4218e602c50",
+        "size_in_bytes": 6729
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMANCROSSCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "205095ea48ecbfcbe076fdd08f1639eb0e098192423bfafcccb0f4218e602c50",
+        "sha256_in_prefix": "205095ea48ecbfcbe076fdd08f1639eb0e098192423bfafcccb0f4218e602c50",
+        "size_in_bytes": 6729
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/HUMAN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "ee7293fbb2b9c39fc2acc277393f5e3dbba9b649f3b211c36e93ef945c1c970a",
+        "sha256_in_prefix": "ee7293fbb2b9c39fc2acc277393f5e3dbba9b649f3b211c36e93ef945c1c970a",
+        "size_in_bytes": 6923
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDDROME_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "4814f6ce50cec011207aacdb79b86e26c199ce2a639f05cbd546f7cd32ace4d4",
+        "sha256_in_prefix": "4814f6ce50cec011207aacdb79b86e26c199ce2a639f05cbd546f7cd32ace4d4",
+        "size_in_bytes": 14187
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDHOMSA_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "95e8007cf2e08a0faa0732fc178458749c3d7298e57d85aac37714dd48117b4a",
+        "sha256_in_prefix": "95e8007cf2e08a0faa0732fc178458749c3d7298e57d85aac37714dd48117b4a",
+        "size_in_bytes": 14198
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDMUSMU_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d1991f99c948851732796b2dcfaa0ca379a2c26afb7a1a9b453bf2e5106e5fec",
+        "sha256_in_prefix": "d1991f99c948851732796b2dcfaa0ca379a2c26afb7a1a9b453bf2e5106e5fec",
+        "size_in_bytes": 14198
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDRATNO_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "69f07020ae2e627affc41084bf1ba6b34150862676ae314b75ea7c1ae3f435d3",
+        "sha256_in_prefix": "69f07020ae2e627affc41084bf1ba6b34150862676ae314b75ea7c1ae3f435d3",
+        "size_in_bytes": 14193
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/INPARANOIDSACCE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "e9e5d2b505a31f4a55d79a93ffe93a62dec76d5821644fafc4587af0b7b76308",
+        "sha256_in_prefix": "e9e5d2b505a31f4a55d79a93ffe93a62dec76d5821644fafc4587af0b7b76308",
+        "size_in_bytes": 14186
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/KEGG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "09ba7e2c253f364b1e7c3c1728c3d0f34cc4bdcd9fb037e08fd4d4e1cc972ea6",
+        "sha256_in_prefix": "09ba7e2c253f364b1e7c3c1728c3d0f34cc4bdcd9fb037e08fd4d4e1cc972ea6",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MALARIA_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "764cc6893cc6d8e1251ccec46d235607a0c63668392c7188b925edd3dac9aef3",
+        "sha256_in_prefix": "764cc6893cc6d8e1251ccec46d235607a0c63668392c7188b925edd3dac9aef3",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MOUSECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "c3c609646cc3e726456f29e1930979413b8e2b35d1a115654b4ad396fa793458",
+        "sha256_in_prefix": "c3c609646cc3e726456f29e1930979413b8e2b35d1a115654b4ad396fa793458",
+        "size_in_bytes": 6734
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/MOUSE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "44a4a7242ab23ae051ec7fa71d0ad3a3ae69fa3e895b59f3e51c999b94c06f7c",
+        "sha256_in_prefix": "44a4a7242ab23ae051ec7fa71d0ad3a3ae69fa3e895b59f3e51c999b94c06f7c",
+        "size_in_bytes": 6671
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PFAM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "88000587fba9b8de46a3e0edb654cb8c5bb5a49c9591d5301887068a61acc10b",
+        "sha256_in_prefix": "88000587fba9b8de46a3e0edb654cb8c5bb5a49c9591d5301887068a61acc10b",
+        "size_in_bytes": 3532
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PIGCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "cefc0ab6e0c593254434b9b9d17c55f9a7a0c9beeda194afd38ddf9d342b9dd0",
+        "sha256_in_prefix": "cefc0ab6e0c593254434b9b9d17c55f9a7a0c9beeda194afd38ddf9d342b9dd0",
+        "size_in_bytes": 3546
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/PIG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "65235ef0f78f731256d36fcd8f998fbe539918c41d0e3e0016a37ee4bfe52358",
+        "sha256_in_prefix": "65235ef0f78f731256d36fcd8f998fbe539918c41d0e3e0016a37ee4bfe52358",
+        "size_in_bytes": 3483
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/RATCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "7370ef7e4a4496fa8a7b8203744c8e061690d1210171d848ebf037e2f2582fc1",
+        "sha256_in_prefix": "7370ef7e4a4496fa8a7b8203744c8e061690d1210171d848ebf037e2f2582fc1",
+        "size_in_bytes": 6498
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/RAT_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "31f25104a2ace19ed59b7ea3640a41df8c5bf0e94c37286e448fdbfc449a4f2b",
+        "sha256_in_prefix": "31f25104a2ace19ed59b7ea3640a41df8c5bf0e94c37286e448fdbfc449a4f2b",
+        "size_in_bytes": 6692
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/WORMCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "51454e4e4def3803937d3ab8313e1fbd86d61e752cf20e08e7e74ef30f667f3a",
+        "sha256_in_prefix": "51454e4e4def3803937d3ab8313e1fbd86d61e752cf20e08e7e74ef30f667f3a",
+        "size_in_bytes": 5359
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/WORM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "dcfbe8d56a226013058b9d02d097dcc569991d3aa71fefc6f3bf353414a5d411",
+        "sha256_in_prefix": "dcfbe8d56a226013058b9d02d097dcc569991d3aa71fefc6f3bf353414a5d411",
+        "size_in_bytes": 5296
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/YEASTCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "11d1c986c9a35a2e6e640a6c23ef1856d3d7f104afc1a9e60eae6bfa7951ccf0",
+        "sha256_in_prefix": "11d1c986c9a35a2e6e640a6c23ef1856d3d7f104afc1a9e60eae6bfa7951ccf0",
+        "size_in_bytes": 4420
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/YEAST_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "b1719a7c1fba82c3eea62c2db83bf31157ead15d9daf9041363875c9e5b535b3",
+        "sha256_in_prefix": "b1719a7c1fba82c3eea62c2db83bf31157ead15d9daf9041363875c9e5b535b3",
+        "size_in_bytes": 5122
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ZEBRAFISHCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d288ef93d812b58b94d75e75aaf685f3017b5f8c47b54fdc0f7e770ca04dec69",
+        "sha256_in_prefix": "d288ef93d812b58b94d75e75aaf685f3017b5f8c47b54fdc0f7e770ca04dec69",
+        "size_in_bytes": 6218
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_1.0/ZEBRAFISH_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "1ec66ca36b1d78826a896066f831001c258075a51879ccdfd6c5fb8165d8fbde",
+        "sha256_in_prefix": "1ec66ca36b1d78826a896066f831001c258075a51879ccdfd6c5fb8165d8fbde",
+        "size_in_bytes": 6412
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/00README.TXT",
+        "path_type": "hardlink",
+        "sha256": "a9342da5f05faf3e8ade8222807b01fabde2b17856918f10a9e3c5aefc1516ec",
+        "sha256_in_prefix": "a9342da5f05faf3e8ade8222807b01fabde2b17856918f10a9e3c5aefc1516ec",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ANOPHELES_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "c4861590f61dcf5718a1bf293e775c1a48c50634e8997dc31e93ae4010a1f0c2",
+        "sha256_in_prefix": "c4861590f61dcf5718a1bf293e775c1a48c50634e8997dc31e93ae4010a1f0c2",
+        "size_in_bytes": 6872
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ARABIDOPSISCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a6b349a0f5514c093b80055154a0a3d066f87bd75e3ad307927207d0249700e4",
+        "sha256_in_prefix": "a6b349a0f5514c093b80055154a0a3d066f87bd75e3ad307927207d0249700e4",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ARABIDOPSIS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "feaeb7e98c2491afec05b4bd35a9bcb013ebeb0c1dbc5f3059947d36517c57d7",
+        "sha256_in_prefix": "feaeb7e98c2491afec05b4bd35a9bcb013ebeb0c1dbc5f3059947d36517c57d7",
+        "size_in_bytes": 5615
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/BOVINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/BOVINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "sha256_in_prefix": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "size_in_bytes": 8164
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CANINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CANINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "736af40e2b717cbdf81a87ca72502427aa790bf553baec27c329e1f0edf990c2",
+        "sha256_in_prefix": "736af40e2b717cbdf81a87ca72502427aa790bf553baec27c329e1f0edf990c2",
+        "size_in_bytes": 7506
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHICKENCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHICKEN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "sha256_in_prefix": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "size_in_bytes": 8164
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/CHIMP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "sha256_in_prefix": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/DataTypes.txt",
+        "path_type": "hardlink",
+        "sha256": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "sha256_in_prefix": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "size_in_bytes": 11790
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ECOLI_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "4a7a3891ead450922cd7d97a4678ef8c9439bcced8d81be4fa71adb53b8ba075",
+        "sha256_in_prefix": "4a7a3891ead450922cd7d97a4678ef8c9439bcced8d81be4fa71adb53b8ba075",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/FLYCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/FLY_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "1d1188c7f1eeb690602a61634ae4e94410348c6102fb682250b5f8f9af10a417",
+        "sha256_in_prefix": "1d1188c7f1eeb690602a61634ae4e94410348c6102fb682250b5f8f9af10a417",
+        "size_in_bytes": 7251
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/GO_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "606c26f0e64d27af03a2f06eac8e781114dc24d3aa01e17a955a812effcafc8e",
+        "sha256_in_prefix": "606c26f0e64d27af03a2f06eac8e781114dc24d3aa01e17a955a812effcafc8e",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/HUMANCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/HUMAN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "7087a36b8d75c91c469172a7d111e794627efbe213bcc18a61d6fba977bf1a45",
+        "sha256_in_prefix": "7087a36b8d75c91c469172a7d111e794627efbe213bcc18a61d6fba977bf1a45",
+        "size_in_bytes": 8966
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/INPARANOID_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "16f91b7446f35f7c14a6c2772d4e011c8b4cb76ee779cb9fa8ed9b4192744150",
+        "sha256_in_prefix": "16f91b7446f35f7c14a6c2772d4e011c8b4cb76ee779cb9fa8ed9b4192744150",
+        "size_in_bytes": 11451
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/KEGG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "e8ae0b9a58464e6a24b067b49f7687cd64e91441addc31392ea755180f3aad08",
+        "sha256_in_prefix": "e8ae0b9a58464e6a24b067b49f7687cd64e91441addc31392ea755180f3aad08",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MALARIA_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d6d7ebdaeeb5e4931e4961b70a9459d0489f804101e67cfc8f5a7fad3b0c78ae",
+        "sha256_in_prefix": "d6d7ebdaeeb5e4931e4961b70a9459d0489f804101e67cfc8f5a7fad3b0c78ae",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MOUSECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/MOUSE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2da6870e0cc2cc67c7b370b9c56385005ce29da5d2abe1a8c3b42464c5ca9add",
+        "sha256_in_prefix": "2da6870e0cc2cc67c7b370b9c56385005ce29da5d2abe1a8c3b42464c5ca9add",
+        "size_in_bytes": 8958
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/PFAM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "ad8576f764e3f0c8921d908729e054dad2f6788022b0f27ec181cbcebfbd4857",
+        "sha256_in_prefix": "ad8576f764e3f0c8921d908729e054dad2f6788022b0f27ec181cbcebfbd4857",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/PIG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a34b69d9d2b061742f79754c92296d6b40e18d9a4edeec0c3b3ed7dfc6badc79",
+        "sha256_in_prefix": "a34b69d9d2b061742f79754c92296d6b40e18d9a4edeec0c3b3ed7dfc6badc79",
+        "size_in_bytes": 5621
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RATCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RAT_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2351917db5332b4afab234cf5bf5e43180816caf10e1d0621fa7b44883c85df2",
+        "sha256_in_prefix": "2351917db5332b4afab234cf5bf5e43180816caf10e1d0621fa7b44883c85df2",
+        "size_in_bytes": 8472
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/RHESUS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "sha256_in_prefix": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/WORMCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/WORM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "8d98fa291c6c4f8308630ab8a5029950d1f0adb1156f27813964d285712e8f8f",
+        "sha256_in_prefix": "8d98fa291c6c4f8308630ab8a5029950d1f0adb1156f27813964d285712e8f8f",
+        "size_in_bytes": 7221
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/XENOPUSCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/XENOPUS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2984d8e4f9bd5147ed314b50a669d7c1d1e9d7935a9d26928e900f546d1adc83",
+        "sha256_in_prefix": "2984d8e4f9bd5147ed314b50a669d7c1d1e9d7935a9d26928e900f546d1adc83",
+        "size_in_bytes": 5358
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/YEASTCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2b1481882de341cc96c14eb8e00ac66a03e30f06d769e669436c985933553582",
+        "sha256_in_prefix": "2b1481882de341cc96c14eb8e00ac66a03e30f06d769e669436c985933553582",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/YEAST_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "628377df3e009143620fa5ef4bb8784bf1e8b23acd82cec018f8663129d87ef3",
+        "sha256_in_prefix": "628377df3e009143620fa5ef4bb8784bf1e8b23acd82cec018f8663129d87ef3",
+        "size_in_bytes": 6638
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ZEBRAFISHCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.0/ZEBRAFISH_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "867eb6a107b230c69ca99771bbd2bda00d44accd1eba291ce77f38819f6cc2a7",
+        "sha256_in_prefix": "867eb6a107b230c69ca99771bbd2bda00d44accd1eba291ce77f38819f6cc2a7",
+        "size_in_bytes": 8411
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/00README.TXT",
+        "path_type": "hardlink",
+        "sha256": "a9342da5f05faf3e8ade8222807b01fabde2b17856918f10a9e3c5aefc1516ec",
+        "sha256_in_prefix": "a9342da5f05faf3e8ade8222807b01fabde2b17856918f10a9e3c5aefc1516ec",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ANOPHELES_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "c4861590f61dcf5718a1bf293e775c1a48c50634e8997dc31e93ae4010a1f0c2",
+        "sha256_in_prefix": "c4861590f61dcf5718a1bf293e775c1a48c50634e8997dc31e93ae4010a1f0c2",
+        "size_in_bytes": 6872
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ARABIDOPSISCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a6b349a0f5514c093b80055154a0a3d066f87bd75e3ad307927207d0249700e4",
+        "sha256_in_prefix": "a6b349a0f5514c093b80055154a0a3d066f87bd75e3ad307927207d0249700e4",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ARABIDOPSIS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "feaeb7e98c2491afec05b4bd35a9bcb013ebeb0c1dbc5f3059947d36517c57d7",
+        "sha256_in_prefix": "feaeb7e98c2491afec05b4bd35a9bcb013ebeb0c1dbc5f3059947d36517c57d7",
+        "size_in_bytes": 5615
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/BOVINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/BOVINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "sha256_in_prefix": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "size_in_bytes": 8164
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CANINECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CANINE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "736af40e2b717cbdf81a87ca72502427aa790bf553baec27c329e1f0edf990c2",
+        "sha256_in_prefix": "736af40e2b717cbdf81a87ca72502427aa790bf553baec27c329e1f0edf990c2",
+        "size_in_bytes": 7506
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHICKENCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHICKEN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "sha256_in_prefix": "d157e640a809822b198bd865efd33eb28033be82fe574fa859c1b93bfd0c5bfb",
+        "size_in_bytes": 8164
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/CHIMP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "sha256_in_prefix": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/COELICOLOR_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "47108e399affe765b7f6e5c7fc2a7b9e93ebdabf6dee5c19a5e4258ba91131c1",
+        "sha256_in_prefix": "47108e399affe765b7f6e5c7fc2a7b9e93ebdabf6dee5c19a5e4258ba91131c1",
+        "size_in_bytes": 3652
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/DataTypes.txt",
+        "path_type": "hardlink",
+        "sha256": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "sha256_in_prefix": "a4b3567cba7f590cbe02ecd157ad0aec4945777ea82c71b206d5fe400876a225",
+        "size_in_bytes": 11790
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ECOLI_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "4a7a3891ead450922cd7d97a4678ef8c9439bcced8d81be4fa71adb53b8ba075",
+        "sha256_in_prefix": "4a7a3891ead450922cd7d97a4678ef8c9439bcced8d81be4fa71adb53b8ba075",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/FLYCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/FLY_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "614d24b8f4bcca22b92dc54f83810030e2d3c9bb558c1e7bb1355c1b852ca480",
+        "sha256_in_prefix": "614d24b8f4bcca22b92dc54f83810030e2d3c9bb558c1e7bb1355c1b852ca480",
+        "size_in_bytes": 8076
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/GO_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "606c26f0e64d27af03a2f06eac8e781114dc24d3aa01e17a955a812effcafc8e",
+        "sha256_in_prefix": "606c26f0e64d27af03a2f06eac8e781114dc24d3aa01e17a955a812effcafc8e",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/HUMANCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/HUMAN_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "7087a36b8d75c91c469172a7d111e794627efbe213bcc18a61d6fba977bf1a45",
+        "sha256_in_prefix": "7087a36b8d75c91c469172a7d111e794627efbe213bcc18a61d6fba977bf1a45",
+        "size_in_bytes": 8966
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/INPARANOID_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "b3951fb97d9ad50b5faabd24d8c28cc9e8d91d09a2a4eb1ef1e4fe6224531bda",
+        "sha256_in_prefix": "b3951fb97d9ad50b5faabd24d8c28cc9e8d91d09a2a4eb1ef1e4fe6224531bda",
+        "size_in_bytes": 32353
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/KEGG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "e8ae0b9a58464e6a24b067b49f7687cd64e91441addc31392ea755180f3aad08",
+        "sha256_in_prefix": "e8ae0b9a58464e6a24b067b49f7687cd64e91441addc31392ea755180f3aad08",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MALARIA_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "d6d7ebdaeeb5e4931e4961b70a9459d0489f804101e67cfc8f5a7fad3b0c78ae",
+        "sha256_in_prefix": "d6d7ebdaeeb5e4931e4961b70a9459d0489f804101e67cfc8f5a7fad3b0c78ae",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MOUSECHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/MOUSE_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2da6870e0cc2cc67c7b370b9c56385005ce29da5d2abe1a8c3b42464c5ca9add",
+        "sha256_in_prefix": "2da6870e0cc2cc67c7b370b9c56385005ce29da5d2abe1a8c3b42464c5ca9add",
+        "size_in_bytes": 8958
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/PFAM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "ad8576f764e3f0c8921d908729e054dad2f6788022b0f27ec181cbcebfbd4857",
+        "sha256_in_prefix": "ad8576f764e3f0c8921d908729e054dad2f6788022b0f27ec181cbcebfbd4857",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/PIG_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "a34b69d9d2b061742f79754c92296d6b40e18d9a4edeec0c3b3ed7dfc6badc79",
+        "sha256_in_prefix": "a34b69d9d2b061742f79754c92296d6b40e18d9a4edeec0c3b3ed7dfc6badc79",
+        "size_in_bytes": 5621
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RATCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RAT_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2351917db5332b4afab234cf5bf5e43180816caf10e1d0621fa7b44883c85df2",
+        "sha256_in_prefix": "2351917db5332b4afab234cf5bf5e43180816caf10e1d0621fa7b44883c85df2",
+        "size_in_bytes": 8472
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/RHESUS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "sha256_in_prefix": "74169dd9bb1d4e874f471ed13246b7a0d9b4f20c94bf2eab5fe56864968bd95b",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/WORMCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/WORM_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "8d98fa291c6c4f8308630ab8a5029950d1f0adb1156f27813964d285712e8f8f",
+        "sha256_in_prefix": "8d98fa291c6c4f8308630ab8a5029950d1f0adb1156f27813964d285712e8f8f",
+        "size_in_bytes": 7221
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/XENOPUSCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/XENOPUS_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2984d8e4f9bd5147ed314b50a669d7c1d1e9d7935a9d26928e900f546d1adc83",
+        "sha256_in_prefix": "2984d8e4f9bd5147ed314b50a669d7c1d1e9d7935a9d26928e900f546d1adc83",
+        "size_in_bytes": 5358
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/YEASTCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "2b1481882de341cc96c14eb8e00ac66a03e30f06d769e669436c985933553582",
+        "sha256_in_prefix": "2b1481882de341cc96c14eb8e00ac66a03e30f06d769e669436c985933553582",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/YEAST_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "f2bfc91c0709559acbe3a4f1ed58146f4fc53b4909fac5e1aa3371992afe4553",
+        "sha256_in_prefix": "f2bfc91c0709559acbe3a4f1ed58146f4fc53b4909fac5e1aa3371992afe4553",
+        "size_in_bytes": 7736
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ZEBRAFISHCHIP_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "sha256_in_prefix": "34a469a8e9733f8c6f7546d43f947f53b7970974927f1f16871f0048c6a84871",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DBschemas/schemas_2.1/ZEBRAFISH_DB.sql",
+        "path_type": "hardlink",
+        "sha256": "867eb6a107b230c69ca99771bbd2bda00d44accd1eba291ce77f38819f6cc2a7",
+        "sha256_in_prefix": "867eb6a107b230c69ca99771bbd2bda00d44accd1eba291ce77f38819f6cc2a7",
+        "size_in_bytes": 8411
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "04e82c6544f0c72ef76bfe84829fcc7b28ca5c1ece5c95ae551f97753da678d8",
+        "sha256_in_prefix": "04e82c6544f0c72ef76bfe84829fcc7b28ca5c1ece5c95ae551f97753da678d8",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/INDEX",
+        "path_type": "hardlink",
+        "sha256": "25e7e20745fc14657fcf175cfa0d7e6a8720c45c41837f4426befc54521f3ab6",
+        "sha256_in_prefix": "25e7e20745fc14657fcf175cfa0d7e6a8720c45c41837f4426befc54521f3ab6",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "76b3755ef98728b0394c55ea3d66e329b1352c7a6bd4a887ddfc5996efeeb0c9",
+        "sha256_in_prefix": "76b3755ef98728b0394c55ea3d66e329b1352c7a6bd4a887ddfc5996efeeb0c9",
+        "size_in_bytes": 5031
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "d37fef2aba6e2ee227b0f3de6f23dd4f9da8a365b0386f99d858ec2e62a657e6",
+        "sha256_in_prefix": "d37fef2aba6e2ee227b0f3de6f23dd4f9da8a365b0386f99d858ec2e62a657e6",
+        "size_in_bytes": 5157
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "095afde5ff9f11d5a99b30b44e958b1c10ccc69080388424bbcbae5870a88833",
+        "sha256_in_prefix": "095afde5ff9f11d5a99b30b44e958b1c10ccc69080388424bbcbae5870a88833",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "7dafcbf46dc0bf5fc60b50c5cf185c1daa9553ef4ad234a853dca89d4de1ee59",
+        "sha256_in_prefix": "7dafcbf46dc0bf5fc60b50c5cf185c1daa9553ef4ad234a853dca89d4de1ee59",
+        "size_in_bytes": 1191
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7e93211420b64987b802cd180b895b9e6ee38802f1dc4ea6201b77b719eb7a74",
+        "sha256_in_prefix": "7e93211420b64987b802cd180b895b9e6ee38802f1dc4ea6201b77b719eb7a74",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "e4261a8147c067a1bfa6f1fa382d26f2c46c222c77607a10a6927d7a85793ea9",
+        "sha256_in_prefix": "e4261a8147c067a1bfa6f1fa382d26f2c46c222c77607a10a6927d7a85793ea9",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b0dd4e64d9eacd4b2a23527682245c7832283d6c3f183a8e737dd274e0657bc6",
+        "sha256_in_prefix": "b0dd4e64d9eacd4b2a23527682245c7832283d6c3f183a8e737dd274e0657bc6",
+        "size_in_bytes": 3641
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/NEWS",
+        "path_type": "hardlink",
+        "sha256": "44b8b240e40b344ea52e34b9089cd826d0828952d9dcc15a833e3eb26c221f30",
+        "sha256_in_prefix": "44b8b240e40b344ea52e34b9089cd826d0828952d9dcc15a833e3eb26c221f30",
+        "size_in_bytes": 10371
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/NOTES-Herve",
+        "path_type": "hardlink",
+        "sha256": "6c147299a0a7e3d78190c11630539d1c60ad88e50e7014f0c8bd1ae741f127f4",
+        "sha256_in_prefix": "6c147299a0a7e3d78190c11630539d1c60ad88e50e7014f0c8bd1ae741f127f4",
+        "size_in_bytes": 2436
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/R/AnnotationDbi",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/R/AnnotationDbi.rdb",
+        "path_type": "hardlink",
+        "sha256": "a9f95054a18b92b4f4e71de221c0496c998a152e3a57a7e8ee3897b03e81d36c",
+        "sha256_in_prefix": "a9f95054a18b92b4f4e71de221c0496c998a152e3a57a7e8ee3897b03e81d36c",
+        "size_in_bytes": 572071
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/R/AnnotationDbi.rdx",
+        "path_type": "hardlink",
+        "sha256": "20ff3b0019240407afbbcbefbe393a1fdb948fa604c6c77022586c531307464d",
+        "sha256_in_prefix": "20ff3b0019240407afbbcbefbe393a1fdb948fa604c6c77022586c531307464d",
+        "size_in_bytes": 10132
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/TODO",
+        "path_type": "hardlink",
+        "sha256": "2862198a6e273dd94aae54f06827918779345de28b4792dd43e8995cb438e317",
+        "sha256_in_prefix": "2862198a6e273dd94aae54f06827918779345de28b4792dd43e8995cb438e317",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/AnnotationDbi.R",
+        "path_type": "hardlink",
+        "sha256": "0accf017f5b17174df2986a3ff00ecb0897e1c728cf5bb3cf7c5753d9a077fc8",
+        "sha256_in_prefix": "0accf017f5b17174df2986a3ff00ecb0897e1c728cf5bb3cf7c5753d9a077fc8",
+        "size_in_bytes": 10084
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/AnnotationDbi.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5c31fa5a91bf7694b2a4df19012793a51f0c7edf16eda0eda874c3a9e2821316",
+        "sha256_in_prefix": "5c31fa5a91bf7694b2a4df19012793a51f0c7edf16eda0eda874c3a9e2821316",
+        "size_in_bytes": 27999
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/AnnotationDbi.pdf",
+        "path_type": "hardlink",
+        "sha256": "55df8224322d7735c4f64b50215b8dcdcb01f94e1aa8293ebbcdf77ac6698b58",
+        "sha256_in_prefix": "55df8224322d7735c4f64b50215b8dcdcb01f94e1aa8293ebbcdf77ac6698b58",
+        "size_in_bytes": 195011
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.R",
+        "path_type": "hardlink",
+        "sha256": "d693f423fbe258c11394dd858830411ec49c6df56c2fd1b0f2624e531b0b0f3a",
+        "sha256_in_prefix": "d693f423fbe258c11394dd858830411ec49c6df56c2fd1b0f2624e531b0b0f3a",
+        "size_in_bytes": 4060
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.Rnw",
+        "path_type": "hardlink",
+        "sha256": "22187d6d83944529abb4aa7fe89b5eff7985b7be15d9a5a338fd9817678a560f",
+        "sha256_in_prefix": "22187d6d83944529abb4aa7fe89b5eff7985b7be15d9a5a338fd9817678a560f",
+        "size_in_bytes": 14726
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/IntroToAnnotationPackages.pdf",
+        "path_type": "hardlink",
+        "sha256": "1f0dfe413872fe74d244e7ed21a4ec650c7fae32f93afb9921e52534d96d92b1",
+        "sha256_in_prefix": "1f0dfe413872fe74d244e7ed21a4ec650c7fae32f93afb9921e52534d96d92b1",
+        "size_in_bytes": 168435
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "37c2acf46b8fbc70ff9358bb5abcc2e79999a3ae1349304e5c3c8d6314ff6125",
+        "sha256_in_prefix": "37c2acf46b8fbc70ff9358bb5abcc2e79999a3ae1349304e5c3c8d6314ff6125",
+        "size_in_bytes": 2060
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/HG-U95Av2_probe_tab.gz",
+        "path_type": "hardlink",
+        "sha256": "d5d741137e3ad791c5158489c23c4ba8b7a05f59198d2aee251e19dd61466d13",
+        "sha256_in_prefix": "d5d741137e3ad791c5158489c23c4ba8b7a05f59198d2aee251e19dd61466d13",
+        "size_in_bytes": 2988735
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/Inp_species_mapping",
+        "path_type": "hardlink",
+        "sha256": "3678c4e68ad7d149146407a98941696e97db00a16a0ab5c92454e69851782e64",
+        "sha256_in_prefix": "3678c4e68ad7d149146407a98941696e97db00a16a0ab5c92454e69851782e64",
+        "size_in_bytes": 20700
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/hcg110_ID",
+        "path_type": "hardlink",
+        "sha256": "480265e229176d8630ea38bf2c93e183d1a92ee09c35d770e3d944656ae125ba",
+        "sha256_in_prefix": "480265e229176d8630ea38bf2c93e183d1a92ee09c35d770e3d944656ae125ba",
+        "size_in_bytes": 33570
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/hgu95av2_ID",
+        "path_type": "hardlink",
+        "sha256": "792f4a52ca9d430ca0eff143bad6b0e8cbacab5e7189d5adc64bf265d0b1d417",
+        "sha256_in_prefix": "792f4a52ca9d430ca0eff143bad6b0e8cbacab5e7189d5adc64bf265d0b1d417",
+        "size_in_bytes": 214361
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/manyToOneBlackList.Rda",
+        "path_type": "hardlink",
+        "sha256": "5209d662d059ede732e65adcb95d2fc4fb926729bdd6860e6d29ef4802cf0a6a",
+        "sha256_in_prefix": "5209d662d059ede732e65adcb95d2fc4fb926729bdd6860e6d29ef4802cf0a6a",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "03cb2b2f4840e9193a3888087f415b97779979c334c763676871c2ce1cd6d29c",
+        "sha256_in_prefix": "03cb2b2f4840e9193a3888087f415b97779979c334c763676871c2ce1cd6d29c",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "18e15eb34b4da7b0197fd341ec6c6ba234ec84eea1a58d495cceea079fe7c4fa",
+        "sha256_in_prefix": "18e15eb34b4da7b0197fd341ec6c6ba234ec84eea1a58d495cceea079fe7c4fa",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/R/zzz.R",
+        "path_type": "hardlink",
+        "sha256": "4a7b09e3daa248ec6f02d50e7e2d0be3c318111d790a481781e52da0fb68e757",
+        "sha256_in_prefix": "4a7b09e3daa248ec6f02d50e7e2d0be3c318111d790a481781e52da0fb68e757",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/inst/extdata/org.testing.sqlite",
+        "path_type": "hardlink",
+        "sha256": "0414add4c63ec2efb527d52bd74710a9ecba402cc155e1d1cf527be66717b9ae",
+        "sha256_in_prefix": "0414add4c63ec2efb527d52bd74710a9ecba402cc155e1d1cf527be66717b9ae",
+        "size_in_bytes": 3001344
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.egBASE.Rd",
+        "path_type": "hardlink",
+        "sha256": "eeb3849c2eccc732398c6fc62b48b47b87a2030736be3578a9b414e9d9b5e732",
+        "sha256_in_prefix": "eeb3849c2eccc732398c6fc62b48b47b87a2030736be3578a9b414e9d9b5e732",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.egORGANISM.Rd",
+        "path_type": "hardlink",
+        "sha256": "3bc046df41236e180737cf460683c5a71eb212100c574ea24ffedf5ca6189b17",
+        "sha256_in_prefix": "3bc046df41236e180737cf460683c5a71eb212100c574ea24ffedf5ca6189b17",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/org.testing.db/man/org.TguttataTestingSubset.eg_dbconn.Rd",
+        "path_type": "hardlink",
+        "sha256": "1034c0df78eaee32d6f8415bc06f6ef76b419f066b0ae9258416f566ec6128a5",
+        "sha256_in_prefix": "1034c0df78eaee32d6f8415bc06f6ef76b419f066b0ae9258416f566ec6128a5",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/extdata/resultTable.Rda",
+        "path_type": "hardlink",
+        "sha256": "5c039de8caa74b319a0976a136d822aa535f16189964b4ca1de9ad89743dea04",
+        "sha256_in_prefix": "5c039de8caa74b319a0976a136d822aa535f16189964b4ca1de9ad89743dea04",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d6e26f67e0447cbbe00d7f3b9e6db931c726e5a58c52217dbfb25047e616e179",
+        "sha256_in_prefix": "d6e26f67e0447cbbe00d7f3b9e6db931c726e5a58c52217dbfb25047e616e179",
+        "size_in_bytes": 19389
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/help/AnnotationDbi.rdb",
+        "path_type": "hardlink",
+        "sha256": "e4fea5c23f83e2ef48182f93afd172e82721651e70a4154e7e55b31f553db0af",
+        "sha256_in_prefix": "e4fea5c23f83e2ef48182f93afd172e82721651e70a4154e7e55b31f553db0af",
+        "size_in_bytes": 110768
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/help/AnnotationDbi.rdx",
+        "path_type": "hardlink",
+        "sha256": "580baf5d9b9d9d3ecc4df5b6e5c326095b962ba61cd7d7a0a7b2e8d63690afde",
+        "sha256_in_prefix": "580baf5d9b9d9d3ecc4df5b6e5c326095b962ba61cd7d7a0a7b2e8d63690afde",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8fb016bbf9c76f92dd04efc00c5037b94a28a56cc248aea0763533b96c2eee37",
+        "sha256_in_prefix": "8fb016bbf9c76f92dd04efc00c5037b94a28a56cc248aea0763533b96c2eee37",
+        "size_in_bytes": 4634
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "455a6f70837fe2a67f5dd56adca8d46e7d53673b99466b2fee5448a65d7fee41",
+        "sha256_in_prefix": "455a6f70837fe2a67f5dd56adca8d46e7d53673b99466b2fee5448a65d7fee41",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "48632d342b45d5835574da730d13ef706784a1b6847dfabd424fd913ebacf7d1",
+        "sha256_in_prefix": "48632d342b45d5835574da730d13ef706784a1b6847dfabd424fd913ebacf7d1",
+        "size_in_bytes": 63391
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/script/generateMultiCols.R",
+        "path_type": "hardlink",
+        "sha256": "e2a8894e6c0fa72f2b0232153e9334d36ccf8452d19f00f05d0a74e554b79e48",
+        "sha256_in_prefix": "e2a8894e6c0fa72f2b0232153e9334d36ccf8452d19f00f05d0a74e554b79e48",
+        "size_in_bytes": 7511
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_bimap.R",
+        "path_type": "hardlink",
+        "sha256": "9b68dbaadf5ca5bbe2a2c3589751862d84fc9b36affdf02d5fc50e4c27fff5dd",
+        "sha256_in_prefix": "9b68dbaadf5ca5bbe2a2c3589751862d84fc9b36affdf02d5fc50e4c27fff5dd",
+        "size_in_bytes": 5517
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_geneCentricDbs.R",
+        "path_type": "hardlink",
+        "sha256": "50551f66b88e7174abd9f23241f278fc9a8aa48329307ba05b850b98e9f701cd",
+        "sha256_in_prefix": "50551f66b88e7174abd9f23241f278fc9a8aa48329307ba05b850b98e9f701cd",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_mapIds.R",
+        "path_type": "hardlink",
+        "sha256": "c9af5f029947c6a339069d500bd6bdd77c7a12ba34b6a1c410790879dc4ab284",
+        "sha256_in_prefix": "c9af5f029947c6a339069d500bd6bdd77c7a12ba34b6a1c410790879dc4ab284",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_select.R",
+        "path_type": "hardlink",
+        "sha256": "21ea23fd927ceb2f76b9cda867ff3884276e2498aa0f7b9a586a2a27b73bb21a",
+        "sha256_in_prefix": "21ea23fd927ceb2f76b9cda867ff3884276e2498aa0f7b9a586a2a27b73bb21a",
+        "size_in_bytes": 16356
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_select_NOSCHEMA.R",
+        "path_type": "hardlink",
+        "sha256": "48de1d841cdd6d21d9fb2acf28664a4b0473b1495683b22ef947f247e7d16e60",
+        "sha256_in_prefix": "48de1d841cdd6d21d9fb2acf28664a4b0473b1495683b22ef947f247e7d16e60",
+        "size_in_bytes": 3927
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_select_inparanoid.R",
+        "path_type": "hardlink",
+        "sha256": "e9b43d20e210d1511a60af61260d303a2406947076e8b8fc34ff791ceafcaf80",
+        "sha256_in_prefix": "e9b43d20e210d1511a60af61260d303a2406947076e8b8fc34ff791ceafcaf80",
+        "size_in_bytes": 6345
+      },
+      {
+        "_path": "lib/R/library/AnnotationDbi/unitTests/test_select_reactome.R",
+        "path_type": "hardlink",
+        "sha256": "fccf85e17f9c73d0728bb6022599ce02f5760d97191a0219a0f63c081c9be984",
+        "sha256_in_prefix": "fccf85e17f9c73d0728bb6022599ce02f5760d97191a0219a0f63c081c9be984",
+        "size_in_bytes": 3818
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bioconductor-annotationdbi=1.40.0",
+  "size": 4726466,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-annotationdbi-1.40.0-r3.4.1_0.tar.bz2",
+  "version": "1.40.0"
+}

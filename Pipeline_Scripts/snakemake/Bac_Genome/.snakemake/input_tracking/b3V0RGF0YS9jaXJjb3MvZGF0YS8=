@@ -1,0 +1,9 @@
+color.txt
+outData/crispr2/Crisprs.txt
+outData/island/islands.txt
+outData/prodigal/genome.gff
+outData/prophage/prophage.txt
+outData/rRNA/rRNA.gff
+outData/sRNA/sRNA.gff
+outData/tRNA/tRNA.gff
+rawData/assembly.fasta

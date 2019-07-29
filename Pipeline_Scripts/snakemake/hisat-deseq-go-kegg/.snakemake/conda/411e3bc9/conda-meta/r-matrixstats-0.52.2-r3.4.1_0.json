@@ -1,0 +1,927 @@
+{
+  "arch": "x86_64",
+  "build": "r3.4.1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc",
+    "r-base 3.4.1*"
+  ],
+  "extracted_package_dir": "/data1/software/miniconda2/pkgs/r-matrixstats-0.52.2-r3.4.1_0",
+  "features": "",
+  "files": [
+    "lib/R/library/matrixStats/DESCRIPTION",
+    "lib/R/library/matrixStats/INDEX",
+    "lib/R/library/matrixStats/Meta/Rd.rds",
+    "lib/R/library/matrixStats/Meta/features.rds",
+    "lib/R/library/matrixStats/Meta/hsearch.rds",
+    "lib/R/library/matrixStats/Meta/links.rds",
+    "lib/R/library/matrixStats/Meta/nsInfo.rds",
+    "lib/R/library/matrixStats/Meta/package.rds",
+    "lib/R/library/matrixStats/Meta/vignette.rds",
+    "lib/R/library/matrixStats/NAMESPACE",
+    "lib/R/library/matrixStats/NEWS",
+    "lib/R/library/matrixStats/R/matrixStats",
+    "lib/R/library/matrixStats/R/matrixStats.rdb",
+    "lib/R/library/matrixStats/R/matrixStats.rdx",
+    "lib/R/library/matrixStats/benchmarking/R/random-matrices.R",
+    "lib/R/library/matrixStats/benchmarking/R/random-vectors.R",
+    "lib/R/library/matrixStats/benchmarking/allocMatrix.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/allocVector.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/anyMissing.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/anyMissing_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/binCounts.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/binCounts_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/binMeans.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/binMeans_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAlls.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAlls_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAnyMissings.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAnyMissings_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAnys.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowAnys_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCounts.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCounts_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCummins.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCummins_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCumprods.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCumprods_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCumsums.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowCumsums_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowDiffs.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowDiffs_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowLogSumExps.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowLogSumExps_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMads.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMads_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMeans2.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMeans2_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMedians.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMedians_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMins.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowMins_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowOrderStats.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowOrderStats_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowProds.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowProds_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowQuantiles.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowQuantiles_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowRanges.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowRanges_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowRanks.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowRanks_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowSums2.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowSums2_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowTabulates.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowTabulates_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowVars.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowVars_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowWeightedMeans.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowWeightedMeans_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowWeightedMedians.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/colRowWeightedMedians_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/count.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/count_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/appendix.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/footer.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/header.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/references.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/results.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/includes/setup.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/index.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/indexByRow.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/logSumExp.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/logSumExp_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/madDiff.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/madDiff_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/mean2.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/mean2_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/product.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/product_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/sum2.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/sum2_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/t_tx_OP_y.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/t_tx_OP_y_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/varDiff.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/varDiff_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/weightedMean.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/weightedMean_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/weightedMedian.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/weightedMedian_subset.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/x_OP_y.md.rsp",
+    "lib/R/library/matrixStats/benchmarking/x_OP_y_subset.md.rsp",
+    "lib/R/library/matrixStats/doc/index.html",
+    "lib/R/library/matrixStats/doc/matrixStats-methods.html",
+    "lib/R/library/matrixStats/doc/matrixStats-methods.md.rsp",
+    "lib/R/library/matrixStats/help/AnIndex",
+    "lib/R/library/matrixStats/help/aliases.rds",
+    "lib/R/library/matrixStats/help/matrixStats.rdb",
+    "lib/R/library/matrixStats/help/matrixStats.rdx",
+    "lib/R/library/matrixStats/help/paths.rds",
+    "lib/R/library/matrixStats/html/00Index.html",
+    "lib/R/library/matrixStats/html/R.css",
+    "lib/R/library/matrixStats/libs/matrixStats.so"
+  ],
+  "fn": "r-matrixstats-0.52.2-r3.4.1_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/data1/software/miniconda2/pkgs/r-matrixstats-0.52.2-r3.4.1_0",
+    "type": 1
+  },
+  "md5": "43a865f128cdd0390730525054b0292d",
+  "name": "r-matrixstats",
+  "package_tarball_full_path": "/data1/software/miniconda2/pkgs/r-matrixstats-0.52.2-r3.4.1_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/matrixStats/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c605f0b683ee58de7c74053ebcbdc28b222fc35d40a76aa76d7f32ed49947119",
+        "sha256_in_prefix": "c605f0b683ee58de7c74053ebcbdc28b222fc35d40a76aa76d7f32ed49947119",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "lib/R/library/matrixStats/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6d9d588494d905d9bee9888a60e0287252141cdc335b662a6fd913fa72816128",
+        "sha256_in_prefix": "6d9d588494d905d9bee9888a60e0287252141cdc335b662a6fd913fa72816128",
+        "size_in_bytes": 3019
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "594932837ff72af4b21c14ed0ff00fcc36c1e71b2bb362cbfffabf561eb4320f",
+        "sha256_in_prefix": "594932837ff72af4b21c14ed0ff00fcc36c1e71b2bb362cbfffabf561eb4320f",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "sha256_in_prefix": "79a0197390e6502dd95396d9acb73882afc9688bcdbf20fbecafd39f92cc9bc3",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7412c12ae56c094e4399efa1a94fd8fbdda820e9869e991d9a09d7fff57007f3",
+        "sha256_in_prefix": "7412c12ae56c094e4399efa1a94fd8fbdda820e9869e991d9a09d7fff57007f3",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d4027b1780f4303f6dddd4dc8a19b415c9541ac7eb7043a37108a3b9cf2355ff",
+        "sha256_in_prefix": "d4027b1780f4303f6dddd4dc8a19b415c9541ac7eb7043a37108a3b9cf2355ff",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e67282b489a3ac677830f6148532e488ba469f801ee421c57f7df4f0406a1141",
+        "sha256_in_prefix": "e67282b489a3ac677830f6148532e488ba469f801ee421c57f7df4f0406a1141",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f9f18ae6e69c5ad52adf77fb0670e20efc1fbe9bfc6de467989b434355cd8510",
+        "sha256_in_prefix": "f9f18ae6e69c5ad52adf77fb0670e20efc1fbe9bfc6de467989b434355cd8510",
+        "size_in_bytes": 1267
+      },
+      {
+        "_path": "lib/R/library/matrixStats/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "8986ad99e5c6a66acddee53e3ee31e6c8f01372bc55762e61a6789876a3f937e",
+        "sha256_in_prefix": "8986ad99e5c6a66acddee53e3ee31e6c8f01372bc55762e61a6789876a3f937e",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/matrixStats/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f2e15b08849d162d0dd09c0b02aadd23bba7dc1ece0c06b60dcb54579994dc42",
+        "sha256_in_prefix": "f2e15b08849d162d0dd09c0b02aadd23bba7dc1ece0c06b60dcb54579994dc42",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "lib/R/library/matrixStats/NEWS",
+        "path_type": "hardlink",
+        "sha256": "14baf11eafa2bca45dd4be6dce60242c74be1a0d449007ad722ceed0d4147398",
+        "sha256_in_prefix": "14baf11eafa2bca45dd4be6dce60242c74be1a0d449007ad722ceed0d4147398",
+        "size_in_bytes": 38115
+      },
+      {
+        "_path": "lib/R/library/matrixStats/R/matrixStats",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/matrixStats/R/matrixStats.rdb",
+        "path_type": "hardlink",
+        "sha256": "b27ae503e721f5a260753a0a3b84640bd28bccade146fa6099dc4c138f4f02e3",
+        "sha256_in_prefix": "b27ae503e721f5a260753a0a3b84640bd28bccade146fa6099dc4c138f4f02e3",
+        "size_in_bytes": 116372
+      },
+      {
+        "_path": "lib/R/library/matrixStats/R/matrixStats.rdx",
+        "path_type": "hardlink",
+        "sha256": "7cfafd4264cf43c42f73eb429d4bfadf15bf82f3805ecfef4011a520da2e0c14",
+        "sha256_in_prefix": "7cfafd4264cf43c42f73eb429d4bfadf15bf82f3805ecfef4011a520da2e0c14",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/R/random-matrices.R",
+        "path_type": "hardlink",
+        "sha256": "3a8552c05b33ca45ddafe136abff93758d3e7490c18547d623aba40ccf21be6f",
+        "sha256_in_prefix": "3a8552c05b33ca45ddafe136abff93758d3e7490c18547d623aba40ccf21be6f",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/R/random-vectors.R",
+        "path_type": "hardlink",
+        "sha256": "163675ff71258b22e24053986309a23b0fbe1558f4eaa31fd14a79b6d92120fb",
+        "sha256_in_prefix": "163675ff71258b22e24053986309a23b0fbe1558f4eaa31fd14a79b6d92120fb",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/allocMatrix.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "c1b56b2df2d7a38924079ce626caa52f28feff434b2dcc769019f6e6508de449",
+        "sha256_in_prefix": "c1b56b2df2d7a38924079ce626caa52f28feff434b2dcc769019f6e6508de449",
+        "size_in_bytes": 2112
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/allocVector.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "4ec8933ed20ae44b4f12a7c44c49bc1f1c908a9be66ec6f7001e043fa445cf4a",
+        "sha256_in_prefix": "4ec8933ed20ae44b4f12a7c44c49bc1f1c908a9be66ec6f7001e043fa445cf4a",
+        "size_in_bytes": 2194
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/anyMissing.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "ac44826bbc71fdb6b1c6862372101607be7804ab5e79195ee63a38fc9bb84f87",
+        "sha256_in_prefix": "ac44826bbc71fdb6b1c6862372101607be7804ab5e79195ee63a38fc9bb84f87",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/anyMissing_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "d3a84af0623846bd470b5676c71e2135a67aed3edcd174deb78802089d8463f7",
+        "sha256_in_prefix": "d3a84af0623846bd470b5676c71e2135a67aed3edcd174deb78802089d8463f7",
+        "size_in_bytes": 1355
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/binCounts.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "31f2e1152a23275d4bd2038e29bda5b775588e04c23e06ae0a2c742567df68eb",
+        "sha256_in_prefix": "31f2e1152a23275d4bd2038e29bda5b775588e04c23e06ae0a2c742567df68eb",
+        "size_in_bytes": 1983
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/binCounts_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "11d808969058bcd152312af553d04fc324dad874170b46d345f1a3885cfd7c0c",
+        "sha256_in_prefix": "11d808969058bcd152312af553d04fc324dad874170b46d345f1a3885cfd7c0c",
+        "size_in_bytes": 1894
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/binMeans.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "d1db5badf41ec53479c379883193f4e265b6fb6a71418d3ee4218346cf6d8924",
+        "sha256_in_prefix": "d1db5badf41ec53479c379883193f4e265b6fb6a71418d3ee4218346cf6d8924",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/binMeans_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "d1774dc2b4839a858f955d2266419dbb404e4ec8ff711b3774d053beb22b6715",
+        "sha256_in_prefix": "d1774dc2b4839a858f955d2266419dbb404e4ec8ff711b3774d053beb22b6715",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAlls.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "d00ab8a9404d29060a8b7e94038cd31d8c2ed5ffeb90db3bbc1a5786201b0c07",
+        "sha256_in_prefix": "d00ab8a9404d29060a8b7e94038cd31d8c2ed5ffeb90db3bbc1a5786201b0c07",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAlls_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "1450cf5298bfaf8b676e445d215e2372390a83ce7e4fd0b0d86a22b6436deb67",
+        "sha256_in_prefix": "1450cf5298bfaf8b676e445d215e2372390a83ce7e4fd0b0d86a22b6436deb67",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAnyMissings.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "85ff2d49316c08992bf8e9888e0eb3ac94dcbbf9378842a930881d0d7bec44b2",
+        "sha256_in_prefix": "85ff2d49316c08992bf8e9888e0eb3ac94dcbbf9378842a930881d0d7bec44b2",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAnyMissings_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "32f8fe05f4e050eb8c59799132f6509fe8bceb6af2bdb103750fdced6cb32e74",
+        "sha256_in_prefix": "32f8fe05f4e050eb8c59799132f6509fe8bceb6af2bdb103750fdced6cb32e74",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAnys.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "401e67bb13af545fd67ec08f879348404a16108929c9aacdca7296aea5ee31b3",
+        "sha256_in_prefix": "401e67bb13af545fd67ec08f879348404a16108929c9aacdca7296aea5ee31b3",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowAnys_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "7806e308ede52b59471c3ab3808b0ad0dfc0f9243700ec3c5d6e2524bcd3253e",
+        "sha256_in_prefix": "7806e308ede52b59471c3ab3808b0ad0dfc0f9243700ec3c5d6e2524bcd3253e",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCounts.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "9418b1347b6806287f92f80e3dbf620d9c12e3a180d0d2e99028cc74338a7edb",
+        "sha256_in_prefix": "9418b1347b6806287f92f80e3dbf620d9c12e3a180d0d2e99028cc74338a7edb",
+        "size_in_bytes": 1794
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCounts_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "70a9c53112f15d5886d55ebef727df761574e4f4962611a97ca4abd72f86470a",
+        "sha256_in_prefix": "70a9c53112f15d5886d55ebef727df761574e4f4962611a97ca4abd72f86470a",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCummins.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "3b2ef28fc77344cd55c33ecd72cf9e124ad49b8a7e56a39f8d6e2b49552aa07b",
+        "sha256_in_prefix": "3b2ef28fc77344cd55c33ecd72cf9e124ad49b8a7e56a39f8d6e2b49552aa07b",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCummins_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "54649878a0cc855abbca894c4f538042a0a2f614132a0638ff7fbddbb1a45ca7",
+        "sha256_in_prefix": "54649878a0cc855abbca894c4f538042a0a2f614132a0638ff7fbddbb1a45ca7",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCumprods.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "dbb86bd4cc20d2f3f0146f1ceedb69c8a032f546fff1a97e77735a75b2fb487a",
+        "sha256_in_prefix": "dbb86bd4cc20d2f3f0146f1ceedb69c8a032f546fff1a97e77735a75b2fb487a",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCumprods_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "610a575fb283ddbf104f114d3a718446537c66399d4836df252bc9870106fca7",
+        "sha256_in_prefix": "610a575fb283ddbf104f114d3a718446537c66399d4836df252bc9870106fca7",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCumsums.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "7089bacacd1de6da3f264f28ea82ddfd2a1b51c0ee19b7445f0e3426d389950e",
+        "sha256_in_prefix": "7089bacacd1de6da3f264f28ea82ddfd2a1b51c0ee19b7445f0e3426d389950e",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowCumsums_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "f73c06106eb4687baafcaf458ef563dc9e8a6f4943015a848c3bbd492fd9789a",
+        "sha256_in_prefix": "f73c06106eb4687baafcaf458ef563dc9e8a6f4943015a848c3bbd492fd9789a",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowDiffs.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "e2f34100f906ba25b66292df3324d3b0156088f65645abc56dff4cf1d6c3cef1",
+        "sha256_in_prefix": "e2f34100f906ba25b66292df3324d3b0156088f65645abc56dff4cf1d6c3cef1",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowDiffs_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "9eb27c7c7b63535c896f243dc3be82fde771ed90e7daec5f992eadc41f903a6c",
+        "sha256_in_prefix": "9eb27c7c7b63535c896f243dc3be82fde771ed90e7daec5f992eadc41f903a6c",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowLogSumExps.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "aacf3f412392256415d9c1b0e3e2b5e8b8c6ea2a4da8cf05c13a0bb7d1dba333",
+        "sha256_in_prefix": "aacf3f412392256415d9c1b0e3e2b5e8b8c6ea2a4da8cf05c13a0bb7d1dba333",
+        "size_in_bytes": 1775
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowLogSumExps_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "130fbdf47d52c0d0985c616fb976e7da9aba494f224a766ff66be1fc27f56afd",
+        "sha256_in_prefix": "130fbdf47d52c0d0985c616fb976e7da9aba494f224a766ff66be1fc27f56afd",
+        "size_in_bytes": 1779
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMads.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "8282e244ab4de1481778588ae0e7de1a50f55b4e32c38b4044ab6b0ad7aea8b7",
+        "sha256_in_prefix": "8282e244ab4de1481778588ae0e7de1a50f55b4e32c38b4044ab6b0ad7aea8b7",
+        "size_in_bytes": 2195
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMads_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "669c0250c332149297a82ef71dd00cfb07a0492db32fa92c3eb6beff72bd2d4d",
+        "sha256_in_prefix": "669c0250c332149297a82ef71dd00cfb07a0492db32fa92c3eb6beff72bd2d4d",
+        "size_in_bytes": 1823
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMeans2.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "649a6c65746fdf878c17da3c7bd2293a62c591f9b37475ab69e8b42b3bc2cd20",
+        "sha256_in_prefix": "649a6c65746fdf878c17da3c7bd2293a62c591f9b37475ab69e8b42b3bc2cd20",
+        "size_in_bytes": 1590
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMeans2_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "dd29e57b8a6aca941ae29705b12f7662144502bf921238986cf413443993e7e0",
+        "sha256_in_prefix": "dd29e57b8a6aca941ae29705b12f7662144502bf921238986cf413443993e7e0",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMedians.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "83a2abd26b9c50f272b33dfd2ae967d6524b0c85367f8717e110c50eb480a0ba",
+        "sha256_in_prefix": "83a2abd26b9c50f272b33dfd2ae967d6524b0c85367f8717e110c50eb480a0ba",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMedians_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "0fc54a28c99b6ea8baf58eae74f64bc6539e710a6646d67d7a6eaa98066ff3f5",
+        "sha256_in_prefix": "0fc54a28c99b6ea8baf58eae74f64bc6539e710a6646d67d7a6eaa98066ff3f5",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMins.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "7f05d5337228125a19b0d3b7842a6de1b3f55f96c4bce3a5427cf1f3531ba140",
+        "sha256_in_prefix": "7f05d5337228125a19b0d3b7842a6de1b3f55f96c4bce3a5427cf1f3531ba140",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowMins_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "c07f5e6532cb976564f38029756b43d9217977f0629a136349b8f65fb1bf9a7d",
+        "sha256_in_prefix": "c07f5e6532cb976564f38029756b43d9217977f0629a136349b8f65fb1bf9a7d",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowOrderStats.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "6eca0c837fe6937d78480cdd68f7a917a76042bcc593a91222fb7da3d7fad45c",
+        "sha256_in_prefix": "6eca0c837fe6937d78480cdd68f7a917a76042bcc593a91222fb7da3d7fad45c",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowOrderStats_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "77b8aeed4ee8b4d4b609195e956c10e81f05a467f52d234d353679026ff8117b",
+        "sha256_in_prefix": "77b8aeed4ee8b4d4b609195e956c10e81f05a467f52d234d353679026ff8117b",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowProds.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "31ed795c1fb2f0c9fbbd8bb1e23331ed718e22dcb5b2a587197ed164c297c718",
+        "sha256_in_prefix": "31ed795c1fb2f0c9fbbd8bb1e23331ed718e22dcb5b2a587197ed164c297c718",
+        "size_in_bytes": 1905
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowProds_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "9fc63e397a26b32ac939cb5ded56ff749bbcc70a52dabe9ca1281fd180ccaa73",
+        "sha256_in_prefix": "9fc63e397a26b32ac939cb5ded56ff749bbcc70a52dabe9ca1281fd180ccaa73",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowQuantiles.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "6bb1b5eefe48ecc132ba6b75057df7a20bc9f8628e93f10314b3bd564c767dad",
+        "sha256_in_prefix": "6bb1b5eefe48ecc132ba6b75057df7a20bc9f8628e93f10314b3bd564c767dad",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowQuantiles_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "8c56fa152c58867451f2166b8427cebdb3cbe5e3211cb4d96bc3f4e97cc77ec2",
+        "sha256_in_prefix": "8c56fa152c58867451f2166b8427cebdb3cbe5e3211cb4d96bc3f4e97cc77ec2",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowRanges.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "b81ca1736f72c721032078aa8af601599b667b757594603b370fc625dc86c387",
+        "sha256_in_prefix": "b81ca1736f72c721032078aa8af601599b667b757594603b370fc625dc86c387",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowRanges_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "4646ac054286f7b378b5214b45e8846ad55779766fbc5957ba3bed89f0cfb06c",
+        "sha256_in_prefix": "4646ac054286f7b378b5214b45e8846ad55779766fbc5957ba3bed89f0cfb06c",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowRanks.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "992df25bf87cf7719a2d9e99cb865b4412428dc1b50e51b43a75e0c7597d6641",
+        "sha256_in_prefix": "992df25bf87cf7719a2d9e99cb865b4412428dc1b50e51b43a75e0c7597d6641",
+        "size_in_bytes": 1540
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowRanks_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "97b37360d7ddd428cd116e44782d3064a5cdc0f371e19b48151429f1ee2e95c3",
+        "sha256_in_prefix": "97b37360d7ddd428cd116e44782d3064a5cdc0f371e19b48151429f1ee2e95c3",
+        "size_in_bytes": 1839
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowSums2.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "32c64b13998e4af6e95ced76b149dbb703abbf7d3bd8754ff63467bbf4e06494",
+        "sha256_in_prefix": "32c64b13998e4af6e95ced76b149dbb703abbf7d3bd8754ff63467bbf4e06494",
+        "size_in_bytes": 1567
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowSums2_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "b2652bde573bca485555f102c0d079680db5fd91fa4a7186ed49bcf57947851d",
+        "sha256_in_prefix": "b2652bde573bca485555f102c0d079680db5fd91fa4a7186ed49bcf57947851d",
+        "size_in_bytes": 1654
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowTabulates.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "1190e213445a3e8d9c6bfaf1e4d5e9d2b2a5d2fb72f10a7aa2518194a2d5759e",
+        "sha256_in_prefix": "1190e213445a3e8d9c6bfaf1e4d5e9d2b2a5d2fb72f10a7aa2518194a2d5759e",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowTabulates_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "4cac61f5a91652a42e6fc8df48a95fed70df12fc7eef2caf9e02ca5c4176ce5e",
+        "sha256_in_prefix": "4cac61f5a91652a42e6fc8df48a95fed70df12fc7eef2caf9e02ca5c4176ce5e",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowVars.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "9c6c3852c708306690321005824e0302266181d4e039576e9bd11316df0f9e49",
+        "sha256_in_prefix": "9c6c3852c708306690321005824e0302266181d4e039576e9bd11316df0f9e49",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowVars_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "52e1f1d654ad6b34b33845a1f1f78a30cf572b340422e2babf05e414ba9877d3",
+        "sha256_in_prefix": "52e1f1d654ad6b34b33845a1f1f78a30cf572b340422e2babf05e414ba9877d3",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowWeightedMeans.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "111940f8cfc4968fe2b4789e7e9f659a0ba17c4fff9fde822fb0f6d64390a448",
+        "sha256_in_prefix": "111940f8cfc4968fe2b4789e7e9f659a0ba17c4fff9fde822fb0f6d64390a448",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowWeightedMeans_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "8ed24b1ef6a8f5b697b484a27755cbda2014808bcb22f436f9554e4b85fa0f2f",
+        "sha256_in_prefix": "8ed24b1ef6a8f5b697b484a27755cbda2014808bcb22f436f9554e4b85fa0f2f",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowWeightedMedians.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "91b26db056bd3136c5bb8b6b21d9bb9cb8b4974b26c307c2362f050865574e39",
+        "sha256_in_prefix": "91b26db056bd3136c5bb8b6b21d9bb9cb8b4974b26c307c2362f050865574e39",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/colRowWeightedMedians_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "d89421caad3ee9f18fc51133814dd6862449bca530a3477a6bf2590d52d4d402",
+        "sha256_in_prefix": "d89421caad3ee9f18fc51133814dd6862449bca530a3477a6bf2590d52d4d402",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/count.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "c3a2f34b504c348e21d6ac87792039a6686c71a97b65b93ab369fa907ef06b95",
+        "sha256_in_prefix": "c3a2f34b504c348e21d6ac87792039a6686c71a97b65b93ab369fa907ef06b95",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/count_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "6c89755b247b2f4e234fe931b4ba245deb80688870202009d9355875b53e1b3d",
+        "sha256_in_prefix": "6c89755b247b2f4e234fe931b4ba245deb80688870202009d9355875b53e1b3d",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/appendix.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "f619fcc7a917b97946c258e23bb093741d147144175e54aafa1a42fa21225389",
+        "sha256_in_prefix": "f619fcc7a917b97946c258e23bb093741d147144175e54aafa1a42fa21225389",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/footer.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "b9551413e6697a5f7df076a331b1fadc4a4aaf613c237652b8f7341f36bea61b",
+        "sha256_in_prefix": "b9551413e6697a5f7df076a331b1fadc4a4aaf613c237652b8f7341f36bea61b",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/header.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "fd5bacf3f65e09376d9b71b77ecc4400a049e1f5ce62087935af375f3490483d",
+        "sha256_in_prefix": "fd5bacf3f65e09376d9b71b77ecc4400a049e1f5ce62087935af375f3490483d",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/references.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "4ae05dbe70aeb52c3b5c881c1e42bfd65bda05fd6db6aa49c82dec75f4dbd89a",
+        "sha256_in_prefix": "4ae05dbe70aeb52c3b5c881c1e42bfd65bda05fd6db6aa49c82dec75f4dbd89a",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/results.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "32e2b24c10a62c6e18345f3a633df53ee3bd8fe808fefdeaaf69aa1f42077121",
+        "sha256_in_prefix": "32e2b24c10a62c6e18345f3a633df53ee3bd8fe808fefdeaaf69aa1f42077121",
+        "size_in_bytes": 5052
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/includes/setup.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "35a1e20e9d780d6895c8a5c15b9956ac35e9549a26aa4a44a80fb91ced9ad13d",
+        "sha256_in_prefix": "35a1e20e9d780d6895c8a5c15b9956ac35e9549a26aa4a44a80fb91ced9ad13d",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/index.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "05afbb278fe5c571f29369de18d8aa1c26b8b5f1e6bfed4cc88baea594a9ea03",
+        "sha256_in_prefix": "05afbb278fe5c571f29369de18d8aa1c26b8b5f1e6bfed4cc88baea594a9ea03",
+        "size_in_bytes": 1961
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/indexByRow.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "0e3a5a2feb6460ded5eebec84209af00b042df7056ccca0702c9c649df656ebc",
+        "sha256_in_prefix": "0e3a5a2feb6460ded5eebec84209af00b042df7056ccca0702c9c649df656ebc",
+        "size_in_bytes": 2936
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/logSumExp.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "3f618f5ec37bf2d1ac2e3853cb33f1062df685f6d0c711dcda1eb056bd8fcd40",
+        "sha256_in_prefix": "3f618f5ec37bf2d1ac2e3853cb33f1062df685f6d0c711dcda1eb056bd8fcd40",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/logSumExp_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "ac3194a9facf02c7e132a55435a6c4c9cccf543d030126cacf136870bdfa1173",
+        "sha256_in_prefix": "ac3194a9facf02c7e132a55435a6c4c9cccf543d030126cacf136870bdfa1173",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/madDiff.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "2892288b7c7359354fe1a9540ed401ab694231425277540702797cb015e3117f",
+        "sha256_in_prefix": "2892288b7c7359354fe1a9540ed401ab694231425277540702797cb015e3117f",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/madDiff_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "2dd35238f5564fd8a3731d1da67f6af8786e77da6b387cf1b437a2b3f48d11b0",
+        "sha256_in_prefix": "2dd35238f5564fd8a3731d1da67f6af8786e77da6b387cf1b437a2b3f48d11b0",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/mean2.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "67f9f9261f6945dde20cddf6b2c480d918b14bbe011090542bd55177a33d91e7",
+        "sha256_in_prefix": "67f9f9261f6945dde20cddf6b2c480d918b14bbe011090542bd55177a33d91e7",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/mean2_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "61e13cbf3122cb10b514debb5219e0d4380d3b04a3b79b286ef39d540a26d4d9",
+        "sha256_in_prefix": "61e13cbf3122cb10b514debb5219e0d4380d3b04a3b79b286ef39d540a26d4d9",
+        "size_in_bytes": 1600
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/product.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "30501bdd50736841fe89f1ad4f605566e1846ed9b7831479887b3f540cd3f074",
+        "sha256_in_prefix": "30501bdd50736841fe89f1ad4f605566e1846ed9b7831479887b3f540cd3f074",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/product_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "50b25729805e01defa64e3a8dce42153b2b111c4d706f97f34d0e9ef3d3e9769",
+        "sha256_in_prefix": "50b25729805e01defa64e3a8dce42153b2b111c4d706f97f34d0e9ef3d3e9769",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/sum2.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "33c36ed80029241feb462648323413bc6528c8b640c0d41b6409c30eab7ec490",
+        "sha256_in_prefix": "33c36ed80029241feb462648323413bc6528c8b640c0d41b6409c30eab7ec490",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/sum2_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "1c8bfb10446feaab1f31ce1b56887ceae3fc6243af0f019ab3c37510d43bddef",
+        "sha256_in_prefix": "1c8bfb10446feaab1f31ce1b56887ceae3fc6243af0f019ab3c37510d43bddef",
+        "size_in_bytes": 1355
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/t_tx_OP_y.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "32f84659d62b04767e932d6226f19f3254c79bd177281ff2209504accdbb8fbe",
+        "sha256_in_prefix": "32f84659d62b04767e932d6226f19f3254c79bd177281ff2209504accdbb8fbe",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/t_tx_OP_y_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "ab49aef2b049d46086bae382744b3a9b3f9b0d9a5708e564dd2e3c58d8945667",
+        "sha256_in_prefix": "ab49aef2b049d46086bae382744b3a9b3f9b0d9a5708e564dd2e3c58d8945667",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/varDiff.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "12c273e80baeff8ab5dd924a5fb9250648d82aa4e7f359138b7fa0d866213a75",
+        "sha256_in_prefix": "12c273e80baeff8ab5dd924a5fb9250648d82aa4e7f359138b7fa0d866213a75",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/varDiff_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "63088adc4cc8e515b0572dc96a01857f9308f54857e120d8d127aba394fdbdb0",
+        "sha256_in_prefix": "63088adc4cc8e515b0572dc96a01857f9308f54857e120d8d127aba394fdbdb0",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/weightedMean.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "12cadc38b78dbff8ef5fd576e7ab2e9850bc0a78b98687e751ad0e64bbe03312",
+        "sha256_in_prefix": "12cadc38b78dbff8ef5fd576e7ab2e9850bc0a78b98687e751ad0e64bbe03312",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/weightedMean_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "c48649b2b5e98a43b14e35fdcf201699318b60c249b30f234fd27c317310d117",
+        "sha256_in_prefix": "c48649b2b5e98a43b14e35fdcf201699318b60c249b30f234fd27c317310d117",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/weightedMedian.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "8df32e7609051806a03b580d57c7669537821d52de54bab533470ace36ea026d",
+        "sha256_in_prefix": "8df32e7609051806a03b580d57c7669537821d52de54bab533470ace36ea026d",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/weightedMedian_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "e8b59ea493238c05b4ec47dda3221db6e13c16a9b99c4f11819ce5be57dd3b35",
+        "sha256_in_prefix": "e8b59ea493238c05b4ec47dda3221db6e13c16a9b99c4f11819ce5be57dd3b35",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/x_OP_y.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "79cfcdbaecdcbc433a191ddc46d171a6753a8b3213c380e580a256a5d6911195",
+        "sha256_in_prefix": "79cfcdbaecdcbc433a191ddc46d171a6753a8b3213c380e580a256a5d6911195",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "lib/R/library/matrixStats/benchmarking/x_OP_y_subset.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "a1a11a16c5a9fd6fc7c427b8fdd3ffd368033eb8a67880c29446573c4c66bf07",
+        "sha256_in_prefix": "a1a11a16c5a9fd6fc7c427b8fdd3ffd368033eb8a67880c29446573c4c66bf07",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "lib/R/library/matrixStats/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "7bfe172111114c6b1f2f21a1227749f26d28d3d91262359db2f90a0a933f0553",
+        "sha256_in_prefix": "7bfe172111114c6b1f2f21a1227749f26d28d3d91262359db2f90a0a933f0553",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "lib/R/library/matrixStats/doc/matrixStats-methods.html",
+        "path_type": "hardlink",
+        "sha256": "6bef324051a7968db8197f0b6d655267aaeeba251e308fc9425b04bf5d2b472a",
+        "sha256_in_prefix": "6bef324051a7968db8197f0b6d655267aaeeba251e308fc9425b04bf5d2b472a",
+        "size_in_bytes": 9509
+      },
+      {
+        "_path": "lib/R/library/matrixStats/doc/matrixStats-methods.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "ef091200acf12fca656f9eb22fda558ba2d120bf5c76b99c234999056b064a16",
+        "sha256_in_prefix": "ef091200acf12fca656f9eb22fda558ba2d120bf5c76b99c234999056b064a16",
+        "size_in_bytes": 8904
+      },
+      {
+        "_path": "lib/R/library/matrixStats/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "3b24d98408db674eb34ea7b694d577e7e41d53bfe91560e6220fe563d71649a6",
+        "sha256_in_prefix": "3b24d98408db674eb34ea7b694d577e7e41d53bfe91560e6220fe563d71649a6",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "lib/R/library/matrixStats/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3efd9ae681735c6d59d26361394a7b7547c0f63973a816eea6c6db3459867ca1",
+        "sha256_in_prefix": "3efd9ae681735c6d59d26361394a7b7547c0f63973a816eea6c6db3459867ca1",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "lib/R/library/matrixStats/help/matrixStats.rdb",
+        "path_type": "hardlink",
+        "sha256": "39221f022f73d4df5f6a4e3a200c0566ec0c5dac67b7cddd0f4f0dd2d360cea4",
+        "sha256_in_prefix": "39221f022f73d4df5f6a4e3a200c0566ec0c5dac67b7cddd0f4f0dd2d360cea4",
+        "size_in_bytes": 130874
+      },
+      {
+        "_path": "lib/R/library/matrixStats/help/matrixStats.rdx",
+        "path_type": "hardlink",
+        "sha256": "b2eac4fa5f10e41f6cdde6fe13d567b1658ab72a0a389cde2f8d4cd7a3fe39b4",
+        "sha256_in_prefix": "b2eac4fa5f10e41f6cdde6fe13d567b1658ab72a0a389cde2f8d4cd7a3fe39b4",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "lib/R/library/matrixStats/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "1725f09741a5417a851fe5dc275777ca4ee5b8f212fb8862d8704c27142755b2",
+        "sha256_in_prefix": "1725f09741a5417a851fe5dc275777ca4ee5b8f212fb8862d8704c27142755b2",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "lib/R/library/matrixStats/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "9f3fdc087aa1fd9519a3dae895435fb850fad6edcbbe3a73f427621f7e285903",
+        "sha256_in_prefix": "9f3fdc087aa1fd9519a3dae895435fb850fad6edcbbe3a73f427621f7e285903",
+        "size_in_bytes": 14774
+      },
+      {
+        "_path": "lib/R/library/matrixStats/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/matrixStats/libs/matrixStats.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/feedstock_root/build_artefacts/r-matrixstats_1503163594683/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "acaa108b5235422beffbc7567d6f15c64fa86d5c53b52e29e8987ea8e71cf08e",
+        "sha256_in_prefix": "aa9ed13d1c9b1370ec5a21266e550659b89989c8e4f26956ca910884b9e49496",
+        "size_in_bytes": 3711014
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "r-matrixstats=0.52.2",
+  "size": 616727,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-matrixstats-0.52.2-r3.4.1_0.tar.bz2",
+  "version": "0.52.2"
+}
