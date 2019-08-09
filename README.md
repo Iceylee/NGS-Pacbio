@@ -1,7 +1,10 @@
 ## Pipeline
+
 ### Bac_Genome
-The pipelien is based on snakemake framework. 
+The pipeline is based on snakemake framework. 
+
 ### R_for_RNAseq
+R scripts for differential gene analysis and GO&KEGG enrichment analysis. The R scripts can be used as funcitons.
 
 ### RNAseq
 The pipeline is based on snakemake framework.
