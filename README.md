@@ -11,4 +11,4 @@ The pipeline is based on snakemake framework.
 
 ## Used_Scripts
 Scripts for 16S, bacterial genome, isoseq analysis.
-## Other 
+### Others 
