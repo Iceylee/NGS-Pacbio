@@ -1,0 +1,6 @@
+source py3
+
+sudo service docker start
+#sudo usermod -a -G docker liyubing
+
+snakemake --use-conda --snakefile snakefile.py
